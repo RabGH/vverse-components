@@ -1,35 +1,55 @@
-import { FilterBox } from "@/components/filters/filter-box";
+import { FilterFilledCheckbox } from "@/components/filters/checkbox-filled-filter";
+import { FilterOutlineCheckbox } from "@/components/filters/checkbox-outline-filter";
+import { FilterFilledLarge } from "@/components/filters/lg-filled-filter";
+import { FilterOutlineLarge } from "@/components/filters/lg-outline-filter";
+import { FilterFilledSmall } from "@/components/filters/sm-filled-filter";
+import { FilterOutlineSmall } from "@/components/filters/sm-outline-filter";
+
 import { categories } from "@/constants";
 
 const FilterPage = () => {
   return (
-    <div className="flex flex-col items-center h-full space-y-5 pt-5">
+    <div className="flex flex-col items-center h-full space-y-5 pt-3">
       <div className="flex flex-row space-x-5 ">
-        <FilterBox
+        <FilterOutlineLarge
           categories={categories}
           selectCategoryPlaceholder={"Category"}
-          searchCategoryPlaceholder={"Search Categories"}
-          noCategoryFoundMessage={"No category found"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
         />
-        <FilterBox
+        <FilterFilledLarge
           categories={categories}
-          selectCategoryPlaceholder={"Sub-Category"}
-          searchCategoryPlaceholder={"Search Sub-Categories"}
-          noCategoryFoundMessage={"No category found"}
+          selectCategoryPlaceholder={"Category"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
         />
       </div>
       <div className="flex flex-row space-x-5 ">
-        <FilterBox
+        <FilterFilledSmall
           categories={categories}
-          selectCategoryPlaceholder={"Branch"}
-          searchCategoryPlaceholder={"Search Branches"}
-          noCategoryFoundMessage={"No branches found"}
+          selectCategoryPlaceholder={"Category"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
         />
-        <FilterBox
+        <FilterOutlineSmall
           categories={categories}
-          selectCategoryPlaceholder={"Sub-Category"}
-          searchCategoryPlaceholder={"Search Sub-Categories"}
-          noCategoryFoundMessage={"No category found"}
+          selectCategoryPlaceholder={"Category"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
+        />
+      </div>
+      <div className="flex flex-row space-x-5 ">
+        <FilterOutlineCheckbox
+          categories={categories}
+          selectCategoryPlaceholder={"Category"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
+        />
+        <FilterFilledCheckbox
+          categories={categories}
+          selectCategoryPlaceholder={"Category"}
+          searchCategoryPlaceholder={"Search..."}
+          noCategoryFoundMessage={"Non Found"}
         />
       </div>
     </div>

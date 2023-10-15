@@ -1,23 +1,23 @@
 export const categories = [
   {
     value: "category1",
-    label: "Category 1",
+    label: "Category1",
   },
   {
     value: "category2",
-    label: "Category 2",
+    label: "Category2",
   },
   {
     value: "category3",
-    label: "Category 3",
+    label: "Category3",
   },
   {
     value: "category4",
-    label: "Category 4",
+    label: "Category4",
   },
   {
     value: "category5",
-    label: "Category 5",
+    label: "Category5",
   },
 ];
 

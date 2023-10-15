@@ -30,7 +30,7 @@ interface FilterBoxProps {
   noCategoryFoundMessage: string;
 }
 
-export function FilterBox({
+export function FilterFilledSmall({
   categories,
   selectCategoryPlaceholder,
   searchCategoryPlaceholder,
@@ -43,10 +43,10 @@ export function FilterBox({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
-          variant="outline"
+          variant="default"
           role="combobox"
           aria-expanded={open}
-          className="w-[330px] justify-between text-muted"
+          className="w-[154px] justify-between"
         >
           {value
             ? categories.find((category) => category.value === value)?.label
@@ -54,7 +54,7 @@ export function FilterBox({
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[330px] p-0">
+      <PopoverContent className="w-[154px] p-0">
         <Command>
           <CommandInput className="" placeholder={searchCategoryPlaceholder} />
           <CommandEmpty>{noCategoryFoundMessage}</CommandEmpty>

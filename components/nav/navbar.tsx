@@ -4,8 +4,8 @@ import { links } from "@/constants";
 
 const Navbar = () => {
   return (
-    <div className="border-b-2 h-10 p-6 flex justify-between items-center">
-      <h2>Vverse - Components</h2>
+    <div className="border-b border-blue-500 h-10 p-6 flex justify-between items-center">
+      <Link href="/">Vverse - Components</Link>
       <div className="space-x-4">
         {links.map((link) => (
           <Link key={link.href} href={link.href}>
