@@ -18,30 +18,24 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 
-const categories = [
-  {
-    value: "category1",
-    label: "Category 1",
-  },
-  {
-    value: "category2",
-    label: "Category 2",
-  },
-  {
-    value: "category3",
-    label: "Category 3",
-  },
-  {
-    value: "category4",
-    label: "Category 4",
-  },
-  {
-    value: "category5",
-    label: "Category 5",
-  },
-];
+interface Category {
+  value: string;
+  label: string;
+}
 
-export function ComboboxDemo() {
+interface FilterBoxProps {
+  categories: Category[];
+  selectCategoryPlaceholder: string;
+  searchCategoryPlaceholder: string;
+  noCategoryFoundMessage: string;
+}
+
+export function FilterBox({
+  categories,
+  selectCategoryPlaceholder,
+  searchCategoryPlaceholder,
+  noCategoryFoundMessage,
+}: FilterBoxProps) {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState("");
 
@@ -56,15 +50,14 @@ export function ComboboxDemo() {
         >
           {value
             ? categories.find((category) => category.value === value)?.label
-            : "Select Category..."}
+            : selectCategoryPlaceholder}
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[330px] p-0">
         <Command>
-          {/* change placeholder color here or in command input */}
-          <CommandInput className="" placeholder="Search Categories..." />
-          <CommandEmpty>No category found.</CommandEmpty>
+          <CommandInput className="" placeholder={searchCategoryPlaceholder} />
+          <CommandEmpty>{noCategoryFoundMessage}</CommandEmpty>
           <CommandGroup>
             {categories.map((category) => (
               <CommandItem
