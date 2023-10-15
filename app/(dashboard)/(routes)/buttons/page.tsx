@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 
 import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
 import { SwitchDemo } from "@/components/test/SwitchDemo";
+import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 
 import { NewPostButton } from "@/components/posts/new-post-button";
 import { PlusSquare, PenSquare, UserPlus, Newspaper } from "lucide-react";
@@ -31,6 +32,9 @@ export default function ButtonPage() {
       </div>
       <div className="">
         <RadioGroupDemo />
+      </div>
+      <div className="">
+        <CheckboxDemo />
       </div>
       <div className="">
         <SwitchDemo />

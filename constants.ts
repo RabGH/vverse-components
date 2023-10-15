@@ -34,4 +34,16 @@ export const links = [
     label: "Filters",
     href: "/filters",
   },
+  {
+    label: "Popovers",
+    href: "/popovers",
+  },
+  {
+    label: "Headers",
+    href: "/headers",
+  },
+  {
+    label: "Calendars",
+    href: "/calendars",
+  },
 ];

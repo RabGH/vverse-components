@@ -115,4 +115,9 @@ body,
   .vGrey:hover {
     @apply bg-gradient-to-r from-greyLight via-greyMid to-greyDark;
   }
+
+  /* Popover Dialog color */
+  .vhBlue {
+    @apply bg-gradient-to-r from-blueDark via-blueMid to-blueLight;
+  }
 }

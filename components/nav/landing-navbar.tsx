@@ -20,6 +20,16 @@ const LandingNavbar = () => {
         label={"Filters"}
         link={"/filters"}
       />
+      <NewPostButton
+        icon={ArrowRightCircle}
+        label={"Popovers"}
+        link={"/popovers"}
+      />
+      <NewPostButton
+        icon={ArrowRightCircle}
+        label={"Calendars"}
+        link={"/calendars"}
+      />
     </div>
   );
 };
