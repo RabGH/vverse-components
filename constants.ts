@@ -35,8 +35,8 @@ export const links = [
     href: "/filters",
   },
   {
-    label: "Popovers",
-    href: "/popovers",
+    label: "Dialogs",
+    href: "/dialogs",
   },
   {
     label: "Headers",

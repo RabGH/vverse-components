@@ -43,34 +43,39 @@ const DialogContent = React.forwardRef<
         data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 
         data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] 
         data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] 
-        sm:rounded-lg md:w-full`,
+        sm:rounded-lg md:w-full border-transparent`,
         className
       )}
       {...props}
     >
-      <DialogHeaderWithClose />
       {children}
+      <DialogPrimitive.Close
+        className={`absolute right-4 top-3 rounded-sm opacity-70 
+      ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 
+      focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent 
+      data-[state=open]:text-muted-foreground`}
+      >
+        <X className="h-4 w-4 text-white" />
+        <span className="sr-only">Close</span>
+      </DialogPrimitive.Close>
     </DialogPrimitive.Content>
   </DialogPortal>
 ));
 DialogContent.displayName = DialogPrimitive.Content.displayName;
 
-const DialogHeaderWithClose = ({
+const DialogHeader = ({
   className,
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={cn(
-      "flex items-center justify-between bg-vhBlue p-2 rounded-t-lg",
+      "flex flex-col space-y-1.5 text-center sm:text-left",
       className
     )}
     {...props}
-  >
-    <DialogTitle />
-    <DialogClose />
-  </div>
+  />
 );
-DialogHeaderWithClose.displayName = "DialogHeaderWithClose";
+DialogHeader.displayName = "DialogHeader";
 
 const DialogFooter = ({
   className,
@@ -93,32 +98,13 @@ const DialogTitle = React.forwardRef<
   <DialogPrimitive.Title
     ref={ref}
     className={cn(
-      "text-lg font-semibold leading-none tracking-tight text-accent-foreground",
+      "text-sm font-semibold leading-6 vhBlue p-3 text-white rounded-t-lg",
       className
     )}
     {...props}
   />
 ));
 DialogTitle.displayName = DialogPrimitive.Title.displayName;
-
-const DialogClose = ({
-  className,
-  ...props
-}: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Close>) => (
-  <DialogPrimitive.Close
-    className={cn(
-      `h-6 w-6 p-1 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 
-      focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none 
-      data-[state=open]:bg-accent data-[state=open]:text-muted-foreground`,
-      className
-    )}
-    {...props}
-  >
-    <X className="h-4 w-4" />
-    <span className="sr-only">Close</span>
-  </DialogPrimitive.Close>
-);
-DialogClose.displayName = "DialogClose";
 
 const DialogDescription = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Description>,
@@ -138,7 +124,7 @@ export {
   DialogOverlay,
   DialogTrigger,
   DialogContent,
-  DialogHeaderWithClose,
+  DialogHeader,
   DialogFooter,
   DialogTitle,
   DialogDescription,

@@ -22,8 +22,8 @@ const LandingNavbar = () => {
       />
       <NewPostButton
         icon={ArrowRightCircle}
-        label={"Popovers"}
-        link={"/popovers"}
+        label={"Dialogs"}
+        link={"/dialogs"}
       />
       <NewPostButton
         icon={ArrowRightCircle}

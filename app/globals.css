@@ -118,6 +118,6 @@ body,
 
   /* Popover Dialog color */
   .vhBlue {
-    @apply bg-gradient-to-r from-blueDark via-blueMid to-blueLight;
+    @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark;
   }
 }
