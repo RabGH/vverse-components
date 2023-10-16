@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "lucide-react";
 
 const LandingNavbar = () => {
   return (
-    <div className="text-center space-x-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-center">
       <NewPostButton
         icon={ArrowRightCircle}
         label={"Buttons"}

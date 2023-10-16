@@ -28,7 +28,7 @@ export function DialogVInputAnnouncement({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="default" className="w-fit">
+        <Button variant="outline" className="w-fit">
           {buttonTitle}
         </Button>
       </DialogTrigger>
