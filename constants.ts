@@ -23,8 +23,8 @@ export const categories = [
 
 export const links = [
   {
-    label: "Home",
-    href: "/",
+    label: "Badges",
+    href: "/badges",
   },
   {
     label: "Buttons",

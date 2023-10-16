@@ -30,6 +30,11 @@ const LandingNavbar = () => {
         label={"Calendars"}
         link={"/calendars"}
       />
+      <NewPostButton
+        icon={ArrowRightCircle}
+        label={"Badges"}
+        link={"/badges"}
+      />
     </div>
   );
 };

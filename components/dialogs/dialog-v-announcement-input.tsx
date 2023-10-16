@@ -35,7 +35,7 @@ export function DialogVInputAnnouncement({
       <DialogContent className="sm:max-w-[425px] p-0">
         <DialogTitle>{title}</DialogTitle>
         <div className="p-6">
-          <Input placeholder={inputPlaceholder} />
+          <Input placeholder={inputPlaceholder} className="" />
           <div className="flex flex-row justify-center space-x-5">
             <Button className="vGrey mt-5">Cancel</Button>
             <Button className="vBlue mt-5">Save</Button>

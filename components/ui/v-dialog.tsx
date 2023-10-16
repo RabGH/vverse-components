@@ -55,7 +55,7 @@ const DialogContent = React.forwardRef<
       focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent 
       data-[state=open]:text-muted-foreground`}
       >
-        <X className="h-4 w-4 text-white" />
+        <X className="h-4 w-4 text-white mt-1" />
         <span className="sr-only">Close</span>
       </DialogPrimitive.Close>
     </DialogPrimitive.Content>
@@ -98,7 +98,7 @@ const DialogTitle = React.forwardRef<
   <DialogPrimitive.Title
     ref={ref}
     className={cn(
-      "text-sm font-semibold leading-6 vhBlue p-3 text-white rounded-t-lg",
+      "text-sm font-normal leading-6 vhBlue p-3 text-white rounded-t-lg",
       className
     )}
     {...props}

@@ -11,6 +11,10 @@ body,
 @layer base {
   :root {
     /* Custom Website Colors */
+    --green-dark: #02903F;
+    --green-mid: #00C853;
+    --green-light: #0ACD5E;
+
     --blue-dark: #003B7E;
     --blue-mid: #0052B1;
     --blue-light: #016DEA;
@@ -76,7 +80,7 @@ body,
     --accent: #016DEA;
     --accent-foreground: #FFFFFF;
 
-    --destructive: #FA4001;
+    --destructive: #FA0101;
     --destructive-foreground: #FFFFFF;
 
     --border: #959597;
@@ -116,8 +120,17 @@ body,
     @apply bg-gradient-to-r from-greyLight via-greyMid to-greyDark;
   }
 
-  /* Popover Dialog color */
+  /* Single Gradient no hover color */
   .vhBlue {
     @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark;
+  }
+  .vhGreen {
+    @apply bg-gradient-to-r from-greenLight via-greenMid to-greenDark;
+  }
+  .vhBlueRed {
+    @apply bg-gradient-to-r from-blueLight to-destructive;
+  }
+  .vhGrey {
+    @apply bg-gradient-to-r from-greyDark via-greyMid to-greyLight
   }
 }
