@@ -4,10 +4,10 @@ import {
   DialogContent,
   DialogDescription,
   DialogFooter,
-  DialogHeader,
+  DialogHeaderWithClose,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@/components/ui/v-dialog";
 import { Checkbox } from "../ui/checkbox";
 
 export function PopoverVAnnouncement() {
@@ -19,19 +19,15 @@ export function PopoverVAnnouncement() {
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle className="text-center">
-            V-Verse Announcement
-          </DialogTitle>
+        <DialogTitle className="">V-Verse Announcement</DialogTitle>
 
-          <DialogDescription className="text-black font-bold">
-            Are you sure you want to close this announcement?
-          </DialogDescription>
-          <div className="flex flex-row justify-center space-x-4">
-            <Button className="vGrey mt-2">No</Button>
-            <Button className="vBlue mt-2">Yes</Button>
-          </div>
-        </DialogHeader>
+        <DialogDescription className="text-black font-bold">
+          Are you sure you want to close this announcement?
+        </DialogDescription>
+        <div className="flex flex-row justify-center space-x-4">
+          <Button className="vGrey mt-2">No</Button>
+          <Button className="vBlue mt-2">Yes</Button>
+        </div>
 
         <DialogFooter className="items-center mr-10">
           <Checkbox />
