@@ -9,6 +9,8 @@ import { buttonVariants } from "@/components/ui/button";
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
+// first-of-type:rounded-l-full last-of-type:rounded-r-full
+
 function Calendar({
   className,
   classNames,
@@ -48,8 +50,7 @@ function Calendar({
         day_today: "vhBlue text-accent-foreground",
         day_outside: "text-muted-foreground opacity-50",
         day_disabled: "text-muted-foreground opacity-50",
-        day_range_middle:
-          "aria-selected:bg-muted aria-selected:text-accent-foreground",
+        day_range_middle: `aria-selected:bg-muted aria-selected:text-accent-foreground`,
         day_hidden: "invisible",
         ...classNames,
       }}

@@ -5,7 +5,14 @@ import { SwitchDemo } from "@/components/test/SwitchDemo";
 import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 
 import { NewPostButton } from "@/components/posts/new-post-button";
-import { PlusSquare, PenSquare, UserPlus, Newspaper } from "lucide-react";
+import {
+  PlusSquare,
+  PenSquare,
+  UserPlus,
+  Newspaper,
+  MicOff,
+  Mic,
+} from "lucide-react";
 
 import { CreatePostButton } from "@/components/posts/create-post-button";
 import Heading from "@/components/nav/heading";
@@ -47,6 +54,14 @@ export default function ButtonPage() {
         </div>
         <div className="">
           <SwitchDemo />
+        </div>
+        <div className="flex flex-row space-x-2">
+          <Button variant="default" size="icon">
+            <MicOff />
+          </Button>
+          <Button variant="default" size="icon">
+            <Mic />
+          </Button>
         </div>
         <div className="">
           <NewPostButton icon={PenSquare} label={"New Blog Post"} link={""} />

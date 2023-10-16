@@ -71,9 +71,11 @@ export function FilterFilledCheckbox({
                 <Checkbox
                   checked={category.value == value}
                   id={category.value}
-                  className="mr-2"
+                  className="mr-2 border-muted"
                 />
-                <label htmlFor="value">{category.label}</label>
+                <label htmlFor="value" className="text-muted">
+                  {category.label}
+                </label>
               </CommandItem>
             ))}
           </CommandGroup>
