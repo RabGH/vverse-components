@@ -1,3 +1,4 @@
+import { IconSponsor1 } from "@/components/icons/logo-icons";
 import Hero from "@/components/nav/landing-hero";
 import Navbar from "@/components/nav/landing-navbar";
 
