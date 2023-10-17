@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Prompt } from "next/font/google";
 
-const poppins = Poppins({ weight: "400", subsets: ["latin"] });
+const prompt = Prompt({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "VVerse Component Library",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={prompt.className}>{children}</body>
     </html>
   );
 }
