@@ -4,7 +4,7 @@ import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
 import { SwitchDemo } from "@/components/test/SwitchDemo";
 import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 
-import { NewPostButton } from "@/components/posts/new-post-button";
+import { NewPostButton } from "@/components/v-buttons/new-post-button";
 import {
   PlusSquare,
   PenSquare,
@@ -14,7 +14,7 @@ import {
   Mic,
 } from "lucide-react";
 
-import { CreatePostButton } from "@/components/posts/create-post-button";
+import { CreatePostButton } from "@/components/v-buttons/create-post-button";
 import Heading from "@/components/nav/heading";
 
 export default function ButtonPage() {
