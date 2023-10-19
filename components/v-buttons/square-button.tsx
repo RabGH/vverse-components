@@ -11,7 +11,7 @@ interface SquareButtonProps {
 
 // New Post Button with Icon and link, changed width from 155 to 160 to fit most labels.
 
-export function SqaureButton({ icon: Icon, label, link }: SquareButtonProps) {
+export function SquareButton({ icon: Icon, label, link }: SquareButtonProps) {
   return (
     <Link href={link}>
       <Button

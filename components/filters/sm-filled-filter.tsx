@@ -43,10 +43,10 @@ export function FilterFilledSmall({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
-          variant="default"
+          variant="LGFilled"
           role="combobox"
           aria-expanded={open}
-          className="w-[154px] justify-between"
+          className="w-[154px] justify-between hover:text-muted"
         >
           {value
             ? categories.find((category) => category.value === value)?.label
