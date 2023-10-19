@@ -1,39 +1,14 @@
 import React from "react";
-import { NewPostButton } from "../v-buttons/square-button";
+import { SquareButton } from "../v-buttons/square-button";
 import { ArrowRightCircle } from "lucide-react";
 
 const LandingNavbar = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-center">
-      <NewPostButton
+      <SquareButton
         icon={ArrowRightCircle}
-        label={"Buttons"}
-        link={"/buttons"}
-      />
-      <NewPostButton
-        icon={ArrowRightCircle}
-        label={"Headers"}
-        link={"/headers"}
-      />
-      <NewPostButton
-        icon={ArrowRightCircle}
-        label={"Filters"}
-        link={"/filters"}
-      />
-      <NewPostButton
-        icon={ArrowRightCircle}
-        label={"Dialogs"}
-        link={"/dialogs"}
-      />
-      <NewPostButton
-        icon={ArrowRightCircle}
-        label={"Calendars"}
-        link={"/calendars"}
-      />
-      <NewPostButton
-        icon={ArrowRightCircle}
-        label={"Badges"}
-        link={"/badges"}
+        label={"Base Components"}
+        link={"/baseComponents"}
       />
     </div>
   );

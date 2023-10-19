@@ -23,27 +23,7 @@ export const categories = [
 
 export const links = [
   {
-    label: "Badges",
-    href: "/badges",
-  },
-  {
-    label: "Buttons",
-    href: "/buttons",
-  },
-  {
-    label: "Filters",
-    href: "/filters",
-  },
-  {
-    label: "Dialogs",
-    href: "/dialogs",
-  },
-  {
-    label: "Headers",
-    href: "/headers",
-  },
-  {
-    label: "Calendars",
-    href: "/calendars",
+    label: "Base Components",
+    href: "/baseComponents",
   },
 ];
