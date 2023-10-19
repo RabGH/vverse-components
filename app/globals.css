@@ -10,10 +10,54 @@ body,
 
 @layer base {
   :root {
-    /* Custom Website Colors */
-
     /* Single Colors */
     --violet: #7F00FF;
+
+    /* Linear Colors */
+    --plum-light: #933C6B;
+    --plum-dark: #662046;
+
+    --orange-light: #FF8743;
+    --orange-dark: #DC5001;
+
+    --hot-pink-light: #EA047E;
+    --hot-pink-dark: #CD016D;
+
+    --soft-brown-light: #9E7676;
+    --soft-brown-dark: #845858;
+
+    --sky-blue-light: #03D2FF;
+    --sky-blue-dark: #01A5C9;
+
+    --mustard-yellow-light: #F2C94C;
+    --mustard-yellow-dark: #DEA700;
+
+    --olive-light: #B1C000;
+    --olive-dark: #838E00;
+
+    --peach-light: #FF8383;
+    --peach-dark: #F95454;
+
+    --midnight-blue-light: #2E01AD;
+    --midnight-blue-dark: #1A0064;
+
+    --muted-purple-light: #604675;
+    --muted-purple-dark: #43255A;
+
+    --matte-blue-light: #0146AD;
+    --matte-blue-dark: #02337D;
+
+    --aqua-light: #0092C0;
+    --aqua-dark: #00769B;
+
+    --sunflower-yellow-light: #F1DC1A;
+    --sunflower-yellow-dark: #C5B311;
+
+    --teal-green-light: #00C070;
+    --teal-green-dark: #009054;
+
+    --pink-light: #E855EB;
+    --pink-dark: #B726B4;
 
     /* Gradient Colors */
     --purple-dark: #5D0076;
@@ -139,21 +183,68 @@ body,
     @apply bg-gradient-to-r from-purpleLight via-purpleMid to-purpleDark;
   }
 
-  /* Single Gradient no hover color */
-  .vhBlue {
+  /* Gradient no hover color */
+  .vgBlue {
     @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark;
   }
-  .vhGreen {
+  .vgGreen {
     @apply bg-gradient-to-r from-greenLight via-greenMid to-greenDark;
   }
-  .vhBlueRed {
+  .vgBlueRed {
     @apply bg-gradient-to-r from-blueLight to-destructive;
   }
-  .vhGrey {
+  .vgGrey {
     @apply bg-gradient-to-r from-greyDark via-greyMid to-greyLight
   }
-  .vhPurple {
+  .vgPurple {
     @apply bg-gradient-to-r from-purpleDark via-purpleMid to-purpleLight;
+  }
+  .vgRed {
+    @apply bg-gradient-to-r from-redDark via-redMid to-redLight;
+  }
+
+  /* Linear Gradient Colors */
+  .vlPlum {
+    @apply bg-gradient-to-r from-plumLight to-plumDark;
+  }
+  .vlOrange {
+    @apply bg-gradient-to-r from-orangeLight to-orangeDark;
+  }
+  .vlHotPink {
+    @apply bg-gradient-to-r from-hotPinkLight to-hotPinkDark;
+  }
+  .vlSoftBrown {
+    @apply bg-gradient-to-r from-softBrownLight to-softBrownDark;
+  }
+  .vlSkyBlue {
+    @apply bg-gradient-to-r from-skyBlueLight to-skyBlueDark;
+  }
+  .vlMustardYellow {
+    @apply bg-gradient-to-r from-mustardYellowLight to-mustardYellowDark;
+  }
+  .vlOlive {
+    @apply bg-gradient-to-r from-oliveLight to-oliveDark;
+  }
+  .vlPeach {
+    @apply bg-gradient-to-r from-peachLight to-peachDark;
+  }
+  .vlMidnightBlue {
+    @apply bg-gradient-to-r from-midnightBlueLight to-midnightBlueDark;
+  }
+  .vlMutedPurple {
+    @apply bg-gradient-to-r from-mutedPurpleLight to-mutedPurpleDark;
+  }
+  .vlMatteBlue {
+    @apply bg-gradient-to-r from-matteBlueLight to-matteBlueDark;
+  }
+  .vlAqua {
+    @apply bg-gradient-to-r from-aquaLight to-aquaDark;
+  }
+  .vlTealGreen {
+    @apply bg-gradient-to-r from-tealGreenLight to-tealGreenDark;
+  }
+  .vlPink {
+    @apply bg-gradient-to-r from-pinkLight to-pinkDark;
   }
 
   /* LGFilled Varient Outline to Filled */

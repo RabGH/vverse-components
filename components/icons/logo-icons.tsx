@@ -10564,6 +10564,27 @@ export const IconYoutubeShortsBtn = React.forwardRef<
 
 IconYoutubeShortsBtn.displayName = "IconYoutubeShortsBtn";
 
+export const IconCrownExclusive = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="currentWidth"
+      height="currentHeight"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.33301 12.6668H14.6663V14.0002H1.33301V12.6668ZM1.33301 3.3335L4.66634 5.66683L7.99967 1.3335L11.333 5.66683L14.6663 3.3335V11.3335H1.33301V3.3335ZM2.66634 5.89416V10.0002H13.333V5.89416L11.053 7.49016L7.99967 3.52016L4.94634 7.49016L2.66634 5.89416Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+);
+
+IconCrownExclusive.displayName = "IconCrownExclusive";
+
 export const Icons = {
   LogoBlue: LogoBlue,
   PlusSignBlue: PlusSignBlue,

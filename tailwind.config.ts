@@ -17,7 +17,53 @@ module.exports = {
     },
     extend: {
       colors: {
+        // Single Colors
         voilet: "var(--violet)",
+
+        // Linear Colors
+        plumLight: "var(--plum-light)",
+        plumDark: "var(--plum-dark)",
+
+        orangeLight: "var(--orange-light)",
+        orangeDark: "var(--orange-dark)",
+
+        hotPinkLight: "var(--hot-pink-light)",
+        hotPinkDark: "var(--hot-pink-dark)",
+
+        softBrownLight: "var(--soft-brown-light)",
+        softBrownDark: "var(--soft-brown-dark)",
+
+        skyBlueLight: "var(--sky-blue-light)",
+        skyBlueDark: "var(--sky-blue-dark)",
+
+        mustardYellowLight: "var(--mustard-yellow-light)",
+        mustardYellowDark: "var(--mustard-yellow-dark)",
+
+        oliveLight: "var(--olive-light)",
+        oliveDark: "var(--olive-dark)",
+
+        peachLight: "var(--peach-light)",
+        peachDark: "var(--peach-dark)",
+
+        midnightBlueLight: "var(--midnight-blue-light)",
+        midnightBlueDark: "var(--midnight-blue-dark)",
+
+        mutedPurpleLight: "var(--muted-purple-light)",
+        mutedPurpleDark: "var(--muted-purple-dark)",
+
+        matteBlueLight: "var(--matte-blue-light)",
+        matteBlueDark: "var(--matte-blue-dark)",
+
+        aquaLight: "var(--aqua-light)",
+        aquaDark: "var(--aqua-dark)",
+
+        tealGreenLight: "var(--teal-green-light)",
+        tealGreenDark: "var(--teal-green-dark)",
+
+        pinkLight: "var(--pink-light)",
+        pinkDark: "var(--pink-dark)",
+
+        // Gradient Colors
         purpleDark: "var(--purple-dark)",
         purpleMid: "var(--purple-mid)",
         purpleLight: "var(--purple-light)",
