@@ -4,7 +4,6 @@ import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
 import { SwitchDemo } from "@/components/test/SwitchDemo";
 import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 
-import { NewPostButton } from "@/components/v-buttons/square-button";
 import {
   PlusSquare,
   PenSquare,
@@ -14,8 +13,10 @@ import {
   Mic,
 } from "lucide-react";
 
-import { CreatePostButton } from "@/components/v-buttons/rectangle-button";
 import Heading from "@/components/nav/heading";
+import { SqaureButton } from "@/components/v-buttons/square-button";
+import { RectangleButton } from "@/components/v-buttons/rectangle-button";
+import { Icons } from "@/components/icons/logo-icons";
 
 export default function ButtonPage() {
   return (
@@ -54,21 +55,17 @@ export default function ButtonPage() {
           </Button>
         </div>
         <div className="">
-          <NewPostButton icon={PenSquare} label={"New Blog Post"} link={""} />
+          <SqaureButton icon={PenSquare} label={"New Blog Post"} link={""} />
         </div>
         <div className="">
-          <NewPostButton
-            icon={PlusSquare}
-            label={"New Social Post"}
-            link={""}
-          />
+          <SqaureButton icon={PlusSquare} label={"New Social Post"} link={""} />
         </div>
         <div className="">
-          <NewPostButton icon={UserPlus} label={"New Social Group"} link={""} />
+          <SqaureButton icon={UserPlus} label={"New Social Group"} link={""} />
         </div>
         <div className="">
-          <CreatePostButton
-            icon={Newspaper}
+          <RectangleButton
+            icon={Icons.IconPost}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
             }

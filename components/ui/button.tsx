@@ -22,7 +22,7 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground rounded-full",
         MDFilled: "vBlue text-primary-foreground rounded-md",
         MDOutline:
-          "border border-input bg-background hover:vBlue hover:text-white rounded-md",
+          "border border-input bg-background hover:vBlue hover:text-white rounded-lg",
       },
       size: {
         default: "w-24 h-11 px-4 py-2",

@@ -3,7 +3,7 @@ import { Label } from "@/components/ui/label";
 import { LucideIcon } from "lucide-react";
 import Link from "next/link";
 
-interface PostButtonProps {
+interface SquareButtonProps {
   icon: LucideIcon;
   label: string;
   link: string;
@@ -11,7 +11,7 @@ interface PostButtonProps {
 
 // New Post Button with Icon and link, changed width from 155 to 160 to fit most labels.
 
-export function NewPostButton({ icon: Icon, label, link }: PostButtonProps) {
+export function SqaureButton({ icon: Icon, label, link }: SquareButtonProps) {
   return (
     <Link href={link}>
       <Button
