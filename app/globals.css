@@ -11,6 +11,11 @@ body,
 @layer base {
   :root {
     /* Custom Website Colors */
+
+    /* Single Colors */
+    --violet: #7F00FF;
+
+    /* Gradient Colors */
     --purple-dark: #5D0076;
     --purple-mid: #8601ab;
     --purple-light: #9D01C8;
@@ -33,6 +38,8 @@ body,
 
     --background: #FFFFFF;
     --foreground: #016DEA;
+
+    /* Component Colors */
 
     --card: #FFFFFF;
     --card-foreground: #016DEA;
@@ -144,5 +151,13 @@ body,
   }
   .vhGrey {
     @apply bg-gradient-to-r from-greyDark via-greyMid to-greyLight
+  }
+  .vhPurple {
+    @apply bg-gradient-to-r from-purpleDark via-purpleMid to-purpleLight;
+  }
+
+  /* LGFilled Varient Outline to Filled */
+  .vhrBlue {
+    @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark hover:bg-gradient-to-r hover:from-white hover:to-white;
   }
 }

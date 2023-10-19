@@ -17,6 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        voilet: "var(--violet)",
         purpleDark: "var(--purple-dark)",
         purpleMid: "var(--purple-mid)",
         purpleLight: "var(--purple-light)",
