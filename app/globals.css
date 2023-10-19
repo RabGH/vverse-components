@@ -11,6 +11,10 @@ body,
 @layer base {
   :root {
     /* Custom Website Colors */
+    --purple-dark: #5D0076;
+    --purple-mid: #8601ab;
+    --purple-light: #9D01C8;
+
     --green-dark: #02903F;
     --green-mid: #00C853;
     --green-light: #0ACD5E;
@@ -118,6 +122,14 @@ body,
   }
   .vGrey:hover {
     @apply bg-gradient-to-r from-greyLight via-greyMid to-greyDark;
+  }
+
+  /* Purple Gradient */
+  .vPurple {
+    @apply bg-gradient-to-r from-purpleDark via-purpleMid to-purpleLight;
+  }
+  .vPurple:hover {
+    @apply bg-gradient-to-r from-purpleLight via-purpleMid to-purpleDark;
   }
 
   /* Single Gradient no hover color */

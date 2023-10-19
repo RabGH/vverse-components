@@ -1,5 +1,5 @@
 import React from "react";
-import { NewPostButton } from "../v-buttons/new-post-button";
+import { NewPostButton } from "../v-buttons/square-button";
 import { ArrowRightCircle } from "lucide-react";
 
 const LandingNavbar = () => {

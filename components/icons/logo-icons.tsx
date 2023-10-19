@@ -1,4 +1,5 @@
 import React from "react";
+import { LucideProps, User } from "lucide-react";
 
 export const LogoBlue = () => {
   return (

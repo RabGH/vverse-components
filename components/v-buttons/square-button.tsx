@@ -15,7 +15,7 @@ export function NewPostButton({ icon: Icon, label, link }: PostButtonProps) {
   return (
     <Link href={link}>
       <Button
-        variant="outline"
+        variant="MDOutline"
         className="w-[160px] h-[82px] hover:border-0 group"
       >
         <div className="flex flex-col items-center justify-center space-y-3">

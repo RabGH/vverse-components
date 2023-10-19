@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { LucideIcon } from "lucide-react";
 import Link from "next/link";
 
 interface PostButtonProps {
-  icon: LucideIcon;
+  icon: React.ReactNode;
   label: string;
   title: string;
   link: string;
@@ -21,7 +20,7 @@ export function CreatePostButton({
   return (
     <Link href={link}>
       <Button
-        variant="outline"
+        variant="MDOutline"
         className="w-[340.5px] h-[100px] hover:border-0 group"
       >
         <div className="flex flex-row gap-3 items-center text-left">

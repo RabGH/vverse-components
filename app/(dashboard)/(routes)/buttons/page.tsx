@@ -4,7 +4,7 @@ import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
 import { SwitchDemo } from "@/components/test/SwitchDemo";
 import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 
-import { NewPostButton } from "@/components/v-buttons/new-post-button";
+import { NewPostButton } from "@/components/v-buttons/square-button";
 import {
   PlusSquare,
   PenSquare,
@@ -14,7 +14,7 @@ import {
   Mic,
 } from "lucide-react";
 
-import { CreatePostButton } from "@/components/v-buttons/create-post-button";
+import { CreatePostButton } from "@/components/v-buttons/rectangle-button";
 import Heading from "@/components/nav/heading";
 
 export default function ButtonPage() {
@@ -30,21 +30,11 @@ export default function ButtonPage() {
       <div className="flex items-center h-full flex-col space-y-10 m-10">
         <div className="space-x-5">
           <Button variant="default">Default</Button>
-          <Button variant="outline" className="rounded-xl">
-            Outline
-          </Button>
-          <Button variant="destructive" className="rounded-xl">
-            Destructive
-          </Button>
-          <Button variant="secondary" className="rounded-xl">
-            Secondary
-          </Button>
-          <Button variant="ghost" className="rounded-xl">
-            Ghost
-          </Button>
-          <Button variant="link" className="rounded-xl">
-            Link
-          </Button>
+          <Button variant="outline">Outline</Button>
+          <Button variant="destructive">Destructive</Button>
+          <Button variant="secondary">Secondary</Button>
+          <Button variant="ghost">Ghost</Button>
+          <Button variant="link">Link</Button>
         </div>
         <div className="">
           <RadioGroupDemo />
