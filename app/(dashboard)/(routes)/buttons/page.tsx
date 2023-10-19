@@ -16,7 +16,7 @@ import {
 import Heading from "@/components/nav/heading";
 import { SqaureButton } from "@/components/v-buttons/square-button";
 import { RectangleButton } from "@/components/v-buttons/rectangle-button";
-import { Icons } from "@/components/icons/logo-icons";
+import { IconPost } from "@/components/icons/logo-icons";
 
 export default function ButtonPage() {
   return (
@@ -65,7 +65,7 @@ export default function ButtonPage() {
         </div>
         <div className="">
           <RectangleButton
-            icon={Icons.IconPost}
+            icon={IconPost}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
             }

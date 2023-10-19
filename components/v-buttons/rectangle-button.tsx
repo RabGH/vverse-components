@@ -21,7 +21,7 @@ export function RectangleButton({
   return (
     <Link href={link}>
       <Button
-        variant="MDOutline"
+        variant="LGOutline"
         className="w-[350.5px] h-[100px] hover:border-0 group"
       >
         <div className="flex flex-row gap-3 items-center text-left">

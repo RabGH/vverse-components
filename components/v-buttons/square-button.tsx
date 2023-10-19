@@ -15,7 +15,7 @@ export function SqaureButton({ icon: Icon, label, link }: SquareButtonProps) {
   return (
     <Link href={link}>
       <Button
-        variant="MDOutline"
+        variant="LGOutline"
         className="w-[160px] h-[82px] hover:border-0 group"
       >
         <div className="flex flex-col items-center justify-center space-y-3">
