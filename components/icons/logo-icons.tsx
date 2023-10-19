@@ -1,7 +1,7 @@
 import React from "react";
 import { LucideProps, User } from "lucide-react";
 
-const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -76,7 +76,7 @@ const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 LogoBlue.displayName = "LogoBlue";
 
-const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -129,7 +129,7 @@ const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
 
 PlusSignBlue.displayName = "PlusSignBlue";
 
-const HamburgerMenu = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const HamburgerMenu = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -152,7 +152,7 @@ const HamburgerMenu = React.forwardRef<SVGSVGElement, LucideProps>(
 
 HamburgerMenu.displayName = "HamburgerMenu";
 
-const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -195,7 +195,7 @@ const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconGrid.displayName = "IconGrid";
 
-const IconNews = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconNews = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -295,7 +295,7 @@ const IconNews = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconNews.displayName = "IconNews";
 
-const IconPost = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -411,7 +411,7 @@ const IconPost = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconPost.displayName = "IconPost";
 
-const IconTV = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconTV = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -431,7 +431,7 @@ const IconTV = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconTV.displayName = "IconTV";
 
-const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -506,7 +506,7 @@ const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 LogoVBlog.displayName = "LogoVBlog";
 
-const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -583,7 +583,7 @@ const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVCollege.displayName = "LogoVCollege";
 
-const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -660,7 +660,7 @@ const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVEvents.displayName = "LogoVEvents";
 
-const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -737,7 +737,7 @@ const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVExpert.displayName = "LogoVExpert";
 
-const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -814,7 +814,7 @@ const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVGuide.displayName = "LogoVGuide";
 
-const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -889,7 +889,7 @@ const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 LogoVJobs.displayName = "LogoVJobs";
 
-const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -966,7 +966,7 @@ const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVLance.displayName = "LogoVLance";
 
-const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1043,7 +1043,7 @@ const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVMarket.displayName = "LogoVMarket";
 
-const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1120,7 +1120,7 @@ const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVNation.displayName = "LogoVNation";
 
-const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1195,7 +1195,7 @@ const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 LogoVTube.displayName = "LogoVTube";
 
-const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1272,7 +1272,7 @@ const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVWebinars.displayName = "LogoVWebinars";
 
-const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1349,7 +1349,7 @@ const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoVWhite.displayName = "LogoVWhite";
 
-const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1400,7 +1400,7 @@ const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 MainLogo.displayName = "MainLogo";
 
-const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1458,7 +1458,7 @@ const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
 
 NotificationsRed.displayName = "NotificationsRed";
 
-const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1490,7 +1490,7 @@ const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendar.displayName = "IconCalendar";
 
-const IconChair = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconChair = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1545,7 +1545,7 @@ const IconCourse = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCourse.displayName = "IconCourse";
 
-const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1628,7 +1628,7 @@ const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconEbook.displayName = "IconEbook";
 
-const IconGear = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconGear = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1666,7 +1666,7 @@ const IconGear = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconGear.displayName = "IconGear";
 
-const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1694,7 +1694,7 @@ const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHeadphones.displayName = "IconHeadphones";
 
-const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1732,7 +1732,7 @@ const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconLayers.displayName = "IconLayers";
 
-const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1764,7 +1764,7 @@ const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProducts.displayName = "IconProducts";
 
-const IconStore = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconStore = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1878,7 +1878,7 @@ const IconStore = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconStore.displayName = "IconStore";
 
-const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -1907,7 +1907,7 @@ const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconVideo.displayName = "IconVideo";
 
-const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1935,7 +1935,7 @@ const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconWebinar.displayName = "IconWebinar";
 
-const IconSponsorMegaphone = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSponsorMegaphone = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -1987,7 +1987,7 @@ const IconSponsorMegaphone = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSponsorMegaphone.displayName = "IconSponsorMegaphone";
 
-const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2040,7 +2040,7 @@ const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBellFilledBlue.displayName = "IconBellFilledBlue";
 
-const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2069,7 +2069,7 @@ const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBriefCase.displayName = "IconBriefCase";
 
-const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2097,7 +2097,7 @@ const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBudget.displayName = "IconBudget";
 
-const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2125,7 +2125,7 @@ const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBuildings.displayName = "IconBuildings";
 
-const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2161,7 +2161,7 @@ const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBullHorn.displayName = "IconBullHorn";
 
-const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2226,7 +2226,7 @@ const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarEvent.displayName = "IconCalendarEvent";
 
-const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2307,7 +2307,7 @@ const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarNotice.displayName = "IconCalendarNotice";
 
-const IconCalendarOutline1 = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarOutline1 = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2375,7 +2375,7 @@ const IconCalendarOutline1 = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarOutline1.displayName = "IconCalendarOutline1";
 
-const IconCalendarOutline2 = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarOutline2 = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2448,7 +2448,7 @@ const IconCalendarOutline2 = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarOutline2.displayName = "IconCalendarOutline2";
 
-const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2498,7 +2498,7 @@ const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarTopDash.displayName = "IconCalendarTopDash";
 
-const IconCalendarSideDash = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarSideDash = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2548,7 +2548,7 @@ const IconCalendarSideDash = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarSideDash.displayName = "IconCalendarSideDash";
 
-const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2591,7 +2591,7 @@ const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarNoDash.displayName = "IconCalendarNoDash";
 
-const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2631,7 +2631,7 @@ const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCustomers.displayName = "IconCustomers";
 
-const IconDiscountTag = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconDiscountTag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2664,7 +2664,7 @@ const IconDiscountTag = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconDiscountTag.displayName = "IconDiscountTag";
 
-const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -2698,7 +2698,7 @@ const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconEarn.displayName = "IconEarn";
 
-const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2722,7 +2722,7 @@ const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEditPen.displayName = "IconEditPen";
 
-const IconEmailFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEmailFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2754,7 +2754,7 @@ const IconEmailFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEmailFilledMuted.displayName = "IconEmailFilledMuted";
 
-const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2804,7 +2804,7 @@ const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEmailVerified.displayName = "IconEmailVerified";
 
-const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2848,7 +2848,7 @@ const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEscrow.displayName = "IconEscrow";
 
-const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -2877,7 +2877,7 @@ const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconFlag.displayName = "IconFlag";
 
-const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -2910,7 +2910,7 @@ const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGender.displayName = "IconGender";
 
-const IconGraph = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconGraph = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -2956,7 +2956,7 @@ const IconGraph = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconGraph.displayName = "IconGraph";
 
-const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3018,7 +3018,7 @@ const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconIDVerified.displayName = "IconIDVerified";
 
-const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -3098,7 +3098,7 @@ const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconLevel.displayName = "IconLevel";
 
-const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3171,7 +3171,7 @@ const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconLoader.displayName = "IconLoader";
 
-const IconMegaPhoneFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMegaPhoneFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3221,7 +3221,7 @@ const IconMegaPhoneFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMegaPhoneFilledMuted.displayName = "IconMegaPhoneFilledMuted";
 
-const IconMessageFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMessageFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3267,7 +3267,7 @@ const IconMessageFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMessageFilledMuted.displayName = "IconMessageFilledMuted";
 
-const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3307,7 +3307,7 @@ const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPaymentCycle.displayName = "IconPaymentCycle";
 
-const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3360,7 +3360,7 @@ const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPhoneVerified.displayName = "IconPhoneVerified";
 
-const IconPlannerFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPlannerFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3418,7 +3418,7 @@ const IconPlannerFilledMuted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPlannerFilledMuted.displayName = "IconPlannerFilledMuted";
 
-const IconShare = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconShare = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -3468,7 +3468,7 @@ const IconShare = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconShare.displayName = "IconShare";
 
-const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3539,7 +3539,7 @@ const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconShieldVerified.displayName = "IconShieldVerified";
 
-const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3570,7 +3570,7 @@ const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSlashCircle.displayName = "IconSlashCircle";
 
-const IconSponsorHandShaking = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSponsorHandShaking = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3606,7 +3606,7 @@ const IconSponsorHandShaking = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSponsorHandShaking.displayName = "IconSponsorHandShaking";
 
-const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3647,7 +3647,7 @@ const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTagThumbsUp.displayName = "IconTagThumbsUp";
 
-const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3671,7 +3671,7 @@ const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconThumbsUp.displayName = "IconThumbsUp";
 
-const IconUnverifiedAgreement = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUnverifiedAgreement = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3736,7 +3736,7 @@ const IconUnverifiedAgreement = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUnverifiedAgreement.displayName = "IconUnverifiedAgreement";
 
-const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3780,7 +3780,7 @@ const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUnverifiedEmail.displayName = "IconUnverifiedEmail";
 
-const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3838,7 +3838,7 @@ const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUnverifiedID.displayName = "IconUnverifiedID";
 
-const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3887,7 +3887,7 @@ const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUnverifiedPhone.displayName = "IconUnverifiedPhone";
 
-const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3922,7 +3922,7 @@ const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUserCheck.displayName = "IconUserCheck";
 
-const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -3961,7 +3961,7 @@ const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconUsers.displayName = "IconUsers";
 
-const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -3990,7 +3990,7 @@ const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconWallet.displayName = "IconWallet";
 
-const IconAge = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconAge = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -4028,7 +4028,7 @@ const IconAge = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconAge.displayName = "IconAge";
 
-const IconApplicationStatus = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconApplicationStatus = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4092,7 +4092,7 @@ const IconApplicationStatus = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconApplicationStatus.displayName = "IconApplicationStatus";
 
-const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4124,7 +4124,7 @@ const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBagDollar.displayName = "IconBagDollar";
 
-const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4151,7 +4151,7 @@ const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBellFilled.displayName = "IconBellFilled";
 
-const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4180,7 +4180,7 @@ const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBellOutline.displayName = "IconBellOutline";
 
-const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4209,7 +4209,7 @@ const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStackedBoxes.displayName = "IconStackedBoxes";
 
-const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4241,7 +4241,7 @@ const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarCheck.displayName = "IconCalendarCheck";
 
-const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4281,7 +4281,7 @@ const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarDollar.displayName = "IconCalendarDollar";
 
-const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4332,7 +4332,7 @@ const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarWebinar.displayName = "IconCalendarWebinar";
 
-const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4374,7 +4374,7 @@ const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconChannelViews.displayName = "IconChannelViews";
 
-const IconClock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconClock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -4408,7 +4408,7 @@ const IconClock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconClock.displayName = "IconClock";
 
-const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4448,7 +4448,7 @@ const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconContractType.displayName = "IconContractType";
 
-const IconDelivery = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconDelivery = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4477,7 +4477,7 @@ const IconDelivery = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconDelivery.displayName = "IconDelivery";
 
-const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4512,7 +4512,7 @@ const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconDownload.displayName = "IconDownload";
 
-const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4544,7 +4544,7 @@ const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEarthGlobePin.displayName = "IconEarthGlobePin";
 
-const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4584,7 +4584,7 @@ const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconExperienceStars.displayName = "IconExperienceStars";
 
-const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4619,7 +4619,7 @@ const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEyeDotted.displayName = "IconEyeDotted";
 
-const IconEye = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconEye = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -4646,7 +4646,7 @@ const IconEye = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconEye.displayName = "IconEye";
 
-const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4677,7 +4677,7 @@ const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconFileThick.displayName = "IconFileThick";
 
-const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4706,7 +4706,7 @@ const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconFileThin.displayName = "IconFileThin";
 
-const IconFolderBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconFolderBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4727,7 +4727,7 @@ const IconFolderBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconFolderBtn.displayName = "IconFolderBtn";
 
-const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4755,7 +4755,7 @@ const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconFollowers.displayName = "IconFollowers";
 
-const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4804,7 +4804,7 @@ const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGlobeDefined.displayName = "IconGlobeDefined";
 
-const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -4837,7 +4837,7 @@ const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconGlobe.displayName = "IconGlobe";
 
-const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4878,7 +4878,7 @@ const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHashTag.displayName = "IconHashTag";
 
-const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4910,7 +4910,7 @@ const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHistoryBtn.displayName = "IconHistoryBtn";
 
-const IconHourGlass = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHourGlass = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4931,7 +4931,7 @@ const IconHourGlass = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHourGlass.displayName = "IconHourGlass";
 
-const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -4971,7 +4971,7 @@ const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHourlyRate.displayName = "IconHourlyRate";
 
-const IconImagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconImagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5000,7 +5000,7 @@ const IconImagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconImagesBtn.displayName = "IconImagesBtn";
 
-const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5048,7 +5048,7 @@ const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconInfoFilledBlue.displayName = "IconInfoFilledBlue";
 
-const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5116,7 +5116,7 @@ const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconJobVacancies.displayName = "IconJobVacancies";
 
-const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5214,7 +5214,7 @@ const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconLastSeen.displayName = "IconLastSeen";
 
-const IconLiveRed = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconLiveRed = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5235,7 +5235,7 @@ const IconLiveRed = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconLiveRed.displayName = "IconLiveRed";
 
-const IconLock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconLock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -5262,7 +5262,7 @@ const IconLock = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconLock.displayName = "IconLock";
 
-const IconMagnifyingPerson = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMagnifyingPerson = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5303,7 +5303,7 @@ const IconMagnifyingPerson = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMagnifyingPerson.displayName = "IconMagnifyingPerson";
 
-const IconMail = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconMail = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -5330,7 +5330,7 @@ const IconMail = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconMail.displayName = "IconMail";
 
-const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5363,7 +5363,7 @@ const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMaleFemale.displayName = "IconMaleFemale";
 
-const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5394,7 +5394,7 @@ const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMapPerson.displayName = "IconMapPerson";
 
-const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5423,7 +5423,7 @@ const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMapPin.displayName = "IconMapPin";
 
-const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5463,7 +5463,7 @@ const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMembers.displayName = "IconMembers";
 
-const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5504,7 +5504,7 @@ const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMessageCircle.displayName = "IconMessageCircle";
 
-const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5537,7 +5537,7 @@ const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
 IconOfferType.displayName = "IconOfferType";
 
 // Check Why this SVG does not look right 123456
-const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5575,7 +5575,7 @@ const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconOrderBag.displayName = "IconOrderBag";
 
-const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5615,7 +5615,7 @@ const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconOrderBox.displayName = "IconOrderBox";
 
-const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5643,7 +5643,7 @@ const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPerson.displayName = "IconPerson";
 
-const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5697,7 +5697,7 @@ const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCellPhoneCard.displayName = "IconCellPhoneCard";
 
-const IconPinnedPost = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPinnedPost = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5718,7 +5718,7 @@ const IconPinnedPost = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPinnedPost.displayName = "IconPinnedPost";
 
-const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5747,7 +5747,7 @@ const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPlayDotted.displayName = "IconPlayDotted";
 
-const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5787,7 +5787,7 @@ const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPlaylistBtn.displayName = "IconPlaylistBtn";
 
-const IconPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5808,7 +5808,7 @@ const IconPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPostBtn.displayName = "IconPostBtn";
 
-const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5865,7 +5865,7 @@ const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPriceType.displayName = "IconPriceType";
 
-const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5913,7 +5913,7 @@ const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPrivacy.displayName = "IconPrivacy";
 
-const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -5977,7 +5977,7 @@ const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProductsHeart.displayName = "IconProductsHeart";
 
-const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6029,7 +6029,7 @@ const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProjectCheck.displayName = "IconProjectCheck";
 
-const IconProposedBudget = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProposedBudget = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6074,7 +6074,7 @@ const IconProposedBudget = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProposedBudget.displayName = "IconProposedBudget";
 
-const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6174,7 +6174,7 @@ const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconReactions.displayName = "IconReactions";
 
-const IconRemainingTickets = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconRemainingTickets = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6219,7 +6219,7 @@ const IconRemainingTickets = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconRemainingTickets.displayName = "IconRemainingTickets";
 
-const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6256,7 +6256,7 @@ const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconRepliesArrow.displayName = "IconRepliesArrow";
 
-const IconSalesGraph = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSalesGraph = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6289,7 +6289,7 @@ const IconSalesGraph = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSalesGraph.displayName = "IconSalesGraph";
 
-const IconSelectedProfiles = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSelectedProfiles = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6324,7 +6324,7 @@ const IconSelectedProfiles = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSelectedProfiles.displayName = "IconSelectedProfiles";
 
-const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6372,7 +6372,7 @@ const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconShipping.displayName = "IconShipping";
 
-const IconStar = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconStar = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -6393,7 +6393,7 @@ const IconStar = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconStar.displayName = "IconStar";
 
-const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6430,7 +6430,7 @@ const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStartingFrom.displayName = "IconStartingFrom";
 
-const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6462,7 +6462,7 @@ const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStatusCalendar.displayName = "IconStatusCalendar";
 
-const IconStopwatchDuration = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStopwatchDuration = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6495,7 +6495,7 @@ const IconStopwatchDuration = React.forwardRef<SVGSVGElement, LucideProps>(
 IconStopwatchDuration.displayName = "IconStopwatchDuration";
 
 // check why this svg does not look correct 123456
-const IconSubscriptionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSubscriptionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6531,7 +6531,7 @@ const IconSubscriptionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSubscriptionsBtn.displayName = "IconSubscriptionsBtn";
 
-const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6567,7 +6567,7 @@ const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSuccessGraph.displayName = "IconSuccessGraph";
 
-const IconTag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconTag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -6594,7 +6594,7 @@ const IconTag = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconTag.displayName = "IconTag";
 
-const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6626,7 +6626,7 @@ const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTextPostBtn.displayName = "IconTextPostBtn";
 
-const IconThumbsUpFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconThumbsUpFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6672,7 +6672,7 @@ const IconThumbsUpFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconThumbsUpFilledBlue.displayName = "IconThumbsUpFilledBlue";
 
-const IconTicket = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTicket = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6717,7 +6717,7 @@ const IconTicket = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTicket.displayName = "IconTicket";
 
-const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6741,7 +6741,7 @@ const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconToolbox.displayName = "IconToolbox";
 
-const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6782,7 +6782,7 @@ const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTrashThin.displayName = "IconTrashThin";
 
-const IconUserCheckBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUserCheckBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6817,7 +6817,7 @@ const IconUserCheckBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUserCheckBtn.displayName = "IconUserCheckBtn";
 
-const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6848,7 +6848,7 @@ const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconVideoBtn.displayName = "IconVideoBtn";
 
-const IconZap = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconZap = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -6869,7 +6869,7 @@ const IconZap = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconZap.displayName = "IconZap";
 
-const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6916,7 +6916,7 @@ const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconShoppingBagBox.displayName = "IconShoppingBagBox";
 
-const IconAchievementsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconAchievementsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6965,7 +6965,7 @@ const IconAchievementsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconAchievementsBtn.displayName = "IconAchievementsBtn";
 
-const IconActivityProfilesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconActivityProfilesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7017,7 +7017,7 @@ const IconActivityProfilesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconActivityProfilesBtn.displayName = "IconActivityProfilesBtn";
 
-const IconAdsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconAdsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7058,7 +7058,7 @@ const IconAdsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconAdsBtn.displayName = "IconAdsBtn";
 
-const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7117,7 +7117,7 @@ const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconApertureBtn.displayName = "IconApertureBtn";
 
-const IconApplicationsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconApplicationsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7158,7 +7158,7 @@ const IconApplicationsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconApplicationsBtn.displayName = "IconApplicationsBtn";
 
-const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7189,7 +7189,7 @@ const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconArrowLeftBtn.displayName = "IconArrowLeftBtn";
 
-const IconArrowLeftThinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconArrowLeftThinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7218,7 +7218,7 @@ const IconArrowLeftThinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconArrowLeftThinBtn.displayName = "IconArrowLeftThinBtn";
 
-const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7282,7 +7282,7 @@ const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconAssetsBtn.displayName = "IconAssetsBtn";
 
-const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7366,7 +7366,7 @@ const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconAssetsGearBtn.displayName = "IconAssetsGearBtn";
 
-const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7395,7 +7395,7 @@ const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBellBtn.displayName = "IconBellBtn";
 
-const IconBullHornBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBullHornBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7423,7 +7423,7 @@ const IconBullHornBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBullHornBtn.displayName = "IconBullHornBtn";
 
-const IconBusinessProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconBusinessProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7500,7 +7500,7 @@ const IconBusinessProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconBusinessProfileBtn.displayName = "IconBusinessProfileBtn";
 
-const IconCalendarEventsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCalendarEventsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7532,7 +7532,7 @@ const IconCalendarEventsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCalendarEventsBtn.displayName = "IconCalendarEventsBtn";
 
-const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7572,7 +7572,7 @@ const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCandidatesBtn.displayName = "IconCandidatesBtn";
 
-const IconCategoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCategoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7593,7 +7593,7 @@ const IconCategoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCategoriesBtn.displayName = "IconCategoriesBtn";
 
-const IconChairBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconChairBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7618,7 +7618,7 @@ const IconChairBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconChairBtn.displayName = "IconChairBtn";
 
-const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7646,7 +7646,7 @@ const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconClientsBtn.displayName = "IconClientsBtn";
 
-const IconConnectionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconConnectionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7679,7 +7679,7 @@ const IconConnectionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconConnectionsBtn.displayName = "IconConnectionsBtn";
 
-const IconContentCalendarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconContentCalendarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7719,7 +7719,7 @@ const IconContentCalendarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconContentCalendarBtn.displayName = "IconContentCalendarBtn";
 
-const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7751,7 +7751,7 @@ const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCoursesBtn.displayName = "IconCoursesBtn";
 
-const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7815,7 +7815,7 @@ const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCoverLetterBtn.displayName = "IconCoverLetterBtn";
 
-const IconCreateStudioBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconCreateStudioBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7836,7 +7836,7 @@ const IconCreateStudioBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCreateStudioBtn.displayName = "IconCreateStudioBtn";
 
-const IconCvBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconCvBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -7903,7 +7903,7 @@ const IconCvBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconCvBtn.displayName = "IconCvBtn";
 
-const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -7967,7 +7967,7 @@ const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconDetailsBtn.displayName = "IconDetailsBtn";
 
-const IconEbookBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEbookBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8040,7 +8040,7 @@ const IconEbookBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEbookBtn.displayName = "IconEbookBtn";
 
-const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8072,7 +8072,7 @@ const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEducationBtn.displayName = "IconEducationBtn";
 
-const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8100,7 +8100,7 @@ const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconEmployersBtn.displayName = "IconEmployersBtn";
 
-const IconFollowersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconFollowersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8128,7 +8128,7 @@ const IconFollowersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconFollowersBtn.displayName = "IconFollowersBtn";
 
-const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8168,7 +8168,7 @@ const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGearServicesBtn.displayName = "IconGearServicesBtn";
 
-const IconGraphPollBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGraphPollBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8191,7 +8191,7 @@ const IconGraphPollBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGraphPollBtn.displayName = "IconGraphPollBtn";
 
-const IconGridBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGridBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8232,7 +8232,7 @@ const IconGridBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGridBtn.displayName = "IconGridBtn";
 
-const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8260,7 +8260,7 @@ const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconConsultsBtn.displayName = "IconConsultsBtn";
 
-const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8284,7 +8284,7 @@ const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHeartSaveBtn.displayName = "IconHeartSaveBtn";
 
-const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8313,7 +8313,7 @@ const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconHomeBtn.displayName = "IconHomeBtn";
 
-const IconInstructorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconInstructorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8338,7 +8338,7 @@ const IconInstructorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconInstructorsBtn.displayName = "IconInstructorsBtn";
 
-const IconLayersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconLayersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8373,7 +8373,7 @@ const IconLayersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconLayersBtn.displayName = "IconLayersBtn";
 
-const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8404,7 +8404,7 @@ const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMapPinBtn.displayName = "IconMapPinBtn";
 
-const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8448,7 +8448,7 @@ const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMediaPostsBtn.displayName = "IconMediaPostsBtn";
 
-const IconMembersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMembersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8488,7 +8488,7 @@ const IconMembersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMembersBtn.displayName = "IconMembersBtn";
 
-const IconMessageCircleBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMessageCircleBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8529,7 +8529,7 @@ const IconMessageCircleBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMessageCircleBtn.displayName = "IconMessageCircleBtn";
 
-const IconMessageCircleDisabledBtn = React.forwardRef<
+ export const IconMessageCircleDisabledBtn = React.forwardRef<
   SVGSVGElement,
   LucideProps
 >((props, ref) => (
@@ -8554,7 +8554,7 @@ const IconMessageCircleDisabledBtn = React.forwardRef<
 
 IconMessageCircleDisabledBtn.displayName = "IconMessageCircleDisabledBtn";
 
-const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8594,7 +8594,7 @@ const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMessageBtn.displayName = "IconMessageBtn";
 
-const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8678,7 +8678,7 @@ const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMyTimelineBtn.displayName = "IconMyTimelineBtn";
 
-const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8738,7 +8738,7 @@ const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMyCandidatesBtn.displayName = "IconMyCandidatesBtn";
 
-const IconMyChannelBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMyChannelBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8763,7 +8763,7 @@ const IconMyChannelBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMyChannelBtn.displayName = "IconMyChannelBtn";
 
-const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8827,7 +8827,7 @@ const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMyProfileBtn.displayName = "IconMyProfileBtn";
 
-const IconOrdersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconOrdersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8856,7 +8856,7 @@ const IconOrdersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconOrdersBtn.displayName = "IconOrdersBtn";
 
-const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8896,7 +8896,7 @@ const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPerformanceBtn.displayName = "IconPerformanceBtn";
 
-const IconPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -8941,7 +8941,7 @@ const IconPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconPostsBtn.displayName = "IconPostsBtn";
 
-const IconProductsHeartBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProductsHeartBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9005,7 +9005,7 @@ const IconProductsHeartBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProductsHeartBtn.displayName = "IconProductsHeartBtn";
 
-const IconProjectsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconProjectsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9042,7 +9042,7 @@ const IconProjectsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconProjectsBtn.displayName = "IconProjectsBtn";
 
-const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9098,7 +9098,7 @@ const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconRatingsBtn.displayName = "IconRatingsBtn";
 
-const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9198,7 +9198,7 @@ const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconReactionsBtn.displayName = "IconReactionsBtn";
 
-const IconReelsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconReelsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9219,7 +9219,7 @@ const IconReelsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconReelsBtn.displayName = "IconReelsBtn";
 
-const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9259,7 +9259,7 @@ const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconReferencesBtn.displayName = "IconReferencesBtn";
 
-const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9311,7 +9311,7 @@ const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSellersBtn.displayName = "IconSellersBtn";
 
-const IconServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9348,7 +9348,7 @@ const IconServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconServicesBtn.displayName = "IconServicesBtn";
 
-const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9384,7 +9384,7 @@ const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSettingsBtn.displayName = "IconSettingsBtn";
 
-const IconGeneralSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconGeneralSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9449,7 +9449,7 @@ const IconGeneralSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconGeneralSettingsBtn.displayName = "IconGeneralSettingsBtn";
 
-const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9496,7 +9496,7 @@ const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconShareBtn.displayName = "IconShareBtn";
 
-const IconSkillsCarouselBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSkillsCarouselBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9612,7 +9612,7 @@ const IconSkillsCarouselBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSkillsCarouselBtn.displayName = "IconSkillsCarouselBtn";
 
-const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9704,7 +9704,7 @@ const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSocialPagesBtn.displayName = "IconSocialPagesBtn";
 
-const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9756,7 +9756,7 @@ const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSponsorsBtn.displayName = "IconSponsorsBtn";
 
-const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9780,7 +9780,7 @@ const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStarBtn.displayName = "IconStarBtn";
 
-const IconStoresBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStoresBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9896,7 +9896,7 @@ const IconStoresBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStoresBtn.displayName = "IconStoresBtn";
 
-const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9917,7 +9917,7 @@ const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStoriesBtn.displayName = "IconStoriesBtn";
 
-const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9969,7 +9969,7 @@ const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTeamBtn.displayName = "IconTeamBtn";
 
-const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -9992,7 +9992,7 @@ const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconThumbsUpBtn.displayName = "IconThumbsUpBtn";
 
-const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10025,7 +10025,7 @@ const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTimeLineBtn.displayName = "IconTimeLineBtn";
 
-const IconMyJobsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconMyJobsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10046,7 +10046,7 @@ const IconMyJobsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconMyJobsBtn.displayName = "IconMyJobsBtn";
 
-const IconTVBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
+ export const IconTVBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
   <svg
     {...props}
     ref={ref}
@@ -10062,7 +10062,7 @@ const IconTVBtn = React.forwardRef<SVGSVGElement, LucideProps>((props, ref) => (
 
 IconTVBtn.displayName = "IconTVBtn";
 
-const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10091,7 +10091,7 @@ const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUserBtn.displayName = "IconUserBtn";
 
-const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10126,7 +10126,7 @@ const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUserExpertsBtn.displayName = "IconUserExpertsBtn";
 
-const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10161,7 +10161,7 @@ const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUsersLancersBtn.displayName = "IconUsersLancersBtn";
 
-const IconUsersOrganizersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUsersOrganizersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10214,7 +10214,7 @@ const IconUsersOrganizersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUsersOrganizersBtn.displayName = "IconUsersOrganizersBtn";
 
-const IconUsersVSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUsersVSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10255,7 +10255,7 @@ const IconUsersVSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUsersVSponsorsBtn.displayName = "IconUsersVSponsorsBtn";
 
-const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10290,7 +10290,7 @@ const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconUsersAuthorBtn.displayName = "IconUsersAuthorBtn";
 
-const IconVHostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconVHostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10315,7 +10315,7 @@ const IconVHostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconVHostsBtn.displayName = "IconVHostsBtn";
 
-const IconWebinarsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconWebinarsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10343,7 +10343,7 @@ const IconWebinarsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconWebinarsBtn.displayName = "IconWebinarsBtn";
 
-const IconWorkExperienceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconWorkExperienceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -10396,7 +10396,7 @@ const IconWorkExperienceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconWorkExperienceBtn.displayName = "IconWorkExperienceBtn";
 
-const IconYoutubeShortsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+ export const IconYoutubeShortsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
