@@ -6,8 +6,6 @@ export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 337 47"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -83,8 +81,6 @@ export const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 41 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -136,8 +132,6 @@ export const HamburgerMenu = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 40 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -159,8 +153,6 @@ export const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -204,8 +196,6 @@ export const IconNews = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -306,8 +296,6 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 51"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -424,8 +412,6 @@ export const IconTV = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -446,8 +432,6 @@ export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 138 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -523,8 +507,6 @@ export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 192 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -600,8 +582,6 @@ export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 176 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -677,8 +657,6 @@ export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 195 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -754,8 +732,6 @@ export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 151 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -831,8 +807,6 @@ export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 132 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -908,8 +882,6 @@ export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 159 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -985,8 +957,6 @@ export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 189 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1062,8 +1032,6 @@ export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 176 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1139,8 +1107,6 @@ export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 136 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1216,8 +1182,6 @@ export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 225 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1293,8 +1257,6 @@ export const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 337 47"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1370,8 +1332,6 @@ export const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 60 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1423,8 +1383,6 @@ export const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 40 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1481,8 +1439,6 @@ export const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1513,8 +1469,6 @@ export const IconChair = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1538,8 +1492,6 @@ const IconCourse = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1570,8 +1522,6 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1655,8 +1605,6 @@ export const IconGear = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1695,8 +1643,6 @@ export const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1723,8 +1669,6 @@ export const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1761,8 +1705,6 @@ export const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1793,8 +1735,6 @@ export const IconStore = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1909,8 +1849,6 @@ export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1940,8 +1878,6 @@ export const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -1970,8 +1906,6 @@ export const IconSponsorMegaphone = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 50 50"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2021,8 +1955,6 @@ export const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 41 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2074,8 +2006,6 @@ export const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2103,8 +2033,6 @@ export const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2131,8 +2059,6 @@ export const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2159,8 +2085,6 @@ export const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2197,8 +2121,6 @@ export const IconCalendarEventStar = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2261,8 +2183,6 @@ export const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2344,8 +2264,6 @@ export const IconCalendarOutline1 = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2413,8 +2331,6 @@ export const IconCalendarOutline2 = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2485,8 +2401,6 @@ export const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2537,8 +2451,6 @@ export const IconCalendarSideDash = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2586,8 +2498,6 @@ export const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2629,8 +2539,6 @@ export const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2669,8 +2577,6 @@ export const IconDiscountTag = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2702,8 +2608,6 @@ export const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2738,8 +2642,6 @@ export const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2764,8 +2666,6 @@ export const IconEmailFilledMuted = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 41 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -2795,8 +2695,6 @@ export const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2845,8 +2743,6 @@ export const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2889,8 +2785,6 @@ export const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2920,8 +2814,6 @@ export const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2953,8 +2845,6 @@ export const IconGraphDollar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3001,8 +2891,6 @@ export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 29"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3063,8 +2951,6 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3151,8 +3037,6 @@ export const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3226,8 +3110,6 @@ export const IconMegaPhoneFilledMuted = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 41 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -3277,8 +3159,6 @@ export const IconMessageFilledMuted = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 41 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -3322,8 +3202,6 @@ export const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3362,8 +3240,6 @@ export const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3417,8 +3293,6 @@ export const IconPlannerFilledMuted = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 41 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -3474,8 +3348,6 @@ export const IconShare = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3526,8 +3398,6 @@ export const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 29"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3597,8 +3467,6 @@ export const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3630,8 +3498,6 @@ export const IconSponsorHandShaking = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -3665,8 +3531,6 @@ export const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3706,8 +3570,6 @@ export const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3732,8 +3594,6 @@ export const IconUnverifiedAgreement = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 29 29"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -3796,8 +3656,6 @@ export const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3840,8 +3698,6 @@ export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3898,8 +3754,6 @@ export const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 29 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3947,8 +3801,6 @@ export const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -3982,8 +3834,6 @@ export const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4023,8 +3873,6 @@ export const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4052,8 +3900,6 @@ export const IconAge = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4094,8 +3940,6 @@ export const IconApplicationStatus = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -4157,8 +4001,6 @@ export const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4189,8 +4031,6 @@ export const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4216,8 +4056,6 @@ export const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4245,8 +4083,6 @@ export const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4274,8 +4110,6 @@ export const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4306,8 +4140,6 @@ export const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4346,8 +4178,6 @@ export const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4397,8 +4227,6 @@ export const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4439,8 +4267,6 @@ export const IconClock = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4475,8 +4301,6 @@ export const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4515,8 +4339,6 @@ export const IconDelivery = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4544,8 +4366,6 @@ export const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4579,8 +4399,6 @@ export const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4611,8 +4429,6 @@ export const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4651,8 +4467,6 @@ export const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4686,8 +4500,6 @@ export const IconEye = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4715,8 +4527,6 @@ export const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4746,8 +4556,6 @@ export const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4775,8 +4583,6 @@ export const IconFolderBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4796,8 +4602,6 @@ export const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4824,8 +4628,6 @@ export const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4873,8 +4675,6 @@ export const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4908,8 +4708,6 @@ export const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4949,8 +4747,6 @@ export const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -4981,8 +4777,6 @@ export const IconHourGlass = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5002,8 +4796,6 @@ export const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5042,8 +4834,6 @@ export const IconImagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5071,8 +4861,6 @@ export const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5119,8 +4907,6 @@ export const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5187,8 +4973,6 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5285,8 +5069,6 @@ export const IconLiveRed = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5306,8 +5088,6 @@ export const IconLock = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5337,8 +5117,6 @@ export const IconMagnifyingPerson = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -5377,8 +5155,6 @@ export const IconMail = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5406,8 +5182,6 @@ export const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 12 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5439,8 +5213,6 @@ export const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5470,8 +5242,6 @@ export const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5499,8 +5269,6 @@ export const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5539,8 +5307,6 @@ export const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5580,8 +5346,6 @@ export const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5613,8 +5377,6 @@ export const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5651,8 +5413,6 @@ export const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5691,8 +5451,6 @@ export const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5719,8 +5477,6 @@ export const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5789,8 +5545,6 @@ export const IconPinnedPost = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5810,8 +5564,6 @@ export const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5839,8 +5591,6 @@ export const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5879,8 +5629,6 @@ export const IconPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5900,8 +5648,6 @@ export const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -5957,8 +5703,6 @@ export const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6005,8 +5749,6 @@ export const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6069,8 +5811,6 @@ export const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6121,8 +5861,6 @@ export const IconProposedBudget = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6166,8 +5904,6 @@ export const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6268,8 +6004,6 @@ export const IconRemainingTickets = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -6345,8 +6079,6 @@ export const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6382,8 +6114,6 @@ export const IconSalesGraph = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6417,8 +6147,6 @@ export const IconSelectedProfiles = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -6451,8 +6179,6 @@ export const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6499,8 +6225,6 @@ export const IconStar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6522,8 +6246,6 @@ export const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6559,8 +6281,6 @@ export const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6593,8 +6313,6 @@ export const IconStopwatchDuration = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -6627,8 +6345,6 @@ export const IconSubscriptionsBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -6662,8 +6378,6 @@ export const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6698,8 +6412,6 @@ export const IconTag = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6727,8 +6439,6 @@ export const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6761,8 +6471,6 @@ export const IconThumbsUpFilledBlue = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 30 30"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -6806,8 +6514,6 @@ export const IconTicket = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6851,8 +6557,6 @@ export const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6875,8 +6579,6 @@ export const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6916,8 +6618,8 @@ IconTrashThin.displayName = "IconTrashThin";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 20 20"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -6951,8 +6653,6 @@ export const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -6982,8 +6682,6 @@ export const IconZap = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7005,8 +6703,6 @@ export const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 17 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7052,8 +6748,6 @@ export const IconAchievementsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7103,8 +6797,6 @@ export const IconActivityProfilesBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -7154,8 +6846,6 @@ export const IconAdsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7195,8 +6885,6 @@ export const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7254,8 +6942,6 @@ export const IconApplicationsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7295,8 +6981,6 @@ export const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7328,8 +7012,6 @@ export const IconArrowLeftThinBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -7356,8 +7038,6 @@ export const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7420,8 +7100,6 @@ export const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7504,8 +7182,6 @@ export const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7533,8 +7209,8 @@ IconBellBtn.displayName = "IconBellBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -7563,8 +7239,6 @@ export const IconBusinessProfileBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -7639,8 +7313,6 @@ export const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7671,8 +7343,6 @@ export const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7711,8 +7381,6 @@ export const IconCategoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7732,8 +7400,6 @@ export const IconChairBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7757,8 +7423,6 @@ export const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7785,8 +7449,6 @@ export const IconConnectionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7820,8 +7482,6 @@ export const IconContentCalendarBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -7859,8 +7519,6 @@ export const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7891,8 +7549,6 @@ export const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7955,8 +7611,6 @@ export const IconCreateStudioBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -7976,8 +7630,6 @@ export const IconCvBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8045,8 +7697,6 @@ export const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8109,8 +7759,8 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -8182,8 +7832,6 @@ export const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8214,8 +7862,6 @@ export const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8242,8 +7888,8 @@ IconEmployersBtn.displayName = "IconEmployersBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -8270,8 +7916,6 @@ export const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 25 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8310,8 +7954,6 @@ export const IconGraphPollBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8333,8 +7975,8 @@ IconGraphPollBtn.displayName = "IconGraphPollBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -8374,8 +8016,6 @@ export const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8402,8 +8042,6 @@ export const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 17"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8426,8 +8064,6 @@ export const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8455,8 +8091,6 @@ export const IconInstructorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8480,8 +8114,8 @@ IconInstructorsBtn.displayName = "IconInstructorsBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -8515,8 +8149,6 @@ export const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8546,8 +8178,6 @@ export const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8590,8 +8220,8 @@ IconMediaPostsBtn.displayName = "IconMediaPostsBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 20 20"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -8632,8 +8262,6 @@ export const IconMessageCircleBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -8674,8 +8302,6 @@ export const IconMessageCircleDisabledBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -8697,8 +8323,6 @@ export const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8737,8 +8361,6 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8821,8 +8443,6 @@ export const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8881,8 +8501,6 @@ export const IconMyChannelBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8906,8 +8524,6 @@ export const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8970,8 +8586,6 @@ export const IconOrdersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -8999,8 +8613,6 @@ export const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9039,8 +8651,6 @@ export const IconPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9086,8 +8696,6 @@ export const IconProductsHeartBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -9149,8 +8757,6 @@ export const IconProjectsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9186,8 +8792,6 @@ export const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9242,8 +8846,6 @@ export const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9342,8 +8944,6 @@ export const IconReelsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9363,8 +8963,6 @@ export const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9403,8 +9001,6 @@ export const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9455,8 +9051,6 @@ export const IconServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9492,8 +9086,6 @@ export const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9530,8 +9122,6 @@ export const IconGeneralSettingsBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -9594,8 +9184,6 @@ export const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9643,8 +9231,6 @@ export const IconSkillsCarouselBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -9758,8 +9344,6 @@ export const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9850,8 +9434,6 @@ export const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9902,8 +9484,6 @@ export const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9926,8 +9506,8 @@ IconStarBtn.displayName = "IconStarBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -10042,8 +9622,6 @@ export const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10063,8 +9641,6 @@ export const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10115,8 +9691,6 @@ export const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10138,8 +9712,6 @@ export const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10171,8 +9743,6 @@ export const IconMyJobsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10192,8 +9762,6 @@ export const IconTVBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10210,8 +9778,6 @@ export const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10239,8 +9805,6 @@ export const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10274,8 +9838,6 @@ export const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10311,8 +9873,6 @@ export const IconUsersOrganizersBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -10365,8 +9925,6 @@ export const IconUsersVSponsorsBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -10405,8 +9963,6 @@ export const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10440,8 +9996,6 @@ export const IconVHostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -10465,8 +10019,8 @@ IconVHostsBtn.displayName = "IconVHostsBtn";
 //     <svg
 //       {...props}
 //       ref={ref}
-//       width="currentWidth"
-//       height="currentHeight"
+//
+//
 //       viewBox="0 0 24 24"
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
@@ -10495,8 +10049,6 @@ export const IconWorkExperienceBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -10549,8 +10101,6 @@ export const IconYoutubeShortsBtn = React.forwardRef<
   <svg
     {...props}
     ref={ref}
-    width="currentWidth"
-    height="currentHeight"
     viewBox="0 0 16 20"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -10569,8 +10119,6 @@ export const IconCrownExclusive = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
