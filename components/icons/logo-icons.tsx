@@ -53,10 +53,10 @@ export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="23.4998"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_201"
@@ -66,10 +66,10 @@ export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.1937"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -99,16 +99,16 @@ export const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M20.5 15.3333V24.6666"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.834 20H25.1673"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -119,10 +119,10 @@ export const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -168,30 +168,30 @@ export const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M20.8333 6.25H6.25V20.8333H20.8333V6.25Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M43.7493 6.25H29.166V20.8333H43.7493V6.25Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M43.7493 29.167H29.166V43.7503H43.7493V29.167Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.8333 29.1671H6.25V43.7504H20.8333V29.1671Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -210,84 +210,84 @@ export const IconNews = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6857_202475)">
+      <g clipPath="url(#clip0_6857_202475)">
         <path
           d="M4.6875 17.1875H45.3125"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M9.57031 23.3398H21.2891"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M9.57031 29.1992H14.4531"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M35.5469 29.1992H40.4297"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M9.57031 35.0586H14.4531"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M35.5469 35.0586H40.4297"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M28.7109 23.3398H40.4297"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M14.0625 42.1875H4.6875V7.8125H45.3125V42.1875H35.9375"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M25 38.3782C26.4023 38.3782 27.5391 37.2414 27.5391 35.8391C27.5391 34.4368 26.4023 33.3 25 33.3C23.5977 33.3 22.4609 34.4368 22.4609 35.8391C22.4609 37.2414 23.5977 38.3782 25 38.3782Z"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M27.5391 33.3003V36.4741C27.5391 36.9791 27.7397 37.4635 28.0968 37.8206C28.454 38.1778 28.9383 38.3784 29.4434 38.3784C29.9484 38.3784 30.4328 38.1778 30.7899 37.8206C31.147 37.4635 31.3477 36.9791 31.3477 36.4741V35.8393C31.3476 34.4067 30.8628 33.0162 29.9723 31.894C29.0818 30.7717 27.8378 29.9838 26.4426 29.6582C25.0474 29.3326 23.5832 29.4885 22.2879 30.1006C20.9926 30.7128 19.9424 31.7451 19.3082 33.0297C18.674 34.3143 18.493 35.7757 18.7946 37.1762C19.0963 38.5767 19.8628 39.8341 20.9696 40.7437C22.0765 41.6533 23.4584 42.1618 24.8909 42.1864C26.3233 42.2111 27.722 41.7504 28.8594 40.8794"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -319,35 +319,35 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         height="47.5"
         rx="3.23718"
         stroke="currentColor"
-        stroke-width="2.5"
+        strokeWidth="2.5"
       />
       <path
         d="M6.28516 42.3484L8.98659 45.2737L11.688 42.3484"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23.8074 15.7706H7.9542C6.70341 15.7706 5.68945 16.8686 5.68945 18.2231V35.3903C5.68945 36.7447 6.70341 37.8427 7.9542 37.8427H23.8074C25.0582 37.8427 26.0722 36.7447 26.0722 35.3903V18.2231C26.0722 16.8686 25.0582 15.7706 23.8074 15.7706Z"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.9121 24.3508C12.8494 24.3508 13.6093 23.528 13.6093 22.5129C13.6093 21.4979 12.8494 20.675 11.9121 20.675C10.9747 20.675 10.2148 21.4979 10.2148 22.5129C10.2148 23.528 10.9747 24.3508 11.9121 24.3508Z"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M26.0567 30.4756L20.3994 24.3494L7.95312 37.8272"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <line
         x1="37.3574"
@@ -355,8 +355,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="43.5929"
         y2="5.68579"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <line
         x1="29.8691"
@@ -364,8 +364,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="42.7602"
         y2="15.9501"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <line
         x1="29.8691"
@@ -373,8 +373,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="42.7602"
         y2="21.3541"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <line
         x1="29.8691"
@@ -382,8 +382,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="42.7602"
         y2="26.7582"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <line
         x1="29.8691"
@@ -391,8 +391,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="36.1046"
         y2="43.8859"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <line
         x1="17.3887"
@@ -400,8 +400,8 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="23.6241"
         y2="43.8859"
         stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       <circle cx="4.86939" cy="5.22156" r="1.02564" fill="currentColor" />
       <circle cx="7.75806" cy="5.22156" r="1.02564" fill="currentColor" />
@@ -411,7 +411,7 @@ export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="33.3333"
         y2="8.08362"
         stroke="currentColor"
-        stroke-width="2.5"
+        strokeWidth="2.5"
       />
     </svg>
   )
@@ -433,7 +433,7 @@ export const IconTV = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M43.7513 4.16711L27.0846 18.7504H22.918L6.2513 4.16711M4.16797 18.7504H45.8346V45.8338H4.16797V18.7504Z"
         stroke="currentColor"
-        stroke-width="2.08333"
+        strokeWidth="2.08333"
       />
     </svg>
   )
@@ -480,10 +480,10 @@ export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_59"
@@ -493,10 +493,10 @@ export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_59"
@@ -506,10 +506,10 @@ export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -557,10 +557,10 @@ export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_111"
@@ -570,10 +570,10 @@ export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_111"
@@ -583,10 +583,10 @@ export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -634,10 +634,10 @@ export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_151"
@@ -647,10 +647,10 @@ export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_151"
@@ -660,10 +660,10 @@ export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -711,10 +711,10 @@ export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_177"
@@ -724,10 +724,10 @@ export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_177"
@@ -737,10 +737,10 @@ export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -788,10 +788,10 @@ export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_46"
@@ -801,10 +801,10 @@ export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_46"
@@ -814,10 +814,10 @@ export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -865,10 +865,10 @@ export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_98"
@@ -878,10 +878,10 @@ export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_98"
@@ -891,10 +891,10 @@ export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -942,10 +942,10 @@ export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_138"
@@ -955,10 +955,10 @@ export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_138"
@@ -968,10 +968,10 @@ export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1019,10 +1019,10 @@ export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_124"
@@ -1032,10 +1032,10 @@ export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_124"
@@ -1045,10 +1045,10 @@ export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1096,10 +1096,10 @@ export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_72"
@@ -1109,10 +1109,10 @@ export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_72"
@@ -1122,10 +1122,10 @@ export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1173,10 +1173,10 @@ export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_85"
@@ -1186,10 +1186,10 @@ export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_85"
@@ -1199,10 +1199,10 @@ export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1250,10 +1250,10 @@ export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_164"
@@ -1263,10 +1263,10 @@ export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="17.893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_17_164"
@@ -1276,10 +1276,10 @@ export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1340,10 +1340,10 @@ export const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="23.4998"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_17_190"
@@ -1353,10 +1353,10 @@ export const LogoVWhite = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.1937"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1393,10 +1393,10 @@ export const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="24.9998"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.344077" stop-color="#CD0D14" />
-          <stop offset="0.689254" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6639_198743"
@@ -1406,10 +1406,10 @@ export const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="21.6235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -1464,10 +1464,10 @@ export const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="19.9999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
-          <stop offset="0.333333" stop-color="#CD0D14" />
-          <stop offset="0.666667" stop-color="#A91D1E" />
-          <stop offset="1" stop-color="#812924" />
+          <stop stopColor="#FA4001" />
+          <stop offset="0.333333" stopColor="#CD0D14" />
+          <stop offset="0.666667" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
         </linearGradient>
       </defs>
     </svg>
@@ -1487,7 +1487,7 @@ export const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_197997)">
+      <g clipPath="url(#clip0_6862_197997)">
         <path
           d="M7.77373 1.13281C7.03154 1.91406 6.64092 2.69531 6.64092 3.47656C6.64092 4.53125 6.52373 4.6875 5.58623 4.6875C4.17998 4.6875 2.18779 5.89844 1.28936 7.30469C0.664355 8.28125 0.58623 9.6875 0.469042 24.2188C0.312792 46.1719 -0.50752 44.9219 14.1019 44.9219H23.3206L24.2581 45.9375C26.6019 48.4766 30.43 50 34.5315 50C39.0628 50 42.4222 48.5547 45.3519 45.4297C49.844 40.625 50.7425 33.9453 47.6175 28.0859C46.9144 26.8359 45.6253 25.0781 44.6878 24.2578L43.0472 22.6953L42.8909 15.5469C42.7737 8.78906 42.7347 8.32031 41.8753 7.10938C40.8206 5.66406 39.18 4.6875 37.7737 4.6875C36.9925 4.6875 36.7581 4.45312 36.5237 3.28125C35.7034 -1.13281 29.5315 -1.13281 28.7112 3.28125L28.4378 4.6875H21.68H14.9222L14.6878 3.35938C14.0628 0.078125 10.1175 -1.21094 7.77373 1.13281ZM6.64092 8.55469C6.64092 10.4297 6.91436 10.5469 10.8987 10.5469C14.2972 10.5469 14.844 10.2344 14.844 8.32031V7.03125H21.68H28.5159V8.32031C28.5159 10.2344 29.0628 10.5469 32.6175 10.5469C36.1722 10.5469 36.719 10.2344 36.719 8.28125C36.719 7.10938 36.7972 6.99219 37.6175 7.22656C39.5315 7.8125 40.2347 8.94531 40.2347 11.4062V13.6719H21.68H3.12529V11.4062C3.12529 9.10156 3.78936 7.92969 5.46904 7.30469C6.52373 6.91406 6.64092 7.03125 6.64092 8.55469ZM40.2347 18.7109V21.4062L38.3987 20.8594C35.1175 19.8828 30.6644 20.3516 27.3831 22.0703C25.43 23.0859 22.2269 26.4453 21.1331 28.6719C19.7269 31.5625 19.2581 35.6641 20.0003 38.5156C20.3128 39.7656 20.7034 41.1328 20.8987 41.4844C21.1722 42.1484 20.6253 42.1875 12.969 42.1875H4.72686L3.94561 41.1719C3.16436 40.1562 3.12529 39.6875 3.12529 28.0859V16.0156H21.68H40.2347V18.7109ZM38.8284 23.7109C41.6019 24.6094 44.9222 27.9688 46.094 31.0547C49.3753 39.9219 41.094 49.4531 31.9925 47.2656C22.4222 44.9609 19.0237 33.4375 25.8987 26.5625C27.8519 24.5703 29.2581 23.8281 32.0315 23.2031C34.3753 22.6953 35.8987 22.8125 38.8284 23.7109Z"
           fill="currentColor"
@@ -1544,7 +1544,7 @@ const IconCourse = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6857_203774)">
+      <g clipPath="url(#clip0_6857_203774)">
         <path
           d="M20.8984 1.79664C13.9453 5.42945 7.96875 8.7107 7.46094 9.17945C7.14844 9.49195 6.875 10.3513 6.875 11.1326C6.83594 12.4607 6.79688 12.4998 5.35156 12.4998C4.29688 12.4998 3.59375 12.7732 2.92969 13.4763L1.95312 14.4138V28.3201V42.1873H0.976562C0.0390625 42.1873 0 42.3044 0 44.3357C0 46.7966 0.703125 48.1638 2.38281 49.0623C4.02344 49.8826 45.9766 49.8826 47.6172 49.0623C49.2969 48.1638 50 46.7966 50 44.3357C50 42.3044 49.9609 42.1873 49.0234 42.1873H48.0469V28.3201V14.4138L47.0703 13.4763C46.4062 12.7732 45.7031 12.4998 44.6484 12.4998C43.2031 12.4998 43.1641 12.4607 43.125 11.0545C43.0859 9.25758 42.6953 8.94508 36.4453 5.66383C31.9141 3.28101 31.4844 3.12476 30.8984 3.7107C30.0781 4.53101 30.1562 4.57008 36.3672 7.85133C38.9844 9.21851 41.1719 10.5857 41.2891 10.8591C41.6406 11.6795 40.7031 12.3826 36.0547 14.8435L31.5625 17.1873L29.7656 15.156C25.7812 10.6638 25.1172 10.0388 24.6875 10.3123C23.75 10.8982 24.2969 11.992 26.9531 14.9998L29.6875 18.0857L28.0469 19.0623C25.3125 20.6638 24.4141 20.4294 16.6797 16.3279C9.375 12.4216 8.35938 11.7185 8.67188 10.8591C8.98438 10.156 23.8672 2.34351 24.9609 2.34351C25.4297 2.34351 26.5234 2.69508 27.4219 3.16383C28.8672 3.90601 29.0625 3.90601 29.6094 3.35914C30.3516 2.65601 30.1172 2.38258 27.9297 1.2107C25.7031 0.038826 24.0625 0.156013 20.8984 1.79664ZM9.76562 14.8435L11.1328 15.5857L8.59375 15.6248C7.10938 15.6248 5.82031 15.8201 5.54688 16.0935C5 16.6404 4.88281 39.2966 5.42969 40.156C5.625 40.5076 6.48438 40.6248 8.24219 40.5466C10.4297 40.4294 10.7422 40.3513 10.7422 39.6482C10.7422 38.9841 10.4297 38.8669 8.90625 38.7498L7.03125 38.6326V28.0857V17.5779H10.1562H13.2812V19.6091C13.3203 22.3826 14.4141 24.6873 16.2891 25.9373C19.0234 27.7341 25.2344 28.6326 29.0234 27.7732C29.8438 27.5779 30.4688 27.5388 30.3906 27.656C30.3125 27.8123 29.8438 28.7888 29.2969 29.8044C28.3984 31.5623 28.3984 31.7576 28.9453 32.7341C29.375 33.5544 29.8828 33.8279 31.0156 33.906C33.75 34.1404 34.8438 31.9529 33.2031 29.4919C32.0703 27.7732 32.2266 26.8748 33.8281 25.8591C35.5859 24.7263 36.6797 22.3044 36.7188 19.6091V17.5779H39.8438H42.9688V28.1248V38.6716L27.6562 38.7498C12.6172 38.8669 12.3047 38.8669 12.3047 39.6482C12.3047 40.4294 12.6172 40.4294 28.2812 40.5466C40.8203 40.6248 44.3359 40.5466 44.6094 40.156C45.1172 39.2966 45 16.6404 44.4531 16.0935C44.1797 15.8201 42.8906 15.6248 41.4062 15.6248L38.8672 15.5857L40.2344 14.8435C41.875 13.9451 44.4531 13.8279 45.5469 14.6091C46.25 15.156 46.2891 15.8201 46.4062 28.6716L46.5234 42.1873H25H3.47656L3.59375 28.6716C3.71094 15.8201 3.75 15.156 4.45312 14.6091C5.54688 13.8279 8.125 13.9451 9.76562 14.8435ZM19.4922 19.9998C24.0234 22.4216 25.8203 22.6169 28.6328 20.9763L30.4688 19.8826V22.6169V25.3513L29.0234 25.7419C25.7031 26.6794 19.8047 25.9373 17.3047 24.3357C16.7969 23.9841 16.0938 23.2029 15.7812 22.6169C15.2344 21.5232 15 17.9685 15.5078 17.9685C15.625 17.9685 17.4219 18.8669 19.4922 19.9998ZM19.6875 45.5076L20.9766 46.8748H25H29.0234L30.3125 45.5076L31.6016 44.1404H40C45.625 44.1404 48.4375 44.2576 48.4375 44.531C48.4375 45.3123 47.3047 47.1873 46.6797 47.4216C45.8203 47.7341 4.17969 47.7341 3.32031 47.4216C2.69531 47.1873 1.5625 45.3123 1.5625 44.531C1.5625 44.2576 4.375 44.1404 10 44.1404H18.3984L19.6875 45.5076Z"
           fill="currentColor"
@@ -1576,7 +1576,7 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_197959)">
+      <g clipPath="url(#clip0_6862_197959)">
         <mask id="path-1-inside-1_6862_197959" fill="currentColor">
           <path d="M8.59375 50.0001H41.4062C42.6984 50.0001 43.75 48.9486 43.75 47.6564V2.34387C43.75 1.05168 42.6984 0.00012207 41.4062 0.00012207H8.59375C7.30156 0.00012207 6.25 1.05168 6.25 2.34387V47.6564C6.25 48.9486 7.30156 50.0001 8.59375 50.0001ZM7.8125 2.34387C7.8125 1.91262 8.1625 1.56262 8.59375 1.56262H41.4062C41.8375 1.56262 42.1875 1.91262 42.1875 2.34387V47.6564C42.1875 48.0876 41.8375 48.4376 41.4062 48.4376H8.59375C8.1625 48.4376 7.8125 48.0876 7.8125 47.6564V2.34387Z" />
         </mask>
@@ -1599,8 +1599,8 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="37.5208"
           y2="12.8958"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
         />
         <line
           x1="20.4167"
@@ -1608,8 +1608,8 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="29.5833"
           y2="6.83358"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
         />
         <line
           x1="12.7292"
@@ -1617,8 +1617,8 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="37.5208"
           y2="19.1458"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
         />
         <line
           x1="12.7292"
@@ -1626,8 +1626,8 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="26.2708"
           y2="25.3958"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
         />
         <line
           x1="12.7292"
@@ -1635,8 +1635,8 @@ export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="26.2708"
           y2="31.6458"
           stroke="currentColor"
-          stroke-width="2.08333"
-          stroke-linecap="round"
+          strokeWidth="2.08333"
+          strokeLinecap="round"
         />
       </g>
       <defs>
@@ -1661,7 +1661,7 @@ export const IconGear = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_197977)">
+      <g clipPath="url(#clip0_6862_197977)">
         <path
           d="M18.0879 0.742432C9.5332 3.20337 2.81445 10.0784 0.626953 18.594C-0.193359 21.7581 -0.193359 28.2424 0.626953 31.3674C1.21289 33.594 2.89258 37.344 4.25976 39.4534C4.68945 40.1174 4.8457 41.0159 4.76758 42.4612C4.65039 44.3362 4.72851 44.6487 5.7832 45.7034C6.75976 46.6799 7.30664 46.8752 8.79101 46.8752C10.2754 46.8752 10.8223 46.6799 11.7598 45.7424C12.6582 44.8049 12.8926 44.2581 12.8926 42.8127C12.8926 40.1565 11.6816 38.9456 8.75195 38.6721L6.48633 38.4768L5.04101 35.7424C4.2207 34.219 3.2832 31.9534 2.9707 30.6643C2.18945 27.6956 2.18945 22.3049 2.93164 19.3752C4.92383 11.719 11.291 5.27368 19.1426 2.96899C21.0566 2.38306 25.0019 2.18774 29.4941 2.46118C30.8613 2.53931 31.3691 1.32837 30.2363 0.508057C29.1816 -0.273193 21.1348 -0.116943 18.0879 0.742432Z"
           fill="currentColor"
@@ -1701,7 +1701,7 @@ export const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_198011)">
+      <g clipPath="url(#clip0_6862_198011)">
         <path
           d="M27.1852 0H22.816C10.8081 0 1.03906 9.76903 1.03906 21.777V22.658V29.1943V33.5352C1.03906 34.2093 1.58549 34.7555 2.25931 34.7555H2.7474H4.09089V35.6148C4.09089 36.2888 4.63732 36.835 5.31114 36.835H7.52564C9.715 36.835 11.4961 35.054 11.4961 32.8646V23.3284C11.4961 21.139 9.715 19.358 7.52564 19.358H5.31114C4.63732 19.358 4.09089 19.9041 4.09089 20.5782V21.4377H3.48809C3.6704 10.9322 12.2675 2.44049 22.816 2.44049H27.1852C37.7335 2.44049 46.3309 10.9322 46.5132 21.438H45.9104V20.5782C45.9104 19.9041 45.364 19.358 44.6901 19.358H42.4759C40.2865 19.358 38.5054 21.139 38.5054 23.3284V32.8651C38.5054 35.0545 40.2865 36.8355 42.4759 36.8355H44.6901C45.0281 36.8355 45.3339 36.6979 45.5548 36.4758V39.1096C45.5548 42.6422 42.6809 45.5159 39.1485 45.5159H31.8932C31.4088 44.3193 30.2363 43.4719 28.868 43.4719H25.5733C23.7734 43.4719 22.3091 44.9362 22.3091 46.7361C22.3091 48.536 23.7734 50.0003 25.5733 50.0003H28.868C30.2363 50.0003 31.4088 49.1529 31.8932 47.9563H39.1485C44.0266 47.9563 47.9953 43.9876 47.9953 39.1096V34.7289C48.5476 34.6122 48.9622 34.1227 48.9622 33.5357V29.1948V22.6582V21.7772C48.9622 9.76903 39.1932 0 27.1852 0Z"
           fill="currentColor"
@@ -1732,23 +1732,23 @@ export const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M25.0013 4.16675L4.16797 14.5834L25.0013 25.0001L45.8346 14.5834L25.0013 4.16675Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.16797 35.4167L25.0013 45.8334L45.8346 35.4167"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.16797 25L25.0013 35.4167L45.8346 25"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -1767,7 +1767,7 @@ export const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_197920)">
+      <g clipPath="url(#clip0_6862_197920)">
         <path
           d="M17.0321 0.859367C16.1728 2.0703 16.2509 3.35937 17.1884 4.29687C17.8525 4.96093 18.4775 5.07812 21.8759 5.07812C25.4696 5.07812 25.7821 5.15624 25.7821 5.8203C25.7821 6.24999 25.4306 6.71874 25.0009 6.83593C23.9853 7.14843 23.0478 8.98437 23.0478 10.625C23.0478 11.6406 22.7743 12.1094 21.7196 12.8125C18.4775 15.0391 17.1884 18.5547 17.1884 25.2734V29.6875H11.915C6.79777 29.6875 6.56339 29.7266 5.66495 30.6641C4.92276 31.3672 4.68839 32.0312 4.68839 33.3984C4.68839 34.6484 4.33683 35.7812 3.43839 37.3828C2.42276 39.1406 2.18839 40.0391 2.18839 41.9531C2.14933 44.9609 3.39933 47.6562 5.39152 49.0234L6.83683 50H25.8603H44.8837L45.4696 49.1406C45.8603 48.5547 46.0946 47.3828 46.0946 45.8203C46.0946 44.4922 46.6415 37.6172 47.2665 30.5859C48.7509 14.6484 49.1415 15.8594 42.2665 15.7031L37.54 15.5859L36.7196 14.4531C36.2509 13.8281 35.3915 13.0078 34.7665 12.6172C33.829 12.0703 33.5946 11.6797 33.5946 10.625C33.5946 8.98437 32.6571 7.14843 31.6415 6.83593C30.7431 6.56249 30.5868 5.15624 31.4071 4.84374C32.4228 4.45312 32.9306 2.53905 32.3446 1.28905L31.8368 0.195305L24.7275 0.0781174C17.7743 -7.62939e-06 17.6181 -7.62939e-06 17.0321 0.859367ZM33.2431 14.2187L34.9618 15.3906L33.6728 15.7031C31.4462 16.2891 31.4462 16.5625 32.7743 31.0937C33.4384 38.3594 33.9853 45.1562 33.9853 46.1719V48.0469H29.8837H25.7431L26.6415 46.875C28.4384 44.4141 27.9306 38.0859 25.7821 36.1328C25.1571 35.5859 25.0009 34.9219 25.0009 33.2031C25.0009 30.4687 24.5712 30 21.6415 29.7656L19.5321 29.6094V24.5312C19.5321 19.7266 19.6103 19.3359 20.5868 17.5C21.5243 15.7812 23.5946 13.9062 25.3915 13.1641C25.704 13.0078 27.2275 12.9687 28.7509 13.0078C31.0556 13.0859 31.7978 13.2812 33.2431 14.2187ZM46.0165 18.8281L46.1337 19.9219H40.04C33.6728 19.9219 33.1259 19.7656 33.7509 18.1641C33.9462 17.6562 34.8837 17.5781 39.9228 17.6562L45.8993 17.7734L46.0165 18.8281ZM45.8603 23.125C45.665 24.7266 44.1415 41.5234 44.1415 42.3828C44.1415 42.8516 43.4775 42.9687 40.079 42.9687H36.0165L35.7821 41.0937C35.665 40.0781 35.2743 36.1719 34.9618 32.4219C34.6493 28.6719 34.2587 24.7656 34.1415 23.7109L33.9071 21.875H39.9618H46.0556L45.8603 23.125ZM23.0478 33.3984V34.7656H17.4228C12.6571 34.7656 11.7587 34.8437 11.5634 35.3906C11.4462 35.7422 11.4071 36.1719 11.5634 36.3672C11.6806 36.5625 14.454 36.7187 17.7353 36.7187H23.7118L24.7275 38.6328C26.0165 40.9766 26.0946 43.3984 24.9618 45.3125C23.3603 48.0078 23.2821 48.0469 15.0009 48.0469C7.93058 48.0469 7.46183 48.0078 6.4462 47.1875C4.18058 45.4297 3.6337 41.6016 5.1962 38.6328C6.01652 37.1484 6.32902 36.875 7.65714 36.7187C8.86808 36.5625 9.18058 36.3672 9.18058 35.7422C9.18058 35.1953 8.86808 34.9219 8.12589 34.8437C7.14933 34.7266 7.03214 34.5312 7.03214 33.3594V32.0312H15.04H23.0478V33.3984Z"
           fill="currentColor"
@@ -1799,7 +1799,7 @@ export const IconStore = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6857_202780)">
+      <g clipPath="url(#clip0_6857_202780)">
         <path
           d="M10.4388 5.80192C10.899 5.80192 11.2721 5.42882 11.2721 4.96859C11.2721 4.50835 10.899 4.13525 10.4388 4.13525C9.97856 4.13525 9.60547 4.50835 9.60547 4.96859C9.60547 5.42882 9.97856 5.80192 10.4388 5.80192Z"
           fill="currentColor"
@@ -1918,16 +1918,16 @@ export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M47.9173 14.5833L33.334 24.9999L47.9173 35.4166V14.5833Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M29.1673 10.4166H6.25065C3.94946 10.4166 2.08398 12.2821 2.08398 14.5833V35.4166C2.08398 37.7178 3.94946 39.5833 6.25065 39.5833H29.1673C31.4685 39.5833 33.334 37.7178 33.334 35.4166V14.5833C33.334 12.2821 31.4685 10.4166 29.1673 10.4166Z"
         stroke="currentColor"
-        stroke-width="2.08333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.08333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -1946,7 +1946,7 @@ export const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6862_198005)">
+      <g clipPath="url(#clip0_6862_198005)">
         <path
           d="M6.96057 28.3539H43.0394C43.5626 28.3539 43.9868 27.9297 43.9868 27.4065V5.40319C43.9868 4.87999 43.5626 4.45579 43.0394 4.45579H6.96057C6.43736 4.45579 6.01316 4.87999 6.01316 5.40319V27.4065C6.01316 27.9297 6.43725 28.3539 6.96057 28.3539ZM7.90797 6.35059H42.092V26.4591H7.90797V6.35059ZM26.9014 37.1348H23.0991C19.9864 37.1348 17.454 39.6672 17.454 42.78V48.2825C17.454 48.8057 17.8782 49.2299 18.4014 49.2299H31.5988C32.122 49.2299 32.5462 48.8057 32.5462 48.2825V42.78C32.5462 39.6672 30.014 37.1348 26.9014 37.1348ZM30.6514 47.3351H19.3488V42.78C19.3488 40.7121 21.0312 39.0296 23.0991 39.0296H26.9014C28.9692 39.0296 30.6514 40.7121 30.6514 42.78V47.3351ZM21.475 1.71803C21.475 1.19483 21.8992 0.77063 22.4224 0.77063H27.5776C28.1008 0.77063 28.525 1.19483 28.525 1.71803C28.525 2.24124 28.1008 2.66543 27.5776 2.66543H22.4224C21.8991 2.66543 21.475 2.24124 21.475 1.71803ZM0 34.401C0 33.8778 0.424199 33.4536 0.947403 33.4536H4.28179C4.2806 33.4337 4.27989 33.4137 4.27989 33.3936C4.27989 32.8704 4.70409 32.4462 5.22729 32.4462H10.3825C10.9057 32.4462 11.3299 32.8704 11.3299 33.3936C11.3299 33.4137 11.3293 33.4337 11.328 33.4536H21.4767C21.4755 33.4337 21.4748 33.4137 21.4748 33.3936C21.4748 32.8704 21.899 32.4462 22.4222 32.4462H27.5774C28.1006 32.4462 28.5248 32.8704 28.5248 33.3936C28.5248 33.4137 28.5242 33.4337 28.5229 33.4536H38.6718C38.6706 33.4337 38.6699 33.4137 38.6699 33.3936C38.6699 32.8704 39.0941 32.4462 39.6173 32.4462H44.7725C45.2957 32.4462 45.7199 32.8704 45.7199 33.3936C45.7199 33.4137 45.7193 33.4337 45.718 33.4536H49.0521C49.5753 33.4536 49.9995 33.8778 49.9995 34.401C49.9995 34.9242 49.5753 35.3484 49.0521 35.3484H0.947403C0.424199 35.3484 0 34.9242 0 34.401ZM9.70614 37.1348H5.90386C2.79117 37.1348 0.258759 39.6672 0.258759 42.78V48.2825C0.258759 48.8057 0.682959 49.2299 1.20616 49.2299H14.4037C14.9269 49.2299 15.3511 48.8057 15.3511 48.2825V42.78C15.3511 39.6672 12.8188 37.1348 9.70614 37.1348ZM13.4563 47.3351H2.15356V42.78C2.15356 40.7121 3.83591 39.0296 5.90386 39.0296H9.70614C11.774 39.0296 13.4563 40.7121 13.4563 42.78V47.3351ZM44.0964 37.1348H40.2941C37.1814 37.1348 34.649 39.6672 34.649 42.78V48.2825C34.649 48.8057 35.0732 49.2299 35.5964 49.2299H48.794C49.3172 49.2299 49.7414 48.8057 49.7414 48.2825V42.78C49.7414 39.6672 47.2091 37.1348 44.0964 37.1348ZM47.8466 47.3351H36.5438V42.78C36.5438 40.7121 38.2262 39.0296 40.2941 39.0296H44.0964C46.1642 39.0296 47.8466 40.7121 47.8466 42.78V47.3351Z"
           fill="currentColor"
@@ -1976,7 +1976,7 @@ export const IconSponsorMegaphone = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_6862_198013)">
+    <g clipPath="url(#clip0_6862_198013)">
       <path
         d="M10.4002 1.07434C8.01742 1.59192 6.02523 2.66614 4.34554 4.34582C2.5975 6.09387 1.48421 8.22278 1.02523 10.6935C0.771323 12.0118 0.859214 14.463 1.20101 15.7325C2.33382 20.0392 5.49789 23.213 9.83382 24.3849C10.7225 24.629 10.9276 24.6486 12.7928 24.6486C14.658 24.6486 14.8631 24.629 15.7518 24.3849C20.0877 23.213 23.2127 20.0782 24.3944 15.7325C24.6287 14.8634 24.6483 14.6486 24.6483 12.7931C24.6483 10.9376 24.6287 10.7228 24.3944 9.85364C23.2127 5.50793 20.0584 2.34387 15.7518 1.20129C14.9315 0.986448 14.5506 0.947386 13.0369 0.918089C11.5721 0.888792 11.1327 0.918089 10.4002 1.07434ZM14.7362 2.50012C18.8768 3.24231 22.2948 6.65051 23.0858 10.84C23.2811 11.8654 23.2811 13.7208 23.0858 14.7462C22.2948 18.9357 18.9354 22.2853 14.7362 23.0958C13.6815 23.2911 11.9041 23.2911 10.8494 23.0958C6.65023 22.2853 3.29085 18.9357 2.49984 14.7462C2.30453 13.7111 2.30453 11.8654 2.49984 10.84C3.35921 6.27942 7.285 2.72473 11.8651 2.3634C12.9393 2.27551 13.6717 2.31457 14.7362 2.50012Z"
         fill="currentColor"
@@ -2037,16 +2037,16 @@ export const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M24.5 17.3335C24.5 16.2726 24.0786 15.2552 23.3284 14.5051C22.5783 13.7549 21.5609 13.3335 20.5 13.3335C19.4391 13.3335 18.4217 13.7549 17.6716 14.5051C16.9214 15.2552 16.5 16.2726 16.5 17.3335C16.5 22.0002 14.5 23.3335 14.5 23.3335H26.5C26.5 23.3335 24.5 22.0002 24.5 17.3335Z"
         stroke="currentColor"
-        stroke-width="0.685714"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="0.685714"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21.6524 26C21.5352 26.2021 21.3669 26.3698 21.1645 26.4864C20.9621 26.6029 20.7326 26.6643 20.499 26.6643C20.2655 26.6643 20.036 26.6029 19.8336 26.4864C19.6311 26.3698 19.4629 26.2021 19.3457 26"
         stroke="currentColor"
-        stroke-width="0.685714"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="0.685714"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -2057,10 +2057,10 @@ export const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.0012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -2083,14 +2083,14 @@ export const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13.334 4.66667H2.66732C1.93094 4.66667 1.33398 5.26363 1.33398 6.00001V12.6667C1.33398 13.4031 1.93094 14 2.66732 14H13.334C14.0704 14 14.6673 13.4031 14.6673 12.6667V6.00001C14.6673 5.26363 14.0704 4.66667 13.334 4.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.6673 14V3.33333C10.6673 2.97971 10.5268 2.64057 10.2768 2.39052C10.0267 2.14048 9.68761 2 9.33398 2H6.66732C6.3137 2 5.97456 2.14048 5.72451 2.39052C5.47446 2.64057 5.33398 2.97971 5.33398 3.33333V14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -2109,7 +2109,7 @@ export const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_56927)">
+      <g clipPath="url(#clip0_4615_56927)">
         <path
           d="M10.0057 5.13089C8.89982 4.49285 7.11333 4.49285 6.01395 5.13089C4.91457 5.76892 4.92111 6.80613 6.02704 7.44416C7.13296 8.0822 8.91945 8.0822 10.0188 7.44416C11.1182 6.80286 11.1117 5.76892 10.0057 5.13089ZM9.49859 6.13538C9.4037 6.16483 9.30881 6.19755 9.21393 6.22699C9.15503 6.24335 9.11904 6.24662 9.09286 6.23354C9.07978 6.22372 9.06669 6.21063 9.0536 6.191C8.99143 6.08957 8.89655 6.00123 8.76894 5.92924C8.75258 5.91943 8.73295 5.90961 8.71332 5.8998C8.67078 5.87689 8.63152 5.86053 8.57917 5.84745C8.39594 5.80491 8.23234 5.87362 8.25524 5.98814C8.26506 6.04704 8.29778 6.09939 8.33704 6.15501C8.40248 6.24662 8.47446 6.33824 8.52027 6.4364C8.67405 6.74396 8.34031 7.04826 7.80371 7.0777C7.61067 7.08752 7.42744 7.06462 7.25729 7.00899C7.18204 6.98609 7.12642 6.98609 7.07079 7.02535C7.01517 7.06134 6.953 7.09406 6.89411 7.12678C6.84175 7.15623 6.78613 7.1595 6.73378 7.13005C6.69452 7.11042 6.65852 7.08752 6.61926 7.06789C6.59309 7.05153 6.56691 7.03844 6.54073 7.02208C6.48511 6.98936 6.49165 6.95664 6.54401 6.92392C6.58654 6.89775 6.62908 6.87484 6.66834 6.84867C6.76323 6.79304 6.76323 6.78977 6.6847 6.7276C6.58654 6.64908 6.4982 6.56728 6.44257 6.47566C6.40004 6.40368 6.40985 6.38732 6.52437 6.34806C6.60944 6.32188 6.69124 6.29243 6.77632 6.26626C6.83848 6.24662 6.87447 6.24335 6.90065 6.25644C6.91701 6.26626 6.92683 6.27934 6.93991 6.30225C6.99554 6.40695 7.09042 6.49857 7.20494 6.58691C7.22457 6.60327 7.24748 6.61636 7.26711 6.62944C7.32928 6.66544 7.40126 6.69161 7.48306 6.71124C7.69574 6.76032 7.88551 6.67525 7.86588 6.5411C7.85933 6.49529 7.83643 6.45603 7.80698 6.4135C7.735 6.30552 7.64011 6.20409 7.59103 6.08957C7.51251 5.90634 7.5485 5.73947 7.80044 5.60859C8.08837 5.46135 8.40903 5.45154 8.74931 5.54315C8.89 5.58242 8.88673 5.58242 8.99471 5.52025C9.0307 5.49735 9.06669 5.47771 9.10268 5.45808C9.18448 5.41227 9.21393 5.41227 9.29573 5.45808C9.3219 5.47117 9.34481 5.48753 9.37098 5.50062C9.5444 5.59878 9.5444 5.59878 9.37425 5.70021C9.25319 5.76892 9.25319 5.76892 9.35462 5.85072C9.43315 5.91288 9.49532 5.97832 9.54112 6.05031C9.57712 6.0863 9.56403 6.11575 9.49859 6.13538ZM11.4814 8.28833C11.1771 8.46502 10.683 8.46502 10.3755 8.28833C10.0712 8.11164 10.0679 7.82371 10.3722 7.64703C10.6765 7.47034 11.1706 7.47034 11.4781 7.64703C11.7857 7.82371 11.789 8.11164 11.4814 8.28833ZM5.6573 4.92475C5.35301 5.10144 4.85894 5.10144 4.55138 4.92475C4.24382 4.74807 4.24382 4.46013 4.54811 4.28345C4.8524 4.10676 5.34647 4.10676 5.65403 4.28345C5.95832 4.46013 5.9616 4.74807 5.6573 4.92475ZM15.6204 6.91738L6.90065 1.88183C6.39677 1.59062 5.57878 1.59062 5.07817 1.88183L0.40253 4.59756C-0.09808 4.88876 -0.094808 5.36319 0.409074 5.6544L9.12886 10.69C9.63274 10.9812 10.4507 10.9812 10.9513 10.69L15.6237 7.97422C16.1276 7.68302 16.1243 7.20858 15.6204 6.91738ZM11.0462 9.73127C10.9906 9.67892 10.9252 9.62984 10.8466 9.58403C10.3362 9.28955 9.5084 9.28955 9.00125 9.58403C8.96199 9.60693 8.92927 9.62984 8.89328 9.65601L2.12358 5.74601C2.18902 5.71984 2.25119 5.69039 2.31009 5.65767C2.81724 5.36319 2.81397 4.88549 2.30354 4.59101C2.24792 4.55829 2.18902 4.52884 2.12686 4.50594L4.91784 2.88305C4.96038 2.91904 5.00946 2.95176 5.06508 2.98448C5.5755 3.27895 6.40331 3.27895 6.91047 2.98448C6.96936 2.95176 7.01844 2.91577 7.06425 2.8765L13.8568 6.79631C13.7652 6.82903 13.6834 6.86503 13.6049 6.91083C13.0977 7.20531 13.0977 7.68629 13.6114 7.98077C13.69 8.02657 13.7783 8.06256 13.8699 8.09528L11.0462 9.73127ZM0.180037 6.66216C0.40253 6.54765 0.746087 6.56401 0.958764 6.68834L10.0745 11.9497L15.002 9.08342C15.2147 8.95908 15.5648 8.95908 15.7808 9.08342C15.9967 9.20775 15.9967 9.41061 15.784 9.53495L10.5456 12.5779C10.2904 12.7284 9.87159 12.7284 9.61311 12.5779L9.42988 12.4732L9.30227 12.3979L0.163677 7.12351C-0.0588165 6.9959 -0.0555445 6.78323 0.180037 6.66216ZM15.7906 11.1807L10.5522 14.2237C10.2969 14.3742 9.87814 14.3742 9.61965 14.2237L9.43969 14.119L9.30882 14.0437L0.170221 8.76931C-0.0522725 8.6417 -0.0457286 8.42902 0.189853 8.30796C0.409074 8.19344 0.755902 8.2098 0.96858 8.33414L10.081 13.5955L15.0086 10.7325C15.2245 10.6082 15.5714 10.6082 15.7873 10.7325C16.0033 10.8536 16.0065 11.0564 15.7906 11.1807Z"
           fill="currentColor"
@@ -2137,7 +2137,7 @@ export const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4749_92360)">
+      <g clipPath="url(#clip0_4749_92360)">
         <path
           d="M14.8838 16H1.11602C0.955952 16 0.826172 15.8702 0.826172 15.7102V3.04349C0.826172 2.92495 0.898344 2.81843 1.00841 2.77437L7.89232 0.0206639C7.98159 -0.014915 8.08282 -0.00411813 8.16245 0.0497212C8.24216 0.103633 8.28984 0.193559 8.28984 0.289788V5.80394L14.7763 3.20921C14.8656 3.17364 14.9668 3.18436 15.0464 3.23827C15.1261 3.29218 15.1738 3.38211 15.1738 3.47834V15.7102C15.1737 15.8702 15.0439 16 14.8838 16ZM8.28977 15.4203H14.594V3.90645L8.28977 6.42827V15.4203ZM1.40587 15.4203H7.71007V0.717894L1.40587 3.23972V15.4203ZM13.3863 14.6253C13.2262 14.6253 13.0964 14.4955 13.0964 14.3354V11.7541H11.7317V14.3354C11.7317 14.4955 11.6019 14.6253 11.4419 14.6253C11.2818 14.6253 11.152 14.4955 11.152 14.3354V11.7541H9.78735V14.3354C9.78735 14.4955 9.65757 14.6253 9.4975 14.6253C9.33743 14.6253 9.20765 14.4955 9.20765 14.3354V7.57238C9.20765 7.41231 9.33743 7.28253 9.4975 7.28253C9.65757 7.28253 9.78735 7.41231 9.78735 7.57238V8.66829H11.152V6.65457C11.152 6.4945 11.2818 6.36472 11.4419 6.36472C11.6019 6.36472 11.7317 6.4945 11.7317 6.65457V8.66829H13.0964V5.96009C13.0964 5.80003 13.2262 5.67025 13.3863 5.67025C13.5463 5.67025 13.6761 5.80003 13.6761 5.96009V14.3354C13.6761 14.4955 13.5463 14.6253 13.3863 14.6253ZM11.7317 11.1744H13.0964V9.24799H11.7317V11.1744ZM9.78735 11.1744H11.152V9.24799H9.78735V11.1744ZM6.50235 14.6253C6.34228 14.6253 6.2125 14.4955 6.2125 14.3354V11.739H4.84782V14.3354C4.84782 14.4955 4.71804 14.6253 4.55797 14.6253C4.3979 14.6253 4.26812 14.4955 4.26812 14.3354V11.739H2.90344V14.3354C2.90344 14.4955 2.77366 14.6253 2.6136 14.6253C2.45353 14.6253 2.32375 14.4955 2.32375 14.3354V4.46853C2.32375 4.30847 2.45353 4.17869 2.6136 4.17869C2.77366 4.17869 2.90344 4.30847 2.90344 4.46853V6.14719H4.26812V3.5508C4.26812 3.39073 4.3979 3.26095 4.55797 3.26095C4.71804 3.26095 4.84782 3.39073 4.84782 3.5508V6.14719H6.2125V2.85625C6.2125 2.69618 6.34228 2.5664 6.50235 2.5664C6.66242 2.5664 6.7922 2.69618 6.7922 2.85625V14.3354C6.7922 14.4955 6.66242 14.6253 6.50235 14.6253ZM4.84782 11.1593H6.2125V9.23292H4.84782V11.1593ZM2.90344 11.1593H4.26812V9.23292H2.90344V11.1593ZM4.84782 8.65322H6.2125V6.72689H4.84782V8.65322ZM2.90344 8.65322H4.26812V6.72689H2.90344V8.65322Z"
           fill="currentColor"
@@ -2165,7 +2165,7 @@ export const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7822_108338)">
+      <g clipPath="url(#clip0_7822_108338)">
         <mask id="path-1-inside-1_7822_108338" fill="currentColor">
           <path d="M19.125 3.1752C16.7391 3.83614 13.0641 4.75957 11.2407 5.16739C8.80315 5.70645 6.71253 5.93145 2.62503 6.08145C1.88909 6.10958 1.20472 6.15645 1.10159 6.17989C0.825029 6.25489 0.492216 6.48458 0.309404 6.72832C-0.00934607 7.16426 2.89352e-05 7.0752 2.89352e-05 10.3471C2.89352e-05 13.619 -0.00934607 13.5299 0.309404 13.9658C0.492216 14.2096 0.825029 14.444 1.10159 14.5096C1.20472 14.5377 1.59378 14.5705 1.96878 14.5893L2.64847 14.6221L4.02659 17.2471C4.78597 18.6908 5.4844 19.9893 5.57815 20.1393C6.44065 21.4752 8.46097 21.6627 9.6094 20.519C10.1203 20.008 10.4016 19.333 10.4063 18.6158C10.4063 18.0721 10.2703 17.7018 9.56253 16.3611C9.20159 15.6768 8.91097 15.1049 8.92034 15.1002C8.95315 15.0674 10.3219 15.3252 11.461 15.5783C12.8485 15.8877 15.7969 16.6236 18.1875 17.2611C19.7625 17.683 19.9219 17.7158 20.2313 17.6971C20.7797 17.6596 21.2157 17.3549 21.4782 16.8205C21.5813 16.6143 21.586 16.5393 21.6 15.3815L21.6141 14.1533L21.9235 13.9752C22.6453 13.5486 23.2078 12.9486 23.5782 12.1986C23.8922 11.5611 24 11.0924 24 10.3471C24 9.60176 23.8922 9.12833 23.5782 8.49551C23.2078 7.74082 22.6782 7.17364 21.9422 6.7377L21.6141 6.54082L21.6 5.31739C21.586 4.15489 21.5813 4.07989 21.4782 3.87364C21.3235 3.55957 21.0891 3.30645 20.8078 3.15176C20.6016 3.03926 20.4891 3.01583 20.1797 3.00176C19.861 2.99239 19.7016 3.01583 19.125 3.1752ZM20.4141 3.97207C20.7328 4.16895 20.7094 3.75176 20.7282 10.3236C20.7422 16.0471 20.7375 16.2815 20.6532 16.4502C20.55 16.6611 20.3203 16.8158 20.1141 16.8158C20.0297 16.8158 19.7813 16.7643 19.5563 16.7033C17.6344 16.1643 13.3172 15.0721 11.7657 14.7299C11.3391 14.6361 10.9547 14.5518 10.9125 14.5377C10.8328 14.5143 10.8282 14.2752 10.8282 10.3471C10.8282 6.41895 10.8328 6.17989 10.9125 6.15645C10.9547 6.14239 11.3391 6.05801 11.7657 5.96426C13.336 5.61739 18.2063 4.38457 19.5938 3.97676C20.0016 3.85958 20.2266 3.85489 20.4141 3.97207ZM9.93753 10.3471C9.93753 12.9111 9.92347 14.3315 9.89065 14.3315C9.86722 14.3315 9.58597 14.2893 9.2719 14.2377C8.06722 14.0455 5.80315 13.8533 3.63284 13.769C1.48597 13.6799 1.2844 13.6611 1.14378 13.5299C0.862529 13.2674 0.871904 13.3893 0.871904 10.3471C0.867216 7.29082 0.853154 7.43145 1.14378 7.16426C1.2844 7.03301 1.48128 7.01426 3.65628 6.9252C5.81722 6.83614 8.11878 6.64395 9.21097 6.46114C9.4969 6.41426 9.77347 6.37208 9.8344 6.36739L9.93753 6.3627V10.3471ZM21.9985 7.88614C22.6875 8.45333 23.1094 9.38614 23.1094 10.3471C23.1094 11.458 22.6688 12.2971 21.6938 13.0611C21.6141 13.1221 21.6094 12.9861 21.6094 10.3471C21.6094 7.70801 21.6141 7.57207 21.6938 7.63301C21.736 7.67051 21.8766 7.78301 21.9985 7.88614ZM5.13284 14.7299C6.15003 14.7955 7.79534 14.9315 7.8094 14.9549C7.8094 14.9596 8.16097 15.6346 8.59222 16.4502C9.01878 17.2705 9.40784 18.058 9.45003 18.208C9.67034 18.9627 9.24378 19.8533 8.48909 20.2283C8.25472 20.3408 8.17503 20.3549 7.75784 20.3549C7.33597 20.3549 7.26097 20.3408 7.01722 20.2236C6.48284 19.9565 6.42659 19.8721 5.01565 17.1908C4.30784 15.8455 3.7219 14.7205 3.71253 14.7018C3.68909 14.6455 3.82503 14.6502 5.13284 14.7299Z" />
         </mask>
@@ -2206,46 +2206,46 @@ export const IconCalendarEventStar = React.forwardRef<
     <path
       d="M12.6667 2.66666H3.33333C2.59695 2.66666 2 3.26362 2 4V13.3333C2 14.0697 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0697 14 13.3333V4C14 3.26362 13.403 2.66666 12.6667 2.66666Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M10.667 1.33334V4"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M5.33301 1.33334V4"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M2 6.66666H14"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M4 9L7 9"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M4 10.3333L7 10.3333"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M4 11.6667L7 11.6667"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M10.4769 8.5L11.0877 9.73752L12.4537 9.93718L11.4653 10.8999L11.6986 12.26L10.4769 11.6175L9.25516 12.26L9.48843 10.8999L8.5 9.93718L9.86601 9.73752L10.4769 8.5Z"
@@ -2267,7 +2267,7 @@ export const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6493_196729)">
+      <g clipPath="url(#clip0_6493_196729)">
         <path
           d="M4.41081 0.848968C4.33581 0.920843 4.33269 0.939592 4.33269 1.36147V1.79897L3.21706 1.80834C2.09831 1.82084 2.09831 1.82084 1.84831 1.90522C1.50144 2.02084 1.22956 2.18647 0.97019 2.44272C0.72644 2.68647 0.57019 2.93022 0.435815 3.27709L0.348315 3.50522L0.33894 8.40522C0.329565 13.8802 0.317065 13.4958 0.554565 13.9833C0.792065 14.4646 1.25144 14.8615 1.80144 15.074L2.03581 15.1615L5.07331 15.1708C8.07644 15.1771 8.11394 15.1771 8.17644 15.1146C8.28894 15.0021 8.29519 14.8302 8.19519 14.6927C8.15144 14.6302 8.10456 14.6302 5.21706 14.6115C2.01706 14.5927 2.18894 14.6052 1.78581 14.4083C1.41706 14.2302 1.08269 13.8083 0.97019 13.3802C0.935815 13.2552 0.92644 12.5365 0.92644 9.65209V6.08334H7.81706H14.7077V8.28959V10.4958L14.7983 10.5865C14.9264 10.7115 15.0827 10.7115 15.2108 10.5865L15.3014 10.4958V7.14584C15.3014 3.36147 15.3108 3.53334 15.0608 3.02084C14.9389 2.77397 14.8702 2.68022 14.6483 2.45522C14.4233 2.23334 14.3296 2.16459 14.0827 2.04272C13.6327 1.82397 13.4796 1.80209 12.3014 1.80209H11.3014V1.37709V0.952093L11.2108 0.861467C11.0858 0.739593 10.9077 0.733343 10.7889 0.852093C10.7077 0.933343 10.7077 0.942718 10.7077 1.36772V1.80209H7.81706H4.92644V1.41147C4.92644 0.886468 4.86706 0.770843 4.59831 0.770843C4.52019 0.770843 4.46394 0.795843 4.41081 0.848968ZM4.33269 2.65834V2.92397L4.16394 2.99897C3.78894 3.17084 3.55456 3.50834 3.52644 3.91459C3.48269 4.58022 3.95456 5.08959 4.61394 5.08959C5.05144 5.08959 5.40144 4.87709 5.60144 4.48959C5.68269 4.33334 5.69206 4.28959 5.69206 4.00522C5.69206 3.75209 5.67956 3.66459 5.62644 3.54897C5.50769 3.29584 5.22019 3.02397 5.00769 2.97084C4.92644 2.95209 4.92644 2.94584 4.92644 2.67397V2.39584H7.81706H10.7077V2.65834V2.92397L10.5389 2.99897C9.86706 3.30834 9.68581 4.18334 10.1827 4.72397C10.3671 4.92709 10.5671 5.03959 10.8139 5.07709C11.1921 5.13647 11.5702 5.00834 11.8139 4.73647C12.2514 4.24897 12.1671 3.46459 11.6358 3.10209C11.5452 3.04272 11.4358 2.98334 11.3889 2.97084C11.3014 2.95209 11.3014 2.95209 11.3014 2.67397V2.39584H12.2796C13.0389 2.39584 13.2983 2.40834 13.4546 2.44272C13.9889 2.57084 14.4171 2.96147 14.6202 3.50834C14.6827 3.68022 14.6889 3.76147 14.7014 4.58959L14.7139 5.48959H7.82019H0.92644V4.62084C0.92644 3.66459 0.93894 3.57709 1.12019 3.23022C1.23894 3.00834 1.57644 2.68334 1.80456 2.57397C2.13581 2.41147 2.23894 2.39897 3.32644 2.39897L4.33269 2.39584V2.65834ZM4.83269 3.55834C4.98269 3.63647 5.11394 3.83647 5.11394 3.98959C5.11394 4.22709 4.85456 4.48959 4.61394 4.48959C4.37019 4.48959 4.11394 4.23334 4.11394 3.98959C4.11394 3.74897 4.37644 3.48959 4.61394 3.48959C4.65769 3.48959 4.75769 3.52084 4.83269 3.55834ZM11.1952 3.54897C11.5358 3.70209 11.5858 4.15209 11.2889 4.38022C11.1327 4.49897 10.9671 4.51459 10.7889 4.43022C10.4139 4.24584 10.4108 3.73959 10.7858 3.55209C10.9389 3.47397 11.0296 3.47397 11.1952 3.54897Z"
           fill="currentColor"
@@ -2350,7 +2350,7 @@ export const IconCalendarOutline1 = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_6203_182220)">
+    <g clipPath="url(#clip0_6203_182220)">
       <path
         d="M3.6 0.0656281C3.52188 0.103127 3.42813 0.187503 3.38125 0.259377C3.30313 0.378128 3.29688 0.409378 3.2875 0.815628L3.27813 1.24375L2.63125 1.25625C2.03438 1.26875 1.96563 1.27813 1.73438 1.35313C1.325 1.49063 1.05 1.6625 0.73125 1.98125C0.415625 2.29688 0.24375 2.57188 0.1 2.98438L0.015625 3.23438V8.625V14.0156L0.1 14.2656C0.24375 14.6781 0.415625 14.9531 0.73125 15.2688C1.04688 15.5844 1.32188 15.7563 1.73438 15.9L1.98438 15.9844L4.71563 15.9938L7.44375 16.0031L7.58438 15.9344C7.66875 15.8938 7.75625 15.8188 7.80625 15.7406C7.87813 15.6313 7.89063 15.5813 7.89063 15.375C7.89063 15.1688 7.87813 15.1188 7.80625 15.0094C7.75625 14.9344 7.66875 14.8563 7.5875 14.8156C7.45 14.75 7.43125 14.75 5.0125 14.75C3.55938 14.75 2.49063 14.7375 2.35938 14.7188C1.79063 14.6375 1.3625 14.2094 1.28125 13.6406C1.24063 13.3438 1.24063 3.90625 1.28125 3.60938C1.32188 3.325 1.44063 3.08438 1.6375 2.8875C1.93438 2.59375 2.24063 2.50313 2.93125 2.5H3.28125V2.89688C3.28125 3.36563 3.33125 3.5125 3.54063 3.65C3.65 3.72188 3.7 3.73438 3.90625 3.73438C4.1125 3.73438 4.1625 3.72188 4.27188 3.65C4.48125 3.5125 4.53125 3.36563 4.53125 2.89688V2.5H5.9375H7.34375V2.89688C7.34375 3.36563 7.39375 3.5125 7.60313 3.65C7.7125 3.72188 7.7625 3.73438 7.96875 3.73438C8.175 3.73438 8.225 3.72188 8.33438 3.65C8.54375 3.5125 8.59375 3.36563 8.59375 2.89688V2.5H10.0156H11.4375V2.89688C11.4375 3.36563 11.4875 3.5125 11.6969 3.65C11.8063 3.72188 11.8563 3.73438 12.0625 3.73438C12.2688 3.73438 12.3188 3.72188 12.4281 3.65C12.6375 3.5125 12.6875 3.36563 12.6875 2.89688V2.5H13.0563C13.7594 2.50313 14.0656 2.59375 14.3625 2.8875C14.5594 3.08438 14.6781 3.325 14.7188 3.60938C14.7344 3.73438 14.75 4.60625 14.75 5.65313C14.75 7.45 14.75 7.48125 14.8156 7.61875C14.8563 7.7 14.9344 7.7875 15.0094 7.8375C15.1188 7.90938 15.1688 7.92188 15.375 7.92188C15.5813 7.92188 15.6313 7.90938 15.7406 7.8375C15.8188 7.7875 15.8938 7.7 15.9344 7.61563C16.0031 7.475 16.0031 7.47188 15.9938 5.35625L15.9844 3.23438L15.9 2.98438C15.7563 2.57188 15.5844 2.29688 15.2688 1.98125C14.95 1.6625 14.675 1.49063 14.2656 1.35313C14.0344 1.275 13.9688 1.26875 13.3531 1.25625L12.6875 1.24375V0.850003C12.6875 0.384377 12.6375 0.237503 12.4281 0.100003C12.3188 0.0281277 12.2688 0.0156279 12.0625 0.0156279C11.8563 0.0156279 11.8063 0.0281277 11.6969 0.100003C11.4875 0.237503 11.4375 0.384377 11.4375 0.853127V1.25H10.0156H8.59375V0.853127C8.59375 0.384377 8.54375 0.237503 8.33438 0.100003C8.225 0.0281277 8.175 0.0156279 7.96875 0.0156279C7.7625 0.0156279 7.7125 0.0281277 7.60313 0.100003C7.39375 0.237503 7.34375 0.384377 7.34375 0.853127V1.25H5.9375H4.53125V0.853127C4.53125 0.384377 4.48125 0.237503 4.27188 0.100003C4.09688 -0.0156231 3.79063 -0.0312481 3.6 0.0656281Z"
         fill="currentColor"
@@ -2419,7 +2419,7 @@ export const IconCalendarOutline2 = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_7682_99697)">
+    <g clipPath="url(#clip0_7682_99697)">
       <path
         d="M12.4 0.0656281C12.4781 0.103127 12.5719 0.187503 12.6187 0.259377C12.6969 0.378128 12.7031 0.409378 12.7125 0.815628L12.7219 1.24375L13.3687 1.25625C13.9656 1.26875 14.0344 1.27813 14.2656 1.35313C14.675 1.49063 14.95 1.6625 15.2687 1.98125C15.5844 2.29688 15.7562 2.57188 15.9 2.98438L15.9844 3.23438V8.625V14.0156L15.9 14.2656C15.7562 14.6781 15.5844 14.9531 15.2687 15.2688C14.9531 15.5844 14.6781 15.7563 14.2656 15.9L14.0156 15.9844L11.2844 15.9938L8.55625 16.0031L8.41562 15.9344C8.33125 15.8938 8.24375 15.8188 8.19375 15.7406C8.12187 15.6313 8.10937 15.5813 8.10937 15.375C8.10937 15.1688 8.12187 15.1188 8.19375 15.0094C8.24375 14.9344 8.33125 14.8563 8.4125 14.8156C8.55 14.75 8.56875 14.75 10.9875 14.75C12.4406 14.75 13.5094 14.7375 13.6406 14.7188C14.2094 14.6375 14.6375 14.2094 14.7187 13.6406C14.7594 13.3438 14.7594 3.90625 14.7187 3.60938C14.6781 3.325 14.5594 3.08438 14.3625 2.8875C14.0656 2.59375 13.7594 2.50313 13.0687 2.5H12.7187V2.89688C12.7187 3.36563 12.6687 3.5125 12.4594 3.65C12.35 3.72188 12.3 3.73438 12.0937 3.73438C11.8875 3.73438 11.8375 3.72188 11.7281 3.65C11.5187 3.5125 11.4687 3.36563 11.4687 2.89688V2.5H10.0625H8.65625V2.89688C8.65625 3.36563 8.60625 3.5125 8.39687 3.65C8.2875 3.72188 8.2375 3.73438 8.03125 3.73438C7.825 3.73438 7.775 3.72188 7.66562 3.65C7.45625 3.5125 7.40625 3.36563 7.40625 2.89688V2.5H5.98437H4.5625V2.89688C4.5625 3.36563 4.5125 3.5125 4.30312 3.65C4.19375 3.72188 4.14375 3.73438 3.9375 3.73438C3.73125 3.73438 3.68125 3.72188 3.57187 3.65C3.3625 3.5125 3.3125 3.36563 3.3125 2.89688V2.5H2.94375C2.24062 2.50313 1.93437 2.59375 1.6375 2.8875C1.44062 3.08438 1.32187 3.325 1.28125 3.60938C1.26562 3.73438 1.25 4.60625 1.25 5.65313C1.25 7.45 1.25 7.48125 1.18437 7.61875C1.14375 7.7 1.06562 7.7875 0.990623 7.8375C0.881248 7.90938 0.831248 7.92188 0.624999 7.92188C0.418749 7.92188 0.368749 7.90938 0.259374 7.8375C0.181249 7.7875 0.106249 7.7 0.0656233 7.61563C-0.00312614 7.475 -0.00312614 7.47188 0.00624847 5.35625L0.015624 3.23438L0.0999985 2.98438C0.243749 2.57188 0.415624 2.29688 0.731249 1.98125C1.05 1.6625 1.325 1.49063 1.73437 1.35313C1.96562 1.275 2.03125 1.26875 2.64687 1.25625L3.3125 1.24375V0.850003C3.3125 0.384377 3.3625 0.237503 3.57187 0.100003C3.68125 0.0281277 3.73125 0.0156279 3.9375 0.0156279C4.14375 0.0156279 4.19375 0.0281277 4.30312 0.100003C4.5125 0.237503 4.5625 0.384377 4.5625 0.853127V1.25H5.98437H7.40625V0.853127C7.40625 0.384377 7.45625 0.237503 7.66562 0.100003C7.775 0.0281277 7.825 0.0156279 8.03125 0.0156279C8.2375 0.0156279 8.2875 0.0281277 8.39687 0.100003C8.60625 0.237503 8.65625 0.384377 8.65625 0.853127V1.25H10.0625H11.4687V0.853127C11.4687 0.384377 11.5187 0.237503 11.7281 0.100003C11.9031 -0.0156231 12.2094 -0.0312481 12.4 0.0656281Z"
         fill="currentColor"
@@ -2494,35 +2494,35 @@ export const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12.6667 2.66666H3.33333C2.59695 2.66666 2 3.26362 2 4V13.3333C2 14.0697 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0697 14 13.3333V4C14 3.26362 13.403 2.66666 12.6667 2.66666Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.5 9.5H9.5"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.666 1.33334V4"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.33398 1.33334V4"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2 6.66666H14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -2546,35 +2546,35 @@ export const IconCalendarSideDash = React.forwardRef<
     <path
       d="M12.6667 2.66666H3.33333C2.59695 2.66666 2 3.26362 2 4V13.3333C2 14.0697 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0697 14 13.3333V4C14 3.26362 13.403 2.66666 12.6667 2.66666Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M10.666 1.33334V4"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M5.33398 1.33334V4"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M4.5 9.5H7.5"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M2 6.66666H14"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -2595,28 +2595,28 @@ export const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12.6667 2.66666H3.33333C2.59695 2.66666 2 3.26362 2 4V13.3333C2 14.0697 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0697 14 13.3333V4C14 3.26362 13.403 2.66666 12.6667 2.66666Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.667 1.33334V4"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.33301 1.33334V4"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2 6.66666H14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -2635,7 +2635,7 @@ export const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_55616)">
+      <g clipPath="url(#clip0_4615_55616)">
         <path
           d="M10.5159 6.58344V7.38311C10.5159 7.56263 10.6595 7.70625 10.839 7.70625C11.0185 7.70625 11.1622 7.56263 11.1622 7.38311V6.58344C11.1622 6.31579 11.0447 6.06447 10.839 5.898C10.2254 5.39535 9.57261 5.02979 9.26579 4.86985V4.05712C9.41593 3.90045 9.5008 3.69156 9.5008 3.46961V2.3011C9.5008 1.54386 8.88391 0.926971 8.12667 0.926971H7.87534C7.1181 0.926971 6.50121 1.54386 6.50121 2.3011V3.46961C6.50121 3.69156 6.58607 3.90045 6.73621 4.05712V4.86659C6.4294 5.02652 5.7766 5.39209 5.16298 5.89474C4.95735 6.06447 4.83984 6.31253 4.83984 6.58017V7.37985C4.83984 7.55937 4.98346 7.70298 5.16298 7.70298C5.3425 7.70298 5.48611 7.55937 5.48611 7.37985V6.58017C5.48611 6.50837 5.51875 6.43982 5.57424 6.39413C6.27273 5.81967 7.02671 5.43778 7.17358 5.36924C7.30088 5.30722 7.38248 5.1734 7.38248 5.03305V3.90698C7.38248 3.79927 7.32699 3.69809 7.23886 3.63933C7.18338 3.60017 7.14747 3.53815 7.14747 3.46961V2.3011C7.14747 1.89964 7.47387 1.57324 7.87534 1.57324H8.12667C8.52813 1.57324 8.85453 1.89964 8.85453 2.3011V3.46961C8.85453 3.53815 8.82189 3.60017 8.76314 3.63933C8.67175 3.69809 8.61953 3.79927 8.61953 3.90698V5.03305C8.61953 5.17667 8.70112 5.30722 8.82842 5.36924C8.97203 5.44105 9.72928 5.81967 10.4278 6.39413C10.4833 6.43982 10.5159 6.50837 10.5159 6.58344Z"
           fill="currentColor"
@@ -2708,7 +2708,7 @@ export const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_55204)">
+      <g clipPath="url(#clip0_4615_55204)">
         <path
           d="M9.4125 0.224996C8.1125 0.687496 7.2125 1.525 6.575 2.875C6.225 3.6125 6.1875 3.8 6.1875 4.875C6.2 6.5125 6.5 7.275 7.6125 8.3875C8.7125 9.4875 9.475 9.8 11.1375 9.8C12.2625 9.8125 12.375 9.7875 13.275 9.3375C14.3625 8.8 15.05 8.1125 15.5875 7.0125C15.9 6.375 15.9375 6.1875 15.9375 4.9375C15.9375 3.6875 15.9 3.4875 15.5875 2.8C15.1375 1.8375 14.175 0.874996 13.1875 0.412496C12.2 -0.050004 10.425 -0.137504 9.4125 0.224996ZM12.9375 0.999996C13.7375 1.3875 14.6125 2.2625 15 3.0625C15.275 3.6 15.3125 3.8625 15.3125 4.9375C15.3125 6.0875 15.2875 6.2375 14.9375 6.85C13.175 10.0375 8.8 9.9875 7.225 6.775C6.85 6.025 6.8125 5.8375 6.8125 4.875C6.825 3.975 6.875 3.7 7.1625 3.1C7.6 2.2125 8.6375 1.2375 9.5375 0.887496C10.475 0.512496 12.0625 0.562496 12.9375 0.999996Z"
           fill="currentColor"
@@ -2747,9 +2747,9 @@ export const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M17 3C17.2626 2.73735 17.5744 2.52901 17.9176 2.38687C18.2608 2.24473 18.6286 2.17157 19 2.17157C19.3714 2.17157 19.7392 2.24473 20.0824 2.38687C20.4256 2.52901 20.7374 2.73735 21 3C21.2626 3.26264 21.471 3.57444 21.6131 3.9176C21.7553 4.26077 21.8284 4.62856 21.8284 5C21.8284 5.37143 21.7553 5.73923 21.6131 6.08239C21.471 6.42555 21.2626 6.73735 21 7L7.5 20.5L2 22L3.5 16.5L17 3Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -2774,16 +2774,16 @@ export const IconEmailFilledMuted = React.forwardRef<
     <path
       d="M14.6654 14.6665H25.332C26.0654 14.6665 26.6654 15.2665 26.6654 15.9998V23.9998C26.6654 24.7332 26.0654 25.3332 25.332 25.3332H14.6654C13.932 25.3332 13.332 24.7332 13.332 23.9998V15.9998C13.332 15.2665 13.932 14.6665 14.6654 14.6665Z"
       stroke="#AAA9AD"
-      stroke-width="1.14286"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.14286"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M26.6654 16L19.9987 20.6667L13.332 16"
       stroke="#AAA9AD"
-      stroke-width="1.14286"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.14286"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -2804,24 +2804,24 @@ export const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M4 9.5H20C21.1 9.5 22 10.4 22 11.5V23.5C22 24.6 21.1 25.5 20 25.5H4C2.9 25.5 2 24.6 2 23.5V11.5C2 10.4 2.9 9.5 4 9.5Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22 11.5L12 18.5L2 11.5"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="24" cy="5.5" r="5" fill="#0ACD5E" />
-      <g clip-path="url(#clip0_712_32163)">
+      <g clipPath="url(#clip0_712_32163)">
         <path
           d="M25.959 4.25897L23.209 7.00897L21.959 5.75897"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -2851,26 +2851,26 @@ export const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7574_154759)">
+      <g clipPath="url(#clip0_7574_154759)">
         <path
           d="M8 11.334V11.6673V12.0007"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M8 4V4.33333V4.66667"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M10 6.33366C10 5.41319 9.1046 4.66699 8 4.66699C6.8954 4.66699 6 5.41319 6 6.33366C6 7.25413 6.8954 8.00033 8 8.00033C9.1046 8.00033 10 8.74653 10 9.66699C10 10.5875 9.1046 11.3337 8 11.3337C6.8954 11.3337 6 10.5875 6 9.66699"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M4.66536 2.22586C5.64594 1.65863 6.78443 1.33398 7.9987 1.33398C11.6806 1.33398 14.6654 4.31875 14.6654 8.00065C14.6654 11.6825 11.6806 14.6673 7.9987 14.6673C4.3168 14.6673 1.33203 11.6825 1.33203 8.00065C1.33203 6.78638 1.65668 5.6479 2.22391 4.66732"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <defs>
@@ -2898,16 +2898,16 @@ export const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M4 15C4 15 5 14 8 14C11 14 13 16 16 16C19 16 20 15 20 15V3C20 3 19 4 16 4C13 4 11 2 8 2C5 2 4 3 4 3V15Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4 22V15"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -2926,7 +2926,7 @@ export const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_55630)">
+      <g clipPath="url(#clip0_4615_55630)">
         <path
           d="M13.0939 0.5V1L13.6282 1.00625L14.1626 1.01562L13.1189 2.00313L12.0782 2.99062L11.8439 2.7875C11.3595 2.375 10.8314 2.0875 10.2345 1.9125C9.77199 1.77812 9.422 1.7375 8.88137 1.75937C8.03762 1.79375 7.30325 2.04375 6.62824 2.525C6.18762 2.84062 5.69699 3.36562 5.46887 3.76875L5.39387 3.89687L5.03449 3.91875C4.37199 3.95625 3.76887 4.11875 3.25324 4.39062C1.21574 5.47812 0.415745 7.95312 1.44387 10.0156C2.04699 11.225 3.20012 12.0687 4.57199 12.2969L4.68762 12.3156V12.9531V13.5938H3.96887H3.25012V14.0938V14.5938H3.96887H4.68762V15.2969V16H5.20324H5.71887V15.2969V14.5938H6.48449H7.25012V14.0938V13.5938H6.48449H5.71887V12.9531C5.71887 12.6 5.72199 12.3125 5.72824 12.3125C5.79387 12.3125 6.16887 12.2281 6.39074 12.1656C7.35637 11.8875 8.19699 11.2562 8.75637 10.3937L8.897 10.1781L9.20637 10.1656C10.0876 10.1312 10.897 9.84687 11.5939 9.325C12.7126 8.4875 13.3251 7.2 13.2689 5.79688C13.2439 5.14375 13.1189 4.64375 12.8407 4.08125C12.7751 3.94687 12.7189 3.825 12.7189 3.8125C12.7189 3.8 13.2314 3.3 13.8595 2.70625L15.0001 1.62187V2.21562V2.8125H15.5001H16.0001V1.40625V0H14.547H13.0939V0.5ZM9.55949 2.79688C10.0751 2.88125 10.4814 3.04688 10.9064 3.34688C11.5407 3.79375 11.972 4.43125 12.1782 5.21562C12.2782 5.59375 12.2907 6.21875 12.2064 6.60312C11.9251 7.89687 10.9001 8.88125 9.597 9.10938C9.45325 9.13438 9.32825 9.15 9.31887 9.14375C9.31262 9.13438 9.32825 9 9.35637 8.84687C9.42512 8.475 9.42512 7.81563 9.3595 7.41562C9.13449 6.1 8.29699 4.96562 7.10012 4.3625C6.97512 4.3 6.79387 4.21875 6.69387 4.18437C6.59699 4.14687 6.50637 4.10938 6.49387 4.09688C6.47824 4.08437 6.56262 3.97188 6.68137 3.84375C7.44387 3.00937 8.49699 2.625 9.55949 2.79688ZM4.95949 5.00625C4.85324 5.43437 4.83449 6.20937 4.91887 6.6875C5.15637 8.02187 6.01574 9.15937 7.23762 9.75312C7.37512 9.81875 7.56262 9.9 7.65324 9.93125L7.81574 9.98438L7.64387 10.1937C7.00012 10.975 5.92825 11.4094 4.89387 11.3063C3.66262 11.1875 2.57199 10.325 2.17512 9.15312C1.55949 7.33437 2.70012 5.3625 4.59387 4.98438C4.70637 4.9625 4.83762 4.94063 4.88762 4.94063C4.96262 4.9375 4.97199 4.94687 4.95949 5.00625ZM6.31887 5.12813C7.62824 5.6375 8.45637 6.88125 8.397 8.25C8.38449 8.55625 8.30325 9.0625 8.26574 9.0625C8.22824 9.0625 7.772 8.88438 7.64074 8.82188C6.85012 8.42812 6.22199 7.6625 5.98137 6.79688C5.84699 6.31875 5.84387 5.6375 5.97199 5.14687C6.00637 5.01562 6.02512 5.01562 6.31887 5.12813Z"
           fill="currentColor"
@@ -2959,7 +2959,7 @@ export const IconGraphDollar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_55231)">
+      <g clipPath="url(#clip0_4615_55231)">
         <path
           d="M0.5 5.85C0.5 9.85 0.5375 11.2375 0.65 11.35C0.7625 11.4625 1.6 11.5 3.65 11.5C6.4125 11.5 6.5 11.4875 6.5 11.25C6.5 11.05 6.4125 11 6.125 11H5.75V8.4C5.75 6.55 5.7875 5.7625 5.9 5.65C6.1 5.45 6.6875 5.4625 6.85 5.6625C6.925 5.75 7.0125 6.4375 7.025 7.2C7.05 8.3125 7.1 8.5625 7.25 8.5625C7.4 8.5625 7.4375 8.2875 7.475 6.95C7.5 5.875 7.4625 5.2875 7.3625 5.175C7.175 4.95 5.6125 4.9375 5.4 5.15C5.2875 5.2625 5.25 6.1 5.25 8.15V11H4.75H4.25V8.9C4.25 7.4375 4.2 6.75 4.1 6.65C3.9 6.45 2.35 6.45 2.15 6.65C2.05 6.75 2 7.4375 2 8.9V11H1.65C1.4625 11 1.2375 10.9375 1.15 10.85C1.0375 10.7375 1 9.4 1 5.6C1 0.5875 1 0.5 0.75 0.5C0.5 0.5 0.5 0.5875 0.5 5.85ZM3.6 7.15C3.7 7.25 3.75 7.875 3.75 9.15V11H3.125H2.5V9.15C2.5 7.875 2.55 7.25 2.65 7.15C2.8375 6.9625 3.4125 6.9625 3.6 7.15Z"
           fill="currentColor"
@@ -3007,7 +3007,7 @@ export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_712_32197)">
+      <g clipPath="url(#clip0_712_32197)">
         <path
           d="M11.9997 19.6667C12.5574 19.6667 13.1026 19.5013 13.5664 19.1914C14.0301 18.8816 14.3916 18.4411 14.605 17.9258C14.8185 17.4106 14.8743 16.8435 14.7655 16.2965C14.6567 15.7495 14.3881 15.247 13.9937 14.8526C13.5993 14.4582 13.0969 14.1897 12.5498 14.0809C12.0028 13.972 11.4358 14.0279 10.9205 14.2413C10.4052 14.4548 9.96481 14.8162 9.65494 15.28C9.34508 15.7437 9.17969 16.2889 9.17969 16.8467C9.17969 17.5946 9.47679 18.3119 10.0056 18.8407C10.5345 19.3696 11.2518 19.6667 11.9997 19.6667ZM11.9997 15.0933C12.3465 15.0933 12.6855 15.1962 12.9738 15.3888C13.2621 15.5815 13.4869 15.8553 13.6196 16.1757C13.7523 16.4961 13.787 16.8486 13.7193 17.1887C13.6517 17.5288 13.4847 17.8413 13.2395 18.0865C12.9943 18.3317 12.6819 18.4987 12.3417 18.5663C12.0016 18.634 11.6491 18.5992 11.3287 18.4665C11.0083 18.3338 10.7345 18.1091 10.5418 17.8208C10.3492 17.5324 10.2464 17.1935 10.2464 16.8467C10.2464 16.3817 10.4311 15.9357 10.7599 15.6069C11.0887 15.2781 11.5347 15.0933 11.9997 15.0933Z"
           fill="currentColor"
@@ -3026,12 +3026,12 @@ export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
         />
       </g>
       <circle cx="24" cy="5" r="5" fill="#0ACD5E" />
-      <g clip-path="url(#clip1_712_32197)">
+      <g clipPath="url(#clip1_712_32197)">
         <path
           d="M25.959 3.75897L23.209 6.50897L21.959 5.25897"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -3072,8 +3072,8 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M2.15625 12.375H13.875"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <ellipse cx="6.5" cy="12.5" rx="1.5" ry="1.5" fill="currentColor" />
       <mask id="path-3-inside-1_4746_79827" fill="currentColor">
@@ -3086,7 +3086,7 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
         height="2.8125"
         rx="0.5625"
         stroke="currentColor"
-        stroke-width="1.875"
+        strokeWidth="1.875"
         mask="url(#path-3-inside-1_4746_79827)"
       />
       <mask id="path-4-inside-2_4746_79827" fill="currentColor">
@@ -3105,7 +3105,7 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
         height="4.59375"
         rx="0.5625"
         stroke="currentColor"
-        stroke-width="1.875"
+        strokeWidth="1.875"
         mask="url(#path-4-inside-2_4746_79827)"
       />
       <mask id="path-5-inside-3_4746_79827" fill="currentColor">
@@ -3124,7 +3124,7 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
         height="5.90625"
         rx="0.5625"
         stroke="currentColor"
-        stroke-width="1.875"
+        strokeWidth="1.875"
         mask="url(#path-5-inside-3_4746_79827)"
       />
       <mask id="path-6-inside-4_4746_79827" fill="currentColor">
@@ -3137,7 +3137,7 @@ export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
         height="7.59375"
         rx="0.5625"
         stroke="currentColor"
-        stroke-width="1.875"
+        strokeWidth="1.875"
         mask="url(#path-6-inside-4_4746_79827)"
       />
     </svg>
@@ -3160,58 +3160,58 @@ export const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12.9688 2.7215V6.7215"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.9688 18.7215V22.7215"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.89844 5.65149L8.72844 8.48149"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.209 16.9615L20.039 19.7915"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2.96875 12.7215H6.96875"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.9688 12.7215H22.9688"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.89844 19.7915L8.72844 16.9615"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.209 8.48149L20.039 5.65149"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3233,7 +3233,7 @@ export const IconMegaPhoneFilledMuted = React.forwardRef<
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect x="0.5" width="40" height="40" rx="20" fill="#F4F4F4" />
-    <g clip-path="url(#clip0_8128_140690)">
+    <g clipPath="url(#clip0_8128_140690)">
       <path
         d="M17.8477 22.4988L18.3171 23.1222C18.8587 23.8389 19.4059 24.5516 19.9399 25.2738C20.4505 25.9639 20.1271 26.8256 19.2692 27.0928C18.6941 27.2722 18.0632 27.0666 17.6845 26.5679C16.9395 25.5863 16.1961 24.6037 15.4543 23.6201C15.4175 23.5716 15.3791 23.524 15.3375 23.4712C14.9995 23.6594 14.6455 23.7714 14.2549 23.7817C13.9577 23.7896 13.6618 23.7431 13.3853 23.6451C13.1087 23.5471 12.8573 23.3997 12.6462 23.2118C12.4352 23.0238 12.2689 22.7993 12.1576 22.5519C12.0462 22.3045 11.9921 22.0393 11.9986 21.7726C12.0185 21.1238 12.3392 20.6163 12.9285 20.2455C13.363 19.9739 13.8076 19.7154 14.2403 19.4422C14.3426 19.3788 14.4263 19.2943 14.4845 19.1957C15.331 17.6683 16.173 16.139 17.0107 14.6076C17.2138 14.238 17.5571 14.0462 18.0017 13.9993C18.5627 13.9402 19.0688 14.1065 19.5502 14.34C20.4283 14.7657 21.1398 15.3692 21.7667 16.0557C22.6851 17.0611 23.4036 18.1669 23.7779 19.4307C23.9363 19.9652 24.0194 20.5087 23.8925 21.061C23.8279 21.3422 23.7027 21.5987 23.4744 21.8059C23.2569 22.0066 22.9634 22.1266 22.6519 22.1422C21.096 22.249 19.54 22.363 17.9844 22.475C17.9495 22.4793 17.9128 22.4881 17.8477 22.4988ZM17.3721 15.7325C17.4164 15.9628 17.4465 16.2566 17.5345 16.535C18.0849 18.282 19.1714 19.7206 20.7283 20.872C21.1597 21.1897 21.6397 21.4426 22.198 21.555C22.4931 21.6141 22.7289 21.5276 22.9373 21.3513C23.1067 21.2064 23.193 21.019 23.2355 20.8157C23.3181 20.3993 23.2882 19.9712 23.1483 19.5673C22.5599 17.7865 21.4348 16.3281 19.8068 15.1842C19.4272 14.9173 19.006 14.7105 18.5299 14.6104C17.9371 14.4853 17.5177 14.7339 17.4173 15.2735C17.3929 15.4049 17.3903 15.5391 17.3721 15.7325ZM20.8429 21.6884C18.7635 20.3308 17.419 18.5536 16.789 16.3329C16.7744 16.3547 16.7612 16.3726 16.7519 16.388C16.1986 17.4005 15.6445 18.4129 15.0897 19.4252C15.0455 19.5077 15.068 19.5602 15.1176 19.6257C15.6715 20.3563 16.2307 21.0876 16.7775 21.825C16.8638 21.9413 16.951 21.9719 17.1001 21.9596C17.7637 21.9048 18.4304 21.8619 19.0958 21.8147L20.8429 21.6884ZM14.5765 19.9509C14.1399 20.2177 13.7081 20.473 13.2864 20.741C12.5914 21.1841 12.4512 21.9608 12.9413 22.6016C13.428 23.2349 14.281 23.3958 14.988 22.9808C15.3799 22.7509 15.764 22.5095 16.1511 22.2729C16.1909 22.2482 16.2289 22.2212 16.2723 22.1935L14.5765 19.9509ZM15.8812 23.1464C16.0754 23.4025 16.2581 23.6435 16.4404 23.8849C17.0409 24.679 17.6414 25.4732 18.2419 26.2673C18.4304 26.5159 18.7096 26.6211 18.994 26.5579C19.4887 26.4487 19.6785 25.9675 19.3785 25.5693C18.6503 24.602 17.9204 23.6358 17.189 22.6707C17.0912 22.5413 16.9448 22.5044 16.7988 22.5913C16.4953 22.7668 16.1971 22.9538 15.8812 23.1464Z"
         fill="#AAA9AD"
@@ -3284,7 +3284,7 @@ export const IconMessageFilledMuted = React.forwardRef<
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect x="0.5" width="40" height="40" rx="20" fill="#F4F4F4" />
-    <g clip-path="url(#clip0_8128_140636)">
+    <g clipPath="url(#clip0_8128_140636)">
       <path
         d="M17.8744 12.0187C16.2181 12.2218 14.815 12.8593 13.74 13.903C12.8712 14.7437 12.3369 15.6874 12.0837 16.828C12.0244 17.103 12.015 17.2312 12.0181 17.8749C12.0181 18.5155 12.0275 18.6499 12.0869 18.9187C12.2431 19.6155 12.5181 20.2749 12.8837 20.8218L13.0806 21.1187L13.0275 21.4343C12.9494 21.8905 12.8244 22.3655 12.6681 22.8124C12.5119 23.253 12.4931 23.4593 12.59 23.6499C12.7087 23.878 12.9087 23.9999 13.1712 23.9999C13.5462 23.9999 14.4494 23.7124 15.1775 23.3593C15.6837 23.1155 15.7681 23.0999 15.7962 23.2468C15.9087 23.8062 16.1306 24.3905 16.4056 24.8562C17.8962 27.3812 21.4462 28.4468 24.4244 27.2624L24.6181 27.1843L24.94 27.3562C25.6244 27.7187 26.5587 28.0187 26.9244 27.9937C27.1525 27.978 27.3056 27.8812 27.4056 27.6874C27.5025 27.4999 27.4837 27.3249 27.3306 26.8624C27.1869 26.4405 27.0494 25.8655 27.0119 25.5562L26.99 25.3812L27.1869 25.0905C27.4462 24.703 27.6056 24.378 27.7494 23.9405C27.9556 23.3249 27.9837 23.1312 27.9837 22.3905C27.9837 21.8155 27.9744 21.6937 27.9119 21.4062C27.7712 20.7843 27.4681 20.0968 27.1025 19.5874C26.7462 19.0843 26.1244 18.4905 25.5869 18.1437L25.3525 17.9874L25.3337 17.5968C25.2712 16.2437 24.7056 15.0187 23.6744 13.9812C22.6931 12.9999 21.44 12.3655 19.9369 12.0905C19.6431 12.0374 19.4306 12.0218 18.7806 12.0155C18.3431 12.0093 17.9337 12.0124 17.8744 12.0187ZM19.7962 12.6374C20.4837 12.7655 21.0212 12.9374 21.5775 13.1999C23.2494 13.9937 24.3994 15.4093 24.7056 17.0468C24.7869 17.4687 24.7869 18.303 24.7056 18.703C24.2306 21.1124 22.0275 22.9062 19.2337 23.1593C18.1681 23.2562 16.8837 23.0468 15.9525 22.6249C15.6244 22.478 15.6462 22.4749 15.1525 22.7312C14.5962 23.0187 14.1619 23.1937 13.6587 23.3312C13.2306 23.4468 13.1306 23.4593 13.1056 23.3937C13.0962 23.3687 13.1525 23.1624 13.2275 22.9312C13.3962 22.4343 13.5087 21.9905 13.5931 21.4905C13.6806 20.9655 13.6806 20.9468 13.5119 20.7187C13.1806 20.2655 12.9494 19.8187 12.7869 19.3124C12.6087 18.7499 12.5775 18.5405 12.5775 17.8593C12.5775 17.1593 12.6275 16.8499 12.8275 16.2968C13.1994 15.2624 13.9681 14.3124 14.9681 13.6405C15.7369 13.1249 16.8056 12.7374 17.8431 12.5937C18.1775 12.5499 19.4712 12.578 19.7962 12.6374ZM25.6869 18.9249C25.9869 19.1624 26.4587 19.6655 26.6744 19.9843C27.0462 20.5312 27.29 21.128 27.3931 21.7468C27.4744 22.2374 27.4431 22.9249 27.3181 23.4062C27.1681 23.9874 26.9275 24.4905 26.565 24.9812C26.4775 25.0999 26.4056 25.228 26.4056 25.2687C26.4056 25.5843 26.5962 26.4593 26.7869 27.0249C26.8556 27.2343 26.9056 27.4155 26.8962 27.428C26.8462 27.478 26.0994 27.2562 25.6431 27.0593C25.4869 26.9905 25.2212 26.8562 25.0525 26.7593C24.8806 26.6624 24.7056 26.5843 24.6587 26.5843C24.615 26.5843 24.4306 26.6437 24.2556 26.7155C23.4962 27.0249 22.7494 27.1687 21.8744 27.1687C21.2119 27.1718 20.8681 27.1312 20.2962 26.9843C18.6931 26.5749 17.4337 25.6249 16.7525 24.3124C16.6462 24.1093 16.3931 23.4374 16.415 23.4187C16.4181 23.4124 16.5212 23.4374 16.64 23.4718C19.0931 24.1624 21.8212 23.528 23.5556 21.8593C23.9681 21.4624 24.1931 21.1968 24.4681 20.7812C24.8337 20.2218 25.1181 19.5312 25.2369 18.9124L25.2931 18.628L25.3869 18.6968C25.44 18.7312 25.5744 18.8343 25.6869 18.9249Z"
         fill="#AAA9AD"
@@ -3328,7 +3328,7 @@ export const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4650_61638)">
+      <g clipPath="url(#clip0_4650_61638)">
         <path
           d="M14.3505 0.610687H13.8018C13.816 0.565252 13.8307 0.519817 13.8307 0.469496C13.8307 0.210565 13.6196 0 13.3602 0C13.1008 0 12.8907 0.210565 12.8907 0.469496C12.8907 0.520305 12.9044 0.565252 12.9195 0.610687H11.1217C11.1358 0.565252 11.1505 0.519817 11.1505 0.469496C11.1505 0.210565 10.9394 0 10.68 0C10.4211 0 10.21 0.210565 10.21 0.469496C10.21 0.520305 10.2242 0.565252 10.2393 0.610687H8.44099C8.45516 0.565252 8.46933 0.519817 8.46933 0.469496C8.46884 0.210565 8.25876 0 7.99934 0C7.73992 0 7.52985 0.210565 7.52985 0.469496C7.52985 0.520305 7.54353 0.565252 7.55818 0.610687H5.75983C5.774 0.565252 5.78866 0.519817 5.78866 0.469496C5.78866 0.210565 5.57809 0 5.31916 0C5.05974 0 4.84918 0.210565 4.84918 0.469496C4.84918 0.520305 4.86286 0.565252 4.87751 0.610687H3.07965C3.09431 0.565252 3.10847 0.519817 3.10847 0.469496C3.10847 0.210565 2.8984 0 2.63898 0C2.37956 0 2.16899 0.210565 2.16899 0.469496C2.16899 0.520305 2.18267 0.565252 2.19733 0.610687H1.6482C0.906581 0.610687 0.304688 1.21307 0.304688 1.9542V14.6565C0.304688 15.3981 0.906581 16 1.6482 16H12.8335L15.694 13.1395V1.9542C15.694 1.21307 15.0921 0.610687 14.3505 0.610687ZM11.6713 2.08024L11.8496 2.66699C11.8696 2.73832 11.8946 2.82626 11.9087 2.88977H11.9165C11.9331 2.82626 11.9527 2.73588 11.9698 2.66699L12.1164 2.08024H12.5145L12.236 2.8673C12.0651 3.34217 11.9498 3.53221 11.8164 3.6524C11.6859 3.76476 11.5491 3.80434 11.4573 3.81606L11.3791 3.50046C11.4255 3.49264 11.4842 3.47066 11.5404 3.43695C11.596 3.40714 11.6571 3.34852 11.6933 3.28745C11.7055 3.27035 11.7133 3.25081 11.7133 3.2342C11.7133 3.22198 11.7104 3.20244 11.6962 3.17264L11.2585 2.07976L11.6713 2.08024ZM10.6702 2.08024L10.682 2.30058H10.6922C10.7533 2.12715 10.9004 2.05337 11.0147 2.05337C11.0489 2.05337 11.066 2.05337 11.0928 2.05826V2.40806C11.066 2.40318 11.0342 2.3978 10.9927 2.3978C10.8564 2.3978 10.7626 2.47108 10.7382 2.58638C10.7333 2.61081 10.7308 2.64012 10.7308 2.66992V3.27573H10.359V2.47402C10.359 2.29765 10.3542 2.18284 10.3493 2.07976L10.6702 2.08024ZM9.41418 2.30791C9.29205 2.30791 9.1616 2.34944 9.08392 2.39829L9.01455 2.1589C9.09809 2.11249 9.26176 2.05386 9.47867 2.05386C9.87733 2.05386 10.0044 2.28837 10.0044 2.57026V2.98553C10.0044 3.10082 10.0097 3.21075 10.0215 3.2767H9.68728L9.6653 3.1575H9.65797C9.5798 3.25227 9.45766 3.30406 9.3155 3.30406C9.07415 3.30406 8.92905 3.12818 8.92905 2.93716C8.92905 2.62644 9.2085 2.47744 9.63159 2.47988V2.46278C9.63208 2.3978 9.59739 2.30791 9.41418 2.30791ZM7.51861 2.08024H7.89284V2.72318C7.89284 2.89661 7.94902 3.00165 8.07898 3.00165C8.18157 3.00165 8.2402 2.93081 8.26463 2.87218C8.27489 2.8502 8.27586 2.82089 8.27586 2.79157V2.07976H8.65107V2.89173C8.65107 3.04806 8.65595 3.17508 8.66084 3.27524H8.3384L8.32179 3.10669H8.31446C8.26707 3.17948 8.15519 3.30211 7.93974 3.30211C7.69742 3.30211 7.5191 3.15017 7.5191 2.78131L7.51861 2.08024ZM6.34365 2.08024L6.36075 2.2444H6.36808C6.41742 2.16867 6.53956 2.05337 6.73742 2.05337C6.98169 2.05337 7.16539 2.2146 7.16539 2.56684V3.27573H6.79312V2.61374C6.79312 2.45985 6.73986 2.35432 6.60502 2.35432C6.50243 2.35432 6.44087 2.42565 6.41693 2.49356C6.40667 2.51554 6.40179 2.55267 6.40179 2.58638V3.27573H6.03049V2.4618C6.03049 2.31231 6.0256 2.18577 6.02023 2.08024H6.34365ZM5.08563 2.30791C4.96301 2.30791 4.83354 2.34944 4.75537 2.39829L4.68698 2.1589C4.77003 2.11249 4.9337 2.05386 5.1511 2.05386C5.54927 2.05386 5.67678 2.28837 5.67678 2.57026V2.98553C5.67678 3.10082 5.68215 3.21075 5.69388 3.2767H5.35873L5.33675 3.1575H5.32942C5.25125 3.25227 5.12863 3.30406 4.98695 3.30406C4.74463 3.30406 4.6005 3.12818 4.6005 2.93716C4.6005 2.62644 4.87898 2.47744 5.30255 2.47988V2.46278C5.30304 2.3978 5.26884 2.30791 5.08563 2.30791ZM3.51641 2.96256C3.56771 2.97966 3.63366 2.99237 3.70744 2.99237C3.86377 2.99237 3.96197 2.92153 3.96197 2.66455V1.62785H4.33376V2.66992C4.33376 3.13942 4.10902 3.30308 3.74701 3.30308C3.66151 3.30308 3.54915 3.28843 3.47586 3.264L3.51641 2.96256ZM14.9612 12.8357L14.8092 12.9876H13.6587C13.1203 12.9876 12.6816 13.4263 12.6816 13.9647V15.1152L12.5297 15.2672H1.6482C1.31159 15.2672 1.03751 14.9931 1.03751 14.6565V4.39695H14.9612V12.8357Z"
           fill="currentColor"
@@ -3368,22 +3368,22 @@ export const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_712_32156)">
+      <g clipPath="url(#clip0_712_32156)">
         <path
           d="M22.7995 22.8136V26.0536C22.8007 26.3544 22.7391 26.6521 22.6186 26.9277C22.4981 27.2033 22.3214 27.4507 22.0997 27.654C21.8781 27.8573 21.6164 28.0122 21.3315 28.1085C21.0466 28.2049 20.7446 28.2407 20.4451 28.2136C17.1217 27.8525 13.9294 26.7169 11.1247 24.898C8.51521 23.2398 6.30284 21.0275 4.64468 18.418C2.81946 15.6005 1.68358 12.3927 1.32908 9.05439C1.30209 8.75574 1.33758 8.45474 1.4333 8.17055C1.52901 7.88636 1.68286 7.62522 1.88503 7.40375C2.0872 7.18227 2.33327 7.00532 2.60757 6.88416C2.88188 6.763 3.17841 6.70028 3.47828 6.69999H6.71828C7.24241 6.69484 7.75053 6.88044 8.14794 7.22221C8.54535 7.56398 8.80492 8.0386 8.87828 8.55759C9.01503 9.59447 9.26864 10.6125 9.63428 11.5924C9.77959 11.979 9.81103 12.3991 9.7249 12.8029C9.63876 13.2068 9.43865 13.5776 9.14828 13.8712L7.77668 15.2428C9.31412 17.9466 11.5528 20.1854 14.2567 21.7228L15.6283 20.3512C15.9219 20.0608 16.2926 19.8607 16.6965 19.7746C17.1004 19.6884 17.5205 19.7199 17.9071 19.8652C18.8869 20.2308 19.905 20.4844 20.9419 20.6212C21.4665 20.6952 21.9456 20.9595 22.2881 21.3637C22.6306 21.7679 22.8126 22.2839 22.7995 22.8136Z"
           stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <circle cx="24" cy="5.5" r="5" fill="#0ACD5E" />
-      <g clip-path="url(#clip1_712_32156)">
+      <g clipPath="url(#clip1_712_32156)">
         <path
           d="M25.959 4.25897L23.209 7.00897L21.959 5.75897"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -3424,7 +3424,7 @@ export const IconPlannerFilledMuted = React.forwardRef<
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect x="0.5" width="40" height="40" rx="20" fill="#F4F4F4" />
-    <g clip-path="url(#clip0_8128_140672)">
+    <g clipPath="url(#clip0_8128_140672)">
       <path
         d="M14.4281 12.15C14.3844 12.1969 14.375 12.2812 14.375 12.6156V13.025L13.775 13.0375C13.275 13.0469 13.1469 13.0594 13.0312 13.1094C12.7 13.2469 12.4719 13.475 12.3375 13.8062L12.2656 13.9844V20.25C12.2656 26.2406 12.2688 26.525 12.3219 26.7C12.5063 27.3 12.9125 27.725 13.475 27.9094L13.7031 27.9844H20C26.025 27.9844 26.3063 27.9812 26.4844 27.9281C26.9719 27.7781 27.35 27.4625 27.5594 27.0281C27.6281 26.8813 27.7 26.675 27.7188 26.5625C27.7406 26.4187 27.75 24.5312 27.7438 20.1562L27.7344 13.9531L27.6594 13.7656C27.5563 13.5062 27.2719 13.225 27.0156 13.125C26.85 13.0594 26.7656 13.05 26.2594 13.0375L25.6875 13.025V12.6125C25.6875 12.25 25.6813 12.1906 25.6313 12.1469C25.5531 12.075 25.3875 12.0813 25.3125 12.1562C25.2563 12.2125 25.25 12.2594 25.25 12.625V13.0312H23.6562H22.0625V12.6156C22.0625 12.1406 22.0406 12.0938 21.8344 12.0938C21.6531 12.0938 21.625 12.1625 21.625 12.6312V13.0312H20.0312H18.4375V12.6312C18.4375 12.1594 18.4125 12.0938 18.2219 12.0938C18.0219 12.0938 18 12.1438 18 12.6187V13.0312H16.4062H14.8125V12.625C14.8125 12.2594 14.8063 12.2125 14.75 12.1562C14.6688 12.075 14.4969 12.075 14.4281 12.15ZM14.375 13.8062V14.1469L14.2531 14.1812C14.1 14.2281 13.8656 14.4344 13.7594 14.6156C13.6406 14.8187 13.6219 15.1625 13.7188 15.4125C13.8062 15.6438 14.0594 15.8844 14.2875 15.9531C14.7531 16.0906 15.2219 15.8938 15.4281 15.475C15.5406 15.2469 15.5469 14.9094 15.4438 14.6812C15.3563 14.4844 15.1406 14.2719 14.9594 14.2031L14.8125 14.1469V13.8094V13.4688H16.4062H18V13.8031V14.1406L17.8281 14.2156C17.1188 14.5219 17.1 15.5344 17.7938 15.9C17.9313 15.9719 17.9906 15.9844 18.2188 15.9844C18.5094 15.9844 18.6438 15.9344 18.8563 15.7469C19.1406 15.4969 19.2281 15.0094 19.0531 14.65C18.9531 14.4437 18.7719 14.275 18.5719 14.2L18.4375 14.1469V13.8094V13.4688H20.0312H21.625V13.8062V14.1469L21.5031 14.1812C21.35 14.2281 21.1156 14.4344 21.0094 14.6156C20.8906 14.8187 20.8719 15.1625 20.9688 15.4125C21.0594 15.6531 21.3094 15.8844 21.5563 15.9563C22.0156 16.0906 22.5031 15.8719 22.6969 15.4406C22.7875 15.2437 22.7844 14.8875 22.6938 14.6812C22.6062 14.4875 22.3906 14.2719 22.2094 14.2031L22.0625 14.1469V13.8094V13.4688H23.6562H25.25V13.8031V14.1406L25.0781 14.2156C24.5188 14.4563 24.35 15.2094 24.7531 15.6687C25.2 16.1781 26.0094 16.075 26.3031 15.475C26.4281 15.2219 26.4281 14.9031 26.3031 14.65C26.2031 14.4437 26.0219 14.275 25.8219 14.2L25.6875 14.1469V13.8031V13.4625L26.2125 13.475C26.7937 13.4906 26.8844 13.5156 27.0844 13.725C27.2969 13.9469 27.2969 13.9344 27.3063 15.4125L27.3156 16.75H20.0188H12.7188V15.4125V14.075L12.8063 13.9062C12.9094 13.7031 13.0688 13.5687 13.2719 13.5125C13.3625 13.4906 13.6156 13.4719 13.9 13.4719L14.375 13.4688V13.8062ZM14.4281 15.225C14.5 15.3031 14.6688 15.2969 14.75 15.2125C14.8031 15.1562 14.8125 15.1031 14.8125 14.9C14.8125 14.7656 14.825 14.6562 14.8375 14.6562C14.8531 14.6562 14.8937 14.6875 14.9281 14.725C15.125 14.9437 15.1063 15.2625 14.8906 15.4344C14.6844 15.5938 14.4313 15.5813 14.2531 15.4031C14.0531 15.2031 14.0562 14.9187 14.2594 14.7156L14.3594 14.6125L14.3688 14.8906C14.375 15.0938 14.3906 15.1844 14.4281 15.225ZM18.0656 15.225C18.1531 15.3 18.2969 15.2969 18.375 15.2188C18.4281 15.1656 18.4375 15.1156 18.4375 14.9062C18.4375 14.7688 18.45 14.6562 18.4625 14.6562C18.4969 14.6562 18.6063 14.7781 18.6531 14.8656C18.7 14.9594 18.6969 15.175 18.6438 15.275C18.4844 15.5781 18.1156 15.6375 17.8812 15.3969C17.6844 15.1937 17.6813 14.95 17.8719 14.7406L17.9844 14.6156L17.9938 14.8938C18 15.1312 18.0094 15.1812 18.0656 15.225ZM21.7 15.2375C21.7875 15.3 21.9281 15.2906 22 15.2188C22.0531 15.1656 22.0625 15.1156 22.0625 14.9062C22.0625 14.7688 22.075 14.6562 22.0906 14.6562C22.1062 14.6562 22.1562 14.7 22.2 14.75C22.3562 14.9375 22.3438 15.225 22.175 15.3938C21.9781 15.5906 21.6938 15.5938 21.5031 15.4031C21.3031 15.2031 21.3063 14.9 21.5094 14.7094L21.6094 14.6156L21.625 14.9031C21.6375 15.1438 21.65 15.2 21.7 15.2375ZM25.325 15.2375C25.4094 15.2969 25.5594 15.2937 25.6313 15.2281C25.6781 15.1875 25.6875 15.1312 25.6875 14.9156C25.6875 14.775 25.7 14.6562 25.7125 14.6562C25.7469 14.6562 25.8562 14.7781 25.9031 14.8656C25.9219 14.9031 25.9375 14.9937 25.9375 15.0687C25.9375 15.475 25.4438 15.6937 25.15 15.4156C24.9344 15.2125 24.9219 14.9594 25.1219 14.7406L25.2344 14.6156L25.25 14.9031C25.2625 15.1438 25.275 15.2 25.325 15.2375ZM27.3125 21.7094C27.3125 24.4969 27.3 26.2844 27.2812 26.4156C27.2156 26.8562 26.9438 27.225 26.5406 27.4156L26.3281 27.5156H20H13.6719L13.5 27.4344C13.1469 27.2656 12.8875 26.9781 12.7812 26.6344C12.7188 26.4344 12.7188 26.3531 12.7188 21.825V17.2188H20.0156H27.3125V21.7094Z"
         fill="#AAA9AD"
@@ -3483,37 +3483,37 @@ export const IconShare = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.58984 13.51L15.4198 17.49"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.4098 6.51001L8.58984 10.49"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3535,45 +3535,45 @@ export const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M14 7H6C5.46957 7 4.96086 7.21071 4.58579 7.58579C4.21071 7.96086 4 8.46957 4 9V25C4 25.5304 4.21071 26.0391 4.58579 26.4142C4.96086 26.7893 5.46957 27 6 27H18C18.5304 27 19.0391 26.7893 19.4142 26.4142C19.7893 26.0391 20 25.5304 20 25V13L14 7Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14 7V13H20"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16 18H8"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16 22H8"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10 14H9H8"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="24" cy="5" r="5" fill="#0ACD5E" />
-      <g clip-path="url(#clip0_2674_65792)">
+      <g clipPath="url(#clip0_2674_65792)">
         <path
           d="M25.959 3.75897L23.209 6.50897L21.959 5.25897"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -3606,16 +3606,16 @@ export const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.92969 4.92999L19.0697 19.07"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3636,7 +3636,7 @@ export const IconSponsorHandShaking = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_8623_120252)">
+    <g clipPath="url(#clip0_8623_120252)">
       <path
         d="M7.23594 0.0624776C6.72344 0.168728 6.28906 0.346853 5.87344 0.618728C5.00156 1.19685 4.42969 2.04373 4.20156 3.09373C4.12031 3.46561 4.12031 4.25311 4.20156 4.62498C4.37031 5.39998 4.72031 6.05311 5.25781 6.58436C5.58281 6.90936 5.85469 7.10623 6.24531 7.30623C6.80469 7.59373 7.34219 7.71873 8.00157 7.71873C9.10157 7.71873 10.0484 7.31248 10.8078 6.52186C11.3172 5.98748 11.6422 5.36873 11.8016 4.62498C11.8797 4.25623 11.8797 3.46248 11.8016 3.09373C11.6422 2.34998 11.3172 1.73123 10.8078 1.19685C10.2266 0.590603 9.50782 0.199978 8.69219 0.0468526C8.32657 -0.0187721 7.60157 -0.0125222 7.23594 0.0624776ZM8.82032 0.624978C10.0141 0.934353 10.9203 1.84373 11.2422 3.05311C11.3141 3.32186 11.3234 3.41873 11.3234 3.85936C11.3234 4.29998 11.3141 4.39686 11.2422 4.66561C10.9234 5.85623 10.0359 6.75311 8.84532 7.08748C8.57657 7.16561 8.49844 7.17186 8.00157 7.17186C7.52657 7.17186 7.42032 7.16248 7.18907 7.09998C5.98906 6.77186 5.07969 5.86561 4.76094 4.66561C4.68906 4.39686 4.67969 4.29998 4.67969 3.85936C4.67969 3.41873 4.68906 3.32186 4.76094 3.05311C5.00469 2.14373 5.59219 1.38123 6.38594 0.940604C7.12657 0.531228 8.01719 0.415603 8.82032 0.624978Z"
         fill="currentColor"
@@ -3671,7 +3671,7 @@ export const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7814_104210)">
+      <g clipPath="url(#clip0_7814_104210)">
         <path
           d="M11.9932 1.8521C11.7525 1.91772 11.4338 2.09272 11.2213 2.28022C11.1213 2.37084 10.4807 2.94272 9.79941 3.55834C8.78691 4.46772 8.54629 4.69897 8.48691 4.82397L8.41191 4.97397L8.40254 6.51147L8.39316 8.05209H7.61504C7.18379 8.05209 6.83379 8.04897 6.83379 8.04272C6.83379 8.03959 6.88066 7.90209 6.94004 7.73959C7.10566 7.27397 7.15879 6.97084 7.15879 6.48959C7.15879 5.84584 7.04316 5.50522 6.71191 5.17709C6.51504 4.98022 6.23379 4.83022 6.02129 4.80834C5.77754 4.78647 5.75879 4.81772 5.58691 5.55209C5.30254 6.74584 5.24941 6.83022 4.38379 7.42397C3.92129 7.73959 3.80254 7.85834 3.51504 8.28022C3.29316 8.60209 3.11816 8.76147 2.96191 8.78959C2.89941 8.79897 2.82441 8.81459 2.79629 8.82397C2.74941 8.83647 2.74004 8.81772 2.74004 8.71772C2.74004 8.55522 2.62441 8.36459 2.47441 8.28022C2.35254 8.21147 2.32129 8.20834 1.54316 8.20834C0.802539 8.20834 0.727539 8.21459 0.615039 8.27084C0.549414 8.30522 0.461914 8.37709 0.421289 8.43334L0.349414 8.53647L0.340039 11.474C0.336914 13.0896 0.340039 14.4427 0.349414 14.4802C0.374414 14.5865 0.524414 14.7427 0.661914 14.8052C0.771289 14.8552 0.877539 14.8646 1.53691 14.8646C2.19941 14.8646 2.30254 14.8552 2.41191 14.8052C2.64941 14.6958 2.74004 14.5396 2.74004 14.2333C2.74004 14.0677 2.74629 14.049 2.79629 14.0677C3.22441 14.2302 3.69629 14.3896 3.97441 14.4583C4.57129 14.6083 4.79941 14.6208 6.92754 14.6052C8.00254 14.5958 8.91504 14.5896 8.95879 14.5896C14.9275 14.6177 15.5369 14.6146 15.6963 14.5677C15.8869 14.5115 16.1463 14.2958 16.2494 14.1021L16.3182 13.974V9.45522V4.93647L16.2244 4.78335C16.1588 4.67709 15.7557 4.29272 14.9275 3.54272C13.5369 2.28647 13.3088 2.09585 13.0432 1.96772C12.7025 1.8021 12.3307 1.76147 11.9932 1.8521ZM12.7744 2.43334C12.8682 2.4771 13.0275 2.58022 13.1307 2.66772C13.6057 3.0646 15.6994 4.96772 15.7463 5.04585C15.7994 5.13022 15.8025 5.40835 15.8025 9.45522C15.8057 13.5708 15.8025 13.7833 15.7463 13.8771C15.715 13.9302 15.6432 13.999 15.5838 14.0271C15.4807 14.0802 15.2682 14.0833 12.465 14.0833H9.45566L9.50879 13.9833C9.58691 13.8333 9.60254 13.5052 9.54004 13.2958C9.47754 13.0771 9.47754 13.0833 9.56191 13.0833C9.69316 13.0833 10.015 12.899 10.1338 12.7552C10.3869 12.4458 10.44 12.0115 10.2713 11.6521L10.1775 11.4521L10.3213 11.3146C10.6869 10.9583 10.7369 10.374 10.4307 9.97084C10.3682 9.88647 10.2588 9.78022 10.1869 9.73022L10.0557 9.64272L10.1307 9.48022C10.2463 9.23647 10.24 8.88647 10.1182 8.63022C9.94629 8.26147 9.59941 8.05209 9.16191 8.05209H8.92754V6.58959C8.92754 5.25522 8.93379 5.12397 8.98379 5.04897C9.05254 4.94584 11.5682 2.68022 11.765 2.54585C12.0932 2.31772 12.44 2.28022 12.7744 2.43334ZM6.43691 5.68334C6.67754 6.04585 6.70254 6.65834 6.50254 7.35834C6.43066 7.60834 6.27754 7.93959 6.14941 8.13022C6.06816 8.24897 6.06504 8.39897 6.14316 8.49272L6.20254 8.56772L7.77754 8.58334C9.19004 8.59584 9.35879 8.60522 9.44941 8.65209C9.67754 8.77709 9.75254 9.11459 9.60254 9.33647C9.45879 9.54897 9.43691 9.55209 8.22441 9.55209H7.14004L7.04941 9.64272C6.99941 9.69272 6.95879 9.76459 6.95879 9.80209C6.95879 9.89272 7.04004 10.0396 7.09941 10.0646C7.12754 10.074 7.72129 10.0833 8.42129 10.0833C9.62129 10.0833 9.69629 10.0865 9.81504 10.1458C10.0682 10.2677 10.165 10.5365 10.0463 10.7677C9.96191 10.9333 9.85879 11.0146 9.69004 11.0521C9.62441 11.0677 9.01816 11.0833 8.34629 11.0833C7.19316 11.0833 7.11816 11.0865 7.04941 11.1427C6.99316 11.1865 6.97441 11.2333 6.97441 11.3302C6.97441 11.574 6.93066 11.5646 8.28066 11.5833C9.41191 11.599 9.48066 11.6021 9.58379 11.6646C9.90879 11.8552 9.92129 12.2677 9.60566 12.5021C9.52129 12.5646 9.47129 12.5677 8.29316 12.5833C7.61816 12.5927 7.06504 12.6052 7.06191 12.6083C7.02754 12.6396 6.95879 12.8115 6.95879 12.8646C6.95879 12.9021 6.99941 12.974 7.04941 13.024L7.14004 13.1146H7.92129C8.67754 13.1146 8.70254 13.1177 8.80254 13.1833C8.97441 13.3021 9.03691 13.4115 9.03691 13.599C9.03691 13.7865 8.97441 13.8958 8.80254 14.0146L8.69941 14.0833H6.82129C5.69629 14.0833 4.83379 14.0708 4.67754 14.049C4.28379 14.0021 3.97754 13.9208 3.32441 13.6865L2.74004 13.4802L2.74629 11.4146L2.75566 9.34897L2.94941 9.32709C3.34941 9.28334 3.58066 9.12084 3.90254 8.66459C4.20566 8.23334 4.32129 8.11772 4.75566 7.82397C4.96191 7.68334 5.24004 7.46459 5.37441 7.33334C5.70566 7.02084 5.84941 6.73022 6.02441 6.01772C6.09316 5.73647 6.15566 5.48647 6.16504 5.46459C6.18379 5.40522 6.32441 5.52084 6.43691 5.68334ZM2.20879 11.5365V14.3333H1.54004C0.958789 14.3333 0.868164 14.3271 0.852539 14.2833C0.827539 14.2177 0.827539 8.78647 0.855664 8.76147C0.865039 8.74897 1.17441 8.73959 1.54316 8.73959H2.20879V11.5365Z"
           fill="currentColor"
@@ -3715,9 +3715,9 @@ export const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3741,50 +3741,50 @@ export const IconUnverifiedAgreement = React.forwardRef<
     <path
       d="M14 7H6C5.46957 7 4.96086 7.21071 4.58579 7.58579C4.21071 7.96086 4 8.46957 4 9V25C4 25.5304 4.21071 26.0391 4.58579 26.4142C4.96086 26.7893 5.46957 27 6 27H18C18.5304 27 19.0391 26.7893 19.4142 26.4142C19.7893 26.0391 20 25.5304 20 25V13L14 7Z"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M14 7V13H20"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M16 18H8"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M16 22H8"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M10 14H9H8"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <circle cx="24" cy="5" r="5" fill="#FA0101" />
     <path
       d="M25.5 3.5L22.5 6.5"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M22.5 3.5L25.5 6.5"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -3805,29 +3805,29 @@ export const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M4 9.5H20C21.1 9.5 22 10.4 22 11.5V23.5C22 24.6 21.1 25.5 20 25.5H4C2.9 25.5 2 24.6 2 23.5V11.5C2 10.4 2.9 9.5 4 9.5Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22 11.5L12 18.5L2 11.5"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="24" cy="5.5" r="5" fill="#FA0101" />
       <path
         d="M25.5 4L22.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3846,7 +3846,7 @@ export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4705_69456)">
+      <g clipPath="url(#clip0_4705_69456)">
         <path
           d="M11.9997 20.1667C12.5574 20.1667 13.1026 20.0013 13.5664 19.6914C14.0301 19.3816 14.3916 18.9411 14.605 18.4258C14.8185 17.9106 14.8743 17.3435 14.7655 16.7965C14.6567 16.2495 14.3881 15.747 13.9937 15.3526C13.5993 14.9582 13.0969 14.6897 12.5498 14.5809C12.0028 14.472 11.4358 14.5279 10.9205 14.7413C10.4052 14.9548 9.96481 15.3162 9.65494 15.78C9.34508 16.2437 9.17969 16.7889 9.17969 17.3467C9.17969 18.0946 9.47679 18.8119 10.0056 19.3407C10.5345 19.8696 11.2518 20.1667 11.9997 20.1667ZM11.9997 15.5933C12.3465 15.5933 12.6855 15.6962 12.9738 15.8888C13.2621 16.0815 13.4869 16.3553 13.6196 16.6757C13.7523 16.9961 13.787 17.3486 13.7193 17.6887C13.6517 18.0288 13.4847 18.3413 13.2395 18.5865C12.9943 18.8317 12.6819 18.9987 12.3417 19.0663C12.0016 19.134 11.6491 19.0992 11.3287 18.9665C11.0083 18.8338 10.7345 18.6091 10.5418 18.3208C10.3492 18.0324 10.2464 17.6935 10.2464 17.3467C10.2464 16.8817 10.4311 16.4357 10.7599 16.1069C11.0887 15.7781 11.5347 15.5933 11.9997 15.5933Z"
           fill="currentColor"
@@ -3868,14 +3868,14 @@ export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M25.5 4L22.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <clipPath id="clip0_4705_69456">
@@ -3904,27 +3904,27 @@ export const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4705_69252)">
+      <g clipPath="url(#clip0_4705_69252)">
         <path
           d="M22.7995 22.8136V26.0536C22.8007 26.3544 22.7391 26.6521 22.6186 26.9277C22.4981 27.2033 22.3214 27.4507 22.0997 27.654C21.8781 27.8573 21.6164 28.0122 21.3315 28.1085C21.0466 28.2049 20.7446 28.2407 20.4451 28.2136C17.1217 27.8525 13.9294 26.7169 11.1247 24.898C8.51521 23.2398 6.30284 21.0275 4.64468 18.418C2.81946 15.6005 1.68358 12.3927 1.32908 9.05439C1.30209 8.75574 1.33758 8.45474 1.4333 8.17055C1.52901 7.88636 1.68286 7.62522 1.88503 7.40375C2.0872 7.18227 2.33327 7.00532 2.60757 6.88416C2.88188 6.763 3.17841 6.70028 3.47828 6.69999H6.71828C7.24241 6.69484 7.75053 6.88044 8.14794 7.22221C8.54535 7.56398 8.80492 8.0386 8.87828 8.55759C9.01503 9.59447 9.26864 10.6125 9.63428 11.5924C9.77959 11.979 9.81103 12.3991 9.7249 12.8029C9.63876 13.2068 9.43865 13.5776 9.14828 13.8712L7.77668 15.2428C9.31412 17.9466 11.5528 20.1854 14.2567 21.7228L15.6283 20.3512C15.9219 20.0608 16.2926 19.8607 16.6965 19.7746C17.1004 19.6884 17.5205 19.7199 17.9071 19.8652C18.8869 20.2308 19.905 20.4844 20.9419 20.6212C21.4665 20.6952 21.9456 20.9595 22.2881 21.3637C22.6306 21.7679 22.8126 22.2839 22.7995 22.8136Z"
           stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <circle cx="24" cy="5.5" r="5" fill="#FA0101" />
       <path
         d="M25.5 4L22.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <clipPath id="clip0_4705_69252">
@@ -3956,20 +3956,20 @@ export const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M10.666 14V12.6667C10.666 11.9594 10.3851 11.2811 9.88497 10.781C9.38487 10.281 8.70659 10 7.99935 10H3.33268C2.62544 10 1.94716 10.281 1.44706 10.781C0.946967 11.2811 0.666016 11.9594 0.666016 12.6667V14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.66667 7.33333C7.13943 7.33333 8.33333 6.13943 8.33333 4.66667C8.33333 3.19391 7.13943 2 5.66667 2C4.19391 2 3 3.19391 3 4.66667C3 6.13943 4.19391 7.33333 5.66667 7.33333Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.334 7.33333L12.6673 8.66667L15.334 6"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -3991,26 +3991,26 @@ export const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M11.3327 14V12.6667C11.3327 11.9594 11.0517 11.2811 10.5516 10.781C10.0515 10.281 9.37326 10 8.66602 10H3.33268C2.62544 10 1.94716 10.281 1.44706 10.781C0.946967 11.2811 0.666016 11.9594 0.666016 12.6667V14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.00065 7.33333C7.47341 7.33333 8.66732 6.13943 8.66732 4.66667C8.66732 3.19391 7.47341 2 6.00065 2C4.52789 2 3.33398 3.19391 3.33398 4.66667C3.33398 6.13943 4.52789 7.33333 6.00065 7.33333Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.334 14V12.6667C15.3335 12.0758 15.1369 11.5019 14.7749 11.0349C14.4129 10.5679 13.9061 10.2344 13.334 10.0867"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.666 2.08667C11.2396 2.23354 11.748 2.56714 12.1111 3.03488C12.4742 3.50262 12.6712 4.07789 12.6712 4.67C12.6712 5.26212 12.4742 5.83739 12.1111 6.30513C11.748 6.77287 11.2396 7.10647 10.666 7.25334"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4033,13 +4033,13 @@ export const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
         d="M11.4707 7.99081H12.7266V11.0872H11.4707V7.99081Z"
         fill="currentColor"
         stroke="currentColor"
-        stroke-width="0.25"
+        strokeWidth="0.25"
       />
       <path
         d="M14.2326 3.6828V3.8078H14.3576C15.107 3.8078 15.7385 4.48955 15.7385 5.356V13.722C15.7385 14.5885 15.107 15.2702 14.3576 15.2702H3.06351C2.63702 15.2702 2.10249 15.1124 1.67619 14.737C1.25352 14.3649 0.929688 13.7724 0.929688 12.8854V2.8462C0.929688 1.51878 1.89924 0.461395 3.06351 0.461395H12.8517C13.6011 0.461395 14.2326 1.14315 14.2326 2.0096V3.6828ZM12.9767 2.0096V1.8846H12.8517H3.06351C2.56671 1.8846 2.18557 2.329 2.18557 2.8462C2.18557 3.3634 2.56671 3.8078 3.06351 3.8078H12.8517H12.9767V3.6828V2.0096ZM14.3576 13.847H14.4826V13.722V5.356V5.231H14.3576H3.06351C2.81697 5.231 2.5821 5.17518 2.35698 5.08517L2.18557 5.01663V5.20123V12.8854C2.18557 13.2492 2.29866 13.495 2.48063 13.6481C2.65805 13.7974 2.88105 13.8415 3.06894 13.847L3.06894 13.847H3.07255H14.3576Z"
         fill="currentColor"
         stroke="currentColor"
-        stroke-width="0.25"
+        strokeWidth="0.25"
       />
     </svg>
   )
@@ -4058,7 +4058,7 @@ export const IconAge = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6496_193233)">
+      <g clipPath="url(#clip0_6496_193233)">
         <path
           d="M7.20312 0.0216341C5.575 0.215384 4.22813 0.759134 3.01562 1.71226C2.7 1.96226 2.03125 2.62476 1.76562 2.95601C1.03438 3.85913 0.49375 4.94976 0.21875 6.06851C0.040625 6.79351 0.015625 7.03413 0.015625 7.98413C0.015625 8.90288 0.034375 9.09976 0.178125 9.74976C0.7375 12.2904 2.5875 14.4779 4.99062 15.4341C5.99688 15.8341 6.88125 15.9998 8 15.9998C8.98125 15.9998 9.675 15.8904 10.5906 15.5873C11.15 15.3998 11.9187 15.0279 12.3906 14.7123C13.3688 14.056 14.2719 13.1248 14.8594 12.156C15.5719 10.9873 16 9.50601 16 8.21851C16 7.79038 15.9719 7.70913 15.7937 7.59038C15.6719 7.50913 15.4 7.50913 15.2688 7.59038C15.0906 7.70288 15.0594 7.79663 15.0281 8.33726C15.0156 8.60601 14.9812 8.96226 14.9531 9.12476C14.7656 10.256 14.3125 11.3154 13.6156 12.2466C13.3281 12.631 12.6313 13.3279 12.2469 13.6154C11.2406 14.3685 10.0375 14.8529 8.81563 14.9998C8.44063 15.0435 7.55938 15.0435 7.19688 14.9998C5.94375 14.8466 4.76562 14.3716 3.75312 13.6154C3.36875 13.3279 2.67188 12.631 2.38438 12.2466C1.61875 11.2248 1.14375 10.0341 0.996875 8.77476C0.9375 8.25288 0.975 7.22788 1.075 6.70913C1.56875 4.12476 3.44062 2.03413 5.95 1.26226C6.62813 1.05288 7.2375 0.965384 7.99688 0.965384C8.84062 0.965384 9.45625 1.06538 10.2594 1.33413C10.8906 1.54351 12.0969 2.17476 12.0094 2.24976C11.9969 2.26226 11.8562 2.28726 11.6969 2.30601C11.5406 2.32476 11.3656 2.36226 11.3125 2.39038C11.0281 2.53726 11.0156 3.05288 11.2937 3.22163C11.4281 3.30288 11.5656 3.29663 12.5563 3.17163C13.4812 3.05601 13.5563 3.03413 13.6687 2.84038C13.7438 2.71538 13.7406 2.58101 13.6469 1.54351C13.5844 0.868509 13.5656 0.743509 13.5063 0.649759C13.325 0.359134 12.8719 0.368509 12.6844 0.662259C12.625 0.756009 12.6219 0.796634 12.6375 1.11538L12.6562 1.46851L12.3531 1.26851C11.3594 0.618509 10.2 0.196634 9 0.0466337C8.64688 0.00288391 7.4875 -0.0127411 7.20312 0.0216341Z"
           fill="currentColor"
@@ -4100,7 +4100,7 @@ export const IconApplicationStatus = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_6513_194388)">
+    <g clipPath="url(#clip0_6513_194388)">
       <path
         d="M0.54375 0.0750008C0.340625 0.168751 0.16875 0.340626 0.075 0.543751L0 0.703126V8V15.2969L0.075 15.4563C0.16875 15.6594 0.340625 15.8313 0.54375 15.925L0.703125 16H6.625H12.5469L12.7062 15.925C12.9094 15.8313 13.0812 15.6594 13.175 15.4563L13.25 15.2969V13.9594V12.6188L13.1594 12.5281C13.0375 12.4094 12.8562 12.4031 12.7281 12.5125L12.6406 12.5875L12.625 13.8656C12.6094 15.2375 12.6094 15.2281 12.4406 15.3188C12.325 15.3813 0.921875 15.3781 0.80625 15.3156C0.63125 15.2219 0.640625 15.6969 0.640625 8C0.640625 0.303126 0.63125 0.778126 0.80625 0.684376C0.921875 0.621876 12.325 0.618751 12.4406 0.681251C12.6125 0.771876 12.6094 0.715626 12.625 2.68125L12.6406 4.50625L12.7281 4.58125C12.8562 4.69063 13.0375 4.68438 13.1594 4.56563L13.25 4.475V2.5875V0.703126L13.175 0.543751C13.0812 0.340626 12.9094 0.168751 12.7062 0.0750008L12.5469 9.53674e-07H6.625H0.703125L0.54375 0.0750008Z"
         fill="currentColor"
@@ -4163,7 +4163,7 @@ export const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_77077)">
+      <g clipPath="url(#clip0_4746_77077)">
         <path
           d="M14.3915 13.8671L13.4708 3.49079C13.4542 3.28545 13.282 3.12979 13.0734 3.12979H11.1326C11.1293 1.40426 9.725 0 7.99947 0C6.27395 0 4.86969 1.40426 4.86637 3.12979H2.92558C2.72023 3.12979 2.54801 3.28545 2.52814 3.49079L1.60742 13.8671C1.60742 13.8804 1.60742 13.8903 1.60742 13.9035C1.60742 15.0594 2.67056 16 3.97546 16H12.0235C13.3284 16 14.3915 15.0594 14.3915 13.9035C14.3915 13.8903 14.3915 13.8804 14.3915 13.8671ZM7.99947 0.794866C9.28782 0.794866 10.3344 1.84144 10.3377 3.12979H5.66124C5.66455 1.84144 6.71113 0.794866 7.99947 0.794866ZM12.0235 15.2018H3.97546C3.11436 15.2018 2.41222 14.6289 2.40229 13.9168L3.28989 3.92465H4.86637V5.31898C4.86637 5.53757 5.04522 5.71641 5.26381 5.71641C5.4824 5.71641 5.66124 5.53757 5.66124 5.31898V3.92465H10.3377V5.31898C10.3377 5.53757 10.5166 5.71641 10.7351 5.71641C10.9537 5.71641 11.1326 5.53757 11.1326 5.31898V3.92465H12.7091L13.5967 13.9201C13.5867 14.6289 12.8846 15.2018 12.0235 15.2018Z"
           fill="currentColor"
@@ -4202,8 +4202,8 @@ export const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13.7295 21C13.5537 21.3031 13.3014 21.5547 12.9978 21.7295C12.6941 21.9044 12.3499 21.9965 11.9995 21.9965C11.6492 21.9965 11.3049 21.9044 11.0013 21.7295C10.6977 21.5547 10.4453 21.3031 10.2695 21"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4225,14 +4225,14 @@ export const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.7295 21C13.5537 21.3031 13.3014 21.5547 12.9978 21.7295C12.6941 21.9044 12.3499 21.9965 11.9995 21.9965C11.6492 21.9965 11.3049 21.9044 11.0013 21.7295C10.6977 21.5547 10.4453 21.3031 10.2695 21"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4251,7 +4251,7 @@ export const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_79758)">
+      <g clipPath="url(#clip0_4746_79758)">
         <path
           d="M12 6V0H4V6H0V13H16V6H12ZM7 12H1V7H3V8H5V7H7V12ZM5 6V1H7V2H9V1H11V6H5ZM15 12H9V7H11V8H13V7H15V12Z"
           fill="currentColor"
@@ -4280,7 +4280,7 @@ export const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6513_194325)">
+      <g clipPath="url(#clip0_6513_194325)">
         <path
           d="M3.725 0.0504885C3.59063 0.119238 3.47813 0.256738 3.4375 0.400488C3.42188 0.462988 3.40625 0.778613 3.40625 1.09736V1.68174L2.4 1.69424C1.45 1.70674 1.37813 1.71299 1.1875 1.77861C0.915625 1.87236 0.7375 1.97861 0.534375 2.16924C0.315625 2.37549 0.178125 2.59424 0.078125 2.88486L0 3.12236V8.85049C0 14.0317 0.00625 14.6005 0.05 14.7536C0.225 15.3349 0.665625 15.7755 1.24688 15.9505C1.40313 15.9942 2.0375 16.0005 8 16.0005C13.9625 16.0005 14.5969 15.9942 14.7531 15.9505C15.3344 15.7755 15.775 15.3349 15.95 14.7536C15.9938 14.6005 16 14.0317 16 8.85049V3.12236L15.9219 2.88486C15.7406 2.35049 15.3562 1.96924 14.8125 1.77861C14.6219 1.71299 14.55 1.70674 13.6031 1.69424L12.5969 1.68174L12.5875 1.03486C12.5781 0.316113 12.5656 0.262988 12.3531 0.103613C12.25 0.0254879 12.2125 0.0161133 12 0.0161133C11.7875 0.0161133 11.75 0.0254879 11.6469 0.103613C11.4344 0.262988 11.4219 0.312988 11.4125 1.03799L11.4031 1.68799H8H4.59688L4.5875 1.03799C4.57812 0.316113 4.56563 0.262988 4.35625 0.103613C4.20937 -0.0057621 3.89062 -0.0338879 3.725 0.0504885ZM3.40625 3.45986C3.40625 3.78486 3.42188 4.10049 3.4375 4.16299C3.525 4.46924 3.84375 4.64736 4.15938 4.56299C4.33125 4.51611 4.5125 4.33799 4.55938 4.17236C4.57812 4.10049 4.59375 3.79111 4.59375 3.45986V2.87549H8H11.4062V3.45986C11.4062 3.79111 11.4219 4.10049 11.4406 4.17236C11.4875 4.33799 11.6687 4.51611 11.8406 4.56299C12.1562 4.64736 12.475 4.46924 12.5625 4.16299C12.5781 4.10049 12.5938 3.78486 12.5938 3.45986V2.87549H13.4938C14.525 2.87549 14.5813 2.88799 14.7406 3.12861L14.8281 3.26299L14.8375 4.47549L14.8469 5.68799H8H1.15313L1.1625 4.47549L1.17188 3.26299L1.25937 3.12861C1.41875 2.88799 1.475 2.87549 2.50938 2.87549H3.40625V3.45986ZM14.8375 10.6661L14.8281 14.4567L14.7438 14.5849C14.6938 14.6599 14.6062 14.738 14.525 14.7786L14.3875 14.8442H8H1.6125L1.475 14.7786C1.39375 14.738 1.30625 14.6599 1.25625 14.5849L1.17188 14.4567L1.1625 10.6661L1.15625 6.87549H8H14.8438L14.8375 10.6661Z"
           fill="currentColor"
@@ -4312,7 +4312,7 @@ export const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4804_82239)">
+      <g clipPath="url(#clip0_4804_82239)">
         <path
           d="M21.5267 0.916031H20.7037C20.725 0.847878 20.747 0.779725 20.747 0.704244C20.747 0.315847 20.4304 0 20.0413 0C19.6521 0 19.337 0.315847 19.337 0.704244C19.337 0.780458 19.3575 0.847878 19.3803 0.916031H16.6835C16.7047 0.847878 16.7267 0.779725 16.7267 0.704244C16.7267 0.315847 16.4101 0 16.021 0C15.6326 0 15.316 0.315847 15.316 0.704244C15.316 0.780458 15.3373 0.847878 15.36 0.916031H12.6625C12.6837 0.847878 12.705 0.779725 12.705 0.704244C12.7042 0.315847 12.3891 0 12 0C11.6109 0 11.2957 0.315847 11.2957 0.704244C11.2957 0.780458 11.3163 0.847878 11.3383 0.916031H8.64073C8.66198 0.847878 8.68396 0.779725 8.68396 0.704244C8.68396 0.315847 8.36811 0 7.97972 0C7.59059 0 7.27474 0.315847 7.27474 0.704244C7.27474 0.780458 7.29526 0.847878 7.31724 0.916031H4.62045C4.64244 0.847878 4.66369 0.779725 4.66369 0.704244C4.66369 0.315847 4.34857 0 3.95944 0C3.57031 0 3.25447 0.315847 3.25447 0.704244C3.25447 0.780458 3.27499 0.847878 3.29697 0.916031H2.47327C1.36085 0.916031 0.458008 1.8196 0.458008 2.9313V21.9847C0.458008 23.0972 1.36085 24 2.47327 24H19.2513L23.542 19.7093V2.9313C23.542 1.8196 22.6391 0.916031 21.5267 0.916031ZM17.5079 3.12037L17.7754 4.00049C17.8054 4.10748 17.8428 4.23939 17.8641 4.33466H17.8758C17.9007 4.23939 17.93 4.10382 17.9557 4.00049L18.1755 3.12037H18.7728L18.355 4.30095C18.0986 5.01325 17.9256 5.29832 17.7255 5.4786C17.5299 5.64714 17.3247 5.7065 17.1869 5.72409L17.0697 5.25069C17.1393 5.23896 17.2272 5.20598 17.3115 5.15542C17.395 5.11072 17.4866 5.02278 17.5409 4.93118C17.5592 4.90553 17.5709 4.87621 17.5709 4.8513C17.5709 4.83298 17.5665 4.80366 17.5453 4.75896L16.8887 3.11963L17.5079 3.12037ZM16.0063 3.12037L16.0239 3.45087H16.0393C16.1309 3.19072 16.3515 3.08006 16.523 3.08006C16.5743 3.08006 16.5999 3.08006 16.6402 3.08739V3.61209C16.5999 3.60476 16.5523 3.5967 16.49 3.5967C16.2856 3.5967 16.1448 3.70663 16.1082 3.87957C16.1009 3.91621 16.0972 3.96018 16.0972 4.00489V4.91359H15.5395V3.71102C15.5395 3.44647 15.5322 3.27426 15.5249 3.11963L16.0063 3.12037ZM14.1223 3.46186C13.939 3.46186 13.7434 3.52415 13.6269 3.59744L13.5228 3.23835C13.6481 3.16873 13.8936 3.08079 14.219 3.08079C14.817 3.08079 15.0075 3.43255 15.0075 3.85539V4.47829C15.0075 4.65124 15.0156 4.81612 15.0332 4.91505H14.5319L14.4989 4.73624H14.4879C14.3707 4.87841 14.1875 4.95609 13.9742 4.95609C13.6122 4.95609 13.3946 4.69227 13.3946 4.40574C13.3946 3.93966 13.8137 3.71615 14.4484 3.71982V3.69417C14.4491 3.5967 14.3971 3.46186 14.1223 3.46186ZM11.2789 3.12037H11.8402V4.08476C11.8402 4.34492 11.9245 4.50247 12.1194 4.50247C12.2733 4.50247 12.3613 4.39621 12.3979 4.30828C12.4133 4.2753 12.4148 4.23133 12.4148 4.18736V3.11963H12.9776V4.33759C12.9776 4.57209 12.9849 4.76263 12.9922 4.91286H12.5086L12.4837 4.66003H12.4727C12.4016 4.76922 12.2338 4.95316 11.9106 4.95316C11.5471 4.95316 11.2796 4.72525 11.2796 4.17197L11.2789 3.12037ZM9.51645 3.12037L9.5421 3.3666H9.55309C9.62711 3.25301 9.81031 3.08006 10.1071 3.08006C10.4735 3.08006 10.7491 3.32189 10.7491 3.85026V4.91359H10.1906V3.92061C10.1906 3.68977 10.1108 3.53148 9.90851 3.53148C9.75462 3.53148 9.66228 3.63847 9.62637 3.74034C9.61098 3.77331 9.60366 3.82901 9.60366 3.87957V4.91359H9.04671V3.6927C9.04671 3.46846 9.03938 3.27866 9.03132 3.12037H9.51645ZM7.62943 3.46186C7.44549 3.46186 7.25129 3.52415 7.13404 3.59744L7.03144 3.23835C7.15602 3.16873 7.40152 3.08079 7.72763 3.08079C8.32488 3.08079 8.51615 3.43255 8.51615 3.85539V4.47829C8.51615 4.65124 8.52421 4.81612 8.54179 4.91505H8.03908L8.0061 4.73624H7.99511C7.87785 4.87841 7.69392 4.95609 7.4814 4.95609C7.11792 4.95609 6.90173 4.69227 6.90173 4.40574C6.90173 3.93966 7.31944 3.71615 7.9548 3.71982V3.69417C7.95553 3.5967 7.90424 3.46186 7.62943 3.46186ZM5.2756 4.44385C5.35254 4.4695 5.45147 4.48855 5.56213 4.48855C5.79663 4.48855 5.94393 4.38229 5.94393 3.99682V2.44177H6.50161V4.00489C6.50161 4.70913 6.16451 4.95463 5.62149 4.95463C5.49324 4.95463 5.3247 4.93264 5.21477 4.896L5.2756 4.44385ZM22.4427 19.2535L22.2148 19.4814H20.489C19.6815 19.4814 19.0234 20.1395 19.0234 20.9471V22.6729L18.7955 22.9008H2.47327C1.96836 22.9008 1.55724 22.4896 1.55724 21.9847V6.59542H22.4427V19.2535Z"
           fill="currentColor"
@@ -4355,28 +4355,28 @@ export const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12.6667 2.66667H3.33333C2.59695 2.66667 2 3.26363 2 4.00001V13.3333C2 14.0697 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0697 14 13.3333V4.00001C14 3.26363 13.403 2.66667 12.6667 2.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.667 1.33333V3.99999"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.33301 1.33333V3.99999"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2 6.66666H14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.4769 8.5L11.0877 9.73752L12.4537 9.93718L11.4653 10.8999L11.6986 12.26L10.4769 11.6175L9.25516 12.26L9.48843 10.8999L8.5 9.93718L9.86601 9.73752L10.4769 8.5Z"
@@ -4403,7 +4403,7 @@ export const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4625_54670)">
+      <g clipPath="url(#clip0_4625_54670)">
         <path
           d="M14.0007 1.33334L8.66732 6.00001H7.33398L2.00065 1.33334M1.33398 6.00001H14.6673V14.6667H1.33398V6.00001Z"
           stroke="currentColor"
@@ -4411,16 +4411,16 @@ export const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
         <path
           d="M4.5625 10C4.5625 10 5.81248 7.5 7.99995 7.5C10.1874 7.5 11.4374 10 11.4374 10C11.4374 10 10.1874 12.5 7.99995 12.5C5.81248 12.5 4.5625 10 4.5625 10Z"
           stroke="currentColor"
-          stroke-width="0.749995"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.749995"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M7.99999 10.9375C8.51775 10.9375 8.93747 10.5177 8.93747 9.99997C8.93747 9.4822 8.51775 9.06247 7.99999 9.06247C7.48223 9.06247 7.0625 9.4822 7.0625 9.99997C7.0625 10.5177 7.48223 10.9375 7.99999 10.9375Z"
           stroke="currentColor"
-          stroke-width="0.749995"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.749995"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -4445,18 +4445,18 @@ export const IconClock = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_819_12726)">
+      <g clipPath="url(#clip0_819_12726)">
         <path
           d="M8.00065 14.6667C11.6825 14.6667 14.6673 11.6819 14.6673 7.99999C14.6673 4.3181 11.6825 1.33333 8.00065 1.33333C4.31875 1.33333 1.33398 4.3181 1.33398 7.99999C1.33398 11.6819 4.31875 14.6667 8.00065 14.6667Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M8 4V8L10.6667 9.33333"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -4481,7 +4481,7 @@ export const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_78622)">
+      <g clipPath="url(#clip0_4746_78622)">
         <path
           d="M3.15839 3.37843H11.3121C11.563 3.37843 11.7664 3.17503 11.7664 2.92414C11.7664 2.67325 11.563 2.46985 11.3121 2.46985H3.15839C2.9075 2.46985 2.7041 2.67325 2.7041 2.92414C2.7041 3.17503 2.9075 3.37843 3.15839 3.37843Z"
           fill="currentColor"
@@ -4553,20 +4553,20 @@ export const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.66602 6.66669L7.99935 10L11.3327 6.66669"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8 10V2"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4585,7 +4585,7 @@ export const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_53931)">
+      <g clipPath="url(#clip0_4630_53931)">
         <path
           d="M6.75055 0.874988C4.05055 1.34999 1.76305 3.46249 0.988053 6.18749C0.738053 7.09999 0.763053 9.14999 1.05055 9.99999C1.88805 12.4875 3.51305 14.1125 6.00055 14.95C6.51305 15.125 7.03805 15.175 8.06305 15.175C9.25055 15.1625 9.57555 15.1125 10.3756 14.8125C12.6506 13.975 14.1381 12.4125 14.9506 9.99999C15.2881 8.98749 15.2631 6.82499 14.9006 5.81249C14.5631 4.89999 14.3756 4.68749 13.9631 4.79999C13.5131 4.91249 13.4631 5.21249 13.7631 6.04999C13.9006 6.44999 13.9756 6.82499 13.9131 6.87499C13.8631 6.92499 13.4256 7.06249 12.9631 7.17499C11.8256 7.44999 11.5506 7.64999 11.1131 8.51249C10.5881 9.56249 10.1756 9.73749 9.52555 9.18749C9.22555 8.93749 9.10055 8.66249 8.87555 7.72499C8.42555 5.87499 8.11305 5.47499 6.92555 5.17499C5.88805 4.89999 5.68805 4.73749 5.18805 3.76249C4.85055 3.08749 4.78805 2.87499 4.91305 2.77499C5.28805 2.46249 6.38805 2.09999 7.37555 1.94999C8.40055 1.79999 8.43805 1.78749 8.47555 1.44999C8.56305 0.774987 8.13805 0.637487 6.75055 0.874988ZM5.01305 5.64999C5.15055 5.77499 5.67555 5.98749 6.16305 6.13749C6.66305 6.27499 7.15055 6.47499 7.26305 6.57499C7.36305 6.67499 7.58805 7.32499 7.76305 8.02499C8.08805 9.44999 8.41305 9.94999 9.28805 10.4C9.66305 10.5875 9.93805 10.6375 10.3506 10.5875C11.0506 10.5125 11.4756 10.2 11.8756 9.47499C12.0506 9.14999 12.2881 8.78749 12.4131 8.64999C12.6131 8.42499 13.9506 8.03749 14.0756 8.16249C14.2131 8.29999 13.8256 9.86249 13.4756 10.625C12.9506 11.7125 11.7131 12.95 10.6256 13.475C9.90055 13.8125 8.18805 14.2375 8.06305 14.1C8.03805 14.075 8.10055 13.7125 8.20055 13.3125C8.50055 12.2 8.31305 11.525 7.42555 10.45C6.60055 9.44999 6.01305 9.13749 4.98805 9.12499C4.36305 9.12499 4.16305 9.04999 3.11305 8.42499C2.46305 8.03749 1.92555 7.69999 1.91305 7.68749C1.88805 7.67499 1.93805 7.33749 2.01305 6.92499C2.18805 5.99999 2.72555 4.84999 3.32555 4.14999L3.78805 3.59999L4.26305 4.52499C4.52555 5.02499 4.86305 5.53749 5.01305 5.64999ZM3.15055 9.79999C3.57555 10.05 3.98805 10.1625 4.52555 10.2125C5.61305 10.2875 5.90055 10.425 6.50055 11.1375C7.22555 12 7.31305 12.325 7.05055 13.2375C6.85055 13.9625 6.82555 13.9875 6.51305 13.925C4.58805 13.475 2.52555 11.4 2.07555 9.44999C1.98805 9.09999 1.98805 9.08749 2.27555 9.27499C2.43805 9.37499 2.82555 9.61249 3.15055 9.79999Z"
           fill="currentColor"
@@ -4617,7 +4617,7 @@ export const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6496_193395)">
+      <g clipPath="url(#clip0_6496_193395)">
         <path
           d="M7.81607 0.0593748C7.7817 0.09375 7.7192 0.2375 7.67545 0.38125C7.6317 0.521875 7.52545 0.85 7.44107 1.10938L7.29107 1.57812H6.51295C5.82857 1.57812 5.72232 1.58437 5.65045 1.63125C5.55045 1.69687 5.51295 1.84063 5.5692 1.95C5.59107 1.99375 5.88482 2.22812 6.2192 2.47187C6.55357 2.7125 6.8317 2.91562 6.83795 2.92188C6.8442 2.92813 6.74107 3.25937 6.61295 3.65937C6.4817 4.05937 6.37545 4.4125 6.37545 4.44375C6.37545 4.53125 6.5442 4.6875 6.63795 4.6875C6.72232 4.6875 6.8817 4.58438 7.54107 4.1C7.7817 3.925 7.98795 3.78125 8.00045 3.78125C8.01295 3.78125 8.2192 3.925 8.45982 4.1C9.1192 4.58438 9.27857 4.6875 9.36295 4.6875C9.4567 4.6875 9.62545 4.53125 9.62545 4.44375C9.62545 4.4125 9.5192 4.05625 9.38795 3.65625C9.25982 3.25625 9.16295 2.91875 9.17857 2.90625C9.19107 2.89375 9.47232 2.69062 9.80357 2.45312C10.2942 2.1 10.4098 2.00312 10.4379 1.91875C10.4786 1.79375 10.4161 1.64375 10.3067 1.60312C10.2661 1.59063 9.89107 1.57812 9.47232 1.57812H8.70982L8.55982 1.10938C8.47545 0.85 8.3692 0.521875 8.32545 0.38125C8.22857 0.0687499 8.17232 0 8.00045 0C7.9192 0 7.85357 0.0218749 7.81607 0.0593748ZM8.15045 1.59063C8.22232 1.80938 8.30982 2.01562 8.3442 2.04688C8.39732 2.09375 8.46607 2.1 8.89732 2.09687L9.38795 2.09063L9.01607 2.35938C8.50982 2.72187 8.51607 2.70938 8.68482 3.22187C8.7567 3.44375 8.81295 3.6375 8.8067 3.65312C8.80045 3.66875 8.6442 3.56562 8.4567 3.425C8.00357 3.09062 8.00357 3.09062 7.54107 3.43125C7.34732 3.57187 7.18795 3.675 7.18795 3.65625C7.18795 3.6375 7.24732 3.44062 7.3192 3.21875C7.48482 2.70625 7.49107 2.72187 6.98482 2.35938L6.61295 2.09063L7.10357 2.09687C7.53482 2.1 7.60357 2.09375 7.6567 2.04688C7.69107 2.01562 7.77857 1.80938 7.85045 1.59063C7.92232 1.36875 7.99107 1.1875 8.00045 1.1875C8.00982 1.1875 8.07857 1.36875 8.15045 1.59063Z"
           fill="currentColor"
@@ -4660,20 +4660,20 @@ export const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M5.33333 2H3.33333C2.97971 2 2.64057 2.14048 2.39052 2.39052C2.14048 2.64057 2 2.97971 2 3.33333V5.33333M14 5.33333V3.33333C14 2.97971 13.8595 2.64057 13.6095 2.39052C13.3594 2.14048 13.0203 2 12.6667 2H10.6667M10.6667 14H12.6667C13.0203 14 13.3594 13.8595 13.6095 13.6095C13.8595 13.3594 14 13.0203 14 12.6667V10.6667M2 10.6667V12.6667C2 13.0203 2.14048 13.3594 2.39052 13.6095C2.64057 13.8595 2.97971 14 3.33333 14H5.33333"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.66602 8.06063C3.66602 8.06063 5.36299 4.66669 8.33269 4.66669C11.3024 4.66669 12.9994 8.06063 12.9994 8.06063C12.9994 8.06063 11.3024 11.4546 8.33269 11.4546C5.36299 11.4546 3.66602 8.06063 3.66602 8.06063Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.33328 9.33336C9.03619 9.33336 9.60601 8.76354 9.60601 8.06063C9.60601 7.35772 9.03619 6.7879 8.33328 6.7879C7.63037 6.7879 7.06055 7.35772 7.06055 8.06063C7.06055 8.76354 7.63037 9.33336 8.33328 9.33336Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4695,14 +4695,14 @@ export const IconEye = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M0.666016 7.99999C0.666016 7.99999 3.33268 2.66666 7.99935 2.66666C12.666 2.66666 15.3327 7.99999 15.3327 7.99999C15.3327 7.99999 12.666 13.3333 7.99935 13.3333C3.33268 13.3333 0.666016 7.99999 0.666016 7.99999Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4724,16 +4724,16 @@ export const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V9L13 2Z"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13 2V9H20"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4755,14 +4755,14 @@ export const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V9L13 2Z"
         stroke="#AAA9AD"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13 2V9H20"
         stroke="#AAA9AD"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4802,7 +4802,7 @@ export const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5074_221425)">
+      <g clipPath="url(#clip0_5074_221425)">
         <path
           d="M3.96841 0.296872C3.56216 0.387498 3.23716 0.543748 2.84653 0.840623C2.71528 0.937497 2.54028 1.04375 2.45278 1.07812C2.21841 1.1625 2.00278 1.3125 1.82153 1.50937C1.50903 1.85312 1.36841 2.30937 1.43091 2.76562C1.46216 2.975 1.50591 3.09375 1.70278 3.49375C1.83091 3.75625 1.93716 3.97812 1.93716 3.9875C1.93716 3.99375 1.89966 4 1.85278 4C1.71528 4.00312 1.49341 4.13437 1.38403 4.27812C1.16216 4.56562 1.16216 4.93437 1.38403 5.22187C1.50591 5.38125 1.71841 5.49687 1.89653 5.5H2.02466L2.09341 5.725C2.26841 6.29687 2.63091 6.78437 3.13403 7.11875L3.25278 7.19687L3.24341 7.50625L3.23403 7.81875L2.05591 8.30937C1.40591 8.58125 0.818409 8.84375 0.749659 8.89062C0.593409 8.99687 0.468409 9.15312 0.352784 9.37812L0.265284 9.54687L0.255909 11.4594C0.246534 13.3469 0.249659 13.375 0.312159 13.4375C0.371534 13.4969 0.412159 13.5 1.31216 13.5H2.24966V14.5625C2.24966 15.5844 2.25278 15.6281 2.31216 15.6875C2.37466 15.75 2.41528 15.75 7.99966 15.75C13.584 15.75 13.6247 15.75 13.6872 15.6875C13.7465 15.6281 13.7497 15.5844 13.7497 14.5625V13.5H14.6872C15.5872 13.5 15.6278 13.4969 15.6872 13.4375C15.7497 13.375 15.7528 13.3469 15.7434 11.4594L15.734 9.54687L15.6403 9.3625C15.5372 9.15937 15.3059 8.90625 15.1465 8.82187C15.0903 8.79375 14.534 8.55625 13.9059 8.29375L12.7653 7.81875L12.7559 7.5125L12.7497 7.20312L13.0059 7.01562C13.4278 6.70625 13.7465 6.24687 13.9059 5.725L13.9747 5.5H14.1028C14.2747 5.5 14.5215 5.35625 14.634 5.19687C14.8184 4.93125 14.8153 4.55 14.6247 4.2875C14.5309 4.15937 14.2622 4 14.134 4C14.0934 4 14.0622 3.99062 14.0622 3.97812C14.0622 3.96562 14.1247 3.80625 14.2028 3.625C14.409 3.13125 14.4465 2.95625 14.4309 2.54687C14.409 2.00625 14.2309 1.5875 13.8747 1.21875C13.6497 0.987497 13.4559 0.865623 12.9059 0.618748C12.1965 0.296872 12.0715 0.265622 11.5153 0.265622C11.1622 0.265622 10.9965 0.281247 10.8434 0.321873C10.5403 0.406247 10.1747 0.593747 9.87466 0.818748C9.72778 0.928123 9.54028 1.04375 9.45278 1.07812C9.21841 1.1625 9.00278 1.3125 8.82153 1.50937C8.47466 1.89062 8.34653 2.3875 8.45903 2.9375L8.47466 3.01562H8.04028C7.80278 3.01562 7.56841 3.025 7.51528 3.0375L7.42153 3.05625V2.63125C7.41841 2.25 7.40903 2.17812 7.33716 1.975C7.21841 1.64687 7.07778 1.425 6.83091 1.17812C6.64028 0.987497 6.56216 0.937497 6.10903 0.715623C5.83091 0.581247 5.46841 0.424997 5.30903 0.371873C5.04653 0.281247 4.96841 0.271873 4.59341 0.262498C4.30278 0.253122 4.10903 0.265622 3.96841 0.296872ZM4.96216 0.828122C5.18716 0.881248 6.00278 1.2375 6.22153 1.37812C6.52778 1.575 6.74653 1.87812 6.85903 2.26562C6.95903 2.60312 6.87153 3.21562 6.70591 3.33125C6.67153 3.35625 6.52153 3.46562 6.37466 3.57187C6.22778 3.68125 6.04028 3.79375 5.95278 3.82812C5.22153 4.1 4.79028 4.86562 4.94653 5.6125C4.97778 5.75625 5.07153 5.9875 5.21528 6.275C5.33716 6.51875 5.43716 6.725 5.43716 6.73437C5.43716 6.74375 5.35278 6.75 5.24966 6.75C4.79966 6.75 4.49966 7.05 4.49966 7.5C4.49966 7.74062 4.56841 7.90625 4.72153 8.05312C4.87466 8.2 5.02466 8.25 5.29341 8.25H5.52466L5.59341 8.475C5.75591 9.0125 6.11528 9.50312 6.57153 9.81875L6.75278 9.94062L6.74341 10.2437L6.73403 10.5469L4.87466 11.0625C3.56841 11.425 2.96841 11.6062 2.86216 11.6687C2.64028 11.7969 2.47466 11.9812 2.36528 12.2125C2.28091 12.3906 2.26216 12.4656 2.25591 12.7094L2.24341 13H1.49341H0.746534L0.755909 11.3812C0.765284 9.60625 0.762159 9.6375 0.962159 9.42812C1.07778 9.30312 1.14341 9.275 2.48403 8.71562C3.13716 8.44375 3.69028 8.19687 3.71216 8.16562C3.75278 8.10937 3.76841 6.99375 3.73091 6.89375C3.71841 6.86562 3.61216 6.77812 3.48716 6.7C2.96841 6.36562 2.65591 5.91562 2.54653 5.3375C2.49341 5.04687 2.44341 5 2.21216 5C1.88091 5 1.74028 4.8875 1.79341 4.66875C1.82153 4.56562 1.97778 4.5 2.20278 4.5C2.45278 4.5 2.49966 4.44375 2.49966 4.14062C2.49966 3.90937 2.49341 3.89687 2.26528 3.43437C1.97153 2.85 1.91841 2.65937 1.96841 2.39062C2.04028 2.00312 2.29028 1.7125 2.66528 1.57812C2.78403 1.53437 2.97466 1.42187 3.14341 1.29375C3.44341 1.06875 3.75591 0.903123 4.03091 0.831247C4.25591 0.771873 4.71528 0.768747 4.96216 0.828122ZM11.9622 0.828122C12.1872 0.881248 13.0028 1.2375 13.2215 1.37812C13.6372 1.64375 13.9059 2.13437 13.9059 2.625C13.9059 2.89375 13.8497 3.09375 13.659 3.52812C13.4778 3.9375 13.4528 4.0375 13.484 4.2375C13.5122 4.44062 13.584 4.5 13.7965 4.5C14.0215 4.5 14.1778 4.56562 14.2059 4.66875C14.259 4.8875 14.1184 5 13.7872 5C13.5528 5 13.509 5.04375 13.4465 5.35C13.3247 5.94375 13.0434 6.35 12.5122 6.7C12.3497 6.80625 12.259 6.8875 12.2465 6.9375C12.209 7.06875 12.2153 7.98125 12.2528 8.09062C12.2715 8.14375 12.3247 8.20937 12.3715 8.23125C12.4153 8.25625 12.9528 8.48125 13.5622 8.73437C14.8215 9.25937 14.9215 9.30312 15.0372 9.42812C15.2372 9.6375 15.234 9.60625 15.2434 11.3812L15.2528 13H14.5059H13.7559L13.7434 12.7125C13.7372 12.4656 13.7184 12.3906 13.634 12.2125C13.5247 11.9812 13.3153 11.7562 13.1122 11.6469C13.0403 11.6125 12.1465 11.3469 11.1247 11.0625L9.26528 10.5437L9.25591 10.2437L9.24653 9.94062L9.42778 9.81875C9.88403 9.50312 10.2434 9.0125 10.4059 8.475L10.4747 8.25H10.7059C10.9747 8.25 11.1247 8.2 11.2778 8.05312C11.4309 7.90625 11.4997 7.74062 11.4997 7.5C11.4997 7.05 11.1997 6.75 10.7497 6.75C10.6465 6.75 10.5622 6.74062 10.5622 6.72812C10.5622 6.71562 10.6247 6.55625 10.7028 6.375C10.909 5.88125 10.9465 5.70625 10.9309 5.29687C10.909 4.75625 10.7309 4.3375 10.3747 3.96875C10.159 3.74687 9.95278 3.6125 9.52153 3.41875C9.19653 3.275 9.17778 3.2625 9.10591 3.11875C8.97153 2.85312 8.92466 2.61562 8.96841 2.39062C9.04028 2.00312 9.29028 1.7125 9.66528 1.57812C9.78403 1.53437 9.97466 1.42187 10.1434 1.29375C10.4434 1.06875 10.7559 0.903123 11.0309 0.831247C11.2559 0.771873 11.7153 0.768747 11.9622 0.828122ZM8.50278 3.59062C8.76528 3.65937 9.55278 4.00937 9.75591 4.15C10.1559 4.425 10.4059 4.89687 10.4059 5.375C10.4059 5.5875 10.3434 5.88125 10.2684 6.025C10.2247 6.10625 10.2247 6.10625 10.084 5.82187C10.0059 5.66562 9.91841 5.53125 9.89028 5.51875C9.74341 5.4625 9.63716 5.5 9.34341 5.71875C8.82778 6.09687 8.49966 6.21875 7.99966 6.21875C7.49966 6.21875 7.17153 6.09687 6.65591 5.71875C6.35591 5.49687 6.23403 5.45625 6.09966 5.52812C6.07153 5.54375 5.98403 5.68437 5.90591 5.84062C5.83091 5.99687 5.75903 6.125 5.74966 6.125C5.71216 6.125 5.50278 5.64687 5.46841 5.48437C5.39341 5.15 5.55591 4.73125 5.84341 4.50312C6.05903 4.33437 6.25903 4.27187 6.55591 4.28437C6.92153 4.30312 7.21841 4.47187 7.46841 4.80625L7.54653 4.90937L7.75903 4.76562C7.87466 4.6875 7.96841 4.6125 7.96841 4.6C7.96841 4.55312 7.68716 4.225 7.55591 4.11562C7.48091 4.05312 7.32153 3.95625 7.20591 3.90312L6.99028 3.80312L7.14028 3.72812C7.51528 3.53437 8.07153 3.48125 8.50278 3.59062ZM6.89028 6.50312C7.25591 6.68125 7.55903 6.75 7.99966 6.75C8.56528 6.75 9.08403 6.5875 9.49028 6.27812L9.65591 6.15625L9.83091 6.50625L10.009 6.85937L9.99028 7.45312C9.97778 7.84687 9.95278 8.10937 9.92153 8.23437C9.76841 8.79375 9.37466 9.275 8.85903 9.52812C7.88716 10.0031 6.70591 9.59062 6.22153 8.60937C6.06528 8.29062 6.02778 8.1 6.00903 7.45312L5.99028 6.85937L6.16841 6.50625L6.34341 6.15312L6.49341 6.26562C6.57153 6.32812 6.75278 6.43437 6.89028 6.50312ZM5.49966 7.5V7.75H5.39028C5.22153 7.75 5.06841 7.675 5.04341 7.58125C4.99341 7.38125 5.12466 7.25312 5.38403 7.25H5.49966V7.5ZM10.8278 7.29375C10.9434 7.34375 10.9903 7.44375 10.9559 7.58125C10.9309 7.675 10.7778 7.75 10.609 7.75H10.4997V7.5V7.25H10.609C10.6715 7.25 10.7684 7.26875 10.8278 7.29375ZM7.49966 10.2156C7.77778 10.2781 8.41528 10.2531 8.69653 10.1687C8.74341 10.1531 8.74966 10.1781 8.74966 10.3812V10.6094L8.37466 10.9844L7.99966 11.3594L7.62466 10.9844L7.24966 10.6094V10.3812C7.24966 10.1781 7.25591 10.1531 7.30591 10.1687C7.33403 10.1781 7.42153 10.2 7.49966 10.2156ZM7.39028 11.5312C7.85591 11.9906 7.86528 12 7.99966 12C8.13403 12 8.14341 11.9906 8.61216 11.525L9.09028 11.0531L10.6934 11.4969C11.5747 11.7406 12.4184 11.9781 12.5715 12.0219C12.8903 12.1156 13.0497 12.2375 13.1622 12.4625C13.234 12.6094 13.234 12.6187 13.2434 13.9281L13.2528 15.25H12.5028H11.7497V14.25V13.25H11.4997H11.2497V14.25V15.25H7.99966H4.74966V14.25V13.25H4.49966H4.24966V14.25V15.25H3.49653H2.74653L2.75591 13.9312C2.76528 12.6187 2.76528 12.6094 2.83716 12.4625C2.94966 12.2312 3.11216 12.1156 3.44653 12.0187C4.03403 11.8469 6.83091 11.0687 6.87466 11.0656C6.89966 11.0656 7.13091 11.2719 7.39028 11.5312Z"
           fill="currentColor"
@@ -4830,31 +4830,31 @@ export const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_55567)">
+      <g clipPath="url(#clip0_4630_55567)">
         <path
           d="M8 15.75C12.2802 15.75 15.75 12.2802 15.75 8C15.75 3.71979 12.2802 0.25 8 0.25C3.71979 0.25 0.25 3.71979 0.25 8C0.25 12.2802 3.71979 15.75 8 15.75Z"
           stroke="currentColor"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M8.22478 0.300171C8.22478 0.300171 7.74978 0.750171 7.49978 1.00017C7.24978 1.25017 6.74978 1.25017 6.99978 1.50017C7.24978 1.75017 7.24978 2.00017 7.24978 2.00017L6.99978 2.25017C6.99978 2.25017 6.99978 2.50017 6.49978 2.75017C5.99978 3.00017 5.99978 2.75017 5.74978 3.00017C5.49978 3.25017 5.49978 3.25017 5.24978 3.25017C4.99978 3.25017 4.99978 3.50017 4.74978 3.50017C4.49978 3.50017 4.74978 2.50017 4.74978 2.50017L5.24978 2.25017L5.74978 2.00017C5.74978 2.00017 5.99978 1.50017 5.74978 1.50017H5.49978C5.49978 1.50017 5.49978 1.25017 5.24978 1.00017L4.99978 0.750171"
           stroke="currentColor"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M2.875 2.22498L3.25 3.74998L3 4.24998C3 4.24998 2.5 4.24998 2.5 4.74998C2.5 5.24998 2.25 4.74998 2.5 5.24998C2.75 5.74998 2.5 5.99998 2.5 5.99998V6.24998V6.74998H1.75C1.75 6.74998 1.75 6.74998 1.5 6.74998C1.25 6.74998 1.25 6.74998 1 6.99998C0.75 7.24998 0.75 7.24998 0.75 7.49998V7.74998L0.5 8.24998L0.25 8.49998"
           stroke="currentColor"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M0.375 9.34998C0.625 9.59998 0.875 9.59998 0.875 9.59998C0.875 9.59998 2 9.24998 2.25 9.49998C2.5 9.74998 2.5 10.25 2.5 10.25V10.5C2.5 10.5 3 11.25 3.25 11.25H3.5C3.5 11.25 3.75 11.5 4 11.5C4.25 11.5 4.5 11.75 4.5 11.75C4.5 11.75 4.75 12.5 4.5 12.5C4.25 12.5 4.25 12.75 4.25 12.75C4.25 12.75 4.25 13.75 4.75 14C5.25 14.25 5.75 14.5 6 14.75C6.25 15 6.5 14.75 6.5 15C6.5 15.25 7 15.75 8 15.75"
           stroke="currentColor"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M15.75 8.75C15.75 8.75 15 8 15 8.25C15 8.5 14.75 8.75 14.75 9.25C14.75 9.75 14.5 10.5 14.5 10.5L14 10L14.25 8.75L13.5 8H13C13 8 13.25 8.5 13.25 8.75V9.75C13.25 9.75 12.75 10.75 12.75 11C12.75 11.25 12.5 11 12.25 11.5C12 12 11.75 12 11.5 12.5C11.25 13 10.75 13.25 10.5 13.75C10.25 14.25 10 14 10 13.75C10 13.5 9.5 13 9.75 12.75C10 12.5 9.75 12.25 10 12C10.25 11.75 10.5 11.75 10.25 11.5C10 11.25 9.75 11.25 9.75 11V10C9.75 10 9.25 9.25 9 9.5L8.5 10L7.5 9.25L8 8L7.75 7C7.75 7 8.5 6.25 8.5 6C8.5 5.75 8.75 5.5 8.75 5.5L8.5 4.5C8.5 4.5 8.25 4.25 8.75 4.5C9.25 4.75 9.5 5.25 9.5 5.25L10.25 5C10.25 5 10.25 5 10.25 4.75C10.25 4.5 10.5 4 10.75 4H11.25L12.25 3C12.25 3 11.25 2.75 11.25 2.5C11.25 2.25 11.25 2 11.5 1.75C11.75 1.5 12.25 1.5 12.25 1.5"
           stroke="currentColor"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
       </g>
       <defs>
@@ -4882,20 +4882,20 @@ export const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M8.00065 15.1667C11.6825 15.1667 14.6673 12.1819 14.6673 8.49999C14.6673 4.8181 11.6825 1.83333 8.00065 1.83333C4.31875 1.83333 1.33398 4.8181 1.33398 8.49999C1.33398 12.1819 4.31875 15.1667 8.00065 15.1667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M1.33398 8.5H14.6673"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.00065 1.83333C9.66817 3.6589 10.6158 6.02802 10.6673 8.49999C10.6158 10.972 9.66817 13.3411 8.00065 15.1667C6.33313 13.3411 5.38548 10.972 5.33398 8.49999C5.38548 6.02802 6.33313 3.6589 8.00065 1.83333V1.83333Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4917,26 +4917,26 @@ export const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M2.66602 6H13.3327"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2.66602 10H13.3327"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.66732 2L5.33398 14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.6673 2L9.33398 14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -4955,7 +4955,7 @@ export const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6362_185904)">
+      <g clipPath="url(#clip0_6362_185904)">
         <path
           d="M11.25 0.824999C9.24844 1.09687 7.34531 1.90781 5.70938 3.1875C5.12344 3.64219 4.24688 4.54688 3.77344 5.17969C2.70469 6.60469 2.05781 8.0625 1.65938 9.93281C1.64063 10.0312 1.62188 10.0219 1.4625 9.79219C1.24688 9.4875 1.05 9.36562 0.754688 9.36094C0.304688 9.35625 0 9.66562 0 10.1297V10.4016L0.84375 11.6719C1.425 12.5484 1.73438 12.9656 1.84219 13.0312C2.025 13.1437 2.42813 13.1578 2.61563 13.0594C2.76562 12.975 4.74844 10.9875 4.82344 10.8422C4.85156 10.7859 4.875 10.6266 4.875 10.4859C4.875 10.0453 4.57031 9.74062 4.12969 9.74062C3.84844 9.74062 3.74063 9.79219 3.43594 10.0922C3.29531 10.2281 3.1875 10.3031 3.1875 10.2656C3.1875 10.1203 3.42188 9.23906 3.58125 8.78906C4.8 5.30625 7.91719 2.79844 11.6016 2.34375C12.2063 2.26875 13.4344 2.27812 14.0297 2.3625C18.1125 2.94375 21.3516 5.91562 22.2375 9.9C22.4062 10.6547 22.4578 11.1656 22.4578 12.0234C22.4578 15.7172 20.3953 19.0359 17.0625 20.7047C15.1031 21.6844 12.6375 21.9797 10.5094 21.4875C8.50313 21.0234 6.59063 19.8 5.325 18.1734C5.15156 17.9484 4.94531 17.7328 4.87031 17.6953C4.8 17.6578 4.62656 17.625 4.49063 17.625C4.03594 17.625 3.75 17.9109 3.75 18.3656C3.75 18.6656 3.77344 18.7078 4.16719 19.2188C5.325 20.7234 7.18125 22.0359 9.04688 22.6781C10.2609 23.0953 11.25 23.25 12.6797 23.25C14.1234 23.25 15.0375 23.1094 16.3359 22.6828C17.9625 22.1484 19.4719 21.2156 20.7188 19.9687C22.4906 18.1922 23.6016 15.9422 23.9297 13.4391C24.0234 12.7125 24.0234 11.2875 23.9297 10.5609C23.6016 8.0625 22.4906 5.79844 20.7188 4.03125C18.9516 2.25937 16.6875 1.14844 14.1891 0.820312C13.4953 0.731249 11.9344 0.735937 11.25 0.824999Z"
           fill="currentColor"
@@ -5008,7 +5008,7 @@ export const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7693_100824)">
+      <g clipPath="url(#clip0_7693_100824)">
         <path
           d="M5.34412 0.30313C5.13162 0.381255 4.86599 0.662505 4.79412 0.88438C4.76599 0.981256 4.72224 1.06563 4.70037 1.07501C4.67537 1.08438 4.57849 1.05313 4.48162 1.00938C4.01287 0.796881 3.45662 0.984381 3.20349 1.44063C3.11912 1.59376 3.10974 1.63751 3.10974 1.89063C3.10974 2.28126 3.16599 2.38438 3.65037 2.88126C4.03474 3.27501 4.03787 3.27813 3.95037 3.3C3.78162 3.34063 3.57537 3.46251 3.45662 3.59376C3.27849 3.79063 3.21287 3.96876 3.20974 4.24063C3.20974 4.44063 3.22224 4.49688 3.31599 4.68126C3.39099 4.82813 3.46599 4.92188 3.56599 4.99688L3.71287 5.10313L3.30037 5.57188C1.73787 7.35001 0.994118 8.57188 0.794118 9.6875C0.728493 10.0531 0.722243 10.7688 0.778493 11.0938C0.831618 11.3938 0.975368 11.85 1.11287 12.1531C1.50037 13 2.31599 13.8125 3.25037 14.2813C4.60662 14.9625 6.38474 15.0188 7.86287 14.425L8.15037 14.3125L8.36287 14.5344C8.93474 15.1281 9.75037 15.5625 10.5441 15.7031C10.8972 15.7625 11.5972 15.7656 11.9472 15.7031C13.366 15.4563 14.5566 14.4531 15.0441 13.1C15.341 12.275 15.341 11.225 15.0441 10.4C14.8035 9.73438 14.3691 9.11563 13.8254 8.66251C13.3535 8.275 12.8566 8.02188 12.2254 7.85001C11.941 7.775 11.8785 7.76875 11.2504 7.76875C10.6191 7.76875 10.5597 7.775 10.266 7.85313C10.0972 7.9 9.94724 7.92813 9.93787 7.91251C9.92537 7.9 9.79412 7.70625 9.64099 7.48438C9.22849 6.86876 8.63474 6.12813 7.91599 5.32188L7.71912 5.10313L7.84099 5.01563C7.97537 4.925 8.09724 4.76875 8.17224 4.58751C8.23474 4.43751 8.23162 4.08438 8.16912 3.89688C8.07537 3.62501 7.77224 3.3625 7.47224 3.29688L7.36599 3.27501L7.77537 2.8625C8.27224 2.3625 8.32537 2.26875 8.32849 1.90626C8.32849 1.67813 8.31599 1.61563 8.24099 1.46251C8.00974 0.993755 7.43474 0.79063 6.95662 1.00938C6.78474 1.08751 6.68787 1.09376 6.68787 1.01876C6.68787 0.937506 6.50037 0.60313 6.40349 0.50938C6.20974 0.331256 6.04412 0.265631 5.75037 0.25938C5.56912 0.253131 5.44099 0.268756 5.34412 0.30313ZM5.95349 0.843756C6.05662 0.906256 6.13162 1.02813 6.17537 1.20001C6.20662 1.33438 6.43162 1.55 6.57849 1.59063C6.76287 1.64063 6.87224 1.63126 7.04724 1.55313C7.26599 1.45001 7.35037 1.43438 7.46912 1.46876C7.69099 1.53126 7.83787 1.76875 7.79724 1.99376C7.77849 2.09063 7.68162 2.20625 7.19412 2.69376L6.61287 3.28126H5.71912H4.82537L4.24412 2.69376C3.75974 2.20625 3.65662 2.09063 3.64099 1.99376C3.60974 1.83125 3.64412 1.71251 3.75662 1.59688C3.92224 1.42813 4.10662 1.41251 4.36912 1.54688C4.68787 1.71251 5.09099 1.57188 5.22537 1.25313C5.33787 0.981256 5.39099 0.89688 5.48474 0.837505C5.60974 0.762506 5.82537 0.765631 5.95349 0.843756ZM7.45662 3.8625C7.74724 4.00001 7.76599 4.40313 7.49412 4.60001L7.39099 4.67188H5.71287C4.06912 4.67188 4.03474 4.67188 3.95037 4.60626C3.74099 4.45313 3.68474 4.22813 3.80349 4.02501C3.92849 3.80938 3.89412 3.81251 5.71287 3.81251C7.15349 3.81251 7.36287 3.81876 7.45662 3.8625ZM7.47537 5.64688C7.70349 5.90313 8.02849 6.27188 8.19099 6.46875C8.78787 7.18438 9.48474 8.15626 9.41599 8.17813C9.33787 8.20625 9.00037 8.42188 8.79099 8.58438C8.07849 9.12813 7.57849 9.91251 7.34099 10.8563C7.24724 11.2219 7.22537 12.0063 7.29412 12.4063C7.35974 12.7781 7.52537 13.2781 7.68787 13.5906C7.75662 13.7219 7.81287 13.8406 7.81287 13.85C7.81287 13.8781 7.36912 14.0469 7.09099 14.125C6.34412 14.3344 5.37537 14.3594 4.59099 14.1875C2.80974 13.8031 1.48162 12.4406 1.27849 10.8031C1.19099 10.0906 1.36912 9.27813 1.77224 8.53126C2.07224 7.98438 2.77224 7.01251 3.37224 6.3125C3.68162 5.95001 4.03787 5.55 4.21599 5.36563L4.38787 5.1875H5.72537H7.05974L7.47537 5.64688ZM11.9004 8.33125C12.5754 8.45001 13.2754 8.83438 13.7691 9.34688C14.4629 10.0781 14.8285 11.125 14.7222 12.0813C14.566 13.4531 13.6785 14.5813 12.3847 15.0406C11.6566 15.3031 10.7379 15.2813 9.99099 14.9875C8.94099 14.575 8.15349 13.6719 7.87224 12.5594C7.77849 12.1875 7.75662 11.5438 7.82537 11.1719C8.04412 9.98438 8.80037 9.02188 9.88162 8.55625C10.5285 8.27813 11.1785 8.20313 11.9004 8.33125Z"
           fill="currentColor"
@@ -5083,7 +5083,7 @@ export const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
         r="11.6"
         fill="url(#paint0_linear_6707_200218)"
         stroke="currentColor"
-        stroke-width="0.8"
+        strokeWidth="0.8"
       />
       <path
         d="M12.7023 6.43749C12.5248 6.48749 12.2648 6.62749 12.1223 6.74999C12.0573 6.80499 11.9548 6.92499 11.8898 7.01749C11.2273 7.98749 11.9123 9.29999 13.0798 9.29999C13.3273 9.29999 13.4948 9.26499 13.7123 9.16249C14.4498 8.82499 14.7573 7.91999 14.3873 7.18749C14.2248 6.86249 13.9623 6.62749 13.6123 6.48749C13.4598 6.42499 13.3973 6.41499 13.1373 6.40749C12.9248 6.40249 12.7973 6.41249 12.7023 6.43749Z"
@@ -5102,10 +5102,10 @@ export const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="12.0007"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="0.334096" stop-color="#005FCD" />
-          <stop offset="0.634882" stop-color="#0052B1" />
-          <stop offset="1" stop-color="#003B7E" />
+          <stop stopColor="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
         </linearGradient>
       </defs>
     </svg>
@@ -5125,7 +5125,7 @@ export const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6499_194052)">
+      <g clipPath="url(#clip0_6499_194052)">
         <path
           d="M1.05211 0.0816946L0.970862 0.16607V6.8317C0.970862 14.1348 0.958362 13.6692 1.15524 14.1755C1.31149 14.5755 1.48649 14.8348 1.82711 15.1723C2.16461 15.5067 2.45211 15.6942 2.83961 15.8348C3.31461 16.0067 3.05836 16.0005 8.61149 16.0005C13.6459 16.0005 13.749 16.0005 13.9459 15.938C14.4334 15.788 14.8209 15.4005 14.9709 14.9098C15.0334 14.7161 15.0334 14.5911 15.0334 9.02545C15.0334 5.01295 15.024 3.32232 14.999 3.27545C14.9365 3.1567 14.7865 3.12545 14.2677 3.12545H13.7834V2.43482V1.7442L13.6927 1.65357L13.6021 1.56295H13.0677H12.5334V0.862946V0.16607L12.4521 0.0816946L12.3677 0.000444412H6.75212H1.13649L1.05211 0.0816946ZM11.8834 7.66295L11.8927 14.7036L11.9615 14.9067C12.0021 15.0192 12.0677 15.1692 12.1084 15.2411L12.1865 15.3755H8.05524C5.78337 15.3755 3.80211 15.363 3.65524 15.3473C3.10211 15.288 2.66461 15.0755 2.26774 14.6755C1.97711 14.3817 1.78649 14.0505 1.68961 13.6692C1.62711 13.4317 1.62711 13.2911 1.62711 7.02545V0.625445H6.75212H11.8771L11.8834 7.66295ZM13.1271 8.3192C13.1271 12.4067 13.1396 14.4598 13.1584 14.538C13.2271 14.7848 13.5146 14.8661 13.6927 14.6911L13.7834 14.6005V9.19108V3.7817H14.0802H14.3771L14.3709 9.24108C14.3615 14.613 14.3615 14.7067 14.299 14.8286C14.2209 14.9911 14.0209 15.188 13.8615 15.2661C13.6834 15.3505 13.3615 15.3661 13.1552 15.2973C12.9427 15.2255 12.6927 14.9848 12.6084 14.7661C12.5521 14.613 12.549 14.4442 12.5396 8.41295L12.5334 2.2192H12.8302H13.1271V8.3192Z"
           fill="currentColor"
@@ -5193,26 +5193,26 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4698_65869)">
+      <g clipPath="url(#clip0_4698_65869)">
         <path
           d="M15.1003 8.90003V3.01861C15.1003 1.78295 14.0986 0.78125 12.863 0.78125H3.01861C1.78295 0.78125 0.78125 1.78295 0.78125 3.01861V12.863C0.78125 14.0986 1.78295 15.1003 3.01861 15.1003H9.39507"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <path
           d="M12.6013 14.6451C13.7306 14.6451 14.646 13.7296 14.646 12.6004C14.646 11.4711 13.7306 10.5557 12.6013 10.5557C11.4721 10.5557 10.5566 11.4711 10.5566 12.6004C10.5566 13.7296 11.4721 14.6451 12.6013 14.6451Z"
           stroke="currentColor"
-          stroke-width="1.13594"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.13594"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M15.1567 15.1563L14.0449 14.0445"
           stroke="currentColor"
-          stroke-width="1.13594"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.13594"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <line
           x1="7.27028"
@@ -5220,8 +5220,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="11.745"
           y2="3.96947"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <line
           x1="7.27028"
@@ -5229,8 +5229,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="11.745"
           y2="7.32552"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <line
           x1="7.27028"
@@ -5238,8 +5238,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="8.94829"
           y2="10.6815"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <line
           x1="4.13746"
@@ -5247,8 +5247,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="4.6968"
           y2="3.96947"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <line
           x1="4.13746"
@@ -5256,8 +5256,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="4.6968"
           y2="7.32552"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
         <line
           x1="4.13746"
@@ -5265,8 +5265,8 @@ export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
           x2="4.6968"
           y2="10.6815"
           stroke="currentColor"
-          stroke-width="1.11868"
-          stroke-linecap="round"
+          strokeWidth="1.11868"
+          strokeLinecap="round"
         />
       </g>
       <defs>
@@ -5315,14 +5315,14 @@ export const IconLock = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12.6667 7.33337H3.33333C2.59695 7.33337 2 7.93033 2 8.66671V13.3334C2 14.0698 2.59695 14.6667 3.33333 14.6667H12.6667C13.403 14.6667 14 14.0698 14 13.3334V8.66671C14 7.93033 13.403 7.33337 12.6667 7.33337Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.66602 7.33337V4.66671C4.66602 3.78265 5.01721 2.93481 5.64233 2.30968C6.26745 1.68456 7.11529 1.33337 7.99935 1.33337C8.8834 1.33337 9.73125 1.68456 10.3564 2.30968C10.9815 2.93481 11.3327 3.78265 11.3327 4.66671V7.33337"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5346,26 +5346,26 @@ export const IconMagnifyingPerson = React.forwardRef<
     <path
       d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M13.9996 14L11.0996 11.1"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M9.60089 9.40008V8.86671C9.60089 8.5838 9.4885 8.31247 9.28845 8.11242C9.0884 7.91237 8.81707 7.79999 8.53416 7.79999H6.40071C6.1178 7.79999 5.84647 7.91237 5.64642 8.11242C5.44637 8.31247 5.33398 8.5838 5.33398 8.86671V9.40008"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M7.46712 6.73306C8.05625 6.73306 8.53384 6.25547 8.53384 5.66633C8.53384 5.0772 8.05625 4.59961 7.46712 4.59961C6.87798 4.59961 6.40039 5.0772 6.40039 5.66633C6.40039 6.25547 6.87798 6.73306 7.46712 6.73306Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -5386,14 +5386,14 @@ export const IconMail = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M2.66634 2.66669H13.333C14.0663 2.66669 14.6663 3.26669 14.6663 4.00002V12C14.6663 12.7333 14.0663 13.3333 13.333 13.3333H2.66634C1.93301 13.3333 1.33301 12.7333 1.33301 12V4.00002C1.33301 3.26669 1.93301 2.66669 2.66634 2.66669Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.6663 4L7.99967 8.66666L1.33301 4"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5412,8 +5412,8 @@ export const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_55628)">
-        <g clip-path="url(#clip1_4630_55628)">
+      <g clipPath="url(#clip0_4630_55628)">
+        <g clipPath="url(#clip1_4630_55628)">
           <path
             d="M11.1034 9.31L9.1488 8.4634C9.1028 8.4404 9.0518 8.3842 9.008 8.3092L10.313 8.3082C10.3358 8.3104 10.8738 8.3596 11.3052 8.1742C11.4686 8.1038 11.5902 7.9648 11.639 7.7928C11.6882 7.6192 11.657 7.4354 11.5538 7.2882C11.1808 6.7574 10.3102 5.3704 10.283 3.9636C10.2824 3.9394 10.2036 1.547 7.841 1.5276C7.4932 1.5304 7.1716 1.5894 6.879 1.6982C6.8152 1.5356 6.7212 1.366 6.5814 1.2064C6.1708 0.7376 5.5042 0.5 4.6 0.5C3.6958 0.5 3.0292 0.7376 2.6184 1.206C2.1448 1.7462 2.1888 2.4012 2.2 2.511V3.5748C2.072 3.7206 2 3.9072 2 4.0998V4.8998C2 5.1432 2.1106 5.3702 2.2994 5.5216C2.4826 6.247 2.866 6.7936 3 6.969V7.6308C3 7.8244 2.8944 8.002 2.7246 8.0948L0.9404 9.068C0.3602 9.3848 0 9.9916 0 10.6524V11.5H8.8H9.2H12V10.7606C12 10.1422 11.6564 9.5866 11.1034 9.31ZM8.8 11.1H0.4V10.6524C0.4 10.1382 0.6804 9.6656 1.1318 9.4196L2.916 8.4464C3.2146 8.2834 3.4 7.9708 3.4 7.631V6.8272L3.3534 6.7716C3.3486 6.7658 2.8584 6.1728 2.6714 5.3586L2.6532 5.2794L2.585 5.2354C2.4692 5.1606 2.4 5.0352 2.4 4.9V4.1C2.4 3.9878 2.4476 3.8832 2.534 3.805L2.6 3.7456V2.5L2.5982 2.4738C2.5976 2.4684 2.5296 1.914 2.9192 1.4696C3.2506 1.0916 3.8162 0.9 4.6 0.9C5.381 0.9 5.9454 1.0902 6.2772 1.4656C6.4422 1.652 6.5252 1.8602 6.5666 2.039C6.5698 2.053 6.5728 2.0668 6.5756 2.0806C6.5784 2.0948 6.5814 2.109 6.5836 2.1226C6.5862 2.1382 6.5884 2.153 6.5906 2.1678C6.5922 2.1784 6.5938 2.1892 6.595 2.1994C6.598 2.2242 6.6004 2.2482 6.602 2.2704C6.6022 2.2722 6.6022 2.2738 6.6022 2.2756C6.6036 2.2972 6.6046 2.3176 6.6052 2.3362C6.6052 2.3398 6.6052 2.3428 6.6054 2.3464C6.6058 2.363 6.6058 2.3788 6.6056 2.3926C6.6056 2.3946 6.6056 2.3966 6.6056 2.3986C6.6048 2.4456 6.6016 2.4736 6.6016 2.4742L6.6 3.7456L6.666 3.8052C6.7524 3.8832 6.8 3.9878 6.8 4.1V4.9C6.8 5.0746 6.6856 5.2274 6.5156 5.2798L6.416 5.3104L6.384 5.4094C6.2502 5.8256 6.0596 6.21 5.8172 6.552C5.7578 6.6362 5.7 6.7108 5.6498 6.7678L5.6 6.8246V7.6496C5.6 7.7002 5.605 7.7498 5.6128 7.7986C5.6144 7.809 5.6172 7.819 5.6192 7.8294C5.627 7.8696 5.6374 7.909 5.6502 7.9474C5.6532 7.9564 5.6564 7.965 5.6598 7.974C5.6754 8.0158 5.6936 8.0562 5.7148 8.095C5.7172 8.0994 5.7194 8.104 5.7218 8.1084C5.7508 8.1596 5.7842 8.2082 5.8226 8.253L5.8682 8.3092H5.876C5.9446 8.3768 6.0234 8.4356 6.113 8.4804L8.0236 9.4356C8.5026 9.6748 8.8 10.156 8.8 10.6914V11.1ZM11.6 11.1H9.2V10.6914C9.2 10.0036 8.8178 9.3854 8.2028 9.0778L6.8312 8.3918C6.865 8.3146 6.8694 8.2262 6.8398 8.141C6.7908 8 6.6628 7.909 6.5138 7.909H6.0704C6.0612 7.8928 6.0552 7.875 6.0478 7.8578C6.0378 7.8348 6.026 7.8122 6.0194 7.788C6.0072 7.7436 6 7.6972 6 7.6496V6.9734C6.0458 6.9174 6.094 6.8536 6.1438 6.7832C6.3916 6.4332 6.5902 6.0436 6.7346 5.6234C7.0168 5.494 7.2 5.215 7.2 4.9V4.1C7.2 3.9074 7.128 3.7208 7 3.575V2.5112C7.0052 2.4612 7.0164 2.2974 6.9832 2.0834C7.2408 1.9822 7.5294 1.93 7.8412 1.9274C9.8094 1.9436 9.8812 3.8896 9.8832 3.9716C9.9126 5.4882 10.8324 6.957 11.2266 7.518C11.2604 7.566 11.2706 7.6264 11.2544 7.6834C11.2452 7.7162 11.2188 7.7758 11.1474 7.8064C10.8114 7.951 10.3556 7.91 10.3322 7.909H8.9556C8.827 7.909 8.7098 7.9744 8.642 8.0838C8.5744 8.1928 8.568 8.326 8.6248 8.4404C8.6874 8.5666 8.798 8.7352 8.9798 8.8258L10.9292 9.6702C11.343 9.8792 11.6 10.2964 11.6 10.7606V11.1Z"
             fill="currentColor"
@@ -5448,8 +5448,8 @@ export const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M14 6.66667C14 11.3333 8 15.3333 8 15.3333C8 15.3333 2 11.3333 2 6.66667C2 5.07537 2.63214 3.54925 3.75736 2.42403C4.88258 1.29881 6.4087 0.666672 8 0.666672C9.5913 0.666672 11.1174 1.29881 12.2426 2.42403C13.3679 3.54925 14 5.07537 14 6.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.99577 7.32259C8.92167 7.32259 9.67498 6.56928 9.67498 5.64337C9.67498 4.71725 8.92167 3.96379 7.99577 3.96379C7.06979 3.96379 6.31641 4.71725 6.31641 5.64337C6.31641 6.56928 7.06979 7.32259 7.99577 7.32259ZM7.99577 5.06922C8.31214 5.06922 8.56956 5.32678 8.56956 5.64337C8.56956 5.95975 8.31214 6.21716 7.99577 6.21716C7.67932 6.21716 7.42183 5.95975 7.42183 5.64337C7.42183 5.32678 7.67932 5.06922 7.99577 5.06922Z"
@@ -5479,14 +5479,14 @@ export const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M14 6.66667C14 11.3333 8 15.3333 8 15.3333C8 15.3333 2 11.3333 2 6.66667C2 5.07537 2.63214 3.54925 3.75736 2.42403C4.88258 1.29881 6.4087 0.666672 8 0.666672C9.5913 0.666672 11.1174 1.29881 12.2426 2.42403C13.3679 3.54925 14 5.07537 14 6.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8 8.66667C9.10457 8.66667 10 7.77124 10 6.66667C10 5.5621 9.10457 4.66667 8 4.66667C6.89543 4.66667 6 5.5621 6 6.66667C6 7.77124 6.89543 8.66667 8 8.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5505,7 +5505,7 @@ export const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_54489)">
+      <g clipPath="url(#clip0_4630_54489)">
         <path
           d="M6.79925 2.56247C6.01175 2.96247 5.59925 3.56247 5.52425 4.43747C5.44925 5.31247 5.66175 5.88747 6.24925 6.42497C8.09925 8.08747 10.8993 6.41247 10.2618 4.02497C9.86175 2.53747 8.22425 1.84997 6.79925 2.56247ZM8.53675 3.04997C9.81175 3.57497 10.0868 5.08747 9.06175 5.98747C8.49925 6.47497 7.94925 6.57497 7.27425 6.31247C5.83675 5.73747 5.74925 3.86247 7.12425 3.14997C7.76175 2.82497 7.98675 2.81247 8.53675 3.04997Z"
           fill="currentColor"
@@ -5548,26 +5548,26 @@ export const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M14 7.66667C14.0023 8.54658 13.7967 9.41459 13.4 10.2C12.9296 11.1412 12.2065 11.9328 11.3116 12.4862C10.4168 13.0396 9.3855 13.3329 8.33333 13.3333C7.45342 13.3356 6.58541 13.1301 5.8 12.7333L2 14L3.26667 10.2C2.86995 9.41459 2.66437 8.54658 2.66667 7.66667C2.66707 6.61451 2.96041 5.58324 3.51381 4.68837C4.06722 3.7935 4.85884 3.07038 5.8 2.6C6.58541 2.20329 7.45342 1.99771 8.33333 2H8.66667C10.0562 2.07666 11.3687 2.66318 12.3528 3.64724C13.3368 4.63131 13.9233 5.94377 14 7.33334V7.66667Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.99935 8.33335C8.18344 8.33335 8.33268 8.18412 8.33268 8.00002C8.33268 7.81593 8.18344 7.66669 7.99935 7.66669C7.81525 7.66669 7.66602 7.81593 7.66602 8.00002C7.66602 8.18412 7.81525 8.33335 7.99935 8.33335Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.3333 8.33335C10.5174 8.33335 10.6667 8.18412 10.6667 8.00002C10.6667 7.81593 10.5174 7.66669 10.3333 7.66669C10.1492 7.66669 10 7.81593 10 8.00002C10 8.18412 10.1492 8.33335 10.3333 8.33335Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.66732 8.33335C5.85141 8.33335 6.00065 8.18412 6.00065 8.00002C6.00065 7.81593 5.85141 7.66669 5.66732 7.66669C5.48322 7.66669 5.33398 7.81593 5.33398 8.00002C5.33398 8.18412 5.48322 8.33335 5.66732 8.33335Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5586,7 +5586,7 @@ export const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_89396)">
+      <g clipPath="url(#clip0_4746_89396)">
         <path
           d="M11.8274 5.72342L8.61163 2.9076C8.44117 2.76009 8.22482 2.67814 7.99864 2.67814C7.77246 2.67814 7.55611 2.76009 7.38565 2.9076L6.2449 3.9074C6.17934 3.66482 6.14328 3.40914 6.14328 3.14362C6.14328 2.50113 6.34652 1.89797 6.71366 1.44888C7.06113 1.02274 7.52005 0.786724 7.99864 0.786724C9.02138 0.786724 9.854 1.84225 9.854 3.14362C9.854 3.35997 10.031 3.53698 10.2474 3.53698C10.4637 3.53698 10.6407 3.35997 10.6407 3.14362C10.6407 1.40955 9.45408 0 7.99864 0C7.27748 0 6.60548 0.337636 6.10395 0.950625C5.62208 1.54067 5.35656 2.31756 5.35656 3.14362C5.35656 3.6091 5.44179 4.05818 5.60241 4.47121L4.17319 5.72342C3.81589 6.03811 3.60938 6.49047 3.60938 6.96579V14.0266C3.60938 15.1149 4.49444 16 5.58274 16H10.4178C11.5061 16 12.3912 15.1149 12.3912 14.0266V6.96579C12.3912 6.49047 12.1847 6.03811 11.8274 5.72342ZM11.6045 14.0266C11.6045 14.6822 11.0734 15.2133 10.4178 15.2133H5.57946C4.92386 15.2133 4.39282 14.6822 4.39282 14.0266V6.96579C4.39282 6.71666 4.501 6.47736 4.68784 6.31346L5.98266 5.17927C6.022 5.23171 6.06133 5.28416 6.10067 5.33661C6.6022 5.9496 7.2742 6.28724 7.99536 6.28724C8.21171 6.28724 8.38872 6.11022 8.38872 5.89387C8.38872 5.67753 8.21171 5.50051 7.99536 5.50051C7.51349 5.50051 7.05785 5.26449 6.71038 4.83835C6.66449 4.77935 6.61859 4.72034 6.57598 4.65806L7.9003 3.49764C7.93308 3.46814 7.96914 3.46159 7.99536 3.46159C8.02158 3.46159 8.05764 3.46814 8.09042 3.49764L11.3062 6.31346C11.493 6.47736 11.6012 6.71666 11.6012 6.96579V14.0266H11.6045Z"
           fill="currentColor"
@@ -5622,7 +5622,7 @@ export const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M9.64734 6.81879L9.63182 6.52096L9.63182 6.52092L9.63128 6.52095L9.63128 6.52098L9.64734 6.81879ZM9.64734 6.81879C9.48247 6.82738 9.3423 6.7015 9.33344 6.53704C9.33344 6.53702 9.33343 6.537 9.33343 6.53697L9.2993 5.90255L9.92915 6.50492C9.92915 6.50495 9.92916 6.50497 9.92916 6.505C9.93798 6.66946 9.8118 6.80992 9.64734 6.81879Z"
         stroke="currentColor"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-2-inside-1_4625_54694" fill="currentColor">
         <path d="M2.8432 1.4274C2.67843 1.4274 2.54492 1.56095 2.54492 1.72568V3.12257C2.54492 4.47123 3.64215 5.56845 4.9908 5.56845C6.33946 5.56845 7.43668 4.47123 7.43668 3.12257V1.72568C7.43668 1.56095 7.30317 1.4274 7.13841 1.4274C6.97364 1.4274 6.84013 1.56095 6.84013 1.72568V3.12257C6.84013 4.14229 6.01056 4.9719 4.9908 4.9719C3.97105 4.9719 3.14148 4.14229 3.14148 3.12257V1.72568C3.14148 1.56095 3.00797 1.4274 2.8432 1.4274Z" />
@@ -5657,7 +5657,7 @@ export const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7597_156117)">
+      <g clipPath="url(#clip0_7597_156117)">
         <path
           d="M7.28203 0.818751C6.88828 0.856252 6.31016 0.971877 5.86641 1.10938C4.01641 1.66875 2.44453 2.99688 1.56641 4.74063C1.03516 5.79375 0.800781 6.79375 0.800781 8.01563C0.800781 8.94375 0.928906 9.71563 1.21953 10.5C1.45703 11.15 1.92266 11.9781 2.34141 12.4969C2.42891 12.6063 2.50078 12.7063 2.50078 12.7219C2.50078 12.7625 2.41641 12.7563 2.21953 12.7031C1.98203 12.6406 1.94766 12.6438 1.84141 12.7469C1.76953 12.8219 1.75078 12.8656 1.75078 12.975C1.75078 13.2 1.78828 13.2219 2.72578 13.4688C3.18203 13.5875 3.59453 13.6875 3.64141 13.6875C3.74453 13.6875 3.90703 13.5313 3.90703 13.4313C3.90703 13.3906 3.80703 12.9781 3.68828 12.5156C3.44141 11.5719 3.42266 11.5313 3.18516 11.5313C3.08516 11.5313 3.03828 11.5531 2.96328 11.625C2.86328 11.725 2.86016 11.7594 2.92266 12.0531C2.96328 12.2313 2.86953 12.175 2.66953 11.8969C2.00078 10.9813 1.58516 9.93438 1.43516 8.78125C1.38516 8.40625 1.38828 7.60625 1.43516 7.21875C1.58516 6.04688 2.03828 4.9375 2.74453 4C2.98516 3.68125 3.55391 3.10313 3.87578 2.84375C5.41641 1.61563 7.42266 1.13438 9.34453 1.53438C9.91016 1.65 10.632 1.90938 11.0539 2.14375C11.407 2.34063 11.657 2.25 11.657 1.92813C11.657 1.75 11.4539 1.61563 10.757 1.32813C9.66016 0.878127 8.47578 0.706252 7.28203 0.818751Z"
           fill="currentColor"
@@ -5697,7 +5697,7 @@ export const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6496_193554)">
+      <g clipPath="url(#clip0_6496_193554)">
         <path
           d="M7.375 0.0473633C6.42813 0.259863 5.64063 0.906738 5.29063 1.75674C5.11563 2.18799 5.0875 2.34424 5.06563 3.09424C5.04688 3.76299 5.04375 3.80361 4.975 3.88799C4.86563 4.02861 4.8 4.29111 4.825 4.50986C4.87188 4.95674 5.16875 5.29736 5.60625 5.40986C5.72188 5.43799 5.75313 5.45986 5.76875 5.52861C5.825 5.77549 5.85938 5.88174 5.95 6.07861C6.075 6.34424 6.29375 6.64111 6.48438 6.79424L6.625 6.90986V7.21299V7.51611L5.2875 8.03174C3.61875 8.67549 3.53438 8.71611 3.2 9.05049C2.99375 9.25361 2.91563 9.35986 2.81563 9.56924C2.59063 10.038 2.59375 9.99111 2.59375 12.9255C2.59375 15.538 2.59375 15.5442 2.65938 15.6817C2.70625 15.7724 2.775 15.8505 2.86875 15.9099L3.0125 16.0005H4.28125H5.55313L5.61875 15.9286C5.70938 15.8317 5.70938 15.688 5.61563 15.6005C5.55 15.5411 5.50938 15.5317 5.24063 15.5317H4.9375V13.1755C4.9375 10.9192 4.93438 10.8161 4.87813 10.7474C4.8 10.6505 4.61875 10.6474 4.52188 10.7442L4.45313 10.8161L4.44375 13.1755L4.4375 15.5349L3.79375 15.5255C3.26563 15.5192 3.15 15.5067 3.125 15.4692C3.08125 15.4005 3.08438 10.3942 3.12813 10.1817C3.20313 9.81924 3.4875 9.40361 3.8 9.19736C3.95 9.09736 5.575 8.43799 5.66563 8.43799C5.6875 8.43799 5.87813 8.78486 6.09375 9.20986C6.35938 9.73486 6.5125 10.0005 6.56875 10.0442C6.6875 10.1317 6.92813 10.1286 7.05 10.0411L7.14375 9.97549L7.22813 10.1099L7.31563 10.2474L6.97188 12.2911C6.78125 13.413 6.625 14.388 6.625 14.4567C6.625 14.6161 6.67813 14.6942 7.0875 15.1411L7.42813 15.5161L6.91875 15.5255C6.4125 15.5317 6.40938 15.5349 6.34688 15.6161C6.2625 15.7192 6.2625 15.813 6.34688 15.9192L6.40938 16.0005H9.7H12.9875L13.1313 15.9099C13.225 15.8505 13.2938 15.7724 13.3406 15.6817C13.4031 15.5474 13.4063 15.5067 13.4063 14.3255C13.4031 13.3786 13.3969 13.0974 13.3625 13.0567C13.2563 12.9161 13.0094 12.9317 12.9406 13.0817C12.9188 13.1349 12.9063 13.513 12.9063 14.2911C12.9063 14.9474 12.8938 15.4411 12.875 15.4692C12.85 15.5067 12.7344 15.5192 12.2063 15.5255L11.5625 15.5349L11.5563 13.1755L11.5469 10.8161L11.4781 10.7442C11.3813 10.6474 11.2 10.6505 11.1219 10.7474C11.0656 10.8161 11.0625 10.9192 11.0625 13.1755V15.5317H9.80938H8.55625L8.81563 15.2474C9.3625 14.6474 9.375 14.6317 9.375 14.4505C9.375 14.388 9.21875 13.4161 9.02813 12.2942L8.68125 10.2505L8.76875 10.113L8.85625 9.97549L8.95 10.0411C9.07188 10.1286 9.3125 10.1317 9.43125 10.0442C9.4875 10.0005 9.64063 9.73486 9.90625 9.20986C10.1219 8.78486 10.3125 8.43799 10.3313 8.43799C10.4094 8.43799 11.9938 9.07236 12.1531 9.16611C12.4844 9.36299 12.7906 9.79736 12.8719 10.1817C12.8938 10.2817 12.9063 10.713 12.9063 11.263C12.9063 12.1442 12.9094 12.1817 12.9719 12.263C13.0625 12.3786 13.25 12.3786 13.3406 12.263C13.4031 12.1817 13.4063 12.1442 13.4063 11.2442C13.4063 10.1974 13.3813 9.98799 13.2063 9.60986C13.0219 9.21299 12.6313 8.82236 12.2281 8.63174C12.1281 8.58486 11.4438 8.31299 10.7125 8.03174L9.375 7.51611V7.19736V6.87549L9.51875 6.74424C9.81875 6.46924 10.0688 6.02861 10.1563 5.61924C10.1969 5.44424 10.1969 5.44424 10.3406 5.40674C10.825 5.28486 11.125 4.90986 11.125 4.42236C11.125 4.21299 11.0344 3.91299 10.9531 3.84424C10.9156 3.81299 10.9063 3.71299 10.9063 3.36299C10.9063 2.55986 10.8344 2.14736 10.625 1.69736C10.3281 1.06299 9.93438 0.644238 9.33438 0.328613C8.88438 0.0911131 8.62188 0.0254879 8.0625 0.0129881C7.71563 0.00361347 7.52188 0.0129881 7.375 0.0473633ZM8.55 0.562988C9.2875 0.753613 9.85313 1.22549 10.1688 1.91299C10.3219 2.24424 10.375 2.50674 10.3969 3.00049L10.4156 3.43799H10.3313C10.2781 3.43799 10.2406 3.41611 10.2313 3.38174C10.1813 3.21924 10.1 3.10674 9.8 2.78174C9.28125 2.21924 9.22188 2.20674 8.66563 2.51611C7.94375 2.91611 7.30313 3.08799 6.46875 3.10674C5.9875 3.11924 5.89063 3.15049 5.79688 3.32236C5.75625 3.40049 5.7125 3.43486 5.65 3.44424L5.5625 3.45986V3.05674C5.5625 2.55049 5.62188 2.25674 5.79375 1.89111C6.11875 1.20049 6.73438 0.706738 7.45313 0.547363C7.75 0.481738 8.25938 0.487988 8.55 0.562988ZM9.44688 3.15361L9.71875 3.45049V4.35674C9.71875 5.01611 9.70625 5.32236 9.675 5.47236C9.5375 6.12236 9.02188 6.64424 8.36563 6.79736C7.82188 6.92549 7.22188 6.76611 6.80625 6.38174C6.56875 6.15986 6.43125 5.95049 6.325 5.63486C6.24063 5.39736 6.24063 5.36611 6.225 4.50049L6.2125 3.60986L6.56563 3.60361C7.35 3.59424 8.15938 3.37549 8.85938 2.98486C8.99688 2.90986 9.125 2.85049 9.14063 2.85361C9.15938 2.85674 9.29688 2.99111 9.44688 3.15361ZM5.75 4.43799V4.93799L5.67188 4.90674C5.525 4.85049 5.44063 4.77549 5.375 4.64424C5.3 4.48174 5.29688 4.38174 5.36563 4.23486C5.4125 4.13486 5.65313 3.93799 5.725 3.93799C5.7375 3.93799 5.75 4.16299 5.75 4.43799ZM10.4063 4.00674C10.4625 4.04736 10.5344 4.12861 10.5656 4.18799C10.6844 4.40674 10.6125 4.69424 10.4063 4.83486C10.2219 4.96299 10.2188 4.95674 10.2188 4.42236C10.2188 3.88799 10.2219 3.88174 10.4063 4.00674ZM7.41563 7.27236C7.68438 7.34424 8.29375 7.34736 8.54688 7.27549C8.65 7.24424 8.76563 7.21299 8.80625 7.20049C8.87188 7.18174 8.875 7.18799 8.875 7.37549V7.57236L8.45 8.10049C8.2125 8.39111 8.00938 8.62236 7.99375 8.61924C7.975 8.61299 7.775 8.37549 7.54375 8.09424L7.125 7.57861V7.37861C7.125 7.21299 7.13438 7.18486 7.17188 7.20049C7.2 7.20986 7.30938 7.24111 7.41563 7.27236ZM7.22813 8.51299C7.45 8.78486 7.61875 9.01611 7.60313 9.02861C7.51875 9.10361 6.8375 9.56924 6.83125 9.55986C6.825 9.55361 6.67188 9.25049 6.49063 8.88799L6.1625 8.23174L6.44688 8.11924C6.60625 8.05674 6.75313 8.00674 6.77813 8.00986C6.80313 8.01299 7.00625 8.23799 7.22813 8.51299ZM9.525 8.11299C9.68125 8.17236 9.8125 8.22861 9.8125 8.23799C9.8125 8.24424 9.66563 8.54736 9.48438 8.90674L9.15625 9.56611L9.00625 9.46299C8.65313 9.22236 8.39063 9.02549 8.39063 9.00361C8.39063 8.96611 9.16875 8.00361 9.20313 8.00361C9.22188 8.00049 9.36563 8.05049 9.525 8.11299ZM8.20625 9.51924C8.31563 9.59736 8.4125 9.67236 8.41875 9.68486C8.42813 9.69736 8.4 9.75986 8.35625 9.82236L8.27813 9.93799H8H7.71875L7.63438 9.80986C7.56563 9.70361 7.55938 9.67861 7.59688 9.65674C7.61875 9.64111 7.71875 9.57236 7.8125 9.50361C7.90625 9.43486 7.9875 9.37861 7.99375 9.37549C8 9.37549 8.09375 9.44111 8.20625 9.51924ZM8.52813 12.3505C8.70625 13.4036 8.85625 14.3005 8.86563 14.3442C8.875 14.4099 8.80313 14.5036 8.45 14.8911C8.21563 15.1474 8.0125 15.3599 8 15.3599C7.97813 15.3599 7.475 14.8192 7.17813 14.4786C7.12188 14.413 7.12813 14.363 7.45 12.4599C7.63125 11.388 7.78125 10.4942 7.78125 10.4724C7.78125 10.4505 7.85313 10.438 7.99375 10.438H8.20625L8.52813 12.3505Z"
           fill="currentColor"
@@ -5728,55 +5728,55 @@ export const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M9.86527 10.175V13.7175C9.86527 13.8182 9.8454 13.9179 9.8068 14.0109C9.7682 14.1038 9.71163 14.1883 9.64033 14.2593C9.56903 14.3304 9.4844 14.3867 9.39129 14.425C9.29819 14.4633 9.19844 14.4829 9.09777 14.4825H3.79527C3.59238 14.4825 3.3978 14.4019 3.25434 14.2585C3.11087 14.115 3.03027 13.9204 3.03027 13.7175V2.28252C3.03027 2.18206 3.05006 2.08258 3.08851 1.98977C3.12695 1.89695 3.1833 1.81262 3.25434 1.74158C3.3978 1.59812 3.59238 1.51752 3.79527 1.51752H9.09777C9.19844 1.51719 9.29819 1.53674 9.39129 1.57503C9.4844 1.61333 9.56903 1.66963 9.64033 1.7407C9.71163 1.81177 9.7682 1.89621 9.8068 1.98919C9.8454 2.08217 9.86527 2.18185 9.86527 2.28252V5.00002"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M5.19727 2.58502H6.71977"
         stroke="currentColor"
-        stroke-width="0.75"
-        stroke-linecap="round"
+        strokeWidth="0.75"
+        strokeLinecap="round"
       />
       <path
         d="M6.06738 13.3675H6.82738"
         stroke="currentColor"
-        stroke-width="0.75"
-        stroke-linecap="round"
+        strokeWidth="0.75"
+        strokeLinecap="round"
       />
       <path
         d="M7.66504 2.58502H7.69504"
         stroke="currentColor"
-        stroke-width="0.75"
-        stroke-linecap="round"
+        strokeWidth="0.75"
+        strokeLinecap="round"
       />
       <path
         d="M3.03027 12.34H9.86527"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M3.03027 3.6875H9.86527"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M6.21984 5.00002H12.4348C12.5767 5.00002 12.7128 5.05638 12.8131 5.15671C12.9135 5.25705 12.9698 5.39313 12.9698 5.53502V9.64002C12.9698 9.78191 12.9135 9.91799 12.8131 10.0183C12.7128 10.1187 12.5767 10.175 12.4348 10.175H5.99984C5.85795 10.175 5.72187 10.1187 5.62154 10.0183C5.52121 9.91799 5.46484 9.78191 5.46484 9.64002V5.75002C5.46484 5.6511 5.48441 5.55317 5.52241 5.46184C5.56041 5.37052 5.6161 5.28762 5.68628 5.21791C5.75645 5.1482 5.83972 5.09306 5.9313 5.05567C6.02287 5.01827 6.12093 4.99936 6.21984 5.00002Z"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M5.46973 6.10748H12.9697"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M5.46973 7.065H12.9697"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
       <path
         d="M11.5373 8.16748C11.4079 8.1682 11.2824 8.21122 11.1798 8.28998C11.1063 8.23374 11.0205 8.19581 10.9295 8.17932C10.8385 8.16282 10.7449 8.16824 10.6563 8.19513C10.5678 8.22202 10.487 8.26961 10.4205 8.33394C10.3541 8.39828 10.3039 8.47753 10.2741 8.56511C10.2444 8.6527 10.2359 8.74612 10.2494 8.83763C10.2629 8.92915 10.2981 9.01612 10.3519 9.09136C10.4057 9.1666 10.4767 9.22794 10.5589 9.27031C10.6411 9.31267 10.7323 9.33484 10.8248 9.33498C10.9539 9.33491 11.0791 9.29082 11.1798 9.20998C11.253 9.26686 11.3387 9.30544 11.4299 9.32251C11.521 9.33959 11.6149 9.33467 11.7037 9.30816C11.7925 9.28165 11.8738 9.23432 11.9406 9.1701C12.0075 9.10588 12.0581 9.02663 12.0881 8.93893C12.1182 8.85124 12.1269 8.75763 12.1135 8.66589C12.1002 8.57415 12.0651 8.48693 12.0112 8.41148C11.9573 8.33603 11.8862 8.27453 11.8038 8.23209C11.7214 8.18965 11.63 8.1675 11.5373 8.16748Z"
         stroke="currentColor"
-        stroke-width="0.75"
+        strokeWidth="0.75"
       />
     </svg>
   )
@@ -5819,14 +5819,14 @@ export const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M5.33333 2H3.33333C2.97971 2 2.64057 2.14048 2.39052 2.39052C2.14048 2.64057 2 2.97971 2 3.33333V5.33333M14 5.33333V3.33333C14 2.97971 13.8595 2.64057 13.6095 2.39052C13.3594 2.14048 13.0203 2 12.6667 2H10.6667M10.6667 14H12.6667C13.0203 14 13.3594 13.8595 13.6095 13.6095C13.8595 13.3594 14 13.0203 14 12.6667V10.6667M2 10.6667V12.6667C2 13.0203 2.14048 13.3594 2.39052 13.6095C2.64057 13.8595 2.97971 14 3.33333 14H5.33333"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6 5L10.0833 7.625L6 10.25V5Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5845,7 +5845,7 @@ export const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6057_179597)">
+      <g clipPath="url(#clip0_6057_179597)">
         <path
           d="M4.01953 0.0898438C3.66797 0.324219 3.66797 0.847656 4.01953 1.08203L4.15234 1.17188H10H15.8477L15.9805 1.08203C16.332 0.847656 16.332 0.324219 15.9805 0.0898438L15.8477 0H10H4.15234L4.01953 0.0898438Z"
           fill="currentColor"
@@ -5909,26 +5909,26 @@ export const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M11.6296 5.03271L8.33291 1.72606M11.6296 5.03271H9.42602C8.82231 5.03271 8.33291 4.54331 8.33291 3.9396V1.72606M11.6296 5.03271V7.79281M8.33291 1.72606H3.43198C2.82827 1.72606 2.33887 2.21546 2.33887 2.81917V12.5752C2.33887 13.1789 2.82827 13.6683 3.43198 13.6683H7.95147"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.19141 7.43756H7.56987"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.19141 8.91324H8.11478"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.19141 10.4163H7.29741"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.0995 11.5094C14.0995 13.3476 12.6142 14.8353 10.7851 14.8353C8.95602 14.8353 7.4707 13.3476 7.4707 11.5094C7.4707 9.67113 8.95602 8.1835 10.7851 8.1835C12.6142 8.1835 14.0995 9.67113 14.0995 11.5094Z"
@@ -5937,14 +5937,14 @@ export const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M10.7852 9.21384V13.8231"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.829 10.0519H10.2623C10.0684 10.0519 9.88249 10.1292 9.74538 10.2667C9.60828 10.4042 9.53125 10.5907 9.53125 10.7852C9.53125 10.9797 9.60828 11.1662 9.74538 11.3037C9.88249 11.4412 10.0684 11.5185 10.2623 11.5185H11.3068C11.5007 11.5185 11.6866 11.5958 11.8237 11.7333C11.9608 11.8708 12.0378 12.0573 12.0378 12.2518C12.0378 12.4463 11.9608 12.6328 11.8237 12.7703C11.6866 12.9078 11.5007 12.9851 11.3068 12.9851H9.53125"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -5963,7 +5963,7 @@ export const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_83910)">
+      <g clipPath="url(#clip0_4746_83910)">
         <path
           d="M6.77813 0.0501938C6.05 0.181444 5.74375 0.381444 5.88125 0.634569C5.96875 0.803319 6.07188 0.815819 6.39687 0.703319C6.76875 0.578319 7.08125 0.528319 7.48438 0.525194C7.90313 0.525194 8.14062 0.559569 8.51562 0.678319C9.53125 1.00019 10.3406 1.77832 10.7 2.78144C10.7875 3.02207 10.8813 3.41269 10.8562 3.43457C10.85 3.44082 10.8188 3.42519 10.7906 3.39707C10.7031 3.32207 10.3156 3.13769 10.0938 3.06894C9.69063 2.94082 9.75 2.92519 9.18125 3.30644C8.89688 3.49707 8.57812 3.69394 8.47188 3.75019C7.8875 4.04394 7.1125 4.04394 6.52813 3.75019C6.42188 3.69394 6.1 3.49394 5.81875 3.30644L5.30312 2.96269L5.08125 3.01582C4.85625 3.06894 4.24375 3.33769 4.20625 3.40332C4.1625 3.47207 4.12813 3.43457 4.14375 3.33457C4.21563 2.92519 4.41563 2.42832 4.65313 2.06582C4.8375 1.78769 4.85625 1.66582 4.73438 1.54707C4.62813 1.43769 4.47188 1.44082 4.35938 1.55332C4.3125 1.60019 4.20625 1.75957 4.11875 1.90332C3.64375 2.70957 3.46875 3.60644 3.6125 4.51582C3.70312 5.10332 3.70625 5.04082 3.57812 5.10957C3.33125 5.23769 3.15625 5.54707 3.15625 5.84082C3.15625 6.00332 3.34375 6.75644 3.42188 6.90644C3.54688 7.15019 3.80625 7.36269 4.09375 7.45644C4.23438 7.50332 4.25938 7.52519 4.30625 7.63769C4.50625 8.13769 4.9125 8.67832 5.33125 9.00332L5.50625 9.13769L5.49375 9.64707C5.48438 10.1408 5.48125 10.1564 5.40625 10.2314C5.33437 10.3002 5.16563 10.3377 3.58125 10.6252C2.62188 10.8002 1.75 10.9721 1.64375 11.0127C1.275 11.1439 1.03125 11.3064 0.71875 11.6221C0.46875 11.8752 0.396875 11.9689 0.271875 12.2189C0.00625 12.7533 0 12.8002 0 14.4439C0 15.8346 0.003125 15.8783 0.0625 15.9377C0.146875 16.0221 0.353125 16.0221 0.4375 15.9377C0.496875 15.8783 0.5 15.8346 0.5 14.6783C0.5 14.0221 0.5125 13.3627 0.528125 13.2158C0.565625 12.8658 0.675 12.5596 0.85625 12.2846C1.05313 11.9877 1.30313 11.7752 1.64062 11.6064C1.91875 11.4689 1.94063 11.4658 3.46563 11.1877C4.31563 11.0346 5.0125 10.9096 5.0125 10.9158C5.01562 10.9189 5.04063 11.0189 5.07188 11.1408C5.33125 12.1846 6.34375 13.0002 7.38125 13.0002C7.66563 13.0002 7.75 12.9471 7.75 12.7689C7.75 12.5439 7.7 12.5064 7.33437 12.4689C6.70937 12.4064 6.19375 12.0971 5.85 11.5814C5.72188 11.3908 5.6375 11.1908 5.54688 10.8564C5.53438 10.8033 5.55 10.7814 5.625 10.7502C5.675 10.7283 5.7625 10.6627 5.8125 10.6033C5.975 10.4221 6 10.3158 6 9.85332C6 9.46269 6.00313 9.43144 6.05625 9.45332C6.275 9.55019 6.62813 9.65957 6.84375 9.70019C7.175 9.76269 7.82188 9.76582 8.14688 9.70332C9.28438 9.48769 10.2781 8.68144 10.6969 7.63457C10.7344 7.53457 10.7719 7.49707 10.8344 7.48144C11.1219 7.40957 11.4031 7.20019 11.55 6.95332C11.6406 6.79707 11.8438 6.04082 11.8438 5.85644C11.8438 5.55332 11.6687 5.24082 11.4219 5.10957C11.2937 5.03769 11.2969 5.10332 11.3906 4.50019C11.4844 3.92207 11.4219 3.23769 11.2281 2.65644C10.7844 1.31894 9.59062 0.290819 8.20625 0.0470686C7.8625 -0.0123062 7.10938 -0.0123062 6.77813 0.0501938ZM5.70312 3.87519C6.45625 4.36894 6.82812 4.50019 7.5 4.50019C8.17188 4.50019 8.54375 4.36894 9.29688 3.87519L9.8125 3.53144L10.0156 3.60644C10.4094 3.75019 10.8125 4.06582 10.8625 4.27207C10.8781 4.33144 10.7563 5.05019 10.6656 5.42832C10.65 5.49394 10.6594 5.50019 10.7844 5.50019C11.0813 5.50019 11.3125 5.64707 11.3125 5.83144C11.3125 5.97519 11.1531 6.54707 11.075 6.67832C10.975 6.85019 10.7875 6.95957 10.5406 6.98769L10.35 7.00644L10.2656 7.24707C9.93125 8.19707 9.17188 8.89394 8.20312 9.14082C7.65313 9.28144 7.00938 9.24707 6.48125 9.04707C5.65938 8.73769 4.99375 8.04394 4.72188 7.21582L4.65313 7.00644L4.45937 6.98769C4.2125 6.95957 4.025 6.85332 3.925 6.67832C3.84687 6.54707 3.6875 5.97519 3.6875 5.83144C3.6875 5.64707 3.91875 5.50019 4.21563 5.50019C4.34063 5.50019 4.35 5.49394 4.33437 5.42832C4.24375 5.05019 4.12188 4.33144 4.1375 4.27207C4.16563 4.15644 4.40938 3.90332 4.60625 3.78457C4.7375 3.70644 5.0625 3.56269 5.17812 3.53457C5.18125 3.53144 5.41875 3.68457 5.70312 3.87519Z"
           fill="currentColor"
@@ -6011,7 +6011,7 @@ export const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4902_125858)">
+      <g clipPath="url(#clip0_4902_125858)">
         <path
           d="M9.87167 0.312514C8.87167 0.49064 7.92792 0.981264 7.20604 1.70626C6.80604 2.10314 6.52167 2.50314 6.26854 3.01564C6.02792 3.50001 5.89354 3.90939 5.80604 4.41876C5.71542 4.95314 5.73729 5.85939 5.85292 6.34377C6.21542 7.86564 7.15604 9.06252 8.52792 9.75002C9.62792 10.3 11.0779 10.4094 12.2685 10.0281C13.7998 9.54064 14.9935 8.36564 15.5029 6.84377C15.8404 5.83126 15.8404 4.66251 15.4967 3.64376C14.9185 1.90939 13.4092 0.621889 11.6029 0.312514C11.1248 0.228139 10.3404 0.231264 9.87167 0.312514ZM11.0748 0.781264C13.081 0.943765 14.706 2.36876 15.1404 4.34376C15.2185 4.70001 15.2373 5.53751 15.1779 5.92189C15.0435 6.76251 14.6842 7.53751 14.131 8.17814C12.7154 9.81252 10.3435 10.2031 8.47479 9.10626C6.58729 7.99376 5.77792 5.64689 6.58104 3.61251C6.70604 3.29689 6.90604 2.93126 7.12167 2.62501C7.30292 2.36251 7.86229 1.80314 8.12479 1.62189C8.80604 1.14376 9.59667 0.846889 10.3685 0.784389C10.5342 0.768764 10.6717 0.756265 10.6748 0.753139C10.6779 0.753139 10.856 0.765639 11.0748 0.781264Z"
           fill="currentColor"
@@ -6075,7 +6075,7 @@ export const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4615_56285)">
+      <g clipPath="url(#clip0_4615_56285)">
         <path
           d="M15.9268 9.87522C15.7973 9.68523 15.5383 9.63621 15.3483 9.76575L10.8123 12.8584L9.80493 11.5101C9.69928 11.3692 9.5113 11.304 9.33495 11.3627C9.11442 11.4361 8.99513 11.6744 9.06852 11.8949L9.893 14.3726C9.92416 14.4647 9.97498 14.5557 10.0439 14.6327C10.3167 14.9374 10.7849 14.9634 11.0897 14.6906L11.1435 14.6425L15.8606 10.42C16.0141 10.2828 16.0459 10.0498 15.9268 9.87522Z"
           fill="currentColor"
@@ -6172,7 +6172,7 @@ export const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5020_183356)">
+      <g clipPath="url(#clip0_5020_183356)">
         <path
           d="M7.26562 0.0531249C6.9875 0.2 6.91875 0.359375 6.89375 0.921875C6.88438 1.14375 6.85313 1.4625 6.82812 1.625C6.76875 1.9875 6.61563 2.58125 6.5375 2.75938C6.45938 2.92812 6.30313 3.14062 6.20938 3.20312C6.14062 3.24688 6.125 3.24375 5.98125 3.16562L5.82812 3.07812L5.10625 3.06875C4.64688 3.0625 4.33438 3.07188 4.25313 3.09375C4.06875 3.14375 3.875 3.30625 3.775 3.49688L3.6875 3.6625V5.09063V6.51875L3.76875 6.68125C3.8125 6.77187 3.9 6.88437 3.9625 6.9375C4.16563 7.10313 4.28438 7.125 5.02813 7.125C5.4 7.125 5.75625 7.10938 5.81875 7.09375C5.88438 7.075 5.99688 7.0125 6.075 6.95312C6.20938 6.85313 6.21563 6.85 6.26562 6.90625C6.29375 6.9375 6.39062 6.99688 6.47813 7.0375L6.64062 7.10938H8.51562C10.3156 7.10938 10.3969 7.10625 10.5156 7.04688C10.6906 6.9625 10.8625 6.77187 10.9188 6.60312C10.9781 6.43125 10.9813 6.14687 10.9281 6.01875C10.8906 5.93125 10.8938 5.91875 11.0219 5.79062C11.2313 5.575 11.2969 5.2875 11.2063 4.98438C11.1594 4.8375 11.1594 4.8375 11.25 4.7625C11.4031 4.63125 11.5 4.39375 11.5 4.15C11.5 3.94687 11.4188 3.6875 11.3406 3.6375C11.325 3.62812 11.3375 3.58437 11.3688 3.5375C11.4719 3.38437 11.5031 3.27187 11.5031 3.06875C11.5031 2.70937 11.2969 2.40937 10.9719 2.29688C10.8594 2.25938 10.6469 2.25 9.82188 2.25H8.8125V1.83437C8.8125 1.34375 8.75313 1.05312 8.57188 0.6875C8.42812 0.39375 8.16563 0.125 7.95 0.0499997C7.75938 -0.015625 7.39062 -0.015625 7.26562 0.0531249ZM7.80312 0.625C7.93125 0.703125 8.04688 0.878125 8.15 1.14687C8.22188 1.34062 8.23125 1.41563 8.24688 2.00625C8.26562 2.63438 8.26875 2.65312 8.34063 2.73125L8.41563 2.8125H9.56875C10.3875 2.8125 10.7438 2.82188 10.7906 2.85C10.9469 2.93125 10.9813 3.09062 10.8719 3.23125C10.8094 3.3125 10.8063 3.3125 10.3656 3.3125C9.84063 3.3125 9.70625 3.34063 9.64062 3.46875C9.58437 3.57812 9.58125 3.62812 9.63125 3.73438C9.69688 3.88125 9.79688 3.90625 10.3125 3.90625C10.7719 3.90625 10.7875 3.90937 10.8594 3.98438C10.9031 4.025 10.9375 4.09375 10.9375 4.1375C10.9375 4.36875 10.8406 4.40625 10.25 4.40625H9.775L9.68438 4.49688C9.57188 4.6125 9.56563 4.74375 9.66875 4.86562C9.74375 4.95 9.75313 4.95312 10.1375 4.96875C10.475 4.98125 10.5375 4.99375 10.5906 5.04688C10.6969 5.15312 10.7031 5.25937 10.6094 5.36875L10.525 5.46875H10.2063C10.0281 5.46875 9.84063 5.48438 9.78438 5.50312C9.6875 5.5375 9.59375 5.66562 9.59375 5.76562C9.59375 5.86563 9.6875 5.99375 9.78438 6.02812C9.84063 6.04688 9.96875 6.0625 10.0687 6.0625C10.2219 6.0625 10.2656 6.075 10.3281 6.14062C10.4344 6.24375 10.4281 6.35938 10.3156 6.47188L10.2219 6.5625L8.49062 6.55625L6.7625 6.54688L6.64688 6.46875C6.58438 6.42812 6.50625 6.34062 6.47187 6.27812C6.40937 6.16875 6.40625 6.11563 6.40625 4.9875V3.80938L6.65313 3.56875C6.92188 3.30312 7.03437 3.11562 7.16563 2.70312C7.33125 2.16875 7.46875 1.34687 7.46875 0.8625C7.46875 0.721875 7.47813 0.59375 7.49063 0.584375C7.53125 0.540625 7.70625 0.565625 7.80312 0.625ZM5.69375 3.65937C5.83438 3.73438 5.84375 3.82812 5.84375 5.09375C5.84375 6.39062 5.83438 6.46875 5.67188 6.53125C5.55313 6.575 4.48125 6.57187 4.39688 6.525C4.25 6.45 4.25313 6.45937 4.25313 5.09375C4.25313 3.73438 4.25 3.74375 4.39062 3.6625C4.475 3.61562 5.60312 3.6125 5.69375 3.65937Z"
           fill="currentColor"
@@ -6351,7 +6351,7 @@ export const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5044_397975)">
+      <g clipPath="url(#clip0_5044_397975)">
         <path
           d="M10.1906 13.2875C10.3688 13.1688 15.9062 8.58751 15.9531 8.52188C15.9781 8.48438 16 8.39376 16 8.31876C16 8.20626 15.9812 8.16563 15.8813 8.06563C15.7906 7.96876 10.5469 3.64376 10.2062 3.38126C10.1062 3.30626 9.95312 3.29063 9.82812 3.35001C9.66875 3.42188 9.60625 3.67501 9.70625 3.83751C9.73438 3.88438 10.9625 4.91251 12.4344 6.12501L15.1125 8.33126L12.4344 10.5313C10.9625 11.7438 9.73438 12.7719 9.70625 12.8188C9.64687 12.9156 9.64062 13.0594 9.69375 13.1719C9.76562 13.3344 10.0312 13.3969 10.1906 13.2875Z"
           fill="currentColor"
@@ -6423,13 +6423,13 @@ export const IconSelectedProfiles = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_4633_53891)">
+    <g clipPath="url(#clip0_4633_53891)">
       <path
         d="M9.14258 13.5715L10.8569 15.2858L15.4443 10.7144"
         stroke="currentColor"
-        stroke-width="0.571429"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="0.571429"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.32651 8.75368C8.26414 8.6745 8.03417 8.37077 7.81098 7.92683L7.79851 7.90189C7.79715 7.89944 7.79607 7.89673 7.79471 7.89429C7.76515 7.8349 7.73614 7.77199 7.70685 7.7069L7.69329 7.67626C7.6781 7.64182 7.66292 7.60629 7.64773 7.56914C7.64258 7.55639 7.63742 7.54365 7.63227 7.53063C7.6179 7.49483 7.60353 7.4585 7.58807 7.41673C7.56014 7.34297 7.53464 7.26595 7.50969 7.18704L7.49017 7.12304C7.46468 7.03897 7.44108 6.953 7.42048 6.86433C7.41993 6.86243 7.41939 6.8608 7.41912 6.8589L7.41451 6.83911L7.39471 6.75151L7.30197 6.69158C7.14468 6.59016 7.05085 6.42039 7.05085 6.23734V5.1526C7.05085 5.00046 7.11539 4.85836 7.23254 4.7526L7.32203 4.67178V2.9831V2.8871L7.31471 2.88141C7.30522 2.68588 7.31715 2.08548 7.75485 1.58595C8.2042 1.07341 8.97112 0.813613 10.0339 0.813613C11.0929 0.813613 11.8582 1.07151 12.3081 1.58053C12.8361 2.17741 12.749 2.94107 12.7482 2.94758L12.7458 4.67178L12.8353 4.7526C12.9524 4.85836 13.0169 5.00046 13.0169 5.1526V6.23734C13.0169 6.47409 12.8621 6.68127 12.6313 6.75233C12.4884 6.79626 12.4081 6.94839 12.4523 7.09131C12.4963 7.23422 12.6476 7.31395 12.7913 7.27029C13.2507 7.12873 13.5593 6.71355 13.5593 6.23734V5.1526C13.5593 4.89144 13.462 4.63816 13.2881 4.44073V2.99829C13.3036 2.84914 13.363 1.96127 12.7208 1.2288C12.1638 0.593139 11.2599 0.27124 10.0339 0.27124C8.80786 0.27124 7.904 0.59341 7.34698 1.22853C6.95783 1.67246 6.82712 2.17253 6.78725 2.53158C6.32217 2.29104 5.77464 2.16955 5.15254 2.16955C2.33519 2.16955 2.17139 4.5709 2.16949 4.61022V5.85199C1.99376 6.04372 1.89831 6.26446 1.89831 6.48385V7.42053C1.89831 7.71314 2.02929 7.98595 2.25383 8.17036C2.47729 9.01375 3.0278 9.65104 3.24203 9.87477V10.6186C3.24203 10.8321 3.12569 11.0279 2.92447 11.138L1.12081 12.2696C0.429288 12.6463 0 13.3695 0 14.1568V15.1865H3.79661H4.33898H7.32203C7.472 15.1865 7.59322 15.0653 7.59322 14.9153C7.59322 14.7653 7.472 14.6441 7.32203 14.6441H4.33898V14.0372C4.33898 13.34 4.71919 12.6992 5.33098 12.3656L7.75078 11.046C8.15539 10.825 8.40678 10.4011 8.40678 9.94039V8.8505L8.34386 8.77511C8.34305 8.77456 8.33627 8.76589 8.32651 8.75368ZM7.86441 9.94039C7.86441 10.2029 7.72122 10.4437 7.49098 10.5695L6.77342 10.9609L6.59742 11.0569L5.07146 11.8891C4.28502 12.3182 3.79661 13.1409 3.79661 14.0369V14.6441H0.542373V14.1568C0.542373 13.5683 0.863458 13.0276 1.39444 12.7377L3.1981 11.606C3.55959 11.4089 3.78414 11.0308 3.78414 10.6186L3.78386 9.64507L3.69844 9.56453C3.69112 9.55802 2.96949 8.87138 2.75769 7.94934L2.73302 7.84195L2.64027 7.78229C2.51525 7.70148 2.44068 7.56616 2.44068 7.42053V6.48385C2.44068 6.3865 2.50685 6.27016 2.62264 6.16548L2.71186 6.08466L2.71132 4.62595C2.71647 4.54785 2.85722 2.71192 5.15254 2.71192C5.80176 2.71192 6.3482 2.86188 6.77966 3.15775V4.44073C6.60583 4.63816 6.50847 4.89144 6.50847 5.1526V6.23734C6.50847 6.43151 6.5657 6.61511 6.66061 6.77755C6.72705 6.89117 6.80895 6.99585 6.91444 7.08046C6.91634 7.08751 6.91851 7.09402 6.92041 7.1008C6.93614 7.16073 6.95241 7.21985 6.96976 7.2768L6.99227 7.35056C6.99661 7.36412 7.00149 7.37822 7.00583 7.39178C7.01478 7.41944 7.02346 7.44683 7.03295 7.47395C7.04922 7.52195 7.06658 7.57131 7.08664 7.625C7.09478 7.64643 7.10346 7.66514 7.11159 7.68602C7.13464 7.74514 7.15797 7.80236 7.18237 7.85877C7.18698 7.86934 7.19132 7.88155 7.19593 7.89212L7.2122 7.929C7.21953 7.94555 7.22712 7.96019 7.23444 7.97646C7.25993 8.03205 7.28515 8.08629 7.31091 8.13863C7.3158 8.14839 7.32041 8.15951 7.32529 8.16928L7.34563 8.20887C7.35078 8.2189 7.35566 8.22677 7.36081 8.23653C7.40475 8.32114 7.44786 8.40033 7.49071 8.47436C7.49641 8.48439 7.5021 8.49443 7.5078 8.50446C7.55417 8.58365 7.59864 8.65633 7.64095 8.72168C7.64285 8.72466 7.64502 8.72792 7.64692 8.73117C7.73641 8.86921 7.81397 8.97741 7.86441 9.04331V9.94039Z"
@@ -6457,7 +6457,7 @@ export const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_53993)">
+      <g clipPath="url(#clip0_4630_53993)">
         <path
           d="M6.19473 4.36717L4.4383 6.12359L3.95801 5.64329L5.71443 3.88687L6.19473 4.36717Z"
           fill="currentColor"
@@ -6508,8 +6508,8 @@ export const IconStar = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M8.00065 1.33333L10.0607 5.50666L14.6673 6.18L11.334 9.42666L12.1207 14.0133L8.00065 11.8467L3.88065 14.0133L4.66732 9.42666L1.33398 6.18L5.94065 5.50666L8.00065 1.33333Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -6528,7 +6528,7 @@ export const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7767_100302)">
+      <g clipPath="url(#clip0_7767_100302)">
         <path
           d="M14.0684 0.424006C12.9465 0.717756 12.1809 1.20838 11.7027 1.93338C11.5465 2.17088 11.5402 2.17713 11.4309 2.16151C11.2809 2.13963 8.93711 1.90526 8.51836 1.86776C7.82461 1.80838 7.24336 1.95838 6.72461 2.32713C6.64023 2.38651 5.29961 3.70526 3.74648 5.25213C1.74023 7.25526 0.883984 8.13026 0.780859 8.28026C0.490234 8.71463 0.365234 9.14588 0.365234 9.70213C0.365234 10.299 0.527734 10.774 0.883984 11.2396C1.03711 11.4365 5.28398 15.6803 5.47774 15.8271C5.64648 15.9553 5.99023 16.124 6.25586 16.2084C6.52773 16.2959 7.13086 16.3271 7.44649 16.274C8.01836 16.174 8.70899 15.7553 8.86836 15.4115C8.97774 15.1771 8.92774 14.8865 8.74648 14.699C8.49648 14.4334 8.12774 14.4365 7.80586 14.7053C7.72149 14.7771 7.57149 14.874 7.46836 14.9209C7.30899 14.9959 7.24961 15.0053 6.97461 15.0053C6.68711 15.0053 6.64648 14.9959 6.44336 14.9021C6.23711 14.8053 6.10898 14.6834 4.04961 12.6209C2.53086 11.1021 1.84961 10.4021 1.80273 10.3053C1.68086 10.0615 1.64336 9.91463 1.64336 9.69276C1.64648 9.45838 1.68398 9.30838 1.79648 9.08338C1.89336 8.89588 7.40899 3.40526 7.61836 3.28963C7.69649 3.24588 7.85274 3.18963 7.96524 3.16151C8.16211 3.11776 8.22774 3.12088 10.6184 3.36463C11.9652 3.50213 13.0715 3.61463 13.0746 3.61463C13.0777 3.61463 13.0871 3.72401 13.0996 3.85526C13.1121 3.98963 13.1277 4.12088 13.134 4.14901C13.1434 4.18651 13.0871 4.21776 12.8746 4.28338C12.5246 4.38963 11.9621 4.50526 11.5871 4.55213C11.4246 4.57088 11.2434 4.60838 11.1871 4.63651C10.984 4.73026 10.834 4.97713 10.834 5.21151C10.834 5.43963 10.9965 5.68651 11.2027 5.78026C11.3277 5.83338 11.3871 5.83963 11.6621 5.82401C11.9965 5.80213 12.6152 5.69276 13.0059 5.58338C13.1371 5.54588 13.2527 5.52088 13.259 5.53026C13.2652 5.53651 13.3371 6.16776 13.4152 6.93026C13.5684 8.42713 13.5746 8.63651 13.459 8.94276C13.3934 9.12088 13.3121 9.20526 11.7215 10.7865C10.2277 12.2678 10.0465 12.4584 10.0027 12.5928C9.86524 13.0021 10.1684 13.4271 10.5934 13.4271C10.9059 13.4271 10.7652 13.549 13.0152 11.3209C13.7371 10.6084 14.3277 9.99588 14.4027 9.88963C14.6809 9.47713 14.834 8.98963 14.834 8.50526C14.834 8.27401 14.5559 5.32088 14.509 5.05213C14.4965 4.98338 14.5184 4.95838 14.6402 4.88026C15.459 4.37088 16.0402 3.60213 16.259 2.73338C16.3309 2.44901 16.3371 2.37401 16.3277 1.88338L16.3184 1.34588L16.2121 1.13338C16.0746 0.849007 15.7996 0.577131 15.5277 0.449006C15.3277 0.352132 15.3027 0.349007 14.8652 0.342756C14.4527 0.333382 14.3809 0.342756 14.0684 0.424006ZM15.0246 1.64901C15.0871 1.71151 15.0902 1.73963 15.0746 2.00213C15.0434 2.50838 14.8434 2.98963 14.5277 3.30838C14.4496 3.39276 14.3746 3.45838 14.3652 3.45838C14.3527 3.45838 14.3309 3.32088 14.3152 3.15213C14.2777 2.78963 14.209 2.63651 14.034 2.51151C13.909 2.42401 13.8059 2.40213 13.2559 2.34276L13.0371 2.31776L13.2465 2.16776C13.5684 1.93651 14.0496 1.73338 14.5246 1.63026C14.8215 1.56776 14.9465 1.57088 15.0246 1.64901Z"
           fill="currentColor"
@@ -6565,7 +6565,7 @@ export const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4746_79342)">
+      <g clipPath="url(#clip0_4746_79342)">
         <path
           d="M15.2608 0.936844H12.1703V0.471645C12.1703 0.211218 11.9591 0 11.6987 0C11.4382 0 11.227 0.211218 11.227 0.471645V0.936844H8.4716V0.471645C8.4716 0.211218 8.26039 0 7.99996 0C7.73953 0 7.52831 0.211218 7.52831 0.471645V0.936844H4.89001V0.471645C4.89001 0.211218 4.67879 0 4.41837 0C4.15794 0 3.94672 0.211218 3.94672 0.471645V0.936844H0.739223C0.478796 0.936844 0.267578 1.14806 0.267578 1.40849V12.0655C0.267578 12.3259 0.478796 12.5371 0.739223 12.5371H3.63402C4.09788 14.5191 5.87866 16 7.99996 16C10.1213 16 11.902 14.519 12.3659 12.5371H15.2607C15.5211 12.5371 15.7323 12.3259 15.7323 12.0655V1.40849C15.7324 1.14806 15.5213 0.936844 15.2608 0.936844ZM3.94672 1.88013V2.30634C3.94672 2.56677 4.15794 2.77799 4.41837 2.77799C4.67879 2.77799 4.89001 2.56677 4.89001 2.30634V1.88013H7.52831V2.30634C7.52831 2.56677 7.73953 2.77799 7.99996 2.77799C8.26039 2.77799 8.4716 2.56677 8.4716 2.30634V1.88013H11.227V2.30634C11.227 2.56677 11.4382 2.77799 11.6987 2.77799C11.9591 2.77799 12.1703 2.56677 12.1703 2.30634V1.88013H14.7891V3.80885H1.21087V1.88013H3.94672ZM7.99996 15.0567C6.04719 15.0567 4.45846 13.468 4.45846 11.5152C4.45846 9.56244 6.04719 7.97371 7.99996 7.97371C9.95273 7.97371 11.5415 9.56236 11.5415 11.5152C11.5415 13.4681 9.9528 15.0567 7.99996 15.0567ZM12.4828 11.5938C12.4833 11.5676 12.4848 11.5415 12.4848 11.5152C12.4848 9.0423 10.4729 7.03042 7.99996 7.03042C5.52705 7.03042 3.51517 9.0423 3.51517 11.5152C3.51517 11.5415 3.51674 11.5676 3.51713 11.5938H1.21079V4.75221H14.7891V11.5938H12.4828Z"
           fill="currentColor"
@@ -6599,7 +6599,7 @@ export const IconStopwatchDuration = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_4625_54629)">
+    <g clipPath="url(#clip0_4625_54629)">
       <path
         d="M9.01712 1.89956V0.666678H10.0129V0H7.35469V0.666678H8.35044V1.90563C7.61395 1.94671 6.89513 2.10083 6.2085 2.36637C6.03681 2.43275 5.95149 2.6258 6.01794 2.79752C6.08452 2.96937 6.27753 3.05499 6.44909 2.98808C7.18247 2.70459 7.95691 2.56069 8.75087 2.56069C12.2723 2.56069 15.1372 5.4256 15.1372 8.9471C15.1372 12.4684 12.2723 15.3333 8.75087 15.3333C5.47423 15.3333 2.76644 12.8526 2.40589 9.67076L4.27283 11.2112C4.41477 11.3284 4.62489 11.3082 4.74205 11.1661C4.85924 11.0242 4.83906 10.8141 4.69699 10.6969L2.24549 8.67412C2.15955 8.59193 1.89101 8.5182 1.7398 8.77358L0.236025 11.5737C0.14894 11.736 0.204907 11.9477 0.371928 12.0251C0.584793 12.1237 0.763209 12.0011 0.823258 11.8892L1.79064 10.0878C2.33754 13.4362 5.2502 16 8.75083 16C12.6398 16 15.8039 12.8361 15.8039 8.9471C15.8039 5.1473 12.7832 2.04013 9.01712 1.89956Z"
         fill="currentColor"
@@ -6633,7 +6633,7 @@ export const IconSubscriptionsBtn = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_6373_186190)">
+    <g clipPath="url(#clip0_6373_186190)">
       <path
         d="M19.9936 8.65776C19.9909 8.65846 19.9829 8.66065 19.9664 8.67107C19.8782 8.73341 19.8599 8.76388 19.8578 8.76754L19.8578 8.76765C19.8571 8.76885 19.8558 8.77103 19.8542 8.77818C19.8521 8.78711 19.849 8.80652 19.849 8.8426C19.849 8.97155 19.8853 9.01907 19.9013 9.034C19.9087 9.03755 19.9338 9.05068 19.9871 9.07599C20.0587 9.11004 20.1562 9.15466 20.2727 9.20686C20.5051 9.311 20.8046 9.44148 21.1065 9.57057C21.4083 9.69964 21.7103 9.82636 21.9474 9.92304C22.0662 9.9715 22.1667 10.0116 22.2419 10.0404C22.2786 10.0544 22.3034 10.0635 22.3189 10.069C22.3336 10.0672 22.3536 10.0632 22.3768 10.0564C22.4033 10.0486 22.428 10.0387 22.4479 10.0286C22.4492 10.028 22.4504 10.0273 22.4515 10.0267C22.4537 10.0231 22.456 10.0191 22.4585 10.0148C22.4883 9.96358 22.5294 9.88546 22.5825 9.77703C22.688 9.56152 22.8285 9.25128 23.0006 8.85125L23.0016 8.84888C23.2278 8.33052 23.3563 8.02586 23.4287 7.82813C23.4992 7.63557 23.499 7.58902 23.499 7.57767V7.57698C23.499 7.47416 23.4679 7.43312 23.4532 7.41842C23.4381 7.40331 23.3948 7.37084 23.2883 7.36917C23.2358 7.36935 23.2091 7.37447 23.1975 7.37761C23.1897 7.37973 23.1881 7.38098 23.187 7.38188L23.1866 7.38213C23.1768 7.38944 23.1307 7.43 23.0481 7.60126C23.048 7.60146 23.0479 7.60166 23.0478 7.60186L22.889 7.93356L22.4508 8.84851L21.9921 7.94372L21.6546 7.2781L21.6532 7.27534C20.0463 4.05703 16.941 1.88655 13.3737 1.47864C13.2053 1.46086 12.7216 1.4477 12.2082 1.44475C11.6922 1.44177 11.2176 1.44955 11.0664 1.46492C10.9971 1.4723 10.6982 1.52015 10.3975 1.57265L10.3965 1.57283C8.21307 1.94943 6.37377 2.88698 4.79149 4.42431C3.47695 5.7076 2.53026 7.25993 2.03525 8.94967C1.89212 9.44352 1.83416 9.69634 1.82379 9.84866C1.81934 9.91398 1.82602 9.93614 1.82651 9.93776L1.82653 9.93781C1.82683 9.93882 1.82723 9.9401 1.829 9.9433C1.83112 9.94713 1.83628 9.95558 1.84792 9.9702L1.84793 9.97019L1.85031 9.97323C1.88165 10.0132 1.94295 10.049 2.02949 10.0514C2.09715 10.0532 2.1549 10.0337 2.19611 10.0042C2.20653 9.9791 2.2196 9.94511 2.23483 9.90223C2.27413 9.79155 2.31952 9.64516 2.36139 9.49104C3.43 5.46985 6.7224 2.53493 10.8094 1.96305L10.8108 1.96286C11.5379 1.86325 12.8218 1.85785 13.5359 1.95843L13.5361 1.95845C16.9555 2.44131 19.8548 4.57163 21.3424 7.6898L21.3437 7.69242C21.4523 7.92363 21.5311 8.09693 21.576 8.21519C21.5948 8.2647 21.6258 8.34968 21.6362 8.43872C21.6403 8.47324 21.6541 8.59664 21.5914 8.73158C21.5545 8.81116 21.4903 8.89531 21.3907 8.95521C21.2938 9.01345 21.1971 9.02854 21.1255 9.02854C21.0611 9.02854 21.0098 9.01516 21.0053 9.01398L21.005 9.0139C20.9899 9.0102 20.9778 9.00651 20.9719 9.00463C20.9591 9.00064 20.9481 8.99669 20.9419 8.99443C20.9283 8.98947 20.9136 8.98371 20.9002 8.97838C20.8723 8.9673 20.8357 8.95226 20.7941 8.9349C20.7102 8.8999 20.5981 8.85218 20.4775 8.80015L20.476 8.79951C20.2351 8.69465 20.1078 8.66236 20.0375 8.6565C20.0085 8.65409 19.9966 8.65698 19.9936 8.65776ZM22.4327 10.0568C22.4292 10.0613 22.4289 10.0621 22.4319 10.0579C22.4322 10.0576 22.4324 10.0572 22.4327 10.0568Z"
         stroke="currentColor"
@@ -6668,7 +6668,7 @@ export const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_7693_100786)">
+      <g clipPath="url(#clip0_7693_100786)">
         <path
           d="M12.3296 0.0624938C12.2921 0.106244 12.2671 0.190619 12.2577 0.312494L12.2452 0.499994H11.8139C11.4233 0.499994 11.3796 0.506244 11.3296 0.562494C11.2077 0.696869 11.2421 1.22187 11.3952 1.54687C11.5264 1.82187 11.9014 2.12812 12.1952 2.19999C12.2608 2.21562 12.2858 2.24999 12.3327 2.39374C12.4358 2.72499 12.7389 3.04062 13.0671 3.15312L13.2358 3.21249L13.2452 3.85624L13.2514 4.49999H12.9702C12.6483 4.49999 12.5889 4.52187 12.5327 4.65312C12.5046 4.72812 12.5046 4.76249 12.5389 4.83124C12.6139 4.99374 12.6639 4.99999 13.5514 4.99374C14.3046 4.98437 14.3764 4.98124 14.4358 4.92499C14.5296 4.84062 14.5233 4.65624 14.4296 4.56874C14.3639 4.50937 14.3233 4.49999 14.0546 4.49999H13.7514V3.85937V3.21874L13.8389 3.19999C13.9952 3.15937 14.2264 3.02812 14.3796 2.88437C14.5264 2.74999 14.7202 2.42187 14.7202 2.31249C14.7202 2.28437 14.7358 2.24687 14.7577 2.22499C14.7796 2.20312 14.8171 2.18749 14.8452 2.18749C14.9546 2.18749 15.2827 1.99062 15.4233 1.84062C15.6577 1.59062 15.7327 1.39374 15.7452 0.981244C15.7639 0.493744 15.7702 0.499994 15.1889 0.499994H14.7514V0.312494C14.7514 -0.0156312 14.8171 -6.19888e-06 13.5077 -6.19888e-06C12.4202 -6.19888e-06 12.3858 0.00311899 12.3296 0.0624938ZM14.2514 1.31249C14.2514 2.24062 14.2452 2.27187 14.0608 2.48437C13.7139 2.87812 13.0952 2.78437 12.8327 2.29687C12.7702 2.17812 12.7671 2.12187 12.7577 1.31874L12.7483 0.468744H13.4983H14.2514V1.31249ZM12.2514 1.34374V1.69062L12.1639 1.64374C11.9796 1.54999 11.8171 1.32499 11.7671 1.09999L11.7452 0.999994H11.9983H12.2514V1.34374ZM15.2421 1.12812C15.2327 1.19687 15.1889 1.30937 15.1452 1.37812C15.0671 1.49374 14.8389 1.68749 14.7764 1.68749C14.7639 1.68749 14.7514 1.53124 14.7514 1.34374V0.999994H15.0046H15.2608L15.2421 1.12812Z"
           fill="currentColor"
@@ -6707,14 +6707,14 @@ export const IconTag = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13.7273 8.94004L8.94732 13.72C8.82349 13.844 8.67644 13.9424 8.51457 14.0095C8.35271 14.0766 8.1792 14.1111 8.00398 14.1111C7.82876 14.1111 7.65526 14.0766 7.4934 14.0095C7.33153 13.9424 7.18448 13.844 7.06065 13.72L1.33398 8.00004V1.33337H8.00065L13.7273 7.06004C13.9757 7.30986 14.115 7.64779 14.115 8.00004C14.115 8.35229 13.9757 8.69022 13.7273 8.94004V8.94004Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M4.66602 4.66663H4.67185"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -6733,7 +6733,7 @@ export const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4959_187188)">
+      <g clipPath="url(#clip0_4959_187188)">
         <path
           d="M1.97431 0.0749569C1.08368 0.314018 0.30556 1.10152 0.0711846 1.99683C0.0336846 2.15152 0.000872101 2.47027 0.000872101 2.73277C0.000872101 3.24371 0.122747 3.70308 0.366497 4.12027C0.54931 4.43433 1.06025 4.92183 1.36962 5.08589L1.6415 5.22652V12V18.7734L1.38837 18.9046C0.821185 19.2046 0.366497 19.7484 0.132122 20.4093C-0.0975654 21.075 -0.0413154 21.914 0.277435 22.5375C0.638372 23.2359 1.26181 23.7328 2.02118 23.9296C2.47118 24.0468 3.24462 24.0093 3.67587 23.8406C4.27587 23.6109 4.81962 23.1375 5.09618 22.6078L5.22743 22.3593H12.0009H18.7743L18.9056 22.6078C19.1821 23.1375 19.754 23.625 20.3681 23.8593C20.7571 24.0046 21.554 24.0421 21.9806 23.9296C22.9321 23.6812 23.6868 22.9312 23.9306 21.9984C23.9727 21.8437 24.0009 21.5296 24.0009 21.2578C24.0009 20.864 23.9774 20.7281 23.8649 20.4046C23.6399 19.7625 23.1712 19.2 22.6087 18.9046L22.3602 18.7734V12V5.22652L22.6087 5.09527C23.1712 4.80464 23.6587 4.20933 23.879 3.55308C24.0243 3.12183 24.0477 2.44214 23.9306 1.99683C23.6915 1.08746 22.9134 0.309332 22.004 0.0702686C21.8446 0.0280819 21.5352 -4.3869e-05 21.2587 -4.3869e-05C20.8649 -4.3869e-05 20.729 0.0233936 20.4102 0.131207C19.7493 0.365582 19.2056 0.820269 18.9056 1.38746L18.7743 1.64058H12.0009H5.22743L5.08681 1.36871C4.78681 0.787457 4.08837 0.253082 3.39931 0.0702686C3.05243 -0.0187931 2.3165 -0.0187931 1.97431 0.0749569ZM3.27743 1.56558C3.35712 1.60777 3.49775 1.72027 3.5915 1.81402C4.18681 2.40464 4.05087 3.37496 3.31493 3.79683C2.72431 4.13433 2.01181 3.95152 1.63212 3.36089C1.25243 2.77027 1.4915 1.90777 2.12431 1.58902C2.47587 1.40621 2.94931 1.39683 3.27743 1.56558ZM21.8821 1.58902C22.1212 1.71089 22.3743 1.99683 22.4774 2.26402C22.6087 2.60621 22.5618 3.06089 22.3696 3.36089C21.8259 4.20464 20.6259 4.15308 20.1712 3.26246C19.7915 2.52183 20.2649 1.57964 21.0899 1.45777C21.3524 1.42027 21.6431 1.46714 21.8821 1.58902ZM18.6524 3.35152C18.8587 4.27964 19.7212 5.14214 20.6493 5.34839L20.9071 5.40464V12V18.5953L20.6493 18.6515C19.7212 18.8578 18.8587 19.7203 18.6524 20.6484L18.5962 20.9062H12.0009H5.40556L5.34931 20.6484C5.14306 19.7203 4.28056 18.8578 3.35243 18.6515L3.09462 18.5953V12V5.40464L3.35243 5.34839C4.28056 5.14214 5.14306 4.27964 5.34931 3.35152L5.40556 3.09371H12.0009H18.5962L18.6524 3.35152ZM3.26806 20.175C4.154 20.6203 4.20556 21.8296 3.36181 22.3687C3.06181 22.5609 2.60712 22.6078 2.26493 22.4765C1.31806 22.1156 1.15868 20.7656 2.00243 20.2453C2.41025 19.9921 2.86025 19.964 3.26806 20.175ZM21.8727 20.1796C22.304 20.3906 22.5477 20.7937 22.5477 21.2906C22.5477 22.0406 21.9618 22.5843 21.1977 22.5375C20.9352 22.5234 20.8368 22.4953 20.6399 22.3687C19.9509 21.9281 19.8337 21.014 20.3868 20.4234C20.5087 20.2875 20.7759 20.1328 21.0009 20.0578C21.1977 19.9921 21.6056 20.0484 21.8727 20.1796Z"
           fill="currentColor"
@@ -6777,9 +6777,9 @@ export const IconThumbsUpFilledBlue = React.forwardRef<
     <path
       d="M11.6663 14.3334L14.333 8.33337C14.8634 8.33337 15.3721 8.54409 15.7472 8.91916C16.1223 9.29423 16.333 9.80294 16.333 10.3334V13H20.1063C20.2996 12.9979 20.4911 13.0377 20.6674 13.1169C20.8437 13.196 21.0008 13.3125 21.1276 13.4584C21.2544 13.6042 21.348 13.7759 21.4019 13.9615C21.4558 14.1472 21.4687 14.3423 21.4397 14.5334L20.5197 20.5334C20.4715 20.8513 20.31 21.1411 20.0649 21.3494C19.8199 21.5576 19.5079 21.6703 19.1863 21.6667H11.6663M11.6663 14.3334V21.6667M11.6663 14.3334H9.66634C9.31272 14.3334 8.97358 14.4739 8.72353 14.7239C8.47348 14.9739 8.33301 15.3131 8.33301 15.6667V20.3334C8.33301 20.687 8.47348 21.0261 8.72353 21.2762C8.97358 21.5262 9.31272 21.6667 9.66634 21.6667H11.6663"
       stroke="currentColor"
-      stroke-width="0.666667"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="0.666667"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <defs>
       <linearGradient
@@ -6790,10 +6790,10 @@ export const IconThumbsUpFilledBlue = React.forwardRef<
         y2="15.0009"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#016DEA" />
-        <stop offset="0.334096" stop-color="#005FCD" />
-        <stop offset="0.634882" stop-color="#0052B1" />
-        <stop offset="1" stop-color="#003B7E" />
+        <stop stopColor="#016DEA" />
+        <stop offset="0.334096" stopColor="#005FCD" />
+        <stop offset="0.634882" stopColor="#0052B1" />
+        <stop offset="1" stopColor="#003B7E" />
       </linearGradient>
     </defs>
   </svg>
@@ -6860,9 +6860,9 @@ export const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M2.66667 8H2V5.33333C2 4.59695 2.59695 4 3.33333 4H6M2.66667 8V12C2.66667 12.7364 3.26362 13.3333 4 13.3333H12C12.7364 13.3333 13.3333 12.7364 13.3333 12V8M2.66667 8H6.66667M6 4V3.33333C6 2.59695 6.59695 2 7.33333 2H8.66667C9.40307 2 10 2.59695 10 3.33333V4M6 4H10M13.3333 8H14V5.33333C14 4.59695 13.4031 4 12.6667 4H10M13.3333 8H9.33333M6.66667 8V6.66667H9.33333V8M6.66667 8V9.33333H9.33333V8"
         stroke="currentColor"
-        stroke-width="1.33333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.33333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -6884,26 +6884,26 @@ export const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M2 4H3.33333H14"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.6673 3.99998V13.3333C12.6673 13.6869 12.5268 14.0261 12.2768 14.2761C12.0267 14.5262 11.6876 14.6666 11.334 14.6666H4.66732C4.3137 14.6666 3.97456 14.5262 3.72451 14.2761C3.47446 14.0261 3.33398 13.6869 3.33398 13.3333V3.99998M5.33398 3.99998V2.66665C5.33398 2.31302 5.47446 1.97389 5.72451 1.72384C5.97456 1.47379 6.3137 1.33331 6.66732 1.33331H9.33398C9.68761 1.33331 10.0267 1.47379 10.2768 1.72384C10.5268 1.97389 10.6673 2.31302 10.6673 2.66665V3.99998"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.66602 7.33331V11.3333"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.33398 7.33331V11.3333"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -6925,20 +6925,20 @@ IconTrashThin.displayName = "IconTrashThin";
 //       <path
 //         d="M13.334 17.5V15.8333C13.334 14.9493 12.9828 14.1014 12.3577 13.4763C11.7326 12.8512 10.8847 12.5 10.0007 12.5H4.16732C3.28326 12.5 2.43542 12.8512 1.8103 13.4763C1.18517 14.1014 0.833984 14.9493 0.833984 15.8333V17.5"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M7.08333 9.16667C8.92428 9.16667 10.4167 7.67428 10.4167 5.83333C10.4167 3.99238 8.92428 2.5 7.08333 2.5C5.24238 2.5 3.75 3.99238 3.75 5.83333C3.75 7.67428 5.24238 9.16667 7.08333 9.16667Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M14.166 9.16667L15.8327 10.8333L19.166 7.5"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //     </svg>
 //   )
@@ -6960,16 +6960,16 @@ export const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M23 7L16 12L23 17V7Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14 5H3C1.89543 5 1 5.89543 1 7V17C1 18.1046 1.89543 19 3 19H14C15.1046 19 16 18.1046 16 17V7C16 5.89543 15.1046 5 14 5Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -6991,8 +6991,8 @@ export const IconZap = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M8.66667 1.33331L2 9.33331H8L7.33333 14.6666L14 6.66665H8L8.66667 1.33331Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -7014,32 +7014,32 @@ export const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M4.50586 1.30081L2.50586 3.90244V13.0081C2.50586 13.3531 2.64634 13.684 2.89638 13.9279C3.14643 14.1719 3.48557 14.3089 3.83919 14.3089H13.1725C13.5261 14.3089 13.8653 14.1719 14.1153 13.9279C14.3654 13.684 14.5059 13.3531 14.5059 13.0081V3.90244L12.5059 1.30081H4.50586Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2.50586 3.90244H14.5059"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.1732 5.50406C11.1732 6.19405 10.8922 6.85579 10.3921 7.34369C9.89203 7.83159 9.21375 8.10568 8.50651 8.10568C7.79927 8.10568 7.12099 7.83159 6.62089 7.34369C6.1208 6.85579 5.83984 6.19405 5.83984 5.50406"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6 11L11 11"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10 9.54166L11.4583 11L10 12.4583"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -7109,7 +7109,7 @@ export const IconActivityProfilesBtn = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_22_7203)">
+    <g clipPath="url(#clip0_22_7203)">
       <path
         d="M2.30625 0.0703032C2.16563 0.103116 1.875 0.220303 1.65 0.328116C0.895313 0.703116 0.2625 1.4953 0.0703125 2.30155C0.009375 2.56405 0 3.79686 0 11.9859C0 18.5484 0.0140625 21.4453 0.0515625 21.6187C0.0796875 21.7547 0.196875 22.0641 0.314063 22.3078C0.6 22.9078 1.06406 23.3812 1.64063 23.6625C2.38594 24.0281 1.51875 24 12 24C22.4813 24 21.6141 24.0281 22.3594 23.6625C22.9359 23.3812 23.4 22.9078 23.6859 22.3078C23.8031 22.0641 23.9203 21.7547 23.9484 21.6187C24.0188 21.2672 24.0188 2.7328 23.9484 2.38124C23.9203 2.2453 23.8031 1.93593 23.6859 1.69218C23.4094 1.11562 22.9453 0.632803 22.3781 0.337491C21.675 -0.0234467 22.4906 -9.25061e-06 11.9766 0.00467825C4.45781 0.00936575 2.50313 0.0187407 2.30625 0.0703032ZM21.5859 1.16718C22.2281 1.42499 22.6406 1.85624 22.8563 2.48437C22.9406 2.7328 22.9453 3.07499 22.9453 12C22.9453 20.925 22.9406 21.2672 22.8563 21.5156C22.6359 22.1578 22.2094 22.5937 21.5625 22.8328L21.2578 22.9453H12H2.74219L2.4375 22.8328C1.8 22.6031 1.40156 22.2 1.16719 21.5625L1.05469 21.2578V12V2.74218L1.16719 2.43749C1.44844 1.66874 2.02969 1.19062 2.8125 1.07812C2.95313 1.05937 7.17188 1.0453 12.1875 1.04999L21.3047 1.05468L21.5859 1.16718Z"
         fill="currentColor"
@@ -7204,44 +7204,44 @@ export const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.3105 8L20.0505 17.94"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.68945 8H21.1695"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.38086 12.0001L13.1209 2.06006"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.68922 16.0001L3.94922 6.06006"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.3101 16H2.83008"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.6209 12L10.8809 21.94"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -7304,16 +7304,16 @@ export const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M19 12H5"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 19L5 12L12 5"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -7337,14 +7337,14 @@ export const IconArrowLeftThinBtn = React.forwardRef<
     <path
       d="M12.6673 8H3.33398"
       stroke="#AAA9AD"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M8.00065 12.6666L3.33398 7.99992L8.00065 3.33325"
       stroke="#AAA9AD"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -7362,7 +7362,7 @@ export const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_8381_140616)">
+      <g clipPath="url(#clip0_8381_140616)">
         <path
           d="M10.7607 0.14526C10.5826 0.220261 10.2264 0.37026 9.96856 0.478073L9.50449 0.670261L9.53262 1.10151L9.55606 1.53276L9.33574 1.75307L9.11543 1.9687H8.66543H8.21543L8.15918 2.10932L8.10293 2.24995H6.67793H5.25293V2.62495V2.99995H6.51856C7.21699 2.99995 7.78418 3.00932 7.78418 3.0187C7.78418 3.02807 7.74199 3.13589 7.69043 3.25776C7.63887 3.37964 7.59668 3.50151 7.59668 3.52964C7.59668 3.56245 7.74199 3.71245 7.92012 3.86714L8.24824 4.14839V4.43432L8.25293 4.72495L7.92481 5.01557C7.74668 5.17495 7.59668 5.32964 7.59668 5.35776C7.59668 5.38589 7.73731 5.7562 7.91543 6.17807L8.22949 6.95151L8.67012 6.9187L9.11543 6.88589L9.33574 7.1062L9.55606 7.32182L9.53262 7.77651L9.50918 8.22651L10.2826 8.54057C10.7092 8.7187 11.0748 8.85932 11.0982 8.85932C11.1217 8.85932 11.2717 8.70932 11.4357 8.5312L11.7264 8.20307L12.017 8.20776H12.3076L12.5889 8.53589C12.7436 8.71401 12.8936 8.85932 12.917 8.85932C12.9451 8.85932 13.3061 8.7187 13.7279 8.54526L14.4873 8.2312V7.7812V7.3312L14.7123 7.11089L14.9373 6.89057L15.3592 6.9187L15.7811 6.95151L16.1139 6.15932L16.4467 5.36714L16.1232 5.05776L15.7998 4.74839V4.4437V4.13432L16.1279 3.83432L16.4514 3.53901L16.3436 3.2812L16.2311 3.02339L18.7436 3.00932C21.5561 2.99995 21.5467 2.99526 21.8607 3.3187C22.1982 3.66557 22.1748 3.14526 22.1748 10.1343V16.4343L21.7201 16.4296C21.467 16.4296 21.1717 16.4484 21.0639 16.4671L20.8623 16.5093V14.5593V12.6093H18.3779H15.8936V15.3V17.9859L15.6967 17.8875C15.5373 17.8078 15.3873 17.7843 14.9936 17.775L14.4873 17.7562V16.3312V14.9062H12.0029H9.51855V15.2343C9.51855 15.4125 9.51387 15.5625 9.50918 15.5625C9.49981 15.5625 9.33105 15.5296 9.12949 15.4921C8.92793 15.4546 8.62324 15.4218 8.45918 15.4218H8.15918V14.0156V12.6093H5.6748H3.19043V14.5312V16.4531H2.51074H1.83105V10.1906C1.83105 5.39057 1.84512 3.8812 1.8873 3.7312C1.9623 3.47807 2.30918 3.1312 2.5623 3.0562C2.68418 3.0187 3.0873 2.99995 3.67793 2.99995H4.59668V2.62026V2.24057L3.53262 2.25932C2.55293 2.27807 2.44043 2.28745 2.19668 2.38589C1.81699 2.5312 1.45137 2.88276 1.25918 3.27182L1.10449 3.58589L1.09043 10.0171L1.08105 16.4531H0.541992H0.00292969V16.8281V17.2031L2.1498 17.1937L4.29199 17.1796L4.7373 16.9734C5.2998 16.7156 6.13418 16.4437 6.78574 16.3031C7.21231 16.214 7.42793 16.1953 8.13574 16.1953C8.92324 16.2 9.00293 16.2093 9.35449 16.3265C10.2264 16.6171 10.6998 17.0718 11.2107 18.1031L11.4123 18.5109L13.3904 18.525L15.3732 18.539L15.5186 18.6796C15.7154 18.8671 15.7998 19.0359 15.7998 19.2515C15.7998 19.4437 15.6686 19.6968 15.5045 19.8328C15.2982 20.0015 15.0592 20.0156 12.6404 20.0156H10.2686V20.3953V20.7703L12.8373 20.7562L15.4014 20.7421L15.6686 20.6156C15.9732 20.475 16.2639 20.1937 16.4045 19.9078C16.4982 19.7203 16.5732 19.6734 18.7576 18.4828C21.0264 17.2453 21.2279 17.1562 21.6779 17.1562C21.9686 17.1562 22.4467 17.3156 22.7045 17.4984L22.9248 17.6531L21.1529 18.764C20.1826 19.3734 19.3482 19.8984 19.3061 19.9312C19.2311 19.9875 19.2404 20.0156 19.4232 20.3062L19.6248 20.6203L21.8139 19.2515C23.0186 18.4968 24.0029 17.8593 24.0029 17.8312C24.0029 17.714 23.5061 17.1375 23.2389 16.9359L22.9482 16.725L22.9248 10.1531L22.9014 3.58589L22.7654 3.29526C22.6201 2.97182 22.2639 2.60151 21.9592 2.44682C21.5936 2.26401 21.3779 2.24995 18.5889 2.24995H15.9029L15.8514 2.10932L15.8045 1.9687H15.3451H14.8811L14.6842 1.76714L14.492 1.57026L14.4779 1.1062L14.4639 0.646824L13.6904 0.323385L12.917 -5.14984e-05L12.6123 0.328074L12.3076 0.656199H12.0076H11.7076L11.3982 0.332762L11.0889 0.00463486L10.7607 0.14526ZM12.0123 1.4062H12.6639L12.8889 1.16245L13.1139 0.918699L13.4139 1.03589L13.7139 1.15307L13.6998 1.50464L13.6857 1.85151L14.1357 2.29682L14.5857 2.74214H14.9373H15.2936L15.4154 3.04214L15.5373 3.34682L15.2936 3.55776L15.0498 3.77339V4.42964V5.0812L15.2889 5.32495L15.5326 5.57339L15.4061 5.8687L15.2795 6.16401L14.9467 6.14995L14.6139 6.1312L14.1498 6.59526L13.6857 7.05464L13.7139 7.38276L13.742 7.71557L13.4279 7.84682L13.1092 7.97339L12.8795 7.71557L12.6498 7.45307H12.0123H11.3701L11.1357 7.71089L10.9014 7.97339L10.592 7.84682L10.2826 7.72495L10.3061 7.36401L10.3248 7.00776L9.87949 6.57182L9.43887 6.1312L9.08262 6.14995L8.72637 6.16401L8.60449 5.85932L8.48262 5.55464L8.74512 5.31089L9.00293 5.06714V4.43432V3.8062L8.74043 3.57651L8.48262 3.34682L8.60918 3.02807L8.73574 2.70464L9.07324 2.73276L9.40606 2.76089L9.86543 2.30151L10.3248 1.83745L10.3107 1.50464L10.292 1.16714L10.592 1.04057L10.8967 0.914011L11.1264 1.15776L11.3607 1.4062H12.0123ZM7.40918 14.3906V15.4218L7.30606 15.4406C7.24512 15.45 6.95449 15.5062 6.65918 15.5578C6.05918 15.6703 4.94355 16.0265 4.38574 16.2843C4.18418 16.3781 4.00137 16.4531 3.98262 16.4531C3.95918 16.4531 3.94043 15.7546 3.94043 14.9062V13.3593H5.6748H7.40918V14.3906ZM20.1029 15.1218L20.0889 16.889L18.3826 17.8171C17.4451 18.3328 16.667 18.75 16.6576 18.75C16.6529 18.75 16.6436 17.5359 16.6436 16.0546V13.3593H18.3779H20.1123L20.1029 15.1218ZM13.7373 16.7109V17.7656L12.8186 17.7562L11.8998 17.7421L11.6326 17.2734C11.3467 16.7625 10.9623 16.3359 10.5311 16.05C10.3342 15.9234 10.2686 15.8484 10.2686 15.7687V15.6562H12.0029H13.7373V16.7109Z"
           fill="currentColor"
@@ -7426,7 +7426,7 @@ export const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7221)">
+      <g clipPath="url(#clip0_22_7221)">
         <path
           d="M3.19219 0.0468747C1.74375 0.351562 0.585938 1.41094 0.13125 2.85937C0.0375 3.16875 0.0234375 3.30469 0.0234375 3.98437C0.0234375 4.66406 0.0375 4.8 0.13125 5.10937C0.548438 6.43125 1.5375 7.42031 2.85938 7.8375C3.16875 7.93125 3.30469 7.94531 3.98438 7.94531C4.66406 7.94531 4.8 7.93125 5.10938 7.8375C6.42656 7.425 7.425 6.42656 7.8375 5.10937C7.93125 4.8 7.94531 4.66406 7.94531 3.98437C7.94531 3.30469 7.93125 3.16875 7.8375 2.85937C7.50469 1.80469 6.79219 0.932812 5.85938 0.45C5.19375 0.107812 4.9125 0.0374997 4.10156 0.0187497C3.71719 0.00937468 3.30469 0.0234372 3.19219 0.0468747ZM4.725 0.825C5.30156 0.946875 5.77031 1.21406 6.2625 1.70625C6.9375 2.38594 7.21875 3.05625 7.21875 3.98437C7.21875 4.9125 6.9375 5.57812 6.25781 6.2625C5.5875 6.93281 4.90781 7.22344 3.98438 7.22344C3.06563 7.22344 2.38125 6.93281 1.70625 6.2625C1.03125 5.58281 0.75 4.9125 0.75 3.98437C0.75 3.05625 1.03125 2.38594 1.70625 1.70625C2.55938 0.857812 3.52031 0.576562 4.725 0.825Z"
           fill="currentColor"
@@ -7513,14 +7513,14 @@ export const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M18 8.94678C18 7.35548 17.3679 5.82935 16.2426 4.70414C15.1174 3.57892 13.5913 2.94678 12 2.94678C10.4087 2.94678 8.88258 3.57892 7.75736 4.70414C6.63214 5.82935 6 7.35548 6 8.94678C6 15.9468 3 17.9468 3 17.9468H21C21 17.9468 18 15.9468 18 8.94678Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.73 21.9468C13.5542 22.2499 13.3019 22.5014 12.9982 22.6763C12.6946 22.8512 12.3504 22.9432 12 22.9432C11.6496 22.9432 11.3054 22.8512 11.0018 22.6763C10.6982 22.5014 10.4458 22.2499 10.27 21.9468"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -7539,7 +7539,7 @@ IconBellBtn.displayName = "IconBellBtn";
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
 //     >
-//       <g clip-path="url(#clip0_4907_93219)">
+//       <g clipPath="url(#clip0_4907_93219)">
 //         <path
 //           d="M19.125 3.0469C16.7391 3.70784 13.0641 4.63128 11.2407 5.03909C8.80315 5.57815 6.71253 5.80315 2.62503 5.95315C1.88909 5.98128 1.20472 6.02815 1.10159 6.05159C0.825029 6.12659 0.492216 6.35628 0.309404 6.60003C-0.00934607 7.03597 2.89352e-05 6.9469 2.89352e-05 10.2188C2.89352e-05 13.4907 -0.00934607 13.4016 0.309404 13.8375C0.492216 14.0813 0.825029 14.3157 1.10159 14.3813C1.20472 14.4094 1.59378 14.4422 1.96878 14.461L2.64847 14.4938L4.02659 17.1188C4.78597 18.5625 5.4844 19.861 5.57815 20.011C6.44065 21.3469 8.46097 21.5344 9.6094 20.3907C10.1203 19.8797 10.4016 19.2047 10.4063 18.4875C10.4063 17.9438 10.2703 17.5735 9.56253 16.2328C9.20159 15.5485 8.91096 14.9766 8.92034 14.9719C8.95315 14.9391 10.3219 15.1969 11.461 15.45C12.8485 15.7594 15.7969 16.4953 18.1875 17.1328C19.7625 17.5547 19.9219 17.5875 20.2313 17.5688C20.7797 17.5313 21.2157 17.2266 21.4782 16.6922C21.5813 16.486 21.586 16.411 21.6 15.2532L21.6141 14.025L21.9235 13.8469C22.6453 13.4203 23.2078 12.8203 23.5782 12.0703C23.8922 11.4328 24 10.9641 24 10.2188C24 9.47347 23.8922 9.00003 23.5782 8.36722C23.2078 7.61253 22.6782 7.04534 21.9422 6.6094L21.6141 6.41253L21.6 5.18909C21.586 4.02659 21.5813 3.95159 21.4782 3.74534C21.3235 3.43128 21.0891 3.17815 20.8078 3.02347C20.6016 2.91097 20.4891 2.88753 20.1797 2.87347C19.861 2.86409 19.7016 2.88753 19.125 3.0469ZM20.4141 3.84378C20.7328 4.04065 20.7094 3.62347 20.7282 10.1953C20.7422 15.9188 20.7375 16.1532 20.6532 16.3219C20.55 16.5328 20.3203 16.6875 20.1141 16.6875C20.0297 16.6875 19.7813 16.636 19.5563 16.575C17.6344 16.036 13.3172 14.9438 11.7657 14.6016C11.3391 14.5078 10.9547 14.4235 10.9125 14.4094C10.8328 14.386 10.8282 14.1469 10.8282 10.2188C10.8282 6.29065 10.8328 6.05159 10.9125 6.02815C10.9547 6.01409 11.3391 5.92972 11.7657 5.83597C13.336 5.48909 18.2063 4.25628 19.5938 3.84847C20.0016 3.73128 20.2266 3.72659 20.4141 3.84378ZM9.93753 10.2188C9.93753 12.7828 9.92346 14.2032 9.89065 14.2032C9.86721 14.2032 9.58597 14.161 9.2719 14.1094C8.06721 13.9172 5.80315 13.725 3.63284 13.6407C1.48597 13.5516 1.2844 13.5328 1.14378 13.4016C0.862529 13.1391 0.871904 13.261 0.871904 10.2188C0.867216 7.16253 0.853154 7.30315 1.14378 7.03597C1.2844 6.90472 1.48128 6.88597 3.65628 6.7969C5.81722 6.70784 8.11878 6.51565 9.21097 6.33284C9.4969 6.28597 9.77346 6.24378 9.8344 6.23909L9.93753 6.2344V10.2188ZM21.9985 7.75784C22.6875 8.32503 23.1094 9.25784 23.1094 10.2188C23.1094 11.3297 22.6688 12.1688 21.6938 12.9328C21.6141 12.9938 21.6094 12.8578 21.6094 10.2188C21.6094 7.57972 21.6141 7.44378 21.6938 7.50472C21.736 7.54222 21.8766 7.65472 21.9985 7.75784ZM5.13284 14.6016C6.15003 14.6672 7.79534 14.8032 7.8094 14.8266C7.8094 14.8313 8.16096 15.5063 8.59222 16.3219C9.01878 17.1422 9.40784 17.9297 9.45003 18.0797C9.67034 18.8344 9.24378 19.725 8.48909 20.1C8.25471 20.2125 8.17503 20.2266 7.75784 20.2266C7.33597 20.2266 7.26097 20.2125 7.01722 20.0953C6.48284 19.8282 6.42659 19.7438 5.01565 17.0625C4.30784 15.7172 3.7219 14.5922 3.71253 14.5735C3.68909 14.5172 3.82503 14.5219 5.13284 14.6016Z"
 //           fill="currentColor"
@@ -7645,7 +7645,7 @@ export const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7110)">
+      <g clipPath="url(#clip0_22_7110)">
         <path
           d="M3.73125 0.543751C3.375 0.918751 3.1875 1.29375 3.1875 1.66875C3.1875 2.175 3.13125 2.25 2.68125 2.25C2.00625 2.25 1.05 2.83125 0.618754 3.50625C0.318754 3.975 0.281254 4.65 0.225004 11.625C0.150004 22.1625 -0.243746 21.5625 6.76875 21.5625H11.1938L11.6438 22.05C12.7688 23.2688 14.6063 24 16.575 24C18.75 24 20.3625 23.3063 21.7688 21.8063C23.925 19.5 24.3563 16.2938 22.8563 13.4813C22.5188 12.8813 21.9 12.0375 21.45 11.6438L20.6625 10.8938L20.5875 7.4625C20.5313 4.21875 20.5125 3.99375 20.1 3.4125C19.5938 2.71875 18.8063 2.25 18.1313 2.25C17.7563 2.25 17.6438 2.1375 17.5313 1.575C17.1375 -0.543749 14.175 -0.543749 13.7813 1.575L13.65 2.25H10.4063H7.1625L7.05 1.6125C6.75 0.0375014 4.85625 -0.581249 3.73125 0.543751ZM3.1875 4.10625C3.1875 5.00625 3.31875 5.0625 5.23125 5.0625C6.8625 5.0625 7.125 4.9125 7.125 3.99375V3.375H10.4063H13.6875V3.99375C13.6875 4.9125 13.95 5.0625 15.6563 5.0625C17.3625 5.0625 17.625 4.9125 17.625 3.975C17.625 3.4125 17.6625 3.35625 18.0563 3.46875C18.975 3.75 19.3125 4.29375 19.3125 5.475V6.5625H10.4063H1.5V5.475C1.5 4.36875 1.81875 3.80625 2.625 3.50625C3.13125 3.31875 3.1875 3.375 3.1875 4.10625ZM19.3125 8.98125V10.275L18.4313 10.0125C16.8563 9.54375 14.7188 9.76875 13.1438 10.5938C12.2063 11.0813 10.6688 12.6938 10.1438 13.7625C9.46875 15.15 9.24375 17.1188 9.6 18.4875C9.75 19.0875 9.9375 19.7438 10.0313 19.9125C10.1625 20.2313 9.9 20.25 6.225 20.25H2.26875L1.89375 19.7625C1.51875 19.275 1.5 19.05 1.5 13.4813V7.6875H10.4063H19.3125V8.98125ZM18.6375 11.3813C19.9688 11.8125 21.5625 13.425 22.125 14.9063C23.7 19.1625 19.725 23.7375 15.3563 22.6875C10.7625 21.5813 9.13125 16.05 12.4313 12.75C13.3688 11.7938 14.0438 11.4375 15.375 11.1375C16.5 10.8938 17.2313 10.95 18.6375 11.3813Z"
           fill="currentColor"
@@ -7677,7 +7677,7 @@ export const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_6796)">
+      <g clipPath="url(#clip0_22_6796)">
         <path
           d="M6.37969 1.21875C5.38125 1.48125 4.52813 2.35781 4.29375 3.375C4.23281 3.62344 4.21875 4.06875 4.21875 5.85469C4.21875 7.97344 4.22344 8.03906 4.31719 8.23594C4.425 8.45625 4.65 8.65781 4.85625 8.71406C4.97813 8.74687 4.99219 8.77969 5.06719 9.14531C5.24531 10.0453 5.76563 10.9312 6.44531 11.4844L6.70313 11.6953V12.2437V12.7875L6.50625 12.8203C6.19688 12.8719 5.95781 12.9984 5.63906 13.2797C5.40938 13.4812 5.29219 13.5516 5.10469 13.5891C4.96875 13.6172 4.7625 13.6875 4.64531 13.7391C4.52813 13.7953 3.87188 14.0156 3.1875 14.2312C2.50313 14.4469 1.8 14.7 1.61719 14.7844C1.05938 15.0609 0.585938 15.5484 0.28125 16.1625C0.009375 16.7109 0 16.8047 0 19.4531C0 21.7781 0.0046875 21.8766 0.0984375 22.0781C0.215625 22.3359 0.473438 22.6125 0.726563 22.7484L0.914063 22.8516H9.11719H17.3203L17.5078 22.7484C17.7609 22.6125 18.0188 22.3359 18.1359 22.0781C18.2297 21.8766 18.2344 21.7781 18.2344 19.4531C18.2344 16.8047 18.225 16.7109 17.9531 16.1625C17.6344 15.525 17.1656 15.0516 16.5703 14.7703C16.3641 14.6719 15.8063 14.4703 15.3281 14.3203C14.85 14.1703 14.2922 13.9687 14.0859 13.8703C13.8563 13.7578 13.5422 13.65 13.2797 13.5984C12.8766 13.5187 12.8344 13.5 12.5766 13.2656C12.2813 12.9984 12.0375 12.8719 11.7328 12.8203L11.5313 12.7875V12.2437V11.6953L11.7656 11.5078C12.3984 11.0016 12.9516 10.0922 13.1438 9.23437C13.2422 8.775 13.2609 8.74219 13.3875 8.70469C13.6078 8.63437 13.8141 8.45156 13.9172 8.23125C14.0156 8.02969 14.0203 7.99219 14.0063 5.85469C13.9922 3.68906 13.9922 3.67969 13.8844 3.45937C13.6641 3.01406 13.2141 2.69062 12.7359 2.62969L12.4922 2.60156L12.4594 2.34844C12.3844 1.8375 12.0281 1.40156 11.5313 1.21406C11.3109 1.12969 11.1563 1.125 9.00938 1.12969C6.90938 1.12969 6.69844 1.13906 6.37969 1.21875ZM11.4188 2.00156C11.5922 2.12812 11.6953 2.32969 11.7609 2.69531C11.8031 2.92969 11.8406 3.00469 11.9906 3.14531C12.1406 3.29062 12.2203 3.32344 12.5016 3.36562C12.8766 3.41719 13.0266 3.50625 13.1672 3.75469C13.2609 3.91406 13.2656 4.00312 13.2656 5.03437V6.14062H12.9891C12.7359 6.14062 12.6984 6.12656 12.5906 5.99531C12.4828 5.86875 12.4688 5.8125 12.4688 5.48437C12.4688 4.88906 12.2859 4.52344 11.8734 4.29844C11.5078 4.10625 11.3016 4.09687 10.6781 4.26094C9.56719 4.54687 8.66719 4.54687 7.56094 4.26094C6.93281 4.09687 6.72656 4.10625 6.36094 4.29844C5.94375 4.52812 5.77031 4.86562 5.76563 5.47031C5.76563 5.8125 5.75156 5.86875 5.64375 5.99531C5.53594 6.12656 5.49844 6.14062 5.24531 6.14062H4.96875V4.95469C4.96875 3.65156 4.99219 3.4875 5.25 3.00469C5.51719 2.50781 6.09844 2.05781 6.64219 1.92656C6.74063 1.90312 7.82344 1.88437 9.04688 1.88906C11.2547 1.89844 11.2734 1.89844 11.4188 2.00156ZM7.4625 5.01094C8.55938 5.29687 9.675 5.29687 10.7719 5.01094C11.2781 4.87969 11.3156 4.87969 11.4609 4.95C11.6578 5.04375 11.7094 5.175 11.7328 5.67187C11.7516 6.11719 11.8359 6.34219 12.0656 6.57187C12.2906 6.79687 12.5391 6.89062 12.9281 6.89062H13.2656V7.37812C13.2656 7.90781 13.2234 8.01562 13.0125 8.01562C12.9516 8.01562 12.8344 8.0625 12.7453 8.12344C12.5672 8.24062 12.5156 8.38594 12.4266 8.94844C12.2766 9.91406 11.5641 10.8703 10.6406 11.3437C10.1297 11.6016 9.73594 11.6953 9.11719 11.6953C8.29688 11.6953 7.73438 11.5031 7.06875 11.0016C6.35625 10.4672 5.90625 9.68437 5.76563 8.74219C5.73281 8.53594 5.69063 8.32969 5.6625 8.28281C5.60625 8.17031 5.34844 8.01562 5.21719 8.01562C5.01094 8.01562 4.96875 7.90312 4.96875 7.37812V6.89062H5.31094C5.70469 6.89062 5.94844 6.79687 6.17344 6.5625C6.40781 6.32344 6.48281 6.11719 6.50156 5.67187C6.525 5.17969 6.57656 5.04375 6.76406 4.95C6.84844 4.90781 6.91875 4.875 6.92344 4.875C6.92813 4.875 7.17188 4.93594 7.4625 5.01094ZM8.00625 12.3094C8.84063 12.5484 9.83438 12.4922 10.7156 12.1547C10.7672 12.1359 10.7813 12.2297 10.7813 12.6609L10.7766 13.1953L9.96563 13.9453C9.52031 14.3531 9.14063 14.6906 9.11719 14.6906C9.09375 14.6906 8.70938 14.3531 8.26406 13.9453L7.45781 13.1953L7.45313 12.6609C7.45313 12.1734 7.45781 12.1312 7.5375 12.1641C7.57969 12.1781 7.79063 12.2437 8.00625 12.3094ZM7.04063 13.8469C7.75781 14.4937 8.52188 15.2156 8.51719 15.2391C8.49844 15.3094 7.70625 15.9375 7.64063 15.9375C7.53281 15.9375 7.41094 15.7969 6.67969 14.8172L6.03281 13.95L6.21563 13.7906C6.5625 13.4906 6.64688 13.4953 7.04063 13.8469ZM11.9906 13.7672C12.1031 13.8562 12.1875 13.9453 12.1781 13.9641C12.1453 14.0297 10.8984 15.6891 10.7906 15.8062C10.725 15.8812 10.6359 15.9375 10.5938 15.9375C10.5234 15.9375 9.73594 15.3094 9.71719 15.2391C9.70781 15.1969 11.4188 13.6266 11.5172 13.5844C11.6438 13.5375 11.7656 13.5891 11.9906 13.7672ZM5.23125 15.0469C5.43281 16.1812 6.02344 17.6719 6.92813 19.3219C7.275 19.9547 8.23594 21.5812 8.52188 22.0172C8.58281 22.1156 8.58281 22.125 8.49844 22.125C8.40938 22.125 7.3875 21.3328 6.73594 20.7609C6.44063 20.4984 6.34219 20.4375 6.21563 20.4375C5.84531 20.4375 5.70938 20.8125 5.98125 21.0984C6.05625 21.1781 6.34219 21.4359 6.62344 21.6703C6.9 21.9047 7.125 22.1016 7.125 22.1109C7.125 22.1203 6.34688 22.125 5.39063 22.125H3.65625V21.1406C3.65625 20.1 3.63281 19.9687 3.43594 19.8797C3.27188 19.8047 3.16875 19.8141 3.02813 19.9266L2.90625 20.0203V21.075V22.1297L1.9875 22.1156L1.06875 22.1016L0.914063 21.9328C0.792188 21.7969 0.75 21.7031 0.726563 21.5109C0.707813 21.3703 0.703125 20.3297 0.7125 19.1953C0.73125 17.2312 0.735938 17.1187 0.834375 16.8234C1.01719 16.275 1.35938 15.8344 1.84219 15.5297C2.00625 15.4266 2.9625 15.075 3.3375 14.9859L3.46406 14.9531L3.39844 15.1453C3.29531 15.4312 3.30938 15.8672 3.42656 16.1062C3.47813 16.2187 3.69844 16.4766 3.91875 16.6828C4.13438 16.8891 4.28906 17.0719 4.26563 17.0859C4.18125 17.1375 3.98438 17.5641 3.93281 17.8078C3.82031 18.3328 4.18125 19.2141 4.74844 19.8141C4.92656 20.0016 5.16094 20.025 5.32969 19.8656C5.49844 19.7062 5.47031 19.5328 5.2125 19.1766C4.58906 18.3234 4.52813 18 4.90313 17.5078C5.1 17.2547 5.15625 16.9641 5.0625 16.7344C5.02969 16.6547 4.88438 16.5 4.73906 16.3875C4.59375 16.275 4.3875 16.0875 4.27969 15.9703C4.03125 15.6984 4.02188 15.5531 4.22344 15.15C4.37813 14.8406 4.63125 14.5922 4.94063 14.4469L5.13281 14.3531L5.14688 14.5031C5.15156 14.5828 5.18906 14.8266 5.23125 15.0469ZM13.5188 14.4375C13.8703 14.5734 14.1891 14.8641 14.3484 15.2109C14.4234 15.3656 14.4844 15.5437 14.4844 15.6C14.4844 15.7641 14.3344 15.9516 13.8984 16.3125C13.575 16.5797 13.4953 16.6781 13.4531 16.8328C13.3922 17.0531 13.4484 17.2734 13.6125 17.475C13.9266 17.8453 13.95 18.1312 13.7109 18.5906C13.4813 19.0312 13.2375 19.3453 12.6563 19.9406C11.6719 20.9531 9.98438 22.3172 9.98438 22.0969C9.98438 22.0828 10.2094 21.6797 10.4813 21.2062C11.0719 20.1656 11.8031 18.7125 12.1406 17.9062C12.6375 16.7203 12.9984 15.4641 13.0641 14.6906C13.0969 14.2922 13.1063 14.2875 13.5188 14.4375ZM16.3922 15.5297C16.8797 15.8391 17.2266 16.2844 17.3906 16.8187C17.4797 17.1 17.4844 17.2594 17.4844 19.4344V21.75L17.325 21.9281L17.1656 22.1016L16.2469 22.1156L15.3281 22.1297V21.075V20.0203L15.2063 19.9266C15.0656 19.8141 14.9625 19.8047 14.7984 19.8797C14.6016 19.9687 14.5781 20.1 14.5781 21.1406V22.125H12.975H11.3672L11.5313 21.9937C12.4172 21.3 13.65 20.0719 14.0531 19.4859C14.6953 18.5531 14.7938 17.8453 14.3719 17.2031L14.2641 17.0437L14.6719 16.6406C15.1547 16.1672 15.2625 15.9469 15.2203 15.525C15.2063 15.3797 15.1781 15.2109 15.1594 15.1547C15.1313 15.0516 15.1453 15.0562 15.6656 15.2297C15.9609 15.3281 16.2891 15.4641 16.3922 15.5297ZM12.1219 15.6609C11.9906 16.1672 11.7422 16.8937 11.4984 17.4797C11.2781 18.0234 10.725 19.1719 10.6922 19.1719C10.6641 19.1719 10.125 17.1891 10.125 17.0953C10.125 17.0719 10.1906 16.9781 10.2703 16.8797C10.4016 16.7156 10.4344 16.6969 10.6875 16.6781C11.0672 16.65 11.2031 16.5422 11.7469 15.8203C12 15.4781 12.2156 15.2016 12.225 15.2109C12.2297 15.2156 12.1828 15.4172 12.1219 15.6609ZM6.53438 15.8859C7.0125 16.5234 7.16719 16.65 7.52813 16.6781C7.75781 16.6969 7.80938 16.7203 7.96406 16.8891L8.1375 17.0766L7.92188 18.0516C7.8 18.5906 7.69219 19.0453 7.67813 19.0547C7.64531 19.0875 6.94688 17.7094 6.66563 17.0625C6.46875 16.6031 6.04688 15.4031 6.04688 15.2953C6.04688 15.2437 6.1125 15.3187 6.53438 15.8859ZM9.54844 16.1391L9.74531 16.3078L9.62813 16.4531C9.51094 16.5891 9.49219 16.5937 9.12188 16.5937C8.75625 16.5937 8.72813 16.5844 8.60625 16.4578L8.475 16.3172L8.65313 16.1625C8.75156 16.0781 8.89688 15.9516 8.97656 15.8812L9.11719 15.7547L9.23438 15.8625C9.3 15.9187 9.44063 16.0406 9.54844 16.1391ZM9.6 18.1031C9.70781 18.525 9.87656 19.1766 9.97969 19.5516L10.1578 20.2312L9.75 20.9484C9.525 21.3422 9.31875 21.6844 9.29531 21.7078C9.26719 21.7359 9.075 21.4687 8.74688 20.925L8.24063 20.0953L8.50781 18.8953C8.65313 18.2344 8.79375 17.6156 8.81719 17.5172L8.86406 17.3437H9.13125H9.39844L9.6 18.1031Z"
           fill="currentColor"
@@ -7763,7 +7763,7 @@ export const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7634)">
+      <g clipPath="url(#clip0_22_7634)">
         <path
           d="M22.8 18.341C20.4 17.0682 18.562 16.3576 16.9253 16.0887L17.12 15.821C17.2 15.741 17.24 15.621 17.2 15.501L16.8326 14.0311C17.8195 12.6313 18.4 10.8836 18.4 9.22096V6.42098C18.4 2.901 15.52 0.0209961 12 0.0209961C8.48006 0.0209961 5.60002 2.901 5.60002 6.42098V9.22096C5.60002 10.8836 6.18052 12.6313 7.16747 14.0311L6.80002 15.501C6.80002 15.621 6.80002 15.741 6.88003 15.861L7.04873 16.0929C5.41861 16.3651 3.58739 17.075 1.20005 18.341C0.440016 18.701 0 19.461 0 20.301V23.581C0 23.821 0.159984 23.981 0.399984 23.981H9.99998H14H23.6C23.84 23.981 24 23.821 24 23.581V20.301C24 19.501 23.52 18.741 22.8 18.341ZM12 17.391L12.12 17.661L12.96 19.621H11.0089L12 17.391ZM10.7454 20.5464L10.76 20.421H13.24L13.2545 20.5464L13.5505 23.181H10.4494L10.7454 20.5464ZM16.2 14.821L16.36 15.541L15.9514 16.102C15.9253 16.1234 15.9012 16.1492 15.88 16.181L14.2158 18.4852L13.6882 19.2096L12.6099 16.7833C13.9252 16.6229 15.0965 15.9524 16.0355 14.9919C16.0909 14.9361 16.1459 14.8793 16.2 14.821ZM6.39998 6.42098C6.39998 3.34097 8.91998 0.820965 12 0.820965C15.08 0.820965 17.6 3.34097 17.6 6.42098V9.22096C17.6 10.9389 17.0195 12.4684 16.1436 13.6398L16.08 13.661C16.0401 13.7009 16 13.741 15.96 13.781C14.88 15.221 13.4801 15.9809 12.0001 15.9809H12C10.56 15.9809 9.16003 15.1809 8.04005 13.781C8.00006 13.741 7.96003 13.7009 7.92005 13.661L7.85648 13.6398C6.98062 12.4684 6.40008 10.9389 6.40008 9.22096V6.42098H6.39998ZM11.3901 16.7833L10.3117 19.2096L9.78398 18.485L8.12002 16.181C8.10727 16.1682 8.0932 16.1556 8.07858 16.1432L7.64002 15.541L7.8 14.821C7.85419 14.8793 7.90912 14.9362 7.96458 14.9921C8.90362 15.9526 10.0748 16.6229 11.3901 16.7833ZM0.800016 20.301C0.800016 19.781 1.08 19.301 1.56 19.061C4.10967 17.7065 5.94506 17.0267 7.58006 16.8236L9.99895 20.1496L9.63998 23.181H0.800016V20.301ZM23.2 23.181H14.3995L14.0473 20.0459L16.4196 16.784C18.055 17.0265 19.93 17.7062 22.44 19.021C22.92 19.301 23.2 19.781 23.2 20.301V23.181Z"
           fill="currentColor"
@@ -7826,7 +7826,7 @@ export const IconContentCalendarBtn = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_4942_191239)">
+    <g clipPath="url(#clip0_4942_191239)">
       <path
         d="M5.5875 0.145205C5.0625 0.403017 4.82812 0.815517 4.82812 1.46239V1.8702L2.89688 1.88427C1.01719 1.89833 0.95625 1.90302 0.773438 2.00146C0.501563 2.14677 0.239063 2.42333 0.1125 2.69989L0 2.93896L0.009375 12.0515L0.0234375 21.164L0.126563 21.3515C0.253125 21.5905 0.534375 21.8718 0.773438 21.9983C0.960938 22.1015 0.979688 22.1015 4.49063 22.1155L8.02031 22.1249L8.16094 21.989C8.34375 21.8061 8.34844 21.539 8.175 21.3327L8.05781 21.1921L4.6875 21.178C1.35469 21.164 1.31719 21.164 1.18594 21.0655C1.11563 21.014 1.03125 20.8968 0.998438 20.8077C0.928125 20.6015 0.914063 3.49208 0.984375 3.22958C1.0125 3.14052 1.0875 3.01395 1.15313 2.94833L1.275 2.83583L3.05156 2.82177L4.82812 2.8077V3.22489C4.82812 3.59521 4.84219 3.67489 4.97344 3.92802C5.22188 4.43427 5.64844 4.68739 6.23438 4.68739C6.82031 4.68739 7.24688 4.43427 7.49531 3.92802C7.62656 3.67489 7.64063 3.59521 7.64063 3.22489V2.81239H11.4375H15.2344V3.22489C15.2344 3.59521 15.2484 3.67489 15.3797 3.92802C15.6281 4.43427 16.0547 4.68739 16.6406 4.68739C17.2266 4.68739 17.6531 4.43427 17.9016 3.92802C18.0328 3.67489 18.0469 3.59521 18.0469 3.22489V2.81239L19.725 2.81708C21.5344 2.81708 21.6469 2.83114 21.8156 3.06083C21.9094 3.18739 21.9141 3.26239 21.9281 4.41083L21.9422 5.62489H12.9703H3.99844L3.87188 5.74677C3.69844 5.92489 3.69844 6.26239 3.87188 6.44052L3.99844 6.56239H12.9656H21.9375V11.1796C21.9375 13.7202 21.9281 15.7968 21.9188 15.7968C21.9047 15.7968 21.7547 15.7265 21.5766 15.6374C21.4031 15.5483 21.1172 15.4311 20.9438 15.3749L20.625 15.2718V11.6952V8.12333L20.5031 7.99677L20.3766 7.87489H11.4375H2.49844L2.37188 7.99677L2.25 8.12333V13.8749V19.6265L2.37188 19.753L2.49844 19.8749H8.84063H15.1875V20.0108C15.1875 20.1983 15.3141 20.7936 15.3984 21.0093L15.4688 21.1874H13.4156C11.1422 21.1874 11.2125 21.178 11.1094 21.4921C11.0672 21.614 11.0672 21.6983 11.1094 21.8202C11.2125 22.1343 11.1188 22.1249 13.6734 22.1249C15.0422 22.1249 15.9844 22.1436 15.9844 22.1671C15.9844 22.2515 16.7063 22.978 16.9969 23.1843C17.3625 23.4468 18.0609 23.7749 18.4922 23.8874C18.9563 24.014 20.2781 24.014 20.7188 23.8921C21.0844 23.789 21.7969 23.4561 22.1109 23.2452C22.4344 23.0249 22.9453 22.5233 23.1844 22.1905C23.4328 21.839 23.7328 21.2249 23.8641 20.789C23.9859 20.3811 24.0375 19.2936 23.9578 18.8343C23.8453 18.1686 23.5359 17.4702 23.1234 16.9171L22.875 16.589L22.8656 9.71239L22.8516 2.83583L22.7484 2.64833C22.6219 2.40927 22.3406 2.12802 22.1016 2.00146C21.9188 1.90302 21.8578 1.89833 19.9828 1.88427L18.0469 1.8702V1.4577C18.0469 1.09208 18.0328 1.01239 17.9016 0.759268C17.6531 0.253017 17.2266 -0.000106812 16.6406 -0.000106812C16.0547 -0.000106812 15.6281 0.253017 15.3797 0.759268C15.2484 1.01239 15.2344 1.09208 15.2344 1.46239V1.87489H11.4375H7.64063V1.46239C7.64063 1.09208 7.62656 1.01239 7.49531 0.759268C7.24688 0.253017 6.825 -0.000106812 6.22969 -0.000106812C5.925 -0.000106812 5.83125 0.0186424 5.5875 0.145205ZM6.50156 1.05458C6.55781 1.09677 6.62813 1.20458 6.65625 1.30302C6.70781 1.49052 6.72188 3.07958 6.675 3.32333C6.62813 3.53896 6.44531 3.70302 6.23906 3.70302C6.01406 3.70302 5.87344 3.59989 5.8125 3.38427C5.75156 3.15927 5.75156 1.52802 5.8125 1.30302C5.87344 1.08739 6.01406 0.984268 6.23438 0.984268C6.32813 0.984268 6.44531 1.01708 6.50156 1.05458ZM16.9078 1.05458C16.9641 1.09677 17.0344 1.20458 17.0625 1.30302C17.1141 1.49052 17.1281 3.07958 17.0813 3.32333C17.0156 3.64677 16.6313 3.81552 16.3734 3.63271C16.2094 3.5202 16.1719 3.27177 16.1719 2.34364C16.1719 1.86552 16.1953 1.39677 16.2188 1.30302C16.2797 1.08739 16.4203 0.984268 16.6406 0.984268C16.7344 0.984268 16.8516 1.01708 16.9078 1.05458ZM5.71875 10.1952V11.578H4.45312H3.1875V10.1952V8.81239H4.45312H5.71875V10.1952ZM9.1875 10.1952V11.578H7.94531H6.70313V10.1952V8.81239H7.94531H9.1875V10.1952ZM12.7031 10.1952V11.578H11.4375H10.1719V10.1952V8.81239H11.4375H12.7031V10.1952ZM16.1719 10.1952V11.578H14.9297H13.6875V10.1952V8.81239H14.9297H16.1719V10.1952ZM19.6875 10.1952V11.578H18.4219H17.1562V10.1952V8.81239H18.4219H19.6875V10.1952ZM5.71875 13.8749V15.2343H4.45312H3.1875V13.8749V12.5155H4.45312H5.71875V13.8749ZM9.1875 13.8749V15.2343H7.94531H6.70313V13.8749V12.5155H7.94531H9.1875V13.8749ZM12.7031 13.8749V15.2343H11.4375H10.1719V13.8749V12.5155H11.4375H12.7031V13.8749ZM16.1719 13.8749V15.2343H14.9297H13.6875V13.8749V12.5155H14.9297H16.1719V13.8749ZM19.6875 13.8421V15.1733L19.1156 15.2015C18.8063 15.2202 18.2344 15.2343 17.85 15.2343H17.1562V13.8749V12.5155H18.4219H19.6875V13.8421ZM20.3672 16.2515C21.6094 16.528 22.6266 17.5358 22.9406 18.8015C23.0391 19.2046 23.0391 19.9827 22.9406 20.3858C22.4203 22.4811 20.1422 23.6061 18.1969 22.7296C17.4375 22.3874 16.7953 21.7452 16.4531 20.9858C16.2516 20.5358 16.1719 20.1374 16.1719 19.5936C16.1719 18.8296 16.3688 18.2108 16.8 17.6108C17.6156 16.4624 18.9891 15.9374 20.3672 16.2515ZM5.71875 17.5546V18.9374H4.45312H3.1875V17.5546V16.1718H4.45312H5.71875V17.5546ZM9.1875 17.5546V18.9374H7.94531H6.70313V17.5546V16.1718H7.94531H9.1875V17.5546ZM12.7031 17.5546V18.9374H11.4375H10.1719V17.5546V16.1718H11.4375H12.7031V17.5546ZM16.1719 16.4624C16.1719 16.7249 16.1531 16.7765 15.9844 17.0202C15.6375 17.5171 15.2344 18.4874 15.2344 18.8296C15.2344 18.9374 15.2344 18.9374 14.4609 18.9374H13.6875V17.5546V16.1718H14.9297H16.1719V16.4624Z"
         fill="currentColor"
@@ -7865,7 +7865,7 @@ export const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_6951)">
+      <g clipPath="url(#clip0_22_6951)">
         <path
           d="M10.0313 0.862404C6.69375 2.60615 3.825 4.18115 3.58125 4.40615C3.43125 4.55615 3.3 4.96865 3.3 5.34365C3.28125 5.98115 3.2625 5.9999 2.56875 5.9999C2.0625 5.9999 1.725 6.13115 1.40625 6.46865L0.9375 6.91865V13.5937V20.2499H0.46875C0.01875 20.2499 0 20.3062 0 21.2812C0 22.4624 0.3375 23.1187 1.14375 23.5499C1.93125 23.9437 22.0688 23.9437 22.8563 23.5499C23.6625 23.1187 24 22.4624 24 21.2812C24 20.3062 23.9813 20.2499 23.5313 20.2499H23.0625V13.5937V6.91865L22.5938 6.46865C22.275 6.13115 21.9375 5.9999 21.4313 5.9999C20.7375 5.9999 20.7188 5.98115 20.7 5.30615C20.6813 4.44365 20.4938 4.29365 17.4938 2.71865C15.3188 1.5749 15.1125 1.4999 14.8313 1.78115C14.4375 2.1749 14.475 2.19365 17.4563 3.76865C18.7125 4.4249 19.7625 5.08115 19.8188 5.2124C19.9875 5.60615 19.5375 5.94365 17.3063 7.1249L15.15 8.2499L14.2875 7.2749C12.375 5.11865 12.0563 4.81865 11.85 4.9499C11.4 5.23115 11.6625 5.75615 12.9375 7.1999L14.25 8.68115L13.4625 9.1499C12.15 9.91865 11.7188 9.80615 8.00625 7.8374C4.5 5.9624 4.0125 5.6249 4.1625 5.2124C4.3125 4.8749 11.4563 1.1249 11.9813 1.1249C12.2063 1.1249 12.7313 1.29365 13.1625 1.51865C13.8563 1.8749 13.95 1.8749 14.2125 1.6124C14.5688 1.2749 14.4563 1.14365 13.4063 0.581154C12.3375 0.0186538 11.55 0.0749038 10.0313 0.862404ZM4.6875 7.1249L5.34375 7.48115L4.125 7.4999C3.4125 7.4999 2.79375 7.59365 2.6625 7.7249C2.4 7.9874 2.34375 18.8624 2.60625 19.2749C2.7 19.4437 3.1125 19.4999 3.95625 19.4624C5.00625 19.4062 5.15625 19.3687 5.15625 19.0312C5.15625 18.7124 5.00625 18.6562 4.275 18.5999L3.375 18.5437V13.4812V8.4374H4.875H6.375V9.4124C6.39375 10.7437 6.91875 11.8499 7.81875 12.4499C9.13125 13.3124 12.1125 13.7437 13.9313 13.3312C14.325 13.2374 14.625 13.2187 14.5875 13.2749C14.55 13.3499 14.325 13.8187 14.0625 14.3062C13.6313 15.1499 13.6313 15.2437 13.8938 15.7124C14.1 16.1062 14.3438 16.2374 14.8875 16.2749C16.2 16.3874 16.725 15.3374 15.9375 14.1562C15.3938 13.3312 15.4688 12.8999 16.2375 12.4124C17.0813 11.8687 17.6063 10.7062 17.625 9.4124V8.4374H19.125H20.625V13.4999V18.5624L13.275 18.5999C6.05625 18.6562 5.90625 18.6562 5.90625 19.0312C5.90625 19.4062 6.05625 19.4062 13.575 19.4624C19.5938 19.4999 21.2813 19.4624 21.4125 19.2749C21.6563 18.8624 21.6 7.9874 21.3375 7.7249C21.2063 7.59365 20.5875 7.4999 19.875 7.4999L18.6563 7.48115L19.3125 7.1249C20.1 6.69365 21.3375 6.6374 21.8625 7.0124C22.2 7.2749 22.2188 7.59365 22.275 13.7624L22.3313 20.2499H12H1.66875L1.725 13.7624C1.78125 7.59365 1.8 7.2749 2.1375 7.0124C2.6625 6.6374 3.9 6.69365 4.6875 7.1249ZM9.35625 9.5999C11.5313 10.7624 12.3938 10.8562 13.7438 10.0687L14.625 9.54365V10.8562V12.1687L13.9313 12.3562C12.3375 12.8062 9.50625 12.4499 8.30625 11.6812C8.0625 11.5124 7.725 11.1374 7.575 10.8562C7.3125 10.3312 7.2 8.6249 7.44375 8.6249C7.5 8.6249 8.3625 9.05615 9.35625 9.5999ZM9.45 21.8437L10.0688 22.4999H12H13.9313L14.55 21.8437L15.1688 21.1874H19.2C21.9 21.1874 23.25 21.2437 23.25 21.3749C23.25 21.7499 22.7063 22.6499 22.4063 22.7624C21.9938 22.9124 2.00625 22.9124 1.59375 22.7624C1.29375 22.6499 0.75 21.7499 0.75 21.3749C0.75 21.2437 2.1 21.1874 4.8 21.1874H8.83125L9.45 21.8437Z"
           fill="currentColor"
@@ -7897,7 +7897,7 @@ export const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4907_92486)">
+      <g clipPath="url(#clip0_4907_92486)">
         <path
           d="M2.91563 0.145311C2.59219 0.304688 2.42813 0.478125 2.26875 0.820312L2.15625 1.05469V4.22344V7.39687L1.32656 8.06719C0.867188 8.4375 0.445312 8.79375 0.389063 8.85469L0.28125 8.96719V15.8484V22.7297L0.384375 23.0016C0.515625 23.3672 0.91875 23.7656 1.28906 23.9016L1.55156 24H12H22.4484L22.7203 23.8969C23.0859 23.7656 23.4844 23.3625 23.6203 22.9922C23.7188 22.7297 23.7188 22.725 23.7188 15.8484V8.96719L23.6109 8.85469C23.5547 8.79375 23.1328 8.4375 22.6734 8.06719L21.8438 7.3875V4.22344V1.05469L21.7313 0.820312C21.5719 0.478125 21.4078 0.304688 21.0844 0.145311L20.7984 0H17.3438H13.8891L13.7625 0.121874C13.5891 0.299999 13.5891 0.637499 13.7625 0.810936L13.8844 0.932812L17.2219 0.946875C20.9625 0.960938 20.7563 0.942186 20.8547 1.29844C20.8875 1.41562 20.9062 2.98125 20.9062 5.95312L20.9016 10.4297L16.4906 13.7812C14.0625 15.6234 12.0422 17.1328 12 17.1328C11.9578 17.1328 9.9375 15.6234 7.50938 13.7812L3.09844 10.4297L3.09375 5.95312C3.09375 2.98125 3.1125 1.41562 3.14531 1.29844C3.24375 0.942186 3.0375 0.960938 6.77813 0.946875L10.1156 0.932812L10.2375 0.810936C10.4109 0.637499 10.4109 0.299999 10.2375 0.121874L10.1109 0H6.65625H3.20156L2.91563 0.145311ZM2.15625 9.21094V9.70781L1.86094 9.48281C1.69688 9.36094 1.55625 9.24375 1.54219 9.22969C1.52344 9.19687 2.0625 8.72344 2.12344 8.71875C2.14219 8.71875 2.15625 8.93906 2.15625 9.21094ZM22.1766 8.95312C22.3313 9.07969 22.4531 9.20156 22.4484 9.22031C22.4391 9.23906 22.3031 9.36094 22.1391 9.48281L21.8438 9.70781V9.21094C21.8438 8.93906 21.8578 8.71875 21.8719 8.71875C21.8859 8.71875 22.0266 8.82187 22.1766 8.95312ZM4.57031 12.7969C6.35156 14.1469 7.86094 15.2953 7.93125 15.3516L8.05313 15.4547L4.63594 18.8719L1.21875 22.2891V16.2703C1.21875 11.4656 1.23281 10.2609 1.27969 10.2984C1.30781 10.3219 2.79375 11.4469 4.57031 12.7969ZM22.7719 19.2656L22.7578 22.2656L19.35 18.8578L15.9422 15.4453L19.35 12.8578L22.7578 10.2703L22.7719 13.2656C22.7766 14.9156 22.7766 17.6156 22.7719 19.2656ZM10.3359 17.1797C11.1047 17.7656 11.7938 18.2672 11.8688 18.2906C11.9578 18.3234 12.0469 18.3234 12.1359 18.2906C12.2109 18.2625 12.7969 17.8453 13.4391 17.3578C14.0766 16.8703 14.7234 16.3781 14.8734 16.2656L15.1453 16.0641L18.6141 19.5281C20.5172 21.4312 22.0781 23.0062 22.0781 23.025C22.0781 23.0484 17.5453 23.0625 12 23.0625C6.45938 23.0625 1.92188 23.0484 1.92188 23.0297C1.92188 22.9594 8.83594 16.0781 8.8875 16.0969C8.91094 16.1062 9.56719 16.5937 10.3359 17.1797Z"
           fill="currentColor"
@@ -8051,7 +8051,7 @@ export const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5004_176556)">
+      <g clipPath="url(#clip0_5004_176556)">
         <path
           d="M2.18047 0.0891604C1.16797 0.379786 0.333594 1.22822 0.0757812 2.23135C-0.0226562 2.61104 -0.0226562 3.38916 0.0757812 3.76885C0.342969 4.8001 1.23828 5.69072 2.25547 5.92979C2.63984 6.01885 3.36172 6.01885 3.74609 5.92979C4.52422 5.74697 5.28828 5.14697 5.65859 4.42979C5.91641 3.92822 6.00078 3.58135 6.00078 3.0001C6.00078 2.41885 5.91641 2.07197 5.65859 1.57041C5.29297 0.862598 4.55234 0.27666 3.76953 0.075098C3.37578 -0.0280271 2.55547 -0.018652 2.18047 0.0891604ZM3.70391 1.16729C4.49141 1.47197 5.01641 2.28291 4.96016 3.10791C4.89922 3.95635 4.36016 4.63604 3.54922 4.88447C2.75703 5.12354 1.87578 4.80947 1.39297 4.1251C0.638281 3.04229 1.14922 1.5376 2.41484 1.1251C2.78047 1.00322 3.33359 1.02197 3.70391 1.16729Z"
           fill="#AAA9AD"
@@ -8137,7 +8137,7 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //         x2="18.0101"
 //         y2="6.18994"
 //         stroke="currentColor"
-//         stroke-linecap="round"
+//         strokeLinecap="round"
 //       />
 //       <line
 //         x1="9.80005"
@@ -8145,7 +8145,7 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //         x2="14.2"
 //         y2="3.28003"
 //         stroke="currentColor"
-//         stroke-linecap="round"
+//         strokeLinecap="round"
 //       />
 //       <line
 //         x1="6.11011"
@@ -8153,7 +8153,7 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //         x2="18.0101"
 //         y2="9.18994"
 //         stroke="currentColor"
-//         stroke-linecap="round"
+//         strokeLinecap="round"
 //       />
 //       <line
 //         x1="6.11011"
@@ -8161,7 +8161,7 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //         x2="12.6101"
 //         y2="12.1899"
 //         stroke="currentColor"
-//         stroke-linecap="round"
+//         strokeLinecap="round"
 //       />
 //       <line
 //         x1="6.11011"
@@ -8169,7 +8169,7 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 //         x2="12.6101"
 //         y2="15.1899"
 //         stroke="currentColor"
-//         stroke-linecap="round"
+//         strokeLinecap="round"
 //       />
 //     </svg>
 //   )
@@ -8188,7 +8188,7 @@ export const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4907_92759)">
+      <g clipPath="url(#clip0_4907_92759)">
         <path
           d="M9.63223 1.17651C8.41817 1.58901 7.3963 1.95464 7.3588 1.99214C7.26036 2.09526 7.27442 2.38589 7.38692 2.47964C7.43848 2.52183 7.87911 2.69058 8.35723 2.85464L9.2338 3.14995V3.97964C9.2338 4.43433 9.21036 4.87964 9.18692 4.9687C9.11192 5.22183 9.12598 6.03276 9.21036 6.34683C9.39786 7.04995 9.99786 7.81401 10.626 8.14683C11.4604 8.58745 12.5385 8.58745 13.3729 8.14683C14.001 7.81401 14.601 7.04995 14.7885 6.34683C14.8729 6.03276 14.8869 5.22183 14.8119 4.9687C14.7885 4.87964 14.765 4.43433 14.765 3.97495V3.14995L15.3979 2.93901L16.0307 2.72339V3.86245V4.99683L15.8432 5.47964C15.74 5.74214 15.6557 5.96714 15.6557 5.97651C15.6557 5.98589 15.6885 6.02808 15.7307 6.06558C15.8385 6.17339 16.8791 6.17339 16.9869 6.06558C17.0854 5.97183 17.0854 5.97183 16.9119 5.57339L16.7572 5.22651L16.7338 3.64683C16.715 2.31089 16.701 2.05308 16.64 1.99214C16.5416 1.8937 12.1682 0.421825 11.9854 0.426514C11.901 0.426514 10.8463 0.764013 9.63223 1.17651ZM13.6025 1.6687C14.4885 1.9687 15.215 2.22183 15.2244 2.22651C15.2291 2.2312 14.5072 2.48433 13.6213 2.78901L12.0041 3.33745L10.3775 2.78433C9.48223 2.47964 8.76973 2.22651 8.79317 2.21714C8.81661 2.20776 9.54317 1.95933 10.4057 1.66401C11.2682 1.37339 11.9807 1.12964 11.9854 1.12964C11.99 1.12495 12.7166 1.3687 13.6025 1.6687ZM13.0307 3.74058L14.0619 3.38901V3.93745V4.48589L13.7713 4.53745C12.7869 4.71558 11.3479 4.72964 10.4197 4.57026L9.93692 4.48589V3.93276V3.38433L10.9682 3.73589L11.9947 4.09214L13.0307 3.74058ZM10.3963 5.28276C11.0619 5.39995 12.9088 5.39995 13.6072 5.28276C13.8885 5.23589 14.1275 5.20776 14.1369 5.21714C14.1838 5.26401 14.1604 5.95308 14.1088 6.14995C13.9119 6.88589 13.2744 7.5187 12.5385 7.71089C11.1041 8.0812 9.72598 6.90464 9.8338 5.39995C9.84317 5.29214 9.86661 5.20308 9.89473 5.20308C9.91817 5.20308 10.1432 5.24058 10.3963 5.28276Z"
           fill="currentColor"
@@ -8220,7 +8220,7 @@ export const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7587)">
+      <g clipPath="url(#clip0_22_7587)">
         <path
           d="M8.20313 0.445312C7.58438 0.581249 7.10156 0.820312 6.51094 1.27031C6.30469 1.425 6.06094 1.57969 5.9625 1.6125C5.31094 1.84219 4.79063 2.33437 4.54688 2.94844C4.275 3.64687 4.32188 4.24687 4.71094 5.05312C4.85156 5.34844 4.96875 5.59219 4.96875 5.60625C4.96875 5.61562 4.87969 5.625 4.77188 5.625C4.3875 5.62969 3.97969 5.91562 3.825 6.29062C3.73125 6.51562 3.73125 6.98437 3.825 7.20937C4.00313 7.64062 4.38281 7.87031 4.9125 7.875H5.25V8.14687C5.25 8.54531 5.40469 9.10312 5.65313 9.6C5.90625 10.1016 6.39844 10.6641 6.85313 10.9734L7.125 11.1609V11.5969V12.0328L4.79531 12.4219C3.51094 12.6328 2.33438 12.8484 2.17969 12.8953C1.35938 13.1484 0.660938 13.8703 0.445313 14.6953C0.384375 14.9344 0.375 15.5578 0.375 19.2047C0.375 23.3766 0.375 23.4375 0.46875 23.5312C0.5625 23.625 0.623438 23.625 11.8453 23.625C23.025 23.625 23.1328 23.625 23.2875 23.5312C23.3719 23.4797 23.4797 23.3719 23.5313 23.2875C23.6203 23.1375 23.625 23.0437 23.625 19.125C23.625 15.2062 23.6203 15.1125 23.5313 14.9625C23.4797 14.8781 23.3719 14.7703 23.2875 14.7187C23.1422 14.6297 23.0484 14.625 21.8813 14.625H20.625V13.9078C20.625 13.1062 20.5781 12.9422 20.2922 12.6703C19.9781 12.3703 20.0063 12.375 17.625 12.375C15.3188 12.375 15.2672 12.3797 15.0188 12.6141C14.9203 12.7078 14.9203 12.7031 12.9 12.3703L10.875 12.0328V11.5969V11.1609L11.1469 10.9734C11.4609 10.7578 11.925 10.2891 12.1359 9.97031C12.4875 9.45 12.75 8.67187 12.75 8.14687V7.875H13.0922C13.8094 7.87031 14.25 7.43906 14.25 6.74062C14.2453 6.10781 13.7906 5.625 13.1953 5.625C13.0781 5.625 12.9844 5.61562 12.9844 5.60625C12.9844 5.59687 13.0453 5.45625 13.1203 5.29219C13.3453 4.78594 13.4203 4.38281 13.3922 3.81094C13.3688 3.225 13.2609 2.84062 12.9984 2.39531C12.7828 2.025 12.3891 1.61719 12.0469 1.39687C11.7188 1.18594 10.4766 0.623437 10.0781 0.506249C9.67031 0.379687 8.63438 0.346874 8.20313 0.445312ZM9.72656 1.24219C9.88125 1.28437 10.3594 1.47656 10.7906 1.66875C11.4516 1.96875 11.6203 2.06719 11.8734 2.29687C12.1922 2.59219 12.4359 2.98594 12.5438 3.39375C12.6328 3.72187 12.6234 4.27969 12.5203 4.59375L12.4406 4.85156L12.1734 4.33125C12.0281 4.04531 11.8781 3.79687 11.8359 3.77812C11.6156 3.69375 11.4563 3.75 11.0156 4.07812C10.2422 4.64531 9.75 4.82812 9 4.82812C8.25469 4.82812 7.75313 4.64062 6.98438 4.07812C6.53438 3.74531 6.35156 3.68437 6.15 3.79219C6.10781 3.81562 5.95313 4.06875 5.8125 4.35469C5.67188 4.64062 5.54531 4.875 5.52656 4.875C5.475 4.875 5.25 4.32656 5.19844 4.06875C5.1 3.57187 5.35313 2.94844 5.78906 2.61562C6.11719 2.36719 6.39844 2.28281 6.83438 2.30625C7.40156 2.33437 7.81875 2.56875 8.20313 3.08437L8.32031 3.23906L8.63906 3.02344C8.8125 2.90625 8.95313 2.79844 8.95313 2.78437C8.95313 2.70937 8.63906 2.32031 8.41406 2.12344C8.17031 1.90312 7.93125 1.7625 7.61719 1.64062L7.47656 1.58437L7.70625 1.46719C8.24531 1.19062 9.14063 1.09219 9.72656 1.24219ZM7.33594 5.25469C7.88438 5.52187 8.33906 5.625 9 5.625C9.84844 5.625 10.6266 5.38125 11.2359 4.91719L11.4844 4.73437L11.7469 5.25937L12.0141 5.78906L11.9859 7.05469C11.9672 8.02969 11.9438 8.38594 11.8828 8.60156C11.2031 11.0625 8.04844 11.6391 6.57656 9.57187C6.10781 8.92031 6 8.39062 6 6.73594V5.76562L6.25781 5.25L6.51563 4.72969L6.74063 4.89844C6.85781 4.99219 7.12969 5.15156 7.33594 5.25469ZM5.25 6.75V7.125H5.08594C4.83281 7.125 4.60313 7.0125 4.56563 6.87187C4.49063 6.57187 4.6875 6.37969 5.07656 6.375H5.25V6.75ZM13.2422 6.44062C13.4156 6.51562 13.4859 6.66562 13.4344 6.87187C13.3969 7.0125 13.1672 7.125 12.9141 7.125H12.75V6.75V6.375H12.9141C13.0078 6.375 13.1531 6.40312 13.2422 6.44062ZM8.25 11.5734C8.66719 11.6672 9.62344 11.6297 10.0453 11.5031C10.1156 11.4797 10.125 11.5172 10.125 11.8219V12.1641L9.5625 12.7266L9 13.2891L8.4375 12.7266L7.875 12.1641V11.8219C7.875 11.5172 7.88438 11.4797 7.95938 11.5031C8.00156 11.5172 8.13281 11.55 8.25 11.5734ZM7.56094 13.0219L7.78125 13.2469L7.64063 13.6641C7.43438 14.2734 7.44375 14.3203 7.8375 14.9156L8.17031 15.4266L7.8375 16.2703C7.65 16.7344 7.5 17.1797 7.5 17.2641C7.5 17.4094 8.52188 21.9234 8.62969 22.2562C8.68594 22.4297 8.79375 22.5 9 22.5C9.20625 22.5 9.31406 22.4297 9.37031 22.2562C9.47813 21.9234 10.5 17.4094 10.5 17.2641C10.5 17.1797 10.35 16.7344 10.1625 16.2703L9.82969 15.4266L10.1625 14.9156C10.5563 14.3203 10.5656 14.2734 10.3594 13.6641L10.2188 13.2422L10.4391 13.0266L10.6641 12.8062L12.6469 13.1344L14.625 13.4672V14.0484V14.625H13.3734C12.2016 14.625 12.1078 14.6297 11.9625 14.7187C11.8781 14.7703 11.7703 14.8781 11.7188 14.9625C11.6297 15.1125 11.625 15.2062 11.625 18.9937V22.875H8.25H4.875V19.6875V16.5H4.5H4.125V19.6875V22.875H2.625H1.125V19.2047C1.12969 17.1891 1.14844 15.3984 1.16719 15.225C1.22344 14.8078 1.42969 14.3766 1.71563 14.0953C2.13281 13.6828 2.18438 13.6687 4.86563 13.2141C6.20156 12.9891 7.29844 12.8062 7.3125 12.8016C7.32656 12.7969 7.43906 12.9 7.56094 13.0219ZM19.6125 13.1906C19.8234 13.2797 19.875 13.4484 19.875 14.0953V14.625L18.6984 14.6156L17.5219 14.6016L17.4281 14.3672C17.2594 13.9312 16.8047 13.3922 16.4297 13.1812C16.2797 13.0969 19.4063 13.1016 19.6125 13.1906ZM15.8344 13.7766C15.9422 13.8281 16.1063 13.9453 16.2 14.0297C16.3828 14.1844 16.6406 14.5125 16.6406 14.5875C16.6406 14.6062 16.3547 14.625 16.0078 14.625H15.375V14.1141V13.5984L15.5063 13.6359C15.5766 13.6594 15.7219 13.7203 15.8344 13.7766ZM8.62969 14.0859C8.775 14.2172 8.85 14.25 9 14.25C9.15 14.25 9.225 14.2172 9.37031 14.0859C9.46875 13.9969 9.5625 13.9219 9.57656 13.9219C9.59063 13.9219 9.61406 13.9875 9.63281 14.0672C9.66094 14.1891 9.62813 14.2687 9.40313 14.6062C9.16875 14.9531 9.12188 15 9 15C8.87813 15 8.83125 14.9531 8.59688 14.6062C8.37188 14.2687 8.33906 14.1891 8.36719 14.0672C8.38594 13.9875 8.40938 13.9219 8.42344 13.9219C8.4375 13.9219 8.53125 13.9969 8.62969 14.0859ZM22.875 15.8766C22.8703 16.8984 22.7344 17.3484 22.2938 17.7937C21.7969 18.2906 21.4406 18.375 19.8188 18.375H18.75V17.7187C18.75 16.8187 18.825 16.875 17.625 16.875C16.425 16.875 16.5 16.8187 16.5 17.7187V18.375H15.4359C13.8094 18.375 13.4531 18.2906 12.9563 17.7937C12.5156 17.3484 12.3797 16.8984 12.375 15.8766V15.375H17.625H22.875V15.8766ZM9.40313 16.5234L9.70313 17.2734L9.36563 18.7594C9.17813 19.5797 9.01406 20.25 9 20.25C8.98594 20.25 8.82188 19.5797 8.63438 18.7594L8.29688 17.2734L8.55938 16.6172C8.70469 16.2562 8.84063 15.9141 8.86406 15.8531C8.89219 15.7781 8.93906 15.75 9.00469 15.7594C9.08438 15.7687 9.15938 15.9187 9.40313 16.5234ZM18 18.5391C18 19.5609 17.9625 19.7531 17.7469 19.8094C17.5406 19.8609 17.3906 19.7906 17.3156 19.6172C17.2688 19.4953 17.25 19.2281 17.25 18.5391V17.625H17.625H18V18.5391ZM13.0172 18.8391C13.5563 19.1109 13.6734 19.125 15.15 19.125H16.5V19.4625C16.5047 20.1844 16.9359 20.625 17.6344 20.625C17.9813 20.625 18.2391 20.5172 18.4547 20.2922C18.6703 20.0625 18.75 19.8375 18.75 19.4531V19.125H20.1C21.2063 19.125 21.4969 19.1109 21.7078 19.05C22.0641 18.9422 22.4719 18.7312 22.6875 18.5344L22.875 18.3656V19.8703V21.375H17.625H12.375V19.8703V18.3656L12.5625 18.5344C12.6656 18.6234 12.8672 18.7641 13.0172 18.8391ZM22.875 22.5V22.875H17.625H12.375V22.5V22.125H17.625H22.875V22.5Z"
           fill="currentColor"
@@ -8248,7 +8248,7 @@ IconEmployersBtn.displayName = "IconEmployersBtn";
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
 //     >
-//       <g clip-path="url(#clip0_22_7304)">
+//       <g clipPath="url(#clip0_22_7304)">
 //         <path
 //           d="M5.9531 0.445309C5.34373 0.581247 4.85623 0.815622 4.27029 1.26093C4.07341 1.40625 3.81091 1.56562 3.67966 1.61718C3.3281 1.74375 3.00466 1.96875 2.73279 2.26406C2.26404 2.77968 2.0531 3.46406 2.14685 4.14843C2.19373 4.4625 2.25935 4.64062 2.55466 5.24062C2.74685 5.63437 2.90623 5.96719 2.90623 5.98125C2.90623 5.99062 2.84998 6 2.77966 6C2.57341 6.00469 2.2406 6.20156 2.07654 6.41719C1.74373 6.84844 1.74373 7.40156 2.07654 7.83281C2.25935 8.07187 2.5781 8.24531 2.84529 8.25H3.03748L3.1406 8.5875C3.4031 9.44531 3.94685 10.1766 4.70154 10.6781L4.87966 10.7953L4.8656 11.2594L4.85154 11.7281L3.08435 12.4641C2.10935 12.8719 1.2281 13.2656 1.12498 13.3359C0.890602 13.4953 0.703102 13.7297 0.529665 14.0672L0.398415 14.3203L0.384352 17.1891C0.37029 20.0203 0.374977 20.0625 0.468727 20.1562C0.55779 20.2453 0.618727 20.25 1.96873 20.25H3.37498V21.8437C3.37498 23.3766 3.37966 23.4422 3.46873 23.5312C3.56248 23.625 3.62342 23.625 12 23.625C20.3765 23.625 20.4375 23.625 20.5312 23.5312C20.6203 23.4422 20.625 23.3766 20.625 21.8437V20.25H22.0312C23.3812 20.25 23.4422 20.2453 23.5312 20.1562C23.625 20.0625 23.6297 20.0203 23.6156 17.1891L23.6015 14.3203L23.4609 14.0437C23.3062 13.7391 22.9594 13.3594 22.7203 13.2328C22.6359 13.1906 21.8015 12.8344 20.8594 12.4406L19.1484 11.7281L19.1344 11.2687L19.125 10.8047L19.5094 10.5234C20.1422 10.0594 20.6203 9.37031 20.8594 8.5875L20.9625 8.25H21.1547C21.4125 8.25 21.7828 8.03437 21.9515 7.79531C22.2281 7.39687 22.2234 6.825 21.9375 6.43125C21.7969 6.23906 21.3937 6 21.2015 6C21.1406 6 21.0937 5.98594 21.0937 5.96719C21.0937 5.94844 21.1875 5.70937 21.3047 5.4375C21.614 4.69687 21.6703 4.43437 21.6469 3.82031C21.614 3.00937 21.3469 2.38125 20.8125 1.82812C20.475 1.48125 20.1844 1.29843 19.3594 0.928122C18.2953 0.445309 18.1078 0.398434 17.2734 0.398434C16.7437 0.398434 16.4953 0.421872 16.2656 0.482809C15.8109 0.609372 15.2625 0.890622 14.8125 1.22812C14.5922 1.39218 14.3109 1.56562 14.1797 1.61718C13.8281 1.74375 13.5047 1.96875 13.2328 2.26406C12.7125 2.83593 12.5203 3.58125 12.689 4.40625L12.7125 4.52343H12.0609C11.7047 4.52343 11.3531 4.5375 11.2734 4.55625L11.1328 4.58437V3.94687C11.1281 3.375 11.114 3.26718 11.0062 2.9625C10.8281 2.47031 10.6172 2.1375 10.2469 1.76718C9.96091 1.48125 9.84373 1.40625 9.16404 1.07343C8.74685 0.871872 8.2031 0.637497 7.96404 0.557809C7.57029 0.421872 7.4531 0.407809 6.8906 0.393747C6.45466 0.379684 6.16404 0.398434 5.9531 0.445309ZM7.44373 1.24218C7.78123 1.32187 9.00466 1.85625 9.33279 2.06718C9.79216 2.3625 10.1203 2.81718 10.289 3.39843C10.439 3.90468 10.3078 4.82343 10.0594 4.99687C10.0078 5.03437 9.78279 5.19843 9.56248 5.35781C9.34216 5.52187 9.06091 5.69062 8.92966 5.74219C7.83279 6.15 7.18591 7.29844 7.42029 8.41875C7.46716 8.63437 7.60779 8.98125 7.82341 9.4125C8.00623 9.77812 8.15623 10.0875 8.15623 10.1016C8.15623 10.1156 8.02966 10.125 7.87498 10.125C7.19998 10.125 6.74998 10.575 6.74998 11.25C6.74998 11.6109 6.8531 11.8594 7.08279 12.0797C7.31248 12.3 7.53748 12.375 7.9406 12.375H8.28748L8.3906 12.7125C8.63435 13.5187 9.17341 14.2547 9.85779 14.7281L10.1297 14.9109L10.1156 15.3656L10.1015 15.8203L7.31248 16.5937C5.3531 17.1375 4.4531 17.4094 4.29373 17.5031C3.96091 17.6953 3.71248 17.9719 3.54841 18.3187C3.42185 18.5859 3.39373 18.6984 3.38435 19.0641L3.3656 19.5H2.2406H1.12029L1.13435 17.0719C1.14841 14.4094 1.14373 14.4562 1.44373 14.1422C1.61716 13.9547 1.7156 13.9125 3.72654 13.0734C4.70623 12.6656 5.53591 12.2953 5.56873 12.2484C5.62966 12.1641 5.6531 10.4906 5.59685 10.3406C5.5781 10.2984 5.41873 10.1672 5.23123 10.05C4.4531 9.54844 3.98435 8.87344 3.82029 8.00625C3.7406 7.57031 3.6656 7.5 3.31873 7.5C2.82185 7.5 2.61091 7.33125 2.6906 7.00312C2.73279 6.84844 2.96716 6.75 3.30466 6.75C3.67966 6.75 3.74998 6.66562 3.74998 6.21094C3.74998 5.86406 3.7406 5.84531 3.39841 5.15156C2.95779 4.275 2.8781 3.98906 2.9531 3.58593C3.06091 3.00468 3.43591 2.56875 3.99841 2.36718C4.17654 2.30156 4.46248 2.13281 4.7156 1.94062C5.1656 1.60312 5.63435 1.35468 6.04685 1.24687C6.38435 1.15781 7.07341 1.15312 7.44373 1.24218ZM17.9437 1.24218C18.2812 1.32187 19.5047 1.85625 19.8328 2.06718C20.4562 2.46562 20.8594 3.20156 20.8594 3.9375C20.8594 4.34062 20.775 4.64062 20.489 5.29218C20.2172 5.90625 20.1797 6.05625 20.2265 6.35625C20.2687 6.66094 20.3765 6.75 20.6953 6.75C21.0328 6.75 21.2672 6.84844 21.3094 7.00312C21.389 7.33125 21.1781 7.5 20.6812 7.5C20.3297 7.5 20.264 7.56562 20.1703 8.025C19.9875 8.91562 19.5656 9.525 18.7687 10.05C18.525 10.2094 18.389 10.3312 18.3703 10.4062C18.314 10.6031 18.3234 11.9719 18.3797 12.1359C18.4078 12.2156 18.4875 12.3141 18.5578 12.3469C18.6234 12.3844 19.4297 12.7219 20.3437 13.1016C22.2328 13.8891 22.3828 13.9547 22.5562 14.1422C22.8562 14.4562 22.8515 14.4094 22.8656 17.0719L22.8797 19.5H21.7594H20.6344L20.6156 19.0687C20.6062 18.6984 20.5781 18.5859 20.4515 18.3187C20.2875 17.9719 19.9734 17.6344 19.6687 17.4703C19.5609 17.4187 18.2203 17.0203 16.6875 16.5937L13.8984 15.8156L13.8844 15.3656L13.8703 14.9109L14.1422 14.7281C14.8265 14.2547 15.3656 13.5187 15.6094 12.7125L15.7125 12.375H16.0594C16.4625 12.375 16.6875 12.3 16.9172 12.0797C17.1469 11.8594 17.25 11.6109 17.25 11.25C17.25 10.575 16.8 10.125 16.125 10.125C15.9703 10.125 15.8437 10.1109 15.8437 10.0922C15.8437 10.0734 15.9375 9.83437 16.0547 9.5625C16.364 8.82187 16.4203 8.55937 16.3969 7.94531C16.364 7.13437 16.0969 6.50625 15.5625 5.95312C15.239 5.62031 14.9297 5.41875 14.2828 5.12812C13.7953 4.9125 13.7672 4.89375 13.6594 4.67812C13.4578 4.27968 13.3875 3.92343 13.4531 3.58593C13.5609 3.00468 13.9359 2.56875 14.4984 2.36718C14.6765 2.30156 14.9625 2.13281 15.2156 1.94062C15.6656 1.60312 16.1344 1.35468 16.5469 1.24687C16.8844 1.15781 17.5734 1.15312 17.9437 1.24218ZM12.7547 5.38593C13.1484 5.48906 14.3297 6.01406 14.6344 6.225C15.2344 6.6375 15.6094 7.34531 15.6094 8.0625C15.6094 8.38125 15.5156 8.82187 15.4031 9.0375C15.3375 9.15937 15.3375 9.15937 15.1265 8.73281C15.0094 8.49844 14.8781 8.29687 14.8359 8.27812C14.6156 8.19375 14.4562 8.25 14.0156 8.57812C13.2422 9.14531 12.75 9.32812 12 9.32812C11.25 9.32812 10.7578 9.14531 9.98435 8.57812C9.53435 8.24531 9.35154 8.18437 9.14998 8.29219C9.10779 8.31562 8.97654 8.52656 8.85935 8.76094C8.74685 8.99531 8.63904 9.1875 8.62498 9.1875C8.56873 9.1875 8.25466 8.47031 8.2031 8.22656C8.0906 7.725 8.33435 7.09687 8.7656 6.75469C9.08904 6.50156 9.38904 6.40781 9.83435 6.42656C10.3828 6.45469 10.8281 6.70781 11.2031 7.20937L11.3203 7.36406L11.639 7.14844C11.8125 7.03125 11.9531 6.91875 11.9531 6.9C11.9531 6.82969 11.5312 6.3375 11.3344 6.17344C11.2219 6.07969 10.9828 5.93437 10.8094 5.85469L10.4859 5.70469L10.7109 5.59218C11.2734 5.30156 12.1078 5.22187 12.7547 5.38593ZM10.3359 9.75469C10.8844 10.0219 11.339 10.125 12 10.125C12.8484 10.125 13.6265 9.88125 14.2359 9.41719L14.4844 9.23437L14.7469 9.75937L15.014 10.2891L14.9859 11.1797C14.9672 11.7703 14.9297 12.1641 14.8828 12.3516C14.6531 13.1906 14.0625 13.9125 13.289 14.2922C11.8312 15.0047 10.0594 14.3859 9.33279 12.9141C9.09841 12.4359 9.04216 12.15 9.01404 11.1797L8.98591 10.2891L9.2531 9.75937L9.5156 9.22969L9.7406 9.39844C9.85779 9.49219 10.1297 9.65156 10.3359 9.75469ZM8.24998 11.25V11.625H8.08591C7.83279 11.625 7.6031 11.5125 7.5656 11.3719C7.4906 11.0719 7.68748 10.8797 8.07654 10.875H8.24998V11.25ZM16.2422 10.9406C16.4156 11.0156 16.4859 11.1656 16.4344 11.3719C16.3969 11.5125 16.1672 11.625 15.914 11.625H15.75V11.25V10.875H15.914C16.0078 10.875 16.1531 10.9031 16.2422 10.9406ZM11.25 15.3234C11.6672 15.4172 12.6234 15.3797 13.0453 15.2531C13.1156 15.2297 13.125 15.2672 13.125 15.5719V15.9141L12.5625 16.4766L12 17.0391L11.4375 16.4766L10.875 15.9141V15.5719C10.875 15.2672 10.8844 15.2297 10.9594 15.2531C11.0015 15.2672 11.1328 15.3 11.25 15.3234ZM11.0859 17.2969C11.7844 17.9859 11.7984 18 12 18C12.2015 18 12.2156 17.9859 12.9187 17.2875L13.6359 16.5797L16.0406 17.2453C17.3625 17.6109 18.6281 17.9672 18.8578 18.0328C19.3359 18.1734 19.575 18.3562 19.7437 18.6937C19.8515 18.9141 19.8515 18.9281 19.8656 20.8922L19.8797 22.875H18.7547H17.625V21.375V19.875H17.25H16.875V21.375V22.875H12H7.12498V21.375V19.875H6.74998H6.37498V21.375V22.875H5.24529H4.12029L4.13435 20.8969C4.14841 18.9281 4.14841 18.9141 4.25623 18.6937C4.42498 18.3469 4.66873 18.1734 5.17029 18.0281C6.05154 17.7703 10.2469 16.6031 10.3125 16.5984C10.35 16.5984 10.6969 16.9078 11.0859 17.2969Z"
 //           fill="currentColor"
@@ -8276,7 +8276,7 @@ export const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7037)">
+      <g clipPath="url(#clip0_22_7037)">
         <path
           d="M8.6812 0.356249C4.57495 1.5375 1.34995 4.8375 0.299951 8.925C-0.0937988 10.4437 -0.0937988 13.5562 0.299951 15.0562C0.581201 16.125 1.38745 17.925 2.0437 18.9375C2.24995 19.2562 2.32495 19.6875 2.28745 20.3812C2.2312 21.2812 2.2687 21.4312 2.77495 21.9375C3.2437 22.4062 3.5062 22.5 4.2187 22.5C4.9312 22.5 5.1937 22.4062 5.6437 21.9562C6.07495 21.5062 6.18745 21.2437 6.18745 20.55C6.18745 19.275 5.6062 18.6937 4.19995 18.5625L3.11245 18.4687L2.4187 17.1562C2.02495 16.425 1.57495 15.3375 1.42495 14.7187C1.04995 13.2937 1.04995 10.7062 1.4062 9.3C2.36245 5.625 5.4187 2.53125 9.18745 1.425C10.1062 1.14375 11.9999 1.05 14.1562 1.18125C14.8124 1.21875 15.0562 0.637499 14.5124 0.243749C14.0062 -0.131251 10.1437 -0.0562509 8.6812 0.356249Z"
           fill="currentColor"
@@ -8342,26 +8342,26 @@ IconGraphPollBtn.displayName = "IconGraphPollBtn";
 //       <path
 //         d="M10 3H3V10H10V3Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M21 3H14V10H21V3Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M21 14H14V21H21V14Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M10 14H3V21H10V14Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //     </svg>
 //   )
@@ -8380,7 +8380,7 @@ export const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7134)">
+      <g clipPath="url(#clip0_22_7134)">
         <path
           d="M13.0486 0H10.9514C5.18755 0 0.498413 4.68914 0.498413 10.4529V10.8758V14.0133V16.0969C0.498413 16.4205 0.760697 16.6826 1.08413 16.6826H1.31842H1.96329V17.0951C1.96329 17.4186 2.22558 17.6808 2.54901 17.6808H3.61197C4.66286 17.6808 5.51778 16.8259 5.51778 15.775V11.1976C5.51778 10.1467 4.66286 9.29182 3.61197 9.29182H2.54901C2.22558 9.29182 1.96329 9.55399 1.96329 9.87754V10.2901H1.67395C1.76145 5.24744 5.88807 1.17143 10.9514 1.17143H13.0486C18.1118 1.17143 22.2385 5.24744 22.326 10.2902H22.0366V9.87754C22.0366 9.55399 21.7744 9.29182 21.4509 9.29182H20.3881C19.3372 9.29182 18.4823 10.1467 18.4823 11.1976V15.7752C18.4823 16.8261 19.3372 17.681 20.3881 17.681H21.4509C21.6132 17.681 21.76 17.615 21.866 17.5084V18.7726C21.866 20.4682 20.4865 21.8476 18.791 21.8476H15.3084C15.0759 21.2733 14.5131 20.8665 13.8563 20.8665H12.2748C11.4109 20.8665 10.7081 21.5694 10.7081 22.4333C10.7081 23.2973 11.4109 24.0001 12.2748 24.0001H13.8563C14.5131 24.0001 15.0759 23.5934 15.3084 23.019H18.791C21.1324 23.019 23.0374 21.1141 23.0374 18.7726V16.6699C23.3025 16.6139 23.5015 16.3789 23.5015 16.0972V14.0135V10.876V10.4531C23.5015 4.68914 18.8124 0 13.0486 0Z"
           fill="currentColor"
@@ -8411,9 +8411,9 @@ export const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M13.8933 3.91366C13.5528 3.573 13.1485 3.30276 12.7036 3.11838C12.2586 2.93401 11.7817 2.83911 11.3 2.83911C10.8183 2.83911 10.3414 2.93401 9.89643 3.11838C9.45145 3.30276 9.04717 3.573 8.70666 3.91366L8 4.62033L7.29333 3.91366C6.60554 3.22587 5.67269 2.83947 4.7 2.83947C3.72731 2.83947 2.79446 3.22587 2.10666 3.91366C1.41887 4.60146 1.03247 5.53431 1.03247 6.50699C1.03247 7.47968 1.41887 8.41253 2.10666 9.10033L2.81333 9.80699L8 14.9937L13.1867 9.80699L13.8933 9.10033C14.234 8.75982 14.5042 8.35554 14.6886 7.91056C14.873 7.46559 14.9679 6.98865 14.9679 6.50699C14.9679 6.02534 14.873 5.5484 14.6886 5.10342C14.5042 4.65845 14.234 4.25417 13.8933 3.91366Z"
         stroke="currentColor"
-        stroke-width="1.33333"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.33333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -8435,14 +8435,14 @@ export const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9 22V12H15V22"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -8489,20 +8489,20 @@ IconInstructorsBtn.displayName = "IconInstructorsBtn";
 //       <path
 //         d="M12 2L2 7L12 12L22 7L12 2Z"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M2 17L12 22L22 17"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //       <path
 //         d="M2 12L12 17L22 12"
 //         stroke="currentColor"
-//         stroke-linecap="round"
-//         stroke-linejoin="round"
+//         strokeLinecap="round"
+//         strokeLinejoin="round"
 //       />
 //     </svg>
 //   )
@@ -8524,16 +8524,16 @@ export const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -8552,7 +8552,7 @@ export const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4630_54183)">
+      <g clipPath="url(#clip0_4630_54183)">
         <path
           d="M9.975 1.3312C5.175 2.17495 4.85625 2.28745 4.14375 3.0937C3.2625 4.1062 3.09375 4.9312 3.39375 6.67495C3.61875 7.98745 3.7125 8.1562 4.0875 8.21245C4.5 8.2687 4.51875 8.2312 4.4625 7.19995L4.40625 6.11245L5.15625 5.7187C6 5.2687 6.375 4.68745 6.375 3.82495C6.375 3.5062 6.4875 3.1312 6.6375 3.0187C6.76875 2.9062 8.56875 2.51245 10.6125 2.13745C14.4938 1.46245 15.0375 1.46245 15.2625 2.1937C15.3938 2.6812 16.6875 10.0687 16.6875 10.4062C16.6875 10.6125 16.4813 10.6875 16.0125 10.6875C14.8688 10.6875 13.9875 11.4 13.7625 12.5062C13.7063 12.8437 13.5938 13.125 13.5188 13.125C13.3125 13.125 5.34375 11.7375 5.26875 11.6812C5.23125 11.6625 5.1 11.0999 4.9875 10.4625C4.8 9.4312 4.725 9.2812 4.33125 9.22495C3.9 9.14995 3.9 9.1687 4.03125 10.3125L4.1625 11.4562L2.94375 11.325C1.85625 11.2125 1.70625 11.25 1.5375 11.5687C1.29375 12.0187 0 19.2 0 20.1C0 20.6625 0.09375 20.7937 0.525 20.9625C0.80625 21.075 3.9375 21.675 7.48125 22.2937C14.3063 23.475 14.5125 23.4937 14.7375 22.5937L14.85 22.1437L15.6375 22.5375C16.6875 23.0812 18.5625 23.1187 19.5938 22.5937C20.9438 21.9187 20.3625 21.2625 18.9188 21.825C16.5188 22.7812 14.0625 21 14.0625 18.3187C14.0625 17.5312 14.175 17.1375 14.55 16.575C15.2625 15.5437 15.525 15.3937 16.6875 15.375C17.25 15.375 17.925 15.2437 18.1875 15.1125C19.3313 14.475 21.375 16.5562 21.375 18.3562C21.375 18.675 21.2063 19.3687 21 19.8937C20.5688 20.9625 20.7188 21.45 21.3375 21.075C22.275 20.4937 22.5188 17.7937 21.75 16.3125C21.375 15.5625 19.9688 14.25 19.5563 14.25C19.425 14.25 19.3125 14.2125 19.3125 14.1562C19.3125 14.0062 20.6063 6.7687 20.7188 6.2437C20.7938 5.9437 21 5.7937 21.525 5.69995C22.65 5.4937 23.1938 5.1187 23.6063 4.2562C24.0938 3.26245 24.15 1.7812 23.7 1.61245C23.5312 1.5562 22.6875 1.49995 21.825 1.49995C20.1188 1.49995 19.2938 1.76245 18.9375 2.4562C18.825 2.66245 18.45 4.3687 18.1125 6.2437L17.5125 9.63745L16.8938 5.99995C16.5375 3.9937 16.1438 2.06245 15.975 1.72495C15.4313 0.506199 14.7938 0.468699 9.975 1.3312ZM23.0813 3.0562C22.7625 4.4437 22.1063 4.87495 20.325 4.87495C19.2188 4.87495 19.2188 4.87495 19.5 3.6562C19.7438 2.62495 20.0813 2.43745 21.7688 2.43745H23.2125L23.0813 3.0562ZM19.8188 6.22495C19.7625 6.4687 19.4438 8.17495 19.125 10.0312C18.8063 11.8687 18.45 13.5375 18.3563 13.725C18.075 14.2312 17.55 14.4375 16.425 14.4375C15.5438 14.4375 15.3563 14.3625 15.0188 13.95C14.5313 13.3125 14.5125 12.5625 15 12.0562C15.3375 11.6812 15.9188 11.5312 17.5312 11.4C18.0938 11.3437 18.0938 11.325 18.4313 9.56245C19.1813 5.6062 19.125 5.81245 19.5375 5.81245C19.8375 5.81245 19.8938 5.9062 19.8188 6.22495ZM8.25 13.1437C12.6188 13.9125 13.875 14.1937 14.1938 14.4937L14.6063 14.8687L14.1188 15.5062C13.65 16.1062 13.6313 16.125 13.3688 15.7687C13.0875 15.3562 12.0563 15.0937 11.4 15.2625C11.1562 15.3187 10.1438 15.9562 9.13125 16.6687L7.29375 17.9625L6.75 17.4187C6.45 17.1 6.01875 16.875 5.7375 16.875C5.30625 16.875 4.06875 17.625 1.8375 19.2562C1.3125 19.6312 0.9375 19.8 0.9375 19.6687C0.9375 19.35 2.04375 12.9562 2.175 12.5062C2.23125 12.3375 2.38125 12.1875 2.49375 12.1875C2.625 12.1875 5.2125 12.6187 8.25 13.1437ZM12.825 16.6125C13.05 16.9125 13.1625 17.5312 13.1813 18.4312C13.2 19.4062 13.3313 20.0062 13.6313 20.5687C13.9313 21.1312 14.025 21.5437 13.95 21.9375C13.875 22.2375 13.8188 22.5 13.8 22.5C12.5625 22.3312 9.8625 21.7312 9.76875 21.6187C9.7125 21.5062 9.24375 20.8312 8.7375 20.1C8.23125 19.35 7.8375 18.7312 7.89375 18.6937C7.93125 18.6562 8.775 18.0562 9.75 17.3812C11.7375 15.9937 12.3375 15.8437 12.825 16.6125ZM7.29375 19.7062C8.41875 21.3 8.56875 21.5812 8.2125 21.5062C7.96875 21.45 6.45 21.1687 4.81875 20.8875C3.20625 20.6062 1.89375 20.3625 1.9125 20.3437C2.5125 19.8375 5.56875 17.8125 5.7375 17.8125C5.86875 17.8125 6.5625 18.675 7.29375 19.7062Z"
           fill="currentColor"
@@ -8596,7 +8596,7 @@ IconMediaPostsBtn.displayName = "IconMediaPostsBtn";
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
 //     >
-//       <g clip-path="url(#clip0_22_7345)">
+//       <g clipPath="url(#clip0_22_7345)">
 //         <path
 //           d="M8.4998 3.20312C7.51542 3.70312 6.9998 4.45312 6.90605 5.54687C6.8123 6.64062 7.07792 7.35937 7.8123 8.03125C10.1248 10.1094 13.6248 8.01562 12.8279 5.03125C12.3279 3.17187 10.281 2.3125 8.4998 3.20312ZM10.6717 3.8125C12.2654 4.46875 12.6092 6.35937 11.3279 7.48437C10.6248 8.09375 9.9373 8.21875 9.09355 7.89062C7.29667 7.17187 7.1873 4.82812 8.90605 3.9375C9.70292 3.53125 9.98417 3.51562 10.6717 3.8125Z"
 //           fill="currentColor"
@@ -8641,26 +8641,26 @@ export const IconMessageCircleBtn = React.forwardRef<
     <path
       d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M15.5 12.5C15.7761 12.5 16 12.2761 16 12C16 11.7239 15.7761 11.5 15.5 11.5C15.2239 11.5 15 11.7239 15 12C15 12.2761 15.2239 12.5 15.5 12.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M8.5 12.5C8.77614 12.5 9 12.2761 9 12C9 11.7239 8.77614 11.5 8.5 11.5C8.22386 11.5 8 11.7239 8 12C8 12.2761 8.22386 12.5 8.5 12.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -8683,10 +8683,10 @@ export const IconMessageCircleDisabledBtn = React.forwardRef<
     <path
       d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
-    <path d="M8 12H16.5" stroke="currentColor" stroke-linecap="round" />
+    <path d="M8 12H16.5" stroke="currentColor" strokeLinecap="round" />
   </svg>
 ));
 
@@ -8703,7 +8703,7 @@ export const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5251_188224)">
+      <g clipPath="url(#clip0_5251_188224)">
         <path
           d="M8.81251 0.0282326C6.32814 0.33292 4.22345 1.28917 2.61095 2.8548C1.30782 4.11573 0.506261 5.53136 0.126573 7.24229C0.0375106 7.65479 0.0234481 7.84698 0.0281356 8.81261C0.0281356 9.77355 0.0421981 9.97511 0.131261 10.3782C0.365636 11.4235 0.778135 12.4126 1.32657 13.2329L1.62189 13.6782L1.5422 14.1517C1.42501 14.836 1.23751 15.5485 1.00314 16.2189C0.768761 16.8798 0.740636 17.1892 0.885948 17.4751C1.06407 17.8173 1.36407 18.0001 1.75782 18.0001C2.32032 18.0001 3.67501 17.5689 4.7672 17.0392C5.52657 16.6735 5.65314 16.6501 5.69532 16.8704C5.86407 17.7095 6.19689 18.586 6.60939 19.2845C8.84532 23.072 14.1703 24.6704 18.6375 22.8939L18.9281 22.7767L19.4109 23.0345C20.4375 23.5782 21.8391 24.0282 22.3875 23.9907C22.7297 23.9673 22.9594 23.822 23.1094 23.5314C23.2547 23.2501 23.2266 22.9876 22.9969 22.2939C22.7813 21.661 22.575 20.7985 22.5188 20.3345L22.4859 20.072L22.7813 19.636C23.1703 19.0548 23.4094 18.5673 23.625 17.911C23.9344 16.9876 23.9766 16.697 23.9766 15.586C23.9766 14.7235 23.9625 14.5407 23.8688 14.1095C23.6578 13.1767 23.2031 12.1454 22.6547 11.3814C22.1203 10.6267 21.1875 9.73604 20.3813 9.21573L20.0297 8.98136L20.0016 8.39542C19.9078 6.36573 19.0594 4.52823 17.5125 2.97198C16.0406 1.50011 14.1609 0.548546 11.9063 0.136045C11.4656 0.0563583 11.1469 0.0329208 10.1719 0.0235462C9.51564 0.0141716 8.90157 0.018858 8.81251 0.0282326ZM11.6953 0.956358C12.7266 1.14855 13.5328 1.40636 14.3672 1.80011C16.875 2.99073 18.6 5.11417 19.0594 7.57042C19.1813 8.20323 19.1813 9.45479 19.0594 10.0548C18.3469 13.6689 15.0422 16.3595 10.8516 16.7392C9.25313 16.8845 7.32657 16.5704 5.9297 15.9376C5.43751 15.7173 5.47032 15.7126 4.7297 16.097C3.89532 16.5282 3.24376 16.7907 2.48907 16.997C1.84689 17.1704 1.69689 17.1892 1.65939 17.0907C1.64532 17.0532 1.7297 16.7439 1.8422 16.397C2.09532 15.6517 2.26407 14.986 2.39064 14.236C2.52189 13.4485 2.52189 13.4204 2.26876 13.0782C1.77189 12.3985 1.42501 11.7282 1.18126 10.9689C0.914073 10.1251 0.867198 9.81104 0.867198 8.78917C0.867198 7.73917 0.942198 7.27511 1.2422 6.44542C1.80001 4.89386 2.95314 3.46886 4.45314 2.46105C5.60626 1.68761 7.20939 1.10636 8.76564 0.890734C9.2672 0.825108 11.2078 0.867296 11.6953 0.956358ZM20.5313 10.3876C20.9813 10.7439 21.6891 11.4985 22.0125 11.9767C22.5703 12.797 22.9359 13.6923 23.0906 14.6204C23.2125 15.3564 23.1656 16.3876 22.9781 17.1095C22.7531 17.9814 22.3922 18.736 21.8484 19.472C21.7172 19.6501 21.6094 19.8423 21.6094 19.9032C21.6094 20.3767 21.8953 21.6892 22.1813 22.5376C22.2844 22.8517 22.3594 23.1235 22.3453 23.1423C22.2703 23.2173 21.15 22.8845 20.4656 22.5892C20.2313 22.486 19.8328 22.2845 19.5797 22.1392C19.3219 21.9939 19.0594 21.8767 18.9891 21.8767C18.9234 21.8767 18.6469 21.9657 18.3844 22.0735C17.2453 22.5376 16.125 22.7532 14.8125 22.7532C13.8188 22.7579 13.3031 22.697 12.4453 22.4767C10.0406 21.8626 8.15157 20.4376 7.1297 18.4689C6.97032 18.1642 6.59064 17.1564 6.62345 17.1282C6.62814 17.1189 6.78282 17.1564 6.96095 17.2079C10.6406 18.2439 14.7328 17.2923 17.3344 14.7892C17.9531 14.1939 18.2906 13.7954 18.7031 13.172C19.2516 12.3329 19.6781 11.297 19.8563 10.3689L19.9406 9.9423L20.0813 10.0454C20.1609 10.097 20.3625 10.2517 20.5313 10.3876Z"
           fill="currentColor"
@@ -8752,7 +8752,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="4.90039"
         y2="9.9001"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="4.90039"
@@ -8760,7 +8760,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="4.90039"
         y2="17.9001"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8768,7 +8768,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="20.8992"
         y2="2.30005"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8776,7 +8776,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="20.8992"
         y2="10.3"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8784,7 +8784,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="20.8992"
         y2="18.3"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8792,7 +8792,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="15.4992"
         y2="4.69995"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8800,7 +8800,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="15.4992"
         y2="12.7"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <line
         x1="8.69922"
@@ -8808,7 +8808,7 @@ export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
         x2="15.4992"
         y2="20.7"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   )
@@ -8827,7 +8827,7 @@ export const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_6811)">
+      <g clipPath="url(#clip0_22_6811)">
         <path
           d="M5.05312 0.0750005C4.35 0.225 3.65625 0.61875 3.13594 1.15781C2.41406 1.90781 2.0625 2.77969 2.0625 3.84375C2.0625 4.90781 2.41406 5.77969 3.13594 6.52969C3.87656 7.29844 4.80937 7.6875 5.90625 7.6875C6.97031 7.6875 7.84219 7.33594 8.59219 6.61406C9.36094 5.87344 9.75 4.94063 9.75 3.84375C9.75 2.74688 9.36094 1.81406 8.59219 1.07344C8.05781 0.553125 7.425 0.215625 6.72656 0.070313C6.29531 -0.0187495 5.475 -0.014062 5.05312 0.0750005ZM6.60937 1.05469C7.60312 1.31719 8.43281 2.14688 8.69531 3.14063C8.78437 3.47344 8.78437 4.21406 8.69531 4.54688C8.43281 5.54063 7.60312 6.37031 6.60937 6.63281C6.46875 6.67031 6.15 6.70313 5.90625 6.70313C5.6625 6.70313 5.34375 6.67031 5.20312 6.63281C4.20937 6.37031 3.37969 5.54063 3.11719 4.54688C3.02812 4.21406 3.02812 3.47344 3.11719 3.14063C3.37969 2.15625 4.20469 1.32656 5.17969 1.05469C5.49844 0.970313 6.29062 0.970313 6.60937 1.05469Z"
           fill="currentColor"
@@ -8912,7 +8912,7 @@ export const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7163)">
+      <g clipPath="url(#clip0_22_7163)">
         <path
           d="M0.815625 0.112499C0.510938 0.253124 0.253125 0.510937 0.1125 0.815624L0 1.05469V12V22.9453L0.1125 23.1844C0.253125 23.4891 0.510938 23.7469 0.815625 23.8875L1.05469 24H9.9375H18.8203L19.0594 23.8875C19.3641 23.7469 19.6219 23.4891 19.7625 23.1844L19.875 22.9453V20.9391V18.9281L19.7391 18.7922C19.5563 18.6141 19.2844 18.6047 19.0922 18.7687L18.9609 18.8812L18.9375 20.7984C18.9141 22.8562 18.9141 22.8422 18.6609 22.9781C18.4875 23.0719 1.38281 23.0672 1.20938 22.9734C0.946875 22.8328 0.960938 23.5453 0.960938 12C0.960938 0.454687 0.946875 1.16719 1.20938 1.02656C1.38281 0.932812 18.4875 0.928124 18.6609 1.02187C18.9188 1.15781 18.9141 1.07344 18.9375 4.02187L18.9609 6.75937L19.0922 6.87187C19.2844 7.03594 19.5563 7.02656 19.7391 6.84844L19.875 6.7125V3.88125V1.05469L19.7625 0.815624C19.6219 0.510937 19.3641 0.253124 19.0594 0.112499L18.8203 -9.53674e-07H9.9375H1.05469L0.815625 0.112499Z"
           fill="currentColor"
@@ -9005,7 +9005,7 @@ export const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7247)">
+      <g clipPath="url(#clip0_22_7247)">
         <path
           d="M18.7828 0.782704C18.7453 0.843642 18.5532 1.50927 18.5719 1.51864C18.5813 1.52333 18.8297 1.59833 19.125 1.6827C19.4203 1.76708 19.6782 1.85145 19.6969 1.8702C19.7157 1.88895 15.8485 3.45927 11.0953 5.36239C6.34691 7.2702 2.44691 8.84052 2.42816 8.85458C2.40003 8.87802 2.62972 9.5202 2.69066 9.5952C2.69534 9.59989 6.60003 8.03427 11.3672 6.12177C16.1391 4.20458 20.0438 2.64364 20.0532 2.64833C20.0578 2.65302 19.936 2.88739 19.7813 3.16395C19.6219 3.44052 19.5047 3.69364 19.5188 3.72645C19.5375 3.7827 20.1516 4.14833 20.175 4.11552C20.2032 4.0827 21.2766 2.1702 21.3469 2.02489C21.4407 1.84677 21.4125 1.6452 21.2907 1.5327C21.2203 1.46708 18.9797 0.749892 18.8532 0.749892C18.825 0.749892 18.7922 0.763954 18.7828 0.782704Z"
           fill="currentColor"
@@ -9092,7 +9092,7 @@ export const IconProductsHeartBtn = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_22_6998)">
+    <g clipPath="url(#clip0_22_6998)">
       <path
         d="M14.8077 0.468864C13.3077 0.736051 11.8921 1.47199 10.8093 2.55949C10.2093 3.1548 9.78275 3.7548 9.40306 4.52355C9.04212 5.25011 8.84056 5.86418 8.70931 6.62824C8.57337 7.4298 8.60619 8.78918 8.77962 9.51574C9.32337 11.7986 10.7343 13.5939 12.7921 14.6251C14.4421 15.4501 16.6171 15.6142 18.4031 15.0423C20.6999 14.3111 22.4906 12.5486 23.2546 10.2657C23.7609 8.74699 23.7609 6.99386 23.2452 5.46574C22.3781 2.86418 20.114 0.932926 17.4046 0.468864C16.6874 0.342301 15.5109 0.346989 14.8077 0.468864ZM16.6124 1.17199C19.6218 1.41574 22.0593 3.55324 22.7109 6.51574C22.8281 7.05011 22.8562 8.30636 22.7671 8.88293C22.5656 10.1439 22.0265 11.3064 21.1968 12.2673C19.0734 14.7189 15.5156 15.3048 12.7124 13.6595C9.88119 11.9907 8.66712 8.47043 9.87181 5.41886C10.0593 4.94543 10.3593 4.39699 10.6827 3.93761C10.9546 3.54386 11.7937 2.7048 12.1874 2.43293C13.2093 1.71574 14.3952 1.27043 15.5531 1.17668C15.8015 1.15324 16.0077 1.13449 16.0124 1.1298C16.0171 1.1298 16.2843 1.14855 16.6124 1.17199Z"
         fill="currentColor"
@@ -9192,7 +9192,7 @@ export const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5783_177757)">
+      <g clipPath="url(#clip0_5783_177757)">
         <path
           d="M11.8734 3.59531C11.8172 3.60469 11.7188 3.67031 11.6531 3.73594L11.5312 3.85781V5.65781V7.4625L11.6672 7.59844C11.775 7.70625 11.8453 7.73438 12 7.73438C12.1547 7.73438 12.225 7.70625 12.3328 7.59844L12.4688 7.4625V5.65781V3.85781L12.3469 3.73125C12.2766 3.66563 12.1969 3.60938 12.1594 3.60938C12.1266 3.60938 12.075 3.6 12.0375 3.59063C12.0047 3.58125 11.9297 3.58594 11.8734 3.59531Z"
           fill="currentColor"
@@ -9248,7 +9248,7 @@ export const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_5020_183227)">
+      <g clipPath="url(#clip0_5020_183227)">
         <path
           d="M10.8984 0.0796871C10.4812 0.299999 10.3781 0.539062 10.3406 1.38281C10.3266 1.71562 10.2797 2.19375 10.2422 2.4375C10.1531 2.98125 9.92344 3.87187 9.80625 4.13906C9.68906 4.39219 9.45469 4.71094 9.31406 4.80469C9.21094 4.87031 9.1875 4.86562 8.97187 4.74844L8.74219 4.61719L7.65937 4.60312C6.97031 4.59375 6.50156 4.60781 6.37969 4.64062C6.10312 4.71562 5.8125 4.95937 5.6625 5.24531L5.53125 5.49375V7.63594V9.77812L5.65312 10.0219C5.71875 10.1578 5.85 10.3266 5.94375 10.4062C6.24844 10.6547 6.42656 10.6875 7.54219 10.6875C8.1 10.6875 8.63437 10.6641 8.72812 10.6406C8.82656 10.6125 8.99531 10.5187 9.1125 10.4297C9.31406 10.2797 9.32344 10.275 9.39844 10.3594C9.44062 10.4062 9.58594 10.4953 9.71719 10.5562L9.96094 10.6641H12.7734C15.4734 10.6641 15.5953 10.6594 15.7734 10.5703C16.0359 10.4437 16.2937 10.1578 16.3781 9.90469C16.4672 9.64687 16.4719 9.22031 16.3922 9.02812C16.3359 8.89687 16.3406 8.87812 16.5328 8.68594C16.8469 8.3625 16.9453 7.93125 16.8094 7.47656C16.7391 7.25625 16.7391 7.25625 16.875 7.14375C17.1047 6.94687 17.25 6.59062 17.25 6.225C17.25 5.92031 17.1281 5.53125 17.0109 5.45625C16.9875 5.44219 17.0062 5.37656 17.0531 5.30625C17.2078 5.07656 17.2547 4.90781 17.2547 4.60312C17.2547 4.06406 16.9453 3.61406 16.4578 3.44531C16.2891 3.38906 15.9703 3.375 14.7328 3.375H13.2187V2.75156C13.2187 2.01562 13.1297 1.57969 12.8578 1.03125C12.6422 0.590625 12.2484 0.1875 11.925 0.0749998C11.6391 -0.0234375 11.0859 -0.0234375 10.8984 0.0796871ZM11.7047 0.9375C11.8969 1.05469 12.0703 1.31719 12.225 1.72031C12.3328 2.01094 12.3469 2.12344 12.3703 3.00937C12.3984 3.95156 12.4031 3.97969 12.5109 4.09687L12.6234 4.21875H14.3531C15.5812 4.21875 16.1156 4.23281 16.1859 4.275C16.4203 4.39687 16.4719 4.63594 16.3078 4.84687C16.2141 4.96875 16.2094 4.96875 15.5484 4.96875C14.7609 4.96875 14.5594 5.01094 14.4609 5.20312C14.3766 5.36719 14.3719 5.44219 14.4469 5.60156C14.5453 5.82187 14.6953 5.85938 15.4687 5.85938C16.1578 5.85938 16.1812 5.86406 16.2891 5.97656C16.3547 6.0375 16.4062 6.14062 16.4062 6.20625C16.4062 6.55312 16.2609 6.60938 15.375 6.60938H14.6625L14.5266 6.74531C14.3578 6.91875 14.3484 7.11562 14.5031 7.29844C14.6156 7.425 14.6297 7.42969 15.2062 7.45312C15.7125 7.47187 15.8062 7.49062 15.8859 7.57031C16.0453 7.72969 16.0547 7.88906 15.9141 8.05312L15.7875 8.20312H15.3094C15.0422 8.20312 14.7609 8.22656 14.6766 8.25469C14.5312 8.30625 14.3906 8.49844 14.3906 8.64844C14.3906 8.79844 14.5312 8.99062 14.6766 9.04219C14.7609 9.07031 14.9531 9.09375 15.1031 9.09375C15.3328 9.09375 15.3984 9.1125 15.4922 9.21094C15.6516 9.36562 15.6422 9.53906 15.4734 9.70781L15.3328 9.84375L12.7359 9.83437L10.1437 9.82031L9.97031 9.70312C9.87656 9.64219 9.75937 9.51094 9.70781 9.41719C9.61406 9.25312 9.60937 9.17344 9.60937 7.48125V5.71406L9.97969 5.35312C10.3828 4.95469 10.5516 4.67344 10.7484 4.05469C10.9969 3.25312 11.2031 2.02031 11.2031 1.29375C11.2031 1.08281 11.2172 0.890625 11.2359 0.876562C11.2969 0.810937 11.5594 0.848437 11.7047 0.9375ZM8.54062 5.48906C8.75156 5.60156 8.76562 5.74219 8.76562 7.64062C8.76562 9.58594 8.75156 9.70312 8.50781 9.79687C8.32969 9.8625 6.72187 9.85781 6.59531 9.7875C6.375 9.675 6.37969 9.68906 6.37969 7.64062C6.37969 5.60156 6.375 5.61562 6.58594 5.49375C6.7125 5.42344 8.40469 5.41875 8.54062 5.48906Z"
           fill="currentColor"
@@ -9369,7 +9369,7 @@ export const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4907_93292)">
+      <g clipPath="url(#clip0_4907_93292)">
         <path
           d="M2.75156 0.726562C1.90312 1.05 1.52812 2.0625 1.96406 2.84062C2.04844 2.98594 2.10937 3.10781 2.1 3.1125C1.89844 3.22031 1.49531 3.53437 1.34531 3.70312C0.890625 4.20937 0.703125 4.75312 0.703125 5.56406C0.703125 6.05156 0.7125 6.09375 0.80625 6.15937C0.9 6.225 1.20937 6.23438 3.24844 6.23438H5.58281L5.70469 6.1125C5.82187 5.99531 5.82656 5.98594 5.80312 5.42344C5.775 4.78594 5.67187 4.42031 5.39062 3.98906C5.21719 3.71719 4.86094 3.37969 4.56094 3.20156C4.37344 3.09375 4.35937 3.075 4.425 3.00469C4.57969 2.83594 4.70156 2.46562 4.70625 2.15625C4.71094 1.57031 4.43906 1.09687 3.93281 0.820312C3.72656 0.707812 3.61406 0.684375 3.30469 0.670312C3.05625 0.660937 2.86875 0.679688 2.75156 0.726562ZM3.53437 1.47187C4.07344 1.69687 4.08281 2.47031 3.55312 2.74687C3.09844 2.98125 2.5875 2.69062 2.54531 2.17031C2.50312 1.63125 3.02812 1.26094 3.53437 1.47187ZM3.56719 3.65625C4.35 3.80625 4.95 4.4625 5.04375 5.27344L5.07656 5.53125H3.25781H1.43906L1.4625 5.22656C1.52344 4.5 2.0625 3.88594 2.82656 3.67969C3.12656 3.6 3.24375 3.59531 3.56719 3.65625Z"
           fill="currentColor"
@@ -9409,7 +9409,7 @@ export const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7600)">
+      <g clipPath="url(#clip0_22_7600)">
         <path
           d="M9.90465 0.0703993C9.64215 0.150087 9.27184 0.389149 9.0984 0.590712C8.97653 0.726649 8.92497 0.750087 8.75622 0.750087C8.44684 0.750087 8.00153 0.871962 7.64997 1.05009C6.85309 1.44852 6.30934 2.12821 6.08903 2.99071C6.00934 3.31415 5.99997 3.5204 5.99997 5.49384C5.99997 6.67509 5.98122 7.64071 5.95778 7.64071C5.93903 7.64071 5.81715 7.72977 5.69528 7.83759C4.78122 8.64384 5.36247 10.1251 6.59059 10.1251H6.78278L6.83903 10.411C7.0734 11.5829 7.80934 12.7829 8.75153 13.5048L8.99997 13.697V14.2923V14.8876L8.7234 14.9438C8.29215 15.0329 8.10465 15.2016 7.83278 15.7407L7.60309 16.1954L6.01872 16.6782C5.14215 16.9454 4.29372 17.2266 4.12497 17.3016C3.49684 17.5923 3.04215 18.0751 2.77965 18.7313L2.6484 19.0548L2.63434 21.4313C2.62028 23.7704 2.62028 23.8079 2.71872 23.9063C2.84997 24.0376 3.14059 24.0329 3.26247 23.9017C3.34684 23.8079 3.35153 23.6813 3.37497 21.497L3.3984 19.1954L3.5484 18.8907C3.72184 18.5392 4.0359 18.2017 4.34997 18.0329C4.57028 17.9157 7.53278 16.9876 7.57028 17.0251C7.57965 17.0345 7.8984 18.5063 8.2734 20.297C8.6484 22.0876 8.98122 23.6345 9.00465 23.7282C9.05622 23.9345 9.1734 24.0095 9.40778 23.9907C9.52497 23.9813 9.60465 23.9392 9.67028 23.8501L9.76872 23.7188L9.26247 21.3188C8.9859 19.997 8.74684 18.8767 8.73747 18.8298C8.71872 18.7642 8.75622 18.7782 8.91559 18.8907C9.15465 19.0595 9.48278 19.1298 9.7734 19.0735C10.0312 19.0267 10.1343 18.9751 10.3968 18.7595C10.5047 18.6704 10.6031 18.6048 10.6078 18.6142C10.6172 18.6235 10.6781 18.7173 10.7437 18.8251L10.8656 19.0126L10.6828 21.2626C10.5843 22.4954 10.5 23.5735 10.5 23.6532C10.5 23.8735 10.6547 24.0095 10.8843 23.9907C11.2312 23.9673 11.2265 23.9767 11.3906 21.8907C11.4656 20.8735 11.5453 19.9126 11.5593 19.7579L11.5875 19.4767H12H12.4125L12.4406 19.7579C12.4547 19.9126 12.5343 20.8735 12.614 21.8907C12.7734 23.9767 12.7687 23.9673 13.1156 23.9907C13.3453 24.0095 13.5 23.8735 13.5 23.6532C13.5 23.5735 13.4156 22.4954 13.3172 21.2579L13.1343 19.0126L13.2562 18.8204C13.3265 18.7173 13.3828 18.6235 13.3922 18.6142C13.3968 18.6048 13.4953 18.6751 13.6078 18.7688C13.8843 18.9938 14.1187 19.0876 14.4375 19.0829C14.7375 19.0829 14.9109 19.0267 15.1218 18.8673C15.2437 18.7735 15.2672 18.7688 15.2531 18.8345C15.1547 19.2517 14.25 23.6157 14.25 23.6767C14.25 23.7188 14.2922 23.8079 14.3484 23.8782C14.4703 24.0376 14.7703 24.0517 14.8968 23.9063C14.9531 23.8407 15.1968 22.772 15.689 20.4329C16.0828 18.572 16.4109 17.0391 16.425 17.0251C16.4672 16.9829 19.4109 17.9063 19.65 18.0329C19.964 18.2063 20.2781 18.5392 20.4515 18.8907L20.6015 19.1954L20.625 21.497C20.6484 23.6813 20.6531 23.8079 20.7375 23.9017C20.8593 24.0329 21.15 24.0376 21.2812 23.9063C21.3703 23.8173 21.375 23.7517 21.375 21.5485C21.375 19.1579 21.3656 19.0313 21.1453 18.5438C21.0187 18.2579 20.6625 17.8126 20.4047 17.6157C20.0203 17.3251 19.7672 17.2266 18.0562 16.7063L16.4015 16.1954L16.1625 15.7407C15.8906 15.2016 15.6937 15.0329 15.2718 14.9438L15 14.8876V14.2923V13.697L15.2625 13.5001C15.8437 13.0454 16.4437 12.2954 16.7531 11.6157C16.9172 11.2641 17.1281 10.6079 17.1797 10.3079C17.2031 10.1391 17.2078 10.1391 17.4797 10.111C18.2203 10.0454 18.75 9.51102 18.75 8.83602C18.75 8.67665 18.7265 8.47509 18.6937 8.38602C18.6093 8.12821 18.3843 7.83759 18.1875 7.72509L18.0047 7.61727L17.9906 5.48446C17.9718 3.43134 17.9672 3.33759 17.864 3.00009C17.414 1.50009 16.2187 0.375087 14.7562 0.0750868C14.2687 -0.0280382 10.2187 -0.0327257 9.90465 0.0703993ZM14.1843 0.750087C15.6375 0.904774 16.8187 1.93134 17.1562 3.3329C17.2406 3.69384 17.25 3.88602 17.25 5.61102V7.50009H17.0203C16.8422 7.50009 16.7578 7.47196 16.6547 7.38759L16.5234 7.27509L16.5 6.15477L16.4765 5.03915L16.3218 4.72509C16.125 4.32665 15.7172 3.93759 15.3422 3.79696C14.8828 3.62352 14.6156 3.62821 13.5468 3.8204C12.2765 4.05009 11.714 4.05946 10.5843 3.84852C9.68903 3.68446 9.61872 3.67977 9.48278 3.77352C9.27184 3.92352 9.31403 4.3079 9.55309 4.40165C9.7734 4.48602 11.0156 4.69696 11.5172 4.72977C12.164 4.77665 12.8015 4.72509 13.739 4.55165C14.1656 4.47196 14.5875 4.40634 14.6765 4.40634C15.0234 4.40634 15.5203 4.75321 15.6703 5.10477C15.7031 5.17977 15.7312 5.66259 15.75 6.32821C15.7781 7.52352 15.7875 7.58915 16.0734 7.88915C16.3078 8.14227 16.5187 8.21727 17.1093 8.2454C17.4515 8.26415 17.6859 8.29696 17.7468 8.33915C18.0047 8.5079 18.075 8.89227 17.8968 9.11727C17.7234 9.34227 17.25 9.47352 17.25 9.2954C17.25 9.15946 17.0578 9.00009 16.8937 9.00009C16.6078 9.00009 16.5375 9.11259 16.4906 9.6704C16.4015 10.7485 15.9984 11.672 15.2859 12.436C13.9031 13.9126 11.7703 14.2923 9.97028 13.3782C8.55465 12.661 7.64528 11.2876 7.50465 9.66102C7.46247 9.11259 7.39215 9.00009 7.1109 9.00009C6.94684 9.00009 6.74997 9.15946 6.74997 9.29071C6.74997 9.39852 6.52497 9.4079 6.32809 9.30477C5.9109 9.08915 5.89215 8.56415 6.29528 8.33446C6.35153 8.30165 6.63278 8.26415 6.91403 8.2454C7.47653 8.21727 7.69684 8.14227 7.92653 7.88915C8.20778 7.58915 8.22184 7.52352 8.24997 6.30477C8.2734 5.14227 8.27809 5.10477 8.48903 4.8329C8.62497 4.66415 8.60622 4.38759 8.45622 4.2704C8.19372 4.06415 7.92653 4.21884 7.67809 4.72509L7.5234 5.03446L7.49997 6.15477L7.47653 7.27509L7.34528 7.38759C7.24215 7.47196 7.15778 7.50009 6.97965 7.50009H6.74528L6.75934 5.35321C6.7734 3.22977 6.7734 3.21102 6.88122 2.93915C7.12965 2.32509 7.70622 1.78602 8.3109 1.59852L8.60153 1.50946L8.61559 1.89384C8.62028 2.10009 8.63434 2.3204 8.6484 2.38134C8.68122 2.52665 8.95309 2.63915 9.11247 2.5829C9.30934 2.50321 9.37497 2.3579 9.37497 1.97821C9.37497 1.3079 9.73122 0.853212 10.3359 0.745399C10.6265 0.698524 13.7062 0.698524 14.1843 0.750087ZM10.1062 14.2782C10.7859 14.5313 11.1656 14.597 12 14.597C12.8343 14.597 13.214 14.5313 13.8937 14.2782C14.0718 14.2126 14.2218 14.1563 14.2312 14.1563C14.2406 14.1563 14.25 14.3813 14.25 14.6579V15.1548L14.0625 15.3282C13.8468 15.5251 13.8234 15.6704 13.9734 15.8626C14.1093 16.036 14.3203 16.022 14.7187 15.8157C15.1593 15.5813 15.2484 15.6188 15.5109 16.1251L15.7031 16.4907L15.2015 17.3673C14.7984 18.0798 14.6718 18.2579 14.5593 18.3048C14.4797 18.3376 14.3765 18.3517 14.325 18.3282C14.2734 18.3095 13.875 17.9954 13.4437 17.6251L12.6562 16.9501L12.9047 16.8188C13.3453 16.5798 13.4578 16.3548 13.2609 16.1063C13.1109 15.9141 12.9 15.9423 12.4078 16.2188L11.9953 16.4485L10.875 15.8298L9.75465 15.211L9.74997 14.6813C9.74997 14.3954 9.75934 14.1563 9.76872 14.1563C9.77809 14.1563 9.92809 14.2126 10.1062 14.2782ZM10.1906 16.3173C10.8 16.6548 11.2922 16.9501 11.2875 16.9688C11.2781 16.9876 10.9265 17.3016 10.5 17.6673C9.70309 18.347 9.59997 18.4032 9.37497 18.2813C9.32809 18.2579 9.06559 17.8454 8.79372 17.3673L8.29684 16.5001L8.47965 16.1345C8.66715 15.7595 8.7984 15.6423 8.98122 15.6798C9.03747 15.6938 9.58122 15.9798 10.1906 16.3173ZM12.3797 17.7048C12.7218 17.9954 12.75 18.0376 12.7265 18.1642C12.6703 18.4829 12.3422 18.7501 12 18.7501C11.6484 18.7501 11.2968 18.4595 11.2828 18.1501C11.2734 18.0282 11.3203 17.9673 11.625 17.7001C11.8172 17.5313 11.9812 17.3954 11.9906 17.3907C12 17.3907 12.1734 17.5313 12.3797 17.7048Z"
           fill="currentColor"
@@ -9498,18 +9498,18 @@ export const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4853_94462)">
+      <g clipPath="url(#clip0_4853_94462)">
         <path
           d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.258 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.0113 9.77251C4.28059 9.5799 4.48572 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -9603,32 +9603,32 @@ export const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.58984 13.51L15.4198 17.49"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.4098 6.51001L8.58984 10.49"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -9649,7 +9649,7 @@ export const IconSkillsCarouselBtn = React.forwardRef<
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_4907_92895)">
+    <g clipPath="url(#clip0_4907_92895)">
       <path
         d="M14.9633 0.145311C14.8039 0.220312 14.6211 0.356249 14.5508 0.435936C14.3961 0.61875 14.2039 1.01719 14.2039 1.15781C14.2039 1.21406 14.1758 1.26562 14.1477 1.275C14.1008 1.29375 14.1102 1.38281 14.1758 1.66875C14.2648 2.03437 14.307 2.11406 14.6164 2.41875C14.6961 2.50312 14.7664 2.59219 14.7664 2.62031C14.7664 2.64844 14.4195 3.86719 13.993 5.32969C13.5664 6.79219 13.2102 8.01094 13.2055 8.02969C13.2008 8.05312 13.1117 7.95 13.0133 7.80469C12.6383 7.26562 12.0383 6.89062 11.3914 6.79219C11.0633 6.74062 11.0258 6.72656 10.7727 6.49219C10.3133 6.06562 9.76484 5.925 8.75703 5.97656C7.63672 6.03281 6.68984 6.32812 5.94922 6.84844C5.85078 6.92344 3.68984 5.59219 3.73672 5.48438C3.75078 5.44687 3.77422 5.26406 3.78828 5.08594C3.79766 4.90312 3.83047 4.74375 3.85391 4.72969C3.90078 4.70156 3.77422 4.05469 3.70391 3.94219C3.68984 3.91406 3.62422 3.90937 3.53984 3.93281C3.42734 3.96094 3.36172 3.94687 3.21172 3.84375C2.94922 3.66562 2.69609 3.59062 2.36797 3.59531C1.80078 3.60469 1.37422 3.87656 1.12109 4.38281C0.985156 4.66406 0.975781 4.71094 0.994531 5.07187C1.01797 5.46562 1.12109 5.76562 1.28516 5.90156C1.33672 5.94375 1.36016 6.04219 1.36016 6.19219V6.42188H2.01641C2.56016 6.42188 2.71016 6.40781 2.92578 6.32812L3.18359 6.22969L4.16797 6.84844C4.71172 7.18594 5.15703 7.48594 5.15703 7.50469C5.15703 7.52812 5.04922 7.67812 4.92266 7.8375C4.63203 8.20312 4.29922 8.86406 4.17734 9.32812C4.02266 9.94687 4.01328 10.2984 4.14453 11.1703C4.25703 11.9484 4.25703 11.9625 4.17266 12.1547C3.98984 12.5672 4.00859 13.1203 4.22422 13.5187C4.27578 13.6172 4.31328 13.7016 4.30391 13.7109C4.29453 13.7203 3.88203 13.8516 3.38047 14.0062C2.50391 14.2734 2.46641 14.2828 2.33984 14.2078C2.26953 14.1656 2.19922 14.0953 2.18516 14.0531C2.17109 13.9828 2.11016 13.9688 1.82422 13.9688C1.10234 13.9688 0.610156 14.2359 0.338281 14.7703C0.202344 15.0328 0.183594 15.1219 0.183594 15.4219C0.183594 16.2047 0.708594 16.7672 1.48203 16.8187C1.96484 16.8516 2.24609 16.7437 2.58359 16.4109C2.91172 16.0828 3.01953 15.7969 2.99141 15.3328L2.97734 15.0187L4.12109 14.6719C4.74922 14.4797 5.27422 14.3203 5.28359 14.3203C5.29766 14.3203 5.37266 14.4984 5.45703 14.7188C5.53672 14.9391 5.69141 15.2437 5.79922 15.3984C5.98203 15.6703 6.43203 16.1437 6.58203 16.2281C6.63828 16.2609 6.65703 16.3453 6.65703 16.5703C6.65703 16.8516 6.64766 16.875 6.55859 16.875C6.34297 16.875 5.29297 17.1141 4.78203 17.2781C4.48672 17.3766 4.22422 17.4516 4.20078 17.4422C4.17734 17.4375 4.12578 17.4609 4.08359 17.4984C4.04141 17.5359 3.88203 17.6297 3.72734 17.7141C3.02891 18.0797 2.51797 18.5953 2.28828 19.1625C2.18047 19.425 2.18047 19.4625 2.16641 21.5156C2.15703 22.6641 2.16641 23.6484 2.18047 23.7094C2.19453 23.7656 2.24609 23.8547 2.29766 23.9062C2.39141 24 2.48047 24 8.39141 24H14.3961L14.5086 23.8828L14.6258 23.7703V22.5375C14.6258 21.7828 14.6445 21.2344 14.6773 21.1172C14.7148 20.9812 14.7148 20.9297 14.6773 20.9156C14.6445 20.9062 14.6258 20.6859 14.6258 20.2734C14.6258 19.9266 14.6023 19.5328 14.5742 19.3969C14.3961 18.5578 13.6227 17.8172 12.4461 17.3672C11.907 17.1609 11.3211 16.9969 10.8664 16.9172L10.5008 16.8562V16.6125C10.5008 16.3641 10.5008 16.3641 10.7773 16.1531C11.2742 15.7734 11.6445 15.2953 11.982 14.6156C12.1508 14.2687 12.1695 14.2547 12.3477 14.2266C12.6102 14.1797 12.9664 13.9828 13.1305 13.7859C13.2055 13.6969 13.2758 13.6359 13.2945 13.6547C13.3133 13.6734 14.2273 15.2109 15.3289 17.0719L17.3305 20.4562L17.1992 20.6625C17.068 20.8687 16.9695 21.2156 16.9695 21.4688C16.9695 21.6 16.9648 21.6 16.8008 21.5531C16.707 21.5297 16.6273 21.5156 16.6227 21.525C16.5992 21.5531 16.407 22.2422 16.407 22.2891C16.407 22.3359 16.8992 22.5 17.0352 22.5C17.0727 22.5 17.1148 22.4391 17.1336 22.3594C17.1523 22.2844 17.1711 22.2187 17.1758 22.2187C17.1852 22.2187 17.3023 22.3312 17.443 22.4672C17.7523 22.7719 17.9867 22.8516 18.5023 22.8187C18.9523 22.7906 19.1773 22.6875 19.4727 22.3594C19.9086 21.8672 19.9508 21.1031 19.5617 20.5875C19.4586 20.4516 19.4492 20.4141 19.4961 20.3109C19.5289 20.2453 19.543 20.1844 19.5383 20.1797C19.5289 20.1703 19.3555 20.1 19.1492 20.0203C18.8211 19.8937 18.7695 19.8844 18.7227 19.9453C18.6852 19.9969 18.582 20.0156 18.3711 20.0156H18.0664L15.7086 16.0266C14.4148 13.8328 13.3648 12.0281 13.3789 12.0141C13.4023 11.9906 15.1086 11.9062 19.7727 11.7094C21.0242 11.6531 21.1461 11.6531 21.1648 11.7234C21.1789 11.7656 21.282 11.8922 21.3945 12.0047C21.6477 12.2578 22.3977 12.5953 22.4773 12.4922C22.5055 12.4594 22.6133 12.4172 22.7164 12.4031C22.9695 12.3609 23.3586 12.1312 23.5039 11.9391C23.9398 11.3672 23.9258 10.5891 23.4664 10.0453C23.3164 9.86719 22.8195 9.60937 22.6273 9.60937C22.5477 9.60937 22.4398 9.56719 22.3836 9.51562C22.2852 9.42187 22.2805 9.42187 22.168 9.50625C22.107 9.55781 21.943 9.65156 21.807 9.72187C21.4039 9.92812 21.207 10.1625 21.0008 10.7109C20.968 10.8047 20.8742 10.8141 17.3867 10.9594C15.418 11.0437 13.7023 11.1234 13.5805 11.1375L13.3508 11.1609L13.3836 10.7484C13.4117 10.4109 13.6133 9.67031 14.4945 6.65625C15.0805 4.63125 15.5773 2.93906 15.5914 2.89219C15.6055 2.84062 15.6617 2.8125 15.7461 2.8125C16.0227 2.8125 16.332 2.65781 16.5992 2.39531C16.932 2.05781 17.0398 1.77656 17.007 1.29375C16.9695 0.759375 16.7211 0.375 16.257 0.145311C16.0133 0.0187492 15.9195 0 15.6102 0C15.3008 0 15.207 0.0187492 14.9633 0.145311ZM15.8914 0.918749C16.0648 1.02187 16.1727 1.21875 16.1727 1.42969C16.1727 1.57031 16.1352 1.64062 15.9898 1.78594C15.8398 1.93594 15.7742 1.96875 15.6289 1.96875C15.1836 1.96875 14.9117 1.51875 15.118 1.125C15.2539 0.862499 15.6289 0.764061 15.8914 0.918749ZM2.70078 4.52812C2.85547 4.63125 2.95391 4.82812 2.95391 5.03906C2.95391 5.16094 2.91172 5.25 2.79453 5.38125C2.64922 5.54062 2.61172 5.55469 2.39141 5.55469C2.17109 5.55469 2.13359 5.54062 1.98828 5.38125C1.74453 5.11406 1.77266 4.8 2.05391 4.56094C2.20859 4.42969 2.52734 4.41562 2.70078 4.52812ZM9.87266 6.91406C9.97109 6.95625 10.182 7.12031 10.3367 7.28437L10.618 7.57969L11.0164 7.60781C12.0805 7.69219 12.7273 8.50312 12.6383 9.65625C12.6148 9.98437 12.4133 10.8422 12.3477 10.9172C12.3336 10.9312 12.268 10.8937 12.1977 10.8422C12.1273 10.7906 11.9961 10.7297 11.907 10.7109C11.3773 10.5984 10.7445 10.2516 10.2617 9.80625C9.92891 9.50156 9.76016 9.48281 9.40391 9.72187C8.75234 10.1531 6.98047 10.6734 6.00078 10.7203C5.37266 10.7484 5.27422 10.8 5.22266 11.1375C5.19922 11.2969 5.17109 11.3437 5.10547 11.3437C5.05391 11.3437 5.01641 11.3156 5.01641 11.2828C5.01641 11.2547 4.98359 11.0062 4.94609 10.7391C4.89453 10.3641 4.88516 10.1812 4.92734 9.94687C5.18984 8.28281 6.55859 7.06406 8.41484 6.84375C8.88828 6.7875 9.65703 6.825 9.87266 6.91406ZM22.6883 10.5234C22.8523 10.6078 22.9695 10.8141 22.9695 11.0156C22.9695 11.3437 22.7211 11.5781 22.3789 11.5781C22.1352 11.5781 21.8445 11.2875 21.8445 11.0391C21.8445 10.5937 22.2945 10.3172 22.6883 10.5234ZM10.0133 10.7297C10.3273 10.9781 10.693 11.1891 11.0867 11.3484L11.4148 11.4797V12.6703V13.8656L11.1805 14.325C10.7773 15.1266 10.1305 15.6891 9.36641 15.9094C8.87422 16.0547 8.59766 16.0781 8.20391 16.0125C7.38359 15.8672 6.68516 15.3422 6.32891 14.6016C6.11797 14.1656 6.09922 13.9828 6.09453 12.7453V11.5922L6.48359 11.5359C7.30391 11.4234 8.69141 11.0203 9.37578 10.6969C9.54453 10.6172 9.70391 10.5516 9.73203 10.5516C9.76016 10.5469 9.88672 10.6266 10.0133 10.7297ZM1.87578 14.9344C2.04922 15.0375 2.15703 15.2344 2.15703 15.4453C2.15703 15.5859 2.11953 15.6562 1.97422 15.8016C1.82422 15.9516 1.75859 15.9844 1.61328 15.9844C1.16797 15.9844 0.896094 15.5344 1.10234 15.1406C1.23828 14.8781 1.61328 14.7797 1.87578 14.9344ZM7.87578 16.8328C8.18047 16.9172 9.06172 16.9078 9.38984 16.8187L9.65703 16.7437V16.9594C9.65703 17.4703 9.46484 17.5781 8.57891 17.5781C7.68828 17.5781 7.50078 17.4703 7.50078 16.9547C7.50078 16.7625 7.51484 16.7297 7.58516 16.7531C7.62734 16.7672 7.75859 16.8 7.87578 16.8328ZM7.10703 18.1031C7.15859 18.15 7.30391 18.2344 7.43047 18.2906C7.65078 18.3891 7.72578 18.3984 8.57891 18.3984C9.43203 18.3984 9.50703 18.3937 9.72734 18.2906C9.85859 18.2297 10.0602 18.075 10.1867 17.9437L10.407 17.7047L10.8195 17.7891C12.2586 18.0703 13.2805 18.6281 13.6508 19.3266C13.7586 19.5187 13.7586 19.5562 13.7727 21.3422L13.7867 23.1562H13.0836H12.3758V22.2422V21.3281H11.9539H11.532V22.2422V23.1562H8.39141H5.25078V22.2422V21.3281H4.82891H4.40703V22.2422V23.1562H3.70391H2.99609L3.01016 21.3844C3.02422 19.6781 3.02891 19.6078 3.12734 19.3922C3.46016 18.675 4.74922 18.0281 6.39922 17.7516L6.77422 17.6906L6.89609 17.8547C6.96172 17.9484 7.06016 18.0609 7.10703 18.1031ZM18.7414 20.9766C19.0414 21.2297 19.0555 21.5906 18.7695 21.8391C18.343 22.2141 17.6961 21.7875 17.8742 21.2484C17.9914 20.8875 18.4602 20.7422 18.7414 20.9766Z"
         fill="currentColor"
@@ -9764,74 +9764,74 @@ export const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_4889_89853)">
+      <g clipPath="url(#clip0_4889_89853)">
         <path
           d="M2.25 8.25H21.75"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.59375 11.2031H10.2188"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.59375 14.0156H6.9375"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M17.0625 14.0156H19.4063"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.59375 16.8281H6.9375"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M17.0625 16.8281H19.4063"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M13.7812 11.2031H19.4063"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M6.75 20.25H2.25V3.75H21.75V20.25H17.25"
           stroke="currentColor"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M12 18.4216C12.6731 18.4216 13.2188 17.876 13.2188 17.2029C13.2188 16.5298 12.6731 15.9841 12 15.9841C11.3269 15.9841 10.7812 16.5298 10.7812 17.2029C10.7812 17.876 11.3269 18.4216 12 18.4216Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M13.2188 15.9842V17.5076C13.2188 17.75 13.3151 17.9825 13.4865 18.154C13.6579 18.3254 13.8904 18.4217 14.1328 18.4217C14.3752 18.4217 14.6077 18.3254 14.7792 18.154C14.9506 17.9825 15.0469 17.75 15.0469 17.5076V17.2029C15.0468 16.5153 14.8142 15.8478 14.3867 15.3092C13.9592 14.7705 13.3621 14.3923 12.6924 14.236C12.0228 14.0797 11.3199 14.1546 10.6982 14.4484C10.0764 14.7422 9.57237 15.2377 9.26795 15.8543C8.96352 16.4709 8.87664 17.1724 9.02143 17.8446C9.16622 18.5169 9.53416 19.1204 10.0654 19.557C10.5967 19.9937 11.26 20.2377 11.9476 20.2496C12.6352 20.2614 13.3065 20.0403 13.8525 19.6222"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -9856,7 +9856,7 @@ export const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7145)">
+      <g clipPath="url(#clip0_22_7145)">
         <path
           d="M4.99223 0.515672C3.84848 0.76411 2.89223 1.27973 2.08598 2.08598C1.24692 2.92505 0.712545 3.94692 0.492232 5.13286C0.370357 5.76567 0.412545 6.94224 0.576607 7.55161C1.12036 9.6188 2.63911 11.1422 4.72036 11.7047C5.14692 11.8219 5.24536 11.8313 6.14067 11.8313C7.03598 11.8313 7.13442 11.8219 7.56098 11.7047C9.64223 11.1422 11.1422 9.63755 11.7094 7.55161C11.8219 7.13442 11.8313 7.0313 11.8313 6.14067C11.8313 5.25005 11.8219 5.14692 11.7094 4.72974C11.1422 2.6438 9.62817 1.12505 7.56098 0.57661C7.16723 0.473485 6.98442 0.454735 6.25786 0.440672C5.55473 0.42661 5.34379 0.440672 4.99223 0.515672ZM7.07348 1.20005C9.06098 1.5563 10.7016 3.19224 11.0813 5.20317C11.175 5.69536 11.175 6.58599 11.0813 7.07817C10.7016 9.08911 9.08911 10.6969 7.07348 11.086C6.56723 11.1797 5.71411 11.1797 5.20786 11.086C3.19223 10.6969 1.57973 9.08911 1.20004 7.07817C1.10629 6.5813 1.10629 5.69536 1.20004 5.20317C1.61254 3.01411 3.49692 1.30786 5.69536 1.13442C6.21098 1.09223 6.56255 1.11098 7.07348 1.20005Z"
           fill="currentColor"
@@ -9911,9 +9911,9 @@ export const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
         stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -9932,7 +9932,7 @@ IconStarBtn.displayName = "IconStarBtn";
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
 //     >
-//       <g clip-path="url(#clip0_22_6964)">
+//       <g clipPath="url(#clip0_22_6964)">
 //         <path
 //           d="M5.00999 2.78511C5.2309 2.78511 5.40999 2.60602 5.40999 2.38511C5.40999 2.16419 5.2309 1.98511 5.00999 1.98511C4.78907 1.98511 4.60999 2.16419 4.60999 2.38511C4.60999 2.60602 4.78907 2.78511 5.00999 2.78511Z"
 //           fill="currentColor"
@@ -10069,7 +10069,7 @@ export const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_22_7286)">
+      <g clipPath="url(#clip0_22_7286)">
         <path
           d="M10.4767 0.754638C10.2657 0.810888 9.96103 1.09214 9.84853 1.32651C9.75947 1.50933 9.75009 1.61245 9.75009 2.39526V3.25776L9.36572 3.38901C9.15009 3.46401 8.81728 3.60464 8.62509 3.70308L8.27353 3.8812L7.66416 3.2812C7.12509 2.75151 7.02666 2.67183 6.80166 2.6062C6.48291 2.51245 6.36103 2.51245 6.04697 2.6062C5.81728 2.67651 5.71416 2.76089 4.86572 3.59995C3.81572 4.63589 3.70322 4.79995 3.70322 5.2687C3.70791 5.69526 3.81572 5.87808 4.44853 6.52964L5.01572 7.11089L4.83291 7.51401C4.72978 7.73433 4.60322 8.06245 4.54228 8.24058L4.43916 8.57339L3.51103 8.58745L2.58759 8.60151L2.38603 8.74214C2.27353 8.82183 2.11884 8.97651 2.03916 9.08901L1.89853 9.29058L1.88447 10.7484C1.87509 11.9812 1.88447 12.239 1.94541 12.4031C2.07666 12.7453 2.43291 13.0265 2.82666 13.0968L3.00009 13.1296V12.7265C3.00009 12.3515 2.99541 12.3234 2.89228 12.2859C2.65791 12.1968 2.64853 12.15 2.63447 11.0203C2.61572 9.83901 2.63916 9.59526 2.77041 9.46401C2.85478 9.37964 2.93447 9.37495 3.95634 9.37495H5.05322L5.10947 9.12651C5.25009 8.54058 5.61572 7.6687 5.93916 7.15776L6.05634 6.97495L5.27822 6.19214C4.63603 5.54058 4.50009 5.38589 4.50009 5.27339C4.50009 5.16089 4.64541 4.99214 5.38134 4.2562C5.86416 3.7687 6.30478 3.36089 6.36103 3.34683C6.52509 3.30464 6.64228 3.39839 7.41103 4.15776L8.14228 4.87964L8.39072 4.73433C8.94384 4.41089 9.59541 4.13433 10.2329 3.9562L10.5001 3.88589V2.91558C10.5001 1.90308 10.5376 1.62651 10.6876 1.54683C10.8048 1.48589 13.1954 1.48589 13.3126 1.54683C13.4626 1.62651 13.5001 1.90308 13.5001 2.91558V3.88589L13.772 3.9562C14.4048 4.13433 15.0563 4.41089 15.6095 4.73433L15.8579 4.87964L16.5892 4.15776C17.3579 3.39839 17.4751 3.30464 17.6392 3.34683C17.6954 3.36089 18.136 3.7687 18.6235 4.2562C19.3548 4.99214 19.5001 5.16089 19.5001 5.27339C19.5001 5.38589 19.3642 5.54058 18.722 6.18745L17.9438 6.97026L18.0892 7.20464C18.3517 7.62651 18.647 8.31089 18.8063 8.84526L18.961 9.37495H20.0532C21.0657 9.37495 21.1454 9.37964 21.2298 9.46401C21.361 9.59526 21.3845 9.83901 21.3657 11.0203C21.3517 12.15 21.3423 12.1968 21.1079 12.2859C21.0048 12.3234 21.0001 12.3515 21.0001 12.7265V13.1296L21.1782 13.0968C21.5579 13.0265 21.8813 12.7828 22.036 12.4453C22.1157 12.2765 22.1251 12.1125 22.1251 10.8328C22.1251 9.47808 22.1204 9.3937 22.0267 9.20151C21.9095 8.95308 21.6235 8.70464 21.3798 8.63433C21.272 8.60151 20.8688 8.57808 20.3813 8.57808H19.5657L19.4813 8.3062C19.4345 8.16089 19.3032 7.82808 19.1907 7.57495L18.9845 7.11089L19.5517 6.52964C20.1845 5.87808 20.2923 5.69526 20.297 5.2687C20.297 4.79995 20.1845 4.63589 19.1345 3.59995C18.286 2.76089 18.1829 2.67651 17.9532 2.6062C17.6392 2.51245 17.5173 2.51245 17.1985 2.6062C16.9735 2.67183 16.8751 2.75151 16.336 3.27651L15.7267 3.87651L15.3751 3.69839C15.1829 3.60464 14.8501 3.46401 14.6392 3.38901L14.2501 3.25776V2.39526C14.2501 1.61245 14.2407 1.50933 14.1517 1.32651C14.0345 1.07808 13.7485 0.829638 13.5048 0.759326C13.2892 0.693701 10.697 0.689013 10.4767 0.754638Z"
           fill="currentColor"
@@ -10124,8 +10124,8 @@ export const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M7 11L11 2C11.7956 2 12.5587 2.31607 13.1213 2.87868C13.6839 3.44129 14 4.20435 14 5V9H19.66C19.9499 8.99672 20.2371 9.0565 20.5016 9.17522C20.7661 9.29393 21.0016 9.46873 21.1919 9.68751C21.3821 9.90629 21.5225 10.1638 21.6033 10.4423C21.6842 10.7207 21.7035 11.0134 21.66 11.3L20.28 20.3C20.2077 20.7769 19.9654 21.2116 19.5979 21.524C19.2304 21.8364 18.7623 22.0055 18.28 22H7M7 11V22M7 11H4C3.46957 11 2.96086 11.2107 2.58579 11.5858C2.21071 11.9609 2 12.4696 2 13V20C2 20.5304 2.21071 21.0391 2.58579 21.4142C2.96086 21.7893 3.46957 22 4 22H7"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -10219,14 +10219,14 @@ export const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -10248,20 +10248,20 @@ export const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M11.5 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.5 12L17.5815 14.3039L20 14.6756L18.25 16.4679L18.663 19L16.5 17.8039L14.337 19L14.75 16.4679L13 14.6756L15.4185 14.3039L16.5 12Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -10283,20 +10283,20 @@ export const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M16 14H8C6.93913 14 5.92172 14.4214 5.17157 15.1716C4.42143 15.9217 4 16.9391 4 18V22.5"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.9091 15V17.4545M15.5 16.2273H11V22.3636H20V16.6364H17.5455"
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
-      <path d="M12.5 19H16.5" stroke="currentColor" stroke-linejoin="round" />
+      <path d="M12.5 19H16.5" stroke="currentColor" strokeLinejoin="round" />
       <path
         d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -10320,38 +10320,38 @@ export const IconUsersOrganizersBtn = React.forwardRef<
     <path
       d="M11.5 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M19.2222 13.8H13.7778C13.3482 13.8 13 14.1582 13 14.6V20.2C13 20.6419 13.3482 21 13.7778 21H19.2222C19.6518 21 20 20.6419 20 20.2V14.6C20 14.1582 19.6518 13.8 19.2222 13.8Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M18.0554 13V14.6"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M14.9446 13V14.6"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M13 16.2002H20"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -10374,26 +10374,26 @@ export const IconUsersVSponsorsBtn = React.forwardRef<
     <path
       d="M11.5 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M17.5 12V21"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M19.5833 13.6367H16.4583C16.0716 13.6367 15.7006 13.7876 15.4271 14.0561C15.1536 14.3246 15 14.6888 15 15.0685C15 15.4483 15.1536 15.8125 15.4271 16.081C15.7006 16.3495 16.0716 16.5004 16.4583 16.5004H18.5417C18.9284 16.5004 19.2994 16.6512 19.5729 16.9197C19.8464 17.1882 20 17.5524 20 17.9322C20 18.3119 19.8464 18.6761 19.5729 18.9446C19.2994 19.2131 18.9284 19.364 18.5417 19.364H15"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 ));
@@ -10414,20 +10414,20 @@ export const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
       <path
         d="M15 14H8C6.93913 14 5.92172 14.4214 5.17157 15.1716C4.42143 15.9217 4 16.9391 4 18V22.5"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.0519 14.3342C18.1579 14.2283 18.2837 14.1442 18.4221 14.0869C18.5606 14.0295 18.709 14 18.8588 14C19.0087 14 19.1571 14.0295 19.2955 14.0869C19.434 14.1442 19.5598 14.2283 19.6658 14.3342C19.7717 14.4402 19.8558 14.566 19.9131 14.7045C19.9705 14.8429 20 14.9913 20 15.1412C20 15.291 19.9705 15.4394 19.9131 15.5779C19.8558 15.7163 19.7717 15.8421 19.6658 15.9481L14.219 21.3948L12 22L12.6052 19.781L18.0519 14.3342Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
@@ -10471,7 +10471,7 @@ IconVHostsBtn.displayName = "IconVHostsBtn";
 //       fill="none"
 //       xmlns="http://www.w3.org/2000/svg"
 //     >
-//       <g clip-path="url(#clip0_22_7123)">
+//       <g clipPath="url(#clip0_22_7123)">
 //         <path
 //           d="M3.34107 13.6098H20.6589C20.9101 13.6098 21.1137 13.4062 21.1137 13.1551V2.5935C21.1137 2.34236 20.9101 2.13875 20.6589 2.13875H3.34107C3.08993 2.13875 2.88632 2.34236 2.88632 2.5935V13.1551C2.88632 13.4062 3.08988 13.6098 3.34107 13.6098ZM3.79583 3.04826H20.2042V12.7003H3.79583V3.04826ZM12.9127 17.8247H11.0876C9.59347 17.8247 8.37792 19.0402 8.37792 20.5344V23.1756C8.37792 23.4267 8.58154 23.6303 8.83267 23.6303H15.1674C15.4186 23.6303 15.6222 23.4267 15.6222 23.1756V20.5344C15.6222 19.0402 14.4067 17.8247 12.9127 17.8247ZM14.7127 22.7208H9.28743V20.5344C9.28743 19.5418 10.095 18.7342 11.0876 18.7342H12.9127C13.9052 18.7342 14.7127 19.5418 14.7127 20.5344V22.7208ZM10.308 0.824626C10.308 0.573489 10.5116 0.369873 10.7628 0.369873H13.2372C13.4884 0.369873 13.692 0.573489 13.692 0.824626C13.692 1.07576 13.4884 1.27938 13.2372 1.27938H10.7628C10.5116 1.27938 10.308 1.07576 10.308 0.824626ZM0 16.5125C0 16.2613 0.203616 16.0577 0.454753 16.0577H2.05526C2.05469 16.0482 2.05435 16.0386 2.05435 16.0289C2.05435 15.7778 2.25796 15.5741 2.5091 15.5741H4.98358C5.23472 15.5741 5.43834 15.7778 5.43834 16.0289C5.43834 16.0386 5.43805 16.0482 5.43743 16.0577H10.3088C10.3082 16.0482 10.3079 16.0386 10.3079 16.0289C10.3079 15.7778 10.5115 15.5741 10.7626 15.5741H13.2371C13.4883 15.5741 13.6919 15.7778 13.6919 16.0289C13.6919 16.0386 13.6916 16.0482 13.691 16.0577H18.5625C18.5619 16.0482 18.5615 16.0386 18.5615 16.0289C18.5615 15.7778 18.7652 15.5741 19.0163 15.5741H21.4908C21.7419 15.5741 21.9455 15.7778 21.9455 16.0289C21.9455 16.0386 21.9453 16.0482 21.9446 16.0577H23.545C23.7962 16.0577 23.9998 16.2613 23.9998 16.5125C23.9998 16.7636 23.7962 16.9672 23.545 16.9672H0.454753C0.203616 16.9672 0 16.7636 0 16.5125ZM4.65895 17.8247H2.83385C1.33976 17.8247 0.124204 19.0402 0.124204 20.5344V23.1756C0.124204 23.4267 0.32782 23.6303 0.578958 23.6303H6.91378C7.16492 23.6303 7.36854 23.4267 7.36854 23.1756V20.5344C7.36854 19.0402 6.15304 17.8247 4.65895 17.8247ZM6.45903 22.7208H1.03371V20.5344C1.03371 19.5418 1.84124 18.7342 2.83385 18.7342H4.65895C5.6515 18.7342 6.45903 19.5418 6.45903 20.5344V22.7208ZM21.1663 17.8247H19.3412C17.8471 17.8247 16.6315 19.0402 16.6315 20.5344V23.1756C16.6315 23.4267 16.8351 23.6303 17.0863 23.6303H23.4211C23.6722 23.6303 23.8759 23.4267 23.8759 23.1756V20.5344C23.8759 19.0402 22.6604 17.8247 21.1663 17.8247ZM22.9663 22.7208H17.541V20.5344C17.541 19.5418 18.3486 18.7342 19.3412 18.7342H21.1663C22.1588 18.7342 22.9663 19.5418 22.9663 20.5344V22.7208Z"
 //           fill="currentColor"
@@ -10611,8 +10611,8 @@ export const ButtonColorRedBlue = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="-22.6656"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
-          <stop offset="1" stop-color="#FA0101" />
+          <stop stopColor="#016DEA" />
+          <stop offset="1" stopColor="#FA0101" />
         </linearGradient>
       </defs>
     </svg>
