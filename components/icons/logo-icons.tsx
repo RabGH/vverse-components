@@ -1,5 +1,5 @@
 import React from "react";
-import { LucideProps, User } from "lucide-react";
+import { LucideProps } from "lucide-react";
 
 export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
@@ -10590,8 +10590,8 @@ export const ButtonColorRedBlue = React.forwardRef<SVGSVGElement, LucideProps>(
     <svg
       {...props}
       ref={ref}
-      width="currentWidth"
-      height="currentHeight"
+      width="140"
+      height="40"
       viewBox="0 0 140 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

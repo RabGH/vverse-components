@@ -183,6 +183,20 @@ body,
     @apply bg-gradient-to-r from-purpleLight via-purpleMid to-purpleDark;
   }
 
+  /* Blue Red Gradient */
+  .vBlueRedSlash {
+    @apply border-0 [background:linear-gradient(62.47deg,_#016DEA,_#FA0101)] text-white 
+  }
+  .vBlueRedSlash:hover {
+    @apply border-0 [background:linear-gradient(-62.47deg,_#016DEA,_#FA0101)] text-white 
+  }
+  .vBlueRedStraight {
+    @apply border-0 [background:linear-gradient(90deg,_#016DEA,_#FA0101)] text-white 
+  }
+  .vBlueRedStraight:hover {
+    @apply border-0 [background:linear-gradient(-90deg,_#016DEA,_#FA0101)] text-white 
+  }
+
   /* Gradient no hover color */
   .vgBlue {
     @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark;
@@ -201,6 +215,12 @@ body,
   }
   .vgRed {
     @apply bg-gradient-to-r from-redDark via-redMid to-redLight;
+  }
+  .vgBlueRedSlash {
+    @apply border-0 [background:linear-gradient(62.47deg,_#016DEA,_#FA0101)] text-white 
+  }
+  .vgBlueRedStraight {
+    @apply border-0 [background:linear-gradient(90deg,_#016DEA,_#FA0101)] text-white 
   }
 
   /* Linear Gradient Colors */

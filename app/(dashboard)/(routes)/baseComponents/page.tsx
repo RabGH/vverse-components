@@ -27,16 +27,14 @@ import {
   IconSocialPagesBtn,
   IconEbook,
   IconGrid,
-  IconServicesBtn,
   IconGearServicesBtn,
-  IconMyChannelBtn,
   IconTV,
   IconLayers,
   IconStore,
   IconCalendarEvent,
-  IconCalendarEventStar,
   IconCoursesBtn,
   IconWebinar,
+  ButtonColorRedBlue,
 } from "@/components/icons/logo-icons";
 import { VBadges } from "@/components/badges/v-badge";
 import { categories } from "@/constants";
@@ -72,6 +70,30 @@ export default function ButtonPage() {
             <Button variant="ghost">Ghost</Button>
             <Button variant="link">Link</Button>
           </div>
+          <section className="space-x-4">
+            <Button variant="default" icon={<IconEbook className="w-6 h-6" />}>
+              Default
+            </Button>
+            <Button variant="default" icon={<IconEbook className="w-6 h-6" />}>
+              Default
+            </Button>
+          </section>
+          <section className="space-x-4">
+            <Button
+              variant="BlueRedSlash"
+              icon={<IconEbook className="w-6 h-6" />}
+            >
+              Default
+            </Button>
+            <Button
+              variant="BlueRedSlash"
+              icon={<IconProducts className="w-6 h-6" />}
+            >
+              Default
+            </Button>
+          </section>
+          <Button variant="BlueRedSlash" className="w-48">Schedule & Interview</Button>
+          <Button variant="BlueRedStraight" className="w-48">Schedule & Interview</Button>
           <div className="">
             <RadioGroupDemo />
           </div>
