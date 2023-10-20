@@ -10585,6 +10585,42 @@ export const IconCrownExclusive = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconCrownExclusive.displayName = "IconCrownExclusive";
 
+export const ButtonColorRedBlue = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="currentWidth"
+      height="currentHeight"
+      viewBox="0 0 140 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        width="140"
+        height="40"
+        rx="20"
+        fill="url(#paint0_linear_35_5895)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_35_5895"
+          x1="54.7685"
+          y1="38.0303"
+          x2="88.0457"
+          y2="-22.6656"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#016DEA" />
+          <stop offset="1" stop-color="#FA0101" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+);
+
+ButtonColorRedBlue.displayName = "ButtonColorRedBlue";
+
 export const Icons = {
   LogoBlue: LogoBlue,
   PlusSignBlue: PlusSignBlue,
@@ -10820,4 +10856,6 @@ export const Icons = {
   // IconWebinarsBtn: IconWebinarsBtn,
   IconWorkExperienceBtn: IconWorkExperienceBtn,
   IconYoutubeShortsBtn: IconYoutubeShortsBtn,
+  IconCrownExclusive: IconCrownExclusive,
+  ButtonColorRedBlue: ButtonColorRedBlue,
 };
