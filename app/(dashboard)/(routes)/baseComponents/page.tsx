@@ -1,9 +1,6 @@
-import { Button } from "@/components/ui/button";
+"use client";
 
-import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
-import { SwitchDemo } from "@/components/test/SwitchDemo";
-import { CheckboxDemo } from "@/components/test/CheckboxDemo";
-
+import { useState } from "react";
 import {
   PlusSquare,
   PenSquare,
@@ -15,8 +12,13 @@ import {
   ArrowDownAZ,
   Megaphone,
   CalendarDays,
+  AxeIcon,
 } from "lucide-react";
 
+import { Button } from "@/components/ui/button";
+import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
+import { SwitchDemo } from "@/components/test/SwitchDemo";
+import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 import Heading from "@/components/nav/heading";
 import { SquareButton } from "@/components/v-buttons/square-button";
 import { RectangleButton } from "@/components/v-buttons/rectangle-button";
@@ -34,9 +36,16 @@ import {
   IconCalendarEvent,
   IconCoursesBtn,
   IconWebinar,
-  ButtonColorRedBlue,
+  IconSalesGraph,
+  IconEarn,
+  IconGraphPollBtn,
+  IconBullHorn,
+  IconLoader,
+  IconThumbsUpBtn,
+  IconShare,
+  IconGraphDollar,
 } from "@/components/icons/logo-icons";
-import { VBadges } from "@/components/badges/v-badge";
+import { VBadges } from "@/components/test/v-badge";
 import { categories } from "@/constants";
 import { FilterOutlineLarge } from "@/components/filters/lg-outline-filter";
 import { FilterFilledLarge } from "@/components/filters/lg-filled-filter";
@@ -49,8 +58,11 @@ import { DialogVAnnouncement } from "@/components/dialogs/dialog-v-announcement"
 import { DialogVInputAnnouncement } from "@/components/dialogs/dialog-v-announcement-input";
 import { CalendarDemo } from "@/components/calendars/default-calendar";
 import { DatePickerWithRange } from "@/components/calendars/range-calendar";
+import { VDataPoint } from "@/components/data-points/v-data-points";
 
 export default function ButtonPage() {
+  const [isLoading, setIsLoading] = useState(false);
+
   return (
     <div className="max-w-full w-full">
       <div>
@@ -62,19 +74,42 @@ export default function ButtonPage() {
           icon={Newspaper}
         />
         <div className="flex items-center h-full flex-col space-y-10 m-10">
+          <Button size="lg" onClick={() => setIsLoading(!isLoading)}>
+            Toggle Loading State
+          </Button>
           <div className="space-x-5">
-            <Button variant="default">Default</Button>
-            <Button variant="outline">Outline</Button>
-            <Button variant="destructive">Destructive</Button>
-            <Button variant="secondary">Secondary</Button>
-            <Button variant="ghost">Ghost</Button>
-            <Button variant="link">Link</Button>
-          </div>
-          <section className="space-x-4">
-            <Button variant="default" icon={<IconEbook className="w-6 h-6" />}>
+            <Button isLoading={isLoading} variant="default">
               Default
             </Button>
-            <Button variant="default" icon={<IconEbook className="w-6 h-6" />}>
+            <Button isLoading={isLoading} variant="outline">
+              Outline
+            </Button>
+            <Button isLoading={isLoading} variant="destructive">
+              Destructive
+            </Button>
+            <Button isLoading={isLoading} variant="secondary">
+              Secondary
+            </Button>
+            <Button isLoading={isLoading} variant="ghost">
+              Ghost
+            </Button>
+            <Button isLoading={isLoading} variant="link">
+              Link
+            </Button>
+          </div>
+          <section className="space-x-4">
+            <Button
+              isLoading={isLoading}
+              variant="default"
+              icon={<IconEbook className="w-6 h-6" />}
+            >
+              Default
+            </Button>
+            <Button
+              isLoading={isLoading}
+              variant="default"
+              icon={<IconEbook className="w-6 h-6" />}
+            >
               Default
             </Button>
           </section>
@@ -82,18 +117,28 @@ export default function ButtonPage() {
             <Button
               variant="BlueRedSlash"
               icon={<IconEbook className="w-6 h-6" />}
+              isLoading={isLoading}
             >
               Default
             </Button>
             <Button
               variant="BlueRedSlash"
               icon={<IconProducts className="w-6 h-6" />}
+              isLoading={isLoading}
             >
               Default
             </Button>
           </section>
-          <Button variant="BlueRedSlash" className="w-48">Schedule & Interview</Button>
-          <Button variant="BlueRedStraight" className="w-48">Schedule & Interview</Button>
+          <Button variant="BlueRedSlash" className="w-48" isLoading={isLoading}>
+            Schedule & Interview
+          </Button>
+          <Button
+            variant="BlueRedStraight"
+            className="w-48"
+            isLoading={isLoading}
+          >
+            Schedule & Interview
+          </Button>
           <div className="">
             <RadioGroupDemo />
           </div>
@@ -134,6 +179,14 @@ export default function ButtonPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 ml-16">
           <RectangleButton
             icon={IconPost}
+            label={
+              "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
+            }
+            title={"New Blog Post"}
+            link={""}
+          />
+          <RectangleButton
+            icon={AxeIcon}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
             }
@@ -448,6 +501,98 @@ export default function ButtonPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-20">
+        <Heading
+          title={"V-Verse Data Points"}
+          description={
+            "Data points for profile banner cards, dynamic info cards."
+          }
+          icon={IconGrid}
+        />
+        <section className="flex flex-wrap justify-center items-center gap-4">
+          <VDataPoint
+            number={20000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+            currency="$"
+          />
+          <VDataPoint
+            number={20000}
+            description={"Earnings"}
+            icon={IconEarn}
+            isLoading={isLoading}
+            currency="$"
+          />
+          <VDataPoint
+            number={7500}
+            description={"Investments"}
+            icon={IconGraphDollar}
+            isLoading={isLoading}
+            currency="$"
+          />
+          <VDataPoint
+            number={44}
+            description={"Endorements"}
+            icon={IconBullHorn}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={3500}
+            description={"Points"}
+            icon={IconLoader}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={9000}
+            description={"Likes"}
+            icon={IconThumbsUpBtn}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={1100}
+            description={"Shares"}
+            icon={IconShare}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={300}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={10000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={10000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={10000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={10000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+          <VDataPoint
+            number={10000}
+            description={"Sales"}
+            icon={IconSalesGraph}
+            isLoading={isLoading}
+          />
+        </section>
       </div>
       <LogoBlue className="mt-20" />
     </div>

@@ -12,6 +12,8 @@ interface RectangleButtonProps {
   variant?: "LGOutline" | "LGFilled";
 }
 
+// Add Loading state spinner
+
 export function RectangleButton({
   icon: Icon,
   label,
