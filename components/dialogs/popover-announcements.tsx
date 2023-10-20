@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogDescription,
   DialogFooter,
@@ -26,7 +27,9 @@ export function PopoverAnnouncement() {
             Are you sure you want to close this announcement?
           </DialogDescription>
           <div className="flex flex-row justify-center space-x-4">
-            <Button className="vGrey mt-2">No</Button>
+            <DialogClose>
+              <Button className="vPurple mt-2">No</Button>
+            </DialogClose>
             <Button className="vBlue mt-2">Yes</Button>
           </div>
         </DialogHeader>

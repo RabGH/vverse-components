@@ -6,6 +6,7 @@ import {
   DialogFooter,
   DialogTitle,
   DialogTrigger,
+  DialogClose,
 } from "@/components/ui/v-dialog";
 import { Checkbox } from "@/components/ui/checkbox";
 
@@ -14,6 +15,8 @@ type VAnnouncementProps = {
   description: string;
   buttonTitle: string;
   footer: string;
+  onClose?: () => void;
+  onYes?: () => void;
 };
 
 export function DialogVAnnouncement({
@@ -21,6 +24,8 @@ export function DialogVAnnouncement({
   description,
   buttonTitle,
   footer,
+  onClose,
+  onYes,
 }: VAnnouncementProps) {
   return (
     <Dialog>
@@ -36,8 +41,14 @@ export function DialogVAnnouncement({
             {description}
           </DialogDescription>
           <div className="flex flex-row justify-center space-x-5">
-            <Button className="vGrey mt-5">No</Button>
-            <Button className="vBlue mt-5">Yes</Button>
+            <DialogClose asChild>
+            <Button onClick={onClose} className="vPurple mt-5">
+              No
+            </Button>
+            </DialogClose>
+            <Button onClick={onYes} className="vBlue mt-5">
+              Yes
+            </Button>
           </div>
 
           <div className="flex flex-col items-center mt-5">

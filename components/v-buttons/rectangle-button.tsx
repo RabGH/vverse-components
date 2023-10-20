@@ -14,8 +14,6 @@ interface RectangleButtonProps {
   target?: boolean;
 }
 
-// Add Loading state spinner
-
 export function RectangleButton({
   icon: Icon,
   label,
