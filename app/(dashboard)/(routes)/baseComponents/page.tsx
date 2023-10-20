@@ -44,6 +44,11 @@ import {
   IconThumbsUpBtn,
   IconShare,
   IconGraphDollar,
+  IconConnectionsBtn,
+  IconFollowers,
+  IconMembers,
+  IconUserCheck,
+  IconCustomers,
 } from "@/components/icons/logo-icons";
 import { VBadges } from "@/components/test/v-badge";
 import { categories } from "@/constants";
@@ -178,6 +183,7 @@ export default function ButtonPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 ml-16">
           <RectangleButton
+            isLoading={isLoading}
             icon={IconPost}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -186,14 +192,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
-            icon={AxeIcon}
-            label={
-              "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
-            }
-            title={"New Blog Post"}
-            link={""}
-          />
-          <RectangleButton
+            isLoading={isLoading}
             icon={IconProducts}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -202,6 +201,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconSocialPagesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -210,6 +210,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconEbook}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -218,6 +219,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconGrid}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -226,6 +228,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconGearServicesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -234,6 +237,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconTV}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -242,6 +246,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconStore}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -250,6 +255,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconCalendarEvent}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -258,6 +264,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconCoursesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -266,6 +273,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconLayers}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -274,6 +282,7 @@ export default function ButtonPage() {
             link={""}
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconWebinar}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -284,6 +293,7 @@ export default function ButtonPage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10 ml-16">
           <RectangleButton
+            isLoading={isLoading}
             icon={IconPost}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -293,6 +303,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconProducts}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -302,6 +313,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconSocialPagesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -311,6 +323,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconEbook}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -320,6 +333,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconGrid}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -329,6 +343,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconGearServicesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -338,6 +353,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconTV}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -347,6 +363,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconStore}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -356,6 +373,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconCalendarEvent}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -365,6 +383,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconCoursesBtn}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -374,6 +393,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconLayers}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -383,6 +403,7 @@ export default function ButtonPage() {
             variant="LGFilled"
           />
           <RectangleButton
+            isLoading={isLoading}
             icon={IconWebinar}
             label={
               "Donex Ligula Dictum Fringilla Nunc Dui Odio Sit Convallis. Eu Lectus Sed."
@@ -530,7 +551,7 @@ export default function ButtonPage() {
             description={"Investments"}
             icon={IconGraphDollar}
             isLoading={isLoading}
-            currency="$"
+            currency="€"
           />
           <VDataPoint
             number={44}
@@ -558,38 +579,32 @@ export default function ButtonPage() {
           />
           <VDataPoint
             number={300}
-            description={"Sales"}
-            icon={IconSalesGraph}
+            description={"Connections"}
+            icon={IconConnectionsBtn}
             isLoading={isLoading}
           />
           <VDataPoint
             number={10000}
-            description={"Sales"}
-            icon={IconSalesGraph}
+            description={"Followers"}
+            icon={IconFollowers}
             isLoading={isLoading}
           />
           <VDataPoint
             number={10000}
-            description={"Sales"}
-            icon={IconSalesGraph}
+            description={"Members"}
+            icon={IconMembers}
             isLoading={isLoading}
           />
           <VDataPoint
             number={10000}
-            description={"Sales"}
-            icon={IconSalesGraph}
+            description={"Subscribers"}
+            icon={IconUserCheck}
             isLoading={isLoading}
           />
           <VDataPoint
             number={10000}
-            description={"Sales"}
-            icon={IconSalesGraph}
-            isLoading={isLoading}
-          />
-          <VDataPoint
-            number={10000}
-            description={"Sales"}
-            icon={IconSalesGraph}
+            description={"Customers"}
+            icon={IconCustomers}
             isLoading={isLoading}
           />
         </section>
