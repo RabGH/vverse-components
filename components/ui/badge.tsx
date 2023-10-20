@@ -19,11 +19,17 @@ const badgeVariants = cva(
         success: "vgGreen text-background border-none",
         info: "vgBlue text-background border-none",
         profile: "bg-violet text-background border-none",
-
+      },
+      size: {
+        default: "w-28 h-11",
+        sm: "w-16 h-8",
+        lg: "w-40 h-11",
+        icon: "w-32 h-10",
       },
     },
     defaultVariants: {
       variant: "default",
+      size: "default",
     },
   }
 );
@@ -34,9 +40,9 @@ export interface BadgeProps
   icon?: React.ReactNode;
 }
 
-function Badge({ className, variant, icon, ...props }: BadgeProps) {
+function Badge({ className, variant, icon, size, ...props }: BadgeProps) {
   return (
-    <div className={cn(badgeVariants({ variant }), className)}>
+    <div className={cn(badgeVariants({ variant, size }), className)}>
       {icon && <span className="mr-1">{icon}</span>}
       {props.children}
     </div>

@@ -1,8 +1,13 @@
 import { Badge } from "@/components/ui/badge";
 import { BellRing } from "lucide-react";
 import {
+  IconAchievementsBtn,
   IconApertureBtn,
+  IconCalendarCheck,
   IconCrownExclusive,
+  IconEmployersBtn,
+  IconMapPerson,
+  IconProjectsBtn,
 } from "@/components/icons/logo-icons";
 
 export function VBadges() {
@@ -63,111 +68,168 @@ export function VBadges() {
         <Badge className="vgPurple w-[200px] h-[40px] text-black">Badge</Badge>
         <Badge className="vgPurple w-[200px] h-[40px]">Badge</Badge>
       </section>
-      <section className="grid grid-cols-6 gap-y-4">
+      <section className="flex flex-wrap justify-center gap-4 items-center">
         <Badge
           variant={"info"}
-          className="vlPlum w-[117px] h-[40px]"
+          className="vlPlum"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vgRed w-[117px] h-[40px]"
+          className="vgRed"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlOrange w-[117px] h-[40px]"
+          className="vlOrange"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlHotPink w-[117px] h-[40px]"
+          className="vlHotPink"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlSoftBrown w-[117px] h-[40px]"
+          className="vlSoftBrown"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlSkyBlue w-[117px] h-[40px]"
+          className="vlSkyBlue"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlMustardYellow w-[117px] h-[40px]"
+          className="vlMustardYellow"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlOlive w-[117px] h-[40px]"
+          className="vlOlive"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlPeach w-[117px] h-[40px]"
+          className="vlPeach"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlMidnightBlue w-[117px] h-[40px]"
+          className="vlMidnightBlue"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlMutedPurple w-[117px] h-[40px]"
+          className="vlMutedPurple"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlMatteBlue w-[117px] h-[40px]"
+          className="vlMatteBlue"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlAqua w-[117px] h-[40px]"
+          className="vlAqua"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlTealGreen w-[117px] h-[40px]"
+          className="vlTealGreen"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
         </Badge>
         <Badge
           variant={"info"}
-          className="vlPink w-[117px] h-[40px]"
+          className="vlPink"
+          size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >
           VV Exclusive
+        </Badge>
+      </section>
+      <section className="flex flex-wrap justify-center items-center gap-4">
+        <Badge
+          variant="info"
+          className=""
+          size="lg"
+          icon={<IconProjectsBtn className="w-8 h-8" />}
+        >
+          Categories
+        </Badge>
+        <Badge
+          variant="info"
+          className=""
+          size="lg"
+          icon={<IconAchievementsBtn className="w-8 h-8" />}
+        >
+          Achievements
+        </Badge>
+        <Badge
+          variant="info"
+          className=""
+          size="lg"
+          icon={<IconCalendarCheck className="w-6 h-8 mr-2" />}
+        >
+          Achievements
+        </Badge>
+        <Badge
+          variant="info"
+          className=""
+          size="lg"
+          icon={<IconEmployersBtn className="w-8 h-8" />}
+        >
+          Achievements
+        </Badge>
+        <Badge
+          variant="info"
+          className=""
+          size="lg"
+          icon={<IconMapPerson className="w-8 h-8" />}
+        >
+          Achievements
         </Badge>
       </section>
     </div>
