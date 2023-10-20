@@ -26,4 +26,8 @@ export const links = [
     label: "Base Components",
     href: "/baseComponents",
   },
+  {
+    label: "Video Player",
+    href: "/videoplayer",
+  },
 ];
