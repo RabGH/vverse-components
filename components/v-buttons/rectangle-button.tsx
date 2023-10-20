@@ -9,7 +9,7 @@ interface RectangleButtonProps {
   label: string;
   title: string;
   link: string;
-  variant?: "LGOutline" | "LGFilled";
+  variant?: "largeOutline" | "largeFilled";
   isLoading?: boolean;
   target?: boolean;
 }
@@ -21,16 +21,16 @@ export function RectangleButton({
   link,
   isLoading,
   target,
-  variant = "LGOutline",
+  variant = "largeOutline",
 }: RectangleButtonProps) {
   const buttonClassName = cn(`w-[350.5px] h-[100px] group`, {
-    LGOutline: variant === "LGOutline",
-    LGFilled: variant === "LGFilled",
+    largeOutline: variant === "largeOutline",
+    largeFilled: variant === "largeFilled",
   });
 
   const labelClassName = cn({
-    "text-muted group-hover:text-white": variant === "LGOutline",
-    "text-white group-hover:text-muted": variant === "LGFilled",
+    "text-muted group-hover:text-white": variant === "largeOutline",
+    "text-white group-hover:text-muted": variant === "largeFilled",
   });
 
   return (

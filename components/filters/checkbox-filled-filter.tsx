@@ -44,7 +44,7 @@ export function FilterFilledCheckbox({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
-          variant="LGFilled"
+          variant="largeFilled"
           role="combobox"
           aria-expanded={open}
           className="w-[330px] justify-between hover:text-muted"

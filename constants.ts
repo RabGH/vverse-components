@@ -28,6 +28,10 @@ export const links = [
   },
   {
     label: "Video Player",
-    href: "/videoplayer",
+    href: "/videoPlayer",
+  },
+  {
+    label: "Profile Banner",
+    href: "/profileBanner",
   },
 ];

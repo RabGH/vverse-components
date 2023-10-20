@@ -43,7 +43,7 @@ export function FilterOutlineSmall({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
-          variant="LGOutline"
+          variant="largeOutline"
           role="combobox"
           aria-expanded={open}
           className="w-[154px] justify-between text-muted"

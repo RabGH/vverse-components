@@ -120,25 +120,25 @@ export default function ButtonPage() {
           </section>
           <section className="space-x-4">
             <Button
-              variant="BlueRedSlash"
+              variant="blueRedSlash"
               icon={<IconEbook className="w-6 h-6" />}
               isLoading={isLoading}
             >
               Default
             </Button>
             <Button
-              variant="BlueRedSlash"
+              variant="blueRedSlash"
               icon={<IconProducts className="w-6 h-6" />}
               isLoading={isLoading}
             >
               Default
             </Button>
           </section>
-          <Button variant="BlueRedSlash" className="w-48" isLoading={isLoading}>
+          <Button variant="blueRedSlash" className="w-48" isLoading={isLoading}>
             Schedule & Interview
           </Button>
           <Button
-            variant="BlueRedStraight"
+            variant="blueRedStraight"
             className="w-48"
             isLoading={isLoading}
           >
@@ -300,7 +300,7 @@ export default function ButtonPage() {
             }
             title={"New Blog Post"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -310,7 +310,7 @@ export default function ButtonPage() {
             }
             title={"New Product"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -320,7 +320,7 @@ export default function ButtonPage() {
             }
             title={"New Social Page"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -330,7 +330,7 @@ export default function ButtonPage() {
             }
             title={"New E-Book"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -340,7 +340,7 @@ export default function ButtonPage() {
             }
             title={"New Social Group"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -350,7 +350,7 @@ export default function ButtonPage() {
             }
             title={"New Services"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -360,7 +360,7 @@ export default function ButtonPage() {
             }
             title={"New Channel"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -370,7 +370,7 @@ export default function ButtonPage() {
             }
             title={"New Store"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -380,7 +380,7 @@ export default function ButtonPage() {
             }
             title={"New Event"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -390,7 +390,7 @@ export default function ButtonPage() {
             }
             title={"New Courses"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -400,7 +400,7 @@ export default function ButtonPage() {
             }
             title={"New Project"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
           <RectangleButton
             isLoading={isLoading}
@@ -410,7 +410,7 @@ export default function ButtonPage() {
             }
             title={"New Webinar"}
             link={""}
-            variant="LGFilled"
+            variant="largeFilled"
           />
         </div>
         <div className="mt-20">

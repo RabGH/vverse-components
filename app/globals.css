@@ -267,7 +267,7 @@ body,
     @apply bg-gradient-to-r from-pinkLight to-pinkDark;
   }
 
-  /* LGFilled Varient Outline to Filled */
+  /* largeFilled Varient Outline to Filled */
   .vhrBlue {
     @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark hover:bg-gradient-to-r hover:from-white hover:to-white;
   }

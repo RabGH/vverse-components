@@ -13,7 +13,12 @@ const LandingNavbar = () => {
       <SquareButton
         icon={ArrowRightCircle}
         label={"Video Player Plyr"}
-        link={"/videoplayer"}
+        link={"/videoPlayer"}
+      />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Profile Banner"}
+        link={"/profileBanner"}
       />
     </div>
   );

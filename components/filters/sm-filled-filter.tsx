@@ -43,7 +43,7 @@ export function FilterFilledSmall({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <Button
-          variant="LGFilled"
+          variant="largeFilled"
           role="combobox"
           aria-expanded={open}
           className="w-[154px] justify-between hover:text-muted"

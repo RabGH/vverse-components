@@ -20,12 +20,12 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         ghostCalendar:
           "hover:bg-accent hover:text-accent-foreground rounded-full",
-        LGFilled:
+        largeFilled:
           "vhrBlue text-background rounded-lg hover:border hover:text-primary",
-        LGOutline:
+        largeOutline:
           "border border-input bg-background hover:vBlue hover:text-white hover:border-0 rounded-lg",
-        BlueRedSlash: "vBlueRedSlash",
-        BlueRedStraight: "vBlueRedStraight",
+        blueRedSlash: "vBlueRedSlash",
+        blueRedStraight: "vBlueRedStraight",
       },
       size: {
         default: "w-24 h-11 px-4 py-2",
