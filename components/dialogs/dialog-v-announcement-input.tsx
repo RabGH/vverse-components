@@ -2,17 +2,15 @@ import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/v-dialog";
-import { Checkbox } from "../ui/checkbox";
-import { Input } from "../ui/input";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
 
 type VAnnouncementProps = {
   title: string;
-  description: string;
   buttonTitle: string;
   footer: string;
   inputPlaceholder: string;
@@ -20,7 +18,6 @@ type VAnnouncementProps = {
 
 export function DialogVInputAnnouncement({
   title,
-  description,
   buttonTitle,
   footer,
   inputPlaceholder,

@@ -498,7 +498,6 @@ export default function ButtonPage() {
           <div className="space-x-2">
             <DialogVInputAnnouncement
               title={"Add a new Dashboard"}
-              description={""}
               buttonTitle={"Add Dashboard"}
               footer={"Set as a Default Dashboard"}
               inputPlaceholder={"Add Your Dashboard Title Here"}

@@ -25,14 +25,10 @@ export function RectangleButton({
   target,
   variant = "LGOutline",
 }: RectangleButtonProps) {
-  const buttonClassName = cn(
-    `w-[350.5px] h-[100px] group ring-offset-background focus-visible:outline-none focus-visible:ring-2 
-  focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none`,
-    {
-      LGOutline: variant === "LGOutline",
-      LGFilled: variant === "LGFilled",
-    }
-  );
+  const buttonClassName = cn(`w-[350.5px] h-[100px] group`, {
+    LGOutline: variant === "LGOutline",
+    LGFilled: variant === "LGFilled",
+  });
 
   const labelClassName = cn({
     "text-muted group-hover:text-white": variant === "LGOutline",

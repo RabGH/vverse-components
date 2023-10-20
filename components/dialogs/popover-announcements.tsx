@@ -20,9 +20,7 @@ export function PopoverAnnouncement() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle className="text-center">
-            V-Verse Announcement
-          </DialogTitle>
+          <DialogTitle>V-Verse Announcement</DialogTitle>
 
           <DialogDescription className="text-black font-bold">
             Are you sure you want to close this announcement?
