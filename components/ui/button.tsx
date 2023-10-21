@@ -26,12 +26,16 @@ const buttonVariants = cva(
           "border border-input bg-background hover:vBlue hover:text-white hover:border-0 rounded-lg",
         blueRedSlash: "vBlueRedSlash",
         blueRedStraight: "vBlueRedStraight",
+        bannerBlue: "vBlue text-primary-foreground p-2",
+        bannerBlueRed: "vBlueRedSlash text-primary-foreground p-2",
+        userPurple: "vPurple text-primary-foreground p-2",
       },
       size: {
-        default: "w-24 h-11 px-4 py-2",
-        sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
+        default: "h-11 px-4 py-2",
+        sm: "h-9 px-3",
+        lg: "h-11 px-8",
         icon: "h-10 w-10",
+        banner: "h-11 px-8 w-36"
       },
     },
     defaultVariants: {
