@@ -12,7 +12,7 @@ import React from "react";
 const UserInfoBox = () => {
   return (
     <aside className="flex flex-col justify-left items-left">
-      <ul>
+      <ul className="space-y-1">
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconHashTag className="w-4 h-4 text-primary" />

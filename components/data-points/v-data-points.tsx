@@ -48,7 +48,7 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
           <Loader2 className="h-11 w-11 animate-spin" />
         ) : (
           <>
-            <p className="font-extrabold text-xl">
+            <p className="font-extrabold text-xl leading-[120%]">
               {currency}
               {formatNumber(number)}
             </p>
