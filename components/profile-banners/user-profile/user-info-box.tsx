@@ -9,6 +9,15 @@ import {
 } from "@/components/icons/logo-icons";
 import React from "react";
 
+// All dynamic data, current mock data. 
+
+interface UserInfoBox {
+  Id: string;
+  gender: string;
+}
+
+// this will all turn into dynamic data from the backend
+
 const UserInfoBox = () => {
   return (
     <aside className="flex flex-col justify-left items-left">

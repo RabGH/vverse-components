@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "lucide-react";
 
 const LandingNavbar = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center">
+    <div className="flex flex-wrap justify-center items-center gap-4">
       <SquareButton
         icon={ArrowRightCircle}
         label={"Base Components"}

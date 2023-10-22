@@ -6,10 +6,14 @@ import DoctorImageRound from "../../../public/images/DoctorImageRound.png";
 
 export function UserAvatar() {
   return (
-    <Avatar className="w-80 h-80 border border-primary">
-      {/* <AvatarImage src={DoctorImage} alt="User" /> */}
-      <Image src={DoctorImage} alt="User" fill className="rounded-full" />
-      <AvatarFallback>User</AvatarFallback>
-    </Avatar>
+    <div className="w-80 h-80 rounded-full shrink-0">
+      <Image
+        src={DoctorImageRound}
+        alt="User"
+        width={800}
+        height={600}
+        objectFit="contain"
+      />
+    </div>
   );
 }

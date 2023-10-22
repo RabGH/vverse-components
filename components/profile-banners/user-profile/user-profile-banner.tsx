@@ -9,6 +9,7 @@ import { UserAvatar } from "./user-avatar-large";
 const UserProfileBanner = () => {
   return (
     <div className="flex flex-row justify-center gap-4">
+      <UserAvatar />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
           <UserTitleBox />
@@ -16,7 +17,7 @@ const UserProfileBanner = () => {
           <UserDataTable isLoading={false} />
           <Separator />
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center">
+        <div className="flex flex-col gap-4 justify-center items-center m-2 ml-[-300px]">
           <UserNav />
           <Separator />
           <UserInteraction />
