@@ -51,31 +51,17 @@ export const UserRoles = {
     customer: false,
   },
 };
-const UserTags = ({ partOf }: UserTagProps) => {
-  return (
-    <div className="flex flex-wrap flex-row items-center justify-center gap-1">
-      <Badge
-        size="sm"
-        variant={partOf.author ? "info" : "infoDorment"}
-        icon={<IconUsersAuthorBtn className="w-4 h-4" />}
-      >
-        Author
-      </Badge>
-      <Badge
-        size="sm"
-        variant={partOf.candidate ? "info" : "infoDorment"}
-        icon={<IconCandidatesBtn className="w-4 h-4" />}
-      >
-        Candidate
-      </Badge>
-      <Badge
-        size="sm"
-        variant={partOf.instructor ? "info" : "infoDorment"}
-        icon={<IconInstructorsBtn className="w-4 h-4" />}
-      >
-        Instructor
-      </Badge>
-      {/* and so on for the rest of the badges */}
-    </div>
-  );
+
+export const partOf = {
+  author: UserRoles.partOf.author,
+  candidate: UserRoles.partOf.candidate,
+  instructor: UserRoles.partOf.instructor,
+  seller: UserRoles.partOf.seller,
+  lancer: UserRoles.partOf.lancer,
+  client: UserRoles.partOf.client,
+  organizer: UserRoles.partOf.organizer,
+  host: UserRoles.partOf.host,
+  expert: UserRoles.partOf.expert,
+  sponsor: UserRoles.partOf.sponsor,
+  customer: UserRoles.partOf.customer,
 };

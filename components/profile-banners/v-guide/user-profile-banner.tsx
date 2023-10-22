@@ -5,6 +5,7 @@ import UserDataTable from "./user-data-table";
 import UserTitleBox from "../master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
 import { UserAvatar } from "./user-avatar-large";
+import { partOf } from "@/constants";
 
 const UserProfileBanner = () => {
   return (
