@@ -9,6 +9,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import UserVerifiedIcons from "../v-guide/user-verification-icons";
 
 const UserTitleBox = () => {
   return (
@@ -18,10 +19,13 @@ const UserTitleBox = () => {
         Large Animals Consultant at Majestic Farm
       </p>
       <div className="flex flex-row gap-1 mt-1">
-        <IconEmailVerified className="w-7 h-7 text-primary" />
-        <IconPhoneVerified className="w-7 h-7 text-primary" />
-        <IconUnverifiedID className="w-7 h-7 text-primary" />
-        <IconUnverifiedAgreement className="w-7 h-7 text-primary" />
+        <UserVerifiedIcons
+          isIdVerified={false}
+          isEmailVerified={false}
+          isPhoneVerified={false}
+          isAgreementVerified={false}
+          isLoading={false}
+        />
         <Separator orientation="vertical" className="h-7 mx-1" />
         <Badge
           variant="bannerRed"
