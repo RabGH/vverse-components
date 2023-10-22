@@ -17,52 +17,81 @@ import {
   IconUserCheck,
 } from "@/components/icons/logo-icons";
 import UserInfoBox from "./user-info-box";
+import { userInfoData } from "@/backend-data-test";
 
 interface UserDataTable {
   isLoading: boolean;
+  sales: number;
+  earnings: number;
+  investments: number;
+  endorsements: number;
+  points: number;
+  likes: number;
+  shares: number;
+  connections: number;
+  followers: number;
+  members: number;
+  subscribers: number;
+  customers: number;
+  currency: string;
 }
 
-const UserDataTable = ({ isLoading }: UserDataTable) => {
+const UserDataTable = ({
+  isLoading,
+  sales,
+  earnings,
+  investments,
+  endorsements,
+  points,
+  likes,
+  shares,
+  connections,
+  followers,
+  members,
+  subscribers,
+  customers,
+  currency,
+}: UserDataTable) => {
   return (
     <>
       <div className="flex flex-row gap-10 items-center justify-left">
         <section className="flex flex-col items-center gap-2">
           <div className="flex flex-row gap-2">
             <VDataPoint
-              number={20000}
+              number={sales}
               description={"Sales"}
               icon={IconSalesGraph}
               isLoading={isLoading}
-              currency="$"
+              currency={currency}
             />
             <VDataPoint
-              number={20000}
+              number={earnings}
               description={"Earnings"}
               icon={IconEarn}
               isLoading={isLoading}
-              currency="$"
+              currency={currency}
             />
             <VDataPoint
-              number={7500}
+              number={investments}
               description={"Investments"}
               icon={IconGraphDollar}
               isLoading={isLoading}
-              currency="€"
+              currency={currency}
             />
             <VDataPoint
-              number={44}
+              number={endorsements}
               description={"Endorements"}
               icon={IconBullHorn}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={3500}
+              number={points}
               description={"Points"}
               icon={IconLoader}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={9000}
+              number={likes}
               description={"Likes"}
               icon={IconThumbsUpBtn}
               isLoading={isLoading}
@@ -70,37 +99,37 @@ const UserDataTable = ({ isLoading }: UserDataTable) => {
           </div>
           <div className="flex flex-row gap-2">
             <VDataPoint
-              number={1100}
+              number={shares}
               description={"Shares"}
               icon={IconShare}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={300}
+              number={connections}
               description={"Connections"}
               icon={IconConnectionsBtn}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={10000}
+              number={followers}
               description={"Followers"}
               icon={IconFollowers}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={10000}
+              number={members}
               description={"Members"}
               icon={IconMembers}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={10000}
+              number={subscribers}
               description={"Subscribers"}
               icon={IconUserCheck}
               isLoading={isLoading}
             />
             <VDataPoint
-              number={10000}
+              number={customers}
               description={"Customers"}
               icon={IconCustomers}
               isLoading={isLoading}
@@ -111,7 +140,15 @@ const UserDataTable = ({ isLoading }: UserDataTable) => {
           <Separator orientation="vertical" className="h-40 bg-muted mx-1" />
         </div>
         <section className="flex flex-row">
-          <UserInfoBox />
+          <UserInfoBox
+            id={userInfoData.id}
+            gender={userInfoData.gender}
+            country={userInfoData.country}
+            location={userInfoData.location}
+            time={userInfoData.time}
+            calendar={userInfoData.calendar}
+            lastSeen={userInfoData.lastSeen}
+          />
         </section>
       </div>
     </>

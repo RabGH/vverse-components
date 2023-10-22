@@ -11,94 +11,72 @@ import {
   IconVHostsBtn,
   UserCustomerDollar,
 } from "@/components/icons/logo-icons";
-import { Badge, BadgeProps } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+import { Badge } from "@/components/ui/badge";
 
 interface UserTagProps {
-  variant?: "info" | "infoDorment";
-  partOf: boolean;
+  partOf: Record<string, boolean>;
 }
 
-const UserTags = ({ variant, partOf }: UserTagProps) => {
+const UserTags = ({ partOf }: UserTagProps) => {
+  const roles = [
+    {
+      label: "Author",
+      icon: <IconUsersAuthorBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Candidate",
+      icon: <IconCandidatesBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Instructor",
+      icon: <IconInstructorsBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Seller",
+      icon: <IconSellersBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Lancer",
+      icon: <IconUsersLancersBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Client",
+      icon: <IconClientsBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Organizer",
+      icon: <IconUsersOrganizersBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Host",
+      icon: <IconVHostsBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Expert",
+      icon: <IconUserExpertsBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Sponsor",
+      icon: <IconSponsorsBtn className="w-4 h-4" />,
+    },
+    {
+      label: "Customer",
+      icon: <UserCustomerDollar className="w-4 h-4" />,
+    },
+  ];
+
   return (
     <div className="flex flex-wrap flex-row items-center justify-center gap-1">
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconUsersAuthorBtn className="w-4 h-4" />}
-      >
-        Author
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconCandidatesBtn className="w-4 h-4" />}
-      >
-        Candidate
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconInstructorsBtn className="w-4 h-4" />}
-      >
-        Instructor
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconSellersBtn className="w-4 h-4" />}
-      >
-        Seller
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconUsersLancersBtn className="w-4 h-4" />}
-      >
-        Lancer
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconClientsBtn className="w-4 h-4" />}
-      >
-        Client
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconUsersOrganizersBtn className="w-4 h-4" />}
-      >
-        Organizer
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconVHostsBtn className="w-4 h-4" />}
-      >
-        Host
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconUserExpertsBtn className="w-4 h-4" />}
-      >
-        Expert
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<IconSponsorsBtn className="w-4 h-4" />}
-      >
-        Sponsor
-      </Badge>
-      <Badge
-        size="sm"
-        variant={cn("infoDorment") as BadgeProps["variant"]}
-        icon={<UserCustomerDollar className="w-4 h-4" />}
-      >
-        Customer
-      </Badge>
+      {roles.map((role) => (
+        <Badge
+          key={role.label}
+          size="sm"
+          variant={partOf[role.label.toLowerCase()] ? "info" : "infoDorment"}
+          icon={role.icon}
+        >
+          {role.label}
+        </Badge>
+      ))}
     </div>
   );
 };

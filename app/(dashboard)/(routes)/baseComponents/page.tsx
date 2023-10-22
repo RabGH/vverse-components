@@ -12,7 +12,6 @@ import {
   ArrowDownAZ,
   Megaphone,
   CalendarDays,
-  AxeIcon,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -51,7 +50,6 @@ import {
   IconCustomers,
 } from "@/components/icons/logo-icons";
 import { VBadges } from "@/components/test/v-badge";
-import { categories } from "@/constants";
 import { FilterOutlineLarge } from "@/components/filters/lg-outline-filter";
 import { FilterFilledLarge } from "@/components/filters/lg-filled-filter";
 import { FilterFilledSmall } from "@/components/filters/sm-filled-filter";
@@ -64,6 +62,8 @@ import { DialogVInputAnnouncement } from "@/components/dialogs/dialog-v-announce
 import { CalendarDemo } from "@/components/calendars/default-calendar";
 import { DatePickerWithRange } from "@/components/calendars/range-calendar";
 import { VDataPoint } from "@/components/data-points/v-data-points";
+
+import { categories } from "@/backend-data-test";
 
 export default function ButtonPage() {
   const [isLoading, setIsLoading] = useState(false);

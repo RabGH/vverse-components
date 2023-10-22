@@ -9,59 +9,68 @@ import {
 } from "@/components/icons/logo-icons";
 import React from "react";
 
-// All dynamic data, current mock data. 
-
 interface UserInfoBox {
-  Id: string;
+  id: string;
   gender: string;
+  country: string;
+  location: string;
+  time: string;
+  calendar: string;
+  lastSeen: string;
 }
 
-// this will all turn into dynamic data from the backend
-
-const UserInfoBox = () => {
+const UserInfoBox = ({
+  id,
+  gender,
+  country,
+  location,
+  time,
+  calendar,
+  lastSeen,
+}: UserInfoBox) => {
   return (
     <aside className="flex flex-col justify-left items-left">
       <ul className="space-y-1">
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconHashTag className="w-4 h-4 text-primary" />
-            MBR-756
+            {id}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconGender className="w-4 h-4 text-primary" />
-            Male
+            {gender}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconGlobe className="w-4 h-4 text-primary" />
-            Egypt
+            {country}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconMapPerson className="w-4 h-4 text-primary" />
-            UAE - Dubai
+            {location}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconClock className="w-4 h-4 text-primary" />
-            01:00 PM
+            {time}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconCalendarSideDash className="w-4 h-4 text-primary" />
-            15-Sep-2022 02:45 PM
+            {calendar}
           </p>
         </li>
         <li>
           <p className="text-sm text-muted flex flex-row gap-1">
             <IconLastSeen className="w-4 h-4 text-primary" />
-            11-Nov-2022 09:45 PM
+            {lastSeen}
           </p>
         </li>
       </ul>
