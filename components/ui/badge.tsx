@@ -2,6 +2,7 @@ import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
+import { Loader2 } from "lucide-react";
 
 const badgeVariants = cva(
   `inline-flex items-center justify-center rounded-full border px-2.5 py-0.5 text-xs font-semibold 
@@ -16,15 +17,18 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
-        success: "vgGreen text-background border-none",
-        info: "vgBlue text-background border-none",
-        profile: "bg-violet text-background border-none",
+        success: "vGreen text-primary-foreground border-none",
+        info: "vBlue text-primary-foreground border-none font-normal",
+        infoDorment: "vPurple text-primary-foreground border-none font-normal",
+        profile: "bg-violet text-primary-foreground border-none",
+        bannerRed: "vRed text-primary-foreground p-2 border-none",
       },
       size: {
         default: "w-28 h-11",
-        sm: "w-16 h-8",
+        sm: "h-9 px-3",
         lg: "w-40 h-11",
         icon: "w-32 h-10",
+        featured: "h-7 px-3",
       },
     },
     defaultVariants: {
@@ -37,13 +41,22 @@ const badgeVariants = cva(
 export interface BadgeProps
   extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof badgeVariants> {
+  isLoading?: boolean;
   icon?: React.ReactNode;
 }
 
-function Badge({ className, variant, icon, size, ...props }: BadgeProps) {
+function Badge({
+  className,
+  variant,
+  isLoading,
+  icon,
+  size,
+  ...props
+}: BadgeProps) {
   return (
     <div className={cn(badgeVariants({ variant, size }), className)}>
       {icon && <span className="mr-1">{icon}</span>}
+      {isLoading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
       {props.children}
     </div>
   );

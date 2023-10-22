@@ -11,6 +11,8 @@ export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   currency?: string;
 }
 
+// add possibility of second number for rating
+
 const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
   (
     {

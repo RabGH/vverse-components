@@ -8,6 +8,7 @@ import {
   IconZap,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 const UserTitleBox = () => {
   return (
@@ -22,13 +23,13 @@ const UserTitleBox = () => {
         <IconUnverifiedID className="w-7 h-7 text-primary" />
         <IconUnverifiedAgreement className="w-7 h-7 text-primary" />
         <Separator orientation="vertical" className="h-7 mx-1" />
-        <Button
+        <Badge
           variant="bannerRed"
           size="featured"
           icon={<IconZap className="w-4 h-4" />}
         >
           Featured
-        </Button>
+        </Badge>
       </div>
     </div>
   );
