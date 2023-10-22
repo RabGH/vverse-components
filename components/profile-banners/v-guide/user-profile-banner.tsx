@@ -18,7 +18,7 @@ const UserProfileBanner = () => {
           <Separator />
         </div>
         <div className="flex flex-col gap-4 justify-center items-center m-2 ml-[-300px]">
-          <UserTags roles={[Author, Candidate]} />
+          <UserTags partOf={false} />
           <Separator />
           <UserInteraction />
         </div>
