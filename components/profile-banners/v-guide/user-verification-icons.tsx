@@ -1,3 +1,5 @@
+import { Loader2 } from "lucide-react";
+
 import {
   IconEmailVerified,
   IconIDVerified,
@@ -8,8 +10,6 @@ import {
   IconUnverifiedID,
   IconUnverifiedPhone,
 } from "@/components/icons/logo-icons";
-import { Loader2 } from "lucide-react";
-import React from "react";
 
 interface UserVerifiedIconProps {
   isIdVerified: boolean;

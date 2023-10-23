@@ -1,10 +1,9 @@
 import React from "react";
-
 import { IconMyProfileBtn } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
 import UserProfileBanner from "@/components/profile-banners/v-guide/user-profile-banner";
 
-const ProfileBannerPage = () => {
+export const ProfileBannerPage = () => {
   return (
     <div>
       <Heading
@@ -12,9 +11,7 @@ const ProfileBannerPage = () => {
         description={"Profile Banners for users."}
         icon={IconMyProfileBtn}
       />
-      <UserProfileBanner isLoading={false} />
+      <UserProfileBanner />
     </div>
   );
 };
-
-export default ProfileBannerPage;

@@ -183,6 +183,14 @@ body,
     @apply bg-gradient-to-r from-purpleLight via-purpleMid to-purpleDark;
   }
 
+  /* Green Gradient */
+  .vGreen {
+    @apply bg-gradient-to-r from-greenDark via-greenMid to-greenLight;
+  }
+  .vGreen:hover {
+    @apply bg-gradient-to-r from-greenLight via-greenMid to-greenDark;
+  }
+
   /* Blue Red Gradient */
   .vBlueRedSlash {
     @apply border-0 [background:linear-gradient(62.47deg,_#016DEA,_#FA0101)] text-white 

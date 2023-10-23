@@ -7,16 +7,27 @@ import { Separator } from "@/components/ui/separator";
 import { UserLargeAvatar } from "./user-avatar-large";
 import { partOf, vNationUserData } from "@/backend-data-test";
 
-const UserProfileBanner = () => {
+interface UserProfileBannerProps {
+  isLoading: boolean;
+}
+
+const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserLargeAvatar />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
-          <UserTitleBox />
+          <UserTitleBox
+            userName={"<Member Name>"}
+            userTitle={"Vverse V-Nation Guide, user title demo."}
+            isGuide={true}
+            isLoading={isLoading}
+            points={100}
+            endorsements={44}
+          />
           <Separator />
           <UserDataTable
-            isLoading={false}
+            isLoading={isLoading}
             sales={vNationUserData.sales}
             earnings={vNationUserData.earnings}
             investments={vNationUserData.investments}
@@ -36,7 +47,11 @@ const UserProfileBanner = () => {
         <div className="flex flex-col gap-4 justify-center items-center m-2 ml-[-300px]">
           <UserTags partOf={partOf} />
           <Separator />
-          <UserInteraction isConnected={false} />
+          <UserInteraction
+            isConnected={false}
+            isLoggedIn={true}
+            isOwner={false}
+          />
         </div>
       </div>
     </div>
