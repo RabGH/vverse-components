@@ -1,36 +1,63 @@
 import { VDataPoint } from "@/components/data-points/v-data-points";
 import {
-  IconPost,
+  IconFollowers,
   IconShare,
   IconStar,
+  IconTV,
   IconThumbsUp,
+  IconUserCheck,
+  IconVideo,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface BlogDataTable {
+interface AuthorDataTable {
   isLoading: boolean;
-  posts: number;
+  channels: number;
+  videos: number;
+  subscribers: number;
+  views: number;
   likes: number;
   shares: number;
-  rating: number;
   ratingPoints: number;
+  rating: number;
 }
 
-const BlogDataTable = ({
+const AuthorDataTable = ({
   isLoading,
-  posts,
+  channels,
+  videos,
+  subscribers,
+  views,
   likes,
   shares,
-  rating,
   ratingPoints,
-}: BlogDataTable) => {
+  rating,
+}: AuthorDataTable) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={posts}
-          description={"Posts"}
-          icon={IconPost}
+          number={channels}
+          description={"Channels"}
+          icon={IconTV}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={videos}
+          description={"Videos"}
+          icon={IconVideo}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={subscribers}
+          description={"Subscribers"}
+          icon={IconUserCheck}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={views}
+          description={"Followers"}
+          icon={IconFollowers}
           isLoading={isLoading}
         />
         <VDataPoint
@@ -61,4 +88,4 @@ const BlogDataTable = ({
   );
 };
 
-export default BlogDataTable;
+export default AuthorDataTable;

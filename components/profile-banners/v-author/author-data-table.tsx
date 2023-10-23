@@ -1,8 +1,12 @@
 import { VDataPoint } from "@/components/data-points/v-data-points";
 import {
+  IconFollowers,
+  IconGrid,
+  IconMembers,
   IconPost,
   IconPostsBtn,
   IconShare,
+  IconSocialPagesBtn,
   IconStar,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
@@ -11,15 +15,23 @@ import { Button } from "@/components/ui/button";
 interface AuthorDataTable {
   isLoading: boolean;
   posts: number;
+  socialPages: number;
+  socialGroups: number;
+  followers: number;
+  members: number;
   likes: number;
   shares: number;
-  rating: number;
   ratingPoints: number;
+  rating: number;
 }
 
 const AuthorDataTable = ({
   isLoading,
   posts,
+  socialPages,
+  socialGroups,
+  followers,
+  members,
   likes,
   shares,
   rating,
@@ -32,6 +44,30 @@ const AuthorDataTable = ({
           number={posts}
           description={"Posts"}
           icon={IconPost}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={socialPages}
+          description={"Social Pages"}
+          icon={IconSocialPagesBtn}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={socialGroups}
+          description={"Social Groups"}
+          icon={IconGrid}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={followers}
+          description={"Followers"}
+          icon={IconFollowers}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={members}
+          description={"Members"}
+          icon={IconMembers}
           isLoading={isLoading}
         />
         <VDataPoint

@@ -1900,35 +1900,6 @@ export const IconStore = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconStore.displayName = "IconStore";
 
-export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>(
-  (props, ref) => (
-    <svg
-      {...props}
-      ref={ref}
-      viewBox="0 0 50 50"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M47.9173 14.5833L33.334 24.9999L47.9173 35.4166V14.5833Z"
-        stroke="currentColor"
-        strokeWidth="2.08333"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M29.1673 10.4166H6.25065C3.94946 10.4166 2.08398 12.2821 2.08398 14.5833V35.4166C2.08398 37.7178 3.94946 39.5833 6.25065 39.5833H29.1673C31.4685 39.5833 33.334 37.7178 33.334 35.4166V14.5833C33.334 12.2821 31.4685 10.4166 29.1673 10.4166Z"
-        stroke="currentColor"
-        strokeWidth="2.08333"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-);
-
-IconVideo.displayName = "IconVideo";
-
 export const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
@@ -6669,7 +6640,7 @@ export const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconTrashThin.displayName = "IconTrashThin";
 
-export const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
+export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
       {...props}
@@ -6696,7 +6667,7 @@ export const IconVideoBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   )
 );
 
-IconVideoBtn.displayName = "IconVideoBtn";
+IconVideo.displayName = "IconVideo";
 
 export const IconZap = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
@@ -9863,7 +9834,6 @@ export const Icons = {
   IconTicket: IconTicket,
   IconToolbox: IconToolbox,
   IconTrashThin: IconTrashThin,
-  IconVideoBtn: IconVideoBtn,
   IconZap: IconZap,
   IconShoppingBagBox: IconShoppingBagBox,
   IconAchievementsBtn: IconAchievementsBtn,

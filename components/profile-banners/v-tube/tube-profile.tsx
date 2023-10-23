@@ -1,15 +1,15 @@
 import { UserAvatar } from "@/components/profile-banners/master-banner/user-avatar";
 import { Separator } from "@/components/ui/separator";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
-import AuthorDataTable from "@/components/profile-banners/v-author/author-data-table";
-import { vAuthorUserData } from "@/backend-data-test";
+import TubeDataTable from "@/components/profile-banners/v-tube/tube-data-table";
+import { vTubeUserData } from "@/backend-data-test";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 
-interface AuthorProfileProps {
+interface TubeProfileProps {
   isLoading: boolean;
 }
 
-const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
+const TubeProfile = ({ isLoading }: TubeProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserAvatar />
@@ -17,26 +17,23 @@ const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
         <div>
           <UserTitleBox
             userName={"<Member Name>"}
-            userTitle={
-              "Author at the blogging website for authors, demo vverse."
-            }
+            userTitle={"Tuber at the v-tube website for videos, demo vverse."}
             points={50}
             endorsements={3}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
               <Separator />
-              <AuthorDataTable
+              <TubeDataTable
                 isLoading={isLoading}
-                posts={vAuthorUserData.posts}
-                likes={vAuthorUserData.likes}
-                shares={vAuthorUserData.shares}
-                rating={vAuthorUserData.rating}
-                ratingPoints={vAuthorUserData.ratingPoints}
-                socialPages={vAuthorUserData.socialPages}
-                socialGroups={vAuthorUserData.socialGroups}
-                followers={vAuthorUserData.followers}
-                members={vAuthorUserData.members}
+                channels={vTubeUserData.channels}
+                videos={vTubeUserData.videos}
+                subscribers={vTubeUserData.subscribers}
+                views={vTubeUserData.views}
+                likes={vTubeUserData.likes}
+                shares={vTubeUserData.shares}
+                ratingPoints={vTubeUserData.ratingPoints}
+                rating={vTubeUserData.rating}
               />
               <Separator />
             </div>
@@ -54,4 +51,4 @@ const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
   );
 };
 
-export default AuthorProfile;
+export default TubeProfile;

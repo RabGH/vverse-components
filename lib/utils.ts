@@ -14,3 +14,13 @@ export function formatNumber(num: number) {
     return (num / 1000000).toFixed(1) + "M";
   }
 }
+
+export function formatJobExperience(years: number) {
+  if (years === 1) {
+    return years + " Yr";
+  } else if (years > 1) {
+    return years + " Yrs";
+  } else {
+    return "";
+  }
+}

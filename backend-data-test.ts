@@ -87,7 +87,7 @@ export const vBlogUserData = {
 export const vAuthorUserData = {
   posts: 350,
   socialPages: 4,
-  socialGrounds: 5,
+  socialGroups: 5,
   followers: 3200,
   members: 9700,
   likes: 4500,
@@ -95,3 +95,18 @@ export const vAuthorUserData = {
   ratingPoints: 1200,
   rating: 3.7,
 };
+
+export const vTubeUserData = {
+  channels: 4,
+  videos: 1000,
+  subscribers: 20000,
+  views: 256000,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 1200,
+  rating: 5,
+};
+
+export const vJobUserData = {
+  
+}
