@@ -235,44 +235,99 @@ body,
   .vlPlum {
     @apply bg-gradient-to-r from-plumLight to-plumDark;
   }
+  .vlPlum:hover {
+    @apply bg-gradient-to-r from-plumDark to-plumLight;
+  }
+
   .vlOrange {
     @apply bg-gradient-to-r from-orangeLight to-orangeDark;
   }
+  .vlOrange:hover {
+    @apply bg-gradient-to-r from-orangeDark to-orangeLight;
+  }
+
   .vlHotPink {
     @apply bg-gradient-to-r from-hotPinkLight to-hotPinkDark;
   }
+  .vlHotPink:hover {
+    @apply bg-gradient-to-r from-hotPinkDark to-hotPinkLight;
+  }
+
   .vlSoftBrown {
     @apply bg-gradient-to-r from-softBrownLight to-softBrownDark;
   }
+  .vlSoftBrown:hover {
+    @apply bg-gradient-to-r from-softBrownDark to-softBrownLight;
+  }
+
   .vlSkyBlue {
     @apply bg-gradient-to-r from-skyBlueLight to-skyBlueDark;
   }
+  .vlSkyBlue:hover {
+    @apply bg-gradient-to-r from-skyBlueDark to-skyBlueLight;
+  }
+
   .vlMustardYellow {
     @apply bg-gradient-to-r from-mustardYellowLight to-mustardYellowDark;
   }
+  .vlMustardYellow:hover {
+    @apply bg-gradient-to-r from-mustardYellowDark to-mustardYellowLight;
+  }
+
   .vlOlive {
     @apply bg-gradient-to-r from-oliveLight to-oliveDark;
   }
+  .vlOlive:hover {
+    @apply bg-gradient-to-r from-oliveDark to-oliveLight;
+  }
+
   .vlPeach {
     @apply bg-gradient-to-r from-peachLight to-peachDark;
   }
+  .vlPeach:hover {
+    @apply bg-gradient-to-r from-peachDark to-peachLight;
+  }
+
   .vlMidnightBlue {
     @apply bg-gradient-to-r from-midnightBlueLight to-midnightBlueDark;
   }
+  .vlMidnightBlue:hover {
+    @apply bg-gradient-to-r from-midnightBlueDark to-midnightBlueLight;
+  }
+
   .vlMutedPurple {
     @apply bg-gradient-to-r from-mutedPurpleLight to-mutedPurpleDark;
   }
+  .vlMutedPurple:hover {
+    @apply bg-gradient-to-r from-mutedPurpleDark to-mutedPurpleLight;
+  }
+
   .vlMatteBlue {
     @apply bg-gradient-to-r from-matteBlueLight to-matteBlueDark;
   }
+  .vlMatteBlue:hover {
+    @apply bg-gradient-to-r from-matteBlueDark to-matteBlueLight;
+  }
+
   .vlAqua {
     @apply bg-gradient-to-r from-aquaLight to-aquaDark;
   }
+  .vlAqua:hover {
+    @apply bg-gradient-to-r from-aquaDark to-aquaLight;
+  }
+
   .vlTealGreen {
     @apply bg-gradient-to-r from-tealGreenLight to-tealGreenDark;
   }
+  .vlTealGreen:hover {
+    @apply bg-gradient-to-r from-tealGreenDark to-tealGreenLight;
+  }
+
   .vlPink {
     @apply bg-gradient-to-r from-pinkLight to-pinkDark;
+  }
+  .vlPink:hover {
+    @apply bg-gradient-to-r from-pinkDark to-pinkLight;
   }
 
   /* largeFilled Varient Outline to Filled */

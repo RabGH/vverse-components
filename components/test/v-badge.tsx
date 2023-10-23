@@ -79,7 +79,7 @@ export function VBadges() {
         </Badge>
         <Badge
           variant={"info"}
-          className="vgRed"
+          className="vRed"
           size="default"
           icon={<IconCrownExclusive className="w-4 h-4" />}
         >

@@ -32,7 +32,8 @@ const buttonVariants = cva(
         userPurple: "vPurple text-primary-foreground p-2",
       },
       size: {
-        default: "h-11 px-4 py-2",
+        default: "h-10 px-4 py-2",
+        defaultMd: "h-11 px-4 py-2 rounded-md",
         sm: "h-9 px-3",
         lg: "h-11 px-8",
         icon: "h-10 w-10",
