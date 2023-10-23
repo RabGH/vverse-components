@@ -1,6 +1,4 @@
-import React from "react";
 import { Separator } from "@/components/ui/separator";
-
 import { VDataPoint } from "@/components/data-points/v-data-points";
 import {
   IconBullHorn,
@@ -13,7 +11,7 @@ import {
   IconMembers,
   IconSalesGraph,
   IconShare,
-  IconThumbsUpBtn,
+  IconThumbsUp,
   IconUserCheck,
 } from "@/components/icons/logo-icons";
 import UserInfoBox from "./user-info-box";
@@ -93,7 +91,7 @@ const UserDataTable = ({
             <VDataPoint
               number={likes}
               description={"Likes"}
-              icon={IconThumbsUpBtn}
+              icon={IconThumbsUp}
               isLoading={isLoading}
             />
           </div>

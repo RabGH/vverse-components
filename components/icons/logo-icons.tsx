@@ -8955,51 +8955,6 @@ export const IconGeneralSettingsBtn = React.forwardRef<
 
 IconGeneralSettingsBtn.displayName = "IconGeneralSettingsBtn";
 
-export const IconShareBtn = React.forwardRef<SVGSVGElement, LucideProps>(
-  (props, ref) => (
-    <svg
-      {...props}
-      ref={ref}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22Z"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M8.58984 13.51L15.4198 17.49"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M15.4098 6.51001L8.58984 10.49"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-);
-
-IconShareBtn.displayName = "IconShareBtn";
-
 export const IconSkillsCarouselBtn = React.forwardRef<
   SVGSVGElement,
   LucideProps
@@ -9255,28 +9210,6 @@ export const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 
 IconSponsorsBtn.displayName = "IconSponsorsBtn";
 
-export const IconStarBtn = React.forwardRef<SVGSVGElement, LucideProps>(
-  (props, ref) => (
-    <svg
-      {...props}
-      ref={ref}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-);
-
-IconStarBtn.displayName = "IconStarBtn";
-
 export const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
@@ -9345,27 +9278,6 @@ export const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
 );
 
 IconTeamBtn.displayName = "IconTeamBtn";
-
-export const IconThumbsUpBtn = React.forwardRef<SVGSVGElement, LucideProps>(
-  (props, ref) => (
-    <svg
-      {...props}
-      ref={ref}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M7 11L11 2C11.7956 2 12.5587 2.31607 13.1213 2.87868C13.6839 3.44129 14 4.20435 14 5V9H19.66C19.9499 8.99672 20.2371 9.0565 20.5016 9.17522C20.7661 9.29393 21.0016 9.46873 21.1919 9.68751C21.3821 9.90629 21.5225 10.1638 21.6033 10.4423C21.6842 10.7207 21.7035 11.0134 21.66 11.3L20.28 20.3C20.2077 20.7769 19.9654 21.2116 19.5979 21.524C19.2304 21.8364 18.7623 22.0055 18.28 22H7M7 11V22M7 11H4C3.46957 11 2.96086 11.2107 2.58579 11.5858C2.21071 11.9609 2 12.4696 2 13V20C2 20.5304 2.21071 21.0391 2.58579 21.4142C2.96086 21.7893 3.46957 22 4 22H7"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-);
-
-IconThumbsUpBtn.displayName = "IconThumbsUpBtn";
 
 export const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
@@ -10007,14 +9919,11 @@ export const Icons = {
   IconServicesBtn: IconServicesBtn,
   IconSettingsBtn: IconSettingsBtn,
   IconGeneralSettingsBtn: IconGeneralSettingsBtn,
-  IconShareBtn: IconShareBtn,
   IconSkillsCarouselBtn: IconSkillsCarouselBtn,
   IconSocialPagesBtn: IconSocialPagesBtn,
   IconSponsorsBtn: IconSponsorsBtn,
-  IconStarBtn: IconStarBtn,
   IconStoriesBtn: IconStoriesBtn,
   IconTeamBtn: IconTeamBtn,
-  IconThumbsUpBtn: IconThumbsUpBtn,
   IconTimeLineBtn: IconTimeLineBtn,
   IconMyJobsBtn: IconMyJobsBtn,
   IconTVBtn: IconTVBtn,

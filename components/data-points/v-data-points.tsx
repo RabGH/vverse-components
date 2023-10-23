@@ -9,9 +9,9 @@ export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   number: number;
   description: string;
   currency?: string;
+  isRated?: boolean;
+  rating?: number;
 }
-
-// add possibility of second number for rating
 
 const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
   (
@@ -22,6 +22,8 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
       isLoading,
       icon: Icon,
       currency,
+      isRated,
+      rating,
       ...props
     },
     ref
@@ -45,15 +47,21 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
           <Icon className="w-[20px] h-[20px]" />
         </div>
       </div>
-      <div className="h-full w-full flex flex-col text-center justify-center items-center mt-[-20px]">
+      <div className="h-full w-full flex flex-col text-center justify-center items-center mt-[-10px]">
         {isLoading ? (
           <Loader2 className="h-11 w-11 animate-spin" />
         ) : (
           <>
-            <p className="font-extrabold text-xl leading-[120%]">
-              {currency}
-              {formatNumber(number)}
-            </p>
+            {isRated ? (
+              <p className="font-extrabold text-xl leading-[120%]">
+                {rating?.toFixed(1)}({formatNumber(number)})
+              </p>
+            ) : (
+              <p className="font-extrabold text-xl leading-[120%]">
+                {currency}
+                {formatNumber(number)}
+              </p>
+            )}
           </>
         )}
         <p className="font-medium text-sm">{description}</p>

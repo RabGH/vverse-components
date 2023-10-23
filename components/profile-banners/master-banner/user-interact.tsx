@@ -6,6 +6,7 @@ interface UserInteractionProps {
   isConnected?: boolean;
   isOwner?: boolean;
   isLoggedIn?: boolean;
+  isMiniProfile?: boolean;
 }
 
 const UserInteraction = ({
@@ -55,6 +56,9 @@ const UserInteraction = ({
         <>
           <Button variant="bannerBlueRed" size="banner">
             Connect
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Endorse
           </Button>
           <Button variant="bannerBlueRed" size="banner">
             Message

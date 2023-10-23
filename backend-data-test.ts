@@ -75,3 +75,23 @@ export const vNationUserData = {
   subscribers: 200,
   customers: 43300,
 };
+
+export const vBlogUserData = {
+  posts: 1000,
+  likes: 9000,
+  shares: 1100,
+  ratingPoints: 1200,
+  rating: 4.7,
+};
+
+export const vAuthorUserData = {
+  posts: 350,
+  socialPages: 4,
+  socialGrounds: 5,
+  followers: 3200,
+  members: 9700,
+  likes: 4500,
+  shares: 1100,
+  ratingPoints: 1200,
+  rating: 3.7,
+};

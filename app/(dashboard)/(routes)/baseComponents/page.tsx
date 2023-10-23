@@ -40,7 +40,6 @@ import {
   IconGraphPollBtn,
   IconBullHorn,
   IconLoader,
-  IconThumbsUpBtn,
   IconShare,
   IconGraphDollar,
   IconConnectionsBtn,
@@ -48,6 +47,7 @@ import {
   IconMembers,
   IconUserCheck,
   IconCustomers,
+  IconThumbsUp,
 } from "@/components/icons/logo-icons";
 import { VBadges } from "@/components/test/v-badge";
 import { FilterOutlineLarge } from "@/components/filters/lg-outline-filter";
@@ -567,7 +567,7 @@ export default function ButtonPage() {
           <VDataPoint
             number={9000}
             description={"Likes"}
-            icon={IconThumbsUpBtn}
+            icon={IconThumbsUp}
             isLoading={isLoading}
           />
           <VDataPoint

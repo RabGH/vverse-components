@@ -1,8 +1,7 @@
-import React from "react";
 import UserTags from "@/components/profile-banners/v-guide/user-tags";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
-import UserDataTable from "./user-data-table";
-import UserTitleBox from "../master-banner/user-title-box";
+import UserDataTable from "@/components/profile-banners/v-guide/user-data-table";
+import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
 import { UserLargeAvatar } from "./user-avatar-large";
 import { partOf, vNationUserData } from "@/backend-data-test";
@@ -48,7 +47,7 @@ const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
           <UserTags partOf={partOf} />
           <Separator />
           <UserInteraction
-            isConnected={false}
+            isConnected={true}
             isLoggedIn={true}
             isOwner={false}
           />

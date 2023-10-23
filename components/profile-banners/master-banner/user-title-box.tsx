@@ -26,7 +26,7 @@ const UserTitleBox = ({
   isWork = false,
 }: UserTitleBoxProps) => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between items-center space-x-40">
       <div className="flex flex-col">
         <h2 className="font-extrabold text-3xl">{userName}</h2>
         <p className="text-muted text-base">{userTitle}</p>

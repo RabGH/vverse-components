@@ -32,7 +32,7 @@ const RankMedals = ({ rank }: RankMedalProps) => {
   }
 
   return (
-    <div>
+    <div className="mb-2">
       <Image src={imageSrc} alt={rank} width={125} height={125} />
     </div>
   );
