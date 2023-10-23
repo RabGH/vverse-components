@@ -1,14 +1,20 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { IconUserBtn } from "@/components/icons/logo-icons";
+import Image from "next/image";
 
 export function UserAvatar() {
   return (
     <div className="flex flex-col items-center">
       <div className="rounded-full shrink-0">
-        <Avatar size="md">
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback />
+        <Avatar size="md" className="border border-primary">
+          <AvatarImage src="" alt="Vverse" />
+          <AvatarFallback>
+            <Image
+              fill
+              objectFit="cover"
+              src="/images/DoctorImage.png"
+              alt="vverse"
+            />
+          </AvatarFallback>
         </Avatar>
       </div>
     </div>

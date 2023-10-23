@@ -21,6 +21,7 @@ const TubeProfile = ({ isLoading }: TubeProfileProps) => {
             points={50}
             endorsements={3}
             isFeatured={true}
+            rank={"vendorSilver"}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">

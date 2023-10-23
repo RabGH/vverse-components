@@ -1,14 +1,22 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { IconUserBtn } from "@/components/icons/logo-icons";
+import Image from "next/image";
 
 export function UserLargeAvatar() {
   return (
     <div className="flex flex-col items-center">
       <div className="w-80 h-80 rounded-full shrink-0">
         <Avatar size="lg">
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback />
+          <AvatarImage src="" alt="Vverse" />
+          <AvatarFallback>
+            <Image
+              fill
+              objectFit="cover"
+              src="/images/DoctorImage.png"
+              alt="vverse"
+            />
+          </AvatarFallback>
         </Avatar>
       </div>
       <Badge

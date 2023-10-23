@@ -1,7 +1,7 @@
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
 
-interface RankMedalProps {
+export interface RankMedalProps {
   rank:
     | "standardSilver"
     | "standardGold"
@@ -13,6 +13,7 @@ interface RankMedalProps {
     | "ambassadorGold"
     | "ambassadorPlatinum";
 }
+
 
 const RankMedals = ({ rank }: RankMedalProps) => {
   const imageSrc = {

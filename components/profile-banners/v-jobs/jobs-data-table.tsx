@@ -3,12 +3,9 @@ import {
   IconBudget,
   IconExperienceStars,
   IconFollowers,
-  IconTV,
   IconUserCheck,
-  IconVideo,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
-import { IconWorkExperienceBtn } from "../../icons/logo-icons";
 
 interface JobsDataTableProps {
   isLoading: boolean;

@@ -23,6 +23,7 @@ const BlogProfile = ({ isLoading }: BlogProfileProps) => {
             points={50}
             endorsements={3}
             isFeatured={true}
+            rank={"ambassadorPlatinum"}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
@@ -43,7 +44,7 @@ const BlogProfile = ({ isLoading }: BlogProfileProps) => {
           <UserInteraction
             isConnected={true}
             isLoggedIn={true}
-            isOwner={false}
+            isOwner={true}
             isMiniView={false}
           />
         </div>

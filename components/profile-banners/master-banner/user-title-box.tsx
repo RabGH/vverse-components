@@ -7,7 +7,9 @@ import {
 } from "@/components/icons/logo-icons";
 import { Badge } from "@/components/ui/badge";
 import UserVerifiedIcons from "@/components/profile-banners/v-guide/user-verification-icons";
-import RankMedals from "@/components/profile-banners/master-banner/rank-medals";
+import RankMedals, {
+  RankMedalProps,
+} from "@/components/profile-banners/master-banner/rank-medals";
 import UserPoints from "@/components/profile-banners/master-banner/user-points";
 
 interface UserTitleBoxProps {
@@ -17,9 +19,10 @@ interface UserTitleBoxProps {
   endorsements: number;
   isLoading?: boolean;
   isGuide?: boolean;
-  isFeatured?: boolean; // New prop
-  isOpenToWork?: boolean; // New prop
-  isHiring?: boolean; // New prop
+  isFeatured?: boolean;
+  isOpenToWork?: boolean;
+  isHiring?: boolean;
+  rank: RankMedalProps["rank"];
 }
 
 const UserTitleBox = ({
@@ -27,6 +30,7 @@ const UserTitleBox = ({
   userTitle,
   points,
   endorsements,
+  rank = "standardSilver",
   isLoading = false,
   isGuide = false,
   isFeatured = false,
@@ -41,7 +45,7 @@ const UserTitleBox = ({
         <div className="flex flex-row gap-1 mt-1">
           {isGuide ? (
             <UserVerifiedIcons
-              isIdVerified={false}
+              isIdVerified={true}
               isEmailVerified={true}
               isPhoneVerified={true}
               isAgreementVerified={false}
@@ -80,7 +84,7 @@ const UserTitleBox = ({
           )}
         </div>
       </div>
-      <RankMedals rank={"standardSilver"} />
+      <RankMedals rank={rank} />
     </div>
   );
 };

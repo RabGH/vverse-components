@@ -22,6 +22,7 @@ const JobProfile = ({ isLoading }: JobProfileProps) => {
             endorsements={3}
             isFeatured={true}
             isOpenToWork={true}
+            rank={"vendorGold"}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
