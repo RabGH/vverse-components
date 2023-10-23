@@ -2,13 +2,17 @@ import React from "react";
 
 import {
   IconCreateStudioBtn,
+  IconMyJobsBtn,
   IconMyProfileBtn,
+  IconUsersAuthorBtn,
+  IconVideo,
 } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
 import UserProfileBanner from "@/components/profile-banners/v-guide/user-profile-banner";
 import BlogProfile from "@/components/profile-banners/v-blog/blog-profile";
 import AuthorProfile from "@/components/profile-banners/v-author/author-profile";
 import TubeProfile from "@/components/profile-banners/v-tube/tube-profile";
+import JobProfile from "@/components/profile-banners/v-jobs/job-profile";
 
 const ProfileBannerPage = () => {
   return (
@@ -29,15 +33,21 @@ const ProfileBannerPage = () => {
         <Heading
           title={"V-Nation Author Banners"}
           description={"V-Nation Banner for users."}
-          icon={IconCreateStudioBtn}
+          icon={IconUsersAuthorBtn}
         />
         <AuthorProfile isLoading={false} />
         <Heading
           title={"V-Tube Banners"}
-          description={"V-tube Banner for users."}
-          icon={IconCreateStudioBtn}
+          description={"V-Tube Banner for users."}
+          icon={IconVideo}
         />
         <TubeProfile isLoading={false} />
+        <Heading
+          title={"Job Candidate Banners"}
+          description={"V-Job Banner for users."}
+          icon={IconMyJobsBtn}
+        />
+        <JobProfile isLoading={false} />
       </div>
     </div>
   );

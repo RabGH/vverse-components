@@ -22,6 +22,7 @@ const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
             }
             points={50}
             endorsements={3}
+            isFeatured={true}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
@@ -47,6 +48,7 @@ const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
             isConnected={false}
             isLoggedIn={true}
             isOwner={false}
+            isMiniView={false}
           />
         </div>
       </div>

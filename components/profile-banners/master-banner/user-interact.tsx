@@ -6,13 +6,14 @@ interface UserInteractionProps {
   isConnected?: boolean;
   isOwner?: boolean;
   isLoggedIn?: boolean;
-  isMiniProfile?: boolean;
+  isMiniView?: boolean;
 }
 
 const UserInteraction = ({
   isConnected,
   isOwner,
   isLoggedIn,
+  isMiniView,
 }: UserInteractionProps) => {
   return (
     <div className="flex-1 flex flex-wrap justify-center items-center gap-1">
@@ -53,6 +54,31 @@ const UserInteraction = ({
         </>
       ) : isLoggedIn ? (
         // Logged in visitors see Connect, Message, Like, Share, Report, Block
+        <>
+          <Button variant="bannerBlueRed" size="banner">
+            Connect
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Endorse
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Message
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Like
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Share
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Report
+          </Button>
+          <Button variant="bannerBlueRed" size="banner">
+            Block
+          </Button>
+        </>
+      ) : isMiniView ? (
+        // Visitors who are not logged in and viewing a mini profile
         <>
           <Button variant="bannerBlueRed" size="banner">
             Connect

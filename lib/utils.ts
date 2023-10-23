@@ -17,9 +17,9 @@ export function formatNumber(num: number) {
 
 export function formatJobExperience(years: number) {
   if (years === 1) {
-    return years + " Yr";
+    return years + " Yr.";
   } else if (years > 1) {
-    return years + " Yrs";
+    return years + "Yrs.";
   } else {
     return "";
   }

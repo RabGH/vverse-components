@@ -22,6 +22,7 @@ const BlogProfile = ({ isLoading }: BlogProfileProps) => {
             }
             points={50}
             endorsements={3}
+            isFeatured={true}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
@@ -40,9 +41,10 @@ const BlogProfile = ({ isLoading }: BlogProfileProps) => {
         </div>
         <div className="flex flex-col gap-4 justify-center items-center ml-[-100px]">
           <UserInteraction
-            isConnected={false}
+            isConnected={true}
             isLoggedIn={true}
             isOwner={false}
+            isMiniView={false}
           />
         </div>
       </div>

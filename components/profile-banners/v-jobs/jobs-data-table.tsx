@@ -1,57 +1,58 @@
 import { VDataPoint } from "@/components/data-points/v-data-points";
 import {
-  IconPost,
-  IconShare,
-  IconStar,
-  IconThumbsUp,
+  IconBudget,
+  IconExperienceStars,
+  IconFollowers,
+  IconTV,
+  IconUserCheck,
+  IconVideo,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
+import { IconWorkExperienceBtn } from "../../icons/logo-icons";
 
-interface BlogDataTableProps {
+interface JobsDataTableProps {
   isLoading: boolean;
-  posts: number;
+  experience: number;
+  salary: number;
   likes: number;
   shares: number;
-  rating: number;
-  ratingPoints: number;
 }
 
-const BlogDataTable = ({
+const JobsDataTable = ({
   isLoading,
-  posts,
+  experience,
+  salary,
   likes,
   shares,
-  rating,
-  ratingPoints,
-}: BlogDataTableProps) => {
+}: JobsDataTableProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={posts}
-          description={"Posts"}
-          icon={IconPost}
+          number={experience}
+          description={"Experience"}
+          icon={IconExperienceStars}
           isLoading={isLoading}
+          isExperience={true}
+        />
+        <VDataPoint
+          number={salary}
+          description={"Salary"}
+          icon={IconBudget}
+          isLoading={isLoading}
+          currency="$"
         />
         <VDataPoint
           number={likes}
           description={"Likes"}
-          icon={IconThumbsUp}
+          icon={IconUserCheck}
           isLoading={isLoading}
         />
         <VDataPoint
           number={shares}
           description={"Shares"}
-          icon={IconShare}
+          icon={IconFollowers}
           isLoading={isLoading}
-        />
-        <VDataPoint
-          number={ratingPoints}
-          description={"Rating"}
-          icon={IconStar}
-          isLoading={isLoading}
-          rating={rating}
-          isRated={true}
         />
       </div>
       <Button variant="bannerBlueRed" size="banner" className="ml-6">
@@ -61,4 +62,4 @@ const BlogDataTable = ({
   );
 };
 
-export default BlogDataTable;
+export default JobsDataTable;

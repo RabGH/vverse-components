@@ -1,7 +1,7 @@
-import { cn, formatNumber } from "@/lib/utils";
+import React from "react";
 import { Loader2, LucideIcon } from "lucide-react";
 
-import React from "react";
+import { cn, formatJobExperience, formatNumber } from "@/lib/utils";
 
 export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   isLoading?: boolean;
@@ -10,7 +10,6 @@ export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   description: string;
   currency?: string;
   isExperience?: boolean;
-  experience?: number;
   isRated?: boolean;
   rating?: number;
 }
@@ -23,7 +22,6 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
       className,
       isLoading,
       isExperience,
-      experience,
       isRated,
       icon: Icon,
       currency,
@@ -62,7 +60,7 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
               </p>
             ) : isExperience ? (
               <p className="font-extrabold text-xl leading-[120%]">
-                {experience?.toFixed(1)}({formatNumber(number)})
+                {formatJobExperience(number)}
               </p>
             ) : (
               <p className="font-extrabold text-xl leading-[120%]">

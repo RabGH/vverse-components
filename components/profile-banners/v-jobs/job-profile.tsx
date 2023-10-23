@@ -1,15 +1,15 @@
 import { UserAvatar } from "@/components/profile-banners/master-banner/user-avatar";
 import { Separator } from "@/components/ui/separator";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
-import TubeDataTable from "@/components/profile-banners/v-tube/tube-data-table";
-import { vTubeUserData } from "@/backend-data-test";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
+import JobsDataTable from "./jobs-data-table";
+import { vJobUserData } from "@/backend-data-test";
 
-interface TubeProfileProps {
+interface JobProfileProps {
   isLoading: boolean;
 }
 
-const TubeProfile = ({ isLoading }: TubeProfileProps) => {
+const JobProfile = ({ isLoading }: JobProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserAvatar />
@@ -17,24 +17,21 @@ const TubeProfile = ({ isLoading }: TubeProfileProps) => {
         <div>
           <UserTitleBox
             userName={"<Member Name>"}
-            userTitle={"Tuber at the v-tube website for videos, demo vverse."}
+            userTitle={"Job Candidate hire for work, demo vverse."}
             points={50}
             endorsements={3}
             isFeatured={true}
+            isOpenToWork={true}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
               <Separator />
-              <TubeDataTable
+              <JobsDataTable
                 isLoading={isLoading}
-                channels={vTubeUserData.channels}
-                videos={vTubeUserData.videos}
-                subscribers={vTubeUserData.subscribers}
-                views={vTubeUserData.views}
-                likes={vTubeUserData.likes}
-                shares={vTubeUserData.shares}
-                ratingPoints={vTubeUserData.ratingPoints}
-                rating={vTubeUserData.rating}
+                experience={vJobUserData.experience}
+                salary={vJobUserData.salary}
+                likes={vJobUserData.likes}
+                shares={vJobUserData.shares}
               />
               <Separator />
             </div>
@@ -45,7 +42,7 @@ const TubeProfile = ({ isLoading }: TubeProfileProps) => {
             isConnected={false}
             isLoggedIn={true}
             isOwner={true}
-            isMiniView={true}
+            isMiniView={false}
           />
         </div>
       </div>
@@ -53,4 +50,4 @@ const TubeProfile = ({ isLoading }: TubeProfileProps) => {
   );
 };
 
-export default TubeProfile;
+export default JobProfile;

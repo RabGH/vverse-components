@@ -17,7 +17,7 @@ import {
 import UserInfoBox from "./user-info-box";
 import { userInfoData } from "@/backend-data-test";
 
-interface UserDataTable {
+interface UserDataTableProps {
   isLoading: boolean;
   sales: number;
   earnings: number;
@@ -49,7 +49,7 @@ const UserDataTable = ({
   subscribers,
   customers,
   currency,
-}: UserDataTable) => {
+}: UserDataTableProps) => {
   return (
     <>
       <div className="flex flex-row gap-10 items-center justify-left">

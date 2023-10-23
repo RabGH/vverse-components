@@ -12,7 +12,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface AuthorDataTable {
+interface AuthorDataTableProps {
   isLoading: boolean;
   posts: number;
   socialPages: number;
@@ -36,7 +36,7 @@ const AuthorDataTable = ({
   shares,
   rating,
   ratingPoints,
-}: AuthorDataTable) => {
+}: AuthorDataTableProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">

@@ -108,5 +108,8 @@ export const vTubeUserData = {
 };
 
 export const vJobUserData = {
-  
-}
+  experience: 17,
+  salary: 2500,
+  likes: 4500,
+  shares: 900,
+};

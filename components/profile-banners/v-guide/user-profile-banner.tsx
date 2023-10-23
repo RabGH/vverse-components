@@ -23,6 +23,7 @@ const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
             isLoading={isLoading}
             points={100}
             endorsements={44}
+            isFeatured={true}
           />
           <Separator />
           <UserDataTable
