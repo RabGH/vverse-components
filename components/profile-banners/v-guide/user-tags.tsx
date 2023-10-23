@@ -9,7 +9,7 @@ import {
   IconUsersLancersBtn,
   IconUsersOrganizersBtn,
   IconVHostsBtn,
-  UserCustomerDollar,
+  IconUserCustomerDollar,
 } from "@/components/icons/logo-icons";
 import { Badge } from "@/components/ui/badge";
 
@@ -61,7 +61,7 @@ const UserTags = ({ partOf }: UserTagProps) => {
     },
     {
       label: "Customer",
-      icon: <UserCustomerDollar className="w-4 h-4" />,
+      icon: <IconUserCustomerDollar className="w-4 h-4" />,
     },
   ];
 

@@ -18,7 +18,7 @@ module.exports = {
     extend: {
       colors: {
         // Single Colors
-        voilet: "var(--violet)",
+        violet: "var(--violet)",
 
         // Linear Colors
         plumLight: "var(--plum-light)",

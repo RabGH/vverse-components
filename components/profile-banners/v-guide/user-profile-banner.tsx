@@ -4,13 +4,13 @@ import UserInteraction from "@/components/profile-banners/master-banner/user-int
 import UserDataTable from "./user-data-table";
 import UserTitleBox from "../master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
-import { UserAvatar } from "./user-avatar-large";
+import { UserLargeAvatar } from "./user-avatar-large";
 import { partOf, vNationUserData } from "@/backend-data-test";
 
 const UserProfileBanner = () => {
   return (
     <div className="flex flex-row justify-center gap-4">
-      <UserAvatar />
+      <UserLargeAvatar />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
           <UserTitleBox />
