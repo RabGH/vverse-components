@@ -1,5 +1,5 @@
 import React from "react";
-import { SquareButton } from "../v-buttons/square-button";
+import { SquareButton } from "../v-ui/v-buttons/square-button";
 import { ArrowRightCircle } from "lucide-react";
 
 const LandingNavbar = () => {
@@ -19,6 +19,11 @@ const LandingNavbar = () => {
         icon={ArrowRightCircle}
         label={"Profile Banner"}
         link={"/profileBanner"}
+      />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Navigation"}
+        link={"/Navigation"}
       />
     </div>
   );

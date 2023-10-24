@@ -1,4 +1,4 @@
-import { VDataPoint } from "@/components/data-points/v-data-points";
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 import {
   IconFollowers,
   IconShare,

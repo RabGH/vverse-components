@@ -3,7 +3,7 @@ import UserInteraction from "@/components/profile-banners/master-banner/user-int
 import UserDataTable from "@/components/profile-banners/v-guide/user-data-table";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
-import { UserLargeAvatar } from "./user-avatar-large";
+import { UserLargeAvatar } from "./user-lg-avatar";
 import { partOf, vNationUserData } from "@/backend-data-test";
 
 interface UserProfileBannerProps {

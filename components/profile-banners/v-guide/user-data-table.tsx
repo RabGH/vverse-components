@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator";
-import { VDataPoint } from "@/components/data-points/v-data-points";
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 import {
   IconBullHorn,
   IconConnectionsBtn,

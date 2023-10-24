@@ -1,4 +1,4 @@
-import { UserAvatar } from "@/components/profile-banners/master-banner/user-avatar";
+import { UserMediumAvatar } from "@/components/profile-banners/v-guide/user-md-avatar";
 import { Separator } from "@/components/ui/separator";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
@@ -12,7 +12,7 @@ interface JobProfileProps {
 const JobProfile = ({ isLoading }: JobProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
-      <UserAvatar />
+      <UserMediumAvatar />
       <div className="flex flex-col gap-4">
         <div>
           <UserTitleBox

@@ -19,8 +19,8 @@ import { RadioGroupDemo } from "@/components/test/RadioGroupDemo";
 import { SwitchDemo } from "@/components/test/SwitchDemo";
 import { CheckboxDemo } from "@/components/test/CheckboxDemo";
 import Heading from "@/components/nav/heading";
-import { SquareButton } from "@/components/v-buttons/square-button";
-import { RectangleButton } from "@/components/v-buttons/rectangle-button";
+import { SquareButton } from "@/components/v-ui/v-buttons/square-button";
+import { RectangleButton } from "@/components/v-ui/v-buttons/rectangle-button";
 import {
   IconPost,
   IconProducts,
@@ -50,18 +50,18 @@ import {
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
 import { VBadges } from "@/components/test/v-badge";
-import { FilterOutlineLarge } from "@/components/filters/lg-outline-filter";
-import { FilterFilledLarge } from "@/components/filters/lg-filled-filter";
-import { FilterFilledSmall } from "@/components/filters/sm-filled-filter";
-import { FilterOutlineSmall } from "@/components/filters/sm-outline-filter";
-import { FilterOutlineCheckbox } from "@/components/filters/checkbox-outline-filter";
-import { FilterFilledCheckbox } from "@/components/filters/checkbox-filled-filter";
-import { PopoverAnnouncement } from "@/components/dialogs/popover-announcements";
-import { DialogVAnnouncement } from "@/components/dialogs/dialog-v-announcement";
-import { DialogVInputAnnouncement } from "@/components/dialogs/dialog-v-announcement-input";
-import { CalendarDemo } from "@/components/calendars/default-calendar";
-import { DatePickerWithRange } from "@/components/calendars/range-calendar";
-import { VDataPoint } from "@/components/data-points/v-data-points";
+import { FilterOutlineLarge } from "@/components/v-ui/filters/lg-outline-filter";
+import { FilterFilledLarge } from "@/components/v-ui/filters/lg-filled-filter";
+import { FilterFilledSmall } from "@/components/v-ui/filters/sm-filled-filter";
+import { FilterOutlineSmall } from "@/components/v-ui/filters/sm-outline-filter";
+import { FilterOutlineCheckbox } from "@/components/v-ui/filters/checkbox-outline-filter";
+import { FilterFilledCheckbox } from "@/components/v-ui/filters/checkbox-filled-filter";
+import { PopoverAnnouncement } from "@/components/v-ui/dialogs/popover-announcements";
+import { DialogVAnnouncement } from "@/components/v-ui/dialogs/dialog-v-announcement";
+import { DialogVInputAnnouncement } from "@/components/v-ui/dialogs/dialog-v-announcement-input";
+import { CalendarDemo } from "@/components/v-ui/calendars/default-calendar";
+import { DatePickerWithRange } from "@/components/v-ui/calendars/range-calendar";
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
 import { categories } from "@/backend-data-test";
 
