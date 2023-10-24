@@ -9931,6 +9931,29 @@ export const IconHelpCircleQuestionMark = React.forwardRef<
 
 IconHelpCircleQuestionMark.displayName = "IconHelpCircleQuestionMark";
 
+export const VVerseNavBg = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg viewBox="0 0 1512 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1512" height="768" fill="url(#paint0_linear_53_6918)" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_53_6918"
+          x1="591.5"
+          y1="730.182"
+          x2="1349.08"
+          y2="-47.0729"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#016DEA" />
+          <stop offset="1" stopColor="#FA0101" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+);
+
+VVerseNavBg.displayName = "VVerseNavBg";
+
 export const Icons = {
   LogoBlue: LogoBlue,
   PlusSignBlue: PlusSignBlue,
@@ -10161,4 +10184,5 @@ export const Icons = {
   IconSupportPhoneClock: IconSupportPhoneClock,
   IconHelpCircleQuestionMark: IconHelpCircleQuestionMark,
   ButtonColorRedBlue: ButtonColorRedBlue,
+  VVerseNavBg: VVerseNavBg,
 };

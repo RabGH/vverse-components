@@ -31,8 +31,8 @@ const VNavbar = () => {
             <Image
               src="/images/VVerseNavBg.png"
               alt="vverse"
-              width={1280}
-              height={720}
+              width={1500}
+              height={770}
               className="rounded-md"
             />
             <div className="rounded-lg absolute top-0 left-0 w-full h-full bg-opacity-30 bg-black z-10">
