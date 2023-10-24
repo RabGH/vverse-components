@@ -106,7 +106,7 @@ body,
     --destructive: #FA4001;
     --destructive-foreground: #FFFFFF;
 
-    --border: #a9a9a9;
+    --border: #c0c0c03c;
     --input: #95959781;
     --ring: #016DEA;
  
@@ -336,5 +336,10 @@ body,
   /* largeFilled Varient Outline to Filled */
   .vhrBlue {
     @apply bg-gradient-to-r from-blueLight via-blueMid to-blueDark hover:bg-gradient-to-r hover:from-white hover:to-white;
+  }
+
+  /* Navbar Separator muted color */
+  .darkGray {
+    @apply bg-gray-600/50
   }
 }
