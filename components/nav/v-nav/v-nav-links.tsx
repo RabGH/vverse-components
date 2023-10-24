@@ -17,10 +17,10 @@ const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
       <h2 className="flex flex-col gap-2 font-bold text-xl mb-2 text-background">
         {sectionTitle}
       </h2>
-      <div className="flex flex-col gap-1 text-primary">
+      <div className="flex flex-col gap-1">
         {sectionLinks.map((link, index) => (
           <>
-            <nav className="flex flex-row text-background gap-2 items-center group">
+            <nav className="flex flex-row text-background gap-2 items-center group text-sm">
               <link.icon className="w-5 h-5 group-hover:text-violet" />
               <Link
                 key={index}

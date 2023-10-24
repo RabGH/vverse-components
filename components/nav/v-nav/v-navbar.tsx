@@ -47,7 +47,7 @@ const VNavbar = () => {
               src="/icons/VVerseNavBg.svg"
               alt="vverse"
               width={1500}
-              height={770}
+              height={800}
               className="rounded-md"
             />
             <div className="rounded-lg absolute top-0 left-0 w-full h-full bg-opacity-20 bg-black z-10">
