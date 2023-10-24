@@ -7,12 +7,14 @@ export function UserAvatar() {
       <div className="rounded-full shrink-0">
         <Avatar size="md" className="border border-primary">
           <AvatarImage src="" alt="Vverse" />
-          <AvatarFallback>
+          <AvatarFallback className="bg-white/50">
             <Image
-              fill
-              objectFit="cover"
-              src="/images/DoctorImage.png"
+              width={75}
+              height={75}
+              // objectFit="contain"
+              src="/icons/Logo.svg"
               alt="vverse"
+              className="mt-3"
             />
           </AvatarFallback>
         </Avatar>

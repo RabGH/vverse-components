@@ -4,7 +4,11 @@ import React from "react";
 const VNavigation = () => {
   return (
     <div>
-      <VNavbar />
+      <VNavbar
+        userName="<Member Name>"
+        userTitle="<Member Title>"
+        isLoggedIn={false}
+      />
     </div>
   );
 };

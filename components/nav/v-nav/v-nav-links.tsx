@@ -13,19 +13,17 @@ interface VNavLinkProps {
 
 const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
   return (
-    <div>
-      <h2 className="flex flex-col gap-2 font-bold text-xl mb-2 text-background">
-        {sectionTitle}
-      </h2>
-      <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1">
+      <h2 className="font-bold text-xl mb-2 text-background">{sectionTitle}</h2>
+      <div className="flex flex-col gap-2">
         {sectionLinks.map((link, index) => (
           <>
             <nav className="flex flex-row text-background gap-2 items-center group text-sm">
-              <link.icon className="w-5 h-5 group-hover:text-violet" />
+              <link.icon className="w-5 h-5 group-hover:text-blue-300" />
               <Link
                 key={index}
                 href={link.link}
-                className="group-hover:text-violet"
+                className="group-hover:text-blue-300"
               >
                 {link.label}
               </Link>

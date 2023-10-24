@@ -4,24 +4,27 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import {
-  HamburgerMenu,
-  IconAchievementsBtn,
-  MainLogo,
-} from "@/components/icons/logo-icons";
+import { HamburgerMenu, MainLogo } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+
 import { cn } from "@/lib/utils";
 import { UserAvatar } from "@/components/v-ui/user-avatar";
 import VVerseMenuContent from "@/components/nav/v-nav/v-verse-menu-content";
 import { Separator } from "@/components/ui/separator";
 import VVerseBackOfficeMenuContent from "@/components/nav/v-nav/v-verse-back-office-content";
 
-const VNavbar = () => {
+interface VNavBarProps {
+  userName: string;
+  userTitle: string;
+  isLoggedIn: boolean;
+}
+
+const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
   const [activeButton, setActiveButton] = useState("V-Verse Menu");
 
   const handleButtonClick = (button: string) => {
@@ -55,42 +58,51 @@ const VNavbar = () => {
                 <div className="flex flex-row items-center gap-4">
                   <UserAvatar />
                   <div className="flex flex-col text-background gap-1">
-                    <h2 className="text-2xl">Dr.Ahmad Hassan</h2>
-                    <p className="text-sm">
-                      Consultant at majestick animal farms, VVerse-Demo
-                    </p>
+                    <h2 className="text-2xl">{userName}</h2>
+                    <p className="text-sm">{userTitle}</p>
                   </div>
                 </div>
-                <div className="flex flex-row items-center gap-4">
+                <div className="flex flex-row items-center gap-4 group">
                   <div className="flex flex-col">
                     <Button
                       className={cn(
-                        "bg-none text-xl hover:bg-white/10 hover:bg-none rounded-md"
+                        `bg-none text-xl hover:bg-white/10 hover:bg-none rounded-md`
                       )}
                       onClick={() => handleButtonClick("V-Verse Menu")}
                     >
                       V-Verse Menu
                     </Button>
                     {activeButton === "V-Verse Menu" && (
-                      <div className="bg-background h-[1.5px] w-40 ml-2 rounded-lg top-[123.5px] absolute bottom-0 left-50 right-50 z-20" />
+                      <div
+                        className={`bg-background h-[1.5px] w-40 ml-2 rounded-lg top-[123.5px] 
+                        absolute bottom-0 left-50 right-50 z-20`}
+                      />
                     )}
                   </div>
                   <div className="flex flex-col">
                     <Button
                       className={cn(
-                        "bg-none text-xl hover:bg-white/10 hover:bg-none rounded-md"
+                        `bg-none text-xl hover:bg-white/10 hover:bg-none rounded-md`
                       )}
                       onClick={() => handleButtonClick("Back Office Menu")}
                     >
                       Back Office Menu
                     </Button>
+
                     {activeButton === "Back Office Menu" && (
-                      <div className="bg-background h-[1.5px] w-48 ml-2 rounded-lg top-[123.5px] absolute bottom-0 left-50 right-50 z-20" />
+                      <div
+                        className={`bg-background h-[1.5px] w-48 ml-2 rounded-lg top-[123.5px] 
+                        absolute bottom-0 left-50 right-50 z-20`}
+                      />
                     )}
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Button className="w-40">Logout</Button>
+                  {isLoggedIn ? (
+                    <Button className="w-40">Logout</Button>
+                  ) : (
+                    <Button className="w-40">Sign-in/up</Button>
+                  )}
                 </div>
               </div>
               <Separator className="mt-[-20px] max-w-[1450px] ml-4" />

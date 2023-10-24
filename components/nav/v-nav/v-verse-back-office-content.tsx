@@ -22,7 +22,7 @@ import { Separator } from "@/components/ui/separator";
 
 const VVerseBackOfficeMenuContent = () => {
   return (
-    <section className="flex flex-row justify-start gap-10">
+    <section className="flex flex-row justify-start gap-10 animate-slide-in-left">
       <aside className="flex flex-col gap-6">
         <VNavLinks
           sectionLinks={vAnalyticsLinks}

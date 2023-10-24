@@ -23,7 +23,6 @@ import {
   IconMembers,
   IconMessageBtn,
   IconMessageCircle,
-  IconMessageCircleBtn,
   IconMyProfileBtn,
   IconMyVAssets,
   IconNotes,
@@ -761,11 +760,6 @@ export const vLanceBackendMenuLinks = [
   },
   {
     icon: IconMessageCircle,
-    label: "Comments",
-    link: "/",
-  },
-  {
-    icon: IconMessageCircleBtn,
     label: "Comments",
     link: "/",
   },

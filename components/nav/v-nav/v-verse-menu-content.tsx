@@ -22,8 +22,8 @@ import { Separator } from "@/components/ui/separator";
 
 const VVerseMenuContent = () => {
   return (
-    <section className="flex flex-row gap-10 mr-4">
-      <aside className="flex flex-col gap-6">
+    <section className="flex flex-row gap-10 mr-4 animate-slide-in-right">
+      <aside className="flex flex-col gap-4">
         <h2 className="text-xl text-background">Home</h2>
         <VNavLinks sectionLinks={vAboutUsLinks} sectionTitle={"V-About Us"} />
         <VNavLinks
