@@ -113,3 +113,826 @@ export const vJobUserData = {
   likes: 4500,
   shares: 900,
 };
+
+export const vNotificationsDemo = {
+  "v-guide": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-blog": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-nation": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-tube": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-jobs": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-college": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-market": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-events": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-webinars": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+  "v-experts": {
+    notifications: [
+      {
+        id: 1,
+        title: "You have a new guide request from John Doe",
+        date: "2023-04-05T10:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have completed a guide session with Jane Doe",
+        date: "2023-04-04T09:00:00Z",
+        status: "read",
+        actions: ["rate", "delete"],
+      },
+    ],
+    messages: [
+      {
+        id: 1,
+        title: "You have a new message from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new message from Jane Doe",
+        date: "2023-04-04T10:00:00Z",
+        status: "read",
+        actions: ["open", "delete"],
+      },
+    ],
+    emails: [
+      {
+        id: 1,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["open", "delete"],
+      },
+    ],
+    planner: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+    announcements: [
+      {
+        id: 1,
+        title: "You have a new plan from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+      {
+        id: 2,
+        title: "You have a new email from John Doe",
+        date: "2023-04-05T11:00:00Z",
+        status: "unread",
+        actions: ["accept", "decline"],
+      },
+    ],
+  },
+};
