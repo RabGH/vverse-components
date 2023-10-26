@@ -39,7 +39,7 @@ const VAlertTab = ({
   numberOfVexpertsNotifications,
 }: VAlertTabProps) => {
   const [activeTab, setActiveTab] = useState("vVerse Notifications");
-  const [activeButton, setActiveButton] = useState("Announcements");
+  const [activeButton, setActiveButton] = useState("Notifications");
   const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
     vVerse: true,
   });
@@ -107,6 +107,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         defaultValue="vVerse"
         className="w-64 shadow-md h-full flex"
         orientation="vertical"
+        onValueChange={handleTabChange}
       >
         <TabsList className="flex flex-col justify-center items-center">
           <TabsTrigger

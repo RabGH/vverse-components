@@ -7,6 +7,11 @@ import { IconBellOutline } from "@/components/icons/logo-icons";
 import { X } from "lucide-react";
 import { UserSmallAvatar } from "@/components/v-ui/user-small-avatar";
 
+interface VAlertNotificationCard {
+  isLoading?: boolean;
+  
+}
+
 const VAlertNotificationCard = () => {
   return (
     <Card className="flex items-center px-4 py-2 shadow-md bg-gray-100 mt-2">
