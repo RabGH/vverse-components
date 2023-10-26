@@ -30,6 +30,7 @@ const badgeVariants = cva(
         icon: "w-32 h-10",
         featured: "h-7 px-3",
         numberTag: "w-6 h-6 rounded-md",
+        label: "rounded-md w-40 h-8",
       },
     },
     defaultVariants: {

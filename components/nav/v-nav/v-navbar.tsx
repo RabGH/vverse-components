@@ -36,7 +36,7 @@ const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
       <Link href="/">
         <MainLogo className="w-14 h-12" />
       </Link>
-      <div className="flex flex-row items-center gap-4">
+      <div className="flex flex-row items-center gap-4 bg-blue-400">
         <Button variant="bannerBlueRed">VV-Demo</Button>
         <DropdownMenu>
           <DropdownMenuTrigger>

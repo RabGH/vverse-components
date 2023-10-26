@@ -12,6 +12,7 @@ body,
   :root {
     /* Single Colors */
     --violet: #7F00FF;
+    --hoverBlue: #60A5FA;
 
     /* Linear Colors */
     --plum-light: #933C6B;

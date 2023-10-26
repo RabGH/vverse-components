@@ -51,8 +51,8 @@ const VAlertCenterNav = ({
     return cn(
       "gap-2 text-base h-12",
       activeButton === button
-        ? "group hover:text-primary hover:border hover:border-blue-400/50"
-        : "group hover:bg-gray-200 hover:border hover:border-gray-300 text-muted"
+        ? "group hover:bg-hoverBlue hover:text-background hover:border hover:border-blue-400/50"
+        : "group hover:bg-hoverBlue hover:text-background hover:border hover:border-blue-400/50 text-muted"
     );
   };
 
@@ -61,7 +61,7 @@ const VAlertCenterNav = ({
       "w-5 h-5",
       activeButton === button
         ? "text-background group group-hover:text-primary"
-        : "text-muted"
+        : "text-muted group-hover:text-primary"
     );
   };
 
@@ -87,7 +87,11 @@ const VAlertCenterNav = ({
   };
 
   return (
-    <div className="rounded-md p-2 flex justify-center items-center shadow-md max-w-max mx-auto">
+    <div
+      className={cn(
+        "rounded-md p-2 flex justify-center items-center shadow-md max-w-max mx-auto"
+      )}
+    >
       <div className="flex flex-row gap-2 justify-center items-center">
         <Button
           variant={"notificationCenter"}

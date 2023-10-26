@@ -78,6 +78,47 @@ export const links = [
   },
 ];
 
+// V-Verse Alert Center Category Tabs
+
+export const vAlertCenterTabs = [
+  {
+    label: "V-Verse"
+  },
+  {
+    label: "V-Guide"
+  },
+  {
+    label: "V-Blog"
+  },
+  {
+    label: "V-Nation"
+  },
+  {
+    label: "V-Tube"
+  },
+  {
+    label: "V-Jobs"
+  },
+  {
+    label: "V-Lance"
+  },
+  {
+    label: "V-College"
+  },
+  {
+    label: "V-Market"
+  },
+  {
+    label: "V-Events"
+  },
+  {
+    label: "V-Webinars"
+  },
+  {
+    label: "V-Experts"
+  },
+]
+
 // V-Verse Menu Links
 
 export const vGuideLinks = [
