@@ -247,64 +247,64 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
           </Badge>
         </TabsTrigger>
         <Separator />
-        <TabsTrigger
-          value="vExperts"
-          className={getTabTriggerStyles("vExperts")}
-          onClick={() => handleTriggerClick("vExperts")}
-        >
-          V-Experts Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vExperts",
-              numberOfVexpertsNotifications
-            )}
-          >
-            {numberOfVexpertsNotifications}
-          </Badge>
-        </TabsTrigger>
-      </TabsList>
-      <TabsContent value="vVerse" className={getTabContentStyles("vVerse")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vGuide" className={getTabContentStyles("vGuide")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vBlog" className={getTabContentStyles("vBlog")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vNation" className={getTabContentStyles("vNation")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vTube" className={getTabContentStyles("vTube")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vJobs" className={getTabContentStyles("vJobs")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vLance" className={getTabContentStyles("vLance")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vCollege" className={getTabContentStyles("vCollege")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vMarket" className={getTabContentStyles("vMarket")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vEvents" className={getTabContentStyles("vEvents")}>
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent
-        value="vWebinars"
-        className={getTabContentStyles("vWebinars")}
-      >
-        <VAlertTable />
-      </TabsContent>
-      <TabsContent value="vExperts" className={getTabContentStyles("vExperts")}>
-        <VAlertTable />
-      </TabsContent>
-    </Tabs>
-  );
+<TabsTrigger
+value="vExperts"
+className={getTabTriggerStyles("vExperts")}
+onClick={() => handleTriggerClick("vExperts")}
+>
+V-Experts Notifications
+<Badge
+size="numberTag"
+className={getBadgeStyles(
+"vExperts",
+numberOfVexpertsNotifications
+)}
+>
+{numberOfVexpertsNotifications}
+</Badge>
+</TabsTrigger>
+</TabsList>
+<TabsContent value="vVerse" className={getTabContentStyles("vVerse")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vGuide" className={getTabContentStyles("vGuide")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vBlog" className={getTabContentStyles("vBlog")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vNation" className={getTabContentStyles("vNation")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vTube" className={getTabContentStyles("vTube")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vJobs" className={getTabContentStyles("vJobs")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vLance" className={getTabContentStyles("vLance")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vCollege" className={getTabContentStyles("vCollege")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vMarket" className={getTabContentStyles("vMarket")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vEvents" className={getTabContentStyles("vEvents")}>
+<VAlertTable />
+</TabsContent>
+<TabsContent
+value="vWebinars"
+className={getTabContentStyles("vWebinars")}
+>
+<VAlertTable />
+</TabsContent>
+<TabsContent value="vExperts" className={getTabContentStyles("vExperts")}>
+<VAlertTable />
+</TabsContent>
+</Tabs>
+);
 };
 
 export default VAlertTab;

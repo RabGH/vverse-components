@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
-interface VAlertCenterNavProps {
+interface VAlertNavProps {
   numberOfNotifications: number;
   numberOfMessages: number;
   numberOfEmails: number;
@@ -21,13 +21,13 @@ interface VAlertCenterNavProps {
   numberOfAnnouncements: number;
 }
 
-const VAlertCenterNav = ({
+const VAlertNav = ({
   numberOfNotifications,
   numberOfMessages,
   numberOfEmails,
   numberOfPlans,
   numberOfAnnouncements,
-}: VAlertCenterNavProps) => {
+}: VAlertNavProps) => {
   const [activeButton, setActiveButton] = useState("Notifications");
   const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
     Notifications: true,
@@ -182,4 +182,4 @@ const VAlertCenterNav = ({
   );
 };
 
-export default VAlertCenterNav;
+export default VAlertNav;

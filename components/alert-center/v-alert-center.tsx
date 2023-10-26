@@ -1,12 +1,12 @@
 import React from "react";
-import VAlertCenterNav from "./v-alert-center-nav";
+import VAlertNav from "./v-alert-nav";
 import VAlertTab from "./v-alert-tab";
 
 const VAlertCenter = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 pl-12 pr-10">
       <div className="mr-20">
-        <VAlertCenterNav
+        <VAlertNav
           numberOfNotifications={100}
           numberOfMessages={10}
           numberOfEmails={20}
