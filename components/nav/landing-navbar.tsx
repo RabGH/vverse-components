@@ -25,6 +25,11 @@ const LandingNavbar = () => {
         label={"Navigation"}
         link={"/Navigation"}
       />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Alert Center"}
+        link={"/alertCenter"}
+      />
     </div>
   );
 };

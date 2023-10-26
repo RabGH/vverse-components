@@ -29,6 +29,7 @@ const badgeVariants = cva(
         lg: "w-40 h-11",
         icon: "w-32 h-10",
         featured: "h-7 px-3",
+        numberTag: "w-6 h-6 rounded-md",
       },
     },
     defaultVariants: {

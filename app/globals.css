@@ -342,4 +342,9 @@ body,
   .darkGray {
     @apply bg-gray-600/50
   }
+
+  /* vhrBlue Disect */
+  .vgWhite {
+   @apply bg-gradient-to-r from-white to-white
+  }
 }

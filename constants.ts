@@ -72,6 +72,10 @@ export const links = [
     label: "VVerse Navbars",
     href: "/navigation",
   },
+  {
+    label: "Alert Center",
+    href: "/alertCenter",
+  },
 ];
 
 // V-Verse Menu Links

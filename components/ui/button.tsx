@@ -30,6 +30,8 @@ const buttonVariants = cva(
         bannerRed: "vRed text-primary-foreground p-2",
         bannerBlueRed: "vBlueRedSlash text-primary-foreground p-2",
         userPurple: "vPurple text-primary-foreground p-2",
+        notificationCenter:
+          "bg-none text-primary hover:bg-blue-300/50 rounded-md",
       },
       size: {
         default: "h-10 px-4 py-2",
