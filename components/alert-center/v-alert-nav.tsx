@@ -19,6 +19,12 @@ interface VAlertNavProps {
   numberOfEmails: number;
   numberOfPlans: number;
   numberOfAnnouncements: number;
+  currentTabAndButton: {
+    tab: string;
+    button: string;
+  };
+  activeButton: string;
+  setActiveButton: (button: string) => void;
 }
 
 const VAlertNav = ({
@@ -27,14 +33,14 @@ const VAlertNav = ({
   numberOfEmails,
   numberOfPlans,
   numberOfAnnouncements,
+  activeButton,
+  setActiveButton,
 }: VAlertNavProps) => {
-  const [activeButton, setActiveButton] = useState("Notifications");
   const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
     Notifications: true,
   });
 
   const handleButtonClick = (button: string) => {
-    setActiveButton(button);
     markTabAsVisited(button);
   };
 
@@ -96,7 +102,10 @@ const VAlertNav = ({
         <Button
           variant={"notificationCenter"}
           className={getButtonStyles("Notifications")}
-          onClick={() => handleButtonClick("Notifications")}
+          onClick={() => {
+            handleButtonClick("Notifications");
+            setActiveButton("Notifications");
+          }}
         >
           <div className={getCircleStyles("Notifications")}>
             <IconBellOutline className={getIconStyles("Notifications")} />
@@ -113,7 +122,10 @@ const VAlertNav = ({
         <Button
           variant={"notificationCenter"}
           className={getButtonStyles("Messages")}
-          onClick={() => handleButtonClick("Messages")}
+          onClick={() => {
+            handleButtonClick("Messages");
+            setActiveButton("Messages");
+          }}
         >
           <div className={getCircleStyles("Messages")}>
             <IconMessageBtn className={getIconStyles("Messages")} />
@@ -130,7 +142,10 @@ const VAlertNav = ({
         <Button
           variant={"notificationCenter"}
           className={getButtonStyles("Emails")}
-          onClick={() => handleButtonClick("Emails")}
+          onClick={() => {
+            handleButtonClick("Emails");
+            setActiveButton("Emails");
+          }}
         >
           <div className={getCircleStyles("Emails")}>
             <IconMail className={getIconStyles("Emails")} />
@@ -147,7 +162,10 @@ const VAlertNav = ({
         <Button
           variant={"notificationCenter"}
           className={getButtonStyles("Planner")}
-          onClick={() => handleButtonClick("Planner")}
+          onClick={() => {
+            handleButtonClick("Planner");
+            setActiveButton("Planner");
+          }}
         >
           <div className={getCircleStyles("Planner")}>
             <IconCalendar className={getIconStyles("Planner")} />
@@ -164,7 +182,10 @@ const VAlertNav = ({
         <Button
           variant={"notificationCenter"}
           className={getButtonStyles("Announcements")}
-          onClick={() => handleButtonClick("Announcements")}
+          onClick={() => {
+            handleButtonClick("Announcements");
+            setActiveButton("Announcements");
+          }}
         >
           <div className={getCircleStyles("Announcements")}>
             <IconSponsorMegaphone className={getIconStyles("Announcements")} />

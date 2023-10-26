@@ -1,20 +1,8 @@
-import React from "react";
-import VAlertNav from "./v-alert-nav";
 import VAlertTab from "./v-alert-tab";
 
 const VAlertCenter = () => {
   return (
-    <div className="flex flex-col gap-6 pl-12 pr-10">
-      <div className="mr-20">
-        <VAlertNav
-          numberOfNotifications={100}
-          numberOfMessages={10}
-          numberOfEmails={20}
-          numberOfPlans={30}
-          numberOfAnnouncements={40}
-        />
-      </div>
-      <div className="flex justify-start">
+    <div>
         <VAlertTab
           numberOfVverseNotifications={120}
           numberOfVguideNotifications={40}
@@ -29,7 +17,6 @@ const VAlertCenter = () => {
           numberOfVwebinarsNotifications={1}
           numberOfVexpertsNotifications={2}
         />
-      </div>
     </div>
   );
 };
