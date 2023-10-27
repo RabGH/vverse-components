@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 
 import {
   IconBellOutline,
@@ -25,6 +23,8 @@ interface VAlertNavProps {
   };
   activeButton: string;
   setActiveButton: (button: string) => void;
+  visitedTabs: Record<string, Record<string, boolean>>;
+  handleButtonChange: (button: string) => void;
 }
 
 const VAlertNav = ({
@@ -35,23 +35,12 @@ const VAlertNav = ({
   numberOfAnnouncements,
   activeButton,
   setActiveButton,
+  visitedTabs,
+  handleButtonChange,
+  currentTabAndButton,
 }: VAlertNavProps) => {
-  const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
-    Notifications: true,
-  });
-
-  const handleButtonClick = (button: string) => {
-    markTabAsVisited(button);
-  };
-
-  const markTabAsVisited = (button: string) => {
-    setVisitedTabs((prevVisitedTabs) => ({
-      ...prevVisitedTabs,
-      [button]: true,
-    }));
-  };
-
-  const isTabVisited = (button: string) => visitedTabs[button];
+  const isTabAndButtonVisited = (tab: string, button: string) =>
+    visitedTabs[tab][button];
 
   const getButtonStyles = (button: string) => {
     return cn(
@@ -86,7 +75,7 @@ const VAlertNav = ({
       activeButton === button
         ? "vgBlue group group-hover:vgWhite group-hover:text-primary border-blue-400/50"
         : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isTabVisited(button)
+      count > 0 && !isTabAndButtonVisited(currentTabAndButton.tab, button)
         ? "vgRed text-background border-red-400/50"
         : ""
     );
@@ -103,7 +92,7 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Notifications")}
           onClick={() => {
-            handleButtonClick("Notifications");
+            handleButtonChange("Notifications");
             setActiveButton("Notifications");
           }}
         >
@@ -123,7 +112,7 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Messages")}
           onClick={() => {
-            handleButtonClick("Messages");
+            handleButtonChange("Messages");
             setActiveButton("Messages");
           }}
         >
@@ -143,7 +132,7 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Emails")}
           onClick={() => {
-            handleButtonClick("Emails");
+            handleButtonChange("Emails");
             setActiveButton("Emails");
           }}
         >
@@ -163,7 +152,7 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Planner")}
           onClick={() => {
-            handleButtonClick("Planner");
+            handleButtonChange("Planner");
             setActiveButton("Planner");
           }}
         >
@@ -183,7 +172,7 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Announcements")}
           onClick={() => {
-            handleButtonClick("Announcements");
+            handleButtonChange("Announcements");
             setActiveButton("Announcements");
           }}
         >

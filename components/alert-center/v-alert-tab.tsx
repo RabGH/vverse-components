@@ -12,6 +12,7 @@ import VAlertNav from "./v-alert-nav";
 import { backendData } from "@/backend-data-test";
 
 interface VAlertTabProps {}
+type VisitedTabs = Record<string, Record<string, boolean>>;
 type TabKey =
   | "vVerse"
   | "vGuide"
@@ -29,9 +30,109 @@ type TabKey =
 const VAlertTab = ({}: VAlertTabProps) => {
   const [activeTab, setActiveTab] = useState<TabKey>("vVerse");
   const [activeButton, setActiveButton] = useState("Notifications");
-  const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
-    vVerse: true,
+  const [visitedTabs, setVisitedTabs] = useState<VisitedTabs>({
+    vVerse: {
+      Notifications: true,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vGuide: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vBlog: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vNation: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vTube: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vJobs: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vLance: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vCollege: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vMarket: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vEvents: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vWebinars: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
+    vExperts: {
+      Notifications: false,
+      Messages: false,
+      Emails: false,
+      Planner: false,
+      Announcements: false,
+    },
   });
+
+  const buttons = [
+    "Notifications",
+    "Messages",
+    "Emails",
+    "Planner",
+    "Announcements",
+  ];
+
+  const isTabFullyVisited = (tab: TabKey) => {
+    for (let button of buttons) {
+      if (!visitedTabs[tab][button]) {
+        return false;
+      }
+    }
+    return true;
+  };
 
   const getTabContentStyles = (tab: TabKey) => {
     return cn("mt-0");
@@ -205,35 +306,37 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
     },
   };
 
-  const getBadgeStyles = (tabs: TabKey, count: number) => {
+  const getBadgeStyles = (tab: TabKey, count: number) => {
     return cn(
       "border font-normal w-9 h-9",
-      activeTab === tabs
+      activeTab === tab
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
         : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isTabVisited(tabs)
+      count > 0 && !isTabFullyVisited(tab)
         ? "vgRed text-background border-red-400/50 group-hover:bg-background"
         : ""
     );
   };
 
+  const markTabAndButtonAsVisited = (tab: TabKey, button: string) => {
+    setVisitedTabs((prevVisitedTabs) => {
+      return Object.assign({}, prevVisitedTabs, {
+        [tab]: Object.assign({}, prevVisitedTabs[tab], {
+          [button]: true,
+        }),
+      });
+    });
+  };
+
   const handleTabChange = (tab: TabKey) => {
     setActiveTab(tab);
-    markTabAsVisited(tab);
+    markTabAndButtonAsVisited(tab, activeButton);
   };
 
   const handleButtonChange = (button: string) => {
     setActiveButton(button);
+    markTabAndButtonAsVisited(activeTab, button);
   };
-
-  const markTabAsVisited = (tab: TabKey) => {
-    setVisitedTabs((prevVisitedTabs) => ({
-      ...prevVisitedTabs,
-      [tab]: true,
-    }));
-  };
-
-  const isTabVisited = (button: string) => visitedTabs[button];
 
   return (
     <>
@@ -250,6 +353,8 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
           }}
           activeButton={activeButton}
           setActiveButton={setActiveButton}
+          visitedTabs={visitedTabs}
+          handleButtonChange={handleButtonChange}
         />
       </div>
       <Tabs
