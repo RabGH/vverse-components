@@ -79,9 +79,7 @@ const VAlertNotificationCard = ({
           <>
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
-              <p>{id}</p>
-              <p>{user}</p>
-              <p>{title}</p>
+              <p className="text-black font-bold">{user}</p>
               {isRequested ? (
                 <p className="text-muted">Sent You a Connection Request</p>
               ) : isReplied ? (
@@ -89,7 +87,9 @@ const VAlertNotificationCard = ({
               ) : isComment ? (
                 <p className="text-muted">Commented on Your post</p>
               ) : isShared ? (
-                <p className="text-muted">Shared Your post</p>
+                <p className="text-muted">
+                  Shared Your post {"<example post>"}
+                </p>
               ) : isReport ? (
                 <p className="text-muted">Reported Your profile</p>
               ) : isFollowing ? (
