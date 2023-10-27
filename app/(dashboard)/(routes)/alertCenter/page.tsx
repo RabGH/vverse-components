@@ -1,4 +1,4 @@
-import VAlertCenter from "@/components/alert-center/v-alert-center";
+import VAlertCenter from "@/components/alert-centers/alert-center/v-alert-center";
 import React from "react";
 
 const AlertCenterPage = () => {

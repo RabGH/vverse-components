@@ -339,8 +339,8 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
   };
 
   return (
-    <>
-      <div>
+    <div>
+      <div className="mb-4">
         <VAlertNav
           numberOfNotifications={badgeData[activeTab].Notifications}
           numberOfMessages={badgeData[activeTab].Messages}
@@ -649,7 +649,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
           />
         </TabsContent>
       </Tabs>
-    </>
+    </div>
   );
 };
 
