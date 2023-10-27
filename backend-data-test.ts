@@ -119,74 +119,74 @@ export const backendData = {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
         actions: ["accept", "decline"],
         date: "2023-04-05T11:00:00Z",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Jack",
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 3,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Dave",
         actions: ["accept", "decline"],
         date: "2023-04-05T11:00:00Z",
       },
       {
         id: 4,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Jason",
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 5,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Jad",
         actions: ["accept", "decline"],
         date: "2023-04-05T11:00:00Z",
       },
       {
         id: 6,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Makram",
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 7,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Sally",
         actions: ["accept", "decline"],
         date: "2023-04-05T11:00:00Z",
       },
       {
         id: 8,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Nour",
         isShared: true,
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 9,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "farah",
         isLiked: true,
         date: "2023-04-05T11:00:00Z",
       },
       {
         id: 10,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Jasmine",
         isCommented: true,
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 11,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ziad",
         isRequested: true,
         actions: ["accept", "decline"],
@@ -194,149 +194,214 @@ export const backendData = {
       },
       {
         id: 12,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Hassan",
         actions: "viewReport",
         date: "2023-04-05T12:50:00Z",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Diaa" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Rajesh" },
+      { id: 1, title: "Sent You a Message", user: "Diaa" },
+      { id: 2, title: "Sent You a Message", user: "Rajesh" },
+      { id: 3, title: "Sent You a Message", user: "Rajesh" },
+      { id: 4, title: "Sent You a Message", user: "Rajesh" },
+      { id: 5, title: "Sent You a Message", user: "Rajesh" },
+      { id: 6, title: "Sent You a Message", user: "Rajesh" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Yehia",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Hesham",
+      },
+      {
+        id: 3,
+        title: "Is Announcing",
+        user: "Hesham",
+      },
+      {
+        id: 4,
+        title: "Is Announcing",
+        user: "Hesham",
+        actions: ["accept", "decline"],
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      {
+        id: 1,
+        title: "Send You a Plan",
+        user: "Ahmad Hassan",
+        actions: ["accept", "decline"],
+        date: "2023-04-05T12:50:00Z",
+      },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vGuide: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 3,
+        title: "Started to follow",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 4,
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+      {
+        id: 3,
+        title: "Has Announced",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 4,
+        title: "Is Announcing",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+      {
+        id: 5,
+        title: "Has Announced",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 6,
+        title: "Is Announcing",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      {
+        id: 1,
+        title: "Send You a Plan",
+        user: "Ahmad Hassan",
+        actions: ["accept", "decline"],
+        date: "2023-04-05T12:50:00Z",
+      },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vBlog: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      {
+        id: 1,
+        title: "Send You a Plan",
+        user: "Ahmad Hassan",
+        actions: ["accept", "decline"],
+        date: "2023-04-05T12:50:00Z",
+      },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vNation: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
       {
         id: 1,
-        title: "Email 1 for vGuide button2",
+        title: "Sent You an Email",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
       },
@@ -350,13 +415,14 @@ export const backendData = {
     Planner: [
       {
         id: 1,
-        title: "Planner 1 for vGuide button2",
+        title: "Send You a Plan",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
+        actions: ["accept", "decline"],
       },
       {
         id: 2,
-        title: "Planner 2 for vGuide button2",
+        title: "Send You a Plan",
         user: "Ahmad Hassan",
         date: "2023-04-05T12:50:00Z",
       },
@@ -366,316 +432,316 @@ export const backendData = {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vJobs: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vLance: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vCollege: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vMarket: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vEvents: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
       {
         id: 3,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
         actions: ["accept", "decline"],
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
       {
         id: 3,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
         actions: "viewReport",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vWebinars: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
   vExperts: {
     Notifications: [
       {
         id: 1,
-        title: "Notification 1 for vGuide button1",
+        title: "Started to follow",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Notification 2 for vGuide button1",
+        title: "Joined Your GroupName",
         user: "Ahmad Hassan",
       },
     ],
     Messages: [
-      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You a Message", user: "Ahmad Hassan" },
+      { id: 2, title: "Sent You a Message", user: "Ahmad Hassan" },
     ],
     Announcements: [
       {
         id: 1,
-        title: "Announcement 1 for vGuide button2",
+        title: "Has Announced",
         user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "Announcement 2 for vGuide button2",
+        title: "Is Announcing",
         user: "Ahmad Hassan",
       },
     ],
     Emails: [
-      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Sent You an Email", user: "Ahmad Hassan" },
       { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
     Planner: [
-      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
-      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 1, title: "Send You a Plan", user: "Ahmad Hassan" },
+      { id: 2, title: "Send You a Plan", user: "Ahmad Hassan" },
     ],
   },
 };

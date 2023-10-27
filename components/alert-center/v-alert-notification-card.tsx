@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Loader2, X } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -11,15 +12,6 @@ import { cn } from "@/lib/utils";
 
 interface VAlertNotificationCardProps {
   isLoading?: boolean;
-  isReplied?: boolean;
-  isFollowing?: boolean;
-  isComment?: boolean;
-  isJoined?: boolean;
-  isShared?: boolean;
-  isRequested?: boolean;
-  isReport?: boolean;
-  isLiked?: boolean;
-  isMuted?: boolean;
   isOld?: boolean;
   groupName?: string;
   pageName?: string;
@@ -32,15 +24,7 @@ interface VAlertNotificationCardProps {
 
 const VAlertNotificationCard = ({
   isLoading,
-  isReplied,
   user,
-  isFollowing,
-  isComment,
-  isJoined,
-  isShared,
-  isRequested,
-  isReport,
-  isLiked,
   isOld,
   dateOfNotification,
   groupName,
@@ -51,6 +35,13 @@ const VAlertNotificationCard = ({
 }: VAlertNotificationCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
+
+  const router = useRouter();
+
+  // Function to handle the accept action
+  const handleAccept = () => {
+    router.push("/");
+  };
 
   // Here you can make a call to your mute/unmute API
   const toggleMute = () => {
@@ -80,40 +71,20 @@ const VAlertNotificationCard = ({
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
               <p className="text-black font-bold">{user}</p>
-              {isRequested ? (
-                <p className="text-muted">Sent You a Connection Request</p>
-              ) : isReplied ? (
-                <p className="text-muted">Replied to Your comment.</p>
-              ) : isComment ? (
-                <p className="text-muted">Commented on Your post</p>
-              ) : isShared ? (
-                <p className="text-muted">
-                  Shared Your post {"<example post>"}
-                </p>
-              ) : isReport ? (
-                <p className="text-muted">Reported Your profile</p>
-              ) : isFollowing ? (
-                <p className="text-muted">
-                  Started to Follow{" "}
-                  <span className="font-bold text-black">Your</span> {pageName}
-                </p>
-              ) : isJoined ? (
-                <p className="text-muted">Joined Your {groupName}</p>
-              ) : isLiked ? (
-                <p className="text-muted">
-                  {user}, Liked Your{" "}
-                  <span className="font-bold text-black">Post</span>
-                </p>
-              ) : (
-                <p className="text-muted">Notification Demo</p>
-              )}
+              <p className="text-muted">{title}</p>
+
+              <p className="text-black font-bold">{"<Request>"}</p>
             </div>
             <div className="flex flex-row items-center gap-2">
               {actions?.includes("accept") && (
-                <Button variant={"blueRedSlash"}>Accept</Button>
+                <Button variant={"blueRedSlash"} onClick={handleAccept}>
+                  Accept
+                </Button>
               )}
               {actions?.includes("decline") && (
-                <Button variant={"secondary"}>Decline</Button>
+                <Button variant={"secondary"} onClick={closeNotification}>
+                  Decline
+                </Button>
               )}
               {actions?.includes("viewReport") && (
                 <Button variant={"blueRedSlash"}>View Report</Button>

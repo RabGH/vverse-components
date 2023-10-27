@@ -1,5 +1,7 @@
 import React from "react";
+
 import VAlertNotificationCard from "./v-alert-notification-card";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 interface VAlertTableProps {
   currentTabAndButton: {
@@ -25,8 +27,8 @@ const VAlertTable = ({
       switch (button) {
         case "Notifications":
           return (
-            <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+            <div className="flex flex-col max-w-[1500px]">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -37,13 +39,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -54,13 +57,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -71,13 +75,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -88,13 +93,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -105,7 +111,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -114,7 +121,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -125,13 +132,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -142,13 +150,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -159,13 +168,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -176,13 +186,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -193,7 +204,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -202,7 +214,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -213,13 +225,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -230,13 +243,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -247,13 +261,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -264,13 +279,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -281,7 +297,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -290,7 +307,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -301,13 +318,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -318,13 +336,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -335,13 +354,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -352,13 +372,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -369,7 +390,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -378,7 +400,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -389,13 +411,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -406,13 +429,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -423,13 +447,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -440,13 +465,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -457,7 +483,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -466,7 +493,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -477,13 +504,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -494,13 +522,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -511,13 +540,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -528,13 +558,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -545,7 +576,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -554,7 +586,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -565,13 +597,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -582,13 +615,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -599,13 +633,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -616,13 +651,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -633,7 +669,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -642,7 +679,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -653,13 +690,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -670,13 +708,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -687,13 +726,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -704,13 +744,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -721,7 +762,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -730,7 +772,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -741,13 +783,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -758,13 +801,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -775,13 +819,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -792,13 +837,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -809,7 +855,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -818,7 +865,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -829,13 +876,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -846,13 +894,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -863,13 +912,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -880,13 +930,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -897,7 +948,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -906,7 +958,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -917,13 +969,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -934,13 +987,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -951,13 +1005,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -968,13 +1023,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -985,7 +1041,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
@@ -994,7 +1051,7 @@ const VAlertTable = ({
         case "Notifications":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -1005,13 +1062,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Messages":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -1022,13 +1080,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Emails":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -1039,13 +1098,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Planner":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -1056,13 +1116,14 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
         case "Announcements":
           return (
             <div className="flex flex-col max-w-full">
-              <div className="max-h-[700px] overflow-y-auto rounded-lg">
+              <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
                     key={item.id}
@@ -1073,7 +1134,8 @@ const VAlertTable = ({
                     id={item.id}
                   />
                 ))}
-              </div>
+                <ScrollBar orientation="vertical" />
+              </ScrollArea>
             </div>
           );
       }
