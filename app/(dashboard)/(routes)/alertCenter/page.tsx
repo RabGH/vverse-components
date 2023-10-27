@@ -1,10 +1,10 @@
-import VAlertCenter from "@/components/alert-centers/alert-center/v-alert-center";
+import VAlertProvider from "@/components/alert-centers/alert-center/v-alert-provider";
 import React from "react";
 
 const AlertCenterPage = () => {
   return (
     <div>
-      <VAlertCenter />
+      <VAlertProvider />
     </div>
   );
 };

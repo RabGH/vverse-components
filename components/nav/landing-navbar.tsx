@@ -23,7 +23,7 @@ const LandingNavbar = () => {
       <SquareButton
         icon={ArrowRightCircle}
         label={"Navigation"}
-        link={"/Navigation"}
+        link={"/navigation"}
       />
       <SquareButton
         icon={ArrowRightCircle}

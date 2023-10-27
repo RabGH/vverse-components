@@ -8,24 +8,24 @@ interface VAlertTableProps {
     tab: string;
     button: string;
   };
-  backendData: Record<string, Record<string, any>>;
+  VAlertCenterData: Record<string, Record<string, any>>;
 }
 
 const VAlertTable = ({
   currentTabAndButton,
-  backendData,
+  VAlertCenterData,
 }: VAlertTableProps) => {
   const { tab, button } = currentTabAndButton;
-  const data = backendData[tab][button];
+  const data = VAlertCenterData[tab][button];
 
   if (!data) {
     return null;
   }
 
-  switch (tab) {
-    case "vVerse":
-      switch (button) {
-        case "Notifications":
+  switch (button) {
+    case "Notifcations":
+      switch (tab) {
+        case "vVerse":
           return (
             <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
@@ -43,9 +43,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Messages":
+        case "vGuide":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -61,9 +61,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Emails":
+        case "vBlog":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -79,9 +79,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Planner":
+        case "vNation":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -97,9 +97,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Announcements":
+        case "vTube":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -115,12 +115,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-      }
-    case "vGuide":
-      switch (button) {
-        case "Notifications":
+        case "vJobs":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -136,9 +133,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Messages":
+        case "vLance":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -154,9 +151,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Emails":
+        case "vCollege":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -172,9 +169,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Planner":
+        case "vMarket":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -190,9 +187,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Announcements":
+        case "vEvents":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -208,12 +205,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-      }
-    case "vBlog":
-      switch (button) {
-        case "Notifications":
+        case "vWebinars":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -229,63 +223,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Messages":
+        case "vExperts":
           return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -302,11 +242,47 @@ const VAlertTable = ({
             </div>
           );
       }
-    case "vNation":
-      switch (button) {
-        case "Notifications":
+    case "Messages":
+      return (
+        <div className="flex flex-col max-w-[1500px]">
+          <ScrollArea className="h-[700px] rounded-lg">
+            {data.map((item: any) => (
+              <VAlertNotificationCard
+                key={item.id}
+                user={item.user}
+                title={item.title}
+                dateOfNotification={item.date}
+                actions={item.actions}
+                id={item.id}
+              />
+            ))}
+            <ScrollBar orientation="vertical" />
+          </ScrollArea>
+        </div>
+      );
+    case "Emails":
+      return (
+        <div className="flex flex-col max-w-[1500px]">
+          <ScrollArea className="h-[700px] rounded-lg">
+            {data.map((item: any) => (
+              <VAlertNotificationCard
+                key={item.id}
+                user={item.user}
+                title={item.title}
+                dateOfNotification={item.date}
+                actions={item.actions}
+                id={item.id}
+              />
+            ))}
+            <ScrollBar orientation="vertical" />
+          </ScrollArea>
+        </div>
+      );
+    case "Planner":
+      switch (tab) {
+        case "OnlineMeetings":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -322,9 +298,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Messages":
+        case "OfflineMeetings":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -340,9 +316,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Emails":
+        case "WebinarMeetings":
           return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -358,120 +334,9 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "Planner":
+        case "EventMeetings":
           return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vTube":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
+            <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
                 {data.map((item: any) => (
                   <VAlertNotificationCard
@@ -488,696 +353,23 @@ const VAlertTable = ({
             </div>
           );
       }
-    case "vJobs":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vLance":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vCollege":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vMarket":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vEvents":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vWebinars":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
-    case "vExperts":
-      switch (button) {
-        case "Notifications":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Messages":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Emails":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Planner":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-        case "Announcements":
-          return (
-            <div className="flex flex-col max-w-full">
-              <ScrollArea className="h-[700px] rounded-lg">
-                {data.map((item: any) => (
-                  <VAlertNotificationCard
-                    key={item.id}
-                    user={item.user}
-                    title={item.title}
-                    dateOfNotification={item.date}
-                    actions={item.actions}
-                    id={item.id}
-                  />
-                ))}
-                <ScrollBar orientation="vertical" />
-              </ScrollArea>
-            </div>
-          );
-      }
+    case "News":
+      return (
+        <div className="flex flex-col max-w-[1500px]">
+          <ScrollArea className="h-[700px] rounded-lg">
+            {data.map((item: any) => (
+              <VAlertNotificationCard
+                key={item.id}
+                title={item.title}
+                dateOfNotification={item.date}
+                id={item.id}
+              />
+            ))}
+            <ScrollBar orientation="vertical" />
+          </ScrollArea>
+        </div>
+      );
   }
 };
 
 export default VAlertTable;
-// import React from "react";
-// import VAlertNotificationCard from "./v-alert-notification-card";
-
-// interface VAlertTableProps {
-//   currentTabAndButton: {
-//     tab: string;
-//     button: string;
-//   };
-//   backendData: Record<string, Record<string, any>>;
-// }
-
-// const VAlertTable = ({ currentTabAndButton, backendData }: VAlertTableProps) => {
-//   const { tab, button } = currentTabAndButton;
-//   const data = backendData[tab]?.[button] || [];
-
-//   if (!data.length) {
-//     return null;
-//   }
-
-//   return (
-//     <div className="flex flex-col max-w-full">
-//       <div className="max-h-[700px] overflow-y-auto rounded-lg">
-//         {data.map((item: any) => (
-//           <VAlertNotificationCard
-//             key={item.id}
-//             user={item.user}
-//             title={item.title}
-//             dateOfNotification={item.date}
-//             actions={item.actions}
-//             id={item.id}
-//           />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default VAlertTable;

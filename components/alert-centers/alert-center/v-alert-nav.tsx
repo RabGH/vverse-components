@@ -40,7 +40,7 @@ const VAlertNav = ({
   currentTabAndButton,
 }: VAlertNavProps) => {
   const isTabAndButtonVisited = (tab: string, button: string) =>
-    visitedTabs[tab][button];
+    visitedTabs[button][tab];
 
   const getButtonStyles = (button: string) => {
     return cn(

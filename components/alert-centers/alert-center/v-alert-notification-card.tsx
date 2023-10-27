@@ -17,7 +17,7 @@ interface VAlertNotificationCardProps {
   pageName?: string;
   dateOfNotification?: string;
   id: number;
-  user: string;
+  user?: string;
   actions?: string[];
   title: string;
 }
@@ -61,7 +61,9 @@ const VAlertNotificationCard = ({
     <Card
       data-disabled={isLoading}
       tabIndex={0}
-      className={cn(`flex items-center px-4 py-2 shadow-md bg-gray-100 mt-2`)}
+      className={cn(
+        `flex items-center px-4 py-2 shadow-md bg-gray-100 mt-2 hover:-translate-y-1 transition ease-in-out duration-300`
+      )}
     >
       <div className="flex flex-row justify-between items-center w-[1200px] h-16 max-w-full">
         {isLoading ? (
