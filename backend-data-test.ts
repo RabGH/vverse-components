@@ -114,825 +114,499 @@ export const vJobUserData = {
   shares: 900,
 };
 
-export const vNotificationsDemo = {
-  "v-guide": {
-    notifications: [
+export const backendData = {
+  vVerse: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
         actions: ["accept", "decline"],
+        date: "2023-04-05T11:00:00Z",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+  },
+  vGuide: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    planner: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
       },
     ],
-    announcements: [
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+  },
+  vBlog: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
+      },
+    ],
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
+      {
+        id: 1,
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 2,
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+    ],
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+  },
+  vNation: {
+    Notifications: [
+      {
+        id: 1,
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+      {
+        id: 2,
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
+      },
+    ],
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
+      {
+        id: 1,
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
+      },
+      {
+        id: 2,
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
+      },
+    ],
+    Emails: [
+      {
+        id: 1,
+        title: "Email 1 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+      {
+        id: 2,
+        title: "Email 2 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+    ],
+    Planner: [
+      {
+        id: 1,
+        title: "Planner 1 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
+      },
+      {
+        id: 2,
+        title: "Planner 2 for vGuide button2",
+        user: "Ahmad Hassan",
+        date: "2023-04-05T12:50:00Z",
       },
     ],
   },
-  "v-blog": {
-    notifications: [
+  vTube: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-nation": {
-    notifications: [
+  vJobs: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-tube": {
-    notifications: [
+  vLance: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-jobs": {
-    notifications: [
+  vCollege: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-college": {
-    notifications: [
+  vMarket: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-market": {
-    notifications: [
+  vEvents: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
-      },
-    ],
-    messages: [
-      {
-        id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
-        id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
-      },
-    ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-    ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
+        id: 3,
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
         actions: ["accept", "decline"],
       },
     ],
-    announcements: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
+      {
+        id: 3,
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
+        actions: "viewReport",
+      },
+    ],
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-events": {
-    notifications: [
+  vWebinars: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
-  "v-webinars": {
-    notifications: [
+  vExperts: {
+    Notifications: [
       {
         id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
+        title: "Notification 1 for vGuide button1",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
+        title: "Notification 2 for vGuide button1",
+        user: "Ahmad Hassan",
       },
     ],
-    messages: [
+    Messages: [
+      { id: 1, title: "Message 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Message 2 for vGuide button2", user: "Ahmad Hassan" },
+    ],
+    Announcements: [
       {
         id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
+        title: "Announcement 1 for vGuide button2",
+        user: "Ahmad Hassan",
       },
       {
         id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
+        title: "Announcement 2 for vGuide button2",
+        user: "Ahmad Hassan",
       },
     ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
+    Emails: [
+      { id: 1, title: "Email 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Email 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-  },
-  "v-experts": {
-    notifications: [
-      {
-        id: 1,
-        title: "You have a new guide request from John Doe",
-        date: "2023-04-05T10:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have completed a guide session with Jane Doe",
-        date: "2023-04-04T09:00:00Z",
-        status: "read",
-        actions: ["rate", "delete"],
-      },
-    ],
-    messages: [
-      {
-        id: 1,
-        title: "You have a new message from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new message from Jane Doe",
-        date: "2023-04-04T10:00:00Z",
-        status: "read",
-        actions: ["open", "delete"],
-      },
-    ],
-    emails: [
-      {
-        id: 1,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["open", "delete"],
-      },
-    ],
-    planner: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-    ],
-    announcements: [
-      {
-        id: 1,
-        title: "You have a new plan from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
-      {
-        id: 2,
-        title: "You have a new email from John Doe",
-        date: "2023-04-05T11:00:00Z",
-        status: "unread",
-        actions: ["accept", "decline"],
-      },
+    Planner: [
+      { id: 1, title: "Planner 1 for vGuide button2", user: "Ahmad Hassan" },
+      { id: 2, title: "Planner 2 for vGuide button2", user: "Ahmad Hassan" },
     ],
   },
 };

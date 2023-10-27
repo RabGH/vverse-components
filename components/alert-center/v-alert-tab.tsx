@@ -9,66 +9,215 @@ import { cn } from "@/lib/utils";
 import VAlertTable from "./v-alert-table";
 import VAlertNav from "./v-alert-nav";
 
-interface VAlertTabProps {
-  numberOfVverseNotifications: number;
-  numberOfVguideNotifications: number;
-  numberOfVblogNotifications: number;
-  numberOfVnationNotifications: number;
-  numberOfVtubeNotifications: number;
-  numberOfVjobsNotifications: number;
-  numberOfVlanceNotifications: number;
-  numberOfVcollegeNotifications: number;
-  numberOfVmarketNotifications: number;
-  numberOfVeventsNotifications: number;
-  numberOfVwebinarsNotifications: number;
-  numberOfVexpertsNotifications: number;
-}
+import { backendData } from "@/backend-data-test";
 
-const VAlertTab = ({
-  numberOfVverseNotifications,
-  numberOfVguideNotifications,
-  numberOfVblogNotifications,
-  numberOfVnationNotifications,
-  numberOfVtubeNotifications,
-  numberOfVjobsNotifications,
-  numberOfVlanceNotifications,
-  numberOfVcollegeNotifications,
-  numberOfVmarketNotifications,
-  numberOfVeventsNotifications,
-  numberOfVwebinarsNotifications,
-  numberOfVexpertsNotifications,
-}: VAlertTabProps) => {
-  const [activeTab, setActiveTab] = useState("vVerse Notifications");
+interface VAlertTabProps {}
+type TabKey =
+  | "vVerse"
+  | "vGuide"
+  | "vBlog"
+  | "vNation"
+  | "vTube"
+  | "vJobs"
+  | "vLance"
+  | "vCollege"
+  | "vMarket"
+  | "vEvents"
+  | "vWebinars"
+  | "vExperts";
+
+const VAlertTab = ({}: VAlertTabProps) => {
+  const [activeTab, setActiveTab] = useState<TabKey>("vVerse");
   const [activeButton, setActiveButton] = useState("Notifications");
   const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({
     vVerse: true,
   });
 
-  const getTabContentStyles = (tabtrigger: string) => {
+  const getTabContentStyles = (tab: TabKey) => {
     return cn("mt-0");
   };
 
-  const getTabTriggerStyles = (tabtrigger: string) => {
+  const getTabTriggerStyles = (tab: TabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
 data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
-      activeTab === tabtrigger ? "" : ""
+      activeTab === tab ? "" : ""
     );
   };
 
-  const getBadgeStyles = (tabstrigger: string, count: number) => {
+  const vVerseTotal =
+    backendData.vVerse.Notifications.length +
+    backendData.vVerse.Messages.length +
+    backendData.vVerse.Emails.length +
+    backendData.vVerse.Planner.length +
+    backendData.vVerse.Announcements.length;
+  const vGuideTotal =
+    backendData.vGuide.Notifications.length +
+    backendData.vGuide.Messages.length +
+    backendData.vGuide.Emails.length +
+    backendData.vGuide.Planner.length +
+    backendData.vGuide.Announcements.length;
+  const vBlogTotal =
+    backendData.vBlog.Notifications.length +
+    backendData.vBlog.Messages.length +
+    backendData.vBlog.Emails.length +
+    backendData.vBlog.Planner.length +
+    backendData.vBlog.Announcements.length;
+  const vNationTotal =
+    backendData.vNation.Notifications.length +
+    backendData.vNation.Messages.length +
+    backendData.vNation.Emails.length +
+    backendData.vNation.Planner.length +
+    backendData.vNation.Announcements.length;
+  const vTubeTotal =
+    backendData.vTube.Notifications.length +
+    backendData.vTube.Messages.length +
+    backendData.vTube.Emails.length +
+    backendData.vTube.Planner.length +
+    backendData.vTube.Announcements.length;
+  const vJobsTotal =
+    backendData.vJobs.Notifications.length +
+    backendData.vJobs.Messages.length +
+    backendData.vJobs.Emails.length +
+    backendData.vJobs.Planner.length +
+    backendData.vJobs.Announcements.length;
+  const vLanceTotal =
+    backendData.vLance.Notifications.length +
+    backendData.vLance.Messages.length +
+    backendData.vLance.Emails.length +
+    backendData.vLance.Planner.length +
+    backendData.vLance.Announcements.length;
+  const vCollegeTotal =
+    backendData.vCollege.Notifications.length +
+    backendData.vCollege.Messages.length +
+    backendData.vCollege.Emails.length +
+    backendData.vCollege.Planner.length +
+    backendData.vCollege.Announcements.length;
+  const vMarketTotal =
+    backendData.vMarket.Notifications.length +
+    backendData.vMarket.Messages.length +
+    backendData.vMarket.Emails.length +
+    backendData.vMarket.Planner.length +
+    backendData.vMarket.Announcements.length;
+  const vEventsTotal =
+    backendData.vEvents.Notifications.length +
+    backendData.vEvents.Messages.length +
+    backendData.vEvents.Emails.length +
+    backendData.vEvents.Planner.length +
+    backendData.vEvents.Announcements.length;
+  const vWebinarsTotal =
+    backendData.vWebinars.Notifications.length +
+    backendData.vWebinars.Messages.length +
+    backendData.vWebinars.Emails.length +
+    backendData.vWebinars.Planner.length +
+    backendData.vWebinars.Announcements.length;
+  const vExpertsTotal =
+    backendData.vExperts.Notifications.length +
+    backendData.vExperts.Messages.length +
+    backendData.vExperts.Emails.length +
+    backendData.vExperts.Planner.length +
+    backendData.vExperts.Announcements.length;
+
+  const badgeData = {
+    vVerse: {
+      Notifications: backendData.vVerse.Notifications.length,
+      Messages: backendData.vVerse.Messages.length,
+      Emails: backendData.vVerse.Emails.length,
+      Planner: backendData.vVerse.Planner.length,
+      Announcements: backendData.vVerse.Announcements.length,
+    },
+    vGuide: {
+      Notifications: backendData.vGuide.Notifications.length,
+      Messages: backendData.vGuide.Messages.length,
+      Emails: backendData.vGuide.Emails.length,
+      Planner: backendData.vGuide.Planner.length,
+      Announcements: backendData.vGuide.Announcements.length,
+    },
+    vBlog: {
+      Notifications: backendData.vBlog.Notifications.length,
+      Messages: backendData.vBlog.Messages.length,
+      Emails: backendData.vBlog.Emails.length,
+      Planner: backendData.vBlog.Planner.length,
+      Announcements: backendData.vBlog.Announcements.length,
+    },
+    vNation: {
+      Notifications: backendData.vNation.Notifications.length,
+      Messages: backendData.vNation.Messages.length,
+      Emails: backendData.vNation.Emails.length,
+      Planner: backendData.vNation.Planner.length,
+      Announcements: backendData.vNation.Announcements.length,
+    },
+    vTube: {
+      Notifications: backendData.vTube.Notifications.length,
+      Messages: backendData.vTube.Messages.length,
+      Emails: backendData.vTube.Emails.length,
+      Planner: backendData.vTube.Planner.length,
+      Announcements: backendData.vTube.Announcements.length,
+    },
+    vJobs: {
+      Notifications: backendData.vJobs.Notifications.length,
+      Messages: backendData.vJobs.Messages.length,
+      Emails: backendData.vJobs.Emails.length,
+      Planner: backendData.vJobs.Planner.length,
+      Announcements: backendData.vJobs.Announcements.length,
+    },
+    vLance: {
+      Notifications: backendData.vLance.Notifications.length,
+      Messages: backendData.vLance.Messages.length,
+      Emails: backendData.vLance.Emails.length,
+      Planner: backendData.vLance.Planner.length,
+      Announcements: backendData.vLance.Announcements.length,
+    },
+    vCollege: {
+      Notifications: backendData.vCollege.Notifications.length,
+      Messages: backendData.vCollege.Messages.length,
+      Emails: backendData.vCollege.Emails.length,
+      Planner: backendData.vCollege.Planner.length,
+      Announcements: backendData.vCollege.Announcements.length,
+    },
+    vMarket: {
+      Notifications: backendData.vMarket.Notifications.length,
+      Messages: backendData.vMarket.Messages.length,
+      Emails: backendData.vMarket.Emails.length,
+      Planner: backendData.vMarket.Planner.length,
+      Announcements: backendData.vMarket.Announcements.length,
+    },
+    vEvents: {
+      Notifications: backendData.vEvents.Notifications.length,
+      Messages: backendData.vEvents.Messages.length,
+      Emails: backendData.vEvents.Emails.length,
+      Planner: backendData.vEvents.Planner.length,
+      Announcements: backendData.vEvents.Announcements.length,
+    },
+    vWebinars: {
+      Notifications: backendData.vWebinars.Notifications.length,
+      Messages: backendData.vWebinars.Messages.length,
+      Emails: backendData.vWebinars.Emails.length,
+      Planner: backendData.vWebinars.Planner.length,
+      Announcements: backendData.vWebinars.Announcements.length,
+    },
+    vExperts: {
+      Notifications: backendData.vExperts.Notifications.length,
+      Messages: backendData.vExperts.Messages.length,
+      Emails: backendData.vExperts.Emails.length,
+      Planner: backendData.vExperts.Planner.length,
+      Announcements: backendData.vExperts.Announcements.length,
+    },
+  };
+
+  const getBadgeStyles = (tabs: TabKey, count: number) => {
     return cn(
       "border font-normal w-9 h-9",
-      activeTab === tabstrigger
+      activeTab === tabs
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
         : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isTabVisited(tabstrigger)
+      count > 0 && !isTabVisited(tabs)
         ? "vgRed text-background border-red-400/50 group-hover:bg-background"
         : ""
     );
   };
 
-  const handleTabChange = (tab: string) => {
+  const handleTabChange = (tab: TabKey) => {
     setActiveTab(tab);
     markTabAsVisited(tab);
   };
@@ -77,7 +226,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
     setActiveButton(button);
   };
 
-  const markTabAsVisited = (tab: string) => {
+  const markTabAsVisited = (tab: TabKey) => {
     setVisitedTabs((prevVisitedTabs) => ({
       ...prevVisitedTabs,
       [tab]: true,
@@ -90,11 +239,11 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
     <>
       <div>
         <VAlertNav
-          numberOfNotifications={100}
-          numberOfMessages={10}
-          numberOfEmails={20}
-          numberOfPlans={30}
-          numberOfAnnouncements={40}
+          numberOfNotifications={badgeData[activeTab].Notifications}
+          numberOfMessages={badgeData[activeTab].Messages}
+          numberOfEmails={badgeData[activeTab].Emails}
+          numberOfPlans={badgeData[activeTab].Planner}
+          numberOfAnnouncements={badgeData[activeTab].Announcements}
           currentTabAndButton={{
             tab: activeTab,
             button: activeButton,
@@ -107,7 +256,6 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         defaultValue="vVerse"
         className="w-64 shadow-md h-full flex"
         orientation="vertical"
-        onValueChange={handleTabChange}
       >
         <TabsList className="flex flex-col justify-center items-center">
           <TabsTrigger
@@ -118,9 +266,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Verse Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vVerse", numberOfVverseNotifications)}
+              className={getBadgeStyles("vVerse", vVerseTotal)}
             >
-              {numberOfVverseNotifications}
+              {vVerseTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -132,9 +280,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Guide Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vGuide", numberOfVguideNotifications)}
+              className={getBadgeStyles("vGuide", vGuideTotal)}
             >
-              {numberOfVguideNotifications}
+              {vGuideTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -146,9 +294,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Blog Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vBlog", numberOfVblogNotifications)}
+              className={getBadgeStyles("vBlog", vBlogTotal)}
             >
-              {numberOfVblogNotifications}
+              {vBlogTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -160,12 +308,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Nation Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vNation",
-                numberOfVnationNotifications
-              )}
+              className={getBadgeStyles("vNation", vNationTotal)}
             >
-              {numberOfVnationNotifications}
+              {vNationTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -177,9 +322,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Tube Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vTube", numberOfVtubeNotifications)}
+              className={getBadgeStyles("vTube", vTubeTotal)}
             >
-              {numberOfVtubeNotifications}
+              {vTubeTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -191,9 +336,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Jobs Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vJobs", numberOfVjobsNotifications)}
+              className={getBadgeStyles("vJobs", vJobsTotal)}
             >
-              {numberOfVjobsNotifications}
+              {vJobsTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -205,9 +350,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Lance Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles("vLance", numberOfVlanceNotifications)}
+              className={getBadgeStyles("vLance", vLanceTotal)}
             >
-              {numberOfVlanceNotifications}
+              {vLanceTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -219,12 +364,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-College Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vCollege",
-                numberOfVcollegeNotifications
-              )}
+              className={getBadgeStyles("vCollege", vCollegeTotal)}
             >
-              {numberOfVcollegeNotifications}
+              {vCollegeTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -236,12 +378,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Market Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vMarket",
-                numberOfVmarketNotifications
-              )}
+              className={getBadgeStyles("vMarket", vMarketTotal)}
             >
-              {numberOfVmarketNotifications}
+              {vMarketTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -253,12 +392,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Events Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vEvents",
-                numberOfVeventsNotifications
-              )}
+              className={getBadgeStyles("vEvents", vEventsTotal)}
             >
-              {numberOfVeventsNotifications}
+              {vEventsTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -270,12 +406,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Webinars Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vWebinars",
-                numberOfVwebinarsNotifications
-              )}
+              className={getBadgeStyles("vWebinars", vWebinarsTotal)}
             >
-              {numberOfVwebinarsNotifications}
+              {vWebinarsTotal}
             </Badge>
           </TabsTrigger>
           <Separator />
@@ -287,12 +420,9 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
             V-Experts Notifications
             <Badge
               size="numberTag"
-              className={getBadgeStyles(
-                "vExperts",
-                numberOfVexpertsNotifications
-              )}
+              className={getBadgeStyles("vExperts", vExpertsTotal)}
             >
-              {numberOfVexpertsNotifications}
+              {vExpertsTotal}
             </Badge>
           </TabsTrigger>
         </TabsList>
@@ -302,6 +432,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vVerse",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vGuide" className={getTabContentStyles("vGuide")}>
@@ -310,6 +441,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vGuide",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vBlog" className={getTabContentStyles("vBlog")}>
@@ -318,6 +450,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vBlog",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vNation" className={getTabContentStyles("vNation")}>
@@ -326,6 +459,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vNation",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vTube" className={getTabContentStyles("vTube")}>
@@ -334,6 +468,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vTube",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vJobs" className={getTabContentStyles("vJobs")}>
@@ -342,6 +477,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vJobs",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vLance" className={getTabContentStyles("vLance")}>
@@ -350,6 +486,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vLance",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent
@@ -361,6 +498,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vCollege",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vMarket" className={getTabContentStyles("vMarket")}>
@@ -369,6 +507,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vMarket",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent value="vEvents" className={getTabContentStyles("vEvents")}>
@@ -377,6 +516,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vEvents",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent
@@ -388,6 +528,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vWebinars",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
         <TabsContent
@@ -399,6 +540,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
               tab: "vExperts",
               button: activeButton,
             }}
+            backendData={backendData}
           />
         </TabsContent>
       </Tabs>

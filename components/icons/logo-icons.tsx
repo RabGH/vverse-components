@@ -2625,14 +2625,14 @@ export const IconEmailFilledMuted = React.forwardRef<
     <rect x="0.5" width="40" height="40" rx="20" fill="#F4F4F4" />
     <path
       d="M14.6654 14.6665H25.332C26.0654 14.6665 26.6654 15.2665 26.6654 15.9998V23.9998C26.6654 24.7332 26.0654 25.3332 25.332 25.3332H14.6654C13.932 25.3332 13.332 24.7332 13.332 23.9998V15.9998C13.332 15.2665 13.932 14.6665 14.6654 14.6665Z"
-      stroke="#AAA9AD"
+      stroke="currentColor"
       strokeWidth="1.14286"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M26.6654 16L19.9987 20.6667L13.332 16"
-      stroke="#AAA9AD"
+      stroke="currentColor"
       strokeWidth="1.14286"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -4514,13 +4514,13 @@ export const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
     >
       <path
         d="M13 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V9L13 2Z"
-        stroke="#AAA9AD"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M13 2V9H20"
-        stroke="#AAA9AD"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -6935,13 +6935,13 @@ export const IconArrowLeftThinBtn = React.forwardRef<
   >
     <path
       d="M12.6673 8H3.33398"
-      stroke="#AAA9AD"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M8.00065 12.6666L3.33398 7.99992L8.00065 3.33325"
-      stroke="#AAA9AD"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -10477,6 +10477,63 @@ export const IconBagDollarVerified = React.forwardRef<
 
 IconBagDollarVerified.displayName = "IconBagDollarVerified";
 
+export const IconBellOff = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      viewBox="0 0 16 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_8969_118336)">
+        <path
+          d="M9.15237 14.5C9.03516 14.7021 8.86693 14.8698 8.66452 14.9864C8.46211 15.1029 8.23262 15.1643 7.99904 15.1643C7.76545 15.1643 7.53596 15.1029 7.33355 14.9864C7.13114 14.8698 6.96291 14.7021 6.8457 14.5"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12.4196 9.16658C12.123 8.08086 11.9816 6.95861 11.9996 5.83325"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M4.17333 4.67334C4.05751 5.04908 3.99907 5.44015 4 5.83334C4 10.5 2 11.8333 2 11.8333H11.3333"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M11.9993 5.83333C12.0004 5.1087 11.8046 4.3974 11.4329 3.77539C11.0611 3.15338 10.5274 2.64403 9.88871 2.30175C9.25002 1.95948 8.53035 1.79712 7.80656 1.83204C7.08278 1.86696 6.38208 2.09783 5.7793 2.5"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M0.666016 1.16675L15.3327 15.8334"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_8969_118336">
+          <rect
+            width="16"
+            height="16"
+            fill="currentColor"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+);
+
+IconBellOff.displayName = "IconBellOff";
+
 export const Icons = {
   LogoBlue: LogoBlue,
   PlusSignBlue: PlusSignBlue,
@@ -10718,6 +10775,7 @@ export const Icons = {
   IconToolboxCheckApplications: IconToolboxCheckApplications,
   IconOrdersListFinger: IconOrdersListFinger,
   IconBagDollarVerified: IconBagDollarVerified,
+  IconBellOff: IconBellOff,
   ButtonColorRedBlue: ButtonColorRedBlue,
   VVerseNavBg: VVerseNavBg,
 };
