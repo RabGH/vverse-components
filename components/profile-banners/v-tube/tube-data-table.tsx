@@ -10,7 +10,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface AuthorDataTable {
+type AuthorDataTable = {
   isLoading: boolean;
   channels: number;
   videos: number;

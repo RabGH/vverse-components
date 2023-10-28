@@ -2,11 +2,11 @@ import { Loader2 } from "lucide-react";
 
 import { IconBullHorn, IconLoader } from "@/components/icons/logo-icons";
 
-interface UserPointProps {
+type UserPointProps = {
   points: number;
   endorsements: number;
   isLoading?: boolean;
-}
+};
 
 const UserPoints = ({ isLoading }: UserPointProps) => {
   return (

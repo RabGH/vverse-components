@@ -5,9 +5,9 @@ import UserInteraction from "@/components/profile-banners/master-banner/user-int
 import JobsDataTable from "./jobs-data-table";
 import { vJobUserData } from "@/backend-data-test";
 
-interface JobProfileProps {
+type JobProfileProps = {
   isLoading: boolean;
-}
+};
 
 const JobProfile = ({ isLoading }: JobProfileProps) => {
   return (

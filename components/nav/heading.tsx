@@ -1,11 +1,11 @@
 import { cn } from "@/lib/utils";
 import { LucideIcon } from "lucide-react";
 
-interface HeadingProps {
+type HeadingProps = {
   title: string;
   description: string;
   icon: LucideIcon;
-}
+};
 
 const Heading = ({ title, description, icon: Icon }: HeadingProps) => {
   return (

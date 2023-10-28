@@ -12,7 +12,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface AuthorDataTableProps {
+type AuthorDataTableProps = {
   isLoading: boolean;
   posts: number;
   socialPages: number;
@@ -23,7 +23,7 @@ interface AuthorDataTableProps {
   shares: number;
   ratingPoints: number;
   rating: number;
-}
+};
 
 const AuthorDataTable = ({
   isLoading,

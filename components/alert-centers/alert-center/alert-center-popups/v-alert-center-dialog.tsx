@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/v-dialog";
 import { Loader2, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import VAlertCenter from "./v-alert-center";
+import VAlertCenter from "../v-alert-center";
 
-interface VAlertCenterDialog {
+type VAlertCenterDialog = {
   isLoading?: boolean;
 }
 

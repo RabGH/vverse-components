@@ -5,7 +5,7 @@ import TubeDataTable from "@/components/profile-banners/v-tube/tube-data-table";
 import { vTubeUserData } from "@/backend-data-test";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 
-interface TubeProfileProps {
+type TubeProfileProps = {
   isLoading: boolean;
 }
 

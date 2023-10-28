@@ -2,8 +2,8 @@ import Heading from "@/components/nav/heading";
 import VAlertTab from "./v-alert-center";
 
 import { IconBellFilled } from "@/components/icons/logo-icons";
-import VAlertCenterDropDown from "./v-alert-center-dropdown";
-import VAlertCenterDialog from "./v-alert-center-dialog";
+import VAlertCenterDropDown from "./alert-center-popups/v-alert-center-dropdown";
+import VAlertCenterDialog from "./alert-center-popups/v-alert-center-dialog";
 
 const VAlertProvider = () => {
   return (

@@ -11,13 +11,13 @@ import {
   IconUnverifiedPhone,
 } from "@/components/icons/logo-icons";
 
-interface UserVerifiedIconProps {
+type UserVerifiedIconProps = {
   isIdVerified: boolean;
   isEmailVerified: boolean;
   isPhoneVerified: boolean;
   isAgreementVerified: boolean;
   isLoading: boolean;
-}
+};
 
 const UserVerifiedIcons = ({
   isIdVerified,

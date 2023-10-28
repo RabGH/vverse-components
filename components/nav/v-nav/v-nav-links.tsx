@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { LucideIcon } from "lucide-react";
 
-interface VNavLinkProps {
+type VNavLinkProps = {
   sectionLinks: {
     icon: LucideIcon;
     label: string;

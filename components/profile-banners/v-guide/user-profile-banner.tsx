@@ -6,9 +6,9 @@ import { Separator } from "@/components/ui/separator";
 import { UserLargeAvatar } from "./user-lg-avatar";
 import { partOf, vNationUserData } from "@/backend-data-test";
 
-interface UserProfileBannerProps {
+type UserProfileBannerProps = {
   isLoading: boolean;
-}
+};
 
 const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
   return (

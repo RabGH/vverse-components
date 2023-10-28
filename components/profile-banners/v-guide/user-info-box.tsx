@@ -9,7 +9,7 @@ import {
 } from "@/components/icons/logo-icons";
 import React from "react";
 
-interface UserInfoBox {
+type UserInfoBox = {
   id: string;
   gender: string;
   country: string;
@@ -17,7 +17,7 @@ interface UserInfoBox {
   time: string;
   calendar: string;
   lastSeen: string;
-}
+};
 
 const UserInfoBox = ({
   id,

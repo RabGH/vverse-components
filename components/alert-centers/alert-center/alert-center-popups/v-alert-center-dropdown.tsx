@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { useMount } from "@/hooks/mount-hook";
-import VAlertTab from "./v-alert-center";
+import VAlertTab from "../v-alert-center";
 
 const VAlertCenterDropDown = () => {
   const isMounted = useMount();

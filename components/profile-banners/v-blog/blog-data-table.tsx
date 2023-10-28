@@ -7,14 +7,14 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface BlogDataTableProps {
+type BlogDataTableProps = {
   isLoading: boolean;
   posts: number;
   likes: number;
   shares: number;
   rating: number;
   ratingPoints: number;
-}
+};
 
 const BlogDataTable = ({
   isLoading,

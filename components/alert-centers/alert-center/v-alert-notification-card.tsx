@@ -10,7 +10,7 @@ import { IconBellOff, IconBellOutline } from "@/components/icons/logo-icons";
 import { UserSmallAvatar } from "@/components/v-ui/user-small-avatar";
 import { cn } from "@/lib/utils";
 
-interface VAlertNotificationCardProps {
+type VAlertNotificationCardProps = {
   isLoading?: boolean;
   isOld?: boolean;
   groupName?: string;
@@ -20,7 +20,10 @@ interface VAlertNotificationCardProps {
   user?: string;
   actions?: string[];
   title: string;
-}
+  buttonType?: string;
+  fromPillar?: string;
+  type?: string;
+};
 
 const VAlertNotificationCard = ({
   isLoading,
@@ -32,6 +35,9 @@ const VAlertNotificationCard = ({
   id,
   title,
   actions,
+  buttonType,
+  fromPillar,
+  type,
 }: VAlertNotificationCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
@@ -90,6 +96,25 @@ const VAlertNotificationCard = ({
               )}
               {actions?.includes("viewReport") && (
                 <Button variant={"blueRedSlash"}>View Report</Button>
+              )}
+              <p className="text-black font-bold">{user}</p>
+              {buttonType === "Notifications" && (
+                <>
+                  <p className="text-muted">{title}</p>
+                  <p className="text-black font-bold">{"<Request>"}</p>
+                </>
+              )}
+              {buttonType === "Messages" && (
+                <>
+                  <p className="text-muted">Sent You a Message</p>
+                  <p className="text-black font-bold">{fromPillar}</p>
+                </>
+              )}
+              {buttonType === "Emails" && (
+                <>
+                  <p className="text-muted">Sent You an Email</p>
+                  <p className="text-black font-bold">{type}</p>
+                </>
               )}
 
               {dateOfNotification && (

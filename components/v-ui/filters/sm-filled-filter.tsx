@@ -18,17 +18,17 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 
-interface Category {
+type Category = {
   value: string;
   label: string;
-}
+};
 
-interface FilterBoxProps {
+type FilterBoxProps = {
   categories: Category[];
   selectCategoryPlaceholder: string;
   searchCategoryPlaceholder: string;
   noCategoryFoundMessage: string;
-}
+};
 
 export function FilterFilledSmall({
   categories,

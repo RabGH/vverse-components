@@ -5,9 +5,9 @@ import AuthorDataTable from "@/components/profile-banners/v-author/author-data-t
 import { vAuthorUserData } from "@/backend-data-test";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 
-interface AuthorProfileProps {
+type AuthorProfileProps = {
   isLoading: boolean;
-}
+};
 
 const AuthorProfile = ({ isLoading }: AuthorProfileProps) => {
   return (

@@ -2,11 +2,12 @@ import React from "react";
 
 import VAlertNotificationCard from "./v-alert-notification-card";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { ButtonKey, TabKey } from "@/lib/types";
 
-interface VAlertTableProps {
+type VAlertTableProps = {
   currentTabAndButton: {
-    tab: string;
-    button: string;
+    tab: TabKey;
+    button: ButtonKey;
   };
   VAlertCenterData: Record<string, Record<string, any>>;
 }
@@ -16,14 +17,14 @@ const VAlertTable = ({
   VAlertCenterData,
 }: VAlertTableProps) => {
   const { tab, button } = currentTabAndButton;
-  const data = VAlertCenterData[tab][button];
+  const data = VAlertCenterData[tab]?.[button];
 
   if (!data) {
     return null;
   }
 
   switch (button) {
-    case "Notifcations":
+    case "Notifications":
       switch (tab) {
         case "vVerse":
           return (
@@ -280,7 +281,7 @@ const VAlertTable = ({
       );
     case "Planner":
       switch (tab) {
-        case "OnlineMeetings":
+        case "onlineMeetings":
           return (
             <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
@@ -298,7 +299,7 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "OfflineMeetings":
+        case "offlineMeetings":
           return (
             <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
@@ -316,7 +317,7 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "WebinarMeetings":
+        case "webinarMeetings":
           return (
             <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
@@ -334,7 +335,7 @@ const VAlertTable = ({
               </ScrollArea>
             </div>
           );
-        case "EventMeetings":
+        case "eventMeetings":
           return (
             <div className="flex flex-col max-w-[1500px]">
               <ScrollArea className="h-[700px] rounded-lg">
@@ -360,8 +361,10 @@ const VAlertTable = ({
             {data.map((item: any) => (
               <VAlertNotificationCard
                 key={item.id}
+                user={item.user}
                 title={item.title}
                 dateOfNotification={item.date}
+                actions={item.actions}
                 id={item.id}
               />
             ))}

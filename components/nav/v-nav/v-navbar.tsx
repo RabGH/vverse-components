@@ -18,7 +18,7 @@ import VVerseMenuContent from "@/components/nav/v-nav/v-verse-menu-content";
 import { Separator } from "@/components/ui/separator";
 import VVerseBackOfficeMenuContent from "@/components/nav/v-nav/v-verse-back-office-content";
 
-interface VNavBarProps {
+type VNavBarProps = {
   userName: string;
   userTitle: string;
   isLoggedIn: boolean;

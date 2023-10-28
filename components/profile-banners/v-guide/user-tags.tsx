@@ -13,9 +13,9 @@ import {
 } from "@/components/icons/logo-icons";
 import { Badge } from "@/components/ui/badge";
 
-interface UserTagProps {
+type UserTagProps = {
   partOf: Record<string, boolean>;
-}
+};
 
 const UserTags = ({ partOf }: UserTagProps) => {
   const roles = [

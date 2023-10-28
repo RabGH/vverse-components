@@ -5,9 +5,9 @@ import BlogDataTable from "@/components/profile-banners/v-blog/blog-data-table";
 import { vBlogUserData } from "@/backend-data-test";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 
-interface BlogProfileProps {
+type BlogProfileProps = {
   isLoading: boolean;
-}
+};
 
 const BlogProfile = ({ isLoading }: BlogProfileProps) => {
   return (

@@ -7,7 +7,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-interface JobsDataTableProps {
+type JobsDataTableProps = {
   isLoading: boolean;
   experience: number;
   salary: number;

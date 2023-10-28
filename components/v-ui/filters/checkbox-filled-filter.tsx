@@ -19,17 +19,17 @@ import {
 } from "@/components/ui/popover";
 import { Checkbox } from "@/components/ui/checkbox";
 
-interface Category {
+type Category = {
   value: string;
   label: string;
-}
+};
 
-interface FilterBoxProps {
+type FilterBoxProps = {
   categories: Category[];
   selectCategoryPlaceholder: string;
   searchCategoryPlaceholder: string;
   noCategoryFoundMessage: string;
-}
+};
 
 export function FilterFilledCheckbox({
   categories,

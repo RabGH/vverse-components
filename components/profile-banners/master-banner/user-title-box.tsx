@@ -12,7 +12,7 @@ import RankMedals, {
 } from "@/components/profile-banners/master-banner/rank-medals";
 import UserPoints from "@/components/profile-banners/master-banner/user-points";
 
-interface UserTitleBoxProps {
+type UserTitleBoxProps = {
   userName: string;
   userTitle: string;
   points: number;
@@ -23,7 +23,7 @@ interface UserTitleBoxProps {
   isOpenToWork?: boolean;
   isHiring?: boolean;
   rank: RankMedalProps["rank"];
-}
+};
 
 const UserTitleBox = ({
   userName,

@@ -4,7 +4,7 @@ import { Loader2, LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-interface RectangleButtonProps {
+type RectangleButtonProps = {
   icon: LucideIcon;
   label: string;
   title: string;
@@ -12,7 +12,7 @@ interface RectangleButtonProps {
   variant?: "largeOutline" | "largeFilled";
   isLoading?: boolean;
   target?: boolean;
-}
+};
 
 export function RectangleButton({
   icon: Icon,

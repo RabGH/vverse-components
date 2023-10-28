@@ -10,37 +10,42 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { ButtonKey, TabKey, VisitedTabs } from "@/lib/types";
 
-interface VAlertNavProps {
+type VAlertNavProps = {
   numberOfNotifications: number;
   numberOfMessages: number;
   numberOfEmails: number;
   numberOfPlans: number;
-  numberOfAnnouncements: number;
+  numberOfNews: number;
   currentTabAndButton: {
-    tab: string;
-    button: string;
+    tab: TabKey;
+    button: ButtonKey;
   };
-  activeButton: string;
-  setActiveButton: (button: string) => void;
-  visitedTabs: Record<string, Record<string, boolean>>;
-  handleButtonChange: (button: string) => void;
-}
+  activeButton: ButtonKey;
+  setActiveButton: (button: ButtonKey) => void;
+  visitedTabs: VisitedTabs;
+  handleButtonChange: (button: ButtonKey) => void;
+};
 
 const VAlertNav = ({
   numberOfNotifications,
   numberOfMessages,
   numberOfEmails,
   numberOfPlans,
-  numberOfAnnouncements,
+  numberOfNews,
   activeButton,
   setActiveButton,
   visitedTabs,
   handleButtonChange,
   currentTabAndButton,
 }: VAlertNavProps) => {
-  const isTabAndButtonVisited = (tab: string, button: string) =>
-    visitedTabs[button][tab];
+  function isRecord<T>(value: any): value is Record<string, T> {
+    return typeof value === "object" && value !== null;
+  }
+  const isTabAndButtonVisited = (tab: TabKey, button: ButtonKey) =>
+    isRecord<boolean>(visitedTabs[button]) &&
+    (visitedTabs[button] as Record<TabKey, boolean>)[tab];
 
   const getButtonStyles = (button: string) => {
     return cn(
@@ -69,7 +74,7 @@ const VAlertNav = ({
     );
   };
 
-  const getBadgeStyles = (button: string, count: number) => {
+  const getBadgeStyles = (button: ButtonKey, count: number) => {
     return cn(
       "border font-normal",
       activeButton === button
@@ -170,21 +175,21 @@ const VAlertNav = ({
 
         <Button
           variant={"notificationCenter"}
-          className={getButtonStyles("Announcements")}
+          className={getButtonStyles("News")}
           onClick={() => {
-            handleButtonChange("Announcements");
-            setActiveButton("Announcements");
+            handleButtonChange("News");
+            setActiveButton("News");
           }}
         >
-          <div className={getCircleStyles("Announcements")}>
-            <IconSponsorMegaphone className={getIconStyles("Announcements")} />
+          <div className={getCircleStyles("News")}>
+            <IconSponsorMegaphone className={getIconStyles("News")} />
           </div>
-          Announcements
+          News
           <Badge
             size="numberTag"
-            className={getBadgeStyles("Announcements", numberOfAnnouncements)}
+            className={getBadgeStyles("News", numberOfNews)}
           >
-            {numberOfAnnouncements}
+            {numberOfNews}
           </Badge>
         </Button>
       </div>

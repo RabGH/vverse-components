@@ -17,7 +17,7 @@ import {
 import UserInfoBox from "./user-info-box";
 import { userInfoData } from "@/backend-data-test";
 
-interface UserDataTableProps {
+type UserDataTableProps = {
   isLoading: boolean;
   sales: number;
   earnings: number;
@@ -32,7 +32,7 @@ interface UserDataTableProps {
   subscribers: number;
   customers: number;
   currency: string;
-}
+};
 
 const UserDataTable = ({
   isLoading,

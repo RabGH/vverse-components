@@ -2,12 +2,12 @@ import React from "react";
 
 import { Button } from "@/components/ui/button";
 
-interface UserInteractionProps {
+type UserInteractionProps = {
   isConnected?: boolean;
   isOwner?: boolean;
   isLoggedIn?: boolean;
   isMiniView?: boolean;
-}
+};
 
 const UserInteraction = ({
   isConnected,
