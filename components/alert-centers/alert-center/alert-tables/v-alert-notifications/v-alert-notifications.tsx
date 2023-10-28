@@ -8,10 +8,10 @@ import {
   defaultVisitedTabs,
   notificationTabs,
   plannerTabs,
-} from "../alert-badge-constants";
+} from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import VAlertTable from "../v-alert-table";
+import VAlertTable from "../../v-alert-table";
 import { VAlertCenterData } from "@/backend-data-test";
 
 const VAlertNotifications = () => {

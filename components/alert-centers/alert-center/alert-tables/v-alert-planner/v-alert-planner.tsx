@@ -3,33 +3,20 @@ import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ButtonKey, PlannerTabKey, TabKey, VisitedTabs } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import {
-  badgePlannerTabData,
-  defaultVisitedTabs,
-  notificationTabs,
-  plannerTabs,
-} from "../alert-badge-constants";
+import { badgePlannerTabData, plannerTabs } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import VAlertTable from "../v-alert-table";
+import VAlertTable from "../../v-alert-table";
 import { VAlertCenterData } from "@/backend-data-test";
 
 type VAlertPlannerProps = {
   activeTab: PlannerTabKey;
   setActiveTab: (tab: TabKey) => void;
   setVisitedTabs: (tabs: VisitedTabs) => void;
+  visitedTabs: VisitedTabs;
 };
 
-const VAlertPlanner = ({
-  activeTab,
-  setActiveTab,
-  setVisitedTabs,
-}: VAlertPlannerProps) => {
-  const [activeTab, setActiveTab] = useState<TabKey>("onlineMeetings");
-  const [, setVisitedTabs] = useState<VisitedTabs>({
-    ...defaultVisitedTabs,
-  });
-
+const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
   const isButtonFullyVisited = (button: ButtonKey) => {
     let tabs: TabKey[];
     if (button === "Planner") {
@@ -39,19 +26,8 @@ const VAlertPlanner = ({
     }
   };
 
-  const markTabAndButtonAsVisited = (tab: TabKey, button: ButtonKey) => {
-    setVisitedTabs((prevVisitedTabs) => {
-      return Object.assign({}, prevVisitedTabs, {
-        [button]: Object.assign({}, prevVisitedTabs[button], {
-          [tab]: true,
-        }),
-      });
-    });
-  };
-
   const handleTabChange = (tab: TabKey, activeButton: ButtonKey) => {
     setActiveTab(tab);
-    markTabAndButtonAsVisited(tab, activeButton);
   };
 
   const getTabContentStyles = (tab: TabKey) => {
