@@ -10,8 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
-import { ButtonKey, TabKey, VisitedTabs } from "@/lib/types";
-import { notificationTabs, plannerTabs } from "./alert-badge-constants";
+import { ButtonKey } from "@/lib/types";
 
 type VAlertNavProps = {
   numberOfNotifications: number;
@@ -68,7 +67,6 @@ const VAlertNav = ({
     );
   };
 
-
   return (
     <div
       className={cn(
@@ -78,7 +76,7 @@ const VAlertNav = ({
       <div className="flex flex-row gap-2 justify-center items-center">
         <Button
           variant={"notificationCenter"}
-          className={getBadgeStyles("Notifications")}
+          className={getButtonStyles("Notifications")}
           onClick={() => {
             setActiveButton("Notifications");
           }}
