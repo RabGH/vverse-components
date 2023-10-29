@@ -1,32 +1,24 @@
-import { useState } from "react";
+"use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ButtonKey, PlannerTabKey, TabKey, VisitedTabs } from "@/lib/types";
+import { ButtonKey, PlannerItem, TabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { badgePlannerTabData, plannerTabs } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import VAlertTable from "../../v-alert-table";
-import { VAlertCenterData } from "@/backend-data-test";
+import VAlertPlannerTable from "./v-alert-planner-table";
+import { useState } from "react";
 
 type VAlertPlannerProps = {
-  activeTab: PlannerTabKey;
-  setActiveTab: (tab: TabKey) => void;
-  setVisitedTabs: (tabs: VisitedTabs) => void;
-  visitedTabs: VisitedTabs;
+  tabsData: {
+    [tabKey: string]: PlannerItem[];
+  };
 };
 
-const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
-  const isButtonFullyVisited = (button: ButtonKey) => {
-    let tabs: TabKey[];
-    if (button === "Planner") {
-      tabs = plannerTabs;
-    } else {
-      return true;
-    }
-  };
+const VAlertPlanner = ({ tabsData }: VAlertPlannerProps) => {
+  const [activeTab, setActiveTab] = useState("onlineMeetings");
 
-  const handleTabChange = (tab: TabKey, activeButton: ButtonKey) => {
+  const handleTabChange = (tab: TabKey) => {
     setActiveTab(tab);
   };
 
@@ -37,20 +29,16 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
   const getTabTriggerStyles = (tab: TabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
-    data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
-      activeTab === tab ? "" : ""
+data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
     );
   };
 
-  const getBadgeStyles = (tab: TabKey, count: number, button: ButtonKey) => {
+  const getBadgeStyles = (tab: TabKey) => {
     return cn(
       "border font-normal w-9 h-9",
       activeTab === tab
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isButtonFullyVisited(button)
-        ? "vgRed text-background border-red-400/50 group-hover:bg-background"
-        : ""
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
     );
   };
 
@@ -60,21 +48,14 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
       className="w-64 shadow-md h-full flex"
       orientation="vertical"
     >
-      <TabsList className="flex flex-col justify-center items-center">
+      <TabsList className="flex flex-col justify-start">
         <TabsTrigger
           value="onlineMeetings"
           className={getTabTriggerStyles("onlineMeetings")}
-          onClick={() => handleTabChange("onlineMeetings", "Planner")}
+          onClick={() => handleTabChange("onlineMeetings")}
         >
           Online Meetings
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "onlineMeetings",
-              badgePlannerTabData.Planner.onlineMeetings,
-              "Planner"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("onlineMeetings")}>
             {badgePlannerTabData.Planner.onlineMeetings}
           </Badge>
         </TabsTrigger>
@@ -82,17 +63,10 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
         <TabsTrigger
           value="offlineMeetings"
           className={getTabTriggerStyles("offlineMeetings")}
-          onClick={() => handleTabChange("offlineMeetings", "Planner")}
+          onClick={() => handleTabChange("offlineMeetings")}
         >
           Offline Meetings
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "offlineMeetings",
-              badgePlannerTabData.Planner.offlineMeetings,
-              "Planner"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("offlineMeetings")}>
             {badgePlannerTabData.Planner.offlineMeetings}
           </Badge>
         </TabsTrigger>
@@ -100,17 +74,10 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
         <TabsTrigger
           value="webinarMeetings"
           className={getTabTriggerStyles("webinarMeetings")}
-          onClick={() => handleTabChange("webinarMeetings", "Planner")}
+          onClick={() => handleTabChange("webinarMeetings")}
         >
           Online Webinars
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "webinarMeetings",
-              badgePlannerTabData.Planner.webinarMeetings,
-              "Planner"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("webinarMeetings")}>
             {badgePlannerTabData.Planner.webinarMeetings}
           </Badge>
         </TabsTrigger>
@@ -118,17 +85,10 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
         <TabsTrigger
           value="eventMeetings"
           className={getTabTriggerStyles("eventMeetings")}
-          onClick={() => handleTabChange("eventMeetings", "Planner")}
+          onClick={() => handleTabChange("eventMeetings")}
         >
           Offline Events
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "eventMeetings",
-              badgePlannerTabData.Planner.eventMeetings,
-              "Planner"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("eventMeetings")}>
             {badgePlannerTabData.Planner.eventMeetings}
           </Badge>
         </TabsTrigger>
@@ -136,17 +96,10 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
         <TabsTrigger
           value="todos"
           className={getTabTriggerStyles("todos")}
-          onClick={() => handleTabChange("todos", "Planner")}
+          onClick={() => handleTabChange("todos")}
         >
           Todo&apos;s
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "todos",
-              badgePlannerTabData.Planner.todos,
-              "Planner"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("todos")}>
             {badgePlannerTabData.Planner.todos}
           </Badge>
         </TabsTrigger>
@@ -156,58 +109,28 @@ const VAlertPlanner = ({ activeTab, setActiveTab }: VAlertPlannerProps) => {
         value="onlineMeetings"
         className={getTabContentStyles("onlineMeetings")}
       >
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "onlineMeetings",
-            button: "Planner",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertPlannerTable plannerData={tabsData["onlineMeetings"]} />
       </TabsContent>
       <TabsContent
         value="offlineMeetings"
         className={getTabContentStyles("offlineMeetings")}
       >
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "offlineMeetings",
-            button: "Planner",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertPlannerTable plannerData={tabsData["offlineMeetings"]} />
       </TabsContent>
       <TabsContent
         value="webinarMeetings"
         className={getTabContentStyles("webinarMeetings")}
       >
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "webinarMeetings",
-            button: "Planner",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertPlannerTable plannerData={tabsData["webinarMeetings"]} />
       </TabsContent>
       <TabsContent
         value="eventMeetings"
         className={getTabContentStyles("eventMeetings")}
       >
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "eventMeetings",
-            button: "Planner",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertPlannerTable plannerData={tabsData["eventMeetings"]} />
       </TabsContent>
       <TabsContent value="todos" className={getTabContentStyles("todos")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "todos",
-            button: "Planner",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertPlannerTable plannerData={tabsData["todos"]} />
       </TabsContent>
     </Tabs>
   );

@@ -56,10 +56,10 @@ export type Notification = {
 };
 
 export type Planner = {
-  OnlineMeetings: PlannerItem[];
-  OfflineMeetings: PlannerItem[];
-  WebinarMeetings: PlannerItem[];
-  EventMeetings: PlannerItem[];
+  onlineMeetings: PlannerItem[];
+  offlineMeetings: PlannerItem[];
+  webinarMeetings: PlannerItem[];
+  eventMeetings: PlannerItem[];
 };
 
 export type VAlertCenterData = {
@@ -76,7 +76,6 @@ export type VisitedTabs = {
   Messages?: boolean;
   Emails?: boolean;
   News?: boolean;
-  [key: string]: Record<string, boolean> | boolean | undefined;
 };
 
 export type TabKey = NotificationTabKey | PlannerTabKey;

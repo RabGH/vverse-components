@@ -1,47 +1,28 @@
-import { useState } from "react";
+"use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ButtonKey, TabKey, VisitedTabs } from "@/lib/types";
+import { ButtonKey, NotificationItem, TabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import {
   badgeNotificationsTabData,
-  defaultVisitedTabs,
   notificationTabs,
-  plannerTabs,
 } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import VAlertTable from "../../v-alert-table";
-import { VAlertCenterData } from "@/backend-data-test";
+import VAlertNotificationsTable from "./v-alert-notifications-table";
+import { useState } from "react";
 
-const VAlertNotifications = () => {
-  const [activeTab, setActiveTab] = useState<TabKey>("vVerse");
-  const [visitedTabs, setVisitedTabs] = useState<VisitedTabs>({
-    ...defaultVisitedTabs,
-  });
-
-  const isButtonFullyVisited = (button: ButtonKey) => {
-    let tabs: TabKey[];
-    if (button === "Notifications") {
-      tabs = notificationTabs;
-    } else {
-      return true;
-    }
+type VAlertNotificationsProps = {
+  tabsData: {
+    [tabKey: string]: NotificationItem[];
   };
+};
 
-  const markTabAndButtonAsVisited = (tab: TabKey, button: ButtonKey) => {
-    setVisitedTabs((prevVisitedTabs) => {
-      return Object.assign({}, prevVisitedTabs, {
-        [button]: Object.assign({}, prevVisitedTabs[button], {
-          [tab]: true,
-        }),
-      });
-    });
-  };
+const VAlertNotifications = ({ tabsData }: VAlertNotificationsProps) => {
+  const [activeTab, setActiveTab] = useState("onlineMeetings");
 
   const handleTabChange = (tab: TabKey, activeButton: ButtonKey) => {
     setActiveTab(tab);
-    markTabAndButtonAsVisited(tab, activeButton);
   };
 
   const getTabContentStyles = (tab: TabKey) => {
@@ -51,20 +32,17 @@ const VAlertNotifications = () => {
   const getTabTriggerStyles = (tab: TabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
-    data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
+data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
       activeTab === tab ? "" : ""
     );
   };
 
-  const getBadgeStyles = (tab: TabKey, count: number, button: ButtonKey) => {
+  const getBadgeStyles = (tab: TabKey) => {
     return cn(
       "border font-normal w-9 h-9",
       activeTab === tab
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isButtonFullyVisited(button)
-        ? "vgRed text-background border-red-400/50 group-hover:bg-background"
-        : ""
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
     );
   };
 
@@ -81,14 +59,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vVerse", "Notifications")}
         >
           V-Verse Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vVerse",
-              badgeNotificationsTabData.Notifications.vVerse,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vVerse")}>
             {badgeNotificationsTabData.Notifications.vVerse}
           </Badge>
         </TabsTrigger>
@@ -99,14 +70,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vGuide", "Notifications")}
         >
           V-Guide Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vGuide",
-              badgeNotificationsTabData.Notifications.vGuide,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vGuide")}>
             {badgeNotificationsTabData.Notifications.vGuide}
           </Badge>
         </TabsTrigger>
@@ -117,14 +81,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vBlog", "Notifications")}
         >
           V-Blog Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vBlog",
-              badgeNotificationsTabData.Notifications.vBlog,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vBlog")}>
             {badgeNotificationsTabData.Notifications.vBlog}
           </Badge>
         </TabsTrigger>
@@ -135,14 +92,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vNation", "Notifications")}
         >
           V-Nation Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vNation",
-              badgeNotificationsTabData.Notifications.vNation,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vNation")}>
             {badgeNotificationsTabData.Notifications.vNation}
           </Badge>
         </TabsTrigger>
@@ -153,14 +103,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vTube", "Notifications")}
         >
           V-Tube Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vTube",
-              badgeNotificationsTabData.Notifications.vTube,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vTube")}>
             {badgeNotificationsTabData.Notifications.vTube}
           </Badge>
         </TabsTrigger>
@@ -171,14 +114,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vJobs", "Notifications")}
         >
           V-Jobs Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vJobs",
-              badgeNotificationsTabData.Notifications.vJobs,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vJobs")}>
             {badgeNotificationsTabData.Notifications.vJobs}
           </Badge>
         </TabsTrigger>
@@ -189,14 +125,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vLance", "Notifications")}
         >
           V-Lance Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vLance",
-              badgeNotificationsTabData.Notifications.vLance,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vLance")}>
             {badgeNotificationsTabData.Notifications.vLance}
           </Badge>
         </TabsTrigger>
@@ -207,14 +136,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vCollege", "Notifications")}
         >
           V-College Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vCollege",
-              badgeNotificationsTabData.Notifications.vCollege,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vCollege")}>
             {badgeNotificationsTabData.Notifications.vCollege}
           </Badge>
         </TabsTrigger>
@@ -225,14 +147,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vMarket", "Notifications")}
         >
           V-Market Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vMarket",
-              badgeNotificationsTabData.Notifications.vMarket,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vMarket")}>
             {badgeNotificationsTabData.Notifications.vMarket}
           </Badge>
         </TabsTrigger>
@@ -243,14 +158,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vEvents", "Notifications")}
         >
           V-Events Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vEvents",
-              badgeNotificationsTabData.Notifications.vEvents,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vEvents")}>
             {badgeNotificationsTabData.Notifications.vEvents}
           </Badge>
         </TabsTrigger>
@@ -261,14 +169,7 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vWebinars", "Notifications")}
         >
           V-Webinars Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vWebinars",
-              badgeNotificationsTabData.Notifications.vWebinars,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vWebinars")}>
             {badgeNotificationsTabData.Notifications.vWebinars}
           </Badge>
         </TabsTrigger>
@@ -279,128 +180,49 @@ const VAlertNotifications = () => {
           onClick={() => handleTabChange("vExperts", "Notifications")}
         >
           V-Experts Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles(
-              "vExperts",
-              badgeNotificationsTabData.Notifications.vExperts,
-              "Notifications"
-            )}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("vExperts")}>
             {badgeNotificationsTabData.Notifications.vExperts}
           </Badge>
         </TabsTrigger>
       </TabsList>
       <TabsContent value="vVerse" className={getTabContentStyles("vVerse")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vVerse",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vVerse"]} />
       </TabsContent>
       <TabsContent value="vGuide" className={getTabContentStyles("vGuide")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vGuide",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vGuide"]} />
       </TabsContent>
       <TabsContent value="vBlog" className={getTabContentStyles("vBlog")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vBlog",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vBlog"]} />
       </TabsContent>
       <TabsContent value="vNation" className={getTabContentStyles("vNation")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vNation",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vNation"]} />
       </TabsContent>
       <TabsContent value="vTube" className={getTabContentStyles("vTube")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vTube",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vTube"]} />
       </TabsContent>
       <TabsContent value="vJobs" className={getTabContentStyles("vJobs")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vJobs",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vJobs"]} />
       </TabsContent>
       <TabsContent value="vLance" className={getTabContentStyles("vLance")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vLance",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vLance"]} />
       </TabsContent>
       <TabsContent value="vCollege" className={getTabContentStyles("vCollege")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vCollege",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vCollege"]} />
       </TabsContent>
       <TabsContent value="vMarket" className={getTabContentStyles("vMarket")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vMarket",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vMarket"]} />
       </TabsContent>
       <TabsContent value="vEvents" className={getTabContentStyles("vEvents")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vEvents",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vEvents"]} />
       </TabsContent>
       <TabsContent
         value="vWebinars"
         className={getTabContentStyles("vWebinars")}
       >
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vWebinars",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vWebinars"]} />
       </TabsContent>
       <TabsContent value="vExperts" className={getTabContentStyles("vExperts")}>
-        <VAlertTable
-          currentTabAndButton={{
-            tab: "vExperts",
-            button: "Notifications",
-          }}
-          VAlertCenterData={VAlertCenterData}
-        />
+        <VAlertNotificationsTable notificationData={tabsData["vExperts"]} />
       </TabsContent>
     </Tabs>
   );

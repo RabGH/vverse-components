@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { ButtonKey, TabKey, VisitedTabs } from "@/lib/types";
+import { notificationTabs, plannerTabs } from "./alert-badge-constants";
 
 type VAlertNavProps = {
   numberOfNotifications: number;
@@ -18,14 +19,8 @@ type VAlertNavProps = {
   numberOfEmails: number;
   numberOfPlans: number;
   numberOfNews: number;
-  currentTabAndButton: {
-    tab: TabKey;
-    button: ButtonKey;
-  };
   activeButton: ButtonKey;
   setActiveButton: (button: ButtonKey) => void;
-  visitedTabs: VisitedTabs;
-  handleButtonChange: (button: ButtonKey) => void;
 };
 
 const VAlertNav = ({
@@ -36,17 +31,7 @@ const VAlertNav = ({
   numberOfNews,
   activeButton,
   setActiveButton,
-  visitedTabs,
-  handleButtonChange,
-  currentTabAndButton,
 }: VAlertNavProps) => {
-  function isRecord<T>(value: any): value is Record<string, T> {
-    return typeof value === "object" && value !== null;
-  }
-  const isTabAndButtonVisited = (tab: TabKey, button: ButtonKey) =>
-    isRecord<boolean>(visitedTabs[button]) &&
-    (visitedTabs[button] as Record<TabKey, boolean>)[tab];
-
   const getButtonStyles = (button: string) => {
     return cn(
       "gap-2 text-base h-12",
@@ -74,17 +59,15 @@ const VAlertNav = ({
     );
   };
 
-  const getBadgeStyles = (button: ButtonKey, count: number) => {
+  const getBadgeStyles = (button: ButtonKey) => {
     return cn(
       "border font-normal",
       activeButton === button
         ? "vgBlue group group-hover:vgWhite group-hover:text-primary border-blue-400/50"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
-      count > 0 && !isTabAndButtonVisited(currentTabAndButton.tab, button)
-        ? "vgRed text-background border-red-400/50"
-        : ""
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
     );
   };
+
 
   return (
     <div
@@ -95,9 +78,8 @@ const VAlertNav = ({
       <div className="flex flex-row gap-2 justify-center items-center">
         <Button
           variant={"notificationCenter"}
-          className={getButtonStyles("Notifications")}
+          className={getBadgeStyles("Notifications")}
           onClick={() => {
-            handleButtonChange("Notifications");
             setActiveButton("Notifications");
           }}
         >
@@ -105,10 +87,7 @@ const VAlertNav = ({
             <IconBellOutline className={getIconStyles("Notifications")} />
           </div>
           Notifications
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles("Notifications", numberOfNotifications)}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("Notifications")}>
             {numberOfNotifications}
           </Badge>
         </Button>
@@ -117,7 +96,6 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Messages")}
           onClick={() => {
-            handleButtonChange("Messages");
             setActiveButton("Messages");
           }}
         >
@@ -125,10 +103,7 @@ const VAlertNav = ({
             <IconMessageBtn className={getIconStyles("Messages")} />
           </div>
           Messages
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles("Messages", numberOfMessages)}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("Messages")}>
             {numberOfMessages}
           </Badge>
         </Button>
@@ -137,7 +112,6 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Emails")}
           onClick={() => {
-            handleButtonChange("Emails");
             setActiveButton("Emails");
           }}
         >
@@ -145,10 +119,7 @@ const VAlertNav = ({
             <IconMail className={getIconStyles("Emails")} />
           </div>
           Emails
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles("Emails", numberOfEmails)}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("Emails")}>
             {numberOfEmails}
           </Badge>
         </Button>
@@ -157,7 +128,6 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("Planner")}
           onClick={() => {
-            handleButtonChange("Planner");
             setActiveButton("Planner");
           }}
         >
@@ -165,10 +135,7 @@ const VAlertNav = ({
             <IconCalendar className={getIconStyles("Planner")} />
           </div>
           Planner
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles("Planner", numberOfPlans)}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("Planner")}>
             {numberOfPlans}
           </Badge>
         </Button>
@@ -177,7 +144,6 @@ const VAlertNav = ({
           variant={"notificationCenter"}
           className={getButtonStyles("News")}
           onClick={() => {
-            handleButtonChange("News");
             setActiveButton("News");
           }}
         >
@@ -185,10 +151,7 @@ const VAlertNav = ({
             <IconSponsorMegaphone className={getIconStyles("News")} />
           </div>
           News
-          <Badge
-            size="numberTag"
-            className={getBadgeStyles("News", numberOfNews)}
-          >
+          <Badge size="numberTag" className={getBadgeStyles("News")}>
             {numberOfNews}
           </Badge>
         </Button>

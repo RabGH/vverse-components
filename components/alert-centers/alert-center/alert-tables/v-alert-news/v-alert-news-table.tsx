@@ -1,9 +1,24 @@
-import React from 'react'
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import React from "react";
+import VAlertNewsCard from "./v-alert-news-card";
+import { NewsItem } from "@/lib/types";
 
-const VAlertNewsTable = () => {
+type VAlertNewsTable = {
+  newsData: NewsItem[];
+};
+
+const VAlertNewsTable = ({ newsData }: VAlertNewsTable) => {
   return (
-    <div>VAlertNewsTable</div>
-  )
-}
+    <div className="flex flex-col justify-center items-center">
+      <ScrollArea className="h-[700px] rounded-lg">
+        {newsData.map((item) => (
+          <VAlertNewsCard key={item.id} news={item} />
+        ))}
 
-export default VAlertNewsTable
+        <ScrollBar orientation="vertical" />
+      </ScrollArea>
+    </div>
+  );
+};
+
+export default VAlertNewsTable;

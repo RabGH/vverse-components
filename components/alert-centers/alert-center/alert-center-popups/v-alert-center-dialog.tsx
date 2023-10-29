@@ -13,14 +13,14 @@ import VAlertCenter from "../v-alert-center";
 
 type VAlertCenterDialog = {
   isLoading?: boolean;
-}
+};
 
 const VAlertCenterDialog = ({ isLoading }: VAlertCenterDialog) => {
   return (
     <Dialog>
       <DialogTrigger
         asChild
-        className="flex justify-center items-center w-full h-full"
+        className="flex justify-center items-center w-[200px] h-full rounded-md"
       >
         <Button variant="blueRedSlash" size="default">
           V-Verse Alert Center
@@ -34,7 +34,7 @@ const VAlertCenterDialog = ({ isLoading }: VAlertCenterDialog) => {
         ) : (
           <div>
             <DialogTitle className="mb-2">V-Verse Alert Center</DialogTitle>
-            <div className="ml-6">
+            <div className="">
               <VAlertCenter />
             </div>
           </div>
