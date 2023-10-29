@@ -9,7 +9,7 @@ import {
   vNotifcationsTotal,
   vPlannerTotals,
 } from "./alert-badge-constants";
-import { ButtonKey, NotificationTabKey, VisitedButtons } from "@/lib/types";
+import { ButtonKey, VisitedButtons } from "@/lib/types";
 
 import { VAlertCenterData } from "@/backend-data-test";
 import VAlertNotifications from "./alert-tables/v-alert-notifications/v-alert-notifications";
@@ -20,15 +20,10 @@ import VAlertNewsTable from "./alert-tables/v-alert-news/v-alert-news-table";
 
 const VAlertCenter: React.FC = () => {
   const [activeButton, setActiveButton] = useState<ButtonKey>("Notifications");
-  const [visitedButtons, setVisitedButtons] = useState<VisitedButtons>({
-    Notifications: true,
-  });
+  const [visitedButtons, setVisitedButtons] = useState<VisitedButtons>({});
+
   const [activeNotifcationTab, setActiveNotificationTab] = useState("vVerse");
-  const [visitedNotificationTabs, setVisitedNotificationTabs] = useState<
-    Record<string, boolean>
-  >({
-    vVerse: true,
-  });
+  const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({});
 
   return (
     <div>
@@ -50,8 +45,8 @@ const VAlertCenter: React.FC = () => {
           activeTab={activeNotifcationTab}
           setActiveTab={setActiveNotificationTab}
           tabsData={VAlertCenterData.Notifications}
-          visitedTabs={visitedNotificationTabs}
-          setVisitedTabs={setVisitedNotificationTabs}
+          visitedTabs={visitedTabs}
+          setVisitedTabs={setVisitedTabs}
         />
       )}
       {activeButton === "Messages" && (
