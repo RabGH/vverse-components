@@ -78,6 +78,10 @@ export type VisitedTabs = {
   News?: boolean;
 };
 
+export type VisitedButtons = {
+  [buttonName: string]: boolean;
+};
+
 export type TabKey = NotificationTabKey | PlannerTabKey;
 
 export type PlannerTabKey =
@@ -107,3 +111,4 @@ export type ButtonKey =
   | "Emails"
   | "Planner"
   | "News";
+

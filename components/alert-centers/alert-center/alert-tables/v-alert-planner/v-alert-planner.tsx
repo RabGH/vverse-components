@@ -1,13 +1,13 @@
 "use client";
+import React, { useState } from "react";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ButtonKey, PlannerItem, TabKey } from "@/lib/types";
+import { PlannerItem, PlannerTabKey, TabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { badgePlannerTabData, plannerTabs } from "../../alert-badge-constants";
+import { badgePlannerTabData } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import VAlertPlannerTable from "./v-alert-planner-table";
-import { useState } from "react";
 
 type VAlertPlannerProps = {
   tabsData: {
@@ -17,30 +17,44 @@ type VAlertPlannerProps = {
 
 const VAlertPlanner = ({ tabsData }: VAlertPlannerProps) => {
   const [activeTab, setActiveTab] = useState("onlineMeetings");
+  const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({});
 
-  const handleTabChange = (tab: TabKey) => {
+  const handleTabChange = (tab: PlannerTabKey) => {
     setActiveTab(tab);
+    markTabAsVisited(tab);
   };
 
-  const getTabContentStyles = (tab: TabKey) => {
+  const getTabContentStyles = (tab: PlannerTabKey) => {
     return cn("mt-0");
   };
 
-  const getTabTriggerStyles = (tab: TabKey) => {
+  const getTabTriggerStyles = (tab: PlannerTabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
 data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
     );
   };
 
-  const getBadgeStyles = (tab: TabKey) => {
+  const getBadgeStyles = (tab: PlannerTabKey, count: number) => {
     return cn(
       "border font-normal w-9 h-9",
       activeTab === tab
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
+      count > 0 && !isTabVisited(tab)
+        ? "vgRed text-background border-red-400/50 group-hover:bg-background"
+        : ""
     );
   };
+
+  const markTabAsVisited = (tab: string) => {
+    setVisitedTabs((prevVisitedTabs) => ({
+      ...prevVisitedTabs,
+      [tab]: true,
+    }));
+  };
+
+  const isTabVisited = (button: string) => visitedTabs[button];
 
   return (
     <Tabs
@@ -55,7 +69,13 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
           onClick={() => handleTabChange("onlineMeetings")}
         >
           Online Meetings
-          <Badge size="numberTag" className={getBadgeStyles("onlineMeetings")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "onlineMeetings",
+              badgePlannerTabData.Planner.onlineMeetings
+            )}
+          >
             {badgePlannerTabData.Planner.onlineMeetings}
           </Badge>
         </TabsTrigger>
@@ -66,7 +86,13 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
           onClick={() => handleTabChange("offlineMeetings")}
         >
           Offline Meetings
-          <Badge size="numberTag" className={getBadgeStyles("offlineMeetings")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "offlineMeetings",
+              badgePlannerTabData.Planner.offlineMeetings
+            )}
+          >
             {badgePlannerTabData.Planner.offlineMeetings}
           </Badge>
         </TabsTrigger>
@@ -77,7 +103,13 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
           onClick={() => handleTabChange("webinarMeetings")}
         >
           Online Webinars
-          <Badge size="numberTag" className={getBadgeStyles("webinarMeetings")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "webinarMeetings",
+              badgePlannerTabData.Planner.webinarMeetings
+            )}
+          >
             {badgePlannerTabData.Planner.webinarMeetings}
           </Badge>
         </TabsTrigger>
@@ -88,7 +120,13 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
           onClick={() => handleTabChange("eventMeetings")}
         >
           Offline Events
-          <Badge size="numberTag" className={getBadgeStyles("eventMeetings")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "eventMeetings",
+              badgePlannerTabData.Planner.eventMeetings
+            )}
+          >
             {badgePlannerTabData.Planner.eventMeetings}
           </Badge>
         </TabsTrigger>
@@ -99,7 +137,13 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
           onClick={() => handleTabChange("todos")}
         >
           Todo&apos;s
-          <Badge size="numberTag" className={getBadgeStyles("todos")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "todos",
+              badgePlannerTabData.Planner.todos
+            )}
+          >
             {badgePlannerTabData.Planner.todos}
           </Badge>
         </TabsTrigger>

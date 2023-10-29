@@ -1,35 +1,44 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ButtonKey, NotificationItem, TabKey } from "@/lib/types";
+import { ButtonKey, NotificationItem } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import {
-  badgeNotificationsTabData,
-  notificationTabs,
-} from "../../alert-badge-constants";
+import { badgeNotificationsTabData } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import VAlertNotificationsTable from "./v-alert-notifications-table";
-import { useState } from "react";
 
 type VAlertNotificationsProps = {
   tabsData: {
     [tabKey: string]: NotificationItem[];
   };
+  activeTab: string;
+  setActiveTab: (tab: string, activeButton: ButtonKey) => void;
+  visitedTabs: Record<string, boolean>;
+  setVisitedTabs: (visitedTabs: Record<string, boolean>) => void;
 };
 
-const VAlertNotifications = ({ tabsData }: VAlertNotificationsProps) => {
-  const [activeTab, setActiveTab] = useState("onlineMeetings");
-
-  const handleTabChange = (tab: TabKey, activeButton: ButtonKey) => {
-    setActiveTab(tab);
+const VAlertNotifications = ({
+  tabsData,
+  visitedTabs,
+  setVisitedTabs,
+  activeTab,
+  setActiveTab,
+}: VAlertNotificationsProps) => {
+  const handleTabChange = (tab: string) => {
+    setActiveTab(tab, "Notifications");
+    const updatedVisitedTab = {
+      ...visitedTabs,
+      [tab]: true,
+    };
+    setVisitedTabs(updatedVisitedTab);
   };
 
-  const getTabContentStyles = (tab: TabKey) => {
+  const getTabContentStyles = (tab: string) => {
     return cn("mt-0");
   };
 
-  const getTabTriggerStyles = (tab: TabKey) => {
+  const getTabTriggerStyles = (tab: string) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
 data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
@@ -37,14 +46,19 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
     );
   };
 
-  const getBadgeStyles = (tab: TabKey) => {
+  const getBadgeStyles = (tab: string, count: number) => {
     return cn(
       "border font-normal w-9 h-9",
       activeTab === tab
         ? "bg-transparent group group-hover:vgWhite group-hover:text-primary border-background"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
+      count > 0 && !isTabVisited(tab)
+        ? "vgRed text-background border-red-400/50 group-hover:bg-background"
+        : ""
     );
   };
+
+  const isTabVisited = (tab: string) => visitedTabs[tab];
 
   return (
     <Tabs
@@ -56,10 +70,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vVerse"
           className={getTabTriggerStyles("vVerse")}
-          onClick={() => handleTabChange("vVerse", "Notifications")}
+          onClick={() => {
+            handleTabChange("vVerse");
+          }}
         >
           V-Verse Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vVerse")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vVerse",
+              badgeNotificationsTabData.Notifications.vVerse
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vVerse}
           </Badge>
         </TabsTrigger>
@@ -67,10 +89,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vGuide"
           className={getTabTriggerStyles("vGuide")}
-          onClick={() => handleTabChange("vGuide", "Notifications")}
+          onClick={() => {
+            handleTabChange("vGuide");
+          }}
         >
           V-Guide Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vGuide")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vGuide",
+              badgeNotificationsTabData.Notifications.vGuide
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vGuide}
           </Badge>
         </TabsTrigger>
@@ -78,10 +108,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vBlog"
           className={getTabTriggerStyles("vBlog")}
-          onClick={() => handleTabChange("vBlog", "Notifications")}
+          onClick={() => {
+            handleTabChange("vBlog");
+          }}
         >
           V-Blog Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vBlog")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vBlog",
+              badgeNotificationsTabData.Notifications.vBlog
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vBlog}
           </Badge>
         </TabsTrigger>
@@ -89,10 +127,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vNation"
           className={getTabTriggerStyles("vNation")}
-          onClick={() => handleTabChange("vNation", "Notifications")}
+          onClick={() => {
+            handleTabChange("vNation");
+          }}
         >
           V-Nation Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vNation")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vNation",
+              badgeNotificationsTabData.Notifications.vNation
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vNation}
           </Badge>
         </TabsTrigger>
@@ -100,10 +146,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vTube"
           className={getTabTriggerStyles("vTube")}
-          onClick={() => handleTabChange("vTube", "Notifications")}
+          onClick={() => {
+            handleTabChange("vTube");
+          }}
         >
           V-Tube Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vTube")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vTube",
+              badgeNotificationsTabData.Notifications.vTube
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vTube}
           </Badge>
         </TabsTrigger>
@@ -111,10 +165,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vJobs"
           className={getTabTriggerStyles("vJobs")}
-          onClick={() => handleTabChange("vJobs", "Notifications")}
+          onClick={() => {
+            handleTabChange("vJobs");
+          }}
         >
           V-Jobs Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vJobs")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vJobs",
+              badgeNotificationsTabData.Notifications.vJobs
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vJobs}
           </Badge>
         </TabsTrigger>
@@ -122,10 +184,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vLance"
           className={getTabTriggerStyles("vLance")}
-          onClick={() => handleTabChange("vLance", "Notifications")}
+          onClick={() => {
+            handleTabChange("vLance");
+          }}
         >
           V-Lance Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vLance")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vLance",
+              badgeNotificationsTabData.Notifications.vLance
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vLance}
           </Badge>
         </TabsTrigger>
@@ -133,10 +203,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vCollege"
           className={getTabTriggerStyles("vCollege")}
-          onClick={() => handleTabChange("vCollege", "Notifications")}
+          onClick={() => {
+            handleTabChange("vCollege");
+          }}
         >
           V-College Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vCollege")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vCollege",
+              badgeNotificationsTabData.Notifications.vCollege
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vCollege}
           </Badge>
         </TabsTrigger>
@@ -144,10 +222,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vMarket"
           className={getTabTriggerStyles("vMarket")}
-          onClick={() => handleTabChange("vMarket", "Notifications")}
+          onClick={() => {
+            handleTabChange("vMarket");
+          }}
         >
           V-Market Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vMarket")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vMarket",
+              badgeNotificationsTabData.Notifications.vMarket
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vMarket}
           </Badge>
         </TabsTrigger>
@@ -155,10 +241,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vEvents"
           className={getTabTriggerStyles("vEvents")}
-          onClick={() => handleTabChange("vEvents", "Notifications")}
+          onClick={() => {
+            handleTabChange("vEvents");
+          }}
         >
           V-Events Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vEvents")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vEvents",
+              badgeNotificationsTabData.Notifications.vEvents
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vEvents}
           </Badge>
         </TabsTrigger>
@@ -166,10 +260,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vWebinars"
           className={getTabTriggerStyles("vWebinars")}
-          onClick={() => handleTabChange("vWebinars", "Notifications")}
+          onClick={() => {
+            handleTabChange("vWebinars");
+          }}
         >
           V-Webinars Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vWebinars")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vWebinars",
+              badgeNotificationsTabData.Notifications.vWebinars
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vWebinars}
           </Badge>
         </TabsTrigger>
@@ -177,10 +279,18 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vExperts"
           className={getTabTriggerStyles("vExperts")}
-          onClick={() => handleTabChange("vExperts", "Notifications")}
+          onClick={() => {
+            handleTabChange("vExperts");
+          }}
         >
           V-Experts Notifications
-          <Badge size="numberTag" className={getBadgeStyles("vExperts")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles(
+              "vExperts",
+              badgeNotificationsTabData.Notifications.vExperts
+            )}
+          >
             {badgeNotificationsTabData.Notifications.vExperts}
           </Badge>
         </TabsTrigger>

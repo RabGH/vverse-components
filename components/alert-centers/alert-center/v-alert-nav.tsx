@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import {
@@ -20,6 +22,8 @@ type VAlertNavProps = {
   numberOfNews: number;
   activeButton: ButtonKey;
   setActiveButton: (button: ButtonKey) => void;
+  visitedButtons: Record<string, boolean>;
+  setVisitedButtons: (visitedButtons: Record<string, boolean>) => void;
 };
 
 const VAlertNav = ({
@@ -30,6 +34,8 @@ const VAlertNav = ({
   numberOfNews,
   activeButton,
   setActiveButton,
+  visitedButtons,
+  setVisitedButtons,
 }: VAlertNavProps) => {
   const getButtonStyles = (button: string) => {
     return cn(
@@ -58,12 +64,15 @@ const VAlertNav = ({
     );
   };
 
-  const getBadgeStyles = (button: ButtonKey) => {
+  const getBadgeStyles = (button: ButtonKey, count: number) => {
     return cn(
       "border font-normal",
       activeButton === button
         ? "vgBlue group group-hover:vgWhite group-hover:text-primary border-blue-400/50"
-        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background"
+        : "bg-gray-100 border border-gray-300 text-muted group-hover:bg-background",
+      count > 0 && !visitedButtons[button]
+        ? "vgRed text-background border-red-400/50"
+        : ""
     );
   };
 
@@ -79,13 +88,21 @@ const VAlertNav = ({
           className={getButtonStyles("Notifications")}
           onClick={() => {
             setActiveButton("Notifications");
+            const updatedVisitedButtons = {
+              ...visitedButtons,
+              Notifications: true,
+            };
+            setVisitedButtons(updatedVisitedButtons);
           }}
         >
           <div className={getCircleStyles("Notifications")}>
             <IconBellOutline className={getIconStyles("Notifications")} />
           </div>
           Notifications
-          <Badge size="numberTag" className={getBadgeStyles("Notifications")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles("Notifications", numberOfNotifications)}
+          >
             {numberOfNotifications}
           </Badge>
         </Button>
@@ -95,13 +112,21 @@ const VAlertNav = ({
           className={getButtonStyles("Messages")}
           onClick={() => {
             setActiveButton("Messages");
+            const updatedVisitedButtons = {
+              ...visitedButtons,
+              Messages: true,
+            };
+            setVisitedButtons(updatedVisitedButtons);
           }}
         >
           <div className={getCircleStyles("Messages")}>
             <IconMessageBtn className={getIconStyles("Messages")} />
           </div>
           Messages
-          <Badge size="numberTag" className={getBadgeStyles("Messages")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles("Messages", numberOfMessages)}
+          >
             {numberOfMessages}
           </Badge>
         </Button>
@@ -111,13 +136,21 @@ const VAlertNav = ({
           className={getButtonStyles("Emails")}
           onClick={() => {
             setActiveButton("Emails");
+            const updatedVisitedButtons = {
+              ...visitedButtons,
+              Emails: true,
+            };
+            setVisitedButtons(updatedVisitedButtons);
           }}
         >
           <div className={getCircleStyles("Emails")}>
             <IconMail className={getIconStyles("Emails")} />
           </div>
           Emails
-          <Badge size="numberTag" className={getBadgeStyles("Emails")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles("Emails", numberOfEmails)}
+          >
             {numberOfEmails}
           </Badge>
         </Button>
@@ -127,13 +160,21 @@ const VAlertNav = ({
           className={getButtonStyles("Planner")}
           onClick={() => {
             setActiveButton("Planner");
+            const updatedVisitedButtons = {
+              ...visitedButtons,
+              Planner: true,
+            };
+            setVisitedButtons(updatedVisitedButtons);
           }}
         >
           <div className={getCircleStyles("Planner")}>
             <IconCalendar className={getIconStyles("Planner")} />
           </div>
           Planner
-          <Badge size="numberTag" className={getBadgeStyles("Planner")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles("Planner", numberOfPlans)}
+          >
             {numberOfPlans}
           </Badge>
         </Button>
@@ -143,13 +184,21 @@ const VAlertNav = ({
           className={getButtonStyles("News")}
           onClick={() => {
             setActiveButton("News");
+            const updatedVisitedButtons = {
+              ...visitedButtons,
+              News: true,
+            };
+            setVisitedButtons(updatedVisitedButtons);
           }}
         >
           <div className={getCircleStyles("News")}>
             <IconSponsorMegaphone className={getIconStyles("News")} />
           </div>
           News
-          <Badge size="numberTag" className={getBadgeStyles("News")}>
+          <Badge
+            size="numberTag"
+            className={getBadgeStyles("News", numberOfNews)}
+          >
             {numberOfNews}
           </Badge>
         </Button>

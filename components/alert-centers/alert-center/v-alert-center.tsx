@@ -9,7 +9,7 @@ import {
   vNotifcationsTotal,
   vPlannerTotals,
 } from "./alert-badge-constants";
-import { ButtonKey } from "@/lib/types";
+import { ButtonKey, NotificationTabKey, VisitedButtons } from "@/lib/types";
 
 import { VAlertCenterData } from "@/backend-data-test";
 import VAlertNotifications from "./alert-tables/v-alert-notifications/v-alert-notifications";
@@ -17,10 +17,18 @@ import VAlertMessagesTable from "./alert-tables/v-alert-messages/v-alert-message
 import VAlertEmailsTable from "./alert-tables/v-alert-emails/v-alert-emails-table";
 import VAlertPlanner from "./alert-tables/v-alert-planner/v-alert-planner";
 import VAlertNewsTable from "./alert-tables/v-alert-news/v-alert-news-table";
-import { VisitedTabs } from '../../../lib/types';
 
 const VAlertCenter: React.FC = () => {
   const [activeButton, setActiveButton] = useState<ButtonKey>("Notifications");
+  const [visitedButtons, setVisitedButtons] = useState<VisitedButtons>({
+    Notifications: true,
+  });
+  const [activeNotifcationTab, setActiveNotificationTab] = useState("vVerse");
+  const [visitedNotificationTabs, setVisitedNotificationTabs] = useState<
+    Record<string, boolean>
+  >({
+    vVerse: true,
+  });
 
   return (
     <div>
@@ -33,10 +41,18 @@ const VAlertCenter: React.FC = () => {
           numberOfNews={vNewsTotal}
           activeButton={activeButton}
           setActiveButton={setActiveButton}
+          visitedButtons={visitedButtons}
+          setVisitedButtons={setVisitedButtons}
         />
       </div>
       {activeButton === "Notifications" && (
-        <VAlertNotifications tabsData={VAlertCenterData.Notifications} />
+        <VAlertNotifications
+          activeTab={activeNotifcationTab}
+          setActiveTab={setActiveNotificationTab}
+          tabsData={VAlertCenterData.Notifications}
+          visitedTabs={visitedNotificationTabs}
+          setVisitedTabs={setVisitedNotificationTabs}
+        />
       )}
       {activeButton === "Messages" && (
         <VAlertMessagesTable messageData={VAlertCenterData.Messages} />
