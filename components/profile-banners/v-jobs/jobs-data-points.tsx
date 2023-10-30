@@ -7,7 +7,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-type JobsDataTableProps = {
+export type JobsDataPointsProps = {
   isLoading?: boolean;
   experience: number;
   salary: number;
@@ -15,13 +15,13 @@ type JobsDataTableProps = {
   shares: number;
 }
 
-const JobsDataTable = ({
+const JobsDataPoints = ({
   isLoading,
   experience,
   salary,
   likes,
   shares,
-}: JobsDataTableProps) => {
+}: JobsDataPointsProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
@@ -59,4 +59,4 @@ const JobsDataTable = ({
   );
 };
 
-export default JobsDataTable;
+export default JobsDataPoints;

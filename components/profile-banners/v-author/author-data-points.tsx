@@ -1,71 +1,73 @@
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 import {
-  IconGearServicesBtn,
-  IconOrderBox,
-  IconSalesGraph,
+  IconFollowers,
+  IconGrid,
+  IconMembers,
+  IconPost,
   IconShare,
-  IconSuccessGraph,
+  IconSocialPagesBtn,
+  IconStar,
   IconThumbsUp,
-  IconUserCustomerDollar,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
-import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-type LanceDataTableProps = {
+export type AuthorDataPointsProps = {
   isLoading?: boolean;
-  services: number;
-  sales: number;
-  orders: number;
-  customers: number;
-  successRate: number;
+  posts: number;
+  socialPages: number;
+  socialGroups: number;
+  followers: number;
+  members: number;
   likes: number;
   shares: number;
   ratingPoints: number;
   rating: number;
 };
 
-const LanceDataTable = ({
+const AuthorDataPoints = ({
   isLoading,
-  services,
-  sales,
-  orders,
-  customers,
-  successRate,
+  posts,
+  socialPages,
+  socialGroups,
+  followers,
+  members,
   likes,
   shares,
-}: LanceDataTableProps) => {
+  rating,
+  ratingPoints,
+}: AuthorDataPointsProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={services}
-          description={"Services"}
-          icon={IconGearServicesBtn}
+          number={posts}
+          description={"Posts"}
+          icon={IconPost}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={sales}
-          description={"Sales"}
-          icon={IconSalesGraph}
+          number={socialPages}
+          description={"Social Pages"}
+          icon={IconSocialPagesBtn}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={orders}
-          description={"Orders"}
-          icon={IconOrderBox}
+          number={socialGroups}
+          description={"Social Groups"}
+          icon={IconGrid}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={customers}
-          description={"Customers"}
-          icon={IconUserCustomerDollar}
+          number={followers}
+          description={"Followers"}
+          icon={IconFollowers}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={successRate}
-          description={"Success Rate"}
-          icon={IconSuccessGraph}
+          number={members}
+          description={"Members"}
+          icon={IconMembers}
           isLoading={isLoading}
-          isPercentage={true}
         />
         <VDataPoint
           number={likes}
@@ -80,10 +82,12 @@ const LanceDataTable = ({
           isLoading={isLoading}
         />
         <VDataPoint
-          number={shares}
-          description={"Shares"}
-          icon={IconShare}
+          number={ratingPoints}
+          description={"Rating"}
+          icon={IconStar}
           isLoading={isLoading}
+          rating={rating}
+          isRated={true}
         />
       </div>
       <Button variant="bannerBlueRed" size="banner" className="ml-6">
@@ -93,4 +97,4 @@ const LanceDataTable = ({
   );
 };
 
-export default LanceDataTable;
+export default AuthorDataPoints;

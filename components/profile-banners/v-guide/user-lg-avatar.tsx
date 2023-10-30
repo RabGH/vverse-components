@@ -3,7 +3,13 @@ import { Badge } from "@/components/ui/badge";
 import { IconUserBtn } from "@/components/icons/logo-icons";
 import Image from "next/image";
 
-export function UserLargeAvatar() {
+type UserLargeAvatarProps = {
+  profileType?: "Personal" | "Business";
+};
+
+export function UserLargeAvatar({
+  profileType = "Personal",
+}: UserLargeAvatarProps) {
   return (
     <div className="flex flex-col items-center">
       <div className="w-80 h-80 rounded-full shrink-0">
@@ -25,7 +31,7 @@ export function UserLargeAvatar() {
         size="lg"
         className="mt-[-70px] z-10 mr-8 text-sm"
       >
-        Personal Profile
+        {profileType} Profile
       </Badge>
     </div>
   );

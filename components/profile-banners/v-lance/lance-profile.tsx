@@ -1,16 +1,17 @@
+import React from "react";
 import { UserMediumAvatar } from "@/components/profile-banners/v-guide/user-md-avatar";
 import { Separator } from "@/components/ui/separator";
-import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
-import TubeDataPoints, {
-  TubeDataPointsProps,
-} from "@/components/profile-banners/v-tube/tube-data-points";
+import LanceDataPoints, {
+  LanceDataPointsProps,
+} from "@/components/profile-banners/v-lance/lance-data-points";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
+import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
 
-type TubeProfileProps = {
+type LanceProfileProps = {
   userName: string;
   userTitle: string;
-  isLoading?: boolean;
+  isLoading: boolean;
   isOwner?: boolean;
   isConnected?: boolean;
   isLoggedIn?: boolean;
@@ -20,10 +21,10 @@ type TubeProfileProps = {
   thumbsup: number;
   shares: number;
   rank: RankMedalProps["rank"];
-  tubeUserData: TubeDataPointsProps;
+  lanceUserData: LanceDataPointsProps;
 };
 
-const TubeProfile = ({
+const LanceProfile = ({
   isLoading,
   userName,
   userTitle,
@@ -32,12 +33,12 @@ const TubeProfile = ({
   rank,
   thumbsup,
   shares,
-  tubeUserData,
+  lanceUserData,
   isFeatured = true,
   isOwner = false,
   isLoggedIn = false,
   isConnected = false,
-}: TubeProfileProps) => {
+}: LanceProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserMediumAvatar />
@@ -57,16 +58,17 @@ const TubeProfile = ({
           <div className="ml-[-100px]">
             <div className="space-y-3">
               <Separator />
-              <TubeDataPoints
+              <LanceDataPoints
                 isLoading={isLoading}
-                channels={tubeUserData.channels}
-                videos={tubeUserData.videos}
-                subscribers={tubeUserData.subscribers}
-                views={tubeUserData.views}
-                likes={tubeUserData.likes}
-                shares={tubeUserData.shares}
-                ratingPoints={tubeUserData.ratingPoints}
-                rating={tubeUserData.rating}
+                services={lanceUserData.services}
+                sales={lanceUserData.sales}
+                orders={lanceUserData.orders}
+                customers={lanceUserData.customers}
+                successRate={lanceUserData.successRate}
+                likes={lanceUserData.likes}
+                shares={lanceUserData.shares}
+                ratingPoints={lanceUserData.ratingPoints}
+                rating={lanceUserData.rating}
               />
               <Separator />
             </div>
@@ -74,8 +76,8 @@ const TubeProfile = ({
         </div>
         <div className="flex flex-col gap-4 justify-center items-center ml-[-100px]">
           <UserInteraction
-            isConnected={isLoggedIn}
-            isLoggedIn={isConnected}
+            isConnected={isConnected}
+            isLoggedIn={isLoggedIn}
             isOwner={isOwner}
             isMiniView={true}
           />
@@ -85,4 +87,4 @@ const TubeProfile = ({
   );
 };
 
-export default TubeProfile;
+export default LanceProfile;

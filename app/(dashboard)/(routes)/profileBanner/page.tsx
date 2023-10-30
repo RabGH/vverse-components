@@ -5,6 +5,7 @@ import {
   IconMyJobsBtn,
   IconMyProfileBtn,
   IconUsersAuthorBtn,
+  IconUsersLancersBtn,
   IconVideo,
 } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
@@ -13,6 +14,7 @@ import BlogProfile from "@/components/profile-banners/v-blog/blog-profile";
 import AuthorProfile from "@/components/profile-banners/v-author/author-profile";
 import TubeProfile from "@/components/profile-banners/v-tube/tube-profile";
 import JobProfile from "@/components/profile-banners/v-jobs/job-profile";
+import LanceProfile from "@/components/profile-banners/v-lance/lance-profile";
 
 const ProfileBannerPage = () => {
   return (
@@ -48,6 +50,12 @@ const ProfileBannerPage = () => {
           icon={IconMyJobsBtn}
         />
         <JobProfile isLoading={false} />
+        <Heading
+          title={"Lancer Banners"}
+          description={"V-Lance Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <LanceProfile isLoading={false} />
       </div>
     </div>
   );

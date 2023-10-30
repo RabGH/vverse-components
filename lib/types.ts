@@ -1,3 +1,43 @@
+//! not in use
+export type Planner = {
+  onlineMeetings: PlannerItem[];
+  offlineMeetings: PlannerItem[];
+  webinarMeetings: PlannerItem[];
+  eventMeetings: PlannerItem[];
+};
+export type VAlertCenterData = {
+  Notifications: Notification;
+  Messages: MessageItem[];
+  Emails: EmailItem[];
+  Planner: Planner;
+  News: NewsItem[];
+};
+export type TabKey = NotificationTabKey | PlannerTabKey;
+export type VisitedTabs = {
+  Notifications?: Record<NotificationTabKey, boolean>;
+  Planner?: Record<PlannerTabKey, boolean>;
+  Messages?: boolean;
+  Emails?: boolean;
+  News?: boolean;
+};
+export type Notification = {
+  vVerse: NotificationItem[];
+  vGuide: NotificationItem[];
+  vBlog: NotificationItem[];
+  vNation: NotificationItem[];
+  vTube: NotificationItem[];
+  vJobs: NotificationItem[];
+  vLance: NotificationItem[];
+  vCollege: NotificationItem[];
+  vMarket: NotificationItem[];
+  vEvents: NotificationItem[];
+  vWebinars: NotificationItem[];
+  vExperts: NotificationItem[];
+};
+//!
+
+// notification alert center types
+
 export type NotificationItem = {
   id: number;
   title: string;
@@ -40,49 +80,9 @@ export type NewsItem = {
   date: string;
 };
 
-export type Notification = {
-  vVerse: NotificationItem[];
-  vGuide: NotificationItem[];
-  vBlog: NotificationItem[];
-  vNation: NotificationItem[];
-  vTube: NotificationItem[];
-  vJobs: NotificationItem[];
-  vLance: NotificationItem[];
-  vCollege: NotificationItem[];
-  vMarket: NotificationItem[];
-  vEvents: NotificationItem[];
-  vWebinars: NotificationItem[];
-  vExperts: NotificationItem[];
-};
-
-export type Planner = {
-  onlineMeetings: PlannerItem[];
-  offlineMeetings: PlannerItem[];
-  webinarMeetings: PlannerItem[];
-  eventMeetings: PlannerItem[];
-};
-
-export type VAlertCenterData = {
-  Notifications: Notification;
-  Messages: MessageItem[];
-  Emails: EmailItem[];
-  Planner: Planner;
-  News: NewsItem[];
-};
-
-export type VisitedTabs = {
-  Notifications?: Record<NotificationTabKey, boolean>;
-  Planner?: Record<PlannerTabKey, boolean>;
-  Messages?: boolean;
-  Emails?: boolean;
-  News?: boolean;
-};
-
 export type VisitedButtons = {
   [buttonName: string]: boolean;
 };
-
-export type TabKey = NotificationTabKey | PlannerTabKey;
 
 export type PlannerTabKey =
   | "onlineMeetings"
@@ -111,4 +111,3 @@ export type ButtonKey =
   | "Emails"
   | "Planner"
   | "News";
-

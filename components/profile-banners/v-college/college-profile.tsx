@@ -1,13 +1,13 @@
 import { UserMediumAvatar } from "@/components/profile-banners/v-guide/user-md-avatar";
 import { Separator } from "@/components/ui/separator";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
-import TubeDataPoints, {
-  TubeDataPointsProps,
-} from "@/components/profile-banners/v-tube/tube-data-points";
+import CollegeDataPoints, {
+  CollegeDataPointsProps,
+} from "@/components/profile-banners/v-college/college-data-points";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
 
-type TubeProfileProps = {
+type CollegeProfileProps = {
   userName: string;
   userTitle: string;
   isLoading?: boolean;
@@ -20,10 +20,10 @@ type TubeProfileProps = {
   thumbsup: number;
   shares: number;
   rank: RankMedalProps["rank"];
-  tubeUserData: TubeDataPointsProps;
+  collegeUserData: CollegeDataPointsProps;
 };
 
-const TubeProfile = ({
+const CollegeProfile = ({
   isLoading,
   userName,
   userTitle,
@@ -32,12 +32,12 @@ const TubeProfile = ({
   rank,
   thumbsup,
   shares,
-  tubeUserData,
+  collegeUserData,
   isFeatured = true,
   isOwner = false,
   isLoggedIn = false,
   isConnected = false,
-}: TubeProfileProps) => {
+}: CollegeProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserMediumAvatar />
@@ -57,16 +57,16 @@ const TubeProfile = ({
           <div className="ml-[-100px]">
             <div className="space-y-3">
               <Separator />
-              <TubeDataPoints
+              <CollegeDataPoints
                 isLoading={isLoading}
-                channels={tubeUserData.channels}
-                videos={tubeUserData.videos}
-                subscribers={tubeUserData.subscribers}
-                views={tubeUserData.views}
-                likes={tubeUserData.likes}
-                shares={tubeUserData.shares}
-                ratingPoints={tubeUserData.ratingPoints}
-                rating={tubeUserData.rating}
+                courses={collegeUserData.courses}
+                sales={collegeUserData.sales}
+                orders={collegeUserData.orders}
+                customers={collegeUserData.customers}
+                likes={collegeUserData.likes}
+                shares={collegeUserData.shares}
+                ratingPoints={collegeUserData.ratingPoints}
+                rating={collegeUserData.rating}
               />
               <Separator />
             </div>
@@ -85,4 +85,4 @@ const TubeProfile = ({
   );
 };
 
-export default TubeProfile;
+export default CollegeProfile;

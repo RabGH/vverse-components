@@ -1,78 +1,77 @@
-import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
+import React from "react";
+
+import { Button } from "@/components/ui/button";
 import {
-  IconFollowers,
-  IconGrid,
-  IconMembers,
-  IconPost,
+  IconCoursesBtn,
+  IconGraphDollar,
+  IconOrderBox,
   IconShare,
-  IconSocialPagesBtn,
   IconStar,
   IconThumbsUp,
+  IconUserCustomerDollar,
 } from "@/components/icons/logo-icons";
-import { Button } from "@/components/ui/button";
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-type AuthorDataTableProps = {
+export type CollegeDataPointsProps = {
   isLoading?: boolean;
-  posts: number;
-  socialPages: number;
-  socialGroups: number;
-  followers: number;
-  members: number;
+  courses: number;
+  sales: number;
+  orders: number;
+  customers: number;
   likes: number;
   shares: number;
   ratingPoints: number;
   rating: number;
 };
 
-const AuthorDataTable = ({
-  isLoading,
-  posts,
-  socialPages,
-  socialGroups,
-  followers,
-  members,
+const CollegeDataPoints = ({
+  courses,
+  sales,
+  orders,
+  customers,
   likes,
   shares,
-  rating,
   ratingPoints,
-}: AuthorDataTableProps) => {
+  rating,
+  isLoading,
+}: CollegeDataPointsProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={posts}
-          description={"Posts"}
-          icon={IconPost}
+          number={courses}
+          description={"Courses"}
+          icon={IconCoursesBtn}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={socialPages}
-          description={"Social Pages"}
-          icon={IconSocialPagesBtn}
+          number={sales}
+          description={"Sales"}
+          icon={IconGraphDollar}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={socialGroups}
-          description={"Social Groups"}
-          icon={IconGrid}
+          number={orders}
+          description={"Orders"}
+          icon={IconOrderBox}
           isLoading={isLoading}
         />
         <VDataPoint
-          number={followers}
-          description={"Followers"}
-          icon={IconFollowers}
-          isLoading={isLoading}
-        />
-        <VDataPoint
-          number={members}
-          description={"Members"}
-          icon={IconMembers}
+          number={customers}
+          description={"Customers"}
+          icon={IconUserCustomerDollar}
           isLoading={isLoading}
         />
         <VDataPoint
           number={likes}
           description={"Likes"}
           icon={IconThumbsUp}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={shares}
+          description={"Shares"}
+          icon={IconShare}
           isLoading={isLoading}
         />
         <VDataPoint
@@ -97,4 +96,4 @@ const AuthorDataTable = ({
   );
 };
 
-export default AuthorDataTable;
+export default CollegeDataPoints;

@@ -1,47 +1,86 @@
 import UserTags from "@/components/profile-banners/v-guide/user-tags";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
-import UserDataTable from "@/components/profile-banners/v-guide/user-data-table";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
 import { UserLargeAvatar } from "./user-lg-avatar";
-import { partOf, vNationUserData } from "@/backend-data-test";
+import { UserInfoBoxProps } from "@/components/profile-banners/v-guide/user-info-box";
+import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
+import GuideDataPoints, {
+  GuideDataPointsProps,
+} from "@/components/profile-banners/v-guide/user-data-points";
 
 type UserProfileBannerProps = {
-  isLoading: boolean;
+  isLoading?: boolean;
+  userInfoData: UserInfoBoxProps;
+  userName: string;
+  userTitle: string;
+  isOwner?: boolean;
+  isConnected?: boolean;
+  isLoggedIn?: boolean;
+  points: number;
+  endorsements: number;
+  isFeatured: boolean;
+  thumbsup: number;
+  shares: number;
+  partOf: Record<string, boolean>;
+  rank: RankMedalProps["rank"];
+  guideUserData: GuideDataPointsProps;
+  currency: string;
 };
 
-const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
+const UserProfileBanner = ({
+  isLoading,
+  userInfoData,
+  guideUserData,
+  userName,
+  userTitle,
+  points,
+  thumbsup,
+  shares,
+  rank,
+  endorsements,
+  partOf,
+  currency,
+  isOwner = true,
+  isConnected = true,
+  isLoggedIn = true,
+  isFeatured = true,
+}: UserProfileBannerProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserLargeAvatar />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
           <UserTitleBox
-            userName={"<Member Name>"}
-            userTitle={"Vverse V-Nation Guide, user title demo."}
+            userName={userName}
+            userTitle={userTitle}
             isGuide={true}
             isLoading={isLoading}
-            points={100}
-            endorsements={44}
-            isFeatured={true}
-            rank={"standardSilver"}
+            points={points}
+            endorsements={endorsements}
+            isFeatured={isFeatured}
+            rank={rank}
+            thumbsup={thumbsup}
+            shares={shares}
+            isOwner={isOwner}
           />
           <Separator />
-          <UserDataTable
+          <GuideDataPoints
             isLoading={isLoading}
-            sales={vNationUserData.sales}
-            earnings={vNationUserData.earnings}
-            investments={vNationUserData.investments}
-            endorsements={vNationUserData.endorsements}
-            points={vNationUserData.points}
-            likes={vNationUserData.likes}
-            shares={vNationUserData.shares}
-            connections={vNationUserData.connections}
-            followers={vNationUserData.followers}
-            members={vNationUserData.members}
-            subscribers={vNationUserData.subscribers}
-            customers={vNationUserData.customers}
-            currency={"$"}
+            sales={guideUserData.sales}
+            earnings={guideUserData.earnings}
+            investments={guideUserData.investments}
+            endorsements={guideUserData.endorsements}
+            points={guideUserData.points}
+            likes={guideUserData.likes}
+            shares={guideUserData.shares}
+            connections={guideUserData.connections}
+            followers={guideUserData.followers}
+            members={guideUserData.members}
+            subscribers={guideUserData.subscribers}
+            customers={guideUserData.customers}
+            currency={currency}
+            userInfoData={userInfoData}
           />
           <Separator />
         </div>
@@ -49,9 +88,9 @@ const UserProfileBanner = ({ isLoading }: UserProfileBannerProps) => {
           <UserTags partOf={partOf} />
           <Separator />
           <UserInteraction
-            isConnected={true}
-            isLoggedIn={true}
-            isOwner={false}
+            isConnected={isConnected}
+            isLoggedIn={isLoggedIn}
+            isOwner={isOwner}
           />
         </div>
       </div>

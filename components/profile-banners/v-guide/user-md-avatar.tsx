@@ -1,7 +1,11 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 
-export function UserMediumAvatar() {
+type UserMediumAvatarProps = {
+  user?: string;
+};
+
+export function UserMediumAvatar({ user }: UserMediumAvatarProps) {
   return (
     <div className="flex flex-col items-center">
       <div className="rounded-full shrink-0">

@@ -14,10 +14,11 @@ import {
   IconThumbsUp,
   IconUserCheck,
 } from "@/components/icons/logo-icons";
-import UserInfoBox from "./user-info-box";
-import { userInfoData } from "@/backend-data-test";
+import UserInfoBox, {
+  UserInfoBoxProps,
+} from "@/components/profile-banners/v-guide/user-info-box";
 
-type UserDataTableProps = {
+export type GuideDataPointsProps = {
   isLoading?: boolean;
   sales: number;
   earnings: number;
@@ -32,9 +33,10 @@ type UserDataTableProps = {
   subscribers: number;
   customers: number;
   currency: string;
+  userInfoData: UserInfoBoxProps;
 };
 
-const UserDataTable = ({
+const GuideDataPoints = ({
   isLoading,
   sales,
   earnings,
@@ -49,7 +51,8 @@ const UserDataTable = ({
   subscribers,
   customers,
   currency,
-}: UserDataTableProps) => {
+  userInfoData,
+}: GuideDataPointsProps) => {
   return (
     <>
       <div className="flex flex-row gap-10 items-center justify-left">
@@ -153,4 +156,4 @@ const UserDataTable = ({
   );
 };
 
-export default UserDataTable;
+export default GuideDataPoints;

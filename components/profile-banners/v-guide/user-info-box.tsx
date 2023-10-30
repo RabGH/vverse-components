@@ -9,7 +9,7 @@ import {
 } from "@/components/icons/logo-icons";
 import React from "react";
 
-type UserInfoBox = {
+export type UserInfoBoxProps = {
   id: string;
   gender: string;
   country: string;
@@ -27,7 +27,7 @@ const UserInfoBox = ({
   time,
   calendar,
   lastSeen,
-}: UserInfoBox) => {
+}: UserInfoBoxProps) => {
   return (
     <aside className="flex flex-col justify-left items-left">
       <ul className="space-y-1">

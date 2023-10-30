@@ -17,11 +17,18 @@ type UserTitleBoxProps = {
   userTitle: string;
   points: number;
   endorsements: number;
+  thumbsup: number;
+  shares: number;
   isLoading?: boolean;
   isGuide?: boolean;
   isFeatured?: boolean;
   isOpenToWork?: boolean;
   isHiring?: boolean;
+  isOwner?: boolean;
+  isIdVerified?: boolean;
+  isEmailVerified?: boolean;
+  isPhoneVerified?: boolean;
+  isAgreementVerified?: boolean;
   rank: RankMedalProps["rank"];
 };
 
@@ -30,12 +37,19 @@ const UserTitleBox = ({
   userTitle,
   points,
   endorsements,
+  thumbsup,
+  shares,
   rank = "standardSilver",
+  isOwner = false,
   isLoading = false,
   isGuide = false,
   isFeatured = false,
   isOpenToWork = false,
   isHiring = false,
+  isIdVerified = false,
+  isAgreementVerified = false,
+  isEmailVerified = false,
+  isPhoneVerified = false,
 }: UserTitleBoxProps) => {
   return (
     <div className="flex justify-between items-center space-x-40">
@@ -45,14 +59,20 @@ const UserTitleBox = ({
         <div className="flex flex-row gap-1 mt-1">
           {isGuide ? (
             <UserVerifiedIcons
-              isIdVerified={true}
-              isEmailVerified={true}
-              isPhoneVerified={true}
-              isAgreementVerified={false}
+              isIdVerified={isIdVerified}
+              isEmailVerified={isEmailVerified}
+              isPhoneVerified={isPhoneVerified}
+              isAgreementVerified={isAgreementVerified}
               isLoading={isLoading}
             />
           ) : (
-            <UserPoints points={points} endorsements={endorsements} />
+            <UserPoints
+              points={points}
+              endorsements={endorsements}
+              thumbsup={thumbsup}
+              shares={shares}
+              isOwner={isOwner}
+            />
           )}
           <Separator orientation="vertical" className="h-7 mx-1" />
           {isFeatured && (

@@ -59,6 +59,7 @@ export const badgeNotificationsTabData = {
   },
 };
 
+// !not in use
 export const defaultVisitedTabs: VisitedTabs = {
   Notifications: {
     vVerse: false,
@@ -85,7 +86,6 @@ export const defaultVisitedTabs: VisitedTabs = {
   Emails: false,
   News: false,
 };
-
 export const buttons: ButtonKey[] = [
   "Notifications",
   "Messages",
@@ -93,7 +93,6 @@ export const buttons: ButtonKey[] = [
   "Planner",
   "News",
 ];
-
 export const notificationTabs: NotificationTabKey[] = [
   "vVerse",
   "vGuide",
@@ -116,3 +115,4 @@ export const plannerTabs: PlannerTabKey[] = [
   "eventMeetings",
   "todos",
 ];
+// !

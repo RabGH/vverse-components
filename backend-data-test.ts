@@ -51,7 +51,7 @@ export const categories = [
   },
 ];
 
-export const userInfoData = {
+export const vUserInfoData = {
   id: "MBR-756",
   gender: "Male",
   country: "Egypt",
@@ -61,7 +61,7 @@ export const userInfoData = {
   lastSeen: "11-Nov-2022 09:45 PM",
 };
 
-export const vNationUserData = {
+export const vGuideUserData = {
   sales: 20000,
   earnings: 20000,
   investments: 7500,
@@ -138,7 +138,7 @@ export const vCollegeUserData = {
 };
 
 export const vMarketUserData = {
-  stores: 4, 
+  stores: 4,
   products: 1000,
   sales: 1000,
   orders: 1000,
@@ -147,7 +147,7 @@ export const vMarketUserData = {
   shares: 900,
   ratingPoints: 900,
   rating: 4.9,
-}
+};
 
 export const vEventsUserData = {
   events: 20,
@@ -158,7 +158,7 @@ export const vEventsUserData = {
   shares: 900,
   ratingPoints: 900,
   rating: 4.9,
-}
+};
 
 export const vWebinarsUserData = {
   webinars: 20,
@@ -169,7 +169,7 @@ export const vWebinarsUserData = {
   shares: 900,
   ratingPoints: 900,
   rating: 4.9,
-}
+};
 
 export const vExpertsUserData = {
   consultations: 20,
@@ -180,13 +180,13 @@ export const vExpertsUserData = {
   shares: 900,
   ratingPoints: 900,
   rating: 4.9,
-}
+};
 
 export const vMarketingSponsorUserData = {
   investments: 2200,
   sponsored: 10,
-  orders: 50
-}
+  orders: 50,
+};
 
 export const vMarketingUserData = {
   sponsorships: 15,
@@ -197,7 +197,7 @@ export const vMarketingUserData = {
   shares: 900,
   ratingPoints: 900,
   rating: 4.9,
-}
+};
 
 export const VAlertCenterData = {
   Notifications: {
