@@ -55,29 +55,6 @@ import {
   IconWebinar,
 } from "@/components/icons/logo-icons";
 
-export const links = [
-  {
-    label: "Base Components",
-    href: "/baseComponents",
-  },
-  {
-    label: "Video Player",
-    href: "/videoPlayer",
-  },
-  {
-    label: "Profile Banner",
-    href: "/profileBanner",
-  },
-  {
-    label: "VVerse Navbars",
-    href: "/navigation",
-  },
-  {
-    label: "Alert Center",
-    href: "/alertCenter",
-  },
-];
-
 // V-Verse Menu Links
 
 export const vGuideLinks = [

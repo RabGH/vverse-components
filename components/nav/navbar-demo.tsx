@@ -28,6 +28,11 @@ const components: { title: string; href: string; description: string }[] = [
       "Buttons, switches, radios, inputs, textareas, selects, and more",
   },
   {
+    title: "Calendar Components",
+    href: "/calendars",
+    description: "Calendar components, flatpickr",
+  },
+  {
     title: "Alert Center",
     href: "/alertCenter",
     description: "Alert Center Page, notifications",

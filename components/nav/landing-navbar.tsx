@@ -30,6 +30,11 @@ const LandingNavbar = () => {
         label={"Alert Center"}
         link={"/alertCenter"}
       />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Calendar Components"}
+        link={"/calendars"}
+      />
     </div>
   );
 };

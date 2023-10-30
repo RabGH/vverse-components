@@ -72,6 +72,7 @@ body,
     --blue-dark: #003B7E;
     --blue-mid: #0052B1;
     --blue-light: #016DEA;
+    --blue-gradient: linear-gradient(to right, var(--blue-light), var(--blue-dark));
 
     --red-dark: #812924;
     --red-mid: #CD0D14;
@@ -347,5 +348,105 @@ body,
   /* vhrBlue Disect */
   .vgWhite {
    @apply bg-gradient-to-r from-white to-white
-  }
+  } 
+}
+
+/* Style the starting and ending dates */
+.flatpickr-day.selected {
+  background: var(--blue-violet); /* Use the defined gradient background */
+  color: #000; /* Text color for selected dates */
+}
+
+/* Style dates in the range and other interactive states */
+.flatpickr-day.inRange,
+.flatpickr-day.prevMonthDay.inRange,
+.flatpickr-day.nextMonthDay.inRange,
+.flatpickr-day.today.inRange,
+.flatpickr-day.prevMonthDay.today.inRange,
+.flatpickr-day.nextMonthDay.today.inRange,
+.flatpickr-day:hover,
+.flatpickr-day.prevMonthDay:hover,
+.flatpickr-day.nextMonthDay:hover,
+.flatpickr-day:focus,
+.flatpickr-day.prevMonthDay:focus,
+.flatpickr-day.nextMonthDay:focus {
+  cursor: pointer;
+  outline: 0;
+  background: #7F00FF; 
+  border-color: #7F00FF;
+  color: #fff;
+}
+
+/* Style today's date */
+.flatpickr-day.today {
+  border-color: var(--sky-blue-dark);
+}
+
+/* Style today's date on hover and focus */
+.flatpickr-day.today:hover,
+.flatpickr-day.today:focus {
+  border-color: #fff;
+  background: #fff;
+  color: #fff;
+}
+
+/* Style the start and end of the date range */
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: var(--blue-gradient);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  border-color: var(--blue-light);
+}
+
+/* Style dates in the range with a custom box-shadow */
+.flatpickr-day.inRange {
+  border-radius: 0;
+  -webkit-box-shadow: -5px 0 0 #7F00FF, 5px 0 0 #7F00FF;
+  box-shadow: -5px 0 0 #7F00FF, 5px 0 0 #7F00FF;
+}
+
+/* .flatpickr-months .flatpickr-month {
+  background: #fff;
+  color: #000
+}
+
+.flatpickr-current-month,
+.flatpickr-monthDropdown-months {
+  background: #fff;
+  color:#000;
+  fill: #fff
+} */
+
+.flatpickr-months, 
+.flatpickr-prev-month:hover, 
+.flatpickr-months .flatpickr-next-month:hover {
+  color: #000;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover svg, 
+.flatpickr-months .flatpickr-next-month:hover svg {
+  fill: var(--blue-light);
+}
+
+.flatpickr-months .flatpickr-prev-month, 
+.flatpickr-months .flatpickr-next-month {
+  color: var(--blue-dark);
+  fill: var(--blue-dark);
 }
