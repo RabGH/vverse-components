@@ -8,20 +8,63 @@ import "flatpickr/dist/themes/material_blue.css";
 import "../../../app/globals.css";
 
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/use-toast";
+
+type VCalendarProps = {
+  date: Date;
+  setDate: (date: Date) => void;
+};
 
 const VCalendar = () => {
-  const [date, setDate] = useState(new Date());
+  const [date, setDate] = useState<Date[]>([new Date(), new Date()]);
   const flatpickrRef = useRef<FlatpickrInstance | null>(null);
 
-  // const openCalendar = () => {
-  //   if (flatpickrRef.current) {
-  //     flatpickrRef.current.flatpickr.open();
-  //   }
-  // };
+  const handleDateChange = (selectedDates: Date[]) => {
+    setDate(selectedDates);
+  };
 
-  const handleDateChange = ([selectedDate]: Date[]) => {
-    setDate(selectedDate);
-    console.log(selectedDate);
+  const handleApply = () => {
+    const startDate = date[0];
+    const endDate = date[1];
+
+    if (startDate && endDate) {
+      // You can perform actions with the selected date range here
+      console.log("Selected Date Range: ", startDate, endDate);
+
+      // Format the date and time in 12-hour format
+      const dateOptions: Intl.DateTimeFormatOptions = {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      };
+      const timeOptions: Intl.DateTimeFormatOptions = {
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true, // Display in 12-hour format
+      };
+
+      const formattedStartDate = startDate.toLocaleString("en-US", {
+        ...dateOptions,
+        ...timeOptions,
+      });
+
+      const formattedEndDate = endDate.toLocaleString("en-US", {
+        ...dateOptions,
+        ...timeOptions,
+      });
+
+      toast({
+        title: "Success",
+        description: `Selected date range: ${startDate.toDateString()} - ${endDate.toDateString()} - ${formattedStartDate} - ${formattedEndDate}`,
+        variant: "vVerseToast",
+      });
+    } else {
+      toast({
+        title: "Error",
+        description: "Please select a valid date range.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
@@ -30,11 +73,18 @@ const VCalendar = () => {
         data-enable-time
         value={date}
         onChange={handleDateChange}
-        options={{ mode: "range" }}
+        options={{
+          mode: "range",
+          enableTime: true,
+          time_24hr: false,
+        }}
         ref={flatpickrRef}
         className="text-primary mx-2 border border-primary rounded-lg p-2"
         placeholder="Select a date range"
+        aria-label="Select a date range for your event"
+        aria-describedby="date-range-help"
       />
+      <Button onClick={handleApply}>Apply</Button>
     </div>
   );
 };

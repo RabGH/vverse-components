@@ -354,7 +354,7 @@ body,
 /* Style the starting and ending dates */
 .flatpickr-day.selected {
   background: var(--blue-violet); /* Use the defined gradient background */
-  color: #000; /* Text color for selected dates */
+  color: #fff; /* Text color for selected dates */
 }
 
 /* Style dates in the range and other interactive states */
@@ -364,11 +364,6 @@ body,
 .flatpickr-day.today.inRange,
 .flatpickr-day.prevMonthDay.today.inRange,
 .flatpickr-day.nextMonthDay.today.inRange,
-.flatpickr-day:hover,
-.flatpickr-day.prevMonthDay:hover,
-.flatpickr-day.nextMonthDay:hover,
-.flatpickr-day:focus,
-.flatpickr-day.prevMonthDay:focus,
 .flatpickr-day.nextMonthDay:focus {
   cursor: pointer;
   outline: 0;
@@ -376,18 +371,54 @@ body,
   border-color: #7F00FF;
   color: #fff;
 }
+/* Month Selector */
+.flatpickr-current-month {
+  font-weight: 700;
+}
+
+/* whole calendar */
+.flatpickr-calendar {
+  margin-top: 10px;
+}
+
+/* Week Days Styles */
+.flatpickr-weekdays {
+  font-weight: 700;
+}
+
+/* Next Month Hover Styles */
+.flatpickr-day.nextMonthDay:hover{
+  color: #fff;
+  background: #60a5faaf;
+}
+
+/* Day Styles */
+.flatpickr-day {
+  border-radius: 10;
+  font-weight: 700;
+}
+
+.flatpickr-day.inRange:hover {
+  background: #952cff;
+  color: #fff
+}
+
+.flatpickr-day:hover {
+  background: var(--blue-light);
+  color: #fff
+}
 
 /* Style today's date */
 .flatpickr-day.today {
-  border-color: var(--sky-blue-dark);
+  border-color: var(--blue-light);
+  color: #fff;
+  background: var(--blue-gradient);
 }
 
-/* Style today's date on hover and focus */
-.flatpickr-day.today:hover,
-.flatpickr-day.today:focus {
-  border-color: #fff;
-  background: #fff;
+.flatpickr-day.today:hover {
+  border-color: var(--blue-light);
   color: #fff;
+  background: var(--blue-light);
 }
 
 /* Style the start and end of the date range */
@@ -408,11 +439,11 @@ body,
 .flatpickr-day.selected.nextMonthDay,
 .flatpickr-day.startRange.nextMonthDay,
 .flatpickr-day.endRange.nextMonthDay {
-  background: var(--blue-gradient);
+  background: var(--blue-gradient); /* background of selected days */
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #fff;
-  border-color: var(--blue-light);
+  color: #fff; /* Text color of selected days */
+  border-color: var(--blue-light); /* Border of selected days */
 }
 
 /* Style dates in the range with a custom box-shadow */
@@ -422,31 +453,17 @@ body,
   box-shadow: -5px 0 0 #7F00FF, 5px 0 0 #7F00FF;
 }
 
-/* .flatpickr-months .flatpickr-month {
-  background: #fff;
-  color: #000
-}
-
-.flatpickr-current-month,
-.flatpickr-monthDropdown-months {
-  background: #fff;
-  color:#000;
-  fill: #fff
-} */
-
-.flatpickr-months, 
-.flatpickr-prev-month:hover, 
-.flatpickr-months .flatpickr-next-month:hover {
-  color: #000;
-}
-
-.flatpickr-months .flatpickr-prev-month:hover svg, 
-.flatpickr-months .flatpickr-next-month:hover svg {
-  fill: var(--blue-light);
-}
-
+/* Arrow Key colors */
 .flatpickr-months .flatpickr-prev-month, 
 .flatpickr-months .flatpickr-next-month {
-  color: var(--blue-dark);
-  fill: var(--blue-dark);
+  color: #fff
+}
+
+/* Current Month and drop down and year */
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  font-weight: 700;
+}
+
+.flatpickr-current-month input.cur-year {
+  font-weight: 700;
 }
