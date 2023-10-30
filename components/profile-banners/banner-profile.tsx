@@ -1,20 +1,23 @@
+import { Separator } from "@/components/ui/separator";
+
 import { UserMediumAvatar } from "@/components/profile-banners/master-banner/user-md-avatar";
+import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
+
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
-import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
-import { Separator } from "@/components/ui/separator";
-import AuthorDataPoints from "./v-profile-data-points/author-data-points";
-import BlogDataPoints from "./v-profile-data-points/blog-data-points";
-import CollegeDataPoints from "./v-profile-data-points/college-data-points";
-import JobsDataPoints from "./v-profile-data-points/jobs-data-points";
-import LanceDataPoints from "./v-profile-data-points/lance-data-points";
-import MarketDataPoints from "./v-profile-data-points/market-data-points";
-import TubeDataPoints from "./v-profile-data-points/tube-data-points";
-import EventDataPoints from "./v-profile-data-points/event-data-points";
-import WebinarDataPoints from "./v-profile-data-points/webinar-data-points";
-import ExpertDataPoints from "./v-profile-data-points/experts-data-points";
-import MarketingSponsorDataPoints from "./v-profile-data-points/marketingSponsor-data-points";
-import MarketingDataPoints from "./v-profile-data-points/marketing-data-points";
+
+import AuthorDataPoints from "@/components/profile-banners/v-profile-data-points/author-data-points";
+import BlogDataPoints from "@/components/profile-banners/v-profile-data-points/blog-data-points";
+import CollegeDataPoints from "@/components/profile-banners/v-profile-data-points/college-data-points";
+import JobsDataPoints from "@/components/profile-banners/v-profile-data-points/jobs-data-points";
+import LanceDataPoints from "@/components/profile-banners/v-profile-data-points/lance-data-points";
+import MarketDataPoints from "@/components/profile-banners/v-profile-data-points/market-data-points";
+import TubeDataPoints from "@/components/profile-banners/v-profile-data-points/tube-data-points";
+import EventDataPoints from "@/components/profile-banners/v-profile-data-points/event-data-points";
+import WebinarDataPoints from "@/components/profile-banners/v-profile-data-points/webinar-data-points";
+import ExpertDataPoints from "@/components/profile-banners/v-profile-data-points/experts-data-points";
+import MarketingSponsorDataPoints from "@/components/profile-banners/v-profile-data-points/marketingSponsor-data-points";
+import MarketingDataPoints from "@/components/profile-banners/v-profile-data-points/marketing-data-points";
 
 type BannerProfileProps = {
   userName: string;
@@ -65,7 +68,9 @@ const BannerProfile = ({
 }: BannerProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
+      <div className="mt-6">
       <UserMediumAvatar />
+      </div>
       <div className="flex flex-col gap-4">
         <div>
           <UserTitleBox

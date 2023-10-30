@@ -9,7 +9,7 @@ import GuideDataPoints, {
   GuideDataPointsProps,
 } from "@/components/profile-banners/v-guide/guide-data-points";
 
-type UserProfileBannerProps = {
+type GuideProfileBannerProps = {
   isLoading?: boolean;
   userInfoData?: UserInfoBoxProps;
   userName: string;
@@ -28,7 +28,7 @@ type UserProfileBannerProps = {
   currency: string;
 };
 
-const UserProfileBanner = ({
+const GuideProfileBanner = ({
   isLoading,
   userInfoData,
   guideUserData,
@@ -45,7 +45,7 @@ const UserProfileBanner = ({
   isConnected = true,
   isLoggedIn = true,
   isFeatured = true,
-}: UserProfileBannerProps) => {
+}: GuideProfileBannerProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserLargeAvatar />
@@ -98,4 +98,4 @@ const UserProfileBanner = ({
   );
 };
 
-export default UserProfileBanner;
+export default GuideProfileBanner;

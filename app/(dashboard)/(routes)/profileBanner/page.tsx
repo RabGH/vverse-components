@@ -5,6 +5,7 @@ import {
   IconCalendarEventStar,
   IconCalendarWebinar,
   IconCreateStudioBtn,
+  IconDetailsBtn,
   IconMyJobsBtn,
   IconMyProfileBtn,
   IconStore,
@@ -14,7 +15,7 @@ import {
   IconVideo,
 } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
-import UserProfileBanner from "@/components/profile-banners/v-guide/guide-profile";
+import GuideProfileBanner from "@/components/profile-banners/v-guide/guide-profile";
 import {
   partOf,
   vAuthorUserData,
@@ -33,6 +34,8 @@ import {
 } from "@/backend-data-test";
 import BannerProfile from "@/components/profile-banners/banner-profile";
 import { IconSponsorHandShaking } from "../../../../components/icons/logo-icons";
+import BannerProfileDialog from "@/components/profile-banners/banner-profile-dialog";
+import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
 
 const ProfileBannerPage = () => {
   return (
@@ -43,7 +46,7 @@ const ProfileBannerPage = () => {
         icon={IconMyProfileBtn}
       />
 
-      <UserProfileBanner
+      <GuideProfileBanner
         isLoading={false}
         userName={"<Guide Name>"}
         userTitle={"Demo Profile Banner V-Guide Banner"}
@@ -57,6 +60,22 @@ const ProfileBannerPage = () => {
         partOf={partOf}
         guideUserData={vGuideUserData}
         userInfoData={vUserInfoData}
+      />
+      <GuideProfileBannerDialog
+        isLoading={false}
+        userName={"<Guide Name>"}
+        userTitle={"Demo Profile Banner V-Guide Banner"}
+        rank={"standardSilver"}
+        currency={"$"}
+        points={1000}
+        endorsements={10000}
+        isFeatured={true}
+        thumbsup={10000}
+        shares={10000}
+        partOf={partOf}
+        guideUserData={vGuideUserData}
+        userInfoData={vUserInfoData}
+        dialogTitle={"Profile Banner V-Guide Full"}
       />
       <Heading
         title={"Blog Banners"}
@@ -263,6 +282,26 @@ const ProfileBannerPage = () => {
         dataType={"market"}
         data={vMarketUserData}
         isOwner={true}
+      />
+      <Heading
+        title={"Dialog Profile Banners"}
+        description={"V-Verse Dialog Banners for users, info button icon."}
+        icon={IconDetailsBtn}
+      />
+      <BannerProfileDialog
+        userName={"Dialog Test User"}
+        userTitle={"Dialog test, test with most banners."}
+        isLoading={false}
+        points={10000}
+        endorsements={10000}
+        isFeatured={true}
+        isOpenToWork={true}
+        thumbsup={100000}
+        shares={100000}
+        rank={"standardGold"}
+        data={vTubeUserData}
+        dialogTitle={"V-Tube Test Banner Dialog"}
+        dataType={"tube"}
       />
     </div>
   );
