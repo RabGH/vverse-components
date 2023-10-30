@@ -74,6 +74,7 @@ export const vGuideUserData = {
   members: 10200,
   subscribers: 200,
   customers: 43300,
+  currency: "$",
 };
 
 export const vBlogUserData = {

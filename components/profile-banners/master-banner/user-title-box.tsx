@@ -6,7 +6,7 @@ import {
   IconZap,
 } from "@/components/icons/logo-icons";
 import { Badge } from "@/components/ui/badge";
-import UserVerifiedIcons from "@/components/profile-banners/v-guide/user-verification-icons";
+import UserVerifiedIcons from "@/components/profile-banners/v-guide/guide-verification";
 import RankMedals, {
   RankMedalProps,
 } from "@/components/profile-banners/master-banner/rank-medals";

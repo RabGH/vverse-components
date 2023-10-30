@@ -16,7 +16,7 @@ import {
 } from "@/components/icons/logo-icons";
 import UserInfoBox, {
   UserInfoBoxProps,
-} from "@/components/profile-banners/v-guide/user-info-box";
+} from "@/components/profile-banners/v-guide/guide-info-box";
 
 export type GuideDataPointsProps = {
   isLoading?: boolean;
@@ -33,7 +33,7 @@ export type GuideDataPointsProps = {
   subscribers: number;
   customers: number;
   currency: string;
-  userInfoData: UserInfoBoxProps;
+  userInfoData?: UserInfoBoxProps;
 };
 
 const GuideDataPoints = ({
@@ -142,13 +142,13 @@ const GuideDataPoints = ({
         </div>
         <section className="flex flex-row">
           <UserInfoBox
-            id={userInfoData.id}
-            gender={userInfoData.gender}
-            country={userInfoData.country}
-            location={userInfoData.location}
-            time={userInfoData.time}
-            calendar={userInfoData.calendar}
-            lastSeen={userInfoData.lastSeen}
+            id={userInfoData?.id}
+            gender={userInfoData?.gender}
+            country={userInfoData?.country}
+            location={userInfoData?.location}
+            time={userInfoData?.time}
+            calendar={userInfoData?.calendar}
+            lastSeen={userInfoData?.lastSeen}
           />
         </section>
       </div>

@@ -9,12 +9,19 @@ import {
   IconVideo,
 } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
-import UserProfileBanner from "@/components/profile-banners/v-guide/user-profile-banner";
-import BlogProfile from "@/components/profile-banners/v-blog/blog-profile";
-import AuthorProfile from "@/components/profile-banners/v-author/author-profile";
-import TubeProfile from "@/components/profile-banners/v-tube/tube-profile";
-import JobProfile from "@/components/profile-banners/v-jobs/job-profile";
-import LanceProfile from "@/components/profile-banners/v-lance/lance-profile";
+import UserProfileBanner from "@/components/profile-banners/v-guide/guide-profile";
+import {
+  partOf,
+  vAuthorUserData,
+  vBlogUserData,
+  vGuideUserData,
+  vJobUserData,
+  vLanceUserData,
+  vMarketUserData,
+  vTubeUserData,
+  vUserInfoData,
+} from "@/backend-data-test";
+import BannerProfile from "@/components/profile-banners/banner-profile";
 
 const ProfileBannerPage = () => {
   return (
@@ -25,37 +32,113 @@ const ProfileBannerPage = () => {
         icon={IconMyProfileBtn}
       />
       <div className="space-y-20">
-        <UserProfileBanner isLoading={false} />
+        <UserProfileBanner
+          isLoading={false}
+          userName={"<Guide Name>"}
+          userTitle={"Demo Profile Banner V-Guide Banner"}
+          rank={"standardSilver"}
+          currency={"$"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={10000}
+          shares={10000}
+          partOf={partOf}
+          guideUserData={vGuideUserData}
+          userInfoData={vUserInfoData}
+        />
         <Heading
           title={"Blog Banners"}
           description={"Blog Banner for users."}
           icon={IconCreateStudioBtn}
         />
-        <BlogProfile isLoading={false} />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Blog Name>"}
+          userTitle={"Demo Profile Banner V-Blog Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"standardPlatinum"}
+          dataType={"blog"}
+          data={vBlogUserData}
+        />
         <Heading
-          title={"V-Nation Author Banners"}
-          description={"V-Nation Banner for users."}
+          title={"V-Author Banners"}
+          description={"V-Author Banner for users."}
           icon={IconUsersAuthorBtn}
         />
-        <AuthorProfile isLoading={false} />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Author Name>"}
+          userTitle={"Demo Profile Banner V-Author Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"standardGold"}
+          dataType={"author"}
+          data={vAuthorUserData}
+        />
         <Heading
           title={"V-Tube Banners"}
           description={"V-Tube Banner for users."}
           icon={IconVideo}
         />
-        <TubeProfile isLoading={false} />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Tube Name>"}
+          userTitle={"Demo Profile Banner V-Tube Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"ambassadorSilver"}
+          dataType={"tube"}
+          data={vTubeUserData}
+        />
         <Heading
           title={"Job Candidate Banners"}
           description={"V-Job Banner for users."}
           icon={IconMyJobsBtn}
         />
-        <JobProfile isLoading={false} />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Job Name>"}
+          userTitle={"Demo Profile Banner V-Job Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"ambassadorGold"}
+          dataType={"jobs"}
+          data={vJobUserData}
+          isOpenToWork={true}
+        />
         <Heading
           title={"Lancer Banners"}
           description={"V-Lance Banner for users."}
           icon={IconUsersLancersBtn}
         />
-        <LanceProfile isLoading={false} />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Lance Name>"}
+          userTitle={"Demo Profile Banner V-Lance Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"vendorSilver"}
+          dataType={"lance"}
+          data={vLanceUserData}
+          isOwner={true}
+        />
       </div>
     </div>
   );

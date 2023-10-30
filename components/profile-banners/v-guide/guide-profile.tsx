@@ -1,17 +1,17 @@
-import UserTags from "@/components/profile-banners/v-guide/user-tags";
+import UserTags from "@/components/profile-banners/v-guide/guide-tags";
 import UserInteraction from "@/components/profile-banners/master-banner/user-interact";
 import UserTitleBox from "@/components/profile-banners/master-banner/user-title-box";
 import { Separator } from "@/components/ui/separator";
-import { UserLargeAvatar } from "./user-lg-avatar";
-import { UserInfoBoxProps } from "@/components/profile-banners/v-guide/user-info-box";
+import { UserLargeAvatar } from "./guide-lg-avatar";
+import { UserInfoBoxProps } from "@/components/profile-banners/v-guide/guide-info-box";
 import { RankMedalProps } from "@/components/profile-banners/master-banner/rank-medals";
 import GuideDataPoints, {
   GuideDataPointsProps,
-} from "@/components/profile-banners/v-guide/user-data-points";
+} from "@/components/profile-banners/v-guide/guide-data-points";
 
 type UserProfileBannerProps = {
   isLoading?: boolean;
-  userInfoData: UserInfoBoxProps;
+  userInfoData?: UserInfoBoxProps;
   userName: string;
   userTitle: string;
   isOwner?: boolean;

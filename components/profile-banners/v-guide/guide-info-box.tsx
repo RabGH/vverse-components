@@ -10,13 +10,13 @@ import {
 import React from "react";
 
 export type UserInfoBoxProps = {
-  id: string;
-  gender: string;
-  country: string;
-  location: string;
-  time: string;
-  calendar: string;
-  lastSeen: string;
+  id?: string;
+  gender?: string;
+  country?: string;
+  location?: string;
+  time?: string;
+  calendar?: string;
+  lastSeen?: string;
 };
 
 const UserInfoBox = ({
