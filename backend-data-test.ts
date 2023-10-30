@@ -1274,6 +1274,8 @@ export const VAlertCenterData = {
       id: 1,
       senderName: "John Johnny Doe",
       title: "Emailing you about the Vverse Demo",
+      subTitle:
+        "lorem Hey John, wellish laminable inuent popshop catalyte prismatic guevni.",
       message:
         "Hey John, this is a test email, for the Vverse demo, let me know if you have any questions.",
       date: "2023-04-05T12:50:00Z",
@@ -1284,6 +1286,8 @@ export const VAlertCenterData = {
       id: 2,
       senderName: "John Johnny Doe",
       title: "Emailing you about the Vverse Demo",
+      subTitle:
+        "lorem Hey John, wellish laminable inuent popshop catalyte prismatic guevni.",
       message:
         "Hey John, this is a test email, for the Vverse demo, let me know if you have any questions.",
       date: "2023-04-05T12:50:00Z",
@@ -1294,6 +1298,8 @@ export const VAlertCenterData = {
       id: 3,
       senderName: "John Johnny Doe",
       title: "Emailing you about the Vverse Demo",
+      subTitle:
+        "lorem Hey John, wellish laminable inuent popshop catalyte prismatic guevni.",
       message:
         "Hey John, this is a test email, for the Vverse demo, let me know if you have any questions.",
       date: "2023-04-05T12:50:00Z",

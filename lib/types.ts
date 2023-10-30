@@ -68,6 +68,7 @@ export type EmailItem = {
   id: number;
   senderName: string;
   title: string;
+  subTitle: string;
   message: string;
   date: string;
   numberOfMessages: number;

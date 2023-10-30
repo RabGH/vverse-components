@@ -55,12 +55,9 @@ const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
           <>
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
-              <p className="text-black font-bold">{news.id}</p>
-              <p className="text-muted">{news.title}</p>
-
-              <p className="text-black font-bold">{"<Request>"}</p>
+              <p className="text-primary">{news.title}</p>
             </div>
-            <div className="flex flex-row items-center gap-2">
+            <div className="flex flex-row items-center justify-between gap-4">
               {news.date && (
                 <Badge variant={"profile"} size="label" className={cn("")}>
                   {news.date}

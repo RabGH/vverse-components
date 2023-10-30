@@ -8,12 +8,20 @@ type VAlertMessageTableProps = {
 };
 
 const VAlertMessagesTable = ({ messageData }: VAlertMessageTableProps) => {
+  const isEmpty = messageData.length === 0;
+
   return (
     <div className="flex flex-col justify-center items-center">
       <ScrollArea className="h-[700px]">
-        {messageData.map((item) => (
-          <VAlertMessagesCard key={item.id} message={item} />
-        ))}
+        {isEmpty ? (
+          <p className="text-muted font-normal text-2xl items-center justify-center h-full w-full">
+            No Messages Notifications to show at this time.
+          </p>
+        ) : (
+          messageData.map((item) => (
+            <VAlertMessagesCard key={item.id} message={item} />
+          ))
+        )}
       </ScrollArea>
     </div>
   );

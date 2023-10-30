@@ -8,12 +8,18 @@ type VAlertNewsTable = {
 };
 
 const VAlertNewsTable = ({ newsData }: VAlertNewsTable) => {
+  const isEmpty = newsData.length === 0;
+
   return (
     <div className="flex flex-col justify-center items-center">
       <ScrollArea className="h-[700px] rounded-lg">
-        {newsData.map((item) => (
-          <VAlertNewsCard key={item.id} news={item} />
-        ))}
+        {isEmpty ? (
+          <p className="text-muted font-normal text-2xl items-center justify-center h-full w-full">
+            No News Notifications to show at this time.
+          </p>
+        ) : (
+          newsData.map((item) => <VAlertNewsCard key={item.id} news={item} />)
+        )}
 
         <ScrollBar orientation="vertical" />
       </ScrollArea>

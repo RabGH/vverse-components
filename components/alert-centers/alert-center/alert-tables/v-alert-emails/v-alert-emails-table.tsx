@@ -8,12 +8,20 @@ type VAlertEmailsTableProps = {
 };
 
 const VAlertEmailsTable = ({ emailData }: VAlertEmailsTableProps) => {
+  const isEmpty = emailData.length === 0;
+
   return (
     <div className="flex flex-col justify-center items-center">
       <ScrollArea className="h-[700px]">
-        {emailData.map((item) => (
-          <VAlertEmailsCard key={item.id} emails={item} />
-        ))}
+        {isEmpty ? (
+          <p className="text-muted font-normal text-2xl items-center justify-center h-full w-full">
+            No Email Notifications to show at this time.
+          </p>
+        ) : (
+          emailData.map((item) => (
+            <VAlertEmailsCard key={item.id} emails={item} />
+          ))
+        )}
       </ScrollArea>
     </div>
   );
