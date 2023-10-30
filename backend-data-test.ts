@@ -114,6 +114,91 @@ export const vJobUserData = {
   shares: 900,
 };
 
+export const vLanceUserData = {
+  services: 20,
+  sales: 7500,
+  orders: 1000,
+  customers: 525,
+  successRate: 100,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 1200,
+  rating: 4.7,
+};
+
+export const vCollegeUserData = {
+  courses: 4,
+  sales: 1000,
+  orders: 1000,
+  customers: 1000,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 1200,
+  rating: 4.7,
+};
+
+export const vMarketUserData = {
+  stores: 4, 
+  products: 1000,
+  sales: 1000,
+  orders: 1000,
+  customers: 1000,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 900,
+  rating: 4.9,
+}
+
+export const vEventsUserData = {
+  events: 20,
+  sales: 7500,
+  orders: 1000,
+  customers: 525,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 900,
+  rating: 4.9,
+}
+
+export const vWebinarsUserData = {
+  webinars: 20,
+  sales: 7500,
+  orders: 1000,
+  customers: 525,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 900,
+  rating: 4.9,
+}
+
+export const vExpertsUserData = {
+  consultations: 20,
+  sales: 7500,
+  orders: 1000,
+  customers: 525,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 900,
+  rating: 4.9,
+}
+
+export const vMarketingSponsorUserData = {
+  investments: 2200,
+  sponsored: 10,
+  orders: 50
+}
+
+export const vMarketingUserData = {
+  sponsorships: 15,
+  sales: 2200,
+  orders: 50,
+  customers: 525,
+  likes: 4500,
+  shares: 900,
+  ratingPoints: 900,
+  rating: 4.9,
+}
+
 export const VAlertCenterData = {
   Notifications: {
     vVerse: [

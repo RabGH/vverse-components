@@ -4,12 +4,12 @@ import { LucideIcon } from "lucide-react";
 
 type VNavLinkProps = {
   sectionLinks: {
-    icon: LucideIcon;
+    icon?: LucideIcon;
     label: string;
     link: string;
   }[];
   sectionTitle: string;
-}
+};
 
 const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
   return (
@@ -19,7 +19,9 @@ const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
         {sectionLinks.map((link, index) => (
           <>
             <nav className="flex flex-row text-background gap-2 items-center group text-sm">
-              <link.icon className="w-5 h-5 group-hover:text-blue-300" />
+              {link.icon && (
+                <link.icon className="w-5 h-5 group-hover:text-blue-300" />
+              )}
               <Link
                 key={index}
                 href={link.link}

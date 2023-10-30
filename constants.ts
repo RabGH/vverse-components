@@ -78,47 +78,6 @@ export const links = [
   },
 ];
 
-// V-Verse Alert Center Category Tabs
-
-export const vAlertCenterTabs = [
-  {
-    label: "V-Verse"
-  },
-  {
-    label: "V-Guide"
-  },
-  {
-    label: "V-Blog"
-  },
-  {
-    label: "V-Nation"
-  },
-  {
-    label: "V-Tube"
-  },
-  {
-    label: "V-Jobs"
-  },
-  {
-    label: "V-Lance"
-  },
-  {
-    label: "V-College"
-  },
-  {
-    label: "V-Market"
-  },
-  {
-    label: "V-Events"
-  },
-  {
-    label: "V-Webinars"
-  },
-  {
-    label: "V-Experts"
-  },
-]
-
 // V-Verse Menu Links
 
 export const vGuideLinks = [
@@ -1050,6 +1009,184 @@ export const vHubBackendMenuLinks = [
   {
     icon: IconHelpCircleQuestionMark,
     label: "Knowledge Base",
+    link: "/",
+  },
+];
+
+// Footer Links
+export const vFooterTheVs = [
+  {
+    label: "V-Guide",
+    link: "/",
+  },
+  {
+    label: "V-Blog",
+    link: "/",
+  },
+  {
+    label: "V-Nation",
+    link: "/",
+  },
+  {
+    label: "V-Tube",
+    link: "/",
+  },
+  {
+    label: "V-Jobs",
+    link: "/",
+  },
+  {
+    label: "V-Lance",
+    link: "/",
+  },
+  {
+    label: "V-College",
+    link: "/",
+  },
+  {
+    label: "V-Market",
+    link: "/",
+  },
+  {
+    label: "V-Events",
+    link: "/",
+  },
+  {
+    label: "V-Market",
+    link: "/",
+  },
+  {
+    label: "V-Webinars",
+    link: "/",
+  },
+  {
+    label: "V-Experts",
+    link: "/",
+  },
+];
+
+export const vFooterTheMembersLinks = [
+  {
+    label: "Personal Profiles",
+    link: "/",
+  },
+  {
+    label: "Business Profiles",
+    link: "/",
+  },
+  {
+    label: "V-Authors",
+    link: "/",
+  },
+  {
+    label: "V-Candidates",
+    link: "/",
+  },
+  {
+    label: "V-Employers",
+    link: "/",
+  },
+  {
+    label: "V-Lancers",
+    link: "/",
+  },
+  {
+    label: "V-Clients",
+    link: "/",
+  },
+  {
+    label: "V-Instructors",
+    link: "/",
+  },
+  {
+    label: "V-Sellers",
+    link: "/",
+  },
+  {
+    label: "V-Organizers",
+    link: "/",
+  },
+  {
+    label: "V-Hosts",
+    link: "/",
+  },
+  {
+    label: "V-Experts",
+    link: "/",
+  },
+  {
+    label: "V-Sponsors",
+    link: "/",
+  },
+  {
+    label: "V-Influencers",
+    link: "/",
+  },
+];
+
+export const vFooterAssetLinks = [
+  {
+    label: "Blog Posts",
+    link: "/",
+  },
+  {
+    label: "Social Pages",
+    link: "/",
+  },
+  {
+    label: "Social Groups",
+    link: "/",
+  },
+  {
+    label: "Channels",
+    link: "/",
+  },
+  {
+    label: "Videos",
+    link: "/",
+  },
+  {
+    label: "Jobs",
+    link: "/",
+  },
+  {
+    label: "Services",
+    link: "/",
+  },
+  {
+    label: "Projects",
+    link: "/",
+  },
+  {
+    label: "Courses",
+    link: "/",
+  },
+  {
+    label: "Stores",
+    link: "/",
+  },
+  {
+    label: "Products",
+    link: "/",
+  },
+  {
+    label: "E-Books",
+    link: "/",
+  },
+  {
+    label: "Events",
+    link: "/",
+  },
+  {
+    label: "Webinars",
+    link: "/",
+  },
+  {
+    label: "Consultations",
+    link: "/",
+  },
+  {
+    label: "Sponsorships",
     link: "/",
   },
 ];

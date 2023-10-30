@@ -1,7 +1,7 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ButtonKey, NotificationItem } from "@/lib/types";
+import { ButtonKey, NotificationItem, NotificationTabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { badgeNotificationsTabData } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
@@ -25,7 +25,7 @@ const VAlertNotifications = ({
   activeTab,
   setActiveTab,
 }: VAlertNotificationsProps) => {
-  const handleTabChange = (tab: string) => {
+  const handleTabChange = (tab: NotificationTabKey) => {
     setActiveTab(tab, "Notifications");
     const updatedVisitedTab = {
       ...visitedTabs,
@@ -34,11 +34,11 @@ const VAlertNotifications = ({
     setVisitedTabs(updatedVisitedTab);
   };
 
-  const getTabContentStyles = (tab: string) => {
+  const getTabContentStyles = (tab: NotificationTabKey) => {
     return cn("mt-0");
   };
 
-  const getTabTriggerStyles = (tab: string) => {
+  const getTabTriggerStyles = (tab: NotificationTabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
 data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
@@ -46,7 +46,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
     );
   };
 
-  const getBadgeStyles = (tab: string, count: number) => {
+  const getBadgeStyles = (tab: NotificationTabKey, count: number) => {
     return cn(
       "border font-normal w-9 h-9",
       activeTab === tab
@@ -70,9 +70,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vVerse"
           className={getTabTriggerStyles("vVerse")}
-          onClick={() => {
-            handleTabChange("vVerse");
-          }}
+          onClick={() => handleTabChange("vVerse")}
         >
           V-Verse Notifications
           <Badge
@@ -89,9 +87,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vGuide"
           className={getTabTriggerStyles("vGuide")}
-          onClick={() => {
-            handleTabChange("vGuide");
-          }}
+          onClick={() => handleTabChange("vGuide")}
         >
           V-Guide Notifications
           <Badge
@@ -108,9 +104,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vBlog"
           className={getTabTriggerStyles("vBlog")}
-          onClick={() => {
-            handleTabChange("vBlog");
-          }}
+          onClick={() => handleTabChange("vBlog")}
         >
           V-Blog Notifications
           <Badge
@@ -127,9 +121,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vNation"
           className={getTabTriggerStyles("vNation")}
-          onClick={() => {
-            handleTabChange("vNation");
-          }}
+          onClick={() => handleTabChange("vNation")}
         >
           V-Nation Notifications
           <Badge
@@ -146,9 +138,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vTube"
           className={getTabTriggerStyles("vTube")}
-          onClick={() => {
-            handleTabChange("vTube");
-          }}
+          onClick={() => handleTabChange("vTube")}
         >
           V-Tube Notifications
           <Badge
@@ -165,9 +155,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vJobs"
           className={getTabTriggerStyles("vJobs")}
-          onClick={() => {
-            handleTabChange("vJobs");
-          }}
+          onClick={() => handleTabChange("vJobs")}
         >
           V-Jobs Notifications
           <Badge
@@ -184,9 +172,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vLance"
           className={getTabTriggerStyles("vLance")}
-          onClick={() => {
-            handleTabChange("vLance");
-          }}
+          onClick={() => handleTabChange("vLance")}
         >
           V-Lance Notifications
           <Badge
@@ -203,9 +189,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vCollege"
           className={getTabTriggerStyles("vCollege")}
-          onClick={() => {
-            handleTabChange("vCollege");
-          }}
+          onClick={() => handleTabChange("vCollege")}
         >
           V-College Notifications
           <Badge
@@ -222,9 +206,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vMarket"
           className={getTabTriggerStyles("vMarket")}
-          onClick={() => {
-            handleTabChange("vMarket");
-          }}
+          onClick={() => handleTabChange("vMarket")}
         >
           V-Market Notifications
           <Badge
@@ -241,9 +223,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vEvents"
           className={getTabTriggerStyles("vEvents")}
-          onClick={() => {
-            handleTabChange("vEvents");
-          }}
+          onClick={() => handleTabChange("vEvents")}
         >
           V-Events Notifications
           <Badge
@@ -260,9 +240,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vWebinars"
           className={getTabTriggerStyles("vWebinars")}
-          onClick={() => {
-            handleTabChange("vWebinars");
-          }}
+          onClick={() => handleTabChange("vWebinars")}
         >
           V-Webinars Notifications
           <Badge
@@ -279,9 +257,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
         <TabsTrigger
           value="vExperts"
           className={getTabTriggerStyles("vExperts")}
-          onClick={() => {
-            handleTabChange("vExperts");
-          }}
+          onClick={() => handleTabChange("vExperts")}
         >
           V-Experts Notifications
           <Badge

@@ -18,7 +18,7 @@ import UserInfoBox from "./user-info-box";
 import { userInfoData } from "@/backend-data-test";
 
 type UserDataTableProps = {
-  isLoading: boolean;
+  isLoading?: boolean;
   sales: number;
   earnings: number;
   investments: number;

@@ -56,7 +56,13 @@ const VAlertCenter: React.FC = () => {
         <VAlertEmailsTable emailData={VAlertCenterData.Emails} />
       )}
       {activeButton === "Planner" && (
-        <VAlertPlanner tabsData={VAlertCenterData.Planner} />
+        <VAlertPlanner
+          visitedTabs={visitedTabs}
+          setVisitedTabs={setVisitedTabs}
+          tabsData={VAlertCenterData.Planner}
+          activeTab={activeNotifcationTab}
+          setActiveTab={setActiveNotificationTab}
+        />
       )}
       {activeButton === "News" && (
         <VAlertNewsTable newsData={VAlertCenterData.News} />

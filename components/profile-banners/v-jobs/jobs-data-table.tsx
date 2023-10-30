@@ -8,7 +8,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 type JobsDataTableProps = {
-  isLoading: boolean;
+  isLoading?: boolean;
   experience: number;
   salary: number;
   likes: number;

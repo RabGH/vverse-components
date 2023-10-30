@@ -8,7 +8,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 type BlogDataTableProps = {
-  isLoading: boolean;
+  isLoading?: boolean;
   posts: number;
   likes: number;
   shares: number;

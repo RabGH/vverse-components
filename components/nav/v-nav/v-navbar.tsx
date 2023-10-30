@@ -22,7 +22,7 @@ type VNavBarProps = {
   userName: string;
   userTitle: string;
   isLoggedIn: boolean;
-}
+};
 
 const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
   const [activeButton, setActiveButton] = useState("V-Verse Menu");
@@ -32,7 +32,7 @@ const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
   };
 
   return (
-    <div className={cn("flex items-center justify-between gap-2")}>
+    <div className="flex items-center justify-between gap-2 p-2">
       <Link href="/">
         <MainLogo className="w-14 h-12" />
       </Link>
@@ -43,7 +43,7 @@ const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
             <HamburgerMenu className="w-10 h-10 hover:text-red-900" />
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className="bg-vgBlueRed w-full h-full border-none p-0"
+            className="w-full h-full border-none p-0"
             align="end"
           >
             <Image

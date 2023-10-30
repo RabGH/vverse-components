@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 type AuthorDataTable = {
-  isLoading: boolean;
+  isLoading?: boolean;
   channels: number;
   videos: number;
   subscribers: number;

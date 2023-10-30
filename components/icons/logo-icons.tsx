@@ -4,6 +4,8 @@ import { LucideProps } from "lucide-react";
 export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 337 47"
@@ -79,6 +81,8 @@ LogoBlue.displayName = "LogoBlue";
 export const PlusSignBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 41 40"
@@ -130,6 +134,8 @@ PlusSignBlue.displayName = "PlusSignBlue";
 export const HamburgerMenu = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 40 40"
@@ -207,6 +213,8 @@ IconUserCustomerDollar.displayName = "IconUserCustomerDollar";
 export const IconGrid = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -250,6 +258,8 @@ IconGrid.displayName = "IconGrid";
 export const IconNews = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -350,6 +360,8 @@ IconNews.displayName = "IconNews";
 export const IconPost = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 51"
@@ -466,6 +478,8 @@ IconPost.displayName = "IconPost";
 export const IconTV = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -486,6 +500,8 @@ IconTV.displayName = "IconTV";
 export const LogoVBlog = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 138 40"
@@ -561,6 +577,8 @@ LogoVBlog.displayName = "LogoVBlog";
 export const LogoVCollege = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 192 40"
@@ -636,6 +654,8 @@ LogoVCollege.displayName = "LogoVCollege";
 export const LogoVEvents = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 176 40"
@@ -711,6 +731,8 @@ LogoVEvents.displayName = "LogoVEvents";
 export const LogoVExpert = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 195 40"
@@ -786,6 +808,8 @@ LogoVExpert.displayName = "LogoVExpert";
 export const LogoVGuide = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 151 40"
@@ -861,6 +885,8 @@ LogoVGuide.displayName = "LogoVGuide";
 export const LogoVJobs = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 132 40"
@@ -936,6 +962,8 @@ LogoVJobs.displayName = "LogoVJobs";
 export const LogoVLance = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 159 40"
@@ -1011,6 +1039,8 @@ LogoVLance.displayName = "LogoVLance";
 export const LogoVMarket = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 189 40"
@@ -1086,6 +1116,8 @@ LogoVMarket.displayName = "LogoVMarket";
 export const LogoVNation = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 176 40"
@@ -1161,6 +1193,8 @@ LogoVNation.displayName = "LogoVNation";
 export const LogoVTube = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 136 40"
@@ -1236,6 +1270,8 @@ LogoVTube.displayName = "LogoVTube";
 export const LogoVWebinars = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 225 40"
@@ -1311,6 +1347,8 @@ LogoVWebinars.displayName = "LogoVWebinars";
 export const MainLogo = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 60 50"
@@ -1362,6 +1400,8 @@ MainLogo.displayName = "MainLogo";
 export const NotificationsRed = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 40 40"
@@ -1418,6 +1458,8 @@ NotificationsRed.displayName = "NotificationsRed";
 export const IconCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1448,6 +1490,8 @@ IconCalendar.displayName = "IconCalendar";
 export const IconChair = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1471,6 +1515,8 @@ IconChair.displayName = "IconChair";
 const IconCourse = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1501,6 +1547,8 @@ IconCourse.displayName = "IconCourse";
 export const IconEbook = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1584,6 +1632,8 @@ IconEbook.displayName = "IconEbook";
 export const IconGear = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1622,6 +1672,8 @@ IconGear.displayName = "IconGear";
 export const IconHeadphones = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1648,6 +1700,8 @@ IconHeadphones.displayName = "IconHeadphones";
 export const IconLayers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1684,6 +1738,8 @@ IconLayers.displayName = "IconLayers";
 export const IconProducts = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1714,6 +1770,8 @@ IconProducts.displayName = "IconProducts";
 export const IconStore = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1828,6 +1886,8 @@ IconStore.displayName = "IconStore";
 export const IconWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 50 50"
@@ -1905,6 +1965,8 @@ IconSponsorMegaphone.displayName = "IconSponsorMegaphone";
 export const IconBellFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 41 40"
@@ -1956,6 +2018,8 @@ IconBellFilledBlue.displayName = "IconBellFilledBlue";
 export const IconBriefCase = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -1983,6 +2047,8 @@ IconBriefCase.displayName = "IconBriefCase";
 export const IconBudget = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2009,6 +2075,8 @@ IconBudget.displayName = "IconBudget";
 export const IconBuildings = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2035,6 +2103,8 @@ IconBuildings.displayName = "IconBuildings";
 export const IconBullHorn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -2133,6 +2203,8 @@ IconCalendarEventStar.displayName = "IconCalendarEventStar";
 export const IconCalendarNotice = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -2351,6 +2423,8 @@ IconCalendarOutline2.displayName = "IconCalendarOutline2";
 export const IconCalendarTopDash = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2448,6 +2522,8 @@ IconCalendarSideDash.displayName = "IconCalendarSideDash";
 export const IconCalendarNoDash = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2489,6 +2565,8 @@ IconCalendarNoDash.displayName = "IconCalendarNoDash";
 export const IconCustomers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2527,6 +2605,8 @@ IconCustomers.displayName = "IconCustomers";
 export const IconDiscountTag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2558,6 +2638,8 @@ IconDiscountTag.displayName = "IconDiscountTag";
 export const IconEarn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2592,6 +2674,8 @@ IconEarn.displayName = "IconEarn";
 export const IconEditPen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -2645,6 +2729,8 @@ IconEmailFilledMuted.displayName = "IconEmailFilledMuted";
 export const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 30"
@@ -2693,6 +2779,8 @@ IconEmailVerified.displayName = "IconEmailVerified";
 export const IconEscrow = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2735,6 +2823,8 @@ IconEscrow.displayName = "IconEscrow";
 export const IconFlag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -2764,6 +2854,8 @@ IconFlag.displayName = "IconFlag";
 export const IconGender = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 16"
@@ -2795,6 +2887,8 @@ IconGender.displayName = "IconGender";
 export const IconGraphDollar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2841,6 +2935,8 @@ IconGraphDollar.displayName = "IconGraphDollar";
 export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 29"
@@ -2901,6 +2997,8 @@ IconIDVerified.displayName = "IconIDVerified";
 export const IconLevel = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -2987,6 +3085,8 @@ IconLevel.displayName = "IconLevel";
 export const IconLoader = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 25 25"
@@ -3152,6 +3252,8 @@ IconMessageFilledMuted.displayName = "IconMessageFilledMuted";
 export const IconPaymentCycle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3190,6 +3292,8 @@ IconPaymentCycle.displayName = "IconPaymentCycle";
 export const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 30"
@@ -3298,6 +3402,8 @@ IconPlannerFilledMuted.displayName = "IconPlannerFilledMuted";
 export const IconShare = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -3348,6 +3454,8 @@ IconShare.displayName = "IconShare";
 export const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 29"
@@ -3417,6 +3525,8 @@ IconShieldVerified.displayName = "IconShieldVerified";
 export const IconSlashCircle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -3481,6 +3591,8 @@ IconSponsorHandShaking.displayName = "IconSponsorHandShaking";
 export const IconTagThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -3520,6 +3632,8 @@ IconTagThumbsUp.displayName = "IconTagThumbsUp";
 export const IconThumbsUp = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -3606,6 +3720,8 @@ IconUnverifiedAgreement.displayName = "IconUnverifiedAgreement";
 export const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 30"
@@ -3648,6 +3764,8 @@ IconUnverifiedEmail.displayName = "IconUnverifiedEmail";
 export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 30"
@@ -3704,6 +3822,8 @@ IconUnverifiedID.displayName = "IconUnverifiedID";
 export const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 29 30"
@@ -3751,6 +3871,8 @@ IconUnverifiedPhone.displayName = "IconUnverifiedPhone";
 export const IconUserCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3784,6 +3906,8 @@ IconUserCheck.displayName = "IconUserCheck";
 export const IconUsers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3823,6 +3947,8 @@ IconUsers.displayName = "IconUsers";
 export const IconWallet = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3850,6 +3976,8 @@ IconWallet.displayName = "IconWallet";
 export const IconAge = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3951,6 +4079,8 @@ IconApplicationStatus.displayName = "IconApplicationStatus";
 export const IconBagDollar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -3981,6 +4111,8 @@ IconBagDollar.displayName = "IconBagDollar";
 export const IconBellFilled = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4006,6 +4138,8 @@ IconBellFilled.displayName = "IconBellFilled";
 export const IconBellOutline = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4033,6 +4167,8 @@ IconBellOutline.displayName = "IconBellOutline";
 export const IconStackedBoxes = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4060,6 +4196,8 @@ IconStackedBoxes.displayName = "IconStackedBoxes";
 export const IconCalendarCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4090,6 +4228,8 @@ IconCalendarCheck.displayName = "IconCalendarCheck";
 export const IconCalendarDollar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4128,6 +4268,8 @@ IconCalendarDollar.displayName = "IconCalendarDollar";
 export const IconCalendarWebinar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4177,6 +4319,8 @@ IconCalendarWebinar.displayName = "IconCalendarWebinar";
 export const IconChannelViews = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4217,6 +4361,8 @@ IconChannelViews.displayName = "IconChannelViews";
 export const IconClock = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4251,6 +4397,8 @@ IconClock.displayName = "IconClock";
 export const IconContractType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4289,6 +4437,8 @@ IconContractType.displayName = "IconContractType";
 export const IconDelivery = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4316,6 +4466,8 @@ IconDelivery.displayName = "IconDelivery";
 export const IconDownload = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4349,6 +4501,8 @@ IconDownload.displayName = "IconDownload";
 export const IconEarthGlobePin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4379,6 +4533,8 @@ IconEarthGlobePin.displayName = "IconEarthGlobePin";
 export const IconExperienceStars = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4417,6 +4573,8 @@ IconExperienceStars.displayName = "IconExperienceStars";
 export const IconEyeDotted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4450,6 +4608,8 @@ IconEyeDotted.displayName = "IconEyeDotted";
 export const IconEye = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4477,6 +4637,8 @@ IconEye.displayName = "IconEye";
 export const IconFileThick = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4506,6 +4668,8 @@ IconFileThick.displayName = "IconFileThick";
 export const IconFileThin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4533,6 +4697,8 @@ IconFileThin.displayName = "IconFileThin";
 export const IconFolderBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4552,6 +4718,8 @@ IconFolderBtn.displayName = "IconFolderBtn";
 export const IconFollowers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4578,6 +4746,8 @@ IconFollowers.displayName = "IconFollowers";
 export const IconGlobeDefined = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4625,6 +4795,8 @@ IconGlobeDefined.displayName = "IconGlobeDefined";
 export const IconGlobe = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -4658,6 +4830,8 @@ IconGlobe.displayName = "IconGlobe";
 export const IconHashTag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4697,6 +4871,8 @@ IconHashTag.displayName = "IconHashTag";
 export const IconHistoryBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4727,6 +4903,8 @@ IconHistoryBtn.displayName = "IconHistoryBtn";
 export const IconHourGlass = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4746,6 +4924,8 @@ IconHourGlass.displayName = "IconHourGlass";
 export const IconHourlyRate = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4784,6 +4964,8 @@ IconHourlyRate.displayName = "IconHourlyRate";
 export const IconImagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4811,6 +4993,8 @@ IconImagesBtn.displayName = "IconImagesBtn";
 export const IconInfoFilledBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -4857,6 +5041,8 @@ IconInfoFilledBlue.displayName = "IconInfoFilledBlue";
 export const IconJobVacancies = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -4923,6 +5109,8 @@ IconJobVacancies.displayName = "IconJobVacancies";
 export const IconLastSeen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5019,6 +5207,8 @@ IconLastSeen.displayName = "IconLastSeen";
 export const IconLiveRed = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5038,6 +5228,8 @@ IconLiveRed.displayName = "IconLiveRed";
 export const IconLock = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5105,6 +5297,8 @@ IconMagnifyingPerson.displayName = "IconMagnifyingPerson";
 export const IconMail = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5132,6 +5326,8 @@ IconMail.displayName = "IconMail";
 export const IconMaleFemale = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 12 12"
@@ -5163,6 +5359,8 @@ IconMaleFemale.displayName = "IconMaleFemale";
 export const IconMapPerson = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5192,6 +5390,8 @@ IconMapPerson.displayName = "IconMapPerson";
 export const IconMapPin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5219,6 +5419,8 @@ IconMapPin.displayName = "IconMapPin";
 export const IconMembers = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5257,6 +5459,8 @@ IconMembers.displayName = "IconMembers";
 export const IconMessageCircle = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5296,6 +5500,8 @@ IconMessageCircle.displayName = "IconMessageCircle";
 export const IconOfferType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5327,6 +5533,8 @@ IconOfferType.displayName = "IconOfferType";
 export const IconOrderBag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 14"
@@ -5363,6 +5571,8 @@ IconOrderBag.displayName = "IconOrderBag";
 export const IconOrderBox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5401,6 +5611,8 @@ IconOrderBox.displayName = "IconOrderBox";
 export const IconPerson = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5427,6 +5639,8 @@ IconPerson.displayName = "IconPerson";
 export const IconCellPhoneCard = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5495,6 +5709,8 @@ IconCellPhoneCard.displayName = "IconCellPhoneCard";
 export const IconPinnedPost = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5514,6 +5730,8 @@ IconPinnedPost.displayName = "IconPinnedPost";
 export const IconPlayDotted = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5541,6 +5759,8 @@ IconPlayDotted.displayName = "IconPlayDotted";
 export const IconPlaylistBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 20 20"
@@ -5579,6 +5799,8 @@ IconPlaylistBtn.displayName = "IconPlaylistBtn";
 export const IconPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -5598,6 +5820,8 @@ IconPostBtn.displayName = "IconPostBtn";
 export const IconPriceType = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -5653,6 +5877,8 @@ IconPriceType.displayName = "IconPriceType";
 export const IconPrivacy = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5699,6 +5925,8 @@ IconPrivacy.displayName = "IconPrivacy";
 export const IconProductsHeart = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5761,6 +5989,8 @@ IconProductsHeart.displayName = "IconProductsHeart";
 export const IconProjectCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5811,6 +6041,8 @@ IconProjectCheck.displayName = "IconProjectCheck";
 export const IconProposedBudget = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -5854,6 +6086,8 @@ IconProposedBudget.displayName = "IconProposedBudget";
 export const IconReactions = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6029,6 +6263,8 @@ IconRemainingTickets.displayName = "IconRemainingTickets";
 export const IconRepliesArrow = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6064,6 +6300,8 @@ IconRepliesArrow.displayName = "IconRepliesArrow";
 export const IconSalesGraph = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6129,6 +6367,8 @@ IconSelectedProfiles.displayName = "IconSelectedProfiles";
 export const IconShipping = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6175,6 +6415,8 @@ IconShipping.displayName = "IconShipping";
 export const IconStar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6196,6 +6438,8 @@ IconStar.displayName = "IconStar";
 export const IconStartingFrom = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -6231,6 +6475,8 @@ IconStartingFrom.displayName = "IconStartingFrom";
 export const IconStatusCalendar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6328,6 +6574,8 @@ IconSubscriptionsBtn.displayName = "IconSubscriptionsBtn";
 export const IconSuccessGraph = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6362,6 +6610,8 @@ IconSuccessGraph.displayName = "IconSuccessGraph";
 export const IconTag = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6389,6 +6639,8 @@ IconTag.displayName = "IconTag";
 export const IconTextPostBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6464,6 +6716,8 @@ IconThumbsUpFilledBlue.displayName = "IconThumbsUpFilledBlue";
 export const IconTicket = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6507,6 +6761,8 @@ IconTicket.displayName = "IconTicket";
 export const IconToolbox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6529,6 +6785,8 @@ IconToolbox.displayName = "IconToolbox";
 export const IconTrashThin = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6568,6 +6826,8 @@ IconTrashThin.displayName = "IconTrashThin";
 export const IconVideo = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6597,6 +6857,8 @@ IconVideo.displayName = "IconVideo";
 export const IconZap = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -6618,6 +6880,8 @@ IconZap.displayName = "IconZap";
 export const IconShoppingBagBox = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 16"
@@ -6663,6 +6927,8 @@ IconShoppingBagBox.displayName = "IconShoppingBagBox";
 export const IconAchievementsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6761,6 +7027,8 @@ IconActivityProfilesBtn.displayName = "IconActivityProfilesBtn";
 export const IconAdsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6800,6 +7068,8 @@ IconAdsBtn.displayName = "IconAdsBtn";
 export const IconApertureBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6857,6 +7127,8 @@ IconApertureBtn.displayName = "IconApertureBtn";
 export const IconApplicationsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6896,6 +7168,8 @@ IconApplicationsBtn.displayName = "IconApplicationsBtn";
 export const IconArrowLeftBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -6953,6 +7227,8 @@ IconArrowLeftThinBtn.displayName = "IconArrowLeftThinBtn";
 export const IconAssetsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7015,6 +7291,8 @@ IconAssetsBtn.displayName = "IconAssetsBtn";
 export const IconAssetsGearBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7097,6 +7375,8 @@ IconAssetsGearBtn.displayName = "IconAssetsGearBtn";
 export const IconBellBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 25"
@@ -7200,6 +7480,8 @@ IconBusinessProfileBtn.displayName = "IconBusinessProfileBtn";
 export const IconCalendarEvent = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7230,6 +7512,8 @@ IconCalendarEvent.displayName = "IconCalendarEvent";
 export const IconCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7268,6 +7552,8 @@ IconCandidatesBtn.displayName = "IconCandidatesBtn";
 export const IconCategoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7287,6 +7573,8 @@ IconCategoriesBtn.displayName = "IconCategoriesBtn";
 export const IconChairBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7310,6 +7598,8 @@ IconChairBtn.displayName = "IconChairBtn";
 export const IconClientsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7336,6 +7626,8 @@ IconClientsBtn.displayName = "IconClientsBtn";
 export const IconConnectionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 20 20"
@@ -7406,6 +7698,8 @@ IconContentCalendarBtn.displayName = "IconContentCalendarBtn";
 export const IconCoursesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7436,6 +7730,8 @@ IconCoursesBtn.displayName = "IconCoursesBtn";
 export const IconCoverLetterBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7498,6 +7794,8 @@ IconCoverLetterBtn.displayName = "IconCoverLetterBtn";
 export const IconCreateStudioBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7517,6 +7815,8 @@ IconCreateStudioBtn.displayName = "IconCreateStudioBtn";
 export const IconCvBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7584,6 +7884,8 @@ IconCvBtn.displayName = "IconCvBtn";
 export const IconDetailsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7646,6 +7948,8 @@ IconDetailsBtn.displayName = "IconDetailsBtn";
 export const IconEducationBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7676,6 +7980,8 @@ IconEducationBtn.displayName = "IconEducationBtn";
 export const IconEmployersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7702,6 +8008,8 @@ IconEmployersBtn.displayName = "IconEmployersBtn";
 export const IconGearServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 25 26"
@@ -7740,6 +8048,8 @@ IconGearServicesBtn.displayName = "IconGearServicesBtn";
 export const IconGraphPollBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 20 20"
@@ -7761,6 +8071,8 @@ IconGraphPollBtn.displayName = "IconGraphPollBtn";
 export const IconConsultsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7787,6 +8099,8 @@ IconConsultsBtn.displayName = "IconConsultsBtn";
 export const IconHeartSaveBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -7809,6 +8123,8 @@ IconHeartSaveBtn.displayName = "IconHeartSaveBtn";
 export const IconHomeBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7836,6 +8152,8 @@ IconHomeBtn.displayName = "IconHomeBtn";
 export const IconInstructorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7859,6 +8177,8 @@ IconInstructorsBtn.displayName = "IconInstructorsBtn";
 export const IconMapPinBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7888,6 +8208,8 @@ IconMapPinBtn.displayName = "IconMapPinBtn";
 export const IconMediaPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7953,6 +8275,8 @@ IconMessageCircleDisabledBtn.displayName = "IconMessageCircleDisabledBtn";
 export const IconMessageBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -7991,6 +8315,8 @@ IconMessageBtn.displayName = "IconMessageBtn";
 export const IconMyTimelineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8073,6 +8399,8 @@ IconMyTimelineBtn.displayName = "IconMyTimelineBtn";
 export const IconMyCandidatesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8131,6 +8459,8 @@ IconMyCandidatesBtn.displayName = "IconMyCandidatesBtn";
 export const IconMyChannelBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8154,6 +8484,8 @@ IconMyChannelBtn.displayName = "IconMyChannelBtn";
 export const IconMyProfileBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8216,6 +8548,8 @@ IconMyProfileBtn.displayName = "IconMyProfileBtn";
 export const IconOrdersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 25 25"
@@ -8243,6 +8577,8 @@ IconOrdersBtn.displayName = "IconOrdersBtn";
 export const IconPerformanceBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8281,6 +8617,8 @@ IconPerformanceBtn.displayName = "IconPerformanceBtn";
 export const IconPostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8387,6 +8725,8 @@ IconProductsHeartBtn.displayName = "IconProductsHeartBtn";
 export const IconProjectsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8422,6 +8762,8 @@ IconProjectsBtn.displayName = "IconProjectsBtn";
 export const IconRatingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8476,6 +8818,8 @@ IconRatingsBtn.displayName = "IconRatingsBtn";
 export const IconReactionsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8574,6 +8918,8 @@ IconReactionsBtn.displayName = "IconReactionsBtn";
 export const IconReelsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8593,6 +8939,8 @@ IconReelsBtn.displayName = "IconReelsBtn";
 export const IconReferencesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8631,6 +8979,8 @@ IconReferencesBtn.displayName = "IconReferencesBtn";
 export const IconSellersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8681,6 +9031,8 @@ IconSellersBtn.displayName = "IconSellersBtn";
 export const IconServicesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 25 25"
@@ -8716,6 +9068,8 @@ IconServicesBtn.displayName = "IconServicesBtn";
 export const IconSettingsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -8929,6 +9283,8 @@ IconSkillsCarouselBtn.displayName = "IconSkillsCarouselBtn";
 export const IconSocialPagesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9019,6 +9375,8 @@ IconSocialPagesBtn.displayName = "IconSocialPagesBtn";
 export const IconSponsorsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9069,6 +9427,8 @@ IconSponsorsBtn.displayName = "IconSponsorsBtn";
 export const IconStoriesBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9088,6 +9448,8 @@ IconStoriesBtn.displayName = "IconStoriesBtn";
 export const IconTeamBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9138,6 +9500,8 @@ IconTeamBtn.displayName = "IconTeamBtn";
 export const IconTimeLineBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9169,6 +9533,8 @@ IconTimeLineBtn.displayName = "IconTimeLineBtn";
 export const IconMyJobsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9188,6 +9554,8 @@ IconMyJobsBtn.displayName = "IconMyJobsBtn";
 export const IconTVBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9204,6 +9572,8 @@ IconTVBtn.displayName = "IconTVBtn";
 export const IconUserBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9231,6 +9601,8 @@ IconUserBtn.displayName = "IconUserBtn";
 export const IconUserExpertsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9264,6 +9636,8 @@ IconUserExpertsBtn.displayName = "IconUserExpertsBtn";
 export const IconUsersLancersBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9389,6 +9763,8 @@ IconUsersVSponsorsBtn.displayName = "IconUsersVSponsorsBtn";
 export const IconUsersAuthorBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9422,6 +9798,8 @@ IconUsersAuthorBtn.displayName = "IconUsersAuthorBtn";
 export const IconVHostsBtn = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 24 24"
@@ -9517,6 +9895,8 @@ IconYoutubeShortsBtn.displayName = "IconYoutubeShortsBtn";
 export const IconCrownExclusive = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 16"
@@ -9536,10 +9916,10 @@ IconCrownExclusive.displayName = "IconCrownExclusive";
 export const ButtonColorRedBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
-      width="140"
-      height="40"
       viewBox="0 0 140 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -9572,6 +9952,8 @@ ButtonColorRedBlue.displayName = "ButtonColorRedBlue";
 export const IconVAssets = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -9639,6 +10021,8 @@ IconVAssets.displayName = "IconVAssets";
 export const IconMyVAssets = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -9706,6 +10090,8 @@ IconMyVAssets.displayName = "IconMyVAssets";
 export const IconTargetStar = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -9769,6 +10155,8 @@ IconTargetStar.displayName = "IconTargetStar";
 export const IconPortfolioScreen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -9893,15 +10281,21 @@ IconHelpCircleQuestionMark.displayName = "IconHelpCircleQuestionMark";
 
 export const VVerseNavBg = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
-    <svg viewBox="0 0 1512 768" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="1512" height="768" fill="url(#paint0_linear_53_6918)" />
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 1920 200"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="1920" height="200" fill="url(#paint0_linear_53_6918)" />
       <defs>
         <linearGradient
           id="paint0_linear_53_6918"
-          x1="591.5"
-          y1="730.182"
-          x2="1349.08"
-          y2="-47.0729"
+          x1="0"
+          y1="0"
+          x2="1920"
+          y2="0"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#016DEA" />
@@ -9917,6 +10311,8 @@ VVerseNavBg.displayName = "VVerseNavBg";
 export const IconAnalyticsScreen = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -9944,6 +10340,8 @@ IconAnalyticsScreen.displayName = "IconAnalyticsScreen";
 export const IconProfileCardUser = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -10017,6 +10415,8 @@ IconTaskClipboardPlan.displayName = "IconTaskClipboardPlan";
 export const IconStaffUsersCheck = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -10148,6 +10548,8 @@ IconMedalCheckVerifications.displayName = "IconMedalCheckVerifications";
 export const IconUserInfo = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -10265,6 +10667,8 @@ IconMegaphoneAnnouncement.displayName = "IconMegaphoneAnnouncement";
 export const IconNotes = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 17 17"
@@ -10480,6 +10884,8 @@ IconBagDollarVerified.displayName = "IconBagDollarVerified";
 export const IconBellOff = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg
+      width="100%"
+      height="100%"
       {...props}
       ref={ref}
       viewBox="0 0 16 17"
@@ -10533,6 +10939,331 @@ export const IconBellOff = React.forwardRef<SVGSVGElement, LucideProps>(
 );
 
 IconBellOff.displayName = "IconBellOff";
+
+export const IconHeartFilled = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 17 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.7"
+        d="M0.5 4.96875V4.8125C0.5 2.625 2.0625 0.75 4.21875 0.40625C5.625 0.15625 7.09375 0.625 8.125 1.65625L8.5 2L8.84375 1.65625C9.875 0.625 11.3438 0.15625 12.75 0.40625C14.9062 0.75 16.5 2.625 16.5 4.8125V4.96875C16.5 6.28125 15.9375 7.53125 15 8.40625L9.34375 13.6875C9.125 13.9062 8.8125 14 8.5 14C8.15625 14 7.84375 13.9062 7.625 13.6875L1.96875 8.40625C1.03125 7.53125 0.5 6.28125 0.5 4.96875Z"
+        fill="#FA0101"
+      />
+    </svg>
+  )
+);
+
+IconHeartFilled.displayName = "IconHeartFilled";
+
+export const IconYoutube = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 21 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19.1145 6.1402C19.0156 5.74471 18.8139 5.38235 18.5301 5.08971C18.2462 4.79707 17.8902 4.58452 17.4979 4.47354C16.0645 4.12354 10.3312 4.12354 10.3312 4.12354C10.3312 4.12354 4.59787 4.12354 3.16454 4.50687C2.77224 4.61786 2.41619 4.8304 2.13233 5.12304C1.84847 5.41568 1.64686 5.77804 1.54787 6.17354C1.28555 7.62817 1.15724 9.10379 1.16454 10.5819C1.15519 12.0711 1.28351 13.558 1.54787 15.0235C1.657 15.4067 1.86313 15.7553 2.14633 16.0356C2.42952 16.3159 2.78022 16.5184 3.16454 16.6235C4.59787 17.0069 10.3312 17.0069 10.3312 17.0069C10.3312 17.0069 16.0645 17.0069 17.4979 16.6235C17.8902 16.5125 18.2462 16.3 18.5301 16.0074C18.8139 15.7147 19.0156 15.3524 19.1145 14.9569C19.3748 13.5132 19.5031 12.0488 19.4979 10.5819C19.5072 9.09266 19.3789 7.60578 19.1145 6.1402Z"
+        fill="currentColor"
+      />
+      <path
+        d="M8.45703 13.3069L13.2487 10.5819L8.45703 7.85687V13.3069Z"
+        fill="white"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+);
+
+IconYoutube.displayName = "IconYoutube";
+
+export const IconFacebook = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 20 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19.996 10.7905C19.996 5.26766 15.5189 0.790527 9.99607 0.790527C4.47323 0.790527 -0.00390625 5.26766 -0.00390625 10.7905C-0.00390625 15.7818 3.65293 19.9188 8.43357 20.669V13.6811H5.89452V10.7905H8.43357V8.58739C8.43357 6.08113 9.92649 4.69677 12.2107 4.69677C13.3048 4.69677 14.4492 4.89208 14.4492 4.89208V7.35301H13.1882C11.946 7.35301 11.5586 8.12385 11.5586 8.91467V10.7905H14.332L13.8886 13.6811H11.5586V20.669C16.3392 19.9188 19.996 15.7818 19.996 10.7905Z"
+        fill="currentColor"
+      />
+      <path
+        d="M13.8886 13.6801L14.332 10.7895H11.5586V8.91369C11.5586 8.12288 11.946 7.35204 13.1882 7.35204H14.4492V4.89111C14.4492 4.89111 13.3048 4.6958 12.2107 4.6958C9.9265 4.6958 8.43358 6.08016 8.43358 8.58642V10.7895H5.89453V13.6801H8.43358V20.668C8.95047 20.749 9.47288 20.7896 9.99608 20.7895C10.5276 20.7895 11.0494 20.7479 11.5586 20.668V13.6801H13.8886Z"
+        fill="white"
+      />
+    </svg>
+  )
+);
+
+IconFacebook.displayName = "IconFacebook";
+
+export const IconInstagram = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 21 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.2031 5.45259C17.2031 4.7879 16.6644 4.25119 16.0022 4.25119C15.34 4.25119 14.8008 4.7879 14.8008 5.45259C14.8008 6.11484 15.34 6.65155 16.0022 6.65155C16.6644 6.65155 17.2031 6.11484 17.2031 5.45259Z"
+        fill="currentColor"
+      />
+      <path
+        d="M18.8029 14.8301C18.7584 15.8052 18.5953 16.3349 18.4599 16.6868C18.2781 17.1534 18.0611 17.4869 17.7093 17.8368C17.3613 18.1867 17.0277 18.4032 16.5612 18.5831C16.2093 18.7205 15.6775 18.884 14.7025 18.9305C13.6484 18.977 13.336 18.9869 10.6628 18.9869C7.99217 18.9869 7.67733 18.977 6.62319 18.9305C5.64815 18.884 5.11885 18.7205 4.76695 18.5831C4.29796 18.4032 3.96686 18.1867 3.61696 17.8368C3.26458 17.4869 3.04763 17.1534 2.86824 16.6868C2.7328 16.3349 2.56726 15.8052 2.52523 14.8301C2.47386 13.7759 2.46444 13.4587 2.46444 10.791C2.46444 8.11779 2.47386 7.80295 2.52523 6.74881C2.56726 5.77377 2.7328 5.24447 2.86824 4.88961C3.04763 4.42358 3.26458 4.09196 3.61696 3.74206C3.96686 3.39268 4.29796 3.1757 4.76695 2.99386C5.11885 2.85597 5.64815 2.69485 6.62319 2.64841C7.67733 2.60193 7.99217 2.59007 10.6628 2.59007C13.336 2.59007 13.6484 2.60193 14.7025 2.64841C15.6775 2.69485 16.2093 2.85597 16.5612 2.99386C17.0277 3.1757 17.3613 3.39268 17.7093 3.74206C18.0611 4.09196 18.2781 4.42358 18.4599 4.88961C18.5953 5.24447 18.7584 5.77377 18.8029 6.74881C18.8518 7.80295 18.8637 8.11779 18.8637 10.791C18.8637 13.4587 18.8518 13.7759 18.8029 14.8301ZM20.6033 6.66679C20.5544 5.60127 20.3863 4.8733 20.1368 4.23926C19.8828 3.58146 19.5423 3.02399 18.9848 2.46653C18.4298 1.91154 17.8723 1.57103 17.2145 1.31405C16.578 1.06693 15.8525 0.896915 14.7865 0.850471C13.7205 0.799063 13.38 0.789684 10.6628 0.789684C7.94817 0.789684 7.6052 0.799063 6.5392 0.850471C5.47564 0.896915 4.75064 1.06693 4.11115 1.31405C3.45583 1.57103 2.89837 1.91154 2.34339 2.46653C1.78592 3.02399 1.4454 3.58146 1.18891 4.23926C0.941794 4.8733 0.773776 5.60127 0.722366 6.66679C0.675923 7.73279 0.664062 8.07379 0.664062 10.791C0.664062 13.5056 0.675923 13.8461 0.722366 14.9121C0.773776 15.9757 0.941794 16.7031 1.18891 17.3402C1.4454 17.9955 1.78592 18.5554 2.34339 19.1104C2.89837 19.6654 3.45583 20.0084 4.11115 20.2649C4.75064 20.512 5.47564 20.68 6.5392 20.7289C7.6052 20.7779 7.94817 20.7897 10.6628 20.7897C13.38 20.7897 13.7205 20.7779 14.7865 20.7289C15.8525 20.68 16.578 20.512 17.2145 20.2649C17.8723 20.0084 18.4298 19.6654 18.9848 19.1104C19.5423 18.5554 19.8828 17.9955 20.1368 17.3402C20.3863 16.7031 20.5544 15.9757 20.6033 14.9121C20.6523 13.8461 20.6641 13.5056 20.6641 10.791C20.6641 8.07379 20.6523 7.73279 20.6033 6.66679Z"
+        fill="currentColor"
+      />
+      <path
+        d="M10.6626 14.1216C8.82267 14.1216 7.32968 12.6311 7.32968 10.7912C7.32968 8.94826 8.82267 7.45578 10.6626 7.45578C12.5031 7.45578 13.998 8.94826 13.998 10.7912C13.998 12.6311 12.5031 14.1216 10.6626 14.1216ZM10.6626 5.65291C7.82636 5.65291 5.5293 7.9549 5.5293 10.7912C5.5293 13.625 7.82636 15.9245 10.6626 15.9245C13.4989 15.9245 15.7984 13.625 15.7984 10.7912C15.7984 7.9549 13.4989 5.65291 10.6626 5.65291Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+);
+
+IconInstagram.displayName = "IconInstagram";
+
+export const IconLinkedin = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.30316 4.83129C3.57516 4.83129 4.60632 3.80013 4.60632 2.52813C4.60632 1.25613 3.57516 0.224976 2.30316 0.224976C1.03116 0.224976 0 1.25613 0 2.52813C0 3.80013 1.03116 4.83129 2.30316 4.83129ZM6.78105 6.57655V19.3545H10.7484V13.0355C10.7484 11.3681 11.0621 9.7534 13.1295 9.7534C15.1684 9.7534 15.1937 11.6597 15.1937 13.1408V19.3555H19.1632V12.3481C19.1632 8.90603 18.4221 6.26077 14.3989 6.26077C12.4674 6.26077 11.1726 7.32077 10.6432 8.32392H10.5895V6.57655H6.78105ZM0.315789 6.57655H4.28947V19.3545H0.315789V6.57655Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+);
+
+IconLinkedin.displayName = "IconLinkedin";
+
+export const IconPintrest = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 21 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.498 0.78186C4.97541 0.78186 0.498047 5.25918 0.498047 10.7818C0.498047 15.0204 3.13179 18.6418 6.85196 20.0986C6.76142 19.3084 6.68735 18.0903 6.88488 17.2262C7.06595 16.4443 8.0536 12.255 8.0536 12.255C8.0536 12.255 7.75731 11.6542 7.75731 10.7735C7.75731 9.3826 8.56389 8.34558 9.568 8.34558C10.424 8.34558 10.8355 8.98755 10.8355 9.75297C10.8355 10.6089 10.2923 11.8929 10.0042 13.0863C9.76554 14.0821 10.5063 14.897 11.4857 14.897C13.2635 14.897 14.6297 13.0204 14.6297 10.3209C14.6297 7.92583 12.9096 6.25506 10.4487 6.25506C7.60093 6.25506 5.93015 8.38673 5.93015 10.5925C5.93015 11.4484 6.25936 12.3702 6.67089 12.8723C6.75319 12.971 6.76142 13.0616 6.73673 13.1603C6.66266 13.4731 6.48982 14.1562 6.45689 14.2961C6.41574 14.4772 6.30875 14.5184 6.11945 14.4278C4.86842 13.8435 4.08652 12.0246 4.08652 10.5513C4.08652 7.39908 6.37459 4.50199 10.6956 4.50199C14.1606 4.50199 16.8602 6.9711 16.8602 10.2797C16.8602 13.7282 14.6873 16.5019 11.675 16.5019C10.6627 16.5019 9.70792 15.9751 9.38694 15.3496C9.38694 15.3496 8.88488 17.2591 8.76142 17.7282C8.5392 18.6006 7.93015 19.687 7.51862 20.3537C8.45689 20.6418 9.44455 20.7981 10.4816 20.7981C16.0042 20.7981 20.4816 16.3208 20.4816 10.7982C20.498 5.25918 16.0207 0.78186 10.498 0.78186Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+);
+
+IconPintrest.displayName = "IconPintrest";
+
+export const IconSnapchat = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_6857_199550)">
+        <g clip-path="url(#clip1_6857_199550)">
+          <path
+            d="M0 14.8274C0.111407 14.5562 0.32054 14.4228 0.602477 14.3666C1.75906 14.1331 2.66497 13.4871 3.38277 12.5797C3.7077 12.1693 3.98231 11.7144 4.24422 11.2604C4.57453 10.6873 4.46263 10.3946 3.84696 10.1366C3.50492 9.99391 3.14871 9.88934 2.81352 9.73542C2.60635 9.64041 2.41632 9.51179 2.25111 9.35478C1.84017 8.96388 1.912 8.39952 2.40063 8.1039C2.7842 7.87229 3.18243 7.81561 3.609 8.01057C3.91097 8.14885 4.22907 8.24316 4.58626 8.1298C4.56231 7.77603 4.53739 7.42715 4.51687 7.07778C4.46801 6.18701 4.42647 5.29576 4.60629 4.41281C4.78024 3.55918 5.21316 2.83747 5.78535 2.20177C6.75674 1.12337 7.99883 0.592721 9.43051 0.478383C10.6003 0.384566 11.73 0.53262 12.7869 1.07109C14.0461 1.71314 14.9237 2.71043 15.3659 4.04341C15.5339 4.55109 15.5662 5.11839 15.5784 5.65979C15.596 6.44159 15.5457 7.22339 15.5076 8.00178C15.4993 8.17231 15.5696 8.20798 15.6937 8.17768C15.9462 8.12038 16.1949 8.0476 16.4384 7.95975C16.6041 7.89261 16.7818 7.86029 16.9606 7.86483C17.1393 7.86937 17.3151 7.91067 17.4772 7.98614C18.1178 8.27101 18.2365 8.92772 17.7215 9.40023C17.4083 9.68754 17.0228 9.83999 16.628 9.98169C16.377 10.0684 16.1335 10.1754 15.8999 10.3017C15.6302 10.4483 15.5437 10.6628 15.6678 10.9462C15.852 11.366 16.048 11.7881 16.2957 12.1727C16.8625 13.0522 17.5964 13.7661 18.5781 14.1761C18.8874 14.3056 19.2187 14.3857 19.5446 14.4692C19.9472 14.5748 20.1207 14.9769 19.9067 15.3366C19.72 15.6503 19.4254 15.8398 19.0956 15.9439C18.5957 16.1013 18.0826 16.218 17.572 16.3392C17.4455 16.3695 17.3609 16.3959 17.337 16.5444C17.3052 16.7423 17.2441 16.9353 17.1972 17.1308C17.1122 17.4831 16.9041 17.6561 16.5391 17.6292C16.242 17.6067 15.9483 17.5256 15.6512 17.5124C15.2553 17.4971 14.8588 17.5018 14.4634 17.5266C14.1243 17.5456 13.8281 17.7005 13.5452 17.8823C12.9486 18.2708 12.3623 18.6656 11.6665 18.861C10.5475 19.1762 9.41878 19.2485 8.3052 18.8767C7.87032 18.7301 7.48235 18.4418 7.07874 18.2082C6.83443 18.0685 6.61748 17.8867 6.36828 17.7641C5.66466 17.4171 4.92292 17.3732 4.16164 17.5344C3.93386 17.5856 3.70231 17.6183 3.46925 17.6321C3.1707 17.6453 2.96694 17.4743 2.89218 17.1821C2.83599 16.9617 2.78078 16.7423 2.74071 16.5176C2.71579 16.3793 2.64298 16.3343 2.51301 16.304C2.00777 16.1863 1.50155 16.0685 1.00511 15.921C0.565342 15.789 0.189587 15.5486 0 15.0971V14.8274ZM3.60167 16.9774C3.77416 16.9417 3.92563 16.9075 4.07808 16.8796C4.81591 16.7375 5.56204 16.6964 6.27691 16.9451C6.67416 17.0834 7.03721 17.336 7.39684 17.5632C7.85175 17.854 8.28028 18.2009 8.82119 18.3108C10.1727 18.585 11.4549 18.4574 12.6208 17.6341C12.995 17.3697 13.3942 17.1166 13.8184 16.9529C14.4482 16.7086 15.1215 16.7453 15.7846 16.8381C15.9649 16.8635 16.1442 16.8967 16.3221 16.9329C16.4623 16.9612 16.5347 16.9222 16.564 16.7707C16.605 16.5606 16.6734 16.3568 16.7267 16.1491C16.7985 15.8696 16.9808 15.7397 17.2642 15.6864C17.7162 15.6009 18.1652 15.4939 18.6094 15.3727C18.8165 15.3165 19.0091 15.2071 19.2079 15.1216C19.0149 15.0238 18.8332 14.9823 18.6592 14.9183C16.8449 14.2494 15.7113 12.911 15.0101 11.1632C14.8 10.6394 14.9344 10.1615 15.3927 9.82826C15.6659 9.62988 15.9967 9.50821 16.3074 9.36456C16.5664 9.24484 16.842 9.15982 17.0932 9.02692C17.2106 8.95889 17.2996 8.85081 17.3438 8.7225C17.3717 8.62966 17.0477 8.48698 16.8835 8.51093C16.8132 8.52319 16.7441 8.54133 16.6768 8.56516C16.541 8.61012 16.4081 8.66289 16.2723 8.70638C15.984 8.80068 15.6937 8.84906 15.3927 8.7699C14.9285 8.64872 14.8064 8.4733 14.8235 8.01155C14.8572 7.10075 14.8846 6.18995 14.8943 5.27866C14.9031 4.06784 14.3656 3.10817 13.4861 2.32686C12.5973 1.53675 11.534 1.18933 10.3589 1.13852C9.26291 1.08966 8.20894 1.25041 7.27322 1.85338C5.99106 2.67965 5.21609 3.8333 5.20046 5.3969C5.19117 6.30722 5.24932 7.21851 5.28548 8.12882C5.29867 8.47086 5.23955 8.60425 4.91901 8.72934C4.75621 8.79229 4.58494 8.83066 4.41084 8.84319C4.04632 8.86958 3.71015 8.74547 3.37055 8.62575C3.21279 8.57834 3.04457 8.57834 2.88681 8.62575C2.67084 8.68781 2.6508 8.83342 2.83795 8.94874C3.07797 9.08833 3.32764 9.21063 3.58506 9.31472C3.86993 9.43785 4.18021 9.51017 4.44944 9.66164C5.10567 10.0281 5.31773 10.5944 5.01869 11.2834C4.38836 12.738 3.42039 13.9107 1.97503 14.632C1.62029 14.8084 1.23476 14.9251 0.858029 15.0683C0.878437 15.0862 0.90016 15.1025 0.923017 15.1172C0.979209 15.1499 1.0354 15.1822 1.09404 15.21C1.60478 15.4405 2.15074 15.5832 2.70895 15.6322C3.15262 15.6776 3.35052 15.9151 3.43798 16.3104C3.48684 16.5308 3.54548 16.7487 3.60167 16.9774Z"
+            fill="currentColor"
+          />
+        </g>
+      </g>
+      <defs>
+        <clipPath id="clip0_6857_199550">
+          <rect
+            width="20"
+            height="18.6753"
+            fill="currentColor"
+            transform="translate(0 0.452576)"
+          />
+        </clipPath>
+        <clipPath id="clip1_6857_199550">
+          <rect
+            width="20"
+            height="18.6753"
+            fill="currentColor"
+            transform="translate(0 0.451843)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+);
+
+IconSnapchat.displayName = "IconSnapchat";
+
+export const IconTikTok = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 17 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_6857_199548)">
+        <path
+          d="M11.7693 0.851868C11.595 2.80928 12.748 4.48986 14.5992 4.9438C14.9678 5.03421 15.3593 5.03701 15.7405 5.07429C15.8803 5.08874 16.0201 5.09386 16.1656 5.10412V8.82647C14.6136 8.93133 13.1539 8.64005 11.766 7.85568V8.07799C11.766 9.74645 11.7931 11.4158 11.7632 13.0838C11.7274 15.0739 10.8451 16.6421 9.19995 17.7444C6.12681 19.8015 1.95752 18.5031 0.564028 15.0823C-0.332188 12.8844 0.324943 10.2283 2.13462 8.68758C3.39622 7.61287 4.85356 7.1636 6.49732 7.27778C6.52622 7.27778 6.55558 7.28337 6.58401 7.28757L7.28309 7.38544V11.3515C7.07336 11.2826 6.86784 11.2117 6.66137 11.1479C5.54285 10.7909 4.43458 11.3343 4.10555 12.4146C3.87579 13.1701 4.05009 13.8486 4.6224 14.3925C5.20357 14.9448 5.90078 15.0972 6.65718 14.8194C7.39727 14.5477 7.82231 14.001 7.92997 13.2167C7.94683 13.0841 7.95461 12.9505 7.95327 12.8168C7.95482 8.82833 7.95715 4.84002 7.96026 0.851868H11.7693ZM9.00561 1.89815V2.14609C9.00561 5.72226 9.00452 9.29842 9.00235 12.8746C9.00578 13.0837 8.99019 13.2928 8.95574 13.4991C8.65188 15.1368 7.18009 16.1915 5.5312 15.9612C4.16334 15.7702 3.08397 14.6311 2.96233 13.2502C2.84115 11.8777 3.69076 10.5616 5.00503 10.1445C5.39092 10.0219 5.8085 9.99765 6.22655 9.92542V8.32313C5.74553 8.29649 5.26319 8.34029 4.79484 8.45316C2.37557 9.00776 0.768158 11.5631 1.32556 13.9782C2.03442 17.0513 5.4846 18.6145 8.25154 17.0858C9.85849 16.2003 10.7016 14.8022 10.716 12.9594C10.7342 10.6567 10.7104 8.35389 10.7053 6.05113C10.7053 5.98123 10.7123 5.91132 10.7193 5.78642C12.0056 6.92172 13.3977 7.70142 15.1137 7.77506V6.15133C14.6434 6.0255 14.1769 5.95373 13.7528 5.77849C12.0671 5.08361 11.0637 3.82621 10.7514 2.02585C10.7431 1.97925 10.6755 1.90374 10.6345 1.90328C10.0994 1.89536 9.56394 1.89815 9.00561 1.89815Z"
+          fill="currentColor"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_6857_199548">
+          <rect
+            width="16"
+            height="17.8768"
+            fill="currentColor"
+            transform="translate(0.166016 0.851868)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+);
+
+IconTikTok.displayName = "IconTikTok";
+
+export const IconTwitter = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 21 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M18.4631 6.21579C18.4761 6.39079 18.4761 6.56479 18.4761 6.73879C18.4761 12.0638 14.4231 18.1998 7.01608 18.1998C4.73408 18.1998 2.61408 17.5388 0.830078 16.3908C1.15408 16.4278 1.46608 16.4408 1.80308 16.4408C3.68608 16.4408 5.41908 15.8048 6.80408 14.7198C5.03308 14.6828 3.54908 13.5228 3.03708 11.9268C3.28608 11.9638 3.53608 11.9888 3.79808 11.9888C4.15908 11.9888 4.52208 11.9388 4.85908 11.8518C3.01208 11.4778 1.62908 9.85679 1.62908 7.89879V7.84879C2.16608 8.14779 2.78908 8.33479 3.44908 8.35979C2.36408 7.63779 1.65308 6.40279 1.65308 5.00579C1.65308 4.25779 1.85208 3.57179 2.20108 2.97379C4.18408 5.41679 7.16508 7.01379 10.5071 7.18879C10.4451 6.88879 10.4071 6.57779 10.4071 6.26579C10.4071 4.04579 12.2031 2.23779 14.4351 2.23779C15.5951 2.23779 16.6421 2.72379 17.3781 3.50979C18.2881 3.33479 19.1601 2.99779 19.9341 2.53679C19.6351 3.47179 18.9981 4.25779 18.1631 4.75679C18.9741 4.66879 19.7601 4.44479 20.4821 4.13279C19.9341 4.93079 19.2491 5.64179 18.4631 6.21579Z"
+        fill="white"
+      />
+    </svg>
+  )
+);
+
+IconTwitter.displayName = "IconTwitter";
+
+export const LogoWhite = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 337 47"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M39.8052 35.3215C39.8052 37.1324 39.3936 38.8529 38.6497 40.3852L38.578 40.532C36.6599 44.3571 32.6801 47 28.0962 47C23.5009 47 19.5325 44.3571 17.6144 40.532L17.5426 40.3852L0.468126 6.33619C-0.98936 3.42598 1.13268 0 4.39881 0H20.7672C22.4324 0 23.9503 0.937439 24.6941 2.42078L28.0924 9.19745L38.646 30.2578C39.3936 31.7901 39.8052 33.5144 39.8052 35.3215Z"
+        fill="url(#paint0_linear_17_190)"
+      />
+      <path
+        d="M51.8014 -6.10352e-05C55.0675 -6.10352e-05 57.1896 3.42592 55.7283 6.33613L41.1912 35.3215L38.6425 40.3851C39.3901 38.8529 39.7979 37.1286 39.7979 35.3215C39.7979 33.5143 39.3863 31.7901 38.6425 30.2578L28.0927 9.19739L31.491 2.42072C32.2348 0.937378 33.7565 -6.10352e-05 35.4179 -6.10352e-05H51.8014Z"
+        fill="url(#paint1_linear_17_190)"
+      />
+      <path
+        d="M66 2H86.5529L94.5 22.625L102.447 2H123L104.365 46H84.6346L66 2Z"
+        fill="white"
+      />
+      <path
+        d="M155.104 47C145.929 47 138.77 44.9725 133.625 40.9176C128.542 36.8627 126 31.1183 126 23.6843C126 16.3732 128.294 10.598 132.881 6.35882C137.53 2.11961 144.194 0 152.872 0C158.389 0 163.1 1.01373 167.005 3.04118C170.973 5.06863 173.948 7.83333 175.932 11.3353C177.977 14.8373 179 18.7693 179 23.1314V29.1216H145.898C147.696 32.3163 151.756 33.9137 158.079 33.9137C160.992 33.9137 164.03 33.6987 167.191 33.2686C170.415 32.7771 173.142 32.1013 175.374 31.2412V43.6824C172.894 44.6654 169.826 45.4641 166.168 46.0784C162.573 46.6928 158.885 47 155.104 47ZM159.288 17.7863C158.544 14.7144 156.281 13.1784 152.5 13.1784C148.843 13.1784 146.642 14.7144 145.898 17.7863H159.288Z"
+        fill="white"
+      />
+      <path
+        d="M181 1.39394H200.727V5.3899C202.424 3.77913 204.727 2.47811 207.636 1.48687C210.545 0.495623 213.667 0 217 0V16.1697C213.424 16.1697 210.182 16.6653 207.273 17.6566C204.424 18.5859 202.485 19.9178 201.455 21.6525V46H181V1.39394Z"
+        fill="white"
+      />
+      <path
+        d="M242.723 47C238.843 47 234.81 46.6621 230.622 45.9863C226.497 45.3105 223.202 44.3275 220.739 43.0373V29.0294C223.325 30.5039 226.497 31.7634 230.253 32.8078C234.009 33.8523 237.365 34.3745 240.321 34.3745C241.738 34.3745 242.754 34.3131 243.369 34.1902C243.985 34.0673 244.293 33.7909 244.293 33.3608C244.293 33.0536 244.016 32.8078 243.462 32.6235C242.908 32.4392 242.169 32.2549 241.245 32.0706C239.028 31.6405 237.058 31.1797 235.333 30.6882C229.73 28.968 225.758 27.002 223.418 24.7902C221.139 22.517 220 19.3222 220 15.2059C220 10.0451 222.032 6.23595 226.096 3.77843C230.161 1.25948 235.764 0 242.908 0C246.233 0 249.897 0.368628 253.9 1.10588C257.964 1.84314 260.95 2.79543 262.859 3.96275V17.9706C261.012 16.6804 258.395 15.5745 255.008 14.6529C251.621 13.6699 248.604 13.1784 245.956 13.1784C244.724 13.1784 243.708 13.2706 242.908 13.4549C242.107 13.6392 241.707 13.885 241.707 14.1922C241.707 14.4993 242.046 14.7758 242.723 15.0216C243.4 15.2673 244.478 15.5131 245.956 15.7588C248.85 16.3118 250.482 16.6497 250.851 16.7725C254.916 17.817 258.025 19.0458 260.181 20.4588C262.398 21.8105 263.906 23.4078 264.707 25.251C265.569 27.0941 266 29.4288 266 32.2549C266 36.7399 263.999 40.334 259.996 43.0373C255.993 45.6791 250.236 47 242.723 47Z"
+        fill="white"
+      />
+      <path
+        d="M297.554 47C288.553 47 281.529 44.9725 276.481 40.9176C271.494 36.8627 269 31.1183 269 23.6843C269 16.3732 271.25 10.598 275.751 6.35882C280.312 2.11961 286.85 0 295.365 0C300.778 0 305.4 1.01373 309.232 3.04118C313.124 5.06863 316.043 7.83333 317.989 11.3353C319.996 14.8373 321 18.7693 321 23.1314V29.1216H288.523C290.287 32.3163 294.27 33.9137 300.474 33.9137C303.332 33.9137 306.312 33.6987 309.414 33.2686C312.577 32.7771 315.253 32.1013 317.442 31.2412V43.6824C315.009 44.6654 311.999 45.4641 308.411 46.0784C304.883 46.6928 301.264 47 297.554 47ZM301.66 17.7863C300.93 14.7144 298.71 13.1784 295 13.1784C291.412 13.1784 289.253 14.7144 288.523 17.7863H301.66Z"
+        fill="white"
+      />
+      <path
+        d="M326.568 40.416L324.52 46H323.16L321.112 40.416H322.312L323.848 44.856L325.376 40.416H326.568ZM326.976 41.2V40.168H328.904V46H327.752V41.2H326.976ZM330.634 46.056C330.431 46.056 330.263 45.9947 330.13 45.872C330.002 45.744 329.938 45.5867 329.938 45.4C329.938 45.2133 330.002 45.0587 330.13 44.936C330.263 44.808 330.431 44.744 330.634 44.744C330.831 44.744 330.994 44.808 331.122 44.936C331.25 45.0587 331.314 45.2133 331.314 45.4C331.314 45.5867 331.25 45.744 331.122 45.872C330.994 45.9947 330.831 46.056 330.634 46.056ZM332.088 43.008C332.088 42.0853 332.253 41.3627 332.584 40.84C332.92 40.3173 333.475 40.056 334.248 40.056C335.021 40.056 335.573 40.3173 335.904 40.84C336.24 41.3627 336.408 42.0853 336.408 43.008C336.408 43.936 336.24 44.664 335.904 45.192C335.573 45.72 335.021 45.984 334.248 45.984C333.475 45.984 332.92 45.72 332.584 45.192C332.253 44.664 332.088 43.936 332.088 43.008ZM335.304 43.008C335.304 42.6133 335.277 42.2827 335.224 42.016C335.176 41.744 335.075 41.5227 334.92 41.352C334.771 41.1813 334.547 41.096 334.248 41.096C333.949 41.096 333.723 41.1813 333.568 41.352C333.419 41.5227 333.317 41.744 333.264 42.016C333.216 42.2827 333.192 42.6133 333.192 43.008C333.192 43.4133 333.216 43.7547 333.264 44.032C333.312 44.304 333.413 44.5253 333.568 44.696C333.723 44.8613 333.949 44.944 334.248 44.944C334.547 44.944 334.773 44.8613 334.928 44.696C335.083 44.5253 335.184 44.304 335.232 44.032C335.28 43.7547 335.304 43.4133 335.304 43.008Z"
+        fill="#AAA9AD"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_17_190"
+          x1="-8.16761e-05"
+          y1="23.4998"
+          x2="39.8042"
+          y2="23.4998"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FA4001" />
+          <stop offset="0.344077" stopColor="#CD0D14" />
+          <stop offset="0.689254" stopColor="#A91D1E" />
+          <stop offset="1" stopColor="#812924" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_17_190"
+          x1="28.0933"
+          y1="20.1937"
+          x2="56.2"
+          y2="20.1937"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#016DEA" />
+          <stop offset="0.334096" stopColor="#005FCD" />
+          <stop offset="0.634882" stopColor="#0052B1" />
+          <stop offset="1" stopColor="#003B7E" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+);
+
+LogoWhite.displayName = "LogoWhite";
 
 export const Icons = {
   LogoBlue: LogoBlue,
@@ -10776,6 +11507,16 @@ export const Icons = {
   IconOrdersListFinger: IconOrdersListFinger,
   IconBagDollarVerified: IconBagDollarVerified,
   IconBellOff: IconBellOff,
+  IconHeartFilled: IconHeartFilled,
+  IconYoutube: IconYoutube,
+  IconFacebook: IconFacebook,
+  IconInstagram: IconInstagram,
+  IconLinkedin: IconLinkedin,
+  IconPintrest: IconPintrest,
+  IconSnapchat: IconSnapchat,
+  IconTikTok: IconTikTok,
+  IconTwitter: IconTwitter,
+  LogoWhite: LogoWhite,
   ButtonColorRedBlue: ButtonColorRedBlue,
   VVerseNavBg: VVerseNavBg,
 };

@@ -12,6 +12,7 @@ export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   isExperience?: boolean;
   isRated?: boolean;
   rating?: number;
+  isPercentage?: boolean;
 }
 
 const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
@@ -26,6 +27,7 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
       icon: Icon,
       currency,
       rating,
+      isPercentage,
       ...props
     },
     ref
@@ -61,6 +63,10 @@ const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
             ) : isExperience ? (
               <p className="font-extrabold text-xl leading-[120%]">
                 {formatJobExperience(number)}
+              </p>
+            ) : isPercentage ? (
+              <p className="font-extrabold text-xl leading-[120%]">
+                {number}%{" "}
               </p>
             ) : (
               <p className="font-extrabold text-xl leading-[120%]">

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { PlannerItem, PlannerTabKey, TabKey } from "@/lib/types";
+import { ButtonKey, PlannerItem, PlannerTabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { badgePlannerTabData } from "../../alert-badge-constants";
 import { Badge } from "@/components/ui/badge";
@@ -13,15 +13,26 @@ type VAlertPlannerProps = {
   tabsData: {
     [tabKey: string]: PlannerItem[];
   };
+  activeTab: string;
+  setActiveTab: (tab: string, activeButton: ButtonKey) => void;
+  visitedTabs: Record<string, boolean>;
+  setVisitedTabs: (visitedTabs: Record<string, boolean>) => void;
 };
 
-const VAlertPlanner = ({ tabsData }: VAlertPlannerProps) => {
-  const [activeTab, setActiveTab] = useState("onlineMeetings");
-  const [visitedTabs, setVisitedTabs] = useState<Record<string, boolean>>({});
-
+const VAlertPlanner = ({
+  tabsData,
+  activeTab,
+  setActiveTab,
+  visitedTabs,
+  setVisitedTabs,
+}: VAlertPlannerProps) => {
   const handleTabChange = (tab: PlannerTabKey) => {
-    setActiveTab(tab);
-    markTabAsVisited(tab);
+    setActiveTab(tab, "Planner");
+    const updatedVisitedTab = {
+      ...visitedTabs,
+      [tab]: true,
+    };
+    setVisitedTabs(updatedVisitedTab);
   };
 
   const getTabContentStyles = (tab: PlannerTabKey) => {
@@ -47,14 +58,7 @@ data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
     );
   };
 
-  const markTabAsVisited = (tab: string) => {
-    setVisitedTabs((prevVisitedTabs) => ({
-      ...prevVisitedTabs,
-      [tab]: true,
-    }));
-  };
-
-  const isTabVisited = (button: string) => visitedTabs[button];
+  const isTabVisited = (tab: PlannerTabKey) => visitedTabs[tab];
 
   return (
     <Tabs
