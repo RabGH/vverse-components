@@ -58,6 +58,7 @@ const VCalendar = () => {
         description: `Selected date range: ${startDate.toDateString()} - ${endDate.toDateString()} - ${formattedStartDate} - ${formattedEndDate}`,
         variant: "vVerseToast",
       });
+      setDate([new Date(), new Date()]);
     } else {
       toast({
         title: "Error",
@@ -66,6 +67,9 @@ const VCalendar = () => {
       });
     }
   };
+
+  const minDate = new Date("1800-01-01");
+  const maxDate = new Date("2100-12-31");
 
   return (
     <div className="flex items-center justify-center">
@@ -77,6 +81,8 @@ const VCalendar = () => {
           mode: "range",
           enableTime: true,
           time_24hr: false,
+          minDate,
+          maxDate,
         }}
         ref={flatpickrRef}
         className="text-primary mx-2 border border-primary rounded-lg p-2"

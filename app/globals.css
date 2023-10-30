@@ -396,6 +396,9 @@ body,
 .flatpickr-day {
   border-radius: 10;
   font-weight: 700;
+  max-width: 38.5px;
+  height: 38.5px;
+  line-height: 38.5px;
 }
 
 .flatpickr-day.inRange:hover {
@@ -465,5 +468,19 @@ body,
 }
 
 .flatpickr-current-month input.cur-year {
+  font-weight: 700;
+}
+/* Time PM AM */
+.flatpickr-time .flatpickr-am-pm {
+  outline: 0;
+  width: 18%;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  background: var(--blue-gradient);
+  color: #fff
+}
+
+.flatpickr-time {
   font-weight: 700;
 }
