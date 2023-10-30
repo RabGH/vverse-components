@@ -69,7 +69,7 @@ const BannerProfile = ({
   return (
     <div className="flex flex-row justify-center gap-4">
       <div className="mt-6">
-      <UserMediumAvatar />
+        <UserMediumAvatar />
       </div>
       <div className="flex flex-col gap-4">
         <div>

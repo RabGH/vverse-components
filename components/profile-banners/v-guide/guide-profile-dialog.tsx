@@ -31,6 +31,10 @@ type GuideProfileBannerDialogProps = {
   thumbsup: number;
   shares: number;
   dialogTitle: string;
+  isEmailVerified?: boolean;
+  isPhoneVerified?: boolean;
+  isAgreementVerified?: boolean;
+  isIdVerified?: boolean;
   partOf: Record<string, boolean>;
   rank: RankMedalProps["rank"];
   guideUserData: GuideDataPointsProps;
@@ -51,6 +55,10 @@ const GuideProfileBannerDialog = ({
   partOf,
   currency,
   dialogTitle,
+  isEmailVerified = false,
+  isPhoneVerified = false,
+  isAgreementVerified = false,
+  isIdVerified = false,
   isOwner = false,
   isConnected = true,
   isLoggedIn = true,
@@ -85,6 +93,10 @@ const GuideProfileBannerDialog = ({
                     thumbsup={thumbsup}
                     shares={shares}
                     isOwner={isOwner}
+                    isEmailVerified={isEmailVerified}
+                    isPhoneVerified={isPhoneVerified}
+                    isAgreementVerified={isAgreementVerified}
+                    isIdVerified={isIdVerified}
                   />
                   <Separator />
                   <GuideDataPoints

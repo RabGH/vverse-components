@@ -60,6 +60,13 @@ const ProfileBannerPage = () => {
         partOf={partOf}
         guideUserData={vGuideUserData}
         userInfoData={vUserInfoData}
+        isAgreementVerified={true}
+        isEmailVerified={true}
+        isIdVerified={true}
+        isPhoneVerified={true}
+        isConnected={true}
+        isLoggedIn={true}
+        isOwner={true}
       />
       <GuideProfileBannerDialog
         isLoading={false}
@@ -76,6 +83,10 @@ const ProfileBannerPage = () => {
         guideUserData={vGuideUserData}
         userInfoData={vUserInfoData}
         dialogTitle={"Profile Banner V-Guide Full"}
+        isAgreementVerified={false}
+        isEmailVerified={true}
+        isIdVerified={true}
+        isPhoneVerified={true}
       />
       <Heading
         title={"Blog Banners"}

@@ -22,6 +22,10 @@ type GuideProfileBannerProps = {
   isFeatured: boolean;
   thumbsup: number;
   shares: number;
+  isEmailVerified?: boolean;
+  isPhoneVerified?: boolean;
+  isAgreementVerified?: boolean;
+  isIdVerified?: boolean;
   partOf: Record<string, boolean>;
   rank: RankMedalProps["rank"];
   guideUserData: GuideDataPointsProps;
@@ -41,6 +45,10 @@ const GuideProfileBanner = ({
   endorsements,
   partOf,
   currency,
+  isEmailVerified = false,
+  isPhoneVerified = false,
+  isAgreementVerified = false,
+  isIdVerified = false,
   isOwner = true,
   isConnected = true,
   isLoggedIn = true,
@@ -63,6 +71,10 @@ const GuideProfileBanner = ({
             thumbsup={thumbsup}
             shares={shares}
             isOwner={isOwner}
+            isEmailVerified={isEmailVerified}
+            isPhoneVerified={isPhoneVerified}
+            isAgreementVerified={isAgreementVerified}
+            isIdVerified={isIdVerified}
           />
           <Separator />
           <GuideDataPoints
