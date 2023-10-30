@@ -64,19 +64,29 @@ const VAlertNotificationCard = ({
 
               <p className="text-black font-bold">{"<Request>"}</p>
             </div>
-            <div className="flex flex-row items-center gap-2">
+            <div className="flex flex-row items-center justify-between gap-4">
               {notification.actions?.includes("accept") && (
-                <Button variant={"blueRedSlash"} onClick={handleAccept}>
+                <Button
+                  variant={"blueRedSlash"}
+                  size="md"
+                  onClick={handleAccept}
+                >
                   Accept
                 </Button>
               )}
               {notification.actions?.includes("decline") && (
-                <Button variant={"secondary"} onClick={closeNotification}>
+                <Button
+                  variant={"secondary"}
+                  size="md"
+                  onClick={closeNotification}
+                >
                   Decline
                 </Button>
               )}
               {notification.actions?.includes("viewReport") && (
-                <Button variant={"blueRedSlash"}>View Report</Button>
+                <Button variant={"blueRedSlash"} size="sm">
+                  View Report
+                </Button>
               )}
               {notification.date && (
                 <Badge variant={"profile"} size="label" className={cn("")}>

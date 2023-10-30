@@ -40,6 +40,46 @@ const VAlertPlannerCard = ({ isLoading, planner }: VAlertPlannerCardProps) => {
     return null;
   }
 
+  const statusColors: Record<string, string> = {
+    High: "vgRed border border-red-500/30 font-normal",
+    Medium: "vlMustardYellow border border-yellow-200/30 font-normal",
+    Low: "vlOlive border border-green-200/30 font-normal",
+  };
+
+  const statusColor = statusColors[planner.status] || "text-black";
+
+  const meetingTypeColors: Record<string, string> = {
+    "Online Meetings": "vlPlum border border-brown-500/30 font-normal",
+    "Offline Meetings": "vlOrange border font-normal",
+    "Online Webinars": "vlHotPink border font-normal",
+    "Offline Events": "vlSoftBrown border font-normal",
+  };
+
+  const meetingTypeColor =
+    meetingTypeColors[planner.meetingType] || "text-black";
+
+  const statusBadge = (
+    <Badge variant={"default"} size="md" className={cn(statusColor)}>
+      {planner.status}
+    </Badge>
+  );
+
+  const meetingTypeBadge = (
+    <Badge variant={"default"} size="md" className={cn(meetingTypeColor)}>
+      {planner.meetingType}
+    </Badge>
+  );
+
+  const mattersTypeBadge = (
+    <Badge
+      variant={"default"}
+      size="md"
+      className="vgBlue font-normal border border-blue-800/50"
+    >
+      {planner.matters}
+    </Badge>
+  );
+
   return (
     <Card
       data-disabled={isLoading}
@@ -55,16 +95,20 @@ const VAlertPlannerCard = ({ isLoading, planner }: VAlertPlannerCardProps) => {
           <>
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
-              <p className="text-black font-bold">{planner.title}</p>
-              <p className="text-muted">{planner.endDate}</p>
-
-              <p className="text-black font-bold">{"<Request>"}</p>
+              <div className="flex flex-col">
+                <p className="text-black font-bold">{planner.title}</p>
+                <p className="text-muted">{planner.endDate}</p>
+              </div>
             </div>
-            <div className="flex flex-row items-center gap-2">
+            <div className="flex flex-row items-center justify-between gap-4">
+              {/* <div className="flex flex-row justify-between gap-6"> */}
+              {mattersTypeBadge}
+              {meetingTypeBadge}
+              {statusBadge}
+              {/* </div> */}
               {planner.startDate && (
                 <Badge variant={"profile"} size="label" className={cn("")}>
                   {planner.startDate}
-                  {planner.id}
                 </Badge>
               )}
 

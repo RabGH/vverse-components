@@ -65,7 +65,7 @@ export function NavigationMenuDemo() {
                   >
                     <LogoBlue className="w-40" />
                     <div className="mb-2 mt-4 text-lg font-bold">
-                      VVerse Component Library
+                      VVerse Home
                     </div>
                     <p className="text-sm leading-tight text-black">
                       Beautifully designed components built with Radix UI,
