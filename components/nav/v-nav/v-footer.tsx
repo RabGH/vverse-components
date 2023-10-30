@@ -68,7 +68,7 @@ const VFooterContent = () => {
             objectFit="cover"
             className="shadow-inner"
           />
-          <div className="absolute bottom-0 w-full h-full p-8 z-[2]">
+          <div className="absolute bottom-0 top-0 left-0 right-0 w-full h-full p-8 z-[2]">
             <div className="flex flex-row w-full gap-6">
               <div className="flex flex-col justify-start max-w-lg gap-6">
                 <LogoWhite className="w-56 h-9" />

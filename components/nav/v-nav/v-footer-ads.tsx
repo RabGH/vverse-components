@@ -7,7 +7,7 @@ type VFooterAdsProps = {
 
 const VFooterAds = ({ images }: VFooterAdsProps) => {
   return (
-    <ScrollArea className="w-full whitespace-nowrap rounded-md border mb-10 mt-10">
+    <ScrollArea className="w-full rounded-md border mb-2 mt-20">
       <div className="flex flex-row w-max space-x-6 p-4 items-center justify-center">
         {images.map((src, index) => (
           <figure

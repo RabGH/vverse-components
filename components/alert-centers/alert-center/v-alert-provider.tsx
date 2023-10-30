@@ -18,7 +18,7 @@ const VAlertProvider = () => {
         />
         <VAlertTab />
       </div>
-      <div className="space-y-10">
+      <div className="space-y-10 flex flex-col items-center justify-center">
         <Heading
           title={"V-Verse Alert Center Dialog"}
           description={

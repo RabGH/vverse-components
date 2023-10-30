@@ -1,11 +1,13 @@
-import Navbar from "@/components/nav/navbar";
+import { NavigationMenuDemo } from "@/components/nav/navbar-demo";
 import VFooter from "@/components/nav/v-nav/v-footer";
 
 const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="">
-      <Navbar />
-      <main className="flex-grow h-full min-h-screen">{children}</main>
+    <div className="flex flex-col">
+      <NavigationMenuDemo />
+      <main className="relative h-full min-h-screen p-20 pt-24">
+        {children}
+      </main>
       <VFooter />
     </div>
   );

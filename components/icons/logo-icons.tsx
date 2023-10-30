@@ -11240,7 +11240,7 @@ export const LogoWhite = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="23.4998"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FA4001" />
+          <stop stopColor="#FA4001" />
           <stop offset="0.344077" stopColor="#CD0D14" />
           <stop offset="0.689254" stopColor="#A91D1E" />
           <stop offset="1" stopColor="#812924" />
@@ -11253,7 +11253,7 @@ export const LogoWhite = React.forwardRef<SVGSVGElement, LucideProps>(
           y2="20.1937"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#016DEA" />
+          <stop stopColor="#016DEA" />
           <stop offset="0.334096" stopColor="#005FCD" />
           <stop offset="0.634882" stopColor="#0052B1" />
           <stop offset="1" stopColor="#003B7E" />
