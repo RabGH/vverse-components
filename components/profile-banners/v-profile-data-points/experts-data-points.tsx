@@ -1,54 +1,51 @@
+import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 import {
   IconCustomers,
-  IconGearServicesBtn,
+  IconGraphDollar,
   IconOrderBox,
-  IconSalesGraph,
   IconShare,
   IconStar,
-  IconSuccessGraph,
   IconThumbsUp,
+  IconHeadphones,
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
-import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-export type LanceDataPointsProps = {
+export type ExpertDataPointsProps = {
   isLoading?: boolean;
-  services: number;
+  consultations: number;
   sales: number;
   orders: number;
   customers: number;
-  successRate: number;
   likes: number;
   shares: number;
   ratingPoints: number;
   rating: number;
 };
 
-const LanceDataPoints = ({
+const ExpertDataPoints = ({
   isLoading,
-  services,
+  consultations,
   sales,
   orders,
   customers,
-  successRate,
   likes,
   shares,
-  rating,
   ratingPoints,
-}: LanceDataPointsProps) => {
+  rating,
+}: ExpertDataPointsProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={services}
-          description={"Services"}
-          icon={IconGearServicesBtn}
+          number={consultations}
+          description={"Consultations"}
+          icon={IconHeadphones}
           isLoading={isLoading}
         />
         <VDataPoint
           number={sales}
           description={"Sales"}
-          icon={IconSalesGraph}
+          icon={IconGraphDollar}
           isLoading={isLoading}
         />
         <VDataPoint
@@ -62,13 +59,6 @@ const LanceDataPoints = ({
           description={"Customers"}
           icon={IconCustomers}
           isLoading={isLoading}
-        />
-        <VDataPoint
-          number={successRate}
-          description={"Success Rate"}
-          icon={IconSuccessGraph}
-          isLoading={isLoading}
-          isPercentage={true}
         />
         <VDataPoint
           number={likes}
@@ -98,4 +88,4 @@ const LanceDataPoints = ({
   );
 };
 
-export default LanceDataPoints;
+export default ExpertDataPoints;

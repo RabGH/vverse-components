@@ -10,6 +10,11 @@ import JobsDataPoints from "./v-profile-data-points/jobs-data-points";
 import LanceDataPoints from "./v-profile-data-points/lance-data-points";
 import MarketDataPoints from "./v-profile-data-points/market-data-points";
 import TubeDataPoints from "./v-profile-data-points/tube-data-points";
+import EventDataPoints from "./v-profile-data-points/event-data-points";
+import WebinarDataPoints from "./v-profile-data-points/webinar-data-points";
+import ExpertDataPoints from "./v-profile-data-points/experts-data-points";
+import MarketingSponsorDataPoints from "./v-profile-data-points/marketingSponsor-data-points";
+import MarketingDataPoints from "./v-profile-data-points/marketing-data-points";
 
 type BannerProfileProps = {
   userName: string;
@@ -25,6 +30,7 @@ type BannerProfileProps = {
   thumbsup: number;
   shares: number;
   rank: RankMedalProps["rank"];
+  data: any;
   dataType:
     | "college"
     | "jobs"
@@ -32,8 +38,12 @@ type BannerProfileProps = {
     | "blog"
     | "lance"
     | "market"
-    | "tube";
-  data: any;
+    | "tube"
+    | "event"
+    | "webinar"
+    | "marketingSponsor"
+    | "marketing"
+    | "experts";
 };
 
 const BannerProfile = ({
@@ -154,6 +164,66 @@ const BannerProfile = ({
                   videos={data.videos}
                   subscribers={data.subscribers}
                   views={data.views}
+                  likes={data.likes}
+                  shares={data.shares}
+                  ratingPoints={data.ratingPoints}
+                  rating={data.rating}
+                />
+              )}
+              {dataType === "event" && (
+                <EventDataPoints
+                  isLoading={isLoading}
+                  events={data.events}
+                  sales={data.sales}
+                  orders={data.orders}
+                  customers={data.customers}
+                  likes={data.likes}
+                  shares={data.shares}
+                  ratingPoints={data.ratingPoints}
+                  rating={data.rating}
+                />
+              )}
+              {dataType === "webinar" && (
+                <WebinarDataPoints
+                  isLoading={isLoading}
+                  webinars={data.webinars}
+                  sales={data.sales}
+                  orders={data.orders}
+                  customers={data.customers}
+                  likes={data.likes}
+                  shares={data.shares}
+                  ratingPoints={data.ratingPoints}
+                  rating={data.rating}
+                />
+              )}
+              {dataType === "experts" && (
+                <ExpertDataPoints
+                  isLoading={isLoading}
+                  consultations={data.consultations}
+                  sales={data.sales}
+                  orders={data.orders}
+                  customers={data.customers}
+                  likes={data.likes}
+                  shares={data.shares}
+                  ratingPoints={data.ratingPoints}
+                  rating={data.rating}
+                />
+              )}
+              {dataType === "marketingSponsor" && (
+                <MarketingSponsorDataPoints
+                  isLoading={isLoading}
+                  investments={data.investments}
+                  sponsored={data.sponsored}
+                  orders={data.orders}
+                />
+              )}
+              {dataType === "marketing" && (
+                <MarketingDataPoints
+                  isLoading={isLoading}
+                  sponsorships={data.sponsorships}
+                  sales={data.sales}
+                  orders={data.orders}
+                  customers={data.customers}
                   likes={data.likes}
                   shares={data.shares}
                   ratingPoints={data.ratingPoints}

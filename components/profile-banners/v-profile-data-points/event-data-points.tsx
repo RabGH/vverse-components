@@ -1,54 +1,53 @@
+import React from "react";
+
+import { Button } from "@/components/ui/button";
 import {
+  IconCalendarEvent,
   IconCustomers,
-  IconGearServicesBtn,
+  IconGraphDollar,
   IconOrderBox,
-  IconSalesGraph,
   IconShare,
   IconStar,
-  IconSuccessGraph,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
-import { Button } from "@/components/ui/button";
 import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-export type LanceDataPointsProps = {
+export type EventDataPointsProps = {
   isLoading?: boolean;
-  services: number;
+  events: number;
   sales: number;
   orders: number;
   customers: number;
-  successRate: number;
   likes: number;
   shares: number;
   ratingPoints: number;
   rating: number;
 };
 
-const LanceDataPoints = ({
-  isLoading,
-  services,
+const EventDataPoints = ({
+  events,
   sales,
   orders,
   customers,
-  successRate,
   likes,
   shares,
-  rating,
   ratingPoints,
-}: LanceDataPointsProps) => {
+  rating,
+  isLoading,
+}: EventDataPointsProps) => {
   return (
     <section className="flex flex-row justify-between items-center">
       <div className="flex flex-row items-center gap-2">
         <VDataPoint
-          number={services}
-          description={"Services"}
-          icon={IconGearServicesBtn}
+          number={events}
+          description={"Events"}
+          icon={IconCalendarEvent}
           isLoading={isLoading}
         />
         <VDataPoint
           number={sales}
           description={"Sales"}
-          icon={IconSalesGraph}
+          icon={IconGraphDollar}
           isLoading={isLoading}
         />
         <VDataPoint
@@ -64,16 +63,15 @@ const LanceDataPoints = ({
           isLoading={isLoading}
         />
         <VDataPoint
-          number={successRate}
-          description={"Success Rate"}
-          icon={IconSuccessGraph}
-          isLoading={isLoading}
-          isPercentage={true}
-        />
-        <VDataPoint
           number={likes}
           description={"Likes"}
           icon={IconThumbsUp}
+          isLoading={isLoading}
+        />
+        <VDataPoint
+          number={shares}
+          description={"Shares"}
+          icon={IconShare}
           isLoading={isLoading}
         />
         <VDataPoint
@@ -98,4 +96,4 @@ const LanceDataPoints = ({
   );
 };
 
-export default LanceDataPoints;
+export default EventDataPoints;

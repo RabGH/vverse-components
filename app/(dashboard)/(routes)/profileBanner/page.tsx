@@ -14,12 +14,17 @@ import {
   partOf,
   vAuthorUserData,
   vBlogUserData,
+  vEventsUserData,
+  vExpertsUserData,
   vGuideUserData,
   vJobUserData,
   vLanceUserData,
   vMarketUserData,
+  vMarketingSponsorUserData,
+  vMarketingUserData,
   vTubeUserData,
   vUserInfoData,
+  vWebinarsUserData,
 } from "@/backend-data-test";
 import BannerProfile from "@/components/profile-banners/banner-profile";
 
@@ -137,6 +142,120 @@ const ProfileBannerPage = () => {
           rank={"vendorSilver"}
           dataType={"lance"}
           data={vLanceUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Event Banners"}
+          description={"V-Events Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Event Name>"}
+          userTitle={"Demo Profile Banner V-Events Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"vendorGold"}
+          dataType={"event"}
+          data={vEventsUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Webinar Banners"}
+          description={"V-Webinar Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Webinar Name>"}
+          userTitle={"Demo Profile Banner V-Webinar Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"vendorPlatinum"}
+          dataType={"webinar"}
+          data={vWebinarsUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Experts Banners"}
+          description={"V-Experts Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Experts Name>"}
+          userTitle={"Demo Profile Banner V-Experts Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"vendorSilver"}
+          dataType={"webinar"}
+          data={vExpertsUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Marketing Sponsors Banners"}
+          description={"V-Market Sponsor Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Market User Name>"}
+          userTitle={"Demo Profile Banner V-Market Sponsor Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"standardSilver"}
+          dataType={"marketingSponsor"}
+          data={vMarketingSponsorUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Marketing Banners"}
+          description={"V-Marketing Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Market User Name>"}
+          userTitle={"Demo Profile Banner V-Marketing Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"standardPlatinum"}
+          dataType={"marketing"}
+          data={vMarketingUserData}
+          isOwner={true}
+        />
+        <Heading
+          title={"Market Banners"}
+          description={"V-Market Banner for users."}
+          icon={IconUsersLancersBtn}
+        />
+        <BannerProfile
+          isLoading={false}
+          userName={"<Market User Name>"}
+          userTitle={"Demo Profile Banner V-Market Banner"}
+          points={1000}
+          endorsements={10000}
+          isFeatured={true}
+          thumbsup={1000}
+          shares={100}
+          rank={"standardPlatinum"}
+          dataType={"market"}
+          data={vMarketUserData}
           isOwner={true}
         />
       </div>
