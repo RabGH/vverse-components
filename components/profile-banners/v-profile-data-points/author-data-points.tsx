@@ -11,7 +11,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type AuthorDataPointsProps = {
+type AuthorDataPointsProps = {
   isLoading?: boolean;
   posts: number;
   socialPages: number;

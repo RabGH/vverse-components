@@ -3,7 +3,7 @@ import React from "react";
 
 const AssetBannerPage = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <AssetBanner />
     </div>
   );

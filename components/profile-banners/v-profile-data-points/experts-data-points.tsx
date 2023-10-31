@@ -10,7 +10,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type ExpertDataPointsProps = {
+type ExpertDataPointsProps = {
   isLoading?: boolean;
   consultations: number;
   sales: number;

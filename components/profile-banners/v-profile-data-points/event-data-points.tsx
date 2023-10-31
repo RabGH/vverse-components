@@ -12,7 +12,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-export type EventDataPointsProps = {
+type EventDataPointsProps = {
   isLoading?: boolean;
   events: number;
   sales: number;

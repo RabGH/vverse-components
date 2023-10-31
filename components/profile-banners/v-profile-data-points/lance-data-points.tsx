@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 
-export type LanceDataPointsProps = {
+type LanceDataPointsProps = {
   isLoading?: boolean;
   services: number;
   sales: number;

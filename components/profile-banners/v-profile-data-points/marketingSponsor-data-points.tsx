@@ -6,7 +6,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type MarketingSponsorDataPointsProps = {
+type MarketingSponsorDataPointsProps = {
   isLoading?: boolean;
   investments: number;
   sponsored: number;

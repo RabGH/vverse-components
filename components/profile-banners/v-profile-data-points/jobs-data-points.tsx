@@ -7,13 +7,13 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type JobsDataPointsProps = {
+type JobsDataPointsProps = {
   isLoading?: boolean;
   experience: number;
   salary: number;
   likes: number;
   shares: number;
-}
+};
 
 const JobsDataPoints = ({
   isLoading,

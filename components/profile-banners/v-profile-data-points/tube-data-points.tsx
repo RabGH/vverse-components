@@ -1,5 +1,6 @@
 import { VDataPoint } from "@/components/v-ui/data-points/v-data-points";
 import {
+  IconChannelViews,
   IconFollowers,
   IconShare,
   IconStar,
@@ -10,7 +11,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type TubeDataPointsProps = {
+type TubeDataPointsProps = {
   isLoading?: boolean;
   channels: number;
   videos: number;
@@ -56,8 +57,8 @@ const TubeDataPoints = ({
         />
         <VDataPoint
           number={views}
-          description={"Followers"}
-          icon={IconFollowers}
+          description={"Views"}
+          icon={IconChannelViews}
           isLoading={isLoading}
         />
         <VDataPoint

@@ -10,7 +10,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type WebinarDataPointsProps = {
+type WebinarDataPointsProps = {
   isLoading?: boolean;
   webinars: number;
   sales: number;

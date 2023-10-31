@@ -13,7 +13,7 @@ import AssetDetails from "./asset-details";
 
 const AssetBanner = () => {
   return (
-    <Card className="relative z-0 rounded-xl h-fit w-fit hover:shadow-2xl hover:translate-y-[-5px] transition ease-in-out duration-300">
+    <Card className="relative z-0 rounded-xl h-fit w-fit hover:shadow-2xl hover:translate-y-[-5px] hover:translate-x-[-5px] transition ease-in-out duration-300">
       <div className="w-full h-full relative">
         <Image
           src="/images/CowImageArticleBanner.png"
@@ -22,7 +22,7 @@ const AssetBanner = () => {
           height={670}
           className="shadow-inner z-1 object-fit"
         />
-        <div className="bg-opacity-20 bg-black z-[2] absolute inset-0 w-full h-full rounded-xl" />
+        <div className="bg-opacity-40 bg-black z-[2] absolute inset-0 w-full h-full rounded-xl" />
       </div>
 
       <div className="absolute top-0 left-0 right-0 z-[3] text-white p-3">

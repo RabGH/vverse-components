@@ -7,7 +7,7 @@ import {
 } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
 
-export type BlogDataPointsProps = {
+type BlogDataPointsProps = {
   isLoading?: boolean;
   posts: number;
   likes: number;
