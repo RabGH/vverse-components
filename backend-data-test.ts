@@ -1594,6 +1594,7 @@ export const vAssetBlogData = [
   {
     id: 1,
     assetId: "ASS-BPO-112",
+    type: "public",
     userName: "Dr. Ahmad Hassan",
     title:
       "Cillum adipisicing velit ea nostrud commodo excepteur aliquip nisi in eiusmod reprehenderit.",
@@ -1606,7 +1607,6 @@ export const vAssetBlogData = [
     ratingPoints: 2000,
     isFeatured: "featured",
     imageUrl: "/images/CowImageArticleBanner.png",
-    type: "public",
   },
   {
     id: 2,
@@ -1694,7 +1694,7 @@ export const vAssetTubeData = [
     shares: 32000,
     rating: 4.8,
     ratingPoints: 2000,
-    imageUrl: "/images/article-camels-desert.png",
+    imageUrl: "/images/CowTaggedImage.png",
     type: "private",
   },
 ];
@@ -1704,6 +1704,7 @@ export const vAssetLanceServiceData = [
     id: 1,
     assetId: "ASS-SRV-122",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 22200,
     orders: 1200,
@@ -1716,11 +1717,13 @@ export const vAssetLanceServiceData = [
     isExclusive: "exclusive",
     price: 40,
     deliveryTime: 72,
+    imageUrl: "/images/article-larry-lones.png",
   },
   {
     id: 2,
     assetId: "ASS-SRV-123",
     type: "private",
+    userName: "Dr. Ahmad Hassan",
     date: "22-Nov-2025 1:30 AM",
     sales: 2220000,
     orders: 12000,
@@ -1733,6 +1736,7 @@ export const vAssetLanceServiceData = [
     isExclusive: "exclusive",
     price: 40,
     deliveryTime: 72,
+    imageUrl: "/images/article-larry-lones.png",
   },
 ];
 
@@ -1741,6 +1745,7 @@ export const vAssetLanceProjectData = [
     id: 1,
     assetId: "ASS-PRJ-101",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     collaborators: 120,
     likes: 11000,
@@ -1751,11 +1756,13 @@ export const vAssetLanceProjectData = [
     projectExpertise: "Beginner",
     paymentType: "fixed",
     projectPay: "725",
+    imageUrl: "/images/article-coder-coding.png",
   },
   {
     id: 2,
     assetId: "ASS-PRJ-102",
     type: "private",
+    userName: "Dr. Ahmad Hassan",
     date: "30-Nov-2030 1:30 AM",
     collaborators: 12000,
     likes: 11000000,
@@ -1766,11 +1773,13 @@ export const vAssetLanceProjectData = [
     projectExpertise: "Intermediate",
     paymentType: "fixed",
     projectPay: "825",
+    imageUrl: "/images/article-coder-coding.png",
   },
   {
     id: 3,
     assetId: "ASS-PRJ-103",
     type: "private",
+    userName: "Dr. Ahmad Hassan",
     date: "30-Feb-2030 6:30 AM",
     collaborators: 12000,
     likes: 11000000,
@@ -1781,6 +1790,7 @@ export const vAssetLanceProjectData = [
     projectExpertise: "Advanced",
     paymentType: "fixed",
     projectPay: "1100",
+    imageUrl: "/images/article-coder-coding.png",
   },
 ];
 
@@ -1789,6 +1799,7 @@ export const vAssetCollegeData = [
     id: 1,
     assetId: "ASS-CRS-14",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 77000,
     orders: 1200,
@@ -1804,11 +1815,13 @@ export const vAssetCollegeData = [
     isDiscounted: "discount",
     discountPercentage: 25,
     collegeExpertise: "intermediate",
+    imageUrl: "/images/article-horse-back-riding.png",
   },
   {
     id: 2,
     assetId: "ASS-CRS-15",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 77000,
     orders: 1200,
@@ -1824,6 +1837,7 @@ export const vAssetCollegeData = [
     isDiscounted: "regular",
     // discountPercentage: 25,
     collegeExpertise: "intermediate",
+    imageUrl: "/images/article-horse-back-riding.png",
   },
 ];
 
@@ -1832,6 +1846,7 @@ export const vAssetStoreData = [
     id: 1,
     assetId: "ASS-STR-8990",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     products: 1200,
     sales: 22000,
@@ -1842,11 +1857,13 @@ export const vAssetStoreData = [
     rating: 4.8,
     ratingPoints: 33,
     isFeatured: "featured",
+    imageUrl: "/images/article-store-banner.png",
   },
   {
     id: 2,
     assetId: "ASS-STR-8991",
     type: "private",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     products: 1200,
     sales: 22000,
@@ -1857,6 +1874,7 @@ export const vAssetStoreData = [
     rating: 4.8,
     ratingPoints: 33,
     isFeatured: "featured",
+    imageUrl: "/images/article-store-banner.png",
   },
 ];
 
@@ -1865,6 +1883,7 @@ export const vAssetProductBanner = [
     id: 1,
     assetId: "ASS-PRD-8990",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 22000,
     orders: 1200,
@@ -1880,11 +1899,13 @@ export const vAssetProductBanner = [
     isDiscounted: "discount",
     discountPercentage: 25,
     stock: "inStock",
+    imageUrl: "/images/article-dog-food.png",
   },
   {
     id: 2,
     assetId: "ASS-PRD-8992",
     type: "private",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 5:30 AM",
     sales: 22000,
     orders: 1200,
@@ -1900,6 +1921,7 @@ export const vAssetProductBanner = [
     // isDiscounted: "discount",
     // discountPercentage: 25,
     // stock: "inStock",
+    imageUrl: "/images/article-store-banner.png",
   },
 ];
 
@@ -1908,6 +1930,7 @@ export const vAssetEbookData = [
     id: 1,
     assetId: "ASS-EBK-8990",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 22000,
     orders: 1200,
@@ -1922,6 +1945,7 @@ export const vAssetEbookData = [
     paymentType: "paid",
     isDiscounted: "discount",
     discountPercentage: 25,
+    imageUrl: "/images/article-ebook.png",
   },
 ];
 
@@ -1930,6 +1954,7 @@ export const vAssetEventsData = [
     id: 1,
     assetId: "ASS-EVT-73",
     type: "Public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 22000,
     orders: 1200,
@@ -1945,6 +1970,7 @@ export const vAssetEventsData = [
     country: "egypt",
     duration: 24,
     tickets: "150",
+    imageUrl: "/images/article-event-conference.png",
   },
 ];
 
@@ -1953,6 +1979,7 @@ export const vAssetWebinarData = [
     id: 1,
     assetId: "ASS-WBR-128",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 22000,
     orders: 75,
@@ -1967,6 +1994,7 @@ export const vAssetWebinarData = [
     eventTime: "Coming",
     duration: 5,
     tickets: "150",
+    imageUrl: "/images/article-webinar-online.png",
   },
 ];
 
@@ -1975,6 +2003,7 @@ export const vAssetExpertsData = [
     id: 1,
     assetId: "ASS-CST-8990",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 1200,
     orders: 75,
@@ -1988,6 +2017,7 @@ export const vAssetExpertsData = [
     price: 125,
     paymentType: "paid",
     duration: 5,
+    imageUrl: "/images/article-experts-consultation.png",
   },
 ];
 
@@ -1996,6 +2026,7 @@ export const vAssetSponsorshipData = [
     id: 1,
     assetId: "ASS-SPN-8990",
     type: "public",
+    userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 1200,
     orders: 75,
@@ -2009,5 +2040,6 @@ export const vAssetSponsorshipData = [
     price: 125,
     paymentType: "paid",
     isDiscounted: "regular",
+    imageUrl: "/images/article-sponsorship-marketing-graph.png",
   },
 ];
