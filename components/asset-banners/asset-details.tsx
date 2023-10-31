@@ -1,26 +1,41 @@
-import React from "react";
-import { formatNumber } from "../../lib/utils";
-import {
-  IconCalendar,
-  IconMessageCircle,
-  IconPrivacy,
-  IconShare,
-  IconStar,
-  IconThumbsUp,
-} from "../icons/logo-icons";
+import AssetBlogData from "@/components/asset-banners/asset-data/asset-blog-data";
+import AssetNationData from "@/components/asset-banners/asset-data/asset-nation-data";
 
-const AssetDetails = () => {
+type AssetDetailsProps = {
+  data: any;
+  dataType: string;
+};
+
+const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
   return (
-    <section>
-      <div className="flex flex-row gap-2 items-center">
-        # ASS-BPO-112 | <IconPrivacy className="w-4 h-4" /> Public |{" "}
-        <IconCalendar className="w-4 h-4" /> 15-Sep-2022 11:30 AM |{" "}
-        <IconMessageCircle className="w-4 h-4" /> 100 |{" "}
-        <IconThumbsUp className="w-4 h-4" /> {formatNumber(1100)} |{" "}
-        <IconShare className="w-4 h-4" /> 320 | <IconStar className="w-4 h-4" />{" "}
-        4.8(33)
-      </div>
-    </section>
+    <div>
+      {dataType === "blog" && (
+        <AssetBlogData
+          assetId={data.assetId}
+          type={data.type}
+          dateStart={data.dateStart}
+          dateEnd={data.dateEnd}
+          comments={data.comments}
+          likes={data.likes}
+          shares={data.shares}
+          rating={data.rating}
+          ratingPoints={data.ratingPoints}
+        />
+      )}
+      {dataType === "nation" && (
+        <AssetNationData
+          assetId={data.assetId}
+          type={data.type}
+          date={data.date}
+          posts={data.posts}
+          likes={data.likes}
+          shares={data.shares}
+          rating={data.rating}
+          ratingPoints={data.ratingPoints}
+          followers={data.followers}
+        />
+      )}
+    </div>
   );
 };
 

@@ -1,20 +1,42 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 
 type UserInteractionProps = {
-  isConnected?: boolean;
   isOwner?: boolean;
-  isLoggedIn?: boolean;
   isMiniView?: boolean;
 };
 
-const UserInteraction = ({
-  isConnected,
-  isOwner,
-  isLoggedIn,
-  isMiniView,
-}: UserInteractionProps) => {
+const UserInteraction = ({ isOwner, isMiniView }: UserInteractionProps) => {
+  const [isLiked, setIsLiked] = useState(false);
+  const [isSaved, setIsSaved] = useState(false);
+  const [isConnected, setIsConnected] = useState(false);
+  const [isReported, setIsReported] = useState(false);
+  const [isBlocked, setIsBlocked] = useState(false);
+
+  const handleLikeClick = () => {
+    setIsLiked((prevLiked) => !prevLiked);
+  };
+
+  const handleSaveClick = () => {
+    setIsSaved((prevSaved) => !prevSaved);
+  };
+
+  const handleConnectClick = () => {
+    setIsConnected((prevConnected) => !prevConnected);
+  };
+
+  const handleReportClick = () => {
+    setIsReported((prevReported) => !prevReported);
+  };
+  const handleBlockClick = () => {
+    setIsBlocked((prevBlocked) => !prevBlocked);
+  };
+
+  const handleShareClick = () => {};
+
   return (
     <div className="flex-1 flex flex-wrap justify-center items-center gap-1">
       {isOwner ? (
@@ -23,98 +45,67 @@ const UserInteraction = ({
           <Button variant="bannerBlueRed" size="banner">
             Edit
           </Button>
-          <Button variant="bannerBlueRed" size="banner">
+          <Button
+            variant="bannerBlueRed"
+            size="banner"
+            onClick={handleShareClick}
+          >
             Share
-          </Button>
-        </>
-      ) : isConnected ? (
-        // Connected users see Disconnect, Message, Like, Edit, Share, Report, Block
-        <>
-          <Button variant="userPurple" size="banner">
-            Disconnect
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Message
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Like
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Edit
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Share
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Report
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Block
-          </Button>
-        </>
-      ) : isLoggedIn ? (
-        // Logged in visitors see Connect, Message, Like, Share, Report, Block
-        <>
-          <Button variant="bannerBlueRed" size="banner">
-            Connect
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Endorse
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Message
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Like
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Share
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Report
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Block
-          </Button>
-        </>
-      ) : isMiniView ? (
-        // Visitors who are not logged in and viewing a mini profile
-        <>
-          <Button variant="bannerBlueRed" size="banner">
-            Connect
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Endorse
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Message
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Like
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Share
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Report
-          </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Block
           </Button>
         </>
       ) : (
-        // Visitors who are not logged in see only Message, Like, Share
         <>
+          <Button
+            variant={isConnected ? "userPurple" : "blueRedSlash"}
+            size="banner"
+            onClick={handleConnectClick}
+          >
+            {isConnected ? "Disconnect" : "Connect"}
+          </Button>
           <Button variant="bannerBlueRed" size="banner">
             Message
           </Button>
-          <Button variant="bannerBlueRed" size="banner">
-            Like
+          <Button
+            variant={isLiked ? "userPurple" : "blueRedSlash"}
+            size="banner"
+            onClick={handleLikeClick}
+          >
+            {isLiked ? "Unlike" : "Like"}
           </Button>
-          <Button variant="bannerBlueRed" size="banner">
+          <Button
+            variant="bannerBlueRed"
+            size="banner"
+            onClick={handleShareClick}
+          >
             Share
           </Button>
+          <Button
+            variant={isSaved ? "userPurple" : "blueRedSlash"}
+            size="banner"
+            onClick={handleSaveClick}
+          >
+            {isSaved ? "Saved" : "Save"}
+          </Button>
+          <Button
+            size="banner"
+            variant={isReported ? "userPurple" : "blueRedSlash"}
+            onClick={handleReportClick}
+          >
+            {isReported ? "Reported" : "Report"}
+          </Button>
+          <Button
+            size="banner"
+            variant={isBlocked ? "userPurple" : "blueRedSlash"}
+            onClick={handleBlockClick}
+          >
+            {isBlocked ? "Blocked" : "Block"}
+          </Button>
         </>
+      )}
+      {isMiniView && (
+        <Button variant="bannerBlueRed" size="banner">
+          Endorse
+        </Button>
       )}
     </div>
   );

@@ -24,8 +24,6 @@ type BannerProfileProps = {
   userTitle: string;
   isLoading: boolean;
   isOwner?: boolean;
-  isConnected?: boolean;
-  isLoggedIn?: boolean;
   isOpenToWork?: boolean;
   points: number;
   endorsements: number;
@@ -63,8 +61,6 @@ const BannerProfile = ({
   isFeatured = true,
   isOpenToWork = false,
   isOwner = false,
-  isLoggedIn = false,
-  isConnected = true,
 }: BannerProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
@@ -241,8 +237,6 @@ const BannerProfile = ({
         </div>
         <div className="flex flex-col gap-4 justify-center items-center ml-[-100px]">
           <UserInteraction
-            isConnected={isConnected}
-            isLoggedIn={isLoggedIn}
             isOwner={isOwner}
             isMiniView={true}
           />

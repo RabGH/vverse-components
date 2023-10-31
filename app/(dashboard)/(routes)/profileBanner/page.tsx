@@ -64,9 +64,7 @@ const ProfileBannerPage = () => {
         isEmailVerified={true}
         isIdVerified={true}
         isPhoneVerified={true}
-        isConnected={true}
-        isLoggedIn={true}
-        isOwner={true}
+        isOwner={false}
       />
       <GuideProfileBannerDialog
         isLoading={false}
@@ -178,7 +176,7 @@ const ProfileBannerPage = () => {
         rank={"vendorSilver"}
         dataType={"lance"}
         data={vLanceUserData}
-        isOwner={true}
+        isOwner={false}
       />
       <Heading
         title={"Event Banners"}
@@ -197,7 +195,7 @@ const ProfileBannerPage = () => {
         rank={"vendorGold"}
         dataType={"event"}
         data={vEventsUserData}
-        isOwner={true}
+        isOwner={false}
       />
       <Heading
         title={"Webinar Banners"}
@@ -254,7 +252,7 @@ const ProfileBannerPage = () => {
         rank={"standardSilver"}
         dataType={"marketingSponsor"}
         data={vMarketingSponsorUserData}
-        isOwner={true}
+        isOwner={false}
       />
       <Heading
         title={"Marketing Banners"}

@@ -15,8 +15,6 @@ type GuideProfileBannerProps = {
   userName: string;
   userTitle: string;
   isOwner?: boolean;
-  isConnected?: boolean;
-  isLoggedIn?: boolean;
   points: number;
   endorsements: number;
   isFeatured: boolean;
@@ -50,8 +48,6 @@ const GuideProfileBanner = ({
   isAgreementVerified = false,
   isIdVerified = false,
   isOwner = true,
-  isConnected = true,
-  isLoggedIn = true,
   isFeatured = true,
 }: GuideProfileBannerProps) => {
   return (
@@ -100,8 +96,6 @@ const GuideProfileBanner = ({
           <UserTags partOf={partOf} />
           <Separator />
           <UserInteraction
-            isConnected={isConnected}
-            isLoggedIn={isLoggedIn}
             isOwner={isOwner}
           />
         </div>

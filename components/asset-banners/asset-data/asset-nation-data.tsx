@@ -1,44 +1,36 @@
-import {
-  IconCalendar,
-  IconCalendarTopDash,
-  IconMessageCircle,
-  IconPrivacy,
-  IconShare,
-  IconStar,
-  IconThumbsUp,
-} from "@/components/icons/logo-icons";
+import { IconCalendar, IconFollowers, IconPost, IconPrivacy, IconShare, IconStar, IconThumbsUp } from "@/components/icons/logo-icons";
 import { formatNumber } from "@/lib/utils";
 import React from "react";
 
-type AssetBlogDataProps = {
+type AssetNationDataProps = {
   assetId: string;
   type: "private" | "public";
-  dateStart: string;
-  dateEnd: string;
-  comments: number;
+  date: string;
+  posts: number;
   likes: number;
   shares: number;
   rating: number;
   ratingPoints: number;
+  followers: number;
 };
 
-const AssetBlogData = ({
+const AssetNationData = ({
   assetId,
   type,
-  dateStart,
-  dateEnd,
-  comments,
+  date,
+  posts,
   likes,
   shares,
   rating,
   ratingPoints,
-}: AssetBlogDataProps) => {
+  followers,
+}: AssetNationDataProps) => {
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
       # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {dateStart} |{" "}
-      <IconCalendarTopDash className="w-4 h-4" /> {dateEnd} |{" "}
-      <IconMessageCircle className="w-4 h-4" /> {formatNumber(comments)} |{" "}
+      <IconCalendar className="w-4 h-4" /> {date} |{" "}
+      <IconPost className="w-4 h-4" /> {formatNumber(posts)} |{" "}
+      <IconFollowers className="w-4 h-4" /> {formatNumber(followers)} |{" "}
       <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
       <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
       <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
@@ -47,4 +39,4 @@ const AssetBlogData = ({
   );
 };
 
-export default AssetBlogData;
+export default AssetNationData;

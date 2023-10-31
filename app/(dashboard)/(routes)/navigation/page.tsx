@@ -9,7 +9,6 @@ const VNavigation = () => {
         <VNavbar
           userName="<Member Name>"
           userTitle="<Member Title>"
-          isLoggedIn={false}
         />
       </div>
     </>

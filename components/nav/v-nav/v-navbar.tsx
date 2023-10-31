@@ -21,11 +21,15 @@ import VVerseBackOfficeMenuContent from "@/components/nav/v-nav/v-verse-back-off
 type VNavBarProps = {
   userName: string;
   userTitle: string;
-  isLoggedIn: boolean;
 };
 
-const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
+const VNavbar = ({ userName, userTitle }: VNavBarProps) => {
   const [activeButton, setActiveButton] = useState("V-Verse Menu");
+  const [isSignedIn, setIsSignedIn] = useState(false);
+
+  const handleSignInClick = () => {
+    setIsSignedIn((prevSignIn) => !prevSignIn);
+  };
 
   const handleButtonClick = (button: string) => {
     setActiveButton(button);
@@ -98,11 +102,13 @@ const VNavbar = ({ userName, userTitle, isLoggedIn = false }: VNavBarProps) => {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  {isLoggedIn ? (
-                    <Button className="w-40">Logout</Button>
-                  ) : (
-                    <Button className="w-40">Sign-in/up</Button>
-                  )}
+                  <Button
+                    size="banner"
+                    variant={isSignedIn ? "userPurple" : "blueRedSlash"}
+                    onClick={handleSignInClick}
+                  >
+                    {isSignedIn ? "Sign-In/Up" : "Logout"}
+                  </Button>
                 </div>
               </div>
               <Separator className="mt-[-20px] max-w-[1450px] ml-4" />

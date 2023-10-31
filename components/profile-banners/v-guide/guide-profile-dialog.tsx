@@ -23,8 +23,6 @@ type GuideProfileBannerDialogProps = {
   userName: string;
   userTitle: string;
   isOwner?: boolean;
-  isConnected?: boolean;
-  isLoggedIn?: boolean;
   points: number;
   endorsements: number;
   isFeatured: boolean;
@@ -60,8 +58,6 @@ const GuideProfileBannerDialog = ({
   isAgreementVerified = false,
   isIdVerified = false,
   isOwner = false,
-  isConnected = true,
-  isLoggedIn = true,
   isFeatured = true,
 }: GuideProfileBannerDialogProps) => {
   return (
@@ -122,8 +118,6 @@ const GuideProfileBannerDialog = ({
                   <UserTags partOf={partOf} />
                   <Separator />
                   <UserInteraction
-                    isConnected={isConnected}
-                    isLoggedIn={isLoggedIn}
                     isOwner={isOwner}
                   />
                 </div>
