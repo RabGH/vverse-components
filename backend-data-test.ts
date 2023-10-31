@@ -51,6 +51,34 @@ export const categories = [
   },
 ];
 
+export const images = [
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+  "/images/FarmPicVet.png",
+  "/images/PuppyPic.png",
+  "/images/PuppyPic2.png",
+  "/images/VetSurgerySignPic.png",
+];
+
+
 export const vUserInfoData = {
   id: "MBR-756",
   gender: "Male",

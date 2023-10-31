@@ -52,6 +52,11 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/videoPlayer",
     description: "Video Player for V-Verse",
   },
+  {
+    title: "Asset Banners",
+    href: "/assetBanners",
+    description: "Asset cards for content.",
+  },
 ];
 
 export function NavigationMenuDemo() {

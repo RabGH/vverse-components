@@ -35,6 +35,11 @@ const LandingNavbar = () => {
         label={"Calendar Components"}
         link={"/calendars"}
       />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Asset Banners"}
+        link={"/assetBanners"}
+      />
     </div>
   );
 };

@@ -39,7 +39,7 @@ const buttonVariants = cva(
         sm: "h-9 px-3",
         lg: "h-11 px-8",
         icon: "h-10 w-10",
-        banner: "h-11 px-8 w-36",
+        banner: "h-9 px-8 w-36",
         featured: "h-7 px-3",
       },
     },

@@ -1,9 +1,9 @@
 import React from "react";
-
 import Image from "next/image";
+import { MapPin, Phone } from "lucide-react";
+
 import {
   IconFacebook,
-  IconHeartFilled,
   IconInstagram,
   IconLinkedin,
   IconMail,
@@ -15,7 +15,6 @@ import {
   LogoWhite,
 } from "@/components/icons/logo-icons";
 import { Separator } from "@/components/ui/separator";
-import { MapPin, Phone } from "lucide-react";
 import VNavLinks from "@/components/nav/v-nav/v-nav-links";
 import {
   vAboutUsLinks,
@@ -27,33 +26,7 @@ import {
   vOpportunityLinks,
 } from "@/constants";
 import VFooterAds from "./v-footer-ads";
-
-const images = [
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-  "/images/FarmPicVet.png",
-  "/images/PuppyPic.png",
-  "/images/PuppyPic2.png",
-  "/images/VetSurgerySignPic.png",
-];
+import { images } from "@/backend-data-test";
 
 const VFooterContent = () => {
   return (
