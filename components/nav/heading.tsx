@@ -11,7 +11,7 @@ const Heading = ({ title, description, icon: Icon }: HeadingProps) => {
   return (
     <div
       className={`px-4 lg:px-8 flex items-center gap-x-3 mb-8 border-transparent 
-      rounded-xl p-6 vBlue text-white`}
+      rounded-xl p-6 bg-blue-500 shadow-xl text-white`}
     >
       <div className="p-2 w-fit rounded-md">
         <Icon className="w-10 h-10" />

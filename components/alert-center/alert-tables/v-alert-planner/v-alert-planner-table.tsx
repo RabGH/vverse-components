@@ -1,5 +1,4 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
-import React from "react";
 import VAlertPlannerCard from "./v-alert-planner-card";
 import { PlannerItem } from "@/lib/types";
 

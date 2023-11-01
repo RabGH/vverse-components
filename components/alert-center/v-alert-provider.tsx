@@ -2,8 +2,8 @@ import Heading from "@/components/nav/heading";
 import VAlertTab from "./v-alert-center";
 
 import { IconBellFilled } from "@/components/icons/logo-icons";
-import VAlertCenterDropDown from "./alert-center-popups/v-alert-center-dropdown";
-import VAlertCenterDialog from "./alert-center-popups/v-alert-center-dialog";
+import VAlertCenterDropDown from "@/components/alert-center/alert-center-popups/v-alert-center-dropdown";
+import VAlertCenterDialog from "@/components/alert-center/alert-center-popups/v-alert-center-dialog";
 
 const VAlertProvider = () => {
   return (
@@ -12,7 +12,7 @@ const VAlertProvider = () => {
         <Heading
           title={"V-Verse Alert Center"}
           description={
-            "Alert Center that takes data from the backend and displays notifications in 60 combinations, 12 tabs each with a nav of 5 buttons."
+            "Alert Center that takes data from the backend and displays notifications."
           }
           icon={IconBellFilled}
         />
@@ -22,7 +22,7 @@ const VAlertProvider = () => {
         <Heading
           title={"V-Verse Alert Center Dialog"}
           description={
-            "Alert Center that takes data from the backend and displays notifications in 60 combinations, 12 tabs each with a nav of 5 buttons. Inside a button dialog popover component"
+            "Alert Center that takes data from the backend and displays notifications. Inside a button dialog popover component"
           }
           icon={IconBellFilled}
         />

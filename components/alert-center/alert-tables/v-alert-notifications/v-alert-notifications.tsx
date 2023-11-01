@@ -1,5 +1,3 @@
-"use client";
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ButtonKey, NotificationItem, NotificationTabKey } from "@/lib/types";
 import { cn } from "@/lib/utils";

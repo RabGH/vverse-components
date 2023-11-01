@@ -1,25 +1,27 @@
+"use client"
+
 import React, { useState } from "react";
 import { Loader2, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import {
-  IconBellOff,
-  IconBellOutline,
-  IconMail,
-} from "@/components/icons/logo-icons";
+import { IconBellOff, IconBellOutline } from "@/components/icons/logo-icons";
 import { UserSmallAvatar } from "@/components/v-ui/user-small-avatar";
 import { cn } from "@/lib/utils";
-import { EmailItem } from "@/lib/types";
+import { NotificationItem } from "@/lib/types";
 
-type VAlertEmailsCardProps = {
+type VAlertNotificationCardProps = {
   isLoading?: boolean;
-  emails: EmailItem;
+  notification: NotificationItem;
 };
 
-const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
+const VAlertNotificationCard = ({
+  isLoading,
+  notification,
+}: VAlertNotificationCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
 
@@ -44,23 +46,6 @@ const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
     return null;
   }
 
-  const emailTypeColors: Record<string, string> = {
-    vVerse: "vlMutedPurple border font-normal gap-2",
-    Personal: "vlHotPink border font-normal gap-2",
-    Business: "vlAqua border font-normal gap-2",
-  };
-
-  const emailTypeColor = emailTypeColors[emails.type] || "text-black";
-
-  const emailTypeBadge = (
-    <Badge variant={"default"} size="md" className={cn(emailTypeColor)}>
-      <IconMail className="text-white w-4 h-4" />
-      {emails.type}
-    </Badge>
-  );
-
-  const circleStyles: string = `rounded-full flex items-center justify-center w-8 h-8 hover:vgBlue vgRed text-background`;
-
   return (
     <Card
       data-disabled={isLoading}
@@ -69,27 +54,45 @@ const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
         `flex items-center px-4 py-2 shadow-md bg-gray-100 mt-2 hover:-translate-y-1 transition ease-in-out duration-300`
       )}
     >
-      <div className="flex flex-row justify-between items-center w-[1450px] h-22 max-w-full">
+      <div className="flex flex-row justify-between items-center w-[1200px] h-16 max-w-full">
         {isLoading ? (
           <Loader2 className="h-11 w-11 animate-spin" />
         ) : (
           <>
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
-              <div className="flex flex-col ">
-                <p className="text-black font-bold flex flex-row items-center justify-start gap-2">
-                  {emails.senderName}{" "}
-                  <div className={circleStyles}>{emails.numberOfMessages}</div>{" "}
-                </p>
-                <p className="text-black text-base">{emails.title}</p>
-                <p className="text-base text-primary">{emails.subTitle}</p>
-              </div>
+              <p className="text-black font-bold">{notification.user}</p>
+              <p className="text-muted">{notification.title}</p>
+
+              <p className="text-black font-bold">{"<Request>"}</p>
             </div>
             <div className="flex flex-row items-center justify-between gap-4">
-              {emailTypeBadge}
-              {emails.date && (
+              {notification.actions?.includes("accept") && (
+                <Button
+                  variant={"blueRedSlash"}
+                  size="md"
+                  onClick={handleAccept}
+                >
+                  Accept
+                </Button>
+              )}
+              {notification.actions?.includes("decline") && (
+                <Button
+                  variant={"secondary"}
+                  size="md"
+                  onClick={closeNotification}
+                >
+                  Decline
+                </Button>
+              )}
+              {notification.actions?.includes("viewReport") && (
+                <Button variant={"blueRedSlash"} size="sm">
+                  View Report
+                </Button>
+              )}
+              {notification.date && (
                 <Badge variant={"profile"} size="label" className={cn("")}>
-                  {emails.date}
+                  {notification.date}
                 </Badge>
               )}
 
@@ -116,4 +119,4 @@ const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
   );
 };
 
-export default VAlertEmailsCard;
+export default VAlertNotificationCard;

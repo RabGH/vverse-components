@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { Loader2, X } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -5,17 +7,36 @@ import { useRouter } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { IconBellOff, IconBellOutline } from "@/components/icons/logo-icons";
+import {
+  IconBellOff,
+  IconBellOutline,
+  LogoVBlog,
+  LogoVCollege,
+  LogoVEvents,
+  LogoVExpert,
+  LogoVGuide,
+  LogoVJobs,
+  LogoVLance,
+  LogoVMarket,
+  LogoVNation,
+  LogoVTube,
+  LogoVWebinars,
+  MainLogo,
+} from "@/components/icons/logo-icons";
 import { UserSmallAvatar } from "@/components/v-ui/user-small-avatar";
 import { cn } from "@/lib/utils";
-import { NewsItem } from "@/lib/types";
+import { MessageItem } from "@/lib/types";
+import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 
-type VAlertNewsCardProps = {
+type VAlertMessagesCardProps = {
   isLoading?: boolean;
-  news: NewsItem;
+  message: MessageItem;
 };
 
-const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
+const VAlertMessagesCard = ({
+  isLoading,
+  message,
+}: VAlertMessagesCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
 
@@ -40,6 +61,30 @@ const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
     return null;
   }
 
+  const pillarStyles: string = "w-32 h-9 text-white";
+
+  const messagePillars: Record<
+    string,
+    React.ReactElement<SVGSVGElement, string | React.JSXElementConstructor<any>>
+  > = {
+    vVerse: <MainLogo className={"w-10"} />,
+    vGuide: <LogoVGuide className={"text-white w-24"} />,
+    vBlog: <LogoVBlog className={"text-white w-24"} />,
+    vNation: <LogoVNation className={pillarStyles} />,
+    vTube: <LogoVTube className={"text-white w-24"} />,
+    vJobs: <LogoVJobs className={"text-white w-24"} />,
+    vLance: <LogoVLance className={"text-white w-24"} />,
+    vCollege: <LogoVCollege className={pillarStyles} />,
+    vMarket: <LogoVMarket className={pillarStyles} />,
+    vEvents: <LogoVEvents className={pillarStyles} />,
+    vWebinars: <LogoVWebinars className={pillarStyles} />,
+    vExperts: <LogoVExpert className={pillarStyles} />,
+  };
+
+  const messagePillar: React.ReactElement<SVGSVGElement> = messagePillars[
+    message.fromPillar
+  ] || <span>No Pillars available</span>;
+
   return (
     <Card
       data-disabled={isLoading}
@@ -55,12 +100,16 @@ const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
           <>
             <div className="flex flex-row items-center gap-4">
               <UserSmallAvatar />
-              <p className="text-primary">{news.title}</p>
+              <div className="flex flex-col">
+                <p className="text-black font-bold">{message.user}</p>
+                <p className="text-primary">{message.title}</p>
+              </div>
             </div>
             <div className="flex flex-row items-center justify-between gap-4">
-              {news.date && (
+              {messagePillar}
+              {message.date && (
                 <Badge variant={"profile"} size="label" className={cn("")}>
-                  {news.date}
+                  {message.date}
                 </Badge>
               )}
 
@@ -87,4 +136,4 @@ const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
   );
 };
 
-export default VAlertNewsCard;
+export default VAlertMessagesCard;

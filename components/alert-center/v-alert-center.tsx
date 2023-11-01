@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import VAlertNav from "./v-alert-nav";
+import VAlertNav from "@/components/alert-center/v-alert-nav";
 import {
   vEmailsTotal,
   vMessagesTotal,
   vNewsTotal,
   vNotifcationsTotal,
   vPlannerTotals,
-} from "./alert-badge-constants";
+} from "@/components/alert-center/alert-badge-constants";
 import { ButtonKey, VisitedButtons } from "@/lib/types";
 
 import { VAlertCenterData } from "@/backend-data-test";
