@@ -5,7 +5,12 @@ import React from "react";
 const AlertCenterPage = () => {
   return (
     <div className="flex flex-col gap-4">
-      <VHeroHeader />
+      <VHeroHeader
+        pillar={"V-Guide Alert Center"}
+        description={
+          "The First Mega Directory For The Veterinary Industry Global Community"
+        }
+      />
       <VAlertProvider />
     </div>
   );
