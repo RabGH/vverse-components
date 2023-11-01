@@ -19,7 +19,7 @@ module.exports = {
       colors: {
         // Single Colors
         violet: "var(--violet)",
-        hoverBlue: "var(--hoverBlue)",
+        hoverBlue: "var(--hover-blue)",
 
         // Linear Colors
         plumLight: "var(--plum-light)",
