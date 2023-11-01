@@ -11265,8 +11265,44 @@ export const LogoWhite = React.forwardRef<SVGSVGElement, LucideProps>(
 
 LogoWhite.displayName = "LogoWhite";
 
+export const IconSaveFloppyDisk = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 21 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.3333 17.5H4.66667C4.22464 17.5 3.80072 17.3244 3.48816 17.0118C3.17559 16.6993 3 16.2754 3 15.8333V4.16667C3 3.72464 3.17559 3.30072 3.48816 2.98816C3.80072 2.67559 4.22464 2.5 4.66667 2.5H13.8333L18 6.66667V15.8333C18 16.2754 17.8244 16.6993 17.5118 17.0118C17.1993 17.3244 16.7754 17.5 16.3333 17.5Z"
+        stroke="white"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M14.6668 17.4997V10.833H6.3335V17.4997"
+        stroke="white"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M6.3335 2.5V6.66667H13.0002"
+        stroke="white"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  )
+);
+
+IconSaveFloppyDisk.displayName = "IconSaveFloppyDisk";
+
 export const Icons = {
   LogoBlue: LogoBlue,
+  IconSaveFloppyDisk: IconSaveFloppyDisk,
   PlusSignBlue: PlusSignBlue,
   HamburgerMenu: HamburgerMenu,
   IconGrid: IconGrid,

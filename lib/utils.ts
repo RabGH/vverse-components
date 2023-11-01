@@ -24,3 +24,41 @@ export function formatJobExperience(years: number) {
     return "";
   }
 }
+
+export const parseHoursFormat = (hours: number): string => {
+  if (hours < 1) {
+    return `${hours * 60} minutes`;
+  }
+  if (hours < 24) {
+    return `${hours} hours`;
+  }
+  if (hours < 24 * 7) {
+    const days = Math.floor(hours / 24);
+    return `${days} day${days > 1 ? "s" : ""}`;
+  }
+  if (hours < 24 * 7 * 4) {
+    const weeks = Math.floor(hours / (24 * 7));
+    return `${weeks} week${weeks > 1 ? "s" : ""}`;
+  }
+  if (hours < 24 * 7 * 4 * 12) {
+    const months = Math.floor(hours / (24 * 7 * 4));
+    return `${months} month${months > 1 ? "s" : ""}`;
+  }
+  if (hours < 24 * 7 * 4 * 12 * 5) {
+    const years = Math.floor(hours / (24 * 7 * 4 * 12));
+    return `${years} year${years > 1 ? "s" : ""}`;
+  }
+  return "Over 5 years"; // or adjust this threshold as needed
+};
+
+export function parseDurationFormat(hours: number) {
+  const days = Math.floor(hours / 24);
+  const remainingHours = hours % 24;
+  const minutes = Math.floor((hours - Math.floor(hours)) * 60);
+
+  const formattedDays = days.toString().padStart(2, "0");
+  const formattedHours = remainingHours.toString().padStart(2, "0");
+  const formattedMinutes = minutes.toString().padStart(2, "0");
+
+  return `${formattedDays}D:${formattedHours}H:${formattedMinutes}M`;
+}

@@ -1,19 +1,31 @@
 import React from "react";
-
 import Image from "next/image";
+
 import { UserSmallAvatar } from "../v-ui/user-small-avatar";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import AssetInteraction from "./asset-interact";
-import AssetBadges from "./asset-badges";
-import AssetDetails from "./asset-details";
+import AssetInteraction from "@/components/asset-banners/asset-interact";
+import AssetBadges from "@/components/asset-banners/asset-badges";
+import AssetDetails from "@/components/asset-banners/asset-details";
+import AssetInteractionTop, {
+  AssetInteractionTopProps,
+} from "@/components/asset-banners/asset-interact-top";
+
+// specify types
 
 type AssetBannerProps = {
   data: any;
   dataType: string;
+  isOwner?: boolean;
+  buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
-const AssetBanner = ({ data, dataType }: AssetBannerProps) => {
+const AssetBanner = ({
+  data,
+  dataType,
+  isOwner,
+  buttonDataType,
+}: AssetBannerProps) => {
   return (
     <Card
       className={`relative z-0 rounded-xl h-fit w-fit hover:shadow-2xl hover:translate-y-[-5px] 
@@ -31,10 +43,18 @@ const AssetBanner = ({ data, dataType }: AssetBannerProps) => {
       </div>
 
       <div className="absolute top-0 left-0 right-0 z-[3] text-white p-3">
-        <CardTitle className="flex flex-row gap-2 items-center">
-          <UserSmallAvatar />
-          <p className="text-base">{data.userName}</p>
-        </CardTitle>
+        <div className="flex flex-row justify-between items-center">
+          <CardTitle className="flex flex-row gap-2 items-center">
+            <UserSmallAvatar />
+            <p className="text-base">{data.userName}</p>
+          </CardTitle>
+          <div>
+            <AssetInteractionTop
+              isOwner={isOwner}
+              buttonDataType={buttonDataType}
+            />
+          </div>
+        </div>
       </div>
 
       <CardContent className="absolute bottom-0 left-0 right-0 z-[3] p-2 text-white">
@@ -48,7 +68,7 @@ const AssetBanner = ({ data, dataType }: AssetBannerProps) => {
           <h2 className="text-2xl">{data.title}</h2>
           <Separator className="bg-white/50 m-2" />
 
-          <AssetInteraction />
+          <AssetInteraction isOwner={isOwner} />
         </div>
       </CardContent>
     </Card>

@@ -1,5 +1,7 @@
 import AssetBlogData from "@/components/asset-banners/asset-data/asset-blog-data";
 import AssetNationData from "@/components/asset-banners/asset-data/asset-nation-data";
+import AssetTubeData from "./asset-data/asset-tube-date";
+import AssetLanceData from "./asset-data/asset-lance-data";
 
 type AssetDetailsProps = {
   data: any;
@@ -33,6 +35,34 @@ const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
           rating={data.rating}
           ratingPoints={data.ratingPoints}
           followers={data.followers}
+        />
+      )}
+      {dataType === "tube" && (
+        <AssetTubeData
+          assetId={data.assetId}
+          type={data.type}
+          date={data.date}
+          views={data.views}
+          subscribers={data.subscribers}
+          channelFollowers={data.channelFollowers}
+          likes={data.likes}
+          shares={data.shares}
+          rating={data.rating}
+          ratingPoints={data.ratingPoints}
+        />
+      )}
+      {dataType === "lanceService" && (
+        <AssetLanceData
+          assetId={data.assetId}
+          type={data.type}
+          date={data.date}
+          sales={data.sales}
+          orders={data.orders}
+          customers={data.customers}
+          likes={data.likes}
+          shares={data.shares}
+          rating={data.rating}
+          ratingPoints={data.ratingPoints}
         />
       )}
     </div>

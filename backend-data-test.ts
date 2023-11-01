@@ -1699,10 +1699,12 @@ export const vAssetTubeData = [
   },
 ];
 
-export const vAssetLanceServiceData = [
+export const vAssetLancerServiceData = [
   {
     id: 1,
     assetId: "ASS-SRV-122",
+    title:
+      "Lance Service Page for sale, services for sale. V-Verse Lancer Asset.",
     type: "public",
     userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
@@ -1722,6 +1724,8 @@ export const vAssetLanceServiceData = [
   {
     id: 2,
     assetId: "ASS-SRV-123",
+    title:
+      "Lance Service Page for sale, services for sale. V-Verse Lancer Asset.",
     type: "private",
     userName: "Dr. Ahmad Hassan",
     date: "22-Nov-2025 1:30 AM",
@@ -1753,7 +1757,7 @@ export const vAssetLanceProjectData = [
     isHiring: "hiring",
     deliveryTime: 24,
     projectLocation: "onsite",
-    projectExpertise: "Beginner",
+    projectExpertise: "beginner",
     paymentType: "fixed",
     projectPay: "725",
     imageUrl: "/images/article-coder-coding.png",
@@ -1770,7 +1774,7 @@ export const vAssetLanceProjectData = [
     isHiring: "hiring",
     deliveryTime: 24,
     projectLocation: "remote",
-    projectExpertise: "Intermediate",
+    projectExpertise: "intermediate",
     paymentType: "fixed",
     projectPay: "825",
     imageUrl: "/images/article-coder-coding.png",
@@ -1787,7 +1791,7 @@ export const vAssetLanceProjectData = [
     // isHiring: "hiring",
     deliveryTime: 24,
     projectLocation: "hybrid",
-    projectExpertise: "Advanced",
+    projectExpertise: "advanced",
     paymentType: "fixed",
     projectPay: "1100",
     imageUrl: "/images/article-coder-coding.png",
@@ -1966,9 +1970,9 @@ export const vAssetEventsData = [
     price: 125,
     isFeatured: "featured",
     paymentType: "paid",
-    eventTime: "Coming",
+    eventTime: "coming",
     country: "egypt",
-    duration: 24,
+    eventDuration: 24,
     tickets: "150",
     imageUrl: "/images/article-event-conference.png",
   },
@@ -1991,8 +1995,8 @@ export const vAssetWebinarData = [
     isFeatured: "featured",
     price: 125,
     paymentType: "paid",
-    eventTime: "Coming",
-    duration: 5,
+    eventTime: "coming",
+    eventDuration: 5,
     tickets: "150",
     imageUrl: "/images/article-webinar-online.png",
   },
@@ -2016,7 +2020,7 @@ export const vAssetExpertsData = [
     isExclusive: "exclusive",
     price: 125,
     paymentType: "paid",
-    duration: 5,
+    eventDuration: 5,
     imageUrl: "/images/article-experts-consultation.png",
   },
 ];
@@ -2041,5 +2045,32 @@ export const vAssetSponsorshipData = [
     paymentType: "paid",
     isDiscounted: "regular",
     imageUrl: "/images/article-sponsorship-marketing-graph.png",
+  },
+];
+
+export const vAssetsJobsLancerData = [
+  {
+    id: 1,
+    assetId: "ASS-SRV-122",
+    title:
+      "Lance Job Page for sale, jobs for enrollment. V-Verse Lancer Asset.",
+    type: "public",
+    userName: "Dr. Ahmad Hassan",
+    date: "19-Nov-2025 1:30 AM",
+    sales: 22200,
+    orders: 1200,
+    customers: 1200,
+    likes: 110000,
+    shares: 32000,
+    rating: 4.8,
+    ratingPoints: 2000,
+    isFeatured: "featured",
+    isExclusive: "exclusive",
+    price: 40,
+    deliveryTime: 72,
+    positionDuration: "fulltime",
+    salaryPaymentTime: "monthly",
+    monthlySalary: 1250,
+    imageUrl: "/images/article-larry-lones.png",
   },
 ];

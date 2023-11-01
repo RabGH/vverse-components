@@ -1,8 +1,15 @@
 "use client";
-
 import React, { useState } from "react";
+
 import { Button } from "@/components/ui/button";
-import { IconThumbsUp } from "../icons/logo-icons";
+import {
+  IconFlag,
+  IconSaveFloppyDisk,
+  IconShare,
+  IconStar,
+  IconThumbsUp,
+} from "@/components/icons/logo-icons";
+import { useMount } from "@/hooks/mount-hook";
 
 type AssetInteractionProps = {
   isOwner?: boolean;
@@ -13,6 +20,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
   const [isSaved, setIsSaved] = useState(false);
   const [isRated, setIsRated] = useState(false);
   const [isReported, setIsReported] = useState(false);
+  const isMounted = useMount();
 
   const handleLikeClick = () => {
     setIsLiked((prevLiked) => !prevLiked);
@@ -32,8 +40,10 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
 
   const handleShareClick = () => {};
 
+  if (!isMounted) return null;
+
   return (
-    <div className="flex flex-row justify-center items-center gap-6">
+    <div className="flex flex-row justify-center items-center gap-2">
       {!isOwner && (
         <>
           <Button
@@ -47,7 +57,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
           <Button
             size="banner"
             variant={"blueRedSlash"}
-            icon={<IconThumbsUp className="w-4 h-4" />}
+            icon={<IconShare className="w-4 h-4" />}
             onClick={handleShareClick}
           >
             Share
@@ -55,7 +65,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
           <Button
             size="banner"
             variant={isRated ? "userPurple" : "blueRedSlash"}
-            icon={<IconThumbsUp className="w-4 h-4" />}
+            icon={<IconStar className="w-4 h-4" />}
             onClick={handleRateClick}
           >
             {isRated ? "Rated" : "Rate"}
@@ -63,7 +73,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
           <Button
             size="banner"
             variant={isSaved ? "userPurple" : "blueRedSlash"}
-            icon={<IconThumbsUp className="w-4 h-4" />}
+            icon={<IconSaveFloppyDisk className="w-4 h-4" />}
             onClick={handleSaveClick}
           >
             {isSaved ? "Saved" : "Save"}
@@ -71,7 +81,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
           <Button
             size="banner"
             variant={isReported ? "userPurple" : "blueRedSlash"}
-            icon={<IconThumbsUp className="w-4 h-4" />}
+            icon={<IconFlag className="w-4 h-4" />}
             onClick={handleReportClick}
           >
             {isReported ? "Reported" : "Report"}
