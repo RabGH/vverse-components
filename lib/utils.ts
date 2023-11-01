@@ -70,3 +70,7 @@ export function parseDurationFormat(hours: number) {
 
   return `${formattedDays}D:${formattedHours}H:${formattedMinutes}M`;
 }
+
+export function formatCapitalLetters(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}

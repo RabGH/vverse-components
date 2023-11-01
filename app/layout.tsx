@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Prompt } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const prompt = Prompt({ weight: "400", subsets: ["latin"] });
+const prompt = Montserrat({ weight: "500", subsets: ["latin"] });
 
 import { Toaster } from "@/components/ui/toaster";
 
