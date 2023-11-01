@@ -62,7 +62,7 @@ const AssetBanner = ({
           <AssetDetails data={data} dataType={dataType} />
           <Separator className="bg-white/50 m-2" />
 
-          <AssetBadges />
+          <AssetBadges dataType={dataType} data={data} />
 
           <Separator className="bg-white/50 m-2" />
           <h2 className="text-2xl">{data.title}</h2>

@@ -3,22 +3,20 @@ import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { IconZap } from "@/components/icons/logo-icons";
 
-type VFeaturedBadgeProps = {
+type FeaturedBadgeProps = {
   isFeatured?: string;
 };
 
-const VFeaturedBadge = ({ isFeatured }: VFeaturedBadgeProps) => {
-  return (
-    {isFeatured ? : (<Badge
+const FeaturedBadge = ({ isFeatured }: FeaturedBadgeProps) => {
+  return isFeatured ? (
+    <Badge
       size="featured"
-      variant={"bannerRed"}
+      variant="bannerRed"
       icon={<IconZap className="w-4 h-4" />}
     >
       Featured
     </Badge>
-    )}
-    
-  );
+  ) : null;
 };
 
-export default VFeaturedBadge;
+export default FeaturedBadge;
