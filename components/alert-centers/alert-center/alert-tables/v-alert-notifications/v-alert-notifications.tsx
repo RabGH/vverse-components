@@ -41,8 +41,7 @@ const VAlertNotifications = ({
   const getTabTriggerStyles = (tab: NotificationTabKey) => {
     return cn(
       `h-14 hover:bg-hoverBlue w-64 hover:text-white text-muted justify-between gap-6 
-data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`,
-      activeTab === tab ? "" : ""
+      data-[state=active]:vgBlue hover:border-blue-400/50 hover:border`
     );
   };
 

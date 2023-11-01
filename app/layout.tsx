@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
-const prompt = Montserrat({ weight: "500", subsets: ["latin"] });
+const montserrat = Montserrat({ weight: "500", subsets: ["latin"] });
 
 import { Toaster } from "@/components/ui/toaster";
 
@@ -18,9 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={prompt.className}>
+      <body className={montserrat.className}>
         {children}
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
