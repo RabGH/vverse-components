@@ -5,7 +5,7 @@ import AssetMap from "./asset-map";
 type AssetBannerProviderProps = {
   data: any;
   dataType: string;
-  isOwner?: boolean;
+  isOwner: boolean;
 };
 
 const AssetBannerProvider = ({
@@ -40,7 +40,12 @@ const AssetBannerProvider = ({
         />
       )}
       {dataType === "lanceService" && (
-        <AssetMap data={data} dataType={dataType} buttonDataType={"buy"} />
+        <AssetMap
+          data={data}
+          dataType={dataType}
+          isOwner={isOwner}
+          buttonDataType={"buy"}
+        />
       )}
     </div>
   );

@@ -15,6 +15,14 @@ export function formatNumber(num: number) {
   }
 }
 
+export const formatPriceTag = (price: number): string => {
+  return price.toLocaleString("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: 2,
+  });
+};
+
 export function formatJobExperience(years: number) {
   if (years === 1) {
     return years + " Yr.";

@@ -12,7 +12,7 @@ import {
 import { useMount } from "@/hooks/mount-hook";
 
 type AssetInteractionProps = {
-  isOwner?: boolean;
+  isOwner: boolean;
 };
 
 const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {

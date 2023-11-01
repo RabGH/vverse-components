@@ -8,7 +8,7 @@ import { AssetInteractionTopProps } from "@/components/asset-banners/asset-inter
 type AssetMapProps = {
   data: any;
   dataType: string;
-  isOwner?: boolean;
+  isOwner: boolean;
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 

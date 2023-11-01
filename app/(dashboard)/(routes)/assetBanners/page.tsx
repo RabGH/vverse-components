@@ -10,7 +10,7 @@ import React from "react";
 const AssetBannerPage = () => {
   return (
     <div className="flex flex-col gap-10">
-      {/* <AssetBannerProvider
+      <AssetBannerProvider
         data={vAssetBlogData}
         dataType={"blog"}
         isOwner={false}
@@ -24,7 +24,7 @@ const AssetBannerPage = () => {
         data={vAssetTubeData}
         dataType={"tube"}
         isOwner={false}
-      /> */}
+      />
       <AssetBannerProvider
         data={vAssetLancerServiceData}
         dataType={"lanceService"}

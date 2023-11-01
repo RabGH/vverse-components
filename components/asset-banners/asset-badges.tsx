@@ -1,8 +1,9 @@
 import React from "react";
 
-import FeaturedBadge from "./asset-badges/featured-badge";
-import ExclusiveBadge from "./asset-badges/exclusive-badge";
-import HiringBadge from "./asset-badges/hiring-badge";
+import FeaturedBadge from "@/components/asset-banners/asset-badges/featured-badge";
+import ExclusiveBadge from "@/components/asset-banners/asset-badges/exclusive-badge";
+import HiringBadge from "@/components/asset-banners/asset-badges/hiring-badge";
+import PriceBadge from "@/components/asset-banners/asset-badges/price-badge";
 
 type AssetBadgesProps = {
   dataType: string;
@@ -22,6 +23,9 @@ const AssetBadges = ({ dataType, data }: AssetBadgesProps) => {
         <ExclusiveBadge isExclusive={data.isExclusive} />
       )}
       {dataType === "lanceProject" && <HiringBadge isHiring={data.isHiring} />}
+      {(dataType === "lanceProject" || dataType === "lanceService") && (
+        <PriceBadge price={data.price} />
+      )}
     </div>
   );
 };

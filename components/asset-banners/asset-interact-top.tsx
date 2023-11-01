@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { IconShare } from "../icons/logo-icons";
 
 export type AssetInteractionTopProps = {
   isOwner?: boolean;
@@ -45,59 +46,69 @@ const AssetInteractionTop = ({
     <div className="flex flex-row gap-2">
       {isOwner && (
         <>
-          <Button>Share</Button>
-          <Button>Edit</Button>
+          <Button size="icon" icon={<IconShare className="w-4 h-4" />} />
+          <Button size="banner" variant={"blueRedSlash"}>
+            Edit
+          </Button>
         </>
       )}
-      {buttonDataType === "follow" && (
-        <Button
-          onClick={handleFollowClick}
-          size="banner"
-          variant={isFollowed ? "userPurple" : "blueRedSlash"}
-        >
-          {isFollowed ? "Unfollow" : "Follow"}
-        </Button>
-      )}
-      {buttonDataType === "join" && (
-        <Button
-          onClick={handleJoinClick}
-          size="banner"
-          variant={isJoined ? "userPurple" : "blueRedSlash"}
-        >
-          {isJoined ? "Leave" : "Join"}
-        </Button>
-      )}
-      {buttonDataType === "subscribe" && (
-        <Button
-          onClick={handleSubscribeClick}
-          size="banner"
-          variant={isSubscribed ? "userPurple" : "blueRedSlash"}
-        >
-          {isSubscribed ? "Unsubscribe" : "Subscribe"}
-        </Button>
-      )}
-      {buttonDataType === "buy" && (
-        <Button onClick={handleBuyClick} size="banner" variant={"blueRedSlash"}>
-          Buy
-        </Button>
-      )}
-      {buttonDataType === "apply" && (
-        <Button
-          onClick={handleApplyClick}
-          size="banner"
-          variant={isApplied ? "userPurple" : "blueRedSlash"}
-        >
-          {isApplied ? "Withdraw" : "Apply"}
-        </Button>
-      )}
-      {buttonDataType === "enroll" && (
-        <Button
-          onClick={handleEnrollClick}
-          size="banner"
-          variant={isEnrolled ? "userPurple" : "blueRedSlash"}
-        >
-          {isEnrolled ? "Enrolled" : "Enroll"}
-        </Button>
+      {!isOwner && (
+        <>
+          {buttonDataType === "follow" && (
+            <Button
+              onClick={handleFollowClick}
+              size="banner"
+              variant={isFollowed ? "userPurple" : "blueRedSlash"}
+            >
+              {isFollowed ? "Unfollow" : "Follow"}
+            </Button>
+          )}
+          {buttonDataType === "join" && (
+            <Button
+              onClick={handleJoinClick}
+              size="banner"
+              variant={isJoined ? "userPurple" : "blueRedSlash"}
+            >
+              {isJoined ? "Leave" : "Join"}
+            </Button>
+          )}
+          {buttonDataType === "subscribe" && (
+            <Button
+              onClick={handleSubscribeClick}
+              size="banner"
+              variant={isSubscribed ? "userPurple" : "blueRedSlash"}
+            >
+              {isSubscribed ? "Unsubscribe" : "Subscribe"}
+            </Button>
+          )}
+          {buttonDataType === "buy" && (
+            <Button
+              onClick={handleBuyClick}
+              size="banner"
+              variant={"blueRedSlash"}
+            >
+              Buy
+            </Button>
+          )}
+          {buttonDataType === "apply" && (
+            <Button
+              onClick={handleApplyClick}
+              size="banner"
+              variant={isApplied ? "userPurple" : "blueRedSlash"}
+            >
+              {isApplied ? "Withdraw" : "Apply"}
+            </Button>
+          )}
+          {buttonDataType === "enroll" && (
+            <Button
+              onClick={handleEnrollClick}
+              size="banner"
+              variant={isEnrolled ? "userPurple" : "blueRedSlash"}
+            >
+              {isEnrolled ? "Enrolled" : "Enroll"}
+            </Button>
+          )}
+        </>
       )}
     </div>
   );
