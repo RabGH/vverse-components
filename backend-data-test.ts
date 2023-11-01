@@ -1719,7 +1719,7 @@ export const vAssetLancerServiceData = [
     isExclusive: "exclusive",
     price: 40,
     deliveryTime: 72,
-    imageUrl: "/images/article-larry-lones.png",
+    imageUrl: "/images/article-laptop-typing.png",
   },
   {
     id: 2,
@@ -1740,7 +1740,7 @@ export const vAssetLancerServiceData = [
     isExclusive: "exclusive",
     price: 40,
     deliveryTime: 72,
-    imageUrl: "/images/article-larry-lones.png",
+    imageUrl: "/images/article-laptop-typing.png",
   },
 ];
 
@@ -2071,6 +2071,6 @@ export const vAssetsJobsLancerData = [
     positionDuration: "fulltime",
     salaryPaymentTime: "monthly",
     monthlySalary: 1250,
-    imageUrl: "/images/article-larry-lones.png",
+    imageUrl: "/images/article-laptop-typing.png",
   },
 ];

@@ -60,13 +60,13 @@ const AssetBanner = ({
       <CardContent className="absolute bottom-0 left-0 right-0 z-[3] p-2 text-white">
         <div className="px-2">
           <AssetDetails data={data} dataType={dataType} />
-          <Separator className="bg-white/50 m-2" />
+          <Separator className="bg-white/50 mr-4 my-2" />
 
           <AssetBadges dataType={dataType} data={data} />
 
-          <Separator className="bg-white/50 m-2" />
+          <Separator className="bg-white/50 mr-4 my-2" />
           <h2 className="text-2xl">{data.title}</h2>
-          <Separator className="bg-white/50 m-2" />
+          <Separator className="bg-white/50 mr-4 my-2" />
 
           <AssetInteraction isOwner={isOwner} />
         </div>

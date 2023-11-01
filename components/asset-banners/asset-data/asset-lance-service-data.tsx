@@ -11,7 +11,7 @@ import {
 import { formatNumber } from "@/lib/utils";
 import React from "react";
 
-type AssetLanceDataProps = {
+type AssetLanceServiceDataProps = {
   assetId: string;
   type: "private" | "public";
   date: string;
@@ -24,7 +24,7 @@ type AssetLanceDataProps = {
   ratingPoints: number;
 };
 
-const AssetLanceData = ({
+const AssetLanceServiceData = ({
   assetId,
   type,
   date,
@@ -35,7 +35,7 @@ const AssetLanceData = ({
   shares,
   rating,
   ratingPoints,
-}: AssetLanceDataProps) => {
+}: AssetLanceServiceDataProps) => {
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
       # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
@@ -51,4 +51,4 @@ const AssetLanceData = ({
   );
 };
 
-export default AssetLanceData;
+export default AssetLanceServiceData;

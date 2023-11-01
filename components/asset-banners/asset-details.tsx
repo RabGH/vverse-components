@@ -1,7 +1,7 @@
 import AssetBlogData from "@/components/asset-banners/asset-data/asset-blog-data";
 import AssetNationData from "@/components/asset-banners/asset-data/asset-nation-data";
 import AssetTubeData from "./asset-data/asset-tube-date";
-import AssetLanceData from "./asset-data/asset-lance-data";
+import AssetLanceServiceData from "./asset-data/asset-lance-service-data";
 
 type AssetDetailsProps = {
   data: any;
@@ -52,7 +52,7 @@ const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
         />
       )}
       {dataType === "lanceService" && (
-        <AssetLanceData
+        <AssetLanceServiceData
           assetId={data.assetId}
           type={data.type}
           date={data.date}

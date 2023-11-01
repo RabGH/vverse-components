@@ -43,7 +43,7 @@ const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
   if (!isMounted) return null;
 
   return (
-    <div className="flex flex-row justify-center items-center gap-2">
+    <div className="flex flex-row justify-center items-center gap-2 p-2">
       {!isOwner && (
         <>
           <Button

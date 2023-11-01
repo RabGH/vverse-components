@@ -66,7 +66,7 @@ const VFooterContent = () => {
                   </p>
                 </div>
                 <Separator className="bg-white" />
-                <div className="flex flex-row justify-center items-center w-full gap-6">
+                <div className="flex flex-row justify-center items-center w-full gap-2 lg:gap-6">
                   <IconLinkedin className="text-white hover:translate-y-[-5px] ease-in-out duration-300 transition" />{" "}
                   <IconFacebook className="hover:translate-y-[-5px] ease-in-out duration-300 transition" />{" "}
                   <IconTwitter className="text-white hover:translate-y-[-5px] ease-in-out duration-300 transition" />{" "}
@@ -98,7 +98,7 @@ const VFooterContent = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-6 w-full ml-40">
+              <div className="flex flex-col gap-6 w-full lg:ml-40">
                 <VNavLinks
                   sectionLinks={vAboutUsLinks}
                   sectionTitle={"About Us"}
