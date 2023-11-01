@@ -27,20 +27,23 @@ export function EmojiMart() {
         <PopoverTrigger asChild>
           <Button
             variant={"secondary"}
-            size="icon"
-            icon={<IconHeartFilled />}
+            size="featured"
+            icon={<IconHeartFilled className="h-4 w-4" />}
             aria-label="Emoji"
-          />
+            className="flex items-center"
+          >
+            Emoji
+          </Button>
         </PopoverTrigger>
         <PopoverContent>
           <Picker data={data} onEmojiSelect={handleEmojiSelect} />
         </PopoverContent>
       </Popover>
-      <Card>
+      <Card className="w-40 h-40">
         <CardTitle>Emoji</CardTitle>
         <CardContent>
           {selectedEmojis.map((emoji: any, index) => (
-            <span key={index}>{emoji}</span>
+            <span key={index}>{emoji.native}</span>
           ))}
         </CardContent>
       </Card>
