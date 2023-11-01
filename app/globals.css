@@ -12,7 +12,8 @@ body,
   :root {
     /* Single Colors */
     --violet: #7F00FF;
-    --hoverBlue: #60A5FA;
+    --hover-blue: #60A5FA;
+
 
     /* Linear Colors */
     --plum-light: #933C6B;
@@ -367,8 +368,8 @@ body,
 .flatpickr-day.nextMonthDay:focus {
   cursor: pointer;
   outline: 0;
-  background: #7F00FF; 
-  border-color: #7F00FF;
+  background: var(--hover-blue); 
+  border-color: var(--hover-blue);
   color: #fff;
 }
 /* Month Selector */
@@ -402,7 +403,7 @@ body,
 }
 
 .flatpickr-day.inRange:hover {
-  background: #952cff;
+  background: var(--blue-light);
   color: #fff
 }
 
@@ -452,8 +453,8 @@ body,
 /* Style dates in the range with a custom box-shadow */
 .flatpickr-day.inRange {
   border-radius: 0;
-  -webkit-box-shadow: -5px 0 0 #7F00FF, 5px 0 0 #7F00FF;
-  box-shadow: -5px 0 0 #7F00FF, 5px 0 0 #7F00FF;
+  -webkit-box-shadow: -5px 0 0 #60A5FA, 5px 0 0 #60A5FA;
+  box-shadow: -5px 0 0 #60A5FA, 5px 0 0 #60A5FA;
 }
 
 /* Arrow Key colors */
