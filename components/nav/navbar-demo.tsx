@@ -57,6 +57,11 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/assetBanners",
     description: "Asset cards for content.",
   },
+  {
+    title: "Emoji Mart",
+    href: "/textEditor",
+    description: "Asset cards for content.",
+  },
 ];
 
 export function NavigationMenuDemo() {

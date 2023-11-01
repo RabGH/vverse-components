@@ -1,5 +1,6 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
+
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export function UserSmallAvatar() {
   return (
@@ -9,7 +10,6 @@ export function UserSmallAvatar() {
         <Image
           width={45}
           height={45}
-          // objectFit="contain"
           src="/icons/Logo.svg"
           alt="vverse"
           className="mt-2"

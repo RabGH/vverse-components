@@ -40,6 +40,11 @@ const LandingNavbar = () => {
         label={"Asset Banners"}
         link={"/assetBanners"}
       />
+      <SquareButton
+        icon={ArrowRightCircle}
+        label={"Text Editors"}
+        link={"/textEditor"}
+      />
     </div>
   );
 };
