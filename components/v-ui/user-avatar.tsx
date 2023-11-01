@@ -12,7 +12,7 @@ export function UserAvatar() {
             <Image
               width={75}
               height={75}
-              src="/icons/Logo.svg"
+              src="/svgs/Logo.svg"
               alt="vverse"
               className="mt-3"
             />

@@ -35,7 +35,7 @@ const VFooterContent = () => {
       <footer className="relative bottom-0 min-h-[900px] lg:min-h-[800px]">
         <div>
           <Image
-            src="/icons/VVerseNavBg.svg"
+            src="/svgs/VVerseNavBg.svg"
             alt="vverse"
             fill
             objectFit="cover"
