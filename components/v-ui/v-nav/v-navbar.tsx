@@ -14,9 +14,9 @@ import {
 
 import { cn } from "@/lib/utils";
 import { UserAvatar } from "@/components/v-ui/user-avatar";
-import VVerseMenuContent from "@/components/nav/v-nav/v-verse-menu-content";
+import VVerseMenuContent from "@/components/v-ui/v-nav/v-verse-menu-content";
 import { Separator } from "@/components/ui/separator";
-import VVerseBackOfficeMenuContent from "@/components/nav/v-nav/v-verse-back-office-content";
+import VVerseBackOfficeMenuContent from "@/components/v-ui/v-nav/v-verse-back-office-content";
 
 type VNavBarProps = {
   userName: string;

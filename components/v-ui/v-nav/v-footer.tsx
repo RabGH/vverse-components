@@ -15,7 +15,7 @@ import {
   LogoWhite,
 } from "@/components/icons/logo-icons";
 import { Separator } from "@/components/ui/separator";
-import VNavLinks from "@/components/nav/v-nav/v-nav-links";
+import VNavLinks from "@/components/v-ui/v-nav/v-nav-links";
 import {
   vAboutUsLinks,
   vAgencyLinks,

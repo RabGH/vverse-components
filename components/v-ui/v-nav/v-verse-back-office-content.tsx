@@ -17,7 +17,7 @@ import {
   vHubBackendMenuLinks,
 } from "@/constants";
 
-import VNavLinks from "@/components/nav/v-nav/v-nav-links";
+import VNavLinks from "@/components/v-ui/v-nav/v-nav-links";
 import { Separator } from "@/components/ui/separator";
 
 const VVerseBackOfficeMenuContent = () => {

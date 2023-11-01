@@ -1,5 +1,5 @@
 import { NavigationMenuDemo } from "@/components/nav/navbar-demo";
-import VFooter from "@/components/nav/v-nav/v-footer";
+import VFooter from "@/components/v-ui/v-nav/v-footer";
 
 const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
