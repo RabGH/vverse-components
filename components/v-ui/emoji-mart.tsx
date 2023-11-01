@@ -39,9 +39,9 @@ export function EmojiMart() {
           <Picker data={data} onEmojiSelect={handleEmojiSelect} />
         </PopoverContent>
       </Popover>
-      <Card className="w-40 h-40">
+      <Card className="w-60 h-60 p-4 border-violet flex flex-col items-center">
         <CardTitle>Emoji</CardTitle>
-        <CardContent>
+        <CardContent className="p-4">
           {selectedEmojis.map((emoji: any, index) => (
             <span key={index}>{emoji.native}</span>
           ))}
