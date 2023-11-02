@@ -1,10 +1,8 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import classNames from "embla-carousel-class-names";
-import { ChevronRight, ChevronLeft } from "lucide-react";
 
 import "./embla-animals.css";
 
@@ -18,23 +16,11 @@ type AnimalCardsMapProps = {
 
 const AnimalCardsMap = ({ animalCards }: AnimalCardsMapProps) => {
   const options: EmblaOptionsType = { loop: true };
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
-  const [autoplayRef] = useState(Autoplay);
-  const [classNamesRef] = useState(classNames);
-
-  useEffect(() => {
-    if (emblaApi) {
-      autoplayRef.current(emblaApi, { interval: 3000 });
-      classNamesRef.current(emblaApi);
-    }
-  }, [emblaApi, autoplayRef, classNamesRef]);
-
-  const handleNext = () => emblaApi?.scrollNext();
-  const handlePrev = () => emblaApi?.scrollPrev();
+  const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
 
   return (
     <section
-      className="flex justify-center w-96 h-64 overflow-hidden embla gap-2"
+      className="flex justify-center w-[1200px] h-64 overflow-hidden embla gap-2"
       ref={emblaRef}
     >
       <div className="w-full h-full embla__container">
@@ -133,32 +119,6 @@ const AnimalCardsMap = ({ animalCards }: AnimalCardsMapProps) => {
             buttonLink={"/"}
           />
         </div>
-      </div>
-      <div className="flex justify-between items-center absolute inset-x-0 inset-y-0 z-10">
-        <button
-          className="embla__button embla__button--prev bg-white rounded-full p-2 shadow-lg"
-          onClick={handlePrev}
-          disabled={!emblaApi?.canScrollPrev()}
-        >
-          <ChevronLeft
-            className={`text-gray-500 ${
-              emblaApi?.canScrollPrev() ? "opacity-100" : "opacity-50"
-            }`}
-            size={24}
-          />
-        </button>
-        <button
-          className="embla__button embla__button--next bg-white rounded-full p-2 shadow-lg"
-          onClick={handleNext}
-          disabled={!emblaApi?.canScrollNext()}
-        >
-          <ChevronRight
-            className={`text-gray-500 ${
-              emblaApi?.canScrollNext() ? "opacity-100" : "opacity-50"
-            }`}
-            size={24}
-          />
-        </button>
       </div>
     </section>
   );

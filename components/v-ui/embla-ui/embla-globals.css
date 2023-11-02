@@ -1,0 +1,32 @@
+.embla__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .embla__button--prev {
+    left: 0;
+  }
+  
+  .embla__button--next {
+    right: 0;
+  }
+  
+  .embla__button__svg {
+    fill: currentColor;
+  }
+  
+  .embla__button:hover .embla__button__svg {
+    fill: gray;
+  }
+  
+  .embla__button[disabled] .embla__button__svg {
+    fill: lightgray;
+  }
