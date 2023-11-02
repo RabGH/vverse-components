@@ -51,7 +51,7 @@ const VNavbar = ({ userName, userTitle }: VNavBarProps) => {
             align="end"
           >
             <Image
-              src="/icons/VVerseNavBg.svg"
+              src="/bg-svgs/VVerseNavBg.svg"
               alt="vverse"
               width={1500}
               height={800}

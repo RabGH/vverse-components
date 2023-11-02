@@ -36,7 +36,7 @@ const AnimalCards = ({
             variant={"defaultNoBg"}
             className={`group-hover:shadow-xl group-hover:bg-redLight 
             transition duration-300 ease-in-out bg-redMid text-primary-foreground 
-            text-[12px] sm:text-[9px] font-bold w-32 h-6 rounded-md inset-x-12 inset-y-40 
+            text-[12px] sm:text-[9px] font-bold w-fit h-6 rounded-md inset-x-12 inset-y-40 
             absolute transform scale-100 sm:scale-125`}
           >
             {buttonTitle}
