@@ -3,6 +3,7 @@ import React from "react";
 import VNavbar from "@/components/v-ui/v-nav/v-navbar";
 import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import AnimalCards from "@/components/v-ui/v-page-modules/animal-cards";
+import AnimalCardsMap from "@/components/v-ui/v-page-modules/animal-cards-map";
 
 const VNavigation = () => {
   return (
@@ -13,7 +14,7 @@ const VNavigation = () => {
           pillar={"V-Guide"}
           description={"V-Verse Demo, home page with sliders and nav."}
         />
-        <AnimalCards />
+        <AnimalCardsMap />
       </div>
     </>
   );

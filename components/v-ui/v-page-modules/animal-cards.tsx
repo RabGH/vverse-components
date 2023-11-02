@@ -8,20 +8,20 @@ import Link from "next/link";
 export type AnimalCardsProps = {
   imageUrl: string;
   buttonTitle: string;
-  titleOne: string;
-  titleTwo: string;
+  titleOne?: string;
+  titleTwo?: string;
   buttonLink: string;
 };
 
 const AnimalCards = ({
-  imageUrl = "/svgs/buffallo-home-sliders-bg.svg",
+  imageUrl,
   buttonTitle,
   titleOne,
   titleTwo,
   buttonLink = "/",
 }: AnimalCardsProps) => {
   return (
-    <Card className="border-transparent rounded-l-3xl w-96 h-fit overflow-hidden relative z-0 hover:-translate-y-1 hover:-translate-x-1 transition ease-in-out duration-300">
+    <Card className="group border-0 h-80 overflow-hidden relative z-0 hover:-translate-y-[0.5px] hover:-translate-x-[0.5px] transition ease-in-out duration-300">
       <Image
         src={imageUrl}
         alt="vVerse"
@@ -34,12 +34,15 @@ const AnimalCards = ({
         <Link href={buttonLink}>
           <Button
             variant={"defaultNoBg"}
-            className="bg-redMid text-primary-foreground text-[12px] font-bold w-36 h-7 rounded-md bottom-14 right-0 left-8 absolute"
+            className={`group-hover:shadow-xl group-hover:bg-redLight 
+            transition duration-300 ease-in-out bg-redMid text-primary-foreground 
+            text-[12px] sm:text-[9px] font-bold w-32 h-6 rounded-md inset-x-10 inset-y-40 
+            absolute transform scale-100 sm:scale-125`}
           >
             {buttonTitle}
           </Button>
         </Link>
-        <div className="text-2xl font-extrabold top-10 right-0 left-8 absolute mt-6">
+        <div className="text-lg font-extrabold top-20 right-0 left-10 absolute">
           <h2>{titleOne}</h2>
           <h2>{titleTwo}</h2>
         </div>
