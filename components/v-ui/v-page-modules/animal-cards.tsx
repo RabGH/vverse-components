@@ -34,7 +34,7 @@ const AnimalCards = ({
         <Link href={buttonLink}>
           <Button
             variant={"defaultNoBg"}
-            className={`group-hover:shadow-xl group-hover:bg-redLight 
+            className={`group-hover:shadow-xl group-hover:bg-red-600/80 
             transition duration-300 ease-in-out bg-redMid text-primary-foreground 
             text-[12px] sm:text-[9px] font-bold w-fit h-6 rounded-md inset-x-12 inset-y-40 
             absolute transform scale-100 sm:scale-125`}
