@@ -1,5 +1,5 @@
 import VAlertProvider from "@/components/alert-center/v-alert-provider";
-import VHeroHeader from "@/components/v-ui/hero-header";
+import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import React from "react";
 
 const AlertCenterPage = () => {

@@ -12,6 +12,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "vBlue text-primary-foreground",
+        defaultNoBg: "text-primary-foreground",
         destructive: "vRed text-destructive-foreground",
         outline:
           "border border-input bg-background hover:vBlue hover:text-white",

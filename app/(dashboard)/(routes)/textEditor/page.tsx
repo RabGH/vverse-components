@@ -1,5 +1,5 @@
 import React from "react";
-import { EmojiMart } from "@/components/v-ui/emoji-mart";
+import { EmojiMart } from "@/components/text-editor/emoji-mart";
 
 const TextEditorPage = () => {
   return (

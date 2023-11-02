@@ -1,7 +1,7 @@
 import React from "react";
 
 import VCalendar from "@/components/v-ui/calendars/v-calendar";
-import VHeroHeader from "@/components/v-ui/hero-header";
+import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import Heading from "@/components/nav/heading";
 import { IconCalendarCheck } from "@/components/icons/logo-icons";
 

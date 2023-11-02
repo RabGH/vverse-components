@@ -7,7 +7,7 @@ import {
 import AssetBannerProvider from "@/components/asset-banners/asset-banner-provider";
 import { IconPostsBtn } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
-import VHeroHeader from "@/components/v-ui/hero-header";
+import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import React from "react";
 
 const AssetBannerPage = () => {
