@@ -20,7 +20,7 @@ const AnimalCardsMap = ({ animalCards }: AnimalCardsMapProps) => {
 
   return (
     <section
-      className="flex justify-center w-[1200px] h-64 overflow-hidden embla gap-2"
+      className="flex w-[1200px] h-64 overflow-hidden embla"
       ref={emblaRef}
     >
       <div className="w-full h-full embla__container">

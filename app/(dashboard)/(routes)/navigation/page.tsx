@@ -10,11 +10,13 @@ const VNavigation = () => {
     <>
       <div className="min-h-screen flex flex-col gap-10">
         <VNavbar userName="<Member Name>" userTitle="<Member Title>" />
-        <VHeroHeader
-          pillar={"V-Guide"}
-          description={"V-Verse Demo, home page with sliders and nav."}
-        />
-        <AnimalCardsMap />
+        <div className="flex flex-col items-center">
+          <VHeroHeader
+            pillar={"V-Guide"}
+            description={"V-Verse Demo, home page with sliders and nav."}
+          />
+          <AnimalCardsMap />
+        </div>
       </div>
     </>
   );
