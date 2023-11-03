@@ -10,6 +10,22 @@
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
+
+  .embla__buttons {
+
+  }
+
+  .embla__dots {
+
+  }
+
+  .embla__dot {
+
+  }
+
+  .embla__dot--selected {
+    
+  }
   
   .embla__button--prev {
     left: 0;
@@ -29,4 +45,24 @@
   
   .embla__button[disabled] .embla__button__svg {
     fill: lightgray;
+  }
+
+  .embla__viewport {
+    overflow: hidden;
+  }
+
+  .embla__container {
+
+  }
+
+  .embla__slide {
+
+  }
+
+  .embla__slide__number {
+
+  }
+
+  .embla__slide__number {
+
   }
