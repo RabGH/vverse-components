@@ -4,9 +4,11 @@ import React from "react";
 import "plyr/dist/plyr.css";
 import Plyr from "plyr-react";
 
+// import "./plyr-main.module.css";
+
 type MainVideoPlayer = {
   videoUrl: string;
-  thumbnail?: string
+  thumbnail?: string;
   // chapters?: { title: string; url: string }[];
 };
 
@@ -38,7 +40,6 @@ MainVideoPlayer) => {
         muted={false}
         loop={false}
         controls={true}
-        // className="w-full h-full lg:w-[1280px] lg:h-[720px] rounded-xl hover:shadow-xl shadow-sm"
         options={{
           captions: {
             active: true,
@@ -62,10 +63,6 @@ MainVideoPlayer) => {
             selected: 1,
             options: [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2],
           },
-          // previewThumbnails: {
-          //   enabled: true,
-          //   src: videoUrl + ".jpg",
-          // },
         }}
       />
     </div>

@@ -1,0 +1,12 @@
+.--plyr-video-background {
+}
+
+.plyr {
+    border-radius: 10px;
+    width: 345px;
+    height: 230px;
+}
+
+.plyr__poster {
+    transform: translateY(-10%);
+}

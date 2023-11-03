@@ -48,6 +48,8 @@
     "embla-carousel-react": "^8.0.0-rc14",
     "emoji-mart": "^5.5.2",
     "flatpickr": "^4.6.13",
+    "flowbite": "^2.0.0",
+    "flowbite-react": "^0.6.4",
     "lucide-react": "^0.287.0",
     "next": "^13.5.4",
     "plyr": "^3.7.8",
