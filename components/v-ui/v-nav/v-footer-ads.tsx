@@ -1,5 +1,6 @@
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import Image from "next/image";
+
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 type VFooterAdsProps = {
   images: string[];

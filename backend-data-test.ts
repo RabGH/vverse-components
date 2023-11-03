@@ -2074,3 +2074,26 @@ export const vAssetsJobsLancerData = [
     imageUrl: "/images/article-laptop-typing.png",
   },
 ];
+
+// video player backend data test
+export const videoPlayerData = [
+  {
+    id: 1,
+    title: "New video",
+    videoUrl:
+      "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4",
+    channel: "Plyr Demo",
+    user: "Plyr User",
+    poster: "/images/article-laptop-typing.png",
+    // chapters: [
+    //   {
+    //     title: "Introduction",
+    //     url: "https://example.com/intro.vtt",
+    //   },
+    //   {
+    //     title: "Conclusion",
+    //     url: "https://example.com/conclusion.vtt",
+    //   },
+    // ],
+  },
+];

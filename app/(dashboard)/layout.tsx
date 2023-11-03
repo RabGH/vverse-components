@@ -5,7 +5,7 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex flex-col">
       <NavigationMenuDemo />
-      <main className="relative h-full min-h-screen p-20 pt-24">
+      <main className="relative h-full min-h-screen p-10 pt-24">
         {children}
       </main>
       <VFooter />
