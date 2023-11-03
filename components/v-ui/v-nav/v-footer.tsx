@@ -38,8 +38,7 @@ const VFooterContent = () => {
             src="/bg-svgs/VVerseNavBg.svg"
             alt="vverse"
             fill
-            objectFit="cover"
-            className="shadow-inner"
+            className="shadow-inner object-cover"
           />
           <div className="absolute bottom-0 top-0 left-0 right-0 w-full h-full p-8 z-[2]">
             <div className="flex flex-row w-full gap-6">
