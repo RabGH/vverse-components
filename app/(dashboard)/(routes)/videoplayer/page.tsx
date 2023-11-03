@@ -19,7 +19,7 @@ const VideoPlayerPage = () => {
         icon={IconTVBtn}
       />
       <MainVideoPlayer
-        thumbnail={videoPlayerData[0].poster}
+        poster={videoPlayerData[0].poster}
         videoUrl={videoPlayerData[0].videoUrl}
       />
       <Heading
@@ -29,7 +29,7 @@ const VideoPlayerPage = () => {
       />
 
       <AdsVideoPlayer
-        thumbnail={videoPlayerData[0].poster}
+        poster={videoPlayerData[0].poster}
         adUrl={videoPlayerData[0].videoUrl}
       />
     </div>
