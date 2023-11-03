@@ -12,7 +12,9 @@ const AdVideoPlayer = ({ adUrl, thumbnail }: AdVideoPlayer) => {
         autoPlay
         muted
       >
-        <div className="video-thumbnail" data-thumbnail={thumbnail}></div>
+        <div className="video-thumbnail" data-thumbnail={thumbnail}>
+          {thumbnail}
+        </div>
         <source src={adUrl} type="video/mp4" />
       </video>
       <div className="absolute top-3 right-3 bg-white text-black px-1 py-[1px] text-xs font-semibold rounded-sm">
