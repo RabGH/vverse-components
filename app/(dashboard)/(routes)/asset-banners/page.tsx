@@ -25,7 +25,6 @@ const AssetBannerPage = () => {
       <AssetBannerProvider
         data={vAssetBlogData}
         dataType={"blog"}
-        isOwner={false}
       />
       <Heading
         title={"V-Nation Asset Banners"}
@@ -35,7 +34,6 @@ const AssetBannerPage = () => {
       <AssetBannerProvider
         data={vAssetNationData}
         dataType={"nation"}
-        isOwner={false}
       />
       <Heading
         title={"V-Tube Asset Banners"}
@@ -45,7 +43,6 @@ const AssetBannerPage = () => {
       <AssetBannerProvider
         data={vAssetTubeData}
         dataType={"tube"}
-        isOwner={false}
       />
       <Heading
         title={"V-Lancer Asset Banners"}
@@ -55,7 +52,6 @@ const AssetBannerPage = () => {
       <AssetBannerProvider
         data={vAssetLancerServiceData}
         dataType={"lanceService"}
-        isOwner={false}
       />
     </div>
   );

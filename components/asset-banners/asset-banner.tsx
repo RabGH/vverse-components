@@ -16,14 +16,12 @@ import AssetInteractionTop, {
 type AssetBannerProps = {
   data: any;
   dataType: string;
-  isOwner: boolean;
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
 const AssetBanner = ({
   data,
   dataType,
-  isOwner,
   buttonDataType,
 }: AssetBannerProps) => {
   return (
@@ -50,7 +48,6 @@ const AssetBanner = ({
           </CardTitle>
           <div>
             <AssetInteractionTop
-              isOwner={isOwner}
               buttonDataType={buttonDataType}
             />
           </div>
@@ -68,7 +65,7 @@ const AssetBanner = ({
           <h2 className="text-2xl">{data.title}</h2>
           <Separator className="bg-white/50 mr-4 my-2" />
 
-          <AssetInteraction isOwner={isOwner} />
+          <AssetInteraction />
         </div>
       </CardContent>
     </Card>

@@ -3,22 +3,20 @@
 import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
-import { IconShare } from "../icons/logo-icons";
+import { IconShare } from "@/components/icons/logo-icons";
+import { useOwner } from "@/components/contexts/owner-context";
 
 export type AssetInteractionTopProps = {
-  isOwner?: boolean;
   buttonDataType?: "follow" | "join" | "subscribe" | "buy" | "apply" | "enroll";
 };
 
-const AssetInteractionTop = ({
-  isOwner,
-  buttonDataType,
-}: AssetInteractionTopProps) => {
+const AssetInteractionTop = ({ buttonDataType }: AssetInteractionTopProps) => {
   const [isFollowed, setIsFollowed] = useState(false);
   const [isJoined, setIsJoined] = useState(false);
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [isApplied, setIsApplied] = useState(false);
   const [isEnrolled, setIsEnrolled] = useState(false);
+  const { isOwner } = useOwner();
 
   const handleFollowClick = () => {
     setIsFollowed((prevFollowed) => !prevFollowed);

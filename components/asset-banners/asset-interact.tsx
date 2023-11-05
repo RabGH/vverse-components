@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -10,17 +11,15 @@ import {
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
 import { useMount } from "@/hooks/mount-hook";
+import { useOwner } from "@/components/contexts/owner-context";
 
-type AssetInteractionProps = {
-  isOwner: boolean;
-};
-
-const AssetInteraction = ({ isOwner }: AssetInteractionProps) => {
+const AssetInteraction = () => {
   const [isLiked, setIsLiked] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
   const [isRated, setIsRated] = useState(false);
   const [isReported, setIsReported] = useState(false);
   const isMounted = useMount();
+  const { isOwner } = useOwner();
 
   const handleLikeClick = () => {
     setIsLiked((prevLiked) => !prevLiked);

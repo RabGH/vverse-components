@@ -8,14 +8,12 @@ import { AssetInteractionTopProps } from "@/components/asset-banners/asset-inter
 type AssetMapProps = {
   data: any;
   dataType: string;
-  isOwner: boolean;
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
 const AssetMap = ({
   data,
   dataType,
-  isOwner,
   buttonDataType,
 }: AssetMapProps) => {
   return (
@@ -25,7 +23,6 @@ const AssetMap = ({
           key={item.id}
           data={item}
           dataType={dataType}
-          isOwner={isOwner}
           buttonDataType={buttonDataType}
         />
       ))}

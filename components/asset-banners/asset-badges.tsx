@@ -1,9 +1,9 @@
 import React from "react";
 
-import FeaturedBadge from "@/components/asset-banners/asset-badges/featured-badge";
-import ExclusiveBadge from "@/components/asset-banners/asset-badges/exclusive-badge";
-import HiringBadge from "@/components/asset-banners/asset-badges/hiring-badge";
-import PriceBadge from "@/components/asset-banners/asset-badges/price-badge";
+import FeaturedBadge from "@/components/v-ui/general-badges/featured-badge";
+import ExclusiveBadge from "@/components/v-ui/general-badges/exclusive-badge";
+import HiringBadge from "@/components/v-ui/general-badges/hiring-badge";
+import PriceBadge from "@/components/v-ui/general-badges/price-badge";
 
 type AssetBadgesProps = {
   dataType: string;

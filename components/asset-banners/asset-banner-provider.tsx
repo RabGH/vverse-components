@@ -5,13 +5,11 @@ import AssetMap from "./asset-map";
 type AssetBannerProviderProps = {
   data: any;
   dataType: string;
-  isOwner: boolean;
 };
 
 const AssetBannerProvider = ({
   data,
   dataType,
-  isOwner,
 }: AssetBannerProviderProps) => {
   return (
     <div className="">
@@ -19,7 +17,6 @@ const AssetBannerProvider = ({
         <AssetMap
           data={data}
           dataType={dataType}
-          isOwner={isOwner}
           buttonDataType={"follow"}
         />
       )}
@@ -27,7 +24,6 @@ const AssetBannerProvider = ({
         <AssetMap
           data={data}
           dataType={dataType}
-          isOwner={isOwner}
           buttonDataType={"join"}
         />
       )}
@@ -35,7 +31,6 @@ const AssetBannerProvider = ({
         <AssetMap
           data={data}
           dataType={dataType}
-          isOwner={isOwner}
           buttonDataType={"subscribe"}
         />
       )}
@@ -43,7 +38,6 @@ const AssetBannerProvider = ({
         <AssetMap
           data={data}
           dataType={dataType}
-          isOwner={isOwner}
           buttonDataType={"buy"}
         />
       )}
