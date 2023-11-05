@@ -40,7 +40,7 @@ const UserInteraction = ({ isMiniView }: UserInteractionProps) => {
 
   return (
     <div className="flex-1 flex flex-wrap justify-center items-center gap-1">
-      {isOwner ? (
+      {!isOwner ? (
         // Owner sees only the Share and Edit buttons
         <>
           <Button variant="bannerBlueRed" size="banner">

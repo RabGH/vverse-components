@@ -2756,7 +2756,7 @@ export const IconEmailVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <g clipPath="url(#clip0_712_32163)">
         <path
           d="M25.959 4.25897L23.209 7.00897L21.959 5.75897"
-          stroke="currentColor"
+          stroke="white"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
@@ -2966,7 +2966,7 @@ export const IconIDVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <g clipPath="url(#clip1_712_32197)">
         <path
           d="M25.959 3.75897L23.209 6.50897L21.959 5.25897"
-          stroke="currentColor"
+          stroke="white"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
@@ -3314,7 +3314,7 @@ export const IconPhoneVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <g clipPath="url(#clip1_712_32156)">
         <path
           d="M25.959 4.25897L23.209 7.00897L21.959 5.75897"
-          stroke="currentColor"
+          stroke="white"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
@@ -3502,7 +3502,7 @@ export const IconShieldVerified = React.forwardRef<SVGSVGElement, LucideProps>(
       <g clipPath="url(#clip0_2674_65792)">
         <path
           d="M25.959 3.75897L23.209 6.50897L21.959 5.25897"
-          stroke="currentColor"
+          stroke="white"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
@@ -3703,13 +3703,13 @@ export const IconUnverifiedAgreement = React.forwardRef<
     <circle cx="24" cy="5" r="5" fill="#FA0101" />
     <path
       d="M25.5 3.5L22.5 6.5"
-      stroke="currentColor"
+      stroke="white"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M22.5 3.5L25.5 6.5"
-      stroke="currentColor"
+      stroke="white"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -3746,13 +3746,13 @@ export const IconUnverifiedEmail = React.forwardRef<SVGSVGElement, LucideProps>(
       <circle cx="24" cy="5.5" r="5" fill="#FA0101" />
       <path
         d="M25.5 4L22.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -3794,13 +3794,13 @@ export const IconUnverifiedID = React.forwardRef<SVGSVGElement, LucideProps>(
       <circle cx="24" cy="5.5" r="5" fill="#FA0101" />
       <path
         d="M25.5 4L22.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -3843,13 +3843,13 @@ export const IconUnverifiedPhone = React.forwardRef<SVGSVGElement, LucideProps>(
       <circle cx="24" cy="5.5" r="5" fill="#FA0101" />
       <path
         d="M25.5 4L22.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M22.5 4L25.5 7"
-        stroke="currentColor"
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -11777,10 +11777,64 @@ export const AvatarProfileFallback = React.forwardRef<
 
 AvatarProfileFallback.displayName = "AvatarProfileFallback";
 
+export const IconPointsCrown = React.forwardRef<SVGSVGElement, LucideProps>(
+  (props, ref) => (
+    <svg
+      {...props}
+      ref={ref}
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_8968_142143)">
+        <path
+          d="M11.5693 0.607815C10.9739 1.00156 11.2552 1.90625 11.9724 1.90625C12.2677 1.90625 12.4927 1.775 12.6146 1.53125C12.863 1.03906 12.5255 0.500003 11.9724 0.500003C11.7989 0.500003 11.6818 0.528128 11.5693 0.607815Z"
+          fill="#016DEA"
+        />
+        <path
+          d="M6.64738 1.31094C6.05207 1.70469 6.33332 2.60938 7.05051 2.60938C7.60363 2.60938 7.94113 2.07031 7.69269 1.57813C7.57082 1.33438 7.34582 1.20313 7.05051 1.20313C6.87707 1.20313 6.75988 1.23125 6.64738 1.31094Z"
+          fill="#016DEA"
+        />
+        <path
+          d="M16.4911 1.31094C15.8958 1.70469 16.1771 2.60938 16.8943 2.60938C17.1896 2.60938 17.4146 2.47813 17.5364 2.23438C17.7849 1.74219 17.4474 1.20313 16.8943 1.20313C16.7208 1.20313 16.6036 1.23125 16.4911 1.31094Z"
+          fill="#016DEA"
+        />
+        <path
+          d="M11.5992 2.69845C11.5242 2.74533 11.0789 3.1672 10.6196 3.63126L9.7805 4.47501L8.78675 3.8047C8.21488 3.41564 7.73675 3.12501 7.65707 3.11564C7.22113 3.06408 6.86019 3.32189 6.81332 3.72032C6.7805 3.98282 7.74613 9.93594 7.84457 10.0859C7.89144 10.1516 7.98988 10.25 8.07425 10.2969C8.21956 10.3859 8.34144 10.3906 11.9742 10.3906C15.607 10.3906 15.7289 10.3859 15.8742 10.2969C15.9586 10.25 16.057 10.1516 16.1039 10.0859C16.2024 9.93594 17.168 3.98282 17.1352 3.72032C17.0883 3.32189 16.7274 3.06408 16.2914 3.11564C16.2117 3.12501 15.7336 3.41564 15.1617 3.8047L14.168 4.47501L13.3055 3.60782C12.8321 3.13439 12.3867 2.71251 12.3164 2.67501C12.1336 2.58126 11.768 2.59064 11.5992 2.69845ZM13.7649 6.07345C13.8211 6.10157 13.9711 6.12501 14.0977 6.12501C14.3086 6.12501 14.3836 6.0922 14.8617 5.77345C15.1571 5.58126 15.4008 5.44063 15.4102 5.46407C15.4195 5.49688 14.9321 8.6375 14.8805 8.87657L14.8571 8.98438H11.9742H9.09144L9.068 8.87657C9.01644 8.6375 8.52894 5.49688 8.53831 5.46407C8.54769 5.44063 8.79144 5.58126 9.08675 5.77345C9.56487 6.0922 9.63987 6.12501 9.85081 6.12501C9.97737 6.12501 10.1367 6.09688 10.2071 6.05938C10.2774 6.02188 10.7039 5.61876 11.1539 5.16876L11.9742 4.34376L12.818 5.18282C13.2821 5.6422 13.7086 6.04532 13.7649 6.07345Z"
+          fill="currentColor"
+        />
+        <path
+          d="M8.3072 11.8906C8.0072 12.0688 7.98845 12.1578 7.97439 13.4703L7.96033 14.6563H4.92283H1.88534L1.72596 14.7641C1.38378 14.9938 1.40253 14.6891 1.40253 19.5781C1.40253 24.4672 1.38378 24.1625 1.72596 24.3922L1.88534 24.5H11.9963H22.1072L22.2666 24.3922C22.6087 24.1672 22.59 24.3828 22.59 20.2813C22.59 16.1797 22.6087 16.3953 22.2666 16.1703L22.1072 16.0625H19.0697H16.0322L16.0181 14.1735C16.0041 12.0828 16.0041 12.0828 15.6853 11.8906C15.54 11.8016 15.4228 11.7969 11.9963 11.7969C8.5697 11.7969 8.45251 11.8016 8.3072 11.8906ZM14.5744 18.1484V23.0938H11.9963H9.41814V18.1484V13.2031H11.9963H14.5744V18.1484ZM7.96501 19.5781V23.0938H5.41033H2.85565V19.5781V16.0625H5.41033H7.96501V19.5781ZM21.1369 20.2813V23.0938H18.5822H16.0275V20.2813V17.4688H18.5822H21.1369V20.2813Z"
+          fill="currentColor"
+        />
+        <path
+          d="M10.8992 14.6984C10.6836 14.8438 10.5898 15.0219 10.5898 15.3125C10.5898 15.6969 10.8477 16.0156 11.1664 16.0156H11.293V17.1969C11.293 18.2797 11.3023 18.3922 11.382 18.5188C11.5273 18.7344 11.7055 18.8281 11.9961 18.8281C12.2867 18.8281 12.4648 18.7344 12.6102 18.5188C12.6945 18.3922 12.6992 18.2703 12.6992 16.7188C12.6992 15.1672 12.6945 15.0453 12.6102 14.9188C12.432 14.6469 12.3148 14.6094 11.6445 14.6094C11.1242 14.6094 11.0164 14.6234 10.8992 14.6984Z"
+          fill="currentColor"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_8968_142143">
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.500977)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  )
+);
+
+IconPointsCrown.displayName = "IconPointsCrown";
+
 // export const Icons = {
 //   LogoBlue: LogoBlue,
 //   AvatarProfileFallback: AvatarProfileFallback,
 //   IconPlayVideoFilled: IconPlayVideoFilled,
+//   IconPointsCrown: IconPointsCrown,
 //   IconDateJoinedDoor: IconDateJoinedDoor,
 //   IconPause: IconPause,
 //   IconForward10Sec: IconForward10Sec,

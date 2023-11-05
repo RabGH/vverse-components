@@ -5,6 +5,7 @@ import { Loader2 } from "lucide-react";
 import {
   IconBullHorn,
   IconLoader,
+  IconPointsCrown,
   IconShare,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
@@ -58,9 +59,9 @@ const UserPoints = ({
       {isLoading ? (
         <Loader2 className="w-7 h-7 text-primary animate-spin" />
       ) : (
-        isOwner && (
+        !isOwner && (
           <div className="flex flex-row justify-center items-center gap-1">
-            <IconLoader className="w-7 h-7 text-primary" />
+            <IconPointsCrown className="w-7 h-7 text-primary" />
             <p className="text-muted">{points}</p>
           </div>
         )

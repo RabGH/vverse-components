@@ -23,6 +23,10 @@ type GuideProfileBannerProps = {
   rank: RankMedalProps["rank"];
   guideUserData: GuideDataPointsProps;
   currency: string;
+  isEmailVerified: boolean;
+  isPhoneVerified: boolean;
+  isAgreementVerified: boolean;
+  isIdVerified: boolean;
 };
 
 const GuideProfileBanner = ({
@@ -39,30 +43,32 @@ const GuideProfileBanner = ({
   partOf,
   currency,
   isFeatured = true,
+  isEmailVerified = false,
+  isPhoneVerified = false,
+  isAgreementVerified = false,
+  isIdVerified = false,
 }: GuideProfileBannerProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserLargeAvatar
-        isLoading={isLoading}
         profileType={"Personal"}
-        isEmailVerified={false}
-        isPhoneVerified={false}
-        isAgreementVerified={false}
-        isIdVerified={false}
+        isEmailVerified={isEmailVerified}
+        isPhoneVerified={isPhoneVerified}
+        isAgreementVerified={isAgreementVerified}
+        isIdVerified={isIdVerified}
+        isLoading={isLoading}
       />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
           <UserTitleBox
             userName={userName}
             userTitle={userTitle}
-            isGuide={true}
-            isLoading={isLoading}
-            points={points}
             endorsements={endorsements}
             isFeatured={isFeatured}
             rank={rank}
             thumbsup={thumbsup}
             shares={shares}
+            points={100}
           />
           <Separator />
           <GuideDataPoints

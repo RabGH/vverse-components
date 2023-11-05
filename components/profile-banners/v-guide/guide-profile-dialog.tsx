@@ -18,7 +18,7 @@ import { IconInfoFilledBlue } from "@/components/icons/logo-icons";
 import { Loader2 } from "lucide-react";
 
 type GuideProfileBannerDialogProps = {
-  isLoading?: boolean;
+  isLoading: boolean;
   userInfoData?: UserInfoBoxProps;
   userName: string;
   userTitle: string;
@@ -72,24 +72,25 @@ const GuideProfileBannerDialog = ({
           <>
             <DialogTitle className="mb-2">{dialogTitle}</DialogTitle>
             <div className="flex flex-row justify-center gap-4 p-10">
-              <UserLargeAvatar />
+              <UserLargeAvatar
+                profileType={"Personal"}
+                isEmailVerified={isEmailVerified}
+                isPhoneVerified={isPhoneVerified}
+                isAgreementVerified={isAgreementVerified}
+                isIdVerified={isIdVerified}
+                isLoading={isLoading}
+              />
               <div className="flex flex-col gap-4">
                 <div className="space-y-4">
                   <UserTitleBox
                     userName={userName}
                     userTitle={userTitle}
-                    isGuide={true}
-                    isLoading={isLoading}
                     points={points}
                     endorsements={endorsements}
                     isFeatured={isFeatured}
                     rank={rank}
                     thumbsup={thumbsup}
                     shares={shares}
-                    isEmailVerified={isEmailVerified}
-                    isPhoneVerified={isPhoneVerified}
-                    isAgreementVerified={isAgreementVerified}
-                    isIdVerified={isIdVerified}
                   />
                   <Separator />
                   <GuideDataPoints
@@ -114,8 +115,7 @@ const GuideProfileBannerDialog = ({
                 <div className="flex flex-col gap-4 justify-center items-center m-2 ml-[-300px]">
                   <UserTags partOf={partOf} />
                   <Separator />
-                  <UserInteraction
-                  />
+                  <UserInteraction />
                 </div>
               </div>
             </div>

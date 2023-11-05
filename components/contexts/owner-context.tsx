@@ -8,7 +8,7 @@ type OwnerContextType = {
 };
 
 // Define the default value for isOwner
-const defaultIsOwner = true;
+const defaultIsOwner = false;
 
 // Create the context with the default value
 const OwnerContext = createContext<OwnerContextType>({

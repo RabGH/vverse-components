@@ -60,6 +60,10 @@ const ProfileBannerPage = () => {
         partOf={partOf}
         guideUserData={vGuideUserData}
         userInfoData={vUserInfoData}
+        isEmailVerified={true}
+        isPhoneVerified={true}
+        isAgreementVerified={true}
+        isIdVerified={true}
       />
       <GuideProfileBannerDialog
         isLoading={false}

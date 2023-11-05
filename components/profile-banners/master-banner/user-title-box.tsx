@@ -6,7 +6,6 @@ import {
   IconZap,
 } from "@/components/icons/logo-icons";
 import { Badge } from "@/components/ui/badge";
-import UserVerifiedIcons from "@/components/profile-banners/v-guide/guide-verification";
 import RankMedals, {
   RankMedalProps,
 } from "@/components/profile-banners/master-banner/rank-medals";
@@ -19,15 +18,10 @@ type UserTitleBoxProps = {
   endorsements: number;
   thumbsup: number;
   shares: number;
-  isLoading?: boolean;
-  isGuide?: boolean;
+
   isFeatured?: boolean;
   isOpenToWork?: boolean;
   isHiring?: boolean;
-  isIdVerified?: boolean;
-  isEmailVerified?: boolean;
-  isPhoneVerified?: boolean;
-  isAgreementVerified?: boolean;
   rank: RankMedalProps["rank"];
 };
 
@@ -39,15 +33,9 @@ const UserTitleBox = ({
   thumbsup,
   shares,
   rank = "standardSilver",
-  isLoading = false,
-  isGuide = false,
   isFeatured = false,
   isOpenToWork = false,
   isHiring = false,
-  isIdVerified = false,
-  isAgreementVerified = false,
-  isEmailVerified = false,
-  isPhoneVerified = false,
 }: UserTitleBoxProps) => {
   return (
     <div className="flex justify-between items-center space-x-40">
