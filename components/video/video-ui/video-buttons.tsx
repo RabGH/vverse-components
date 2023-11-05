@@ -19,6 +19,7 @@ import {
   Volume2 as VolumeHighIcon,
   Volume1 as VolumeLowIcon,
 } from "lucide-react";
+import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 
@@ -29,17 +30,54 @@ export interface MediaButtonProps {
   className?: string;
 }
 
-export const buttonClass =
-  "group ring-mediaFocus relative inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-md outline-none ring-inset hover:bg-white/20 focus-visible:ring-4 aria-disabled:hidden";
+export const buttonClass = cva(
+  `group ring-mediaFocus relative inline-flex h-10 w-10 cursor-pointer items-center justify-center 
+  rounded-md outline-none ring-inset hover:bg-white/20 focus-visible:ring-4 aria-disabled:hidden`,
+  {
+    variants: {
+      variant: {
+        default: "text-primary",
+      },
 
-export const tooltipClass =
-  "animate-out fade-out slide-out-to-bottom-2 data-[state=delayed-open]:animate-in data-[state=delayed-open]:fade-in data-[state=delayed-open]:slide-in-from-bottom-4 z-10 rounded-sm bg-black/90 px-2 py-0.5 text-sm font-medium text-white parent-data-[open]:hidden";
+      size: {
+        default: "w-7 h-7",
+        ad: "h-4 w-4",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+);
+
+export const tooltipClass = cva(
+  `animate-out fade-out slide-out-to-bottom-2 data-[state=delayed-open]:animate-in data-[state=delayed-open]:fade-in 
+  data-[state=delayed-open]:slide-in-from-bottom-4 z-10 rounded-sm bg-black/90 px-2 py-0.5 text-sm font-medium text-white 
+  parent-data-[open]:hidden`,
+  {
+    variants: {
+      variant: {
+        default: "text-primary",
+      },
+
+      size: {
+        default: "w-5 h-5",
+        ad: "h-4 w-4",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+);
 
 export function Play({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
-  className = "",
+  className,
 }: MediaButtonProps) {
   const isPaused = useMediaState("paused");
   return (
@@ -69,7 +107,7 @@ export function Mute({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
-  className = "",
+  className,
 }: MediaButtonProps) {
   const volume = useMediaState("volume"),
     isMuted = useMediaState("muted");
@@ -102,13 +140,14 @@ export function Caption({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
+  className,
 }: MediaButtonProps) {
   const track = useMediaState("textTrack"),
     isOn = track && isTrackCaptionKind(track);
   return (
     <Tooltip.Root>
       <Tooltip.Trigger asChild>
-        <CaptionButton className={buttonClass}>
+        <CaptionButton className={cn(buttonClass, className)}>
           <SubtitlesIcon
             className={`text-primary w-5 h-5 ${
               !isOn ? "text-blue-500/60" : ""
@@ -117,7 +156,7 @@ export function Caption({
         </CaptionButton>
       </Tooltip.Trigger>
       <Tooltip.Content
-        className={tooltipClass}
+        className={cn(tooltipClass, className)}
         side={tooltipSide}
         align={tooltipAlign}
         sideOffset={tooltipOffset}
@@ -132,12 +171,13 @@ export function PIP({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
+  className,
 }: MediaButtonProps) {
   const isActive = useMediaState("pictureInPicture");
   return (
     <Tooltip.Root>
       <Tooltip.Trigger asChild>
-        <PIPButton className={buttonClass}>
+        <PIPButton className={cn(buttonClass, className)}>
           {isActive ? (
             <PictureInPictureExitIcon className="w-5 h-5 text-primary" />
           ) : (
@@ -146,7 +186,7 @@ export function PIP({
         </PIPButton>
       </Tooltip.Trigger>
       <Tooltip.Content
-        className={tooltipClass}
+        className={cn(tooltipClass, className)}
         side={tooltipSide}
         align={tooltipAlign}
         sideOffset={tooltipOffset}
@@ -161,7 +201,7 @@ export function Fullscreen({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
-  className = "",
+  className,
 }: MediaButtonProps) {
   const isActive = useMediaState("fullscreen");
   return (
