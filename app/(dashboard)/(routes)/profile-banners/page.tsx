@@ -60,11 +60,6 @@ const ProfileBannerPage = () => {
         partOf={partOf}
         guideUserData={vGuideUserData}
         userInfoData={vUserInfoData}
-        isAgreementVerified={true}
-        isEmailVerified={true}
-        isIdVerified={true}
-        isPhoneVerified={true}
-        isOwner={false}
       />
       <GuideProfileBannerDialog
         isLoading={false}
@@ -176,7 +171,6 @@ const ProfileBannerPage = () => {
         rank={"vendorSilver"}
         dataType={"lance"}
         data={vLanceUserData}
-        isOwner={false}
       />
       <Heading
         title={"Event Banners"}
@@ -195,7 +189,6 @@ const ProfileBannerPage = () => {
         rank={"vendorGold"}
         dataType={"event"}
         data={vEventsUserData}
-        isOwner={false}
       />
       <Heading
         title={"Webinar Banners"}
@@ -214,7 +207,6 @@ const ProfileBannerPage = () => {
         rank={"vendorPlatinum"}
         dataType={"webinar"}
         data={vWebinarsUserData}
-        isOwner={false}
       />
       <Heading
         title={"Experts Banners"}
@@ -233,7 +225,6 @@ const ProfileBannerPage = () => {
         rank={"vendorSilver"}
         dataType={"webinar"}
         data={vExpertsUserData}
-        isOwner={false}
       />
       <Heading
         title={"Marketing Sponsors Banners"}
@@ -252,7 +243,6 @@ const ProfileBannerPage = () => {
         rank={"standardSilver"}
         dataType={"marketingSponsor"}
         data={vMarketingSponsorUserData}
-        isOwner={false}
       />
       <Heading
         title={"Marketing Banners"}
@@ -271,7 +261,6 @@ const ProfileBannerPage = () => {
         rank={"standardPlatinum"}
         dataType={"marketing"}
         data={vMarketingUserData}
-        isOwner={true}
       />
       <Heading
         title={"Market Banners"}
@@ -290,7 +279,6 @@ const ProfileBannerPage = () => {
         rank={"standardPlatinum"}
         dataType={"market"}
         data={vMarketUserData}
-        isOwner={true}
       />
       <Heading
         title={"Dialog Profile Banners"}

@@ -10,20 +10,15 @@ import GuideDataPoints, {
 } from "@/components/profile-banners/v-guide/guide-data-points";
 
 type GuideProfileBannerProps = {
-  isLoading?: boolean;
+  isLoading: boolean;
   userInfoData?: UserInfoBoxProps;
   userName: string;
   userTitle: string;
-  isOwner?: boolean;
   points: number;
   endorsements: number;
   isFeatured: boolean;
   thumbsup: number;
   shares: number;
-  isEmailVerified?: boolean;
-  isPhoneVerified?: boolean;
-  isAgreementVerified?: boolean;
-  isIdVerified?: boolean;
   partOf: Record<string, boolean>;
   rank: RankMedalProps["rank"];
   guideUserData: GuideDataPointsProps;
@@ -43,16 +38,18 @@ const GuideProfileBanner = ({
   endorsements,
   partOf,
   currency,
-  isEmailVerified = false,
-  isPhoneVerified = false,
-  isAgreementVerified = false,
-  isIdVerified = false,
-  isOwner = true,
   isFeatured = true,
 }: GuideProfileBannerProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
-      <UserLargeAvatar />
+      <UserLargeAvatar
+        isLoading={isLoading}
+        profileType={"Personal"}
+        isEmailVerified={false}
+        isPhoneVerified={false}
+        isAgreementVerified={false}
+        isIdVerified={false}
+      />
       <div className="flex flex-col gap-4">
         <div className="space-y-4">
           <UserTitleBox
@@ -66,11 +63,6 @@ const GuideProfileBanner = ({
             rank={rank}
             thumbsup={thumbsup}
             shares={shares}
-            isOwner={isOwner}
-            isEmailVerified={isEmailVerified}
-            isPhoneVerified={isPhoneVerified}
-            isAgreementVerified={isAgreementVerified}
-            isIdVerified={isIdVerified}
           />
           <Separator />
           <GuideDataPoints
@@ -95,9 +87,7 @@ const GuideProfileBanner = ({
         <div className="flex flex-col gap-4 justify-center items-center m-2 ml-[-300px]">
           <UserTags partOf={partOf} />
           <Separator />
-          <UserInteraction
-            isOwner={isOwner}
-          />
+          <UserInteraction />
         </div>
       </div>
     </div>

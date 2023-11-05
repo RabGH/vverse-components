@@ -24,7 +24,6 @@ type UserTitleBoxProps = {
   isFeatured?: boolean;
   isOpenToWork?: boolean;
   isHiring?: boolean;
-  isOwner?: boolean;
   isIdVerified?: boolean;
   isEmailVerified?: boolean;
   isPhoneVerified?: boolean;
@@ -40,7 +39,6 @@ const UserTitleBox = ({
   thumbsup,
   shares,
   rank = "standardSilver",
-  isOwner = false,
   isLoading = false,
   isGuide = false,
   isFeatured = false,
@@ -57,23 +55,12 @@ const UserTitleBox = ({
         <h2 className="font-extrabold text-3xl">{userName}</h2>
         <p className="text-muted text-base">{userTitle}</p>
         <div className="flex flex-row gap-1 mt-1">
-          {isGuide ? (
-            <UserVerifiedIcons
-              isIdVerified={isIdVerified}
-              isEmailVerified={isEmailVerified}
-              isPhoneVerified={isPhoneVerified}
-              isAgreementVerified={isAgreementVerified}
-              isLoading={isLoading}
-            />
-          ) : (
-            <UserPoints
-              points={points}
-              endorsements={endorsements}
-              thumbsup={thumbsup}
-              shares={shares}
-              isOwner={isOwner}
-            />
-          )}
+          <UserPoints
+            points={points}
+            endorsements={endorsements}
+            thumbsup={thumbsup}
+            shares={shares}
+          />
           <Separator orientation="vertical" className="h-7 mx-1" />
           {isFeatured && (
             <Badge

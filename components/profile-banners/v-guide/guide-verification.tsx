@@ -29,35 +29,35 @@ const UserVerifiedIcons = ({
   return (
     <section className="flex flex-row gap-1">
       {isLoading ? (
-        <Loader2 className="w-7 h-7 text-primary animate-spin" />
+        <Loader2 className="w-9 h-9 text-primary animate-spin" />
       ) : isIdVerified ? (
-        <IconIDVerified className="w-7 h-7 text-primary" />
+        <IconIDVerified className="w-9 h-9 text-primary" />
       ) : (
-        <IconUnverifiedID className="w-7 h-7 text-primary" />
+        <IconUnverifiedID className="w-9 h-9 text-primary" />
       )}
 
       {isLoading ? (
-        <Loader2 className="w-7 h-7 text-primary animate-spin" />
+        <Loader2 className="w-9 h-9 text-primary animate-spin" />
       ) : isEmailVerified ? (
-        <IconEmailVerified className="w-7 h-7 text-primary" />
+        <IconEmailVerified className="w-9 h-9 text-primary" />
       ) : (
-        <IconUnverifiedEmail className="w-7 h-7 text-primary" />
+        <IconUnverifiedEmail className="w-9 h-9 text-primary" />
       )}
 
       {isLoading ? (
         <Loader2 className="w-7 h-7 text-primary animate-spin" />
       ) : isPhoneVerified ? (
-        <IconPhoneVerified className="w-7 h-7 text-primary" />
+        <IconPhoneVerified className="w-9 h-9 text-primary" />
       ) : (
-        <IconUnverifiedPhone className="w-7 h-7 text-primary" />
+        <IconUnverifiedPhone className="w-9 h-9 text-primary" />
       )}
 
       {isLoading ? (
         <Loader2 className="w-7 h-7 text-primary animate-spin" />
       ) : isAgreementVerified ? (
-        <IconShieldVerified className="w-7 h-7 text-primary" />
+        <IconShieldVerified className="w-9 h-9 text-primary" />
       ) : (
-        <IconUnverifiedAgreement className="w-7 h-7 text-primary" />
+        <IconUnverifiedAgreement className="w-9 h-9 text-primary" />
       )}
     </section>
   );

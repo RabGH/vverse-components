@@ -1,3 +1,5 @@
+"use client";
+
 import { Loader2 } from "lucide-react";
 
 import {
@@ -6,6 +8,7 @@ import {
   IconShare,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
+import { useOwner } from "@/components/contexts/owner-context";
 
 type UserPointProps = {
   points: number;
@@ -13,7 +16,6 @@ type UserPointProps = {
   thumbsup: number;
   shares: number;
   isLoading?: boolean;
-  isOwner?: boolean;
 };
 
 const UserPoints = ({
@@ -22,8 +24,8 @@ const UserPoints = ({
   endorsements,
   thumbsup,
   shares,
-  isOwner,
 }: UserPointProps) => {
+  const isOwner = useOwner();
   return (
     <section className="flex flex-row gap-2">
       {isLoading ? (

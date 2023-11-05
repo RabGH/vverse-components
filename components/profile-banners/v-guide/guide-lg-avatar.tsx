@@ -1,27 +1,40 @@
-"use client"
+"use client";
 
 import { useUser } from "@clerk/nextjs";
 
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { IconUserBtn } from "@/components/icons/logo-icons";
+import {
+  AvatarProfileFallback,
+  IconUserBtn,
+} from "@/components/icons/logo-icons";
+import UserVerifiedIcons from "./guide-verification";
 
 type UserLargeAvatarProps = {
-  profileType?: "Personal" | "Business";
+  profileType: "Personal" | "Business";
+  isEmailVerified: boolean;
+  isPhoneVerified: boolean;
+  isAgreementVerified: boolean;
+  isIdVerified: boolean;
+  isLoading: boolean;
 };
 
 export function UserLargeAvatar({
   profileType = "Personal",
+  isEmailVerified,
+  isAgreementVerified,
+  isIdVerified,
+  isPhoneVerified,
+  isLoading,
 }: UserLargeAvatarProps) {
   const { user } = useUser();
   return (
     <div className="flex flex-col items-center">
       <div className="w-80 h-80 rounded-full shrink-0">
         <Avatar size="lg">
-          <AvatarImage src="" alt="Vverse" />
+          <AvatarImage src={user?.imageUrl} alt="Vverse" />
           <AvatarFallback className="text-5xl">
-            {user?.firstName?.charAt(0).toUpperCase()}
-            {user?.lastName?.charAt(0).toUpperCase()}
+            <AvatarProfileFallback />
           </AvatarFallback>
         </Avatar>
       </div>
@@ -33,6 +46,15 @@ export function UserLargeAvatar({
       >
         {profileType} Profile
       </Badge>
+      <div className="mt-10">
+        <UserVerifiedIcons
+          isIdVerified={isIdVerified}
+          isEmailVerified={isEmailVerified}
+          isPhoneVerified={isPhoneVerified}
+          isAgreementVerified={isAgreementVerified}
+          isLoading={isLoading}
+        />
+      </div>
     </div>
   );
 }

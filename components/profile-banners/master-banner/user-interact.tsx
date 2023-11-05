@@ -3,18 +3,19 @@
 import React, { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { useOwner } from "@/components/contexts/owner-context";
 
 type UserInteractionProps = {
-  isOwner?: boolean;
   isMiniView?: boolean;
 };
 
-const UserInteraction = ({ isOwner, isMiniView }: UserInteractionProps) => {
+const UserInteraction = ({ isMiniView }: UserInteractionProps) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
   const [isConnected, setIsConnected] = useState(false);
   const [isReported, setIsReported] = useState(false);
   const [isBlocked, setIsBlocked] = useState(false);
+  const isOwner = useOwner();
 
   const handleLikeClick = () => {
     setIsLiked((prevLiked) => !prevLiked);
@@ -100,12 +101,13 @@ const UserInteraction = ({ isOwner, isMiniView }: UserInteractionProps) => {
           >
             {isBlocked ? "Blocked" : "Block"}
           </Button>
+
+          {isMiniView && (
+            <Button variant="bannerBlueRed" size="banner">
+              Endorse
+            </Button>
+          )}
         </>
-      )}
-      {isMiniView && (
-        <Button variant="bannerBlueRed" size="banner">
-          Endorse
-        </Button>
       )}
     </div>
   );

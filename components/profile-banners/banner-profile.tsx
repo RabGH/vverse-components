@@ -18,13 +18,11 @@ import WebinarDataPoints from "@/components/profile-banners/v-profile-data-point
 import ExpertDataPoints from "@/components/profile-banners/v-profile-data-points/experts-data-points";
 import MarketingSponsorDataPoints from "@/components/profile-banners/v-profile-data-points/marketingSponsor-data-points";
 import MarketingDataPoints from "@/components/profile-banners/v-profile-data-points/marketing-data-points";
-import { UserButton } from "@clerk/nextjs";
 
 type BannerProfileProps = {
   userName: string;
   userTitle: string;
   isLoading: boolean;
-  isOwner?: boolean;
   isOpenToWork?: boolean;
   points: number;
   endorsements: number;
@@ -61,13 +59,11 @@ const BannerProfile = ({
   dataType,
   isFeatured = true,
   isOpenToWork = false,
-  isOwner = false,
 }: BannerProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">
       <div className="mt-6">
         <UserMediumAvatar />
-        <UserButton />
       </div>
       <div className="flex flex-col gap-4">
         <div>
@@ -81,7 +77,6 @@ const BannerProfile = ({
             rank={rank}
             thumbsup={thumbsup}
             shares={shares}
-            isOwner={isOwner}
           />
           <div className="ml-[-100px]">
             <div className="space-y-3">
@@ -238,10 +233,7 @@ const BannerProfile = ({
           </div>
         </div>
         <div className="flex flex-col gap-4 justify-center items-center ml-[-100px]">
-          <UserInteraction
-            isOwner={isOwner}
-            isMiniView={true}
-          />
+          <UserInteraction isMiniView={true} />
         </div>
       </div>
     </div>
