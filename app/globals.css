@@ -10,10 +10,13 @@ body,
 
 @layer base {
   :root {
+    /* VidStack.io colors */
+    --media-brand: 245 245 245;
+    --media-focus: 78 156 246;
+
     /* Single Colors */
     --violet: #7F00FF;
     --hover-blue: #60A5FA;
-
 
     /* Linear Colors */
     --plum-light: #933C6B;

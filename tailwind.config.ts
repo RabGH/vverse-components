@@ -17,6 +17,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        // VidStack colors
+        mediaBrand: "rgb(var(--media-brand) / <alpha-value>)",
+        mediaFocus: "rgb(var(--media-focus) / <alpha-value>)",
+
         // Single Colors
         violet: "var(--violet)",
         hoverBlue: "var(--hover-blue)",
@@ -140,5 +144,11 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("flowbite/plugin")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("flowbite/plugin"),
+    require("@vidstack/react/tailwind.cjs")({
+      prefix: "media",
+    }),
+  ],
 };
