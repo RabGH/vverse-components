@@ -8,17 +8,17 @@ const LandingNavbar = () => {
       <SquareButton
         icon={ArrowRightCircle}
         label={"Base Components"}
-        link={"/baseComponents"}
+        link={"/base-components"}
       />
       <SquareButton
         icon={ArrowRightCircle}
-        label={"Video Player Plyr"}
-        link={"/videoPlayer"}
+        label={"Video Player"}
+        link={"/video-player"}
       />
       <SquareButton
         icon={ArrowRightCircle}
         label={"Profile Banner"}
-        link={"/profileBanner"}
+        link={"/profile-banners"}
       />
       <SquareButton
         icon={ArrowRightCircle}
@@ -28,7 +28,7 @@ const LandingNavbar = () => {
       <SquareButton
         icon={ArrowRightCircle}
         label={"Alert Center"}
-        link={"/alertCenter"}
+        link={"/alert-center"}
       />
       <SquareButton
         icon={ArrowRightCircle}
@@ -38,12 +38,12 @@ const LandingNavbar = () => {
       <SquareButton
         icon={ArrowRightCircle}
         label={"Asset Banners"}
-        link={"/assetBanners"}
+        link={"/asset-banners"}
       />
       <SquareButton
         icon={ArrowRightCircle}
         label={"Text Editors"}
-        link={"/textEditor"}
+        link={"/text-editor"}
       />
     </div>
   );

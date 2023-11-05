@@ -23,7 +23,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "Base Components",
-    href: "/baseComponents",
+    href: "/base-components",
     description:
       "Buttons, switches, radios, inputs, textareas, selects, and more",
   },
@@ -34,7 +34,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "Alert Center",
-    href: "/alertCenter",
+    href: "/alert-center",
     description: "Alert Center Page, notifications",
   },
   {
@@ -44,22 +44,22 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "Profile Banners",
-    href: "/profileBanner",
+    href: "/profile-banners",
     description: "VVerse Profile Banner Demos, Data Points, etc.",
   },
   {
     title: "Video Player",
-    href: "/videoPlayer",
+    href: "/video-player",
     description: "Video Player for V-Verse",
   },
   {
     title: "Asset Banners",
-    href: "/assetBanners",
+    href: "/asset-banners",
     description: "Asset cards for content.",
   },
   {
     title: "Emoji Mart",
-    href: "/textEditor",
+    href: "/text-editor",
     description: "Asset cards for content.",
   },
 ];
