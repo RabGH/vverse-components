@@ -22,17 +22,22 @@ export function VideoAdsLayout({ thumbnails }: VideoLayoutProps) {
         <Tooltip.Provider>
           <div className="flex-1" />
           <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2 gap-4">
-            <Buttons.Play tooltipAlign="start" tooltipOffset={popupOffset} className="" />
+            <Buttons.Play
+              tooltipAlign="start"
+              tooltipOffset={popupOffset}
+              className=""
+            />
 
             <Sliders.Time />
 
             <Buttons.Mute tooltipOffset={popupOffset} />
             <Sliders.Volume />
             <div className="flex-1" />
-            {/* <Buttons.Fullscreen
-tooltipAlign="end"
-tooltipOffset={popupOffset}
-/> */}
+            <Buttons.Fullscreen
+              tooltipAlign="end"
+              tooltipOffset={popupOffset}
+              className="mr-4"
+            />
           </Controls.Group>
           <Controls.Group className="absolute top-0 left-0 mt-2">
             <TimeGroup />
