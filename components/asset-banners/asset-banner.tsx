@@ -29,7 +29,7 @@ const AssetBanner = ({
   return (
     <Card
       className={`relative z-0 rounded-xl h-fit w-fit hover:shadow-2xl hover:translate-y-[-5px] 
-hover:translate-x-[-5px] transition ease-in-out duration-300`}
+      hover:translate-x-[-5px] transition ease-in-out duration-300`}
     >
       <div className="w-full h-full relative">
         <Image

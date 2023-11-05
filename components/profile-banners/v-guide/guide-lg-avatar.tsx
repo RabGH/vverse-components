@@ -1,7 +1,10 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+"use client"
+
+import { useUser } from "@clerk/nextjs";
+
 import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { IconUserBtn } from "@/components/icons/logo-icons";
-import Image from "next/image";
 
 type UserLargeAvatarProps = {
   profileType?: "Personal" | "Business";
@@ -10,18 +13,15 @@ type UserLargeAvatarProps = {
 export function UserLargeAvatar({
   profileType = "Personal",
 }: UserLargeAvatarProps) {
+  const { user } = useUser();
   return (
     <div className="flex flex-col items-center">
       <div className="w-80 h-80 rounded-full shrink-0">
         <Avatar size="lg">
           <AvatarImage src="" alt="Vverse" />
-          <AvatarFallback>
-            <Image
-              fill
-              objectFit="cover"
-              src="/images/DoctorImage.png"
-              alt="vverse"
-            />
+          <AvatarFallback className="text-5xl">
+            {user?.firstName?.charAt(0).toUpperCase()}
+            {user?.lastName?.charAt(0).toUpperCase()}
           </AvatarFallback>
         </Avatar>
       </div>

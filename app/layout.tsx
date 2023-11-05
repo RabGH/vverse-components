@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const montserrat = Montserrat({ weight: "500", subsets: ["latin"] });
 
@@ -18,12 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={montserrat.className}>
-        {children}
-        <Toaster />
-        <Analytics />
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={montserrat.className}>
+          {children}
+          <Toaster />
+          <Analytics />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

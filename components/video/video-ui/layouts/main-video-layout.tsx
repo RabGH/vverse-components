@@ -6,7 +6,7 @@ import { Captions, Controls, Gesture } from "@vidstack/react";
 import * as Buttons from "../video-buttons";
 import * as Menus from "../video-menu";
 import * as Sliders from "../video-sliders";
-import { TimeGroup } from "../video-time-group";
+import { TimeGroupMain } from "../video-time-group";
 import { Title } from "../video-title";
 
 // Offset tooltips/menus/slider previews in the lower controls group so they're clearly visible.
@@ -33,7 +33,7 @@ export function VideoMainLayout({ thumbnails }: VideoLayoutProps) {
             <Buttons.Play tooltipAlign="start" tooltipOffset={popupOffset} />
             <Buttons.Mute tooltipOffset={popupOffset} />
             <Sliders.Volume />
-            <TimeGroup />
+            <TimeGroupMain />
             <Title />
             <div className="flex-1" />
             {/* <Menus.Captions offset={popupOffset} tooltipOffset={popupOffset} /> */}

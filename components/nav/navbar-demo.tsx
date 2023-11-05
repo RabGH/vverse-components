@@ -14,6 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { LogoBlue, MainLogo } from "../icons/logo-icons";
+import { UserButton } from "@clerk/nextjs";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -62,6 +63,11 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/text-editor",
     description: "Asset cards for content.",
   },
+  {
+    title: "Personal Profile Cards",
+    href: "/personal-profile-cards",
+    description: "Asset cards for content.",
+  },
 ];
 
 export function NavigationMenuDemo() {
@@ -78,7 +84,10 @@ export function NavigationMenuDemo() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <LogoBlue className="w-40" />
+                    <div className="flex flex-row gap-2">
+                      <UserButton afterSignOutUrl="/" />{" "}
+                      <LogoBlue className="w-40" />
+                    </div>
                     <div className="mb-2 mt-4 text-lg font-bold">
                       VVerse Home
                     </div>

@@ -18,6 +18,7 @@ import WebinarDataPoints from "@/components/profile-banners/v-profile-data-point
 import ExpertDataPoints from "@/components/profile-banners/v-profile-data-points/experts-data-points";
 import MarketingSponsorDataPoints from "@/components/profile-banners/v-profile-data-points/marketingSponsor-data-points";
 import MarketingDataPoints from "@/components/profile-banners/v-profile-data-points/marketing-data-points";
+import { UserButton } from "@clerk/nextjs";
 
 type BannerProfileProps = {
   userName: string;
@@ -66,6 +67,7 @@ const BannerProfile = ({
     <div className="flex flex-row justify-center gap-4">
       <div className="mt-6">
         <UserMediumAvatar />
+        <UserButton />
       </div>
       <div className="flex flex-col gap-4">
         <div>

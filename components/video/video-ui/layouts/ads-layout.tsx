@@ -5,7 +5,7 @@ import { Captions, Controls, Gesture } from "@vidstack/react";
 
 import * as Buttons from "../video-buttons";
 import * as Sliders from "../video-sliders";
-import { TimeGroup } from "../video-time-group";
+import { TimeGroupAd } from "../video-time-group";
 
 // Offset tooltips/menus/slider previews in the lower controls group so they're clearly visible.
 const popupOffset = 30;
@@ -43,7 +43,7 @@ export function VideoAdsLayout({ thumbnails }: VideoLayoutProps) {
             />
           </Controls.Group>
           <Controls.Group className="absolute top-0 left-0 mt-1">
-            <TimeGroup />
+            <TimeGroupAd />
           </Controls.Group>
         </Tooltip.Provider>
       </Controls.Root>
