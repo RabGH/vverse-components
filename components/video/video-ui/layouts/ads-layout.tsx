@@ -21,7 +21,7 @@ export function VideoAdsLayout({ thumbnails }: VideoLayoutProps) {
       <Controls.Root className="media-controls:opacity-100 absolute inset-0 z-10 flex h-full w-full flex-col bg-gradient-to-t from-black/10 to-transparent opacity-0 transition-opacity">
         <Tooltip.Provider>
           <div className="flex-1" />
-          <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2 gap-4">
+          <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2 gap-2">
             <Buttons.Play
               tooltipAlign="start"
               tooltipOffset={popupOffset}
