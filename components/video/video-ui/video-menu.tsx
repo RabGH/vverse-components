@@ -4,6 +4,7 @@ import { useCaptionOptions, useMediaPlayer } from "@vidstack/react";
 import { CheckCircle, CircleIcon, SubtitlesIcon } from "lucide-react";
 
 import { buttonClass, tooltipClass } from "./video-buttons";
+import { cn } from "@/lib/utils";
 
 export interface MenuProps {
   side?: DropdownMenu.MenuContentProps["side"];
@@ -12,6 +13,7 @@ export interface MenuProps {
   tooltipSide?: Tooltip.TooltipContentProps["side"];
   tooltipAlign?: Tooltip.TooltipContentProps["align"];
   tooltipOffset?: number;
+  className?: string;
 }
 
 // We can reuse this class for other menus.
@@ -25,6 +27,7 @@ export function Captions({
   tooltipSide = "top",
   tooltipAlign = "center",
   tooltipOffset = 0,
+  className,
 }: MenuProps) {
   const player = useMediaPlayer(),
     options = useCaptionOptions(),
@@ -35,14 +38,14 @@ export function Captions({
         <Tooltip.Trigger asChild>
           <DropdownMenu.Trigger
             aria-label="Settings"
-            className={buttonClass}
+            className={cn(buttonClass, className)}
             disabled={options.disabled}
           >
             <SubtitlesIcon className="w-7 h-7" />
           </DropdownMenu.Trigger>
         </Tooltip.Trigger>
         <Tooltip.Content
-          className={tooltipClass}
+          className={cn(tooltipClass, className)}
           side={tooltipSide}
           align={tooltipAlign}
           sideOffset={tooltipOffset}

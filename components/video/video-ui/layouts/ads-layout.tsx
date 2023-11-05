@@ -18,28 +18,31 @@ export function VideoAdsLayout({ thumbnails }: VideoLayoutProps) {
   return (
     <>
       <Gestures />
-      <Controls.Root className="media-controls:opacity-100 absolute inset-0 z-10 flex h-full w-full flex-col bg-gradient-to-t from-black/10 to-transparent opacity-0 transition-opacity">
+      <Controls.Root className="mt-1 media-controls:opacity-100 absolute inset-0 z-10 flex h-full w-full flex-col bg-gradient-to-t from-black/10 to-transparent opacity-0 transition-opacity">
         <Tooltip.Provider>
           <div className="flex-1" />
           <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2 gap-2">
             <Buttons.Play
               tooltipAlign="start"
               tooltipOffset={popupOffset}
-              className=""
+              className="w-4 h-4 text-white"
             />
 
             <Sliders.Time />
 
-            <Buttons.Mute tooltipOffset={popupOffset} />
+            <Buttons.Mute
+              tooltipOffset={popupOffset}
+              className="w-5 h-5 text-white"
+            />
             <Sliders.Volume />
             <div className="flex-1" />
             <Buttons.Fullscreen
               tooltipAlign="end"
               tooltipOffset={popupOffset}
-              className="mr-4"
+              className="mr-2 text-white"
             />
           </Controls.Group>
-          <Controls.Group className="absolute top-0 left-0 mt-2">
+          <Controls.Group className="absolute top-0 left-0 mt-1">
             <TimeGroup />
           </Controls.Group>
         </Tooltip.Provider>

@@ -24,7 +24,9 @@ export function VVideoAds() {
 
   return (
     <MediaPlayer
-      className="relative w-2/5 h-2/5 mx-auto bg-primary text-white font-sans overflow-hidden rounded-md ring-mediaFocus data-[focus]:ring-4"
+      className={`shadow-xl hover:shadow-none transition duration-300 ease-in-out 
+      relative w-2/5 h-2/5 mx-auto bg-primary text-white font-sans overflow-hidden rounded-md 
+      ring-mediaFocus data-[focus]:ring-4`}
       title="Sprite Fight"
       src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
       ref={player}

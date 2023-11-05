@@ -1,5 +1,4 @@
 import * as Tooltip from "@radix-ui/react-tooltip";
-import { IconPause, IconPlayVideoFilled } from "../../icons/logo-icons";
 import {
   CaptionButton,
   FullscreenButton,
@@ -21,6 +20,7 @@ import {
 } from "lucide-react";
 import { cva, type VariantProps } from "class-variance-authority";
 
+import { IconPause, IconPlayVideoFilled } from "@/components/icons/logo-icons";
 import { cn } from "@/lib/utils";
 
 export interface MediaButtonProps {
@@ -32,7 +32,7 @@ export interface MediaButtonProps {
 
 export const buttonClass = cva(
   `group ring-mediaFocus relative inline-flex h-10 w-10 cursor-pointer items-center justify-center 
-  rounded-md outline-none ring-inset hover:bg-white/20 focus-visible:ring-4 aria-disabled:hidden`,
+rounded-md outline-none ring-inset hover:bg-white/20 focus-visible:ring-4 aria-disabled:hidden`,
   {
     variants: {
       variant: {
@@ -53,8 +53,8 @@ export const buttonClass = cva(
 
 export const tooltipClass = cva(
   `animate-out fade-out slide-out-to-bottom-2 data-[state=delayed-open]:animate-in data-[state=delayed-open]:fade-in 
-  data-[state=delayed-open]:slide-in-from-bottom-4 z-10 rounded-sm bg-black/90 px-2 py-0.5 text-sm font-medium text-white 
-  parent-data-[open]:hidden`,
+data-[state=delayed-open]:slide-in-from-bottom-4 z-10 rounded-sm bg-black/90 px-2 py-0.5 text-sm font-medium text-white 
+parent-data-[open]:hidden`,
   {
     variants: {
       variant: {
@@ -73,21 +73,28 @@ export const tooltipClass = cva(
   }
 );
 
+interface PlayProps extends MediaButtonProps {
+  playIconClass?: string;
+  pauseIconClass?: string;
+}
+
 export function Play({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
   className,
-}: MediaButtonProps) {
+  playIconClass = "w-5 h-5 translate-x-px text-primary",
+  pauseIconClass = "w-5 h-5 text-primary",
+}: PlayProps) {
   const isPaused = useMediaState("paused");
   return (
     <Tooltip.Root>
       <Tooltip.Trigger asChild>
         <PlayButton className={cn(buttonClass, className)}>
           {isPaused ? (
-            <IconPlayVideoFilled className="w-5 h-5 translate-x-px text-primary" />
+            <IconPlayVideoFilled className={cn(playIconClass, className)} />
           ) : (
-            <IconPause className="w-5 h-5 text-primary" />
+            <IconPause className={cn(pauseIconClass, className)} />
           )}
         </PlayButton>
       </Tooltip.Trigger>
@@ -103,12 +110,21 @@ export function Play({
   );
 }
 
+interface MuteProps extends MediaButtonProps {
+  IconMute?: string;
+  IconVolumeLow?: string;
+  IconVolumeHigh?: string;
+}
+
 export function Mute({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
   className,
-}: MediaButtonProps) {
+  IconMute = "w-5 h-5 text-primary",
+  IconVolumeLow = "w-5 h-5 text-primary",
+  IconVolumeHigh = "w-5 h-5 text-primary",
+}: MuteProps) {
   const volume = useMediaState("volume"),
     isMuted = useMediaState("muted");
   return (
@@ -116,11 +132,11 @@ export function Mute({
       <Tooltip.Trigger asChild>
         <MuteButton className={cn(buttonClass, className)}>
           {isMuted || volume == 0 ? (
-            <MuteIcon className="w-5 h-5 text-primary" />
+            <MuteIcon className={cn(IconMute, className)} />
           ) : volume < 0.5 ? (
-            <VolumeLowIcon className="w-5 h-5 text-primary" />
+            <VolumeLowIcon className={cn(IconVolumeLow, className)} />
           ) : (
-            <VolumeHighIcon className="w-5 h-5 text-primary" />
+            <VolumeHighIcon className={cn(IconVolumeHigh, className)} />
           )}
         </MuteButton>
       </Tooltip.Trigger>
@@ -197,21 +213,28 @@ export function PIP({
   );
 }
 
+interface FullscreenProps extends MediaButtonProps {
+  IconFullscreenExit?: string;
+  IconFullscreen?: string;
+}
+
 export function Fullscreen({
   tooltipOffset = 0,
   tooltipSide = "top",
   tooltipAlign = "center",
   className,
-}: MediaButtonProps) {
+  IconFullscreenExit = "w-5 h-5 text-primary",
+  IconFullscreen = "w-5 h-5 text-primary",
+}: FullscreenProps) {
   const isActive = useMediaState("fullscreen");
   return (
     <Tooltip.Root>
       <Tooltip.Trigger asChild>
         <FullscreenButton className={cn(buttonClass, className)}>
           {isActive ? (
-            <FullscreenExitIcon className="w-5 h-5 text-primary" />
+            <FullscreenExitIcon className={cn(IconFullscreenExit, className)} />
           ) : (
-            <FullscreenIcon className="w-5 h-5 text-primary" />
+            <FullscreenIcon className={cn(IconFullscreen, className)} />
           )}
         </FullscreenButton>
       </Tooltip.Trigger>

@@ -16,7 +16,7 @@ export interface VideoLayoutProps {
   thumbnails?: string;
 }
 
-export function VideoLayout({ thumbnails }: VideoLayoutProps) {
+export function VideoMainLayout({ thumbnails }: VideoLayoutProps) {
   return (
     <>
       <Gestures />
@@ -29,7 +29,7 @@ export function VideoLayout({ thumbnails }: VideoLayoutProps) {
           <Controls.Group className="flex w-full items-center px-2">
             <Sliders.Time thumbnails={thumbnails} />
           </Controls.Group>
-          <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2">
+          <Controls.Group className="-mt-0.5 flex w-full items-center px-2 pb-2 gap-2">
             <Buttons.Play tooltipAlign="start" tooltipOffset={popupOffset} />
             <Buttons.Mute tooltipOffset={popupOffset} />
             <Sliders.Volume />

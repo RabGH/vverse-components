@@ -11,7 +11,7 @@ import {
   type MediaPlayerInstance,
 } from "@vidstack/react";
 
-import { VideoLayout } from "./video-ui/layouts/main-video-layout";
+import { VideoMainLayout } from "./video-ui/layouts/main-video-layout";
 
 export function VVideoMain() {
   let player = useRef<MediaPlayerInstance>(null);
@@ -26,10 +26,11 @@ export function VVideoMain() {
 
   return (
     <MediaPlayer
-      className="w-full aspect-video bg-primary text-white font-sans overflow-hidden rounded-md ring-mediaFocus data-[focus]:ring-4"
+      className="aspect-video bg-primary text-white font-sans overflow-hidden rounded-md ring-mediaFocus data-[focus]:ring-4"
       title="Sprite Fight"
       src="https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4"
       ref={player}
+      style={{ width: "80%", height: "80%"}}
     >
       <MediaProvider>
         <Poster
@@ -39,7 +40,7 @@ export function VVideoMain() {
         />
       </MediaProvider>
 
-      <VideoLayout thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt" />
+      <VideoMainLayout thumbnails="https://image.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/storyboard.vtt" />
     </MediaPlayer>
   );
 }
