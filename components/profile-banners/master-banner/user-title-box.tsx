@@ -10,6 +10,9 @@ import RankMedals, {
   RankMedalProps,
 } from "@/components/profile-banners/master-banner/rank-medals";
 import UserPoints from "@/components/profile-banners/master-banner/user-points";
+import FeaturedBadge from "@/components/v-ui/general-badges/featured-badge";
+import HiringBadge from "@/components/v-ui/general-badges/hiring-badge";
+import OpenToWorkBadge from "@/components/v-ui/general-badges/open-to-work-badge";
 
 type UserTitleBoxProps = {
   userName: string;
@@ -19,9 +22,9 @@ type UserTitleBoxProps = {
   thumbsup: number;
   shares: number;
 
-  isFeatured?: boolean;
-  isOpenToWork?: boolean;
-  isHiring?: boolean;
+  isFeatured?: string;
+  isOpenToWork?: string;
+  isHiring?: string;
   rank: RankMedalProps["rank"];
 };
 
@@ -33,9 +36,9 @@ const UserTitleBox = ({
   thumbsup,
   shares,
   rank = "standardSilver",
-  isFeatured = false,
-  isOpenToWork = false,
-  isHiring = false,
+  isFeatured = "featured",
+  isOpenToWork = "Open To Work",
+  isHiring = "hiring",
 }: UserTitleBoxProps) => {
   return (
     <div className="flex justify-between items-center space-x-40">
@@ -50,33 +53,9 @@ const UserTitleBox = ({
             shares={shares}
           />
           <Separator orientation="vertical" className="h-7 mx-1" />
-          {isFeatured && (
-            <Badge
-              variant="bannerRed"
-              size="featured"
-              icon={<IconZap className="w-4 h-4" />}
-            >
-              Featured
-            </Badge>
-          )}
-          {isOpenToWork && (
-            <Badge
-              variant="success"
-              size="featured"
-              icon={<IconWorkExperienceBtn className="w-4 h-4" />}
-            >
-              Open to Work
-            </Badge>
-          )}
-          {isHiring && (
-            <Badge
-              variant="success"
-              size="featured"
-              icon={<IconMagnifyingPerson className="w-4 h-4" />}
-            >
-              Open to Hiring
-            </Badge>
-          )}
+          <FeaturedBadge isFeatured={isFeatured} />
+          <OpenToWorkBadge isOpenToWork={isOpenToWork} />
+          <HiringBadge isHiring={isHiring} />
         </div>
       </div>
       <RankMedals rank={rank} />

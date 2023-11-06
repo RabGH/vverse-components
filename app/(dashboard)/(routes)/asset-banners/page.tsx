@@ -1,5 +1,6 @@
 import {
   vAssetBlogData,
+  vAssetCollegeData,
   vAssetLancerServiceData,
   vAssetNationData,
   vAssetTubeData,
@@ -22,28 +23,19 @@ const AssetBannerPage = () => {
         description={""}
         icon={IconPostsBtn}
       />
-      <AssetBannerProvider
-        data={vAssetBlogData}
-        dataType={"blog"}
-      />
+      <AssetBannerProvider data={vAssetBlogData} dataType={"blog"} />
       <Heading
         title={"V-Nation Asset Banners"}
         description={""}
         icon={IconPostsBtn}
       />
-      <AssetBannerProvider
-        data={vAssetNationData}
-        dataType={"nation"}
-      />
+      <AssetBannerProvider data={vAssetNationData} dataType={"nation"} />
       <Heading
         title={"V-Tube Asset Banners"}
         description={""}
         icon={IconPostsBtn}
       />
-      <AssetBannerProvider
-        data={vAssetTubeData}
-        dataType={"tube"}
-      />
+      <AssetBannerProvider data={vAssetTubeData} dataType={"tube"} />
       <Heading
         title={"V-Lancer Asset Banners"}
         description={""}
@@ -53,6 +45,12 @@ const AssetBannerPage = () => {
         data={vAssetLancerServiceData}
         dataType={"lanceService"}
       />
+      <Heading
+        title={"V-College Asset Banners"}
+        description={""}
+        icon={IconPostsBtn}
+      />
+      <AssetBannerProvider data={vAssetCollegeData} dataType="college" />
     </div>
   );
 };

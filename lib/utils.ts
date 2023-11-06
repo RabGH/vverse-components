@@ -15,6 +15,16 @@ export function formatNumber(num: number) {
   }
 }
 
+export function formatCurrency(num: number, currencySymbol: string = "$") {
+  if (num < 1000) {
+    return currencySymbol + num.toString();
+  } else if (num < 1000000) {
+    return (num / 1000).toFixed(1) + "K";
+  } else {
+    return (num / 1000000).toFixed(1) + "M";
+  }
+}
+
 export const formatPriceTag = (price: number): string => {
   return price.toLocaleString("en-US", {
     style: "currency",

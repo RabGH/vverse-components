@@ -1,7 +1,10 @@
 import React from "react";
 
 import { Badge } from "@/components/ui/badge";
-import { IconPriceType } from "@/components/icons/logo-icons";
+import {
+  IconPriceType,
+  IconPriceTypeTags,
+} from "@/components/icons/logo-icons";
 import { calculateDiscountedPrice, cn, formatPriceTag } from "@/lib/utils";
 
 type DiscountBadgeProps = {
@@ -24,7 +27,7 @@ const DiscountBadge = ({
         size="featured"
         variant="violet"
         icon={
-          <IconPriceType
+          <IconPriceTypeTags
             className={cn("w-5 h-5 text-primary", iconClassName)}
           />
         }

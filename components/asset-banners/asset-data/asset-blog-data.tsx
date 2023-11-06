@@ -7,7 +7,7 @@ import {
   IconStar,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
-import { formatNumber } from "@/lib/utils";
+import { formatCapitalLetters, formatNumber } from "@/lib/utils";
 import React from "react";
 
 type AssetBlogDataProps = {
@@ -35,9 +35,9 @@ const AssetBlogData = ({
 }: AssetBlogDataProps) => {
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {dateStart} |{" "}
-      <IconCalendarTopDash className="w-4 h-4" /> {dateEnd} |{" "}
+      # {assetId} | <IconPrivacy className="w-4 h-4" />{" "}
+      {formatCapitalLetters(type)} | <IconCalendar className="w-4 h-4" />{" "}
+      {dateStart} | <IconCalendarTopDash className="w-4 h-4" /> {dateEnd} |{" "}
       <IconMessageCircle className="w-4 h-4" /> {formatNumber(comments)} |{" "}
       <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
       <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}

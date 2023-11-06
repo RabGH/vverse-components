@@ -1777,7 +1777,7 @@ export const vAssetLanceProjectData = [
     expertise: "intermediate",
     paymentType: "fixed",
     budget: "825",
-    imageUrl: "/images/article-coder-coding.png",
+    imageUrl: "/images/article-horses-riding.png",
   },
   {
     id: 3,
@@ -1794,7 +1794,7 @@ export const vAssetLanceProjectData = [
     expertise: "advanced",
     paymentType: "fixed",
     budget: "1100",
-    imageUrl: "/images/article-coder-coding.png",
+    imageUrl: "/images/article-camels-desert.png",
   },
 ];
 
@@ -1803,6 +1803,7 @@ export const vAssetCollegeData = [
     id: 1,
     assetId: "ASS-CRS-14",
     type: "public",
+    title: "V-College Asset Banner Data",
     userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     sales: 77000,
@@ -1818,8 +1819,8 @@ export const vAssetCollegeData = [
     paymentType: "paid",
     bargain: "discount",
     discountPercentage: 25,
-    collegeExpertise: "intermediate",
-    imageUrl: "/images/article-horse-back-riding.png",
+    expertise: "intermediate",
+    imageUrl: "/images/article-laptop-typing.png",
   },
   {
     id: 2,
@@ -1840,7 +1841,7 @@ export const vAssetCollegeData = [
     paymentType: "paid",
     bargain: "regular",
     // discountPercentage: 25,
-    collegeExpertise: "intermediate",
+    expertise: "intermediate",
     imageUrl: "/images/article-horse-back-riding.png",
   },
 ];

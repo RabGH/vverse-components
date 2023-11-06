@@ -7,25 +7,14 @@ type AssetBannerProviderProps = {
   dataType: string;
 };
 
-const AssetBannerProvider = ({
-  data,
-  dataType,
-}: AssetBannerProviderProps) => {
+const AssetBannerProvider = ({ data, dataType }: AssetBannerProviderProps) => {
   return (
     <div className="">
       {dataType === "blog" && (
-        <AssetMap
-          data={data}
-          dataType={dataType}
-          buttonDataType={"follow"}
-        />
+        <AssetMap data={data} dataType={dataType} buttonDataType={"follow"} />
       )}
       {dataType === "nation" && (
-        <AssetMap
-          data={data}
-          dataType={dataType}
-          buttonDataType={"join"}
-        />
+        <AssetMap data={data} dataType={dataType} buttonDataType={"join"} />
       )}
       {dataType === "tube" && (
         <AssetMap
@@ -35,11 +24,10 @@ const AssetBannerProvider = ({
         />
       )}
       {dataType === "lanceService" && (
-        <AssetMap
-          data={data}
-          dataType={dataType}
-          buttonDataType={"buy"}
-        />
+        <AssetMap data={data} dataType={dataType} buttonDataType={"buy"} />
+      )}
+      {dataType === "college" && (
+        <AssetMap data={data} dataType={dataType} buttonDataType={"enroll"} />
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 import {
   IconCalendar,
-  IconChannelViews,
+  IconCustomers,
   IconGraphDollar,
   IconOrderBox,
   IconPrivacy,
@@ -8,13 +8,14 @@ import {
   IconStar,
   IconThumbsUp,
 } from "@/components/icons/logo-icons";
-import { formatCurrency, formatNumber } from "@/lib/utils";
+import { formatCapitalLetters, formatNumber } from "@/lib/utils";
 import React from "react";
+import { formatCurrency } from "@/lib/utils";
 
-type AssetLanceServiceDataProps = {
+type AssetCollegeDataProps = {
   assetId: string;
   type: "private" | "public";
-  date: string;
+  date: number;
   sales: number;
   orders: number;
   customers: number;
@@ -24,7 +25,7 @@ type AssetLanceServiceDataProps = {
   ratingPoints: number;
 };
 
-const AssetLanceServiceData = ({
+const AssetCollegeData = ({
   assetId,
   type,
   date,
@@ -35,14 +36,14 @@ const AssetLanceServiceData = ({
   shares,
   rating,
   ratingPoints,
-}: AssetLanceServiceDataProps) => {
+}: AssetCollegeDataProps) => {
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {date} |{" "}
-      <IconGraphDollar className="w-4 h-4" /> {formatCurrency(sales)} |{" "}
+      # {assetId} | <IconPrivacy className="w-4 h-4" />{" "}
+      {formatCapitalLetters(type)} | <IconCalendar className="w-4 h-4" /> {date}{" "}
+      | <IconGraphDollar className="w-4 h-4" /> {formatCurrency(sales)} |{" "}
       <IconOrderBox className="w-4 h-4" /> {formatNumber(orders)} |{" "}
-      <IconChannelViews className="w-4 h-4" /> {formatNumber(customers)} |{" "}
+      <IconCustomers className="w-4 h-4" /> {formatNumber(customers)} |{" "}
       <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
       <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
       <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
@@ -51,4 +52,4 @@ const AssetLanceServiceData = ({
   );
 };
 
-export default AssetLanceServiceData;
+export default AssetCollegeData;

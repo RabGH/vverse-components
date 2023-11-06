@@ -2,6 +2,7 @@ import AssetBlogData from "@/components/asset-banners/asset-data/asset-blog-data
 import AssetNationData from "@/components/asset-banners/asset-data/asset-nation-data";
 import AssetTubeData from "./asset-data/asset-tube-date";
 import AssetLanceServiceData from "./asset-data/asset-lance-service-data";
+import AssetCollegeData from "./asset-data/asset-college-data";
 
 type AssetDetailsProps = {
   data: any;
@@ -53,6 +54,20 @@ const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
       )}
       {dataType === "lanceService" && (
         <AssetLanceServiceData
+          assetId={data.assetId}
+          type={data.type}
+          date={data.date}
+          sales={data.sales}
+          orders={data.orders}
+          customers={data.customers}
+          likes={data.likes}
+          shares={data.shares}
+          rating={data.rating}
+          ratingPoints={data.ratingPoints}
+        />
+      )}
+      {dataType === "college" && (
+        <AssetCollegeData
           assetId={data.assetId}
           type={data.type}
           date={data.date}
