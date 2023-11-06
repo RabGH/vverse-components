@@ -2,6 +2,7 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconDelivery } from "@/components/icons/logo-icons";
+import { parseHoursFormat } from "@/lib/utils";
 
 type DeliveryTimeBadgeProps = {
   deliveryTime?: number;
@@ -14,7 +15,7 @@ const DeliveryTimeBadge = ({ deliveryTime }: DeliveryTimeBadgeProps) => {
       variant="violet"
       icon={<IconDelivery className="w-4 h-4" />}
     >
-      {deliveryTime}
+      {parseHoursFormat(deliveryTime)}
     </Badge>
   ) : null;
 };

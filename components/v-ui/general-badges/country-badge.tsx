@@ -2,6 +2,7 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconGlobeDefined } from "@/components/icons/logo-icons";
+import { formatCapitalLetters } from "@/lib/utils";
 
 type CountryBadgeProps = {
   country?: string;
@@ -14,7 +15,7 @@ const CountryBadge = ({ country }: CountryBadgeProps) => {
       variant="violet"
       icon={<IconGlobeDefined className="w-4 h-4 text-primary" />}
     >
-      {country}
+      {formatCapitalLetters(country)}
     </Badge>
   ) : null;
 };

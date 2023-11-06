@@ -74,3 +74,11 @@ export function parseDurationFormat(hours: number) {
 export function formatCapitalLetters(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+export const calculateDiscountedPrice = (
+  originalPrice: number,
+  discountPercentage: number
+) => {
+  const discountedPrice = originalPrice * (1 - discountPercentage / 100);
+  return discountedPrice;
+};
