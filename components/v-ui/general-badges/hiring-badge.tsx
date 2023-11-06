@@ -12,9 +12,9 @@ const HiringBadge = ({ isHiring }: HiringBadgeProps) => {
     <Badge
       size="featured"
       variant="bannerRed"
-      icon={<IconStatusCalendar className="w-4 h-4" />}
+      icon={<IconStatusCalendar className="w-4 h-4 text-primary" />}
     >
-      Featured
+      Hiring
     </Badge>
   ) : null;
 };

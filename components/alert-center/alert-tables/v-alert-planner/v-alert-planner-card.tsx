@@ -109,7 +109,7 @@ const VAlertPlannerCard = ({ isLoading, planner }: VAlertPlannerCardProps) => {
               {statusBadge}
               {/* </div> */}
               {planner.startDate && (
-                <Badge variant={"profile"} size="label" className={cn("")}>
+                <Badge variant="violet" size="label" className={cn("")}>
                   {planner.startDate}
                 </Badge>
               )}

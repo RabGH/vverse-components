@@ -12,7 +12,7 @@ const FeaturedBadge = ({ isFeatured }: FeaturedBadgeProps) => {
     <Badge
       size="featured"
       variant="bannerRed"
-      icon={<IconZap className="w-4 h-4" />}
+      icon={<IconZap className="w-4 h-4 text-primary" />}
     >
       Featured
     </Badge>

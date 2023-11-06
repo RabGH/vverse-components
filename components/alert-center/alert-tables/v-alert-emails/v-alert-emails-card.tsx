@@ -90,7 +90,7 @@ const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
             <div className="flex flex-row items-center justify-between gap-4">
               {emailTypeBadge}
               {emails.date && (
-                <Badge variant={"profile"} size="label" className={cn("")}>
+                <Badge variant="violet" size="label" className={cn("")}>
                   {emails.date}
                 </Badge>
               )}

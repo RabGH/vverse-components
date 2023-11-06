@@ -12,8 +12,8 @@ const PriceBadge = ({ price }: PriceBadgeProps) => {
   return price ? (
     <Badge
       size="featured"
-      variant="profile"
-      icon={<IconTagDollar className="w-4 h-4" />}
+      variant="violet"
+      icon={<IconTagDollar className="w-4 h-4 text-primary" />}
     >
       {formatPriceTag(price)}
     </Badge>

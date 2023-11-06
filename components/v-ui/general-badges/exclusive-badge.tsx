@@ -12,7 +12,7 @@ const ExclusiveBadge = ({ isExclusive }: ExclusiveBadgeProps) => {
     <Badge
       size="featured"
       variant="bannerRed"
-      icon={<IconCrownExclusive className="w-4 h-4" />}
+      icon={<IconCrownExclusive className="w-4 h-4 text-primary" />}
     >
       Exclusive
     </Badge>

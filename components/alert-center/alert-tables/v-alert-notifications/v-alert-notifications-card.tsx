@@ -91,7 +91,7 @@ const VAlertNotificationCard = ({
                 </Button>
               )}
               {notification.date && (
-                <Badge variant={"profile"} size="label" className={cn("")}>
+                <Badge variant="violet" size="label" className={cn("")}>
                   {notification.date}
                 </Badge>
               )}

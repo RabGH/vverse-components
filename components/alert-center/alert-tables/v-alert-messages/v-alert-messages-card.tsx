@@ -108,7 +108,7 @@ const VAlertMessagesCard = ({
             <div className="flex flex-row items-center justify-between gap-4">
               {messagePillar}
               {message.date && (
-                <Badge variant={"profile"} size="label" className={cn("")}>
+                <Badge variant="violet" size="label" className={cn("")}>
                   {message.date}
                 </Badge>
               )}

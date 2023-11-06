@@ -61,7 +61,7 @@ const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
             </div>
             <div className="flex flex-row items-center justify-between gap-4">
               {news.date && (
-                <Badge variant={"profile"} size="label" className={cn("")}>
+                <Badge variant="violet" size="label" className={cn("")}>
                   {news.date}
                 </Badge>
               )}

@@ -20,7 +20,7 @@ const badgeVariants = cva(
         success: "vGreen text-primary-foreground border-none",
         info: "vBlue text-primary-foreground border-none font-normal",
         infoDorment: "vPurple text-primary-foreground border-none font-normal",
-        profile: "bg-violet text-primary-foreground border-none",
+        violet: "bg-violet text-primary-foreground border-none",
         bannerRed: "vRed text-primary-foreground p-2 border-none",
       },
       size: {

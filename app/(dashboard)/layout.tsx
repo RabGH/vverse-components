@@ -1,8 +1,17 @@
+import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
+
 import { OwnerProvider } from "@/components/contexts/owner-context";
 import { NavigationMenuDemo } from "@/components/nav/navbar-demo";
 import VFooter from "@/components/v-ui/v-nav/v-footer";
 
 const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
+  const { userId } = auth();
+
+  if (!userId) {
+    redirect("/sign-in");
+  }
+
   return (
     <div className="flex flex-col">
       <NavigationMenuDemo />

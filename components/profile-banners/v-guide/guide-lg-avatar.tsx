@@ -39,7 +39,7 @@ export function UserLargeAvatar({
         </Avatar>
       </div>
       <Badge
-        variant={"profile"}
+        variant={"violet"}
         icon={<IconUserBtn className="w-6 h-6 text-primary-foreground" />}
         size="lg"
         className="mt-[-70px] z-10 mr-8 text-sm"
