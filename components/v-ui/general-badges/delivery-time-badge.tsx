@@ -19,7 +19,7 @@ const DeliveryTimeBadge = ({
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconDelivery className={cn("w-4 h-4")} />}
+      icon={<IconDelivery className={cn("w-5 h-5")} />}
       className={cn(badgeClassName)}
     >
       {parseHoursFormat(deliveryTime)}

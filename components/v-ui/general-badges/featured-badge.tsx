@@ -19,7 +19,7 @@ const FeaturedBadge = ({
     <Badge
       size="featured"
       variant="bannerRed"
-      icon={<IconZap className={cn("w-4 h-4 text-primary", iconClassName)} />}
+      icon={<IconZap className={cn("w-5 h-5 text-primary", iconClassName)} />}
       className={cn(badgeClassName)}
     >
       Featured

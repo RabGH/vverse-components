@@ -21,7 +21,7 @@ const StockBadge = ({
       variant="bannerRed"
       icon={
         <IconStatusCalendar
-          className={cn("w-4 h-4 text-primary", iconClassName)}
+          className={cn("w-5 h-5 text-primary", iconClassName)}
         />
       }
       className={cn(badgeClassName)}

@@ -20,7 +20,7 @@ const PriceBadge = ({
       size="featured"
       variant="violet"
       icon={
-        <IconTagDollar className={cn("w-4 h-4 text-primary", iconClassName)} />
+        <IconTagDollar className={cn("w-5 h-5 text-primary", iconClassName)} />
       }
       className={cn(badgeClassName)}
     >

@@ -20,7 +20,7 @@ const BargainBadge = ({
       size="featured"
       variant="violet"
       icon={
-        <IconPriceType className={cn("w-4 h-4 text-primary", iconClassName)} />
+        <IconPriceType className={cn("w-5 h-5 text-primary", iconClassName)} />
       }
       className={cn(badgeClassName)}
     >

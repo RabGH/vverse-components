@@ -1,11 +1,4 @@
 import { Separator } from "@/components/ui/separator";
-
-import {
-  IconMagnifyingPerson,
-  IconWorkExperienceBtn,
-  IconZap,
-} from "@/components/icons/logo-icons";
-import { Badge } from "@/components/ui/badge";
 import RankMedals, {
   RankMedalProps,
 } from "@/components/profile-banners/master-banner/rank-medals";

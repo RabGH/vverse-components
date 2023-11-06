@@ -25,7 +25,7 @@ const PaymentTypeBadge = ({
         variant="violet"
         icon={
           <IconProjectCheck
-            className={cn("w-4 h-4 text-primary", iconClassName)}
+            className={cn("w-5 h-5 text-primary", iconClassName)}
           />
         }
         className={cn(badgeClassName)}
@@ -40,7 +40,7 @@ const PaymentTypeBadge = ({
         variant="violet"
         icon={
           <IconCellPhoneCard
-            className={cn("w-4 h-4 text-primary", iconClassName)}
+            className={cn("w-5 h-5 text-primary", iconClassName)}
           />
         }
         className={cn(badgeClassName)}
