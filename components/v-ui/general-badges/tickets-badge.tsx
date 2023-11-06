@@ -2,18 +2,27 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconTicket } from "@/components/icons/logo-icons";
-import { formatNumber } from "@/lib/utils";
+import { cn, formatNumber } from "@/lib/utils";
 
 type TicketsBadgeProps = {
   tickets?: number;
+  iconClassName?: string;
+  badgeClassName?: string;
 };
 
-const TicketsBadge = ({ tickets }: TicketsBadgeProps) => {
+const TicketsBadge = ({
+  tickets,
+  iconClassName,
+  badgeClassName,
+}: TicketsBadgeProps) => {
   return tickets ? (
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconTicket className="w-4 h-4 text-primary" />}
+      icon={
+        <IconTicket className={cn("w-4 h-4 text-primary", iconClassName)} />
+      }
+      className={cn(badgeClassName)}
     >
       {formatNumber(tickets)}
     </Badge>

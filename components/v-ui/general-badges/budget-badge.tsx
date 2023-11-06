@@ -2,18 +2,27 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconBudget } from "@/components/icons/logo-icons";
-import { formatPriceTag } from "@/lib/utils";
+import { cn, formatPriceTag } from "@/lib/utils";
 
 type BudgetBadgeProps = {
   budget?: number;
+  badgeClassName?: string;
+  iconClassName?: string;
 };
 
-const BudgetBadge = ({ budget }: BudgetBadgeProps) => {
+const BudgetBadge = ({
+  budget,
+  badgeClassName,
+  iconClassName,
+}: BudgetBadgeProps) => {
   return budget ? (
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconBudget className="w-4 h-4 text-primary" />}
+      icon={
+        <IconBudget className={cn("w-4 h-4 text-primary", iconClassName)} />
+      }
+      className={cn(badgeClassName)}
     >
       {formatPriceTag(budget)}
     </Badge>

@@ -2,18 +2,27 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconPriceType } from "@/components/icons/logo-icons";
-import { formatCapitalLetters } from "@/lib/utils";
+import { cn, formatCapitalLetters } from "@/lib/utils";
 
 type BargainBadgeProps = {
   bargain?: string;
+  badgeClassName?: string;
+  iconClassName?: string;
 };
 
-const BargainBadge = ({ bargain }: BargainBadgeProps) => {
+const BargainBadge = ({
+  bargain,
+  iconClassName,
+  badgeClassName,
+}: BargainBadgeProps) => {
   return bargain ? (
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconPriceType className="w-4 h-4 text-primary" />}
+      icon={
+        <IconPriceType className={cn("w-4 h-4 text-primary", iconClassName)} />
+      }
+      className={cn(badgeClassName)}
     >
       {formatCapitalLetters(bargain)} Price
     </Badge>

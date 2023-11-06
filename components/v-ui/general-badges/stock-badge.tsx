@@ -2,18 +2,29 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconStatusCalendar } from "@/components/icons/logo-icons";
-import { formatCapitalLetters } from "@/lib/utils";
+import { cn, formatCapitalLetters } from "@/lib/utils";
 
 type StockBadgeProps = {
   stock: "In Stock" | "Out of Stock";
+  iconClassName?: string;
+  badgeClassName?: string;
 };
 
-const StockBadge = ({ stock }: StockBadgeProps) => {
+const StockBadge = ({
+  stock,
+  iconClassName,
+  badgeClassName,
+}: StockBadgeProps) => {
   return stock ? (
     <Badge
       size="featured"
       variant="bannerRed"
-      icon={<IconStatusCalendar className="w-4 h-4 text-primary" />}
+      icon={
+        <IconStatusCalendar
+          className={cn("w-4 h-4 text-primary", iconClassName)}
+        />
+      }
+      className={cn(badgeClassName)}
     >
       {formatCapitalLetters(stock)}
     </Badge>

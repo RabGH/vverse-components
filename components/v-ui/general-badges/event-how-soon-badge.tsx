@@ -2,18 +2,29 @@ import React from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { IconCalendarEvent } from "@/components/icons/logo-icons";
-import { formatCapitalLetters } from "@/lib/utils";
+import { cn, formatCapitalLetters } from "@/lib/utils";
 
 type EventHowSoonBadgeProps = {
   eventHowSoon?: string;
+  iconClassName?: string;
+  badgeClassName?: string;
 };
 
-const EventHowSoonBadge = ({ eventHowSoon }: EventHowSoonBadgeProps) => {
+const EventHowSoonBadge = ({
+  eventHowSoon,
+  iconClassName,
+  badgeClassName,
+}: EventHowSoonBadgeProps) => {
   return eventHowSoon ? (
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconCalendarEvent className="w-4 h-4 text-primary" />}
+      icon={
+        <IconCalendarEvent
+          className={cn("w-4 h-4 text-primary", iconClassName)}
+        />
+      }
+      className={cn(badgeClassName)}
     >
       {formatCapitalLetters(eventHowSoon)}
     </Badge>
