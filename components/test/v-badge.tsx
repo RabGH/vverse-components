@@ -9,6 +9,11 @@ import {
   IconMapPerson,
   IconProjectsBtn,
 } from "@/components/icons/logo-icons";
+import BargainBadge from "../v-ui/general-badges/bargain-badge";
+import PaymentTypeBadge from "../v-ui/general-badges/payment-type-badge";
+import BudgetBadge from "../v-ui/general-badges/budget-badge";
+import CountryBadge from "../v-ui/general-badges/country-badge";
+import DiscountBadge from "../v-ui/general-badges/discount-badge";
 
 export function VBadges() {
   return (
@@ -231,6 +236,13 @@ export function VBadges() {
         >
           Achievements
         </Badge>
+      </section>
+      <section className="flex flex-wrap justify-center items-center gap-4">
+        <BargainBadge bargain="Fixed" />
+        <PaymentTypeBadge paymentType="fixed" />
+        <BudgetBadge budget={100} />
+        <CountryBadge country="Egypt" />
+        <DiscountBadge price={100} discountPercentage={25} />
       </section>
     </div>
   );
