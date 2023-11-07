@@ -12,7 +12,7 @@ type UserTitleBoxProps = {
   userTitle: string;
   points: number;
   endorsements: number;
-  thumbsup: number;
+  likes: number;
   shares: number;
 
   isFeatured?: string;
@@ -26,7 +26,7 @@ const UserTitleBox = ({
   userTitle,
   points,
   endorsements,
-  thumbsup,
+  likes,
   shares,
   rank = "standardSilver",
   isFeatured = "featured",
@@ -42,7 +42,7 @@ const UserTitleBox = ({
           <UserPoints
             points={points}
             endorsements={endorsements}
-            thumbsup={thumbsup}
+            thumbsup={likes}
             shares={shares}
           />
           <Separator orientation="vertical" className="h-7 mx-1" />

@@ -54,7 +54,7 @@ const ProfileBannerPage = () => {
         points={vGuideUserData.points}
         endorsements={vGuideUserData.endorsements}
         isFeatured={vGuideUserData.isFeatured}
-        thumbsup={vGuideUserData.likes}
+        likes={vGuideUserData.likes}
         shares={vGuideUserData.shares}
         guideUserData={vGuideUserData}
         userInfoData={vGuideUserData.vUserInfoData}
@@ -74,7 +74,7 @@ const ProfileBannerPage = () => {
         points={vGuideUserData.points}
         endorsements={vGuideUserData.endorsements}
         isFeatured={vGuideUserData.isFeatured}
-        thumbsup={vGuideUserData.likes}
+        likes={vGuideUserData.likes}
         shares={vGuideUserData.shares}
         guideUserData={vGuideUserData}
         userInfoData={vGuideUserData.vUserInfoData}
@@ -98,10 +98,10 @@ const ProfileBannerPage = () => {
         points={vBlogUserData.points}
         endorsements={vBlogUserData.endorsements}
         isFeatured={vBlogUserData.isFeatured}
-        thumbsup={vBlogUserData.likes}
+        likes={vBlogUserData.likes}
         shares={vBlogUserData.shares}
         rank={vBlogUserData.rank}
-        dataType={"blog"}
+        dataType={vBlogUserData.dataType}
         data={vBlogUserData}
       />
       <Heading
@@ -111,15 +111,15 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Author Name>"}
-        userTitle={"Demo Profile Banner V-Author Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        thumbsup={1000}
-        shares={100}
-        rank={"standardGold"}
-        dataType={"author"}
+        userName={vAuthorUserData.userName}
+        userTitle={vAuthorUserData.userTitle}
+        points={vAuthorUserData.points}
+        endorsements={vAuthorUserData.endorsements}
+        isFeatured={vAuthorUserData.isFeatured}
+        likes={vAuthorUserData.likes}
+        shares={vAuthorUserData.shares}
+        rank={vAuthorUserData.rank}
+        dataType={vAuthorUserData.dataType}
         data={vAuthorUserData}
       />
       <Heading
@@ -129,15 +129,15 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Tube Name>"}
-        userTitle={"Demo Profile Banner V-Tube Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        thumbsup={1000}
-        shares={100}
-        rank={"ambassadorSilver"}
-        dataType={"tube"}
+        userName={vTubeUserData.userName}
+        userTitle={vTubeUserData.userTitle}
+        points={vTubeUserData.points}
+        endorsements={vTubeUserData.endorsements}
+        isFeatured={vTubeUserData.isFeatured}
+        likes={vTubeUserData.likes}
+        shares={vTubeUserData.shares}
+        rank={vTubeUserData.rank}
+        dataType={vTubeUserData.dataType}
         data={vTubeUserData}
       />
       <Heading
@@ -147,17 +147,17 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Job Name>"}
-        userTitle={"Demo Profile Banner V-Job Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        thumbsup={1000}
-        shares={100}
-        rank={"ambassadorGold"}
-        dataType={"jobs"}
+        userName={vJobUserData.userName}
+        userTitle={vJobUserData.userTitle}
+        points={vJobUserData.points}
+        endorsements={vJobUserData.endorsements}
+        isFeatured={vJobUserData.isFeatured}
+        likes={vJobUserData.likes}
+        shares={vJobUserData.shares}
+        rank={vJobUserData.rank}
+        dataType={vJobUserData.dataType}
         data={vJobUserData}
-        isOpenToWork={"Open To Work"}
+        isOpenToWork={vJobUserData.isOpenToWork}
       />
       <Heading
         title={"Lancer Banners"}
@@ -166,15 +166,15 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Lance Name>"}
-        userTitle={"Demo Profile Banner V-Lance Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        thumbsup={1000}
-        shares={100}
-        rank={"vendorSilver"}
-        dataType={"lance"}
+        userName={vLanceUserData.userName}
+        userTitle={vLanceUserData.userTitle}
+        points={vLanceUserData.points}
+        endorsements={vLanceUserData.endorsements}
+        isFeatured={vLanceUserData.isFeatured}
+        likes={vLanceUserData.likes}
+        shares={vLanceUserData.shares}
+        rank={vLanceUserData.rank}
+        dataType={vLanceUserData.dataType}
         data={vLanceUserData}
       />
       <Heading
@@ -189,7 +189,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"vendorGold"}
         dataType={"event"}
@@ -207,7 +207,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"vendorPlatinum"}
         dataType={"webinar"}
@@ -225,7 +225,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"vendorSilver"}
         dataType={"webinar"}
@@ -243,7 +243,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"standardSilver"}
         dataType={"marketingSponsor"}
@@ -261,7 +261,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"standardPlatinum"}
         dataType={"marketing"}
@@ -279,7 +279,7 @@ const ProfileBannerPage = () => {
         points={1000}
         endorsements={10000}
         isFeatured="featured"
-        thumbsup={1000}
+        likes={1000}
         shares={100}
         rank={"standardPlatinum"}
         dataType={"market"}
@@ -298,7 +298,7 @@ const ProfileBannerPage = () => {
         endorsements={10000}
         isFeatured="featured"
         isOpenToWork={""}
-        thumbsup={100000}
+        likes={100000}
         shares={100000}
         rank={"standardGold"}
         data={vTubeUserData}

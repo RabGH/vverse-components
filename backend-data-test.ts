@@ -126,6 +126,7 @@ export const vBlogUserData = {
   endorsements: 1548,
   isFeatured: "featured",
   rank: "standardPlatinum",
+  dataType: "blog",
 };
 
 export const vAuthorUserData = {
@@ -138,6 +139,13 @@ export const vAuthorUserData = {
   shares: 1100,
   ratingPoints: 1200,
   rating: 3.7,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Demo Profile Banner V-Author Banner",
+  isFeatured: "featured",
+  rank: "standardGold",
+  dataType: "author",
+  points: 100,
+  endorsements: 1000,
 };
 
 export const vTubeUserData = {
@@ -149,6 +157,13 @@ export const vTubeUserData = {
   shares: 900,
   ratingPoints: 1200,
   rating: 5,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Demo Profile Banner V-Tube Banner",
+  points: 678,
+  endorsements: 547,
+  isFeatured: "featured",
+  rank: "ambassadorSilver",
+  dataType: "tube",
 };
 
 export const vJobUserData = {
@@ -156,6 +171,14 @@ export const vJobUserData = {
   salary: 2500,
   likes: 4500,
   shares: 900,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Demo Profile Banner V-Job Banner",
+  points: 678,
+  endorsements: 547,
+  isFeatured: "featured",
+  rank: "ambassadorSilver",
+  dataType: "jobs",
+  isOpenToWork: "Open To Work",
 };
 
 export const vLanceUserData = {
@@ -168,6 +191,13 @@ export const vLanceUserData = {
   shares: 900,
   ratingPoints: 1200,
   rating: 4.7,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Demo Profile Banner V-Lance Banner",
+  points: 678,
+  endorsements: 547,
+  isFeatured: "featured",
+  rank: "vendorSilver",
+  dataType: "lance",
 };
 
 export const vCollegeUserData = {
@@ -1715,7 +1745,7 @@ export const vAssetTubeData = [
   },
 ];
 // change to lance
-export const vAssetLancerServiceData = [
+export const vAssetLanceServiceData = [
   {
     id: 1,
     assetId: "ASS-SRV-122",

@@ -2,7 +2,7 @@ import {
   vAssetBlogData,
   vAssetCollegeData,
   vAssetLanceProjectData,
-  vAssetLancerServiceData,
+  vAssetLanceServiceData,
   vAssetNationData,
   vAssetTubeData,
 } from "@/backend-data-test";
@@ -43,7 +43,7 @@ const AssetBannerPage = () => {
         icon={IconPostsBtn}
       />
       <AssetBannerProvider
-        data={vAssetLancerServiceData}
+        data={vAssetLanceServiceData}
         dataType={"lanceService"}
       />
       <Heading

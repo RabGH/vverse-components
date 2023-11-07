@@ -18,7 +18,10 @@ const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
       <div className="flex flex-col gap-2">
         {sectionLinks.map((link, index) => (
           <>
-            <nav className="flex flex-row text-background gap-2 items-center group text-sm">
+            <nav
+              className="flex flex-row text-background gap-2 items-center group text-sm"
+              key={index}
+            >
               {link.icon && (
                 <link.icon className="w-5 h-5 group-hover:text-blue-300" />
               )}

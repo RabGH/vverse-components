@@ -17,7 +17,7 @@ type GuideProfileBannerProps = {
   points: number;
   endorsements: number;
   isFeatured: string;
-  thumbsup: number;
+  likes: number;
   shares: number;
   partOf: Record<string, boolean>;
   rank: RankMedalProps["rank"] | string;
@@ -37,7 +37,7 @@ const GuideProfileBanner = ({
   userName,
   userTitle,
   points,
-  thumbsup,
+  likes,
   shares,
   rank,
   endorsements,
@@ -68,7 +68,7 @@ const GuideProfileBanner = ({
             endorsements={endorsements}
             isFeatured={isFeatured}
             rank={rank}
-            thumbsup={thumbsup}
+            likes={likes}
             shares={shares}
             points={points}
           />

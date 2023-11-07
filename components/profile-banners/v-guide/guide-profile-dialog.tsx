@@ -26,7 +26,7 @@ type GuideProfileBannerDialogProps = {
   points: number;
   endorsements: number;
   isFeatured: string;
-  thumbsup: number;
+  likes: number;
   shares: number;
   dialogTitle: string;
   isEmailVerified?: boolean;
@@ -48,7 +48,7 @@ const GuideProfileBannerDialog = ({
   userName,
   userTitle,
   points,
-  thumbsup,
+  likes,
   shares,
   rank,
   endorsements,
@@ -97,7 +97,7 @@ const GuideProfileBannerDialog = ({
                     endorsements={endorsements}
                     isFeatured={isFeatured}
                     rank={rank}
-                    thumbsup={thumbsup}
+                    likes={likes}
                     shares={shares}
                   />
                   <Separator />

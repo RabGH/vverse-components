@@ -36,7 +36,7 @@ type BannerProfileProps = {
   points: number;
   endorsements: number;
   isFeatured: string;
-  thumbsup: number;
+  likes: number;
   shares: number;
   rank: RankMedalProps["rank"];
   data: any;
@@ -63,7 +63,7 @@ const BannerProfileDialog = ({
   points,
   endorsements,
   rank,
-  thumbsup,
+  likes,
   shares,
   data,
   dataType,
@@ -98,7 +98,7 @@ const BannerProfileDialog = ({
                     isFeatured={isFeatured}
                     isOpenToWork={isOpenToWork}
                     rank={rank}
-                    thumbsup={thumbsup}
+                    likes={likes}
                     shares={shares}
                   />
                   <div className="ml-[-100px]">

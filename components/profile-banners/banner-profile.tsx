@@ -27,11 +27,12 @@ type BannerProfileProps = {
   points: number;
   endorsements: number;
   isFeatured: string;
-  thumbsup: number;
+  likes: number;
   shares: number;
   rank: RankMedalProps["rank"];
   data: any;
   dataType:
+    | string
     | "college"
     | "jobs"
     | "author"
@@ -53,7 +54,7 @@ const BannerProfile = ({
   points,
   endorsements,
   rank,
-  thumbsup,
+  likes,
   shares,
   data,
   dataType,
@@ -75,7 +76,7 @@ const BannerProfile = ({
             isFeatured={isFeatured}
             isOpenToWork={isOpenToWork}
             rank={rank}
-            thumbsup={thumbsup}
+            likes={likes}
             shares={shares}
           />
           <div className="ml-[-100px]">

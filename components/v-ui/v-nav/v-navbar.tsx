@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useUser } from "@clerk/nextjs";
 
 import { HamburgerMenu, MainLogo } from "@/components/icons/logo-icons";
 import { Button } from "@/components/ui/button";
@@ -19,11 +20,10 @@ import { Separator } from "@/components/ui/separator";
 import VVerseBackOfficeMenuContent from "@/components/v-ui/v-nav/v-verse-back-office-content";
 
 type VNavBarProps = {
-  userName: string;
   userTitle: string;
 };
 
-const VNavbar = ({ userName, userTitle }: VNavBarProps) => {
+const VNavbar = ({ userTitle }: VNavBarProps) => {
   const [activeButton, setActiveButton] = useState("V-Verse Menu");
   const [isSignedIn, setIsSignedIn] = useState(false);
 
@@ -34,6 +34,8 @@ const VNavbar = ({ userName, userTitle }: VNavBarProps) => {
   const handleButtonClick = (button: string) => {
     setActiveButton(button);
   };
+
+  const { user } = useUser();
 
   return (
     <div className="flex items-center justify-between gap-2 p-2">
@@ -62,7 +64,7 @@ const VNavbar = ({ userName, userTitle }: VNavBarProps) => {
                 <div className="flex flex-row items-center gap-4">
                   <UserAvatar />
                   <div className="flex flex-col text-background gap-1">
-                    <h2 className="text-2xl">{userName}</h2>
+                    <h2 className="text-2xl">{user?.username}</h2>
                     <p className="text-sm">{userTitle}</p>
                   </div>
                 </div>
