@@ -10,6 +10,8 @@ import DeliveryTimeBadge from "@/components/v-ui/general-badges/delivery-time-ba
 import ExclusiveBadge from "@/components/v-ui/general-badges/exclusive-badge";
 import PaymentTypeBadge from "@/components/v-ui/general-badges/payment-type-badge";
 import DiscountPercentageBadge from "@/components/v-ui/general-badges/discount-percent-badge";
+import WorkTypeBadge from "../v-ui/general-badges/work-type-badge";
+import BudgetBadge from "../v-ui/general-badges/budget-badge";
 
 type AssetBadgesProps = {
   dataType: string;
@@ -29,7 +31,7 @@ const AssetBadges = ({ dataType, data }: AssetBadgesProps) => {
       )}
 
       {/* Exclusive Badge */}
-      {(dataType === "lanceService" || dataType === "college") && (
+      {(dataType === "college" || dataType === "lanceService") && (
         <ExclusiveBadge isExclusive={data.isExclusive} />
       )}
 
@@ -47,7 +49,7 @@ const AssetBadges = ({ dataType, data }: AssetBadgesProps) => {
       )}
 
       {/* Payment Type Badge */}
-      {dataType === "college" && (
+      {(dataType === "college" || dataType === "lanceProject") && (
         <PaymentTypeBadge paymentType={data.paymentType} />
       )}
 
@@ -55,20 +57,28 @@ const AssetBadges = ({ dataType, data }: AssetBadgesProps) => {
       {dataType === "lanceProject" && <HiringBadge isHiring={data.isHiring} />}
 
       {/* Price Badge */}
-      {(dataType === "lanceProject" || dataType === "lanceService") && (
-        <PriceBadge price={data.price} />
-      )}
+      {dataType === "lanceService" && <PriceBadge price={data.price} />}
 
       {/* Bargain Badge */}
       {dataType === "college" && <BargainBadge bargain={data.bargain} />}
 
       {/* Devlivery Time Badge */}
-      {dataType === "lanceService" && (
+      {(dataType === "lanceService" || dataType === "lanceProject") && (
         <DeliveryTimeBadge deliveryTime={data.deliveryTime} />
       )}
 
+      {/* Work Type Badge */}
+      {dataType === "lanceProject" && (
+        <WorkTypeBadge workType={data.workType} />
+      )}
+
       {/* Expertise Badge */}
-      {dataType === "college" && <ExpertiseBadge expertise={data.expertise} />}
+      {(dataType === "college" || dataType === "lanceProject") && (
+        <ExpertiseBadge expertise={data.expertise} />
+      )}
+
+      {/* Budget Badge */}
+      {dataType === "lanceProject" && <BudgetBadge budget={data.budget} />}
     </div>
   );
 };

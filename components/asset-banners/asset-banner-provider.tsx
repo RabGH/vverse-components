@@ -1,4 +1,4 @@
-import AssetMap from "./asset-map";
+import AssetMap from "./asset-banner-map";
 
 // specify types of assets
 
@@ -28,6 +28,9 @@ const AssetBannerProvider = ({ data, dataType }: AssetBannerProviderProps) => {
       )}
       {dataType === "college" && (
         <AssetMap data={data} dataType={dataType} buttonDataType={"enroll"} />
+      )}
+      {dataType === "lanceProject" && (
+        <AssetMap data={data} dataType={dataType} buttonDataType={"apply"} />
       )}
     </div>
   );

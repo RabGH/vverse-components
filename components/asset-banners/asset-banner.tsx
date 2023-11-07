@@ -4,12 +4,12 @@ import Image from "next/image";
 import { UserSmallAvatar } from "../v-ui/user-small-avatar";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import AssetInteraction from "@/components/asset-banners/asset-interact";
-import AssetBadges from "@/components/asset-banners/asset-badges";
-import AssetDetails from "@/components/asset-banners/asset-details";
+import AssetInteraction from "@/components/asset-banners/asset-banner-interact";
+import AssetBadges from "@/components/asset-banners/asset-banner-badges";
+import AssetDetails from "@/components/asset-banners/asset-banner-details";
 import AssetInteractionTop, {
   AssetInteractionTopProps,
-} from "@/components/asset-banners/asset-interact-top";
+} from "@/components/asset-banners/asset-banner-interact-top";
 
 // specify types
 
@@ -19,11 +19,7 @@ type AssetBannerProps = {
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
-const AssetBanner = ({
-  data,
-  dataType,
-  buttonDataType,
-}: AssetBannerProps) => {
+const AssetBanner = ({ data, dataType, buttonDataType }: AssetBannerProps) => {
   return (
     <Card
       className={`relative z-0 rounded-xl h-fit w-fit hover:shadow-2xl hover:translate-y-[-5px] 
@@ -39,7 +35,6 @@ const AssetBanner = ({
         />
         <div className="bg-opacity-40 bg-black z-[2] absolute inset-0 w-full h-full rounded-xl" />
         <div className="bg-gradient-to-t from-black/80 via-black/10 to-transparent  z-[3] absolute inset-0 w-full h-full rounded-xl" />
-
       </div>
 
       <div className="absolute top-0 left-0 right-0 z-[3] text-white p-3">
@@ -49,9 +44,7 @@ const AssetBanner = ({
             <p className="text-base">{data.userName}</p>
           </CardTitle>
           <div>
-            <AssetInteractionTop
-              buttonDataType={buttonDataType}
-            />
+            <AssetInteractionTop buttonDataType={buttonDataType} />
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ const AssetBlogData = ({
   const iconStyles = "w-5 h-5 text-primary";
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      <IconHashTag className={iconStyles} /> # {assetId} | <IconPrivacy className={iconStyles} />{" "}
+      <IconHashTag className={iconStyles} /> {assetId} | <IconPrivacy className={iconStyles} />{" "}
       {formatCapitalLetters(type)} | <IconCalendar className={iconStyles} />{" "}
       {dateStart} | <IconCalendarTopDash className={iconStyles} /> {dateEnd} |{" "}
       <IconMessageCircle className={iconStyles} /> {formatNumber(comments)} |{" "}

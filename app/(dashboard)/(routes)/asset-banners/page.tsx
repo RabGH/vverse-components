@@ -1,6 +1,7 @@
 import {
   vAssetBlogData,
   vAssetCollegeData,
+  vAssetLanceProjectData,
   vAssetLancerServiceData,
   vAssetNationData,
   vAssetTubeData,
@@ -37,7 +38,7 @@ const AssetBannerPage = () => {
       />
       <AssetBannerProvider data={vAssetTubeData} dataType={"tube"} />
       <Heading
-        title={"V-Lancer Asset Banners"}
+        title={"V-Lance Service Banners"}
         description={""}
         icon={IconPostsBtn}
       />
@@ -51,6 +52,15 @@ const AssetBannerPage = () => {
         icon={IconPostsBtn}
       />
       <AssetBannerProvider data={vAssetCollegeData} dataType="college" />
+      <Heading
+        title={"V-Lance Project Banners"}
+        description={""}
+        icon={IconPostsBtn}
+      />
+      <AssetBannerProvider
+        data={vAssetLanceProjectData}
+        dataType="lanceProject"
+      />
     </div>
   );
 };

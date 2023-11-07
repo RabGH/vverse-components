@@ -1,8 +1,9 @@
 import AssetBlogData from "@/components/asset-banners/asset-data/asset-blog-data";
 import AssetNationData from "@/components/asset-banners/asset-data/asset-nation-data";
-import AssetTubeData from "./asset-data/asset-tube-date";
-import AssetLanceServiceData from "./asset-data/asset-lance-service-data";
-import AssetCollegeData from "./asset-data/asset-college-data";
+import AssetTubeData from "@/components/asset-banners/asset-data/asset-tube-date";
+import AssetLanceServiceData from "@/components/asset-banners/asset-data/asset-lance-service-data";
+import AssetCollegeData from "@/components/asset-banners/asset-data/asset-college-data";
+import AssetLanceProjectData from "@/components/asset-banners/asset-data/asset-lance-project-data";
 
 type AssetDetailsProps = {
   data: any;
@@ -78,6 +79,16 @@ const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
           shares={data.shares}
           rating={data.rating}
           ratingPoints={data.ratingPoints}
+        />
+      )}
+      {dataType === "lanceProject" && (
+        <AssetLanceProjectData
+          assetId={data.assetId}
+          type={data.type}
+          date={data.date}
+          collaborators={data.collaborators}
+          likes={data.likes}
+          shares={data.shares}
         />
       )}
     </div>

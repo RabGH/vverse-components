@@ -1698,7 +1698,7 @@ export const vAssetTubeData = [
     type: "private",
   },
 ];
-
+// change to lance
 export const vAssetLancerServiceData = [
   {
     id: 1,
@@ -1749,6 +1749,8 @@ export const vAssetLanceProjectData = [
     id: 1,
     assetId: "ASS-PRJ-101",
     type: "public",
+    title:
+      "Lance Project Asset Banner Title, longer than 2 lines, lorem epsom, Est adipisicing qui duis velit consectetur amet cillum ea amet. Ut proident labore id dolore aliqua commodo ex incididunt ut.",
     userName: "Dr. Ahmad Hassan",
     date: "19-Nov-2025 1:30 AM",
     collaborators: 120,
@@ -1766,6 +1768,8 @@ export const vAssetLanceProjectData = [
     id: 2,
     assetId: "ASS-PRJ-102",
     type: "private",
+    title:
+      "Lance Project Asset Banner Title, longer than 2 lines, lorem epsom, Ea tempor esse ut Lorem officia. Ullamco ut incididunt velit consectetur velit velit dolor duis elit non elit non aliquip id.",
     userName: "Dr. Ahmad Hassan",
     date: "30-Nov-2030 1:30 AM",
     collaborators: 12000,
@@ -1783,6 +1787,8 @@ export const vAssetLanceProjectData = [
     id: 3,
     assetId: "ASS-PRJ-103",
     type: "private",
+    title:
+      "Lance Project Asset Banner Title, longer than 2 lines, lorem epsom, Ipsum deserunt id labore deserunt. Laborum tempor sit dolore exercitation ipsum do dolore non ipsum ea fugiat dolor veniam laboris.",
     userName: "Dr. Ahmad Hassan",
     date: "30-Feb-2030 6:30 AM",
     collaborators: 12000,
@@ -2098,3 +2104,6 @@ export const videoPlayerData = [
     // ],
   },
 ];
+
+// Personal profile backend test data
+

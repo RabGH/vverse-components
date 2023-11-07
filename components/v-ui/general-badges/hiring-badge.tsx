@@ -18,7 +18,7 @@ const HiringBadge = ({
   return isHiring ? (
     <Badge
       size="featured"
-      variant="bannerRed"
+      variant="violet"
       icon={
         <IconStatusCalendar
           className={cn("w-5 h-5 text-primary", iconClassName)}
