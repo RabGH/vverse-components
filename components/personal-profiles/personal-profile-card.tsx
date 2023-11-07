@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { IconDateJoinedDoor } from "@/components/icons/logo-icons";
 
-import { partOf, vGuideUserData, vUserInfoData } from "@/backend-data-test";
+import { partOf, vGuideUserData } from "@/backend-data-test";
 import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
 import FeaturedBadge from "@/components/v-ui/v-badges/featured-badge";
 import GenderBadge from "@/components/v-ui/v-badges/gender-badge";
@@ -68,17 +68,17 @@ const ProfileCard = () => {
               points={1000}
               endorsements={10000}
               isFeatured={"featured"}
-              thumbsup={10000}
+              likes={10000}
               shares={10000}
               partOf={partOf}
               guideUserData={vGuideUserData}
-              userInfoData={vUserInfoData}
               dialogTitle={"Profile Banner V-Guide Full"}
               isAgreementVerified={false}
               isEmailVerified={true}
               isIdVerified={true}
               isPhoneVerified={true}
               dialogTriggerClassName="w-7 h-7"
+              profileType={"guide"}
             />
           </div>
         </div>
