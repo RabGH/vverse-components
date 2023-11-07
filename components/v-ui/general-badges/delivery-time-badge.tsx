@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Badge } from "@/components/ui/badge";
-import { IconDelivery } from "@/components/icons/logo-icons";
+import { IconHourGlass } from "@/components/icons/logo-icons";
 import { cn, parseHoursFormat } from "@/lib/utils";
 
 type DeliveryTimeBadgeProps = {
@@ -19,7 +19,7 @@ const DeliveryTimeBadge = ({
     <Badge
       size="featured"
       variant="violet"
-      icon={<IconDelivery className={cn("w-5 h-5")} />}
+      icon={<IconHourGlass className={cn("w-5 h-5", iconClassName)} />}
       className={cn(badgeClassName)}
     >
       {parseHoursFormat(deliveryTime)}

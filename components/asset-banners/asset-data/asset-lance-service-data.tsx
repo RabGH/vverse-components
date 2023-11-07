@@ -2,6 +2,7 @@ import {
   IconCalendar,
   IconChannelViews,
   IconGraphDollar,
+  IconHashTag,
   IconOrderBox,
   IconPrivacy,
   IconShare,
@@ -36,16 +37,17 @@ const AssetLanceServiceData = ({
   rating,
   ratingPoints,
 }: AssetLanceServiceDataProps) => {
+  const iconStyles = "w-5 h-5 text-primary";
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {date} |{" "}
-      <IconGraphDollar className="w-4 h-4" /> {formatCurrency(sales)} |{" "}
-      <IconOrderBox className="w-4 h-4" /> {formatNumber(orders)} |{" "}
-      <IconChannelViews className="w-4 h-4" /> {formatNumber(customers)} |{" "}
-      <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
-      <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
-      <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
+      <IconHashTag className={iconStyles} /> {assetId} | <IconPrivacy className={iconStyles} /> {type} |{" "}
+      <IconCalendar className={iconStyles} /> {date} |{" "}
+      <IconGraphDollar className={iconStyles} /> {formatCurrency(sales)} |{" "}
+      <IconOrderBox className={iconStyles} /> {formatNumber(orders)} |{" "}
+      <IconChannelViews className={iconStyles} /> {formatNumber(customers)} |{" "}
+      <IconThumbsUp className={iconStyles} /> {formatNumber(likes)} |{" "}
+      <IconShare className={iconStyles} /> {formatNumber(shares)} |{" "}
+      <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
       {formatNumber(ratingPoints)})
     </div>
   );

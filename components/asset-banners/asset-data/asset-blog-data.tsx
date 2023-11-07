@@ -1,6 +1,7 @@
 import {
   IconCalendar,
   IconCalendarTopDash,
+  IconHashTag,
   IconMessageCircle,
   IconPrivacy,
   IconShare,
@@ -33,15 +34,16 @@ const AssetBlogData = ({
   rating,
   ratingPoints,
 }: AssetBlogDataProps) => {
+  const iconStyles = "w-5 h-5 text-primary";
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" />{" "}
-      {formatCapitalLetters(type)} | <IconCalendar className="w-4 h-4" />{" "}
-      {dateStart} | <IconCalendarTopDash className="w-4 h-4" /> {dateEnd} |{" "}
-      <IconMessageCircle className="w-4 h-4" /> {formatNumber(comments)} |{" "}
-      <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
-      <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
-      <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
+      <IconHashTag className={iconStyles} /> # {assetId} | <IconPrivacy className={iconStyles} />{" "}
+      {formatCapitalLetters(type)} | <IconCalendar className={iconStyles} />{" "}
+      {dateStart} | <IconCalendarTopDash className={iconStyles} /> {dateEnd} |{" "}
+      <IconMessageCircle className={iconStyles} /> {formatNumber(comments)} |{" "}
+      <IconThumbsUp className={iconStyles} /> {formatNumber(likes)} |{" "}
+      <IconShare className={iconStyles} /> {formatNumber(shares)} |{" "}
+      <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
       {formatNumber(ratingPoints)})
     </div>
   );

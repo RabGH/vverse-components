@@ -1,6 +1,7 @@
 import {
   IconCalendar,
   IconChannelViews,
+  IconHashTag,
   IconPrivacy,
   IconShare,
   IconStar,
@@ -36,17 +37,19 @@ const AssetTubeData = ({
   subscribers,
   channelFollowers,
 }: AssetTubeDataProps) => {
+  const iconStyles = "w-5 h-5 text-primary";
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {date} |{" "}
-      <IconVideo className="w-4 h-4" /> {formatNumber(views)} |{" "}
-      <IconUserCheck className="w-4 h-4" /> {formatNumber(subscribers)} |{" "}
-      <IconChannelViews className="w-4 h-4" /> {formatNumber(channelFollowers)}{" "}
-      | <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
-      <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
-      <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
-      {formatNumber(ratingPoints)})
+      <IconHashTag className={iconStyles} /> {assetId} |{" "}
+      <IconPrivacy className={iconStyles} /> {type} |{" "}
+      <IconCalendar className={iconStyles} /> {date} |{" "}
+      <IconVideo className={iconStyles} /> {formatNumber(views)} |{" "}
+      <IconUserCheck className={iconStyles} /> {formatNumber(subscribers)} |{" "}
+      <IconChannelViews className={iconStyles} />{" "}
+      {formatNumber(channelFollowers)} | <IconThumbsUp className={iconStyles} />{" "}
+      {formatNumber(likes)} | <IconShare className={iconStyles} />{" "}
+      {formatNumber(shares)} | <IconStar className={iconStyles} />{" "}
+      {rating?.toFixed(1)}({formatNumber(ratingPoints)})
     </div>
   );
 };

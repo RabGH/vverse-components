@@ -38,6 +38,8 @@ const AssetBanner = ({
           className="shadow-inner z-1 object-fit"
         />
         <div className="bg-opacity-40 bg-black z-[2] absolute inset-0 w-full h-full rounded-xl" />
+        <div className="bg-gradient-to-t from-black/80 via-black/10 to-transparent  z-[3] absolute inset-0 w-full h-full rounded-xl" />
+
       </div>
 
       <div className="absolute top-0 left-0 right-0 z-[3] text-white p-3">

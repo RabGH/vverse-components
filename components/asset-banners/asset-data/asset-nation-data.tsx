@@ -1,4 +1,13 @@
-import { IconCalendar, IconFollowers, IconPost, IconPrivacy, IconShare, IconStar, IconThumbsUp } from "@/components/icons/logo-icons";
+import {
+  IconCalendar,
+  IconFollowers,
+  IconHashTag,
+  IconPost,
+  IconPrivacy,
+  IconShare,
+  IconStar,
+  IconThumbsUp,
+} from "@/components/icons/logo-icons";
 import { formatNumber } from "@/lib/utils";
 import React from "react";
 
@@ -25,15 +34,16 @@ const AssetNationData = ({
   ratingPoints,
   followers,
 }: AssetNationDataProps) => {
+  const iconStyles = "w-5 h-5 text-primary";
   return (
     <div className="flex flex-row gap-2 items-center flex-wrap">
-      # {assetId} | <IconPrivacy className="w-4 h-4" /> {type} |{" "}
-      <IconCalendar className="w-4 h-4" /> {date} |{" "}
-      <IconPost className="w-4 h-4" /> {formatNumber(posts)} |{" "}
-      <IconFollowers className="w-4 h-4" /> {formatNumber(followers)} |{" "}
-      <IconThumbsUp className="w-4 h-4" /> {formatNumber(likes)} |{" "}
-      <IconShare className="w-4 h-4" /> {formatNumber(shares)} |{" "}
-      <IconStar className="w-4 h-4" /> {rating?.toFixed(1)}(
+      <IconHashTag className={iconStyles} /> {assetId} | <IconPrivacy className={iconStyles} /> {type} |{" "}
+      <IconCalendar className={iconStyles} /> {date} |{" "}
+      <IconPost className={iconStyles} /> {formatNumber(posts)} |{" "}
+      <IconFollowers className={iconStyles} /> {formatNumber(followers)} |{" "}
+      <IconThumbsUp className={iconStyles} /> {formatNumber(likes)} |{" "}
+      <IconShare className={iconStyles} /> {formatNumber(shares)} |{" "}
+      <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
       {formatNumber(ratingPoints)})
     </div>
   );
