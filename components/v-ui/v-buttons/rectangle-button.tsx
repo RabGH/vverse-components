@@ -14,6 +14,20 @@ type RectangleButtonProps = {
   target?: boolean;
 };
 
+/**
+ * Renders a rectangular button with an icon, label, title, link, loading state, and target.
+ *
+ * @param {Object} props - The properties object.
+ * @param {React.ElementType} props.icon - The icon component to be rendered.
+ * @param {string} props.label - The label text of the button.
+ * @param {string} props.title - The title text of the button.
+ * @param {string} props.link - The link URL of the button.
+ * @param {boolean} props.isLoading - Indicates whether the button is in a loading state.
+ * @param {string} props.target - The target attribute of the link.
+ * @param {string} props.variant - The variant of the button. Defaults to "largeOutline".
+ * @return {React.ElementType} - The JSX element representing the rectangular button.
+ */
+
 export function RectangleButton({
   icon: Icon,
   label,

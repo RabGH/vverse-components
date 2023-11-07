@@ -17,6 +17,18 @@ type VAnnouncementProps = {
   inputPlaceholder: string;
 };
 
+/**
+ * Renders a dialog with an input field for creating an announcement.
+ *
+ * @param {object} VAnnouncementProps - The properties for the DialogVInputAnnouncement component.
+ * @param {string} VAnnouncementProps.title - The title of the announcement.
+ * @param {string} VAnnouncementProps.buttonTitle - The title of the button.
+ * @param {string} VAnnouncementProps.footer - The footer content.
+ * @param {string} VAnnouncementProps.inputPlaceholder - The placeholder text for the input field.
+ *
+ * @return {ReactNode} The rendered DialogVInputAnnouncement component.
+ */
+
 export function DialogVInputAnnouncement({
   title,
   buttonTitle,

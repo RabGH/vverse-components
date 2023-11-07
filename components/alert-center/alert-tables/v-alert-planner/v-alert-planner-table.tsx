@@ -6,6 +6,13 @@ type VAlertPlannerTableProps = {
   plannerData: PlannerItem[];
 };
 
+/**
+ * Renders the VAlertPlannerTable component.
+ *
+ * @param {VAlertPlannerTableProps} plannerData - The planner data to be rendered.
+ * @return {ReactElement} The rendered VAlertPlannerTable component.
+ */
+
 const VAlertPlannerTable: React.FC<VAlertPlannerTableProps> = ({
   plannerData,
 }) => {

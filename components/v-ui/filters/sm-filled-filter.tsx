@@ -30,6 +30,16 @@ type FilterBoxProps = {
   noCategoryFoundMessage: string;
 };
 
+/**
+ * Renders a filter box component with small size.
+ *
+ * @param {Array} categories - The list of categories to display in the filter box.
+ * @param {string} selectCategoryPlaceholder - The placeholder text to display when no category is selected.
+ * @param {string} searchCategoryPlaceholder - The placeholder text to display in the search input.
+ * @param {string} noCategoryFoundMessage - The message to display when no category is found.
+ * @return {JSX.Element} The rendered FilterFilledSmall component.
+ */
+
 export function FilterFilledSmall({
   categories,
   selectCategoryPlaceholder,

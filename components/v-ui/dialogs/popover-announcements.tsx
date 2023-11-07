@@ -11,6 +11,12 @@ import {
 } from "@/components/ui/dialog";
 import { Checkbox } from "../../ui/checkbox";
 
+/**
+ * Renders a popover announcement component.
+ *
+ * @return {JSX.Element} The rendered popover announcement component.
+ */
+
 export function PopoverAnnouncement() {
   return (
     <Dialog>

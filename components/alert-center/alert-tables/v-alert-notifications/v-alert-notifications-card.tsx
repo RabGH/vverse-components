@@ -18,6 +18,15 @@ type VAlertNotificationCardProps = {
   notification: NotificationItem;
 };
 
+/**
+ * Renders a notification card for the VAlertNotification component.
+ *
+ * @param {Object} props - The props object containing isLoading and notification properties.
+ * @param {boolean} props.isLoading - A boolean value indicating whether the card is in a loading state.
+ * @param {Object} props.notification - An object containing the notification data.
+ * @return {JSX.Element} - The rendered notification card component.
+ */
+
 const VAlertNotificationCard = ({
   isLoading,
   notification,

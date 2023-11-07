@@ -30,6 +30,16 @@ type FilterBoxProps = {
   noCategoryFoundMessage: string;
 };
 
+/**
+ * Renders a large filter outline component.
+ *
+ * @param {FilterBoxProps} categories - The array of categories.
+ * @param {string} selectCategoryPlaceholder - The placeholder for the select category button.
+ * @param {string} searchCategoryPlaceholder - The placeholder for the search category input.
+ * @param {string} noCategoryFoundMessage - The message to display when no category is found.
+ * @return {JSX.Element} The rendered component.
+ */
+
 export function FilterOutlineLarge({
   categories,
   selectCategoryPlaceholder,

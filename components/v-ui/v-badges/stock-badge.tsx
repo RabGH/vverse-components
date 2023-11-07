@@ -10,6 +10,19 @@ type StockBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a badge component displaying the stock information.
+ *
+ * @component
+ *
+ * @param {object} props - The component props.
+ * @param {string} props.stock - The stock information to be displayed. Should be either "In Stock" or "Out of Stock".
+ * @param {string} props.iconClassName - Additional class names for the icon element.
+ * @param {string} props.badgeClassName - Additional class names for the badge element.
+ *
+ * @returns {JSX.Element | null} The rendered badge component or null if stock is falsy.
+ */
+
 const StockBadge = ({
   stock,
   iconClassName,

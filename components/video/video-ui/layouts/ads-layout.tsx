@@ -14,6 +14,13 @@ export interface VideoLayoutProps {
   thumbnails?: string;
 }
 
+/**
+ * Renders the layout for video ads.
+ *
+ * @param {VideoLayoutProps} thumbnails - The thumbnails for the video layout.
+ * @return {JSX.Element} The rendered video ads layout.
+ */
+
 export function VideoAdsLayout({ thumbnails }: VideoLayoutProps) {
   return (
     <>

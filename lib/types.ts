@@ -37,6 +37,7 @@ export type Notification = {
 //!
 
 // notification alert center types
+// Idea Scratched
 
 export type NotificationItem = {
   id: number;

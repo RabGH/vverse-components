@@ -7,6 +7,13 @@ type VAlertNotificationTableProps = {
   notificationData: NotificationItem[];
 };
 
+/**
+ * Renders a table component for displaying alert notifications.
+ *
+ * @param {VAlertNotificationTableProps} notificationData - The data containing the alert notifications.
+ * @return {React.Element} The rendered table component.
+ */
+
 const VAlertNotificationTable: React.FC<VAlertNotificationTableProps> = ({
   notificationData,
 }) => {

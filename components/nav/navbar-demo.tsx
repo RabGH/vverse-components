@@ -70,6 +70,12 @@ const components: { title: string; href: string; description: string }[] = [
   },
 ];
 
+/**
+ * Renders the navigation menu demo. Can be deleted, this is just to navigate through the current demo of components.
+ *
+ * @return {JSX.Element} The rendered navigation menu demo.
+ */
+
 export function NavigationMenuDemo() {
   return (
     <NavigationMenu className="mx-6 my-6 fixed shadow-xl border border-primary p-2 rounded-lg">

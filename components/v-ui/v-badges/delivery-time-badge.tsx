@@ -10,6 +10,15 @@ type DeliveryTimeBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a badge component displaying the delivery time.
+ *
+ * @param {DeliveryTimeBadgeProps} deliveryTime - The delivery time to be displayed.
+ * @param {string} iconClassName - Optional additional CSS classes for the icon.
+ * @param {string} badgeClassName - Optional additional CSS classes for the badge.
+ * @return {JSX.Element | null} The rendered badge component or null if no delivery time is provided.
+ */
+
 const DeliveryTimeBadge = ({
   deliveryTime,
   iconClassName,

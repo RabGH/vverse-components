@@ -16,6 +16,17 @@ type VAlertPlannerProps = {
   setVisitedTabs: (visitedTabs: Record<string, boolean>) => void;
 };
 
+/**
+ * Renders the VAlertPlanner component.
+ *
+ * @param {VAlertPlannerProps} tabsData - The data for the tabs.
+ * @param {PlannerTabKey} activeTab - The currently active tab.
+ * @param {Function} setActiveTab - The function to set the active tab.
+ * @param {Object} visitedTabs - The object containing the visited tabs.
+ * @param {Function} setVisitedTabs - The function to set the visited tabs.
+ * @return {JSX.Element} The rendered VAlertPlanner component.
+ */
+
 const VAlertPlanner = ({
   tabsData,
   activeTab,

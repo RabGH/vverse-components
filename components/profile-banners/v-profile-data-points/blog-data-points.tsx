@@ -16,6 +16,18 @@ type BlogDataPointsProps = {
   ratingPoints: number;
 };
 
+/**
+ * Renders the data points for a blog.
+ *
+ * @param {boolean} isLoading - Indicates if the data is still loading.
+ * @param {number} posts - The number of blog posts.
+ * @param {number} likes - The number of likes on the blog.
+ * @param {number} shares - The number of shares of the blog.
+ * @param {number} rating - The rating of the blog.
+ * @param {number} ratingPoints - The number of rating points for the blog.
+ * @return {ReactElement} The rendered data points section.
+ */
+
 const BlogDataPoints = ({
   isLoading,
   posts,

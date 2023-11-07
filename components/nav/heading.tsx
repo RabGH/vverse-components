@@ -7,6 +7,16 @@ type HeadingProps = {
   icon: LucideIcon;
 };
 
+/**
+ * Renders a heading component with a title, description, and icon. Can be deleted.
+ *
+ * @param {HeadingProps} props - The properties for the heading component.
+ * @param {string} props.title - The title of the heading.
+ * @param {string} props.description - The description of the heading.
+ * @param {React.ElementType} props.icon - The icon component for the heading.
+ * @returns {React.ReactElement} - The rendered heading component.
+ */
+
 const Heading = ({ title, description, icon: Icon }: HeadingProps) => {
   return (
     <div

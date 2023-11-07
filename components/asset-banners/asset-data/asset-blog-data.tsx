@@ -23,6 +23,22 @@ type AssetBlogDataProps = {
   ratingPoints: number;
 };
 
+/**
+ * Renders the AssetBlogData component.
+ *
+ * @param {AssetBlogDataProps} props - The props object containing the following properties:
+ *   - assetId: string - The ID of the asset.
+ *   - type: string - The type of the asset.
+ *   - dateStart: string - The start date of the asset.
+ *   - dateEnd: string - The end date of the asset.
+ *   - comments: number - The number of comments on the asset.
+ *   - likes: number - The number of likes on the asset.
+ *   - shares: number - The number of shares of the asset.
+ *   - rating: number | undefined - The rating of the asset, if available.
+ *   - ratingPoints: number - The total rating points of the asset.
+ * @return {JSX.Element} The rendered AssetBlogData component.
+ */
+
 const AssetBlogData = ({
   assetId,
   type,

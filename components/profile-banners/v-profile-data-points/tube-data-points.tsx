@@ -23,6 +23,21 @@ type TubeDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders the TubeDataPoints component.
+ *
+ * @param {boolean} isLoading - Indicates whether the data is loading or not.
+ * @param {number} channels - The number of channels.
+ * @param {number} videos - The number of videos.
+ * @param {number} subscribers - The number of subscribers.
+ * @param {number} views - The number of views.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {number} ratingPoints - The rating points.
+ * @param {number} rating - The rating value.
+ * @return {JSX.Element} - The rendered TubeDataPoints component.
+ */
+
 const TubeDataPoints = ({
   isLoading,
   channels,

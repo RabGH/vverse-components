@@ -1,6 +1,12 @@
 import React from "react";
 import { LogoBlue } from "../icons/logo-icons";
 
+/**
+ * Renders the Hero component. Can be deleted.
+ *
+ * @return {JSX.Element} The rendered Hero component.
+ */
+
 const Hero = () => {
   return (
     <div className="text-center p-20">

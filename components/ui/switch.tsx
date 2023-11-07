@@ -5,6 +5,15 @@ import * as SwitchPrimitives from "@radix-ui/react-switch";
 
 import { cn } from "@/lib/utils";
 
+/**
+ * Renders a switch input element.
+ *
+ * @component
+ * @param {React.ElementRef<typeof SwitchPrimitives.Root>} ref - Ref for the switch element.
+ * @param {string} props.className - Additional CSS classes for the switch.
+ * @return {JSX.Element} The rendered Switch component.
+ */
+
 const Switch = React.forwardRef<
   React.ElementRef<typeof SwitchPrimitives.Root>,
   React.ComponentPropsWithoutRef<typeof SwitchPrimitives.Root>

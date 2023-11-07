@@ -41,6 +41,32 @@ type GuideProfileBannerDialogProps = {
   profileType: string;
 };
 
+/**
+ * Renders the profile banner dialog for the guide user.
+ *
+ * @param {boolean} isLoading - Indicates if the data is still loading.
+ * @param {object} userInfoData - The user's information data.
+ * @param {object} guideUserData - The guide user's data.
+ * @param {string} userName - The user's name.
+ * @param {string} userTitle - The user's title.
+ * @param {number} points - The user's points.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {number} rank - The user's rank.
+ * @param {number} endorsements - The number of endorsements.
+ * @param {string} partOf - The part the user belongs to.
+ * @param {string} currency - The user's currency.
+ * @param {boolean} isFeatured - Indicates if the user is featured.
+ * @param {string} profileType - The type of profile.
+ * @param {boolean} isEmailVerified - Indicates if the user's email is verified. (default: false)
+ * @param {boolean} isPhoneVerified - Indicates if the user's phone is verified. (default: false)
+ * @param {boolean} isAgreementVerified - Indicates if the user's agreement is verified. (default: false)
+ * @param {boolean} isIdVerified - Indicates if the user's ID is verified. (default: false)
+ * @param {string} dialogTriggerClassName - The class name for the dialog trigger.
+ * @param {string} dialogTitle - The title of the dialog.
+ * @return {JSX.Element} The rendered profile banner dialog.
+ */
+
 const GuideProfileBannerDialog = ({
   isLoading,
   userInfoData,

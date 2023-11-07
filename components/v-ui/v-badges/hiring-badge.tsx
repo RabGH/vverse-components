@@ -10,6 +10,15 @@ type HiringBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a HiringBadge component based on the provided props.
+ *
+ * @param {boolean} isHiring - Indicates whether the company is currently hiring.
+ * @param {string} iconClassName - The class name for the icon element.
+ * @param {string} badgeClassName - The class name for the badge element.
+ * @returns {JSX.Element | null} The rendered HiringBadge component or null if isHiring is false.
+ */
+
 const HiringBadge = ({
   isHiring,
   iconClassName,

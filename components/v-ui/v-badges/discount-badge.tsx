@@ -14,6 +14,17 @@ type DiscountBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Renders a discount badge component.
+ *
+ * @param {DiscountBadgeProps} props - The props object containing the following properties:
+ *   - discountPercentage: The percentage of discount.
+ *   - price: The original price.
+ *   - iconClassName: The class name for the icon.
+ *   - badgeClassName: The class name for the badge.
+ * @return {JSX.Element | null} The discount badge component.
+ */
+
 const DiscountBadge = ({
   discountPercentage,
   price,

@@ -15,6 +15,13 @@ export type RankMedalProps = {
     | "ambassadorPlatinum";
 };
 
+/**
+ * Renders the appropriate medal image based on the given rank.
+ *
+ * @param {RankMedalProps} rank - The rank to determine the image for.
+ * @return {JSX.Element} The rendered medal image or a "No Current Rank" message.
+ */
+
 const RankMedals = ({ rank }: RankMedalProps) => {
   const imageSrc = {
     standardSilver: "/images/StandardSilver.png",

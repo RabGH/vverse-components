@@ -31,6 +31,18 @@ type FilterBoxProps = {
   noCategoryFoundMessage: string;
 };
 
+/**
+ * Renders a filter outline checkbox component.
+ *
+ * @param {FilterBoxProps} {
+ *   categories,
+ *   selectCategoryPlaceholder,
+ *   searchCategoryPlaceholder,
+ *   noCategoryFoundMessage,
+ * } - The props for the component.
+ * @return {JSX.Element} The rendered checkbox component.
+ */
+
 export function FilterOutlineCheckbox({
   categories,
   selectCategoryPlaceholder,

@@ -10,6 +10,15 @@ type ExclusiveBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders an exclusive badge component.
+ *
+ * @param {boolean} isExclusive - Indicates whether the badge is exclusive.
+ * @param {string} iconClassName - Additional class names for the badge icon.
+ * @param {string} badgeClassName - Additional class names for the badge.
+ * @returns {JSX.Element | null} The exclusive badge component.
+ */
+
 const ExclusiveBadge = ({
   isExclusive,
   iconClassName,

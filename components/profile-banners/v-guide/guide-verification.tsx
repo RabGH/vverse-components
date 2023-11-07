@@ -19,6 +19,17 @@ type UserVerifiedIconProps = {
   isLoading: boolean;
 };
 
+/**
+ * Renders a set of user verification icons based on the provided verification status and loading state.
+ *
+ * @param {boolean} isIdVerified - Indicates whether the ID is verified.
+ * @param {boolean} isEmailVerified - Indicates whether the email is verified.
+ * @param {boolean} isPhoneVerified - Indicates whether the phone is verified.
+ * @param {boolean} isAgreementVerified - Indicates whether the agreement is verified.
+ * @param {boolean} isLoading - Indicates whether the component is in a loading state.
+ * @return {JSX.Element} The rendered set of user verification icons.
+ */
+
 const UserVerifiedIcons = ({
   isIdVerified,
   isEmailVerified,

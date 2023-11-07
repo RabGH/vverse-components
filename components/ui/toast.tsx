@@ -5,6 +5,20 @@ import { X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
+/**
+ * The module exports the following components related to the Toast functionality:
+ *
+ * - `ToastProvider`: A provider component for managing the Toast state.
+ * - `ToastViewport`: A component that represents the viewport for displaying toasts.
+ * - `Toast`: A component that renders a toast message.
+ * - `ToastTitle`: A component that renders the title of a toast.
+ * - `ToastDescription`: A component that renders the description of a toast.
+ * - `ToastClose`: A component that renders the close button for a toast.
+ * - `ToastAction`: A component that renders an action button for a toast.
+ *
+ * @module ToastPrimitives
+ */
+
 const ToastProvider = ToastPrimitives.Provider;
 
 const ToastViewport = React.forwardRef<

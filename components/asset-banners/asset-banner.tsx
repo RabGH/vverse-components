@@ -19,6 +19,15 @@ type AssetBannerProps = {
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
+/**
+ * Renders an Asset Banner component.
+ *
+ * @param {AssetBannerProps} data - The data for the Asset Banner.
+ * @param {string} dataType - The type of data for the Asset Banner.
+ * @param {string} buttonDataType - The type of button data for the Asset Banner.
+ * @return {JSX.Element} The rendered Asset Banner component.
+ */
+
 const AssetBanner = ({ data, dataType, buttonDataType }: AssetBannerProps) => {
   return (
     <Card

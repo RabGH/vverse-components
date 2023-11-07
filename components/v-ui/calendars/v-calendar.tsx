@@ -15,6 +15,12 @@ type VCalendarProps = {
   setDate: (date: Date) => void;
 };
 
+/**
+ * Generates a function comment for the given function body. Not in use.
+ *
+ * @return {void} No return value.
+ */
+
 const VCalendar = () => {
   const [date, setDate] = useState<Date[]>([new Date(), new Date()]);
   const flatpickrRef = useRef<FlatpickrInstance | null>(null);

@@ -10,6 +10,13 @@ export type AssetInteractionTopProps = {
   buttonDataType?: "follow" | "join" | "subscribe" | "buy" | "apply" | "enroll";
 };
 
+/**
+ * Renders the top section of the asset interaction component.
+ *
+ * @param {AssetInteractionTopProps} buttonDataType - The type of button data.
+ * @return {JSX.Element} Returns the JSX element of the top section.
+ */
+
 const AssetInteractionTop = ({ buttonDataType }: AssetInteractionTopProps) => {
   const [isFollowed, setIsFollowed] = useState(false);
   const [isJoined, setIsJoined] = useState(false);

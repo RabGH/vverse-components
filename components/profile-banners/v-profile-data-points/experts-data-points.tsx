@@ -22,6 +22,21 @@ type ExpertDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders a section with various data points for an expert.
+ *
+ * @param {boolean} isLoading - Indicates whether the data is currently loading.
+ * @param {number} consultations - The number of consultations for the expert.
+ * @param {number} sales - The number of sales for the expert.
+ * @param {number} orders - The number of orders for the expert.
+ * @param {number} customers - The number of customers for the expert.
+ * @param {number} likes - The number of likes for the expert.
+ * @param {number} shares - The number of shares for the expert.
+ * @param {number} ratingPoints - The rating points for the expert.
+ * @param {number} rating - The rating for the expert.
+ * @return {JSX.Element} - The rendered data points section.
+ */
+
 const ExpertDataPoints = ({
   isLoading,
   consultations,

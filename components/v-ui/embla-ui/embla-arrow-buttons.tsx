@@ -15,6 +15,14 @@ type UsePrevNextButtonsType = {
   onNextButtonClick: () => void;
 };
 
+/**
+ * Hook that generates previous and next buttons for an Embla Carousel. Advise not to use and use flowbite unless needed.
+ *
+ * @param {EmblaCarouselType | undefined} emblaApi - The Embla Carousel API object.
+ * @param {(emblaApi: EmblaCarouselType) => void} onButtonClick - Optional callback function to be called when a button is clicked.
+ * @return {UsePrevNextButtonsType} An object containing the disabled state of the previous and next buttons, as well as the click handlers for the buttons.
+ */
+
 export const usePrevNextButtons = (
   emblaApi: EmblaCarouselType | undefined,
   onButtonClick?: (emblaApi: EmblaCarouselType) => void

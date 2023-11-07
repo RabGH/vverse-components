@@ -28,6 +28,12 @@ import {
 import VFooterAds from "./v-footer-ads";
 import { images } from "@/backend-data-test";
 
+/**
+ * Renders the content of the footer. Needs to be updated, icon colors in logo-icons file can be changed for those specific icons, ctrl + F the icon in logo-icons.
+ *
+ * @return {JSX.Element} The JSX element representing the footer content.
+ */
+
 const VFooterContent = () => {
   return (
     <>

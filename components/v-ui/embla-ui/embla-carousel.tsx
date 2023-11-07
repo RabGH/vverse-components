@@ -18,6 +18,13 @@ type PropType = {
   options?: EmblaOptionsType;
 };
 
+/**
+ * Renders an Embla Carousel component. Advise not to use and use flowbite unless needed.
+ *
+ * @param {PropType} props - The props object containing slides and options.
+ * @return {ReactElement} - The rendered Embla Carousel component.
+ */
+
 const EmblaCarousel: React.FC<PropType> = (props) => {
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);

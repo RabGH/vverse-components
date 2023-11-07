@@ -4,6 +4,13 @@ import { Loader2 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
+/**
+ * Root component of the button. Can be found on shadcn-ui or through the types of primitives on radix.
+ * All button variants are mostly located here.
+ * @component
+ */
+
+
 const buttonVariants = cva(
   `inline-flex items-center justify-center rounded-full text-sm font-medium ring-offset-background 
   transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring 

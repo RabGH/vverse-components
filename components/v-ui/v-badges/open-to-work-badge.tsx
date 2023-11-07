@@ -10,6 +10,19 @@ type OpenToWorkBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders an "Open to Work" badge based on the isOpenToWork prop.
+ *
+ * @component
+ *
+ * @param {object} props - The component props.
+ * @param {string} props.isOpenToWork - Indicates whether the user is open to work or not. Defaults to an empty string.
+ * @param {string} props.badgeClassName - Additional CSS class name for the badge element.
+ * @param {string} props.iconClassName - Additional CSS class name for the icon element.
+ *
+ * @returns {JSX.Element | null} The rendered badge element if isOpenToWork is true, otherwise null.
+ */
+
 const OpenToWorkBadge = ({
   isOpenToWork,
   badgeClassName,
@@ -20,7 +33,7 @@ const OpenToWorkBadge = ({
       size="featured"
       variant="success"
       icon={<IconWorkExperienceBtn className={cn("w-5 h-5", iconClassName)} />}
-      className={cn("w-36",badgeClassName)}
+      className={cn("w-36", badgeClassName)}
     >
       {isOpenToWork}
     </Badge>

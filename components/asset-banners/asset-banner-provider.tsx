@@ -7,6 +7,14 @@ type AssetBannerProviderProps = {
   dataType: string;
 };
 
+/**
+ * Renders the Asset Banner Provider component.
+ *
+ * @param {AssetBannerProviderProps} data - The data object containing the necessary information for rendering the component.
+ * @param {string} dataType - The type of data to be rendered by the component.
+ * @return {JSX.Element} The rendered Asset Banner Provider component.
+ */
+
 const AssetBannerProvider = ({ data, dataType }: AssetBannerProviderProps) => {
   return (
     <div className="">

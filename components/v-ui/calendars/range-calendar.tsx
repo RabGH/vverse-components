@@ -14,6 +14,14 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 
+/**
+ * Renders a date picker component with a range of selectable dates. Not in use.
+ *
+ * @param {React.HTMLAttributes<HTMLDivElement>} props - The props for the component.
+ * @param {string} props.className - The CSS class for the component.
+ * @return {JSX.Element} The rendered date picker component.
+ */
+
 export function DatePickerWithRange({
   className,
 }: React.HTMLAttributes<HTMLDivElement>) {

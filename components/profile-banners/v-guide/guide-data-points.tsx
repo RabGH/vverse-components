@@ -36,6 +36,34 @@ export type GuideDataPointsProps = {
   userInfoData?: UserInfoBoxProps;
 };
 
+
+/**
+ * Render the guide data points component.
+ *
+ * @param {boolean} isLoading - indicates if data is still loading
+ * @param {number} sales - the number of sales
+ * @param {number} earnings - the total earnings
+ * @param {number} investments - the total investments
+ * @param {number} endorsements - the number of endorsements
+ * @param {number} points - the number of points
+ * @param {number} likes - the number of likes
+ * @param {number} shares - the number of shares
+ * @param {number} connections - the number of connections
+ * @param {number} followers - the number of followers
+ * @param {number} members - the number of members
+ * @param {number} subscribers - the number of subscribers
+ * @param {number} customers - the number of customers
+ * @param {string} currency - the currency used
+ * @param {object} userInfoData - the user info data object
+ * @param {string} userInfoData.id - the user ID
+ * @param {string} userInfoData.gender - the user's gender
+ * @param {string} userInfoData.country - the user's country
+ * @param {string} userInfoData.location - the user's location
+ * @param {string} userInfoData.time - the user's time
+ * @param {string} userInfoData.calendar - the user's calendar
+ * @param {string} userInfoData.lastSeen - the user's last seen time
+ * @return {ReactNode} the rendered guide data points component
+ */
 const GuideDataPoints = ({
   isLoading,
   sales,

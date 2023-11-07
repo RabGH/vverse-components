@@ -22,6 +22,23 @@ type VAlertNavProps = {
   setVisitedButtons: (visitedButtons: Record<string, boolean>) => void;
 };
 
+/**
+ * Renders the VAlertNav component.
+ *
+ * @param {VAlertNavProps} {
+ *   numberOfNotifications,
+ *   numberOfMessages,
+ *   numberOfEmails,
+ *   numberOfPlans,
+ *   numberOfNews,
+ *   activeButton,
+ *   setActiveButton,
+ *   visitedButtons,
+ *   setVisitedButtons,
+ * } - The props for the VAlertNav component.
+ * @return {JSX.Element} The rendered VAlertNav component.
+ */
+
 const VAlertNav = ({
   numberOfNotifications,
   numberOfMessages,

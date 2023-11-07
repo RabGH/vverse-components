@@ -19,6 +19,27 @@ type VAnnouncementProps = {
   onYes?: () => void;
 };
 
+/**
+ * Renders a dialog announcement component.
+ *
+ * @param {VAnnouncementProps} {
+ *   title: string,
+ *   description: string,
+ *   buttonTitle: string,
+ *   footer: string,
+ *   onClose: () => void,
+ *   onYes: () => void
+ * } - The props object containing the following properties:
+ *   - title: The title of the announcement.
+ *   - description: The description of the announcement.
+ *   - buttonTitle: The title of the button.
+ *   - footer: The footer text.
+ *   - onClose: The callback function to be executed when the dialog is closed.
+ *   - onYes: The callback function to be executed when the "Yes" button is clicked.
+ *
+ * @return {JSX.Element} The rendered dialog announcement component.
+ */
+
 export function DialogVAnnouncement({
   title,
   description,

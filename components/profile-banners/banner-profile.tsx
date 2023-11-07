@@ -47,6 +47,24 @@ type BannerProfileProps = {
     | "experts";
 };
 
+/**
+ * Renders the banner profile component.
+ *
+ * @param {boolean} isLoading - Indicates if the data is loading.
+ * @param {string} userName - The name of the user.
+ * @param {string} userTitle - The title of the user.
+ * @param {number} points - The number of points.
+ * @param {number} endorsements - The number of endorsements.
+ * @param {string} rank - The rank of the user.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {object} data - The data object.
+ * @param {string} dataType - The type of data.
+ * @param {string} isFeatured - Indicates if the user is featured.
+ * @param {string} isOpenToWork - Indicates if the user is open to work.
+ * @return {JSX.Element} The rendered banner profile component.
+ */
+
 const BannerProfile = ({
   isLoading,
   userName,

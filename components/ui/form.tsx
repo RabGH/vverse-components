@@ -13,6 +13,11 @@ import {
 import { cn } from "@/lib/utils"
 import { Label } from "@/components/ui/label"
 
+/**
+ * Root component of the form, uses zod resolver and react-hook-form, Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
 const Form = FormProvider
 
 type FormFieldContextValue<

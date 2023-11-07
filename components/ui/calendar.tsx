@@ -11,6 +11,12 @@ export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
 // first-of-type:rounded-l-full last-of-type:rounded-r-full
 
+/**
+ * Root component of the calander, can be deleted as it is not in use. Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
+
 function Calendar({
   className,
   classNames,

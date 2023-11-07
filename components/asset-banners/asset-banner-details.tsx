@@ -11,6 +11,14 @@ type AssetDetailsProps = {
   dataType: string;
 };
 
+/**
+ * Renders the details of an asset based on its data type.
+ *
+ * @param {AssetDetailsProps} data - The data of the asset to be displayed.
+ * @param {string} dataType - The type of the asset.
+ * @return {JSX.Element} The rendered asset details.
+ */
+
 const AssetDetails = ({ data, dataType }: AssetDetailsProps) => {
   return (
     <div>

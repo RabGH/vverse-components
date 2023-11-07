@@ -19,6 +19,19 @@ export type UserInfoBoxProps = {
   lastSeen?: string;
 };
 
+/**
+ * Renders a user information box component.
+ *
+ * @param {UserInfoBoxProps} id - The user's ID.
+ * @param {UserInfoBoxProps} gender - The user's gender.
+ * @param {UserInfoBoxProps} country - The user's country.
+ * @param {UserInfoBoxProps} location - The user's location.
+ * @param {UserInfoBoxProps} time - The user's time.
+ * @param {UserInfoBoxProps} calendar - The user's calendar.
+ * @param {UserInfoBoxProps} lastSeen - The user's last seen.
+ * @return {JSX.Element} The user information box component.
+ */
+
 const UserInfoBox = ({
   id,
   gender,

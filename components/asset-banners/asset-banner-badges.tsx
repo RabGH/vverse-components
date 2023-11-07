@@ -18,6 +18,14 @@ type AssetBadgesProps = {
   data: any;
 };
 
+/**
+ * Renders a collection of badges based on the provided data type and data.
+ *
+ * @param {string} dataType - The type of data for which badges are being rendered.
+ * @param {object} data - The data object containing the necessary information for rendering the badges.
+ * @return {JSX.Element} - The rendered badges as a React element.
+ */
+
 const AssetBadges = ({ dataType, data }: AssetBadgesProps) => {
   return (
     <div className="flex flex-row gap-2">

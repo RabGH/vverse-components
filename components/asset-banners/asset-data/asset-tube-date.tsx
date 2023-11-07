@@ -25,6 +25,22 @@ type AssetTubeDataProps = {
   ratingPoints: number;
 };
 
+/**
+ * Renders the AssetTubeData component, which displays information about an asset in the Tube section.
+ *
+ * @param {AssetTubeDataProps} assetId - The ID of the asset.
+ * @param {AssetTubeDataProps} type - The type of the asset.
+ * @param {AssetTubeDataProps} date - The date of the asset.
+ * @param {AssetTubeDataProps} views - The number of views of the asset.
+ * @param {AssetTubeDataProps} likes - The number of likes of the asset.
+ * @param {AssetTubeDataProps} shares - The number of shares of the asset.
+ * @param {AssetTubeDataProps} rating - The rating of the asset.
+ * @param {AssetTubeDataProps} ratingPoints - The rating points of the asset.
+ * @param {AssetTubeDataProps} subscribers - The number of subscribers of the asset.
+ * @param {AssetTubeDataProps} channelFollowers - The number of channel followers of the asset.
+ * @return {JSX.Element} The rendered AssetTubeData component.
+ */
+
 const AssetTubeData = ({
   assetId,
   type,

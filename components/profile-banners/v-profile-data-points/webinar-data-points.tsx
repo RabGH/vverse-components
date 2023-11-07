@@ -22,6 +22,21 @@ type WebinarDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders the data points for webinars, sales, orders, customers, likes, shares, rating points, and rating.
+ *
+ * @param {boolean} isLoading - Indicates if the data is currently being loaded.
+ * @param {number} webinars - The number of webinars.
+ * @param {number} sales - The number of sales.
+ * @param {number} orders - The number of orders.
+ * @param {number} customers - The number of customers.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {number} ratingPoints - The number of rating points.
+ * @param {number} rating - The rating value.
+ * @return {ReactNode} - The rendered data points section.
+ */
+
 const WebinarDataPoints = ({
   isLoading,
   webinars,

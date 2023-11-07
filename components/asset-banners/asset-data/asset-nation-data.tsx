@@ -23,6 +23,22 @@ type AssetNationDataProps = {
   followers: number;
 };
 
+/**
+ * Renders the AssetNationData component.
+ *
+ * @param {AssetNationDataProps} props - The component props.
+ * @param {string} props.assetId - The ID of the asset.
+ * @param {string} props.type - The type of the asset.
+ * @param {string} props.date - The date of the asset.
+ * @param {number} props.posts - The number of posts.
+ * @param {number} props.likes - The number of likes.
+ * @param {number} props.shares - The number of shares.
+ * @param {number} props.rating - The rating.
+ * @param {number} props.ratingPoints - The number of rating points.
+ * @param {number} props.followers - The number of followers.
+ * @return {JSX.Element} The rendered AssetNationData component.
+ */
+
 const AssetNationData = ({
   assetId,
   type,

@@ -20,6 +20,21 @@ export interface MenuProps {
 const menuClass =
   "animate-out fade-out z-[9999] slide-in-from-bottom-4 data-[state=open]:animate-in data-[state=open]:fade-in data-[state=open]:slide-out-to-bottom-2 flex max-h-[400px] min-w-[260px] flex-col rounded-md border border-white/10 bg-black/95 p-2.5 font-sans text-[15px] font-medium outline-none backdrop-blur-sm duration-300";
 
+/**
+ * Renders a component that displays captions for a media player.
+ *
+ * @param {MenuProps} {
+ *     side = "top",
+ *     align = "end",
+ *     offset = 0,
+ *     tooltipSide = "top",
+ *     tooltipAlign = "center",
+ *     tooltipOffset = 0,
+ *     className,
+ * } - The props object containing the menu properties.
+ * @return {JSX.Element} The rendered component.
+ */
+
 export function Captions({
   side = "top",
   align = "end",
@@ -80,6 +95,13 @@ export function Captions({
     </DropdownMenu.Root>
   );
 }
+
+/**
+ * Render a radio item for the dropdown menu.
+ *
+ * @param {DropdownMenu.MenuRadioItemProps} props - The properties for the radio item.
+ * @return {React.ReactNode} The rendered radio item.
+ */
 
 function Radio({ children, ...props }: DropdownMenu.MenuRadioItemProps) {
   return (

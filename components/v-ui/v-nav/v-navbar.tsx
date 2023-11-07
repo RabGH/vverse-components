@@ -23,6 +23,13 @@ type VNavBarProps = {
   userTitle: string;
 };
 
+/**
+ * Renders a vertical navbar component. This is the navbar, has the main logo to the left and the drop down to the right.
+ *
+ * @param {VNavBarProps} userTitle - The title of the user.
+ * @return {JSX.Element} The rendered vertical navbar.
+ */
+
 const VNavbar = ({ userTitle }: VNavBarProps) => {
   const [activeButton, setActiveButton] = useState("V-Verse Menu");
   const [isSignedIn, setIsSignedIn] = useState(false);

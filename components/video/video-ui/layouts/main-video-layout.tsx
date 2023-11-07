@@ -16,6 +16,13 @@ export interface VideoLayoutProps {
   thumbnails?: string;
 }
 
+/**
+ * Renders the main layout for the video player.
+ *
+ * @param {VideoLayoutProps} thumbnails - The thumbnails to be displayed in the video layout.
+ * @return {void}
+ */
+
 export function VideoMainLayout({ thumbnails }: VideoLayoutProps) {
   return (
     <>

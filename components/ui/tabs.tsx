@@ -5,6 +5,17 @@ import * as TabsPrimitive from "@radix-ui/react-tabs";
 
 import { cn } from "@/lib/utils";
 
+/**
+ * The module exports the following components related to the Tabs functionality:
+ *
+ * - `Tabs`: The root component for managing tab state.
+ * - `TabsList`: A component that renders the list of tab items.
+ * - `TabsTrigger`: A component that renders a tab trigger.
+ * - `TabsContent`: A component that renders the content of a tab panel.
+ *
+ * @module TabsPrimitive
+ */
+
 const Tabs = TabsPrimitive.Root;
 
 const TabsList = React.forwardRef<

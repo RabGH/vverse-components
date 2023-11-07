@@ -11,6 +11,11 @@ import { Button } from "@/components/ui/button";
 import { useMount } from "@/hooks/mount-hook";
 import VAlertTab from "../v-alert-center";
 
+/**
+ * Renders the VAlertCenterDropDown component.
+ *
+ * @return {JSX.Element} The rendered component.
+ */
 const VAlertCenterDropDown = () => {
   const isMounted = useMount();
   const [open, setOpen] = useState(false);

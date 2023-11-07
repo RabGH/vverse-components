@@ -11,6 +11,14 @@ type VNavLinkProps = {
   sectionTitle: string;
 };
 
+/**
+ * Renders a vertical navigation component with links. Section Links when called have an icon (optional), label, and link. It would render any object with the data taken from constants.ts.
+ *
+ * @param {VNavLinkProps} sectionLinks - An array of objects representing the section links.
+ * @param {string} sectionTitle - The title of the section.
+ * @return {JSX.Element} - The rendered vertical navigation component.
+ */
+
 const VNavLinks = ({ sectionLinks, sectionTitle }: VNavLinkProps) => {
   return (
     <div className="flex flex-col gap-1">

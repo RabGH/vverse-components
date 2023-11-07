@@ -2,6 +2,12 @@
 
 import { Checkbox } from "@/components/ui/checkbox"
 
+/**
+ * Renders a checkbox demo component.
+ *
+ * @return {JSX.Element} The rendered checkbox demo component.
+ */
+
 export function CheckboxDemo() {
   return (
     <div className="flex items-center space-x-2">

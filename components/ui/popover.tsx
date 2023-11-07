@@ -5,10 +5,20 @@ import * as PopoverPrimitive from "@radix-ui/react-popover"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Root component of the popover
+ */
 const Popover = PopoverPrimitive.Root
 
+/**
+ * Component that triggers the popover
+ */
 const PopoverTrigger = PopoverPrimitive.Trigger
 
+/**
+ * Content component of the popover
+ * @component
+ */
 const PopoverContent = React.forwardRef<
   React.ElementRef<typeof PopoverPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof PopoverPrimitive.Content>

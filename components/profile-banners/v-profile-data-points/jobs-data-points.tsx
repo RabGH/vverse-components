@@ -15,6 +15,17 @@ type JobsDataPointsProps = {
   shares: number;
 };
 
+/**
+ * Renders the data points for a job.
+ *
+ * @param {boolean} isLoading - Indicates if the data is loading.
+ * @param {number} experience - The number of years of experience.
+ * @param {number} salary - The salary for the job.
+ * @param {number} likes - The number of likes for the job.
+ * @param {number} shares - The number of shares for the job.
+ * @return {JSX.Element} The rendered job data points.
+ */
+
 const JobsDataPoints = ({
   isLoading,
   experience,

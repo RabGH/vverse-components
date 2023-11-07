@@ -17,6 +17,13 @@ type VAlertNewsCardProps = {
   news: NewsItem;
 };
 
+/**
+ * Renders a VAlertNewsCard component with the provided props.
+ *
+ * @param {VAlertNewsCardProps} props - The props for the VAlertNewsCard component.
+ * @returns {JSX.Element} The rendered VAlertNewsCard component.
+ */
+
 const VAlertNewsCard = ({ isLoading, news }: VAlertNewsCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);

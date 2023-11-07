@@ -11,6 +11,12 @@ import {
 
 import { VideoAdsLayout } from "./video-ui/layouts/ads-layout";
 
+/**
+ * Renders a video player component with video ads.
+ *
+ * @return {JSX.Element} The rendered video player component.
+ */
+
 export function VVideoAds() {
   let player = useRef<MediaPlayerInstance>(null);
 

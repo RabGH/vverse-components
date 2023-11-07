@@ -1,6 +1,12 @@
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
+/**
+ * Renders a demo of a radio group.
+ *
+ * @return {JSX.Element} The rendered radio group demo.
+ */
+
 export function RadioGroupDemo() {
   return (
     <RadioGroup defaultValue="comfortable">

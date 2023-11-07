@@ -10,6 +10,15 @@ type CountryBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Generates a country badge component.
+ *
+ * @param {CountryBadgeProps} country - The country object.
+ * @param {string} badgeClassName - The class name for the badge.
+ * @param {string} iconClassName - The class name for the icon.
+ * @return {JSX.Element | null} The country badge component.
+ */
+
 const CountryBadge = ({
   country,
   badgeClassName,

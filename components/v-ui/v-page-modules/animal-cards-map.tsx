@@ -14,6 +14,13 @@ type AnimalCardsMapProps = {
   animalCards?: AnimalCardsProps;
 };
 
+/**
+ * Renders a map of animal cards.
+ *
+ * @param {AnimalCardsMapProps} animalCards - The animal cards to display in the map.
+ * @return {JSX.Element} - The rendered map of animal cards.
+ */
+
 const AnimalCardsMap = ({ animalCards }: AnimalCardsMapProps) => {
   const options: EmblaOptionsType = { loop: true };
   const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);

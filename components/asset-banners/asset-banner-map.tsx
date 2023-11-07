@@ -11,6 +11,15 @@ type AssetMapProps = {
   buttonDataType: AssetInteractionTopProps["buttonDataType"];
 };
 
+/**
+ * Renders a map of assets.
+ *
+ * @param {AssetMapProps} data - The data for the map.
+ * @param {string} dataType - The type of data.
+ * @param {string} buttonDataType - The type of button data.
+ * @return {JSX.Element} - The rendered map of assets.
+ */
+
 const AssetMap = ({ data, dataType, buttonDataType }: AssetMapProps) => {
   return (
     <div className="flex flex-col justify-center items-center gap-10">

@@ -8,6 +8,11 @@ import { Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 
+/**
+ * Root component of the command menu. Uses other components from UI folder. Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
 const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,
   React.ComponentPropsWithoutRef<typeof CommandPrimitive>

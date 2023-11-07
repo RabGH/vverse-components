@@ -12,6 +12,11 @@ import Heading from "@/components/nav/heading";
 import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import React from "react";
 
+/**
+ * Renders the AssetBannerPage component.
+ *
+ * @return {JSX.Element} The rendered AssetBannerPage component.
+ */
 const AssetBannerPage = () => {
   return (
     <div className="flex flex-col gap-10">

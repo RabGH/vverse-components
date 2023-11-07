@@ -6,14 +6,38 @@ import { X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
+
+/**
+ * Renders a dialog component.
+ * 
+ */
 const Dialog = DialogPrimitive.Root;
 
+
+/**
+ * Renders a dialog component.
+ */
 const DialogTrigger = DialogPrimitive.Trigger;
 
+
+/**
+ * Renders a dialog portal component.
+ */
 const DialogPortal = DialogPrimitive.Portal;
 
+
+/**
+ * Renders a dialog close component.
+ */
 const DialogClose = DialogPrimitive.Close;
 
+
+/**
+ * Renders a dialog overlay component.
+ *
+ * @param {type} className - The class name for the overlay.
+ * @return {JSX.Element} The rendered dialog overlay component.
+ */
 const DialogOverlay = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Overlay>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
@@ -30,6 +54,14 @@ const DialogOverlay = React.forwardRef<
 ));
 DialogOverlay.displayName = DialogPrimitive.Overlay.displayName;
 
+
+/**
+ * Renders a dialog content component.
+ *
+ * @param {type} className - The class name for the content.
+ * @param {type} children - The children elements.
+ * @return {JSX.Element} The rendered dialog content component.
+ */
 const DialogContent = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
@@ -65,6 +97,13 @@ const DialogContent = React.forwardRef<
 ));
 DialogContent.displayName = DialogPrimitive.Content.displayName;
 
+
+/**
+ * Renders a dialog header component.
+ *
+ * @param {type} className - The class name for the header.
+ * @return {JSX.Element} The rendered dialog header component.
+ */
 const DialogHeader = ({
   className,
   ...props
@@ -79,6 +118,13 @@ const DialogHeader = ({
 );
 DialogHeader.displayName = "DialogHeader";
 
+
+/**
+ * Renders a dialog footer component.
+ *
+ * @param {type} className - The class name for the footer.
+ * @return {JSX.Element} The rendered dialog footer component.
+ */
 const DialogFooter = ({
   className,
   ...props
@@ -93,6 +139,13 @@ const DialogFooter = ({
 );
 DialogFooter.displayName = "DialogFooter";
 
+
+/**
+ * Renders a dialog title component.
+ *
+ * @param {type} className - The class name for the title.
+ * @return {JSX.Element} The rendered dialog title component.
+ */
 const DialogTitle = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Title>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Title>
@@ -108,6 +161,13 @@ const DialogTitle = React.forwardRef<
 ));
 DialogTitle.displayName = DialogPrimitive.Title.displayName;
 
+
+/**
+ * Renders a dialog description component.
+ *
+ * @param {type} className - The class name for the description.
+ * @return {JSX.Element} The rendered dialog description component.
+ */
 const DialogDescription = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Description>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Description>

@@ -1,8 +1,13 @@
 import { useUser } from "@clerk/nextjs";
-
 import Image from "next/image";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
+/**
+ * Renders the user avatar component.
+ *
+ * @return {JSX.Element} The default user avatar component.
+ */
 
 export function UserAvatar() {
   const { user } = useUser();

@@ -2,6 +2,11 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Root component of the input, Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
 

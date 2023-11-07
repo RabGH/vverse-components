@@ -21,6 +21,23 @@ type UserTitleBoxProps = {
   rank: RankMedalProps["rank"];
 };
 
+/**
+ * Renders the UserTitleBox component.
+ *
+ * @param {object} props - The component props.
+ * @param {string} props.userName - The name of the user.
+ * @param {string} props.userTitle - The title of the user.
+ * @param {number} props.points - The number of points.
+ * @param {number} props.endorsements - The number of endorsements.
+ * @param {number} props.likes - The number of likes.
+ * @param {number} props.shares - The number of shares.
+ * @param {string} [props.rank="standardSilver"] - The rank of the user.
+ * @param {string} [props.isFeatured="featured"] - Whether the user is featured.
+ * @param {string} [props.isOpenToWork=""] - Whether the user is open to work.
+ * @param {string} [props.isHiring=""] - Whether the user is hiring.
+ * @returns {JSX.Element} The rendered UserTitleBox component.
+ */
+
 const UserTitleBox = ({
   userName,
   userTitle,

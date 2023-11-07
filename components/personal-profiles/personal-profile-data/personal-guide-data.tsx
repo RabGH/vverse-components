@@ -19,6 +19,19 @@ type PersonalGuideDataProps = {
   investments: number;
 };
 
+/**
+ * Renders the personal guide data with icons and formatted numbers.
+ *
+ * @param {PersonalGuideDataProps} assets - The assets data.
+ * @param {PersonalGuideDataProps} sales - The sales data.
+ * @param {PersonalGuideDataProps} investments - The investments data.
+ * @param {PersonalGuideDataProps} endorsements - The endorsements data.
+ * @param {PersonalGuideDataProps} connections - The connections data.
+ * @param {PersonalGuideDataProps} rating - The rating data.
+ * @param {PersonalGuideDataProps} ratingPoints - The rating points data.
+ * @return {JSX.Element} The rendered personal guide data.
+ */
+
 const PersonalGuideData = ({
   assets,
   sales,

@@ -10,6 +10,15 @@ type BudgetBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Renders a budget badge component based on the provided budget value.
+ *
+ * @param {number} budget - The budget value for the badge.
+ * @param {string} badgeClassName - The CSS class name for the badge component.
+ * @param {string} iconClassName - The CSS class name for the badge icon.
+ * @return {ReactNode} The rendered budget badge component.
+ */
+
 const BudgetBadge = ({
   budget,
   badgeClassName,

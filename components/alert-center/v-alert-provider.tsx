@@ -5,6 +5,12 @@ import { IconBellFilled } from "@/components/icons/logo-icons";
 import VAlertCenterDropDown from "@/components/alert-center/alert-center-popups/v-alert-center-dropdown";
 import VAlertCenterDialog from "@/components/alert-center/alert-center-popups/v-alert-center-dialog";
 
+/**
+ * Renders the VAlertProvider component.
+ *
+ * @return {JSX.Element} The rendered VAlertProvider component.
+ */
+
 const VAlertProvider = () => {
   return (
     <div className="space-y-10">

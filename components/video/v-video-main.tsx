@@ -13,6 +13,12 @@ import {
 
 import { VideoMainLayout } from "./video-ui/layouts/main-video-layout";
 
+/**
+ * Renders the main video component.
+ *
+ * @return {JSX.Element} The main video component.
+ */
+
 export function VVideoMain() {
   let player = useRef<MediaPlayerInstance>(null);
 

@@ -56,6 +56,26 @@ type BannerProfileProps = {
     | "experts";
 };
 
+/**
+ * Renders the BannerProfileDialog component.
+ *
+ * @param {Object} props - The component props.
+ * @param {boolean} props.isLoading - Determines if the component is in a loading state.
+ * @param {string} props.userName - The name of the user.
+ * @param {string} props.userTitle - The title of the user.
+ * @param {number} props.points - The number of points.
+ * @param {number} props.endorsements - The number of endorsements.
+ * @param {number} props.rank - The user's rank.
+ * @param {number} props.likes - The number of likes.
+ * @param {number} props.shares - The number of shares.
+ * @param {Object} props.data - The data object.
+ * @param {string} props.dataType - The type of data.
+ * @param {string} props.dialogTitle - The title of the dialog.
+ * @param {string} props.isFeatured - Determines if the user is featured.
+ * @param {string} props.isOpenToWork - Determines if the user is open to work.
+ * @returns {JSX.Element} The rendered BannerProfileDialog component.
+ */
+
 const BannerProfileDialog = ({
   isLoading,
   userName,

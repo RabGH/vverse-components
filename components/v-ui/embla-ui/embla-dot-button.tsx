@@ -14,6 +14,14 @@ type UseDotButtonType = {
   onDotButtonClick: (index: number) => void;
 };
 
+/**
+ * Generates the useDotButton hook. Currently not in use. Advise not to use and use flowbite unless needed.
+ *
+ * @param {EmblaCarouselType | undefined} emblaApi - The EmblaCarouselType API object.
+ * @param {(emblaApi: EmblaCarouselType) => void} onButtonClick - Optional callback function called when a button is clicked.
+ * @returns {UseDotButtonType} - The object containing the selectedIndex, scrollSnaps, and onDotButtonClick.
+ */
+
 export const useDotButton = (
   emblaApi: EmblaCarouselType | undefined,
   onButtonClick?: (emblaApi: EmblaCarouselType) => void

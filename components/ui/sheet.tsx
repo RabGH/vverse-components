@@ -7,6 +7,39 @@ import { X } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Renders a sheet component. Example taken from Shadcn-UI.
+ *
+ * @module Sheet
+ * @category UI Components
+ * @component
+ * @example
+ * const Example = () => {
+ *   return (
+ *     <Sheet>
+ *       <Sheet.Trigger>Open Sheet</Sheet.Trigger>
+ *       <Sheet.Content>
+ *         <Sheet.Header>
+ *           <Sheet.Title>Sheet Title</Sheet.Title>
+ *           <Sheet.Description>Sheet Description</Sheet.Description>
+ *         </Sheet.Header>
+ *         <Sheet.Footer>
+ *           <button>Cancel</button>
+ *           <button>Save</button>
+ *         </Sheet.Footer>
+ *       </Sheet.Content>
+ *       <Sheet.Close>
+ *         <X />
+ *       </Sheet.Close>
+ *     </Sheet>
+ *   )
+ * }
+ *
+ * @param {React.HTMLAttributes<HTMLDivElement>} props - The props for the component.
+ * @param {string} props.className - The class name for the component.
+ * @return {React.ReactNode} The rendered sheet component.
+ */
+
 const Sheet = SheetPrimitive.Root
 
 const SheetTrigger = SheetPrimitive.Trigger

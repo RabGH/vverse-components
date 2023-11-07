@@ -9,6 +9,11 @@ import { VVideoAds } from "@/components/video/v-video-ads";
 
 // testing video player
 
+/**
+ * Renders the VideoPlayerPage component.
+ *
+ * @return {JSX.Element} The rendered VideoPlayerPage component.
+ */
 const VideoPlayerPage = () => {
   return (
     <div className="flex flex-col gap-10">

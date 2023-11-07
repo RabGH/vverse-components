@@ -7,6 +7,13 @@ type VAlertNewsTable = {
   newsData: NewsItem[];
 };
 
+/**
+ * Renders a table component for displaying news data.
+ *
+ * @param {VAlertNewsTableProps} newsData - The news data to be displayed in the table.
+ * @return {JSX.Element} The rendered table component.
+ */
+
 const VAlertNewsTable = ({ newsData }: VAlertNewsTable) => {
   const isEmpty = newsData.length === 0;
 

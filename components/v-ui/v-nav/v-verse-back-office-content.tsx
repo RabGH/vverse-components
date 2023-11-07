@@ -20,6 +20,12 @@ import {
 import VNavLinks from "@/components/v-ui/v-nav/v-nav-links";
 import { Separator } from "@/components/ui/separator";
 
+/**
+ * Renders the content for the VVerse Back Office Menu. Content Scratched
+ *
+ * @return {JSX.Element} The JSX element representing the menu content.
+ */
+
 const VVerseBackOfficeMenuContent = () => {
   return (
     <section className="flex flex-row justify-start gap-10 animate-slide-in-left">

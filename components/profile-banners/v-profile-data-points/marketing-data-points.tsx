@@ -22,6 +22,21 @@ type MarketingDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders a section containing marketing data points.
+ *
+ * @param {boolean} isLoading - Indicates whether the data is still loading.
+ * @param {number} sponsorships - The number of sponsorships.
+ * @param {number} sales - The number of sales.
+ * @param {number} orders - The number of orders.
+ * @param {number} customers - The number of customers.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {number} ratingPoints - The rating points.
+ * @param {number} rating - The rating value.
+ * @return {ReactNode} The rendered marketing data points section.
+ */
+
 const MarketingDataPoints = ({
   isLoading,
   sponsorships,

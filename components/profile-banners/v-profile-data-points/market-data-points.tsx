@@ -25,6 +25,22 @@ type MarketDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders the market data points section.
+ *
+ * @param {boolean} isLoading - Indicates if the data is being loaded.
+ * @param {number} stores - The number of stores.
+ * @param {number} products - The number of products.
+ * @param {number} sales - The number of sales.
+ * @param {number} orders - The number of orders.
+ * @param {number} customers - The number of customers.
+ * @param {number} likes - The number of likes.
+ * @param {number} shares - The number of shares.
+ * @param {number} ratingPoints - The rating points.
+ * @param {number} rating - The rating value.
+ * @return {JSX.Element} - The rendered market data points section.
+ */
+
 const MarketDataPoints = ({
   isLoading,
   stores,

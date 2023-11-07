@@ -4,6 +4,11 @@ import VNavbar from "@/components/v-ui/v-nav/v-navbar";
 import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import AnimalCardsMap from "@/components/v-ui/v-page-modules/animal-cards-map";
 
+/**
+ * Renders the VNavigation component.
+ *
+ * @return {JSX.Element} The rendered VNavigation component.
+ */
 const VNavigation = () => {
   return (
     <>

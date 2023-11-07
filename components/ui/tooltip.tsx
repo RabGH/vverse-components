@@ -5,6 +5,12 @@ import * as TooltipPrimitive from "@radix-ui/react-tooltip"
 
 import { cn } from "@/lib/utils"
 
+/**
++ * Provides tooltip functionality.
++ *
++ * @return {Object} The object contains the Tooltip, TooltipTrigger, TooltipContent, and TooltipProvider components.
++ */
+
 const TooltipProvider = TooltipPrimitive.Provider
 
 const Tooltip = TooltipPrimitive.Root

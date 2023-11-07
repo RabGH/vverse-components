@@ -5,6 +5,15 @@ import * as SliderPrimitive from "@radix-ui/react-slider"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Renders a slider input element.
+ *
+ * @component
+ * @param {React.ElementRef<typeof SliderPrimitive.Root>} ref - Ref for the slider element.
+ * @param {string} props.className - Additional CSS classes for the slider.
+ * @return {JSX.Element} The rendered Slider component.
+ */
+
 const Slider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof SliderPrimitive.Root>

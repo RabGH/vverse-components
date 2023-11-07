@@ -13,6 +13,18 @@ export type AnimalCardsProps = {
   buttonLink: string;
 };
 
+/**
+ * Renders a card component displaying V module link information.
+ *
+ * @param {AnimalCardsProps} props - The props object containing the following properties:
+ *   - imageUrl: string - The URL of the animal image.
+ *   - buttonTitle: string - The title of the button.
+ *   - titleOne: string - The first title for the animal card. Currently not in use, since the photo was exported as SVG. Only button was not.
+ *   - titleTwo: string - The second title for the animal card. Currently not in use, since the photo was exported as SVG. Only button was not.
+ *   - buttonLink: string (optional) - The URL the button should link to. Default value is "/".
+ * @returns {JSX.Element} - The rendered card component.
+ */
+
 const AnimalCards = ({
   imageUrl,
   buttonTitle,

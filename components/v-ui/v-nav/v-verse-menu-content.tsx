@@ -20,6 +20,12 @@ import {
 import VNavLinks from "@/components/v-ui/v-nav/v-nav-links";
 import { Separator } from "@/components/ui/separator";
 
+/**
+ * Renders the content for the VVerse menu. Has to be changed towards the new nav, the same background and drop down menu can be used.
+ *
+ * @return {JSX.Element} The JSX element representing the menu content.
+ */
+
 const VVerseMenuContent = () => {
   return (
     <section className="flex flex-row gap-10 mr-4 animate-slide-in-right">

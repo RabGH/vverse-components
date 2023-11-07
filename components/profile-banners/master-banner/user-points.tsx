@@ -19,6 +19,17 @@ type UserPointProps = {
   isLoading?: boolean;
 };
 
+/**
+ * Renders the UserPoints component.
+ *
+ * @param {boolean} isLoading - Indicates if the component is in a loading state.
+ * @param {number} points - The number of points for the user.
+ * @param {number} endorsements - The number of endorsements for the user.
+ * @param {number} thumbsup - The number of thumbs up for the user.
+ * @param {number} shares - The number of shares for the user.
+ * @return {JSX.Element} The rendered UserPoints component.
+ */
+
 const UserPoints = ({
   isLoading,
   points,

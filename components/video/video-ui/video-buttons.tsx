@@ -78,6 +78,18 @@ interface PlayProps extends MediaButtonProps {
   pauseIconClass?: string;
 }
 
+/**
+ * Renders a Play component with optional tooltip and icon customization.
+ *
+ * @param {number} tooltipOffset - The offset of the tooltip from the trigger element.
+ * @param {string} tooltipSide - The side of the tooltip relative to the trigger element.
+ * @param {string} tooltipAlign - The alignment of the tooltip relative to the trigger element.
+ * @param {string} className - Additional CSS class for styling the component.
+ * @param {string} playIconClass - CSS class for styling the play icon.
+ * @param {string} pauseIconClass - CSS class for styling the pause icon.
+ * @return {JSX.Element} The rendered Play component.
+ */
+
 export function Play({
   tooltipOffset = 0,
   tooltipSide = "top",
@@ -116,6 +128,20 @@ interface MuteProps extends MediaButtonProps {
   IconVolumeHigh?: string;
 }
 
+
+/**
+ * Renders a mute button with an optional tooltip.
+ *
+ * @param {number} tooltipOffset - The offset of the tooltip.
+ * @param {string} tooltipSide - The side of the tooltip.
+ * @param {string} tooltipAlign - The alignment of the tooltip.
+ * @param {string} className - Additional CSS class for the mute button.
+ * @param {string} IconMute - The CSS class for the mute icon.
+ * @param {string} IconVolumeLow - The CSS class for the volume low icon.
+ * @param {string} IconVolumeHigh - The CSS class for the volume high icon.
+ * @return {JSX.Element} The rendered mute button.
+ */
+
 export function Mute({
   tooltipOffset = 0,
   tooltipSide = "top",
@@ -152,6 +178,16 @@ export function Mute({
   );
 }
 
+/**
+ * Renders a Caption component.
+ *
+ * @param {number} tooltipOffset - The offset for the tooltip (default: 0).
+ * @param {string} tooltipSide - The side of the tooltip (default: "top").
+ * @param {string} tooltipAlign - The alignment of the tooltip (default: "center").
+ * @param {string} className - Additional CSS classes to apply to the component.
+ * @return {JSX.Element} The rendered Caption component.
+ */
+
 export function Caption({
   tooltipOffset = 0,
   tooltipSide = "top",
@@ -182,6 +218,16 @@ export function Caption({
     </Tooltip.Root>
   );
 }
+
+/**
+ * Renders a PIP (Picture-in-Picture) button component.
+ *
+ * @param {number} tooltipOffset - The offset of the tooltip.
+ * @param {string} tooltipSide - The side position of the tooltip (top, right, bottom, left).
+ * @param {string} tooltipAlign - The alignment of the tooltip (center, start, end).
+ * @param {string} className - Additional CSS class names for styling the component.
+ * @returns {JSX.Element} The PIP button component.
+ */
 
 export function PIP({
   tooltipOffset = 0,
@@ -217,6 +263,18 @@ interface FullscreenProps extends MediaButtonProps {
   IconFullscreenExit?: string;
   IconFullscreen?: string;
 }
+
+/**
+ * Renders a fullscreen button with a tooltip.
+ *
+ * @param {number} tooltipOffset - The offset of the tooltip.
+ * @param {string} tooltipSide - The side of the tooltip.
+ * @param {string} tooltipAlign - The alignment of the tooltip.
+ * @param {string} className - Additional CSS class names for the button.
+ * @param {string} IconFullscreenExit - The CSS class for the fullscreen exit icon.
+ * @param {string} IconFullscreen - The CSS class for the fullscreen icon.
+ * @return {ReactElement} The rendered fullscreen button with tooltip.
+ */
 
 export function Fullscreen({
   tooltipOffset = 0,

@@ -10,6 +10,12 @@ import {
 } from "@/components/ui/toast"
 import { useToast } from "@/components/ui/use-toast"
 
+/**
+ * Renders the Toaster component which displays a list of toasts.
+ *
+ * @return {JSX.Element} The JSX element representing the Toaster component.
+ */
+
 export function Toaster() {
   const { toasts } = useToast()
 

@@ -15,6 +15,24 @@ export interface VDataPointProps extends React.HTMLAttributes<HTMLDivElement> {
   isPercentage?: boolean;
 }
 
+/**
+ * Renders a data point component.
+ *
+ * @param {object} VDataPointProps - The properties for the VDataPoint component.
+ * @param {boolean} VDataPointProps.isLoading - Specifies if the component is in a loading state.
+ * @param {LucideIcon} VDataPointProps.icon - The icon for the data point.
+ * @param {number} VDataPointProps.number - The number value for the data point.
+ * @param {string} VDataPointProps.description - The description of the data point.
+ * @param {string} VDataPointProps.currency - The currency symbol for the data point.
+ * @param {boolean} VDataPointProps.isExperience - Specifies if the data point represents job experience.
+ * @param {boolean} VDataPointProps.isRated - Specifies if the data point is rated.
+ * @param {number} VDataPointProps.rating - The rating value for the data point.
+ * @param {boolean} VDataPointProps.isPercentage - Specifies if the data point represents a percentage.
+ * @param {...React.HTMLAttributes<HTMLDivElement>} props - Additional HTML attributes for the component.
+ * 
+ * @return {ReactNode} The rendered VDataPoint component.
+ */
+
 const VDataPoint = React.forwardRef<HTMLDivElement, VDataPointProps>(
   (
     {

@@ -14,6 +14,12 @@ import { IconHeartFilled } from "../icons/logo-icons";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
+/**
+ * Renders the EmojiMart component.
+ *
+ * @return {JSX.Element} The JSX element representing the EmojiMart component.
+ */
+
 export function EmojiMart() {
   const [selectedEmojis, setSelectedEmojis] = useState<Emoji[]>([]);
 

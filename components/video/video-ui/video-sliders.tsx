@@ -9,6 +9,12 @@ import {
   useSliderPreview,
 } from "@vidstack/react";
 
+/**
+ * Renders a volume slider component.
+ *
+ * @return {JSX.Element} The volume slider component.
+ */
+
 export function Volume() {
   const volume = useMediaState("volume"),
     canSetVolume = useMediaState("canSetVolume"),
@@ -38,6 +44,13 @@ export function Volume() {
 export interface TimeSliderProps {
   thumbnails?: string;
 }
+
+/**
+ * Renders a time slider component.
+ *
+ * @param {TimeSliderProps} { thumbnails } - The props for the time slider component.
+ * @return {JSX.Element} The rendered time slider component.
+ */
 
 export function Time({ thumbnails }: TimeSliderProps) {
   const time = useMediaState("currentTime"),

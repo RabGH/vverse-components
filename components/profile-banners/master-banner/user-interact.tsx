@@ -9,6 +9,13 @@ type UserInteractionProps = {
   isMiniView?: boolean;
 };
 
+/**
+ * Renders the user interaction component.
+ *
+ * @param {UserInteractionProps} isMiniView - Indicates whether the component is in mini view mode.
+ * @return {JSX.Element} The rendered user interaction component.
+ */
+
 const UserInteraction = ({ isMiniView }: UserInteractionProps) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isSaved, setIsSaved] = useState(false);

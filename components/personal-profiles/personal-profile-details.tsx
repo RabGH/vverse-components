@@ -7,6 +7,14 @@ type PersonalProfileDetailsProps = {
   dataType: string;
 };
 
+/**
+ * Renders the profile details for a person.
+ *
+ * @param {PersonalProfileDetailsProps} data - The data containing the profile details.
+ * @param {string} dataType - The type of data to be displayed.
+ * @return {JSX.Element} The rendered profile details component.
+ */
+
 const PersonProfileDetails = ({
   data,
   dataType,

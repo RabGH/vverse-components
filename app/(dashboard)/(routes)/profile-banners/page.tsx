@@ -36,6 +36,11 @@ import { IconSponsorHandShaking } from "../../../../components/icons/logo-icons"
 import BannerProfileDialog from "@/components/profile-banners/banner-profile-dialog";
 import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
 
+/**
+ * Renders the profile banner page.
+ *
+ * @return {JSX.Element} The JSX element representing the profile banner page.
+ */
 const ProfileBannerPage = () => {
   return (
     <div className="space-y-20">

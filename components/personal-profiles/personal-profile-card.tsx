@@ -13,6 +13,12 @@ import CountryBadge from "@/components/v-ui/v-badges/country-badge";
 import ProfileCardInteractionTop from "@/components/personal-profiles/personal-card-interaction-top";
 import { Separator } from "@/components/ui/separator";
 
+/**
+ * Renders a profile card component.
+ *
+ * @return {JSX.Element} The rendered profile card component.
+ */
+
 const ProfileCard = () => {
   return (
     <Card

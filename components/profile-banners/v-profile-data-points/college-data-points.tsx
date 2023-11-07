@@ -24,6 +24,22 @@ type CollegeDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders college data points.
+ *
+ * @param {CollegeDataPointsProps} courses - The number of courses.
+ * @param {CollegeDataPointsProps} sales - The number of sales.
+ * @param {CollegeDataPointsProps} orders - The number of orders.
+ * @param {CollegeDataPointsProps} customers - The number of customers.
+ * @param {CollegeDataPointsProps} likes - The number of likes.
+ * @param {CollegeDataPointsProps} shares - The number of shares.
+ * @param {CollegeDataPointsProps} ratingPoints - The number of rating points.
+ * @param {CollegeDataPointsProps} rating - The rating value.
+ * @param {boolean} isLoading - Indicates if the data is still loading.
+ *
+ * @return {JSX.Element} The rendered college data points section.
+ */
+
 const CollegeDataPoints = ({
   courses,
   sales,

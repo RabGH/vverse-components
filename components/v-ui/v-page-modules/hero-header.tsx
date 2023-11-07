@@ -6,6 +6,14 @@ type VHeroHeaderProps = {
   description: string;
 };
 
+/**
+ * Renders a hero header component. Just for Demo use
+ *
+ * @param {VHeroHeaderProps} pillar - The pillar prop to display in the header.
+ * @param {string} description - The description to display in the header.
+ * @return {JSX.Element} The rendered hero header component.
+ */
+
 const VHeroHeader = ({ pillar, description }: VHeroHeaderProps) => {
   return (
     <header className="mx-auto relative z-0 w-fit h-fit shadow-lg hover:shadow-2xl transition ease-in-out duration-300">

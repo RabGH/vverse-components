@@ -26,6 +26,22 @@ type AssetCollegeDataProps = {
   ratingPoints: number;
 };
 
+/**
+ * Renders the AssetCollegeData component.
+ *
+ * @param {AssetCollegeDataProps} assetId - The ID of the asset.
+ * @param {AssetCollegeDataProps} type - The type of the asset.
+ * @param {AssetCollegeDataProps} date - The date of the asset.
+ * @param {AssetCollegeDataProps} sales - The sales of the asset.
+ * @param {AssetCollegeDataProps} orders - The number of orders of the asset.
+ * @param {AssetCollegeDataProps} customers - The number of customers of the asset.
+ * @param {AssetCollegeDataProps} likes - The number of likes of the asset.
+ * @param {AssetCollegeDataProps} shares - The number of shares of the asset.
+ * @param {AssetCollegeDataProps} rating - The rating of the asset.
+ * @param {AssetCollegeDataProps} ratingPoints - The number of rating points of the asset.
+ * @return {JSX.Element} The rendered AssetCollegeData component.
+ */
+
 const AssetCollegeData = ({
   assetId,
   type,

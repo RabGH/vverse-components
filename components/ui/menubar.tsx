@@ -6,6 +6,11 @@ import { Check, ChevronRight, Circle } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Root component of the Menubar menu, Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
 const MenubarMenu = MenubarPrimitive.Menu
 
 const MenubarGroup = MenubarPrimitive.Group

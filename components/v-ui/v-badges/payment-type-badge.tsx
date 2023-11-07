@@ -13,6 +13,13 @@ type PaymentTypeBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Render a badge component based on the payment type.
+ *
+ * @param {PaymentTypeBadgeProps} props - The props object containing paymentType, badgeClassName, and iconClassName.
+ * @return {React.ReactNode} The rendered badge component.
+ */
+
 const PaymentTypeBadge = ({
   paymentType,
   badgeClassName,

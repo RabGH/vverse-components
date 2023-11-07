@@ -10,6 +10,15 @@ type BargainBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Renders a BargainBadge component.
+ *
+ * @param {BargainBadgeProps} bargain - A boolean value indicating whether the badge should be rendered or not.
+ * @param {string} iconClassName - Additional class name for the icon.
+ * @param {string} badgeClassName - Additional class name for the badge.
+ * @return {JSX.Element | null} The rendered BargainBadge component.
+ */
+
 const BargainBadge = ({
   bargain,
   iconClassName,

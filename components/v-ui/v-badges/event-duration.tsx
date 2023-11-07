@@ -10,6 +10,15 @@ type EventDurationBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Render a badge component that displays the duration of an event.
+ *
+ * @param {EventDurationBadgeProps} eventDuration - The duration of the event.
+ * @param {string} iconClassName - The class name for the icon.
+ * @param {string} badgeClassName - The class name for the badge.
+ * @return {JSX.Element | null} The rendered badge component.
+ */
+
 const EventDurationBadge = ({
   eventDuration,
   iconClassName,

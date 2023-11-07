@@ -1,3 +1,9 @@
+/**
+ * Combines multiple class values and returns a merged class string.
+ *
+ * @param inputs - Class values to be combined.
+ * @returns Merged class string.
+ */
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -5,6 +11,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+/**
+ * Formats a number to a human-readable string, adding 'K' or 'M' for thousands and millions.
+ *
+ * @param num - The number to be formatted.
+ * @returns Formatted string.
+ */
 export function formatNumber(num: number) {
   if (num < 1000) {
     return num.toString();
@@ -15,6 +27,13 @@ export function formatNumber(num: number) {
   }
 }
 
+/**
+ * Formats a number as currency with a specified currency symbol.
+ *
+ * @param num - The number to be formatted.
+ * @param currencySymbol - The currency symbol (default is '$').
+ * @returns Formatted currency string.
+ */
 export function formatCurrency(num: number, currencySymbol: string = "$") {
   if (num < 1000) {
     return currencySymbol + num.toString();
@@ -25,6 +44,12 @@ export function formatCurrency(num: number, currencySymbol: string = "$") {
   }
 }
 
+/**
+ * Formats a price as a currency string with two decimal places.
+ *
+ * @param price - The price to be formatted.
+ * @returns Formatted price string.
+ */
 export const formatPriceTag = (price: number): string => {
   return price.toLocaleString("en-US", {
     style: "currency",
@@ -33,6 +58,12 @@ export const formatPriceTag = (price: number): string => {
   });
 };
 
+/**
+ * Formats job experience years as 'Yr.' or 'Yrs.'.
+ *
+ * @param years - The number of years of job experience.
+ * @returns Formatted string.
+ */
 export function formatJobExperience(years: number) {
   if (years === 1) {
     return years + " Yr.";
@@ -43,6 +74,12 @@ export function formatJobExperience(years: number) {
   }
 }
 
+/**
+ * Parses hours format and converts it to a human-readable string.
+ *
+ * @param hours - The number of hours to be parsed.
+ * @returns Parsed duration string.
+ */
 export const parseHoursFormat = (hours: number): string => {
   if (hours < 1) {
     return `${hours * 60} minutes`;
@@ -69,6 +106,12 @@ export const parseHoursFormat = (hours: number): string => {
   return "Over 5 years"; // or adjust this threshold as needed
 };
 
+/**
+ * Parses hours into a duration format (D:H:M).
+ *
+ * @param hours - The number of hours to be parsed.
+ * @returns Parsed duration string.
+ */
 export function parseDurationFormat(hours: number) {
   const days = Math.floor(hours / 24);
   const remainingHours = hours % 24;
@@ -81,10 +124,23 @@ export function parseDurationFormat(hours: number) {
   return `${formattedDays}D:${formattedHours}H:${formattedMinutes}M`;
 }
 
+/**
+ * Capitalizes the first letter of a string.
+ *
+ * @param str - The input string.
+ * @returns Capitalized string.
+ */
 export function formatCapitalLetters(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+/**
+ * Calculates the discounted price based on the original price and discount percentage.
+ *
+ * @param originalPrice - The original price.
+ * @param discountPercentage - The discount percentage.
+ * @returns Discounted price.
+ */
 export const calculateDiscountedPrice = (
   originalPrice: number,
   discountPercentage: number

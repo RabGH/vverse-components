@@ -2,6 +2,12 @@ import React from "react";
 import { SquareButton } from "../v-ui/v-buttons/square-button";
 import { ArrowRightCircle } from "lucide-react";
 
+/**
+ * Renders the navigation menu demo. Can be deleted, this is just to navigate through the current demo of components.
+ *
+ * @return {JSX.Element} The rendered navigation menu demo.
+ */
+
 const LandingNavbar = () => {
   return (
     <div className="flex flex-wrap justify-center items-center gap-4">

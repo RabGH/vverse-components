@@ -16,6 +16,14 @@ const OwnerContext = createContext<OwnerContextType>({
   setIsOwner: () => {},
 });
 
+/**
+ * Create a provider component that wraps its children with the OwnerContext and manages the isOwner state.
+ *
+ * @param {Object} props - The props object.
+ * @param {React.ReactNode} props.children - The children to be wrapped by the provider.
+ * @return {JSX.Element} The JSX element representing the owner provider.
+ */
+
 export const OwnerProvider = ({ children }: { children: React.ReactNode }) => {
   const [isOwner, setIsOwner] = useState(defaultIsOwner);
 
@@ -26,6 +34,11 @@ export const OwnerProvider = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
+/**
+ * Returns the owner from the OwnerContext.
+ *
+ * @return {OwnerType} The owner object.
+ */
 export const useOwner = () => {
   return useContext(OwnerContext);
 };

@@ -10,6 +10,13 @@ export type ProfileCardInteractionTopProps = {
   profileCardButtonType: string;
 };
 
+/**
+ * Renders the top section of the profile card interaction component.
+ *
+ * @param {ProfileCardInteractionTopProps} profileCardButtonType - The type of profile card button.
+ * @return {JSX.Element} The rendered component.
+ */
+
 const ProfileCardInteractionTop = ({
   profileCardButtonType,
 }: ProfileCardInteractionTopProps) => {

@@ -6,6 +6,11 @@ import { VariantProps, cva } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 
+/**
+ * Root component of the Avatar. Can be found on shadcn-ui or through the types of primitives on radix.
+ * @component
+ */
+
 const avatarVariants = cva(
   "relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full",
   {

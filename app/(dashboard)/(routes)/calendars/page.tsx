@@ -5,6 +5,11 @@ import VHeroHeader from "@/components/v-ui/v-page-modules/hero-header";
 import Heading from "@/components/nav/heading";
 import { IconCalendarCheck } from "@/components/icons/logo-icons";
 
+/**
+ * Renders the CalendarsPage component.
+ *
+ * @return {JSX.Element} The rendered CalendarsPage component.
+ */
 const CalendarsPage = () => {
   return (
     <div className="flex flex-col gap-6 h-min-screen">

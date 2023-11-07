@@ -16,6 +16,17 @@ type VAlertNotificationsProps = {
   setVisitedTabs: (visitedTabs: Record<string, boolean>) => void;
 };
 
+/**
+ * Renders the VAlertNotifications component.
+ *
+ * @param {Object} tabsData - The data for the tabs.
+ * @param {Object} visitedTabs - The visited tabs.
+ * @param {Function} setVisitedTabs - The function to set the visited tabs.
+ * @param {string} activeTab - The active tab.
+ * @param {Function} setActiveTab - The function to set the active tab.
+ * @return {JSX.Element} The rendered VAlertNotifications component.
+ */
+
 const VAlertNotifications = ({
   tabsData,
   visitedTabs,

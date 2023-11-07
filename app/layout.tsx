@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   description: "VVerse Component Library, translated Figma designs.",
 };
 
+/**
+ * Renders the root layout component.
+ *
+ * @param {Object} props - The props object.
+ * @param {React.ReactNode} props.children - The children to render.
+ * @return {JSX.Element} The rendered root layout.
+ */
 export default function RootLayout({
   children,
 }: {

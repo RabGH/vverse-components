@@ -5,6 +5,12 @@ import { useUser } from "@clerk/nextjs";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { AvatarProfileFallback } from "@/components/icons/logo-icons";
 
+/**
+ * Renders the medium-sized avatar for the user.
+ *
+ * @return {JSX.Element} The JSX element representing the medium avatar.
+ */
+
 export function UserMediumAvatar() {
   const { user } = useUser();
   return (

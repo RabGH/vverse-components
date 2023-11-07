@@ -15,6 +15,12 @@ type VAlertCenterDialog = {
   isLoading?: boolean;
 };
 
+/**
+ * Renders the VAlertCenterDialog component.
+ *
+ * @param {boolean} isLoading - Indicates whether the component is in a loading state.
+ * @return {JSX.Element} The rendered VAlertCenterDialog component.
+ */
 const VAlertCenterDialog = ({ isLoading }: VAlertCenterDialog) => {
   return (
     <Dialog>

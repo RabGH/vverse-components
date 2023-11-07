@@ -33,6 +33,14 @@ type VAlertMessagesCardProps = {
   message: MessageItem;
 };
 
+/**
+ * Renders a card component for displaying alert messages.
+ *
+ * @param {object} VAlertMessagesCardProps - The props for the VAlertMessagesCard component.
+ * @param {boolean} VAlertMessagesCardProps.isLoading - A boolean indicating whether the component is in a loading state.
+ * @param {string} VAlertMessagesCardProps.message - The message to be displayed in the card.
+ * @return {React.ReactElement} The rendered card component.
+ */
 const VAlertMessagesCard = ({
   isLoading,
   message,

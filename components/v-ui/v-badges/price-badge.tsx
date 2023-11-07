@@ -10,6 +10,19 @@ type PriceBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Renders a price badge component based on the given price value.
+ *
+ * @component
+ *
+ * @param {object} props - The component props.
+ * @param {number} props.price - The price value to be displayed on the badge. Defaults to 0.
+ * @param {string} props.iconClassName - The class name for the icon element.
+ * @param {string} props.badgeClassName - The class name for the badge element.
+ *
+ * @returns {JSX.Element | null} The rendered price badge component.
+ */
+
 const PriceBadge = ({
   price,
   iconClassName,

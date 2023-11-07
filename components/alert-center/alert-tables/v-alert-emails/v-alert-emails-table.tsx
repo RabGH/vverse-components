@@ -7,6 +7,12 @@ type VAlertEmailsTableProps = {
   emailData: EmailItem[];
 };
 
+/**
+ * Renders a table component for displaying email notifications.
+ *
+ * @param {VAlertEmailsTableProps} emailData - The email data to be displayed in the table.
+ * @return {JSX.Element} The JSX element representing the table component.
+ */
 const VAlertEmailsTable = ({ emailData }: VAlertEmailsTableProps) => {
   const isEmpty = emailData.length === 0;
 

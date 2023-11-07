@@ -18,7 +18,13 @@ import VAlertEmailsTable from "./alert-tables/v-alert-emails/v-alert-emails-tabl
 import VAlertPlanner from "./alert-tables/v-alert-planner/v-alert-planner";
 import VAlertNewsTable from "./alert-tables/v-alert-news/v-alert-news-table";
 
-// starting point, check why tab badges go invisible after changing buttons.
+// starting point, check why sometimes only, tab badges go invisible after changing buttons. Might be from cache.
+/**
+ * Renders the VAlertCenter component.
+ *
+ * @return {ReactNode} The rendered component.
+ */
+
 const VAlertCenter: React.FC = () => {
   const [activeButton, setActiveButton] = useState<ButtonKey>("Notifications");
   const [visitedButtons, setVisitedButtons] = useState<VisitedButtons>({});

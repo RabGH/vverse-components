@@ -11,6 +11,15 @@ type GenderBadgeProps = {
   iconClassName?: string;
 };
 
+/**
+ * Renders a gender badge based on the given gender.
+ *
+ * @param {GenderBadgeProps} gender - The gender to display the badge for.
+ * @param {string} badgeClassName - The CSS class name for the badge element.
+ * @param {string} iconClassName - The CSS class name for the icon element.
+ * @returns {ReactNode} The rendered GenderBadge component.
+ */
+
 const GenderBadge = ({
   gender,
   badgeClassName,

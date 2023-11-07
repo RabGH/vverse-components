@@ -24,6 +24,22 @@ type AuthorDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders the author data points section.
+ *
+ * @param {AuthorDataPointsProps} isLoading - Indicates whether the data is loading.
+ * @param {AuthorDataPointsProps} posts - The number of posts.
+ * @param {AuthorDataPointsProps} socialPages - The number of social pages.
+ * @param {AuthorDataPointsProps} socialGroups - The number of social groups.
+ * @param {AuthorDataPointsProps} followers - The number of followers.
+ * @param {AuthorDataPointsProps} members - The number of members.
+ * @param {AuthorDataPointsProps} likes - The number of likes.
+ * @param {AuthorDataPointsProps} shares - The number of shares.
+ * @param {AuthorDataPointsProps} rating - The rating value.
+ * @param {AuthorDataPointsProps} ratingPoints - The number of rating points.
+ * @return {JSX.Element} The rendered author data points section.
+ */
+
 const AuthorDataPoints = ({
   isLoading,
   posts,

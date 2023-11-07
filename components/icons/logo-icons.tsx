@@ -2,6 +2,12 @@ import React from "react";
 
 import { LucideProps } from "lucide-react";
 
+/**
+ * Main SVG file. Has all the SVGs used by the site. Size and color, all other props are spread out. Each icon is counted to be a react component of lucide prop type SVGSVGElement.
+ *
+ * @return {JSX.Element} The rendered Hero component.
+ */
+
 export const LogoBlue = React.forwardRef<SVGSVGElement, LucideProps>(
   (props, ref) => (
     <svg

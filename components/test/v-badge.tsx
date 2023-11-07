@@ -15,6 +15,12 @@ import BudgetBadge from "../v-ui/v-badges/budget-badge";
 import CountryBadge from "../v-ui/v-badges/country-badge";
 import DiscountBadge from "../v-ui/v-badges/discount-badge";
 
+/**
+ * Renders a collection of badges.
+ *
+ * @return {JSX.Element} The rendered badges.
+ */
+
 export function VBadges() {
   return (
     <div className="flex flex-col justify-center space-y-5 mt-20">

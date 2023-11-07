@@ -17,6 +17,14 @@ type VAlertPlannerCardProps = {
   planner: PlannerItem;
 };
 
+/**
+ * Renders a VAlertPlannerCard component.
+ *
+ * @param {boolean} isLoading - Indicates if the component is in a loading state.
+ * @param {VAlertPlannerCardProps} planner - The planner object containing the data to be displayed.
+ * @return {JSX.Element} The rendered VAlertPlannerCard component.
+ */
+
 const VAlertPlannerCard = ({ isLoading, planner }: VAlertPlannerCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);

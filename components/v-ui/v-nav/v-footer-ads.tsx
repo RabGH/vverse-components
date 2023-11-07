@@ -6,6 +6,13 @@ type VFooterAdsProps = {
   images: string[];
 };
 
+/**
+ * Renders a list of footer ads with the given images. Flowbite carousel can be added here for auto play to show case ads. 
+ *
+ * @param {VFooterAdsProps} images - An array of images to display as ads.
+ * @return {JSX.Element} - The rendered list of footer ads.
+ */
+
 const VFooterAds = ({ images }: VFooterAdsProps) => {
   return (
     <ScrollArea className="w-full rounded-md border mb-2 mt-20">

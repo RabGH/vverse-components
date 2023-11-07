@@ -7,6 +7,12 @@ type VAlertMessageTableProps = {
   messageData: MessageItem[];
 };
 
+/**
+ * Renders a table of alert messages based on the given message data.
+ *
+ * @param {VAlertMessage[]} messageData - An array of alert message objects.
+ * @return {JSX.Element} - The rendered table of alert messages.
+ */
 const VAlertMessagesTable = ({ messageData }: VAlertMessageTableProps) => {
   const isEmpty = messageData.length === 0;
 

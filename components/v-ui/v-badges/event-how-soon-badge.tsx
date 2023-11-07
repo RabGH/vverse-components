@@ -10,6 +10,15 @@ type EventHowSoonBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a badge component based on the eventHowSoon prop value.
+ *
+ * @param {EventHowSoonBadgeProps} eventHowSoon - The eventHowSoon prop value.
+ * @param {string} iconClassName - The class name for the icon.
+ * @param {string} badgeClassName - The class name for the badge.
+ * @return {JSX.Element | null} The rendered badge component or null if eventHowSoon is falsy.
+ */
+
 const EventHowSoonBadge = ({
   eventHowSoon,
   iconClassName,

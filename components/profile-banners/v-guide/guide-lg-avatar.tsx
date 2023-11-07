@@ -19,6 +19,19 @@ type UserLargeAvatarProps = {
   isLoading: boolean;
 };
 
+/**
+ * Renders a large avatar component for a user.
+ *
+ * @param {Object} props - The props object containing the following properties:
+ *   - profileType {string} - The type of profile.
+ *   - isEmailVerified {boolean} - Indicates if the email is verified.
+ *   - isAgreementVerified {boolean} - Indicates if the agreement is verified.
+ *   - isIdVerified {boolean} - Indicates if the ID is verified.
+ *   - isPhoneVerified {boolean} - Indicates if the phone is verified.
+ *   - isLoading {boolean} - Indicates if the component is in a loading state.
+ * @return {JSX.Element} The JSX element representing the large avatar component.
+ */
+
 export function UserLargeAvatar({
   profileType,
   isEmailVerified,

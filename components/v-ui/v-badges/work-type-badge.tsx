@@ -10,6 +10,19 @@ type WorkTypeBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a badge component based on the provided workType.
+ *
+ * @component
+ *
+ * @param {object} props - The component props.
+ * @param {string} props.workType - The work type to render the badge for. Should be either "remote" or "hybrid".
+ * @param {string} props.iconClassName - The CSS class name for the icon.
+ * @param {string} props.badgeClassName - The CSS class name for the badge.
+ *
+ * @returns {JSX.Element | null} The rendered badge component or null if workType is falsy.
+ */
+
 const WorkTypeBadge = ({
   workType,
   iconClassName,

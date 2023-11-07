@@ -30,6 +30,18 @@ type FilterBoxProps = {
   noCategoryFoundMessage: string;
 };
 
+/**
+ * Renders a small filter outline component.
+ *
+ * @param {FilterBoxProps} {
+ *   categories,
+ *   selectCategoryPlaceholder,
+ *   searchCategoryPlaceholder,
+ *   noCategoryFoundMessage,
+ * } - The props for the component.
+ * @return {JSX.Element} - The rendered component.
+ */
+
 export function FilterOutlineSmall({
   categories,
   selectCategoryPlaceholder,

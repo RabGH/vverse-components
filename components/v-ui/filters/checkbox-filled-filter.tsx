@@ -31,6 +31,16 @@ type FilterBoxProps = {
   noCategoryFoundMessage: string;
 };
 
+/**
+ * Render a filter box component with filled checkboxes.
+ *
+ * @param {FilterBoxProps} categories - The list of categories.
+ * @param {string} selectCategoryPlaceholder - The placeholder for the select category button.
+ * @param {string} searchCategoryPlaceholder - The placeholder for the search input.
+ * @param {string} noCategoryFoundMessage - The message to display when no category is found.
+ * @return {JSX.Element} The rendered filter box component.
+ */
+
 export function FilterFilledCheckbox({
   categories,
   selectCategoryPlaceholder,

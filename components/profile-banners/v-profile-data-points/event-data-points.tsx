@@ -24,6 +24,21 @@ type EventDataPointsProps = {
   rating: number;
 };
 
+/**
+ * Renders the event data points component.
+ *
+ * @param {EventDataPointsProps} events - The events data.
+ * @param {EventDataPointsProps} sales - The sales data.
+ * @param {EventDataPointsProps} orders - The orders data.
+ * @param {EventDataPointsProps} customers - The customers data.
+ * @param {EventDataPointsProps} likes - The likes data.
+ * @param {EventDataPointsProps} shares - The shares data.
+ * @param {EventDataPointsProps} ratingPoints - The rating points data.
+ * @param {EventDataPointsProps} rating - The rating data.
+ * @param {boolean} isLoading - Indicates if the data is loading.
+ * @return {JSX.Element} The event data points component.
+ */
+
 const EventDataPoints = ({
   events,
   sales,

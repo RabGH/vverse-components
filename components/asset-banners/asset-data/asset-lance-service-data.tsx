@@ -25,6 +25,23 @@ type AssetLanceServiceDataProps = {
   ratingPoints: number;
 };
 
+/**
+ * Renders the AssetLanceServiceData component, which displays the details of an asset.
+ *
+ * @param {AssetLanceServiceDataProps} props - The props object containing the data for the component.
+ * @param {string} props.assetId - The ID of the asset.
+ * @param {string} props.type - The type of the asset.
+ * @param {string} props.date - The date of the asset.
+ * @param {number} props.sales - The total sales of the asset.
+ * @param {number} props.orders - The total number of orders for the asset.
+ * @param {number} props.customers - The total number of customers for the asset.
+ * @param {number} props.likes - The total number of likes for the asset.
+ * @param {number} props.shares - The total number of shares for the asset.
+ * @param {number} props.rating - The rating of the asset.
+ * @param {number} props.ratingPoints - The total rating points of the asset.
+ * @returns {JSX.Element} The rendered AssetLanceServiceData component.
+ */
+
 const AssetLanceServiceData = ({
   assetId,
   type,

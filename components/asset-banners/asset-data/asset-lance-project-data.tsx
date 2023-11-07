@@ -18,6 +18,13 @@ type AssetLanceServiceDataProps = {
   shares: number;
 };
 
+/**
+ * Returns the JSX element for displaying asset lance service data.
+ *
+ * @param {AssetLanceServiceDataProps} props - The props object containing the assetId, type, date, collaborators, likes, and shares.
+ * @return {JSX.Element} - The JSX element for displaying the asset lance service data.
+ */
+
 const AssetLanceServiceData = ({
   assetId,
   type,

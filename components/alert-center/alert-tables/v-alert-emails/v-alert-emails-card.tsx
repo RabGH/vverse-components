@@ -21,6 +21,25 @@ type VAlertEmailsCardProps = {
   emails: EmailItem;
 };
 
+/**
+ * Renders a card component for displaying alert emails.
+ *
+ * @param {Object} props - The component props.
+ * @param {boolean} props.isLoading - Indicates whether the component is in a loading state.
+ * @param {Object} props.emails - The email data to be displayed in the card.
+ * @param {boolean} [props.emails.isMuted=false] - Indicates whether the email is muted.
+ * @param {boolean} [props.emails.isClosed=false] - Indicates whether the email is closed.
+ * @param {function} props.emails.handleAccept - The function to handle the accept action.
+ * @param {function} props.emails.toggleMute - The function to toggle the muted state of the email.
+ * @param {function} props.emails.closeNotification - The function to close the email notification.
+ * @param {string} props.emails.type - The type of the email.
+ * @param {string} props.emails.senderName - The name of the email sender.
+ * @param {number} props.emails.numberOfMessages - The number of messages in the email.
+ * @param {string} props.emails.title - The title of the email.
+ * @param {string} props.emails.subTitle - The subtitle of the email.
+ * @param {string} props.emails.date - The date of the email.
+ * @return {JSX.Element} - The rendered card component.
+ */
 const VAlertEmailsCard = ({ isLoading, emails }: VAlertEmailsCardProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isClosed, setIsClosed] = useState(false);

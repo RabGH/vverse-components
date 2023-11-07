@@ -37,7 +37,6 @@ import {
   IconWebinar,
   IconSalesGraph,
   IconEarn,
-  IconGraphPollBtn,
   IconBullHorn,
   IconLoader,
   IconShare,

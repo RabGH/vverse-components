@@ -2,6 +2,21 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * The module exports the following components related to table functionality:
+ *
+ * - `Table`: The root component that renders a table element.
+ * - `TableHeader`: A component that renders the table header section.
+ * - `TableBody`: A component that renders the table body section.
+ * - `TableFooter`: A component that renders the table footer section.
+ * - `TableHead`: A component that renders a table header cell.
+ * - `TableRow`: A component that renders a table row.
+ * - `TableCell`: A component that renders a table cell.
+ * - `TableCaption`: A component that renders a table caption.
+ *
+ * @module Table
+ */
+
 const Table = React.forwardRef<
   HTMLTableElement,
   React.HTMLAttributes<HTMLTableElement>

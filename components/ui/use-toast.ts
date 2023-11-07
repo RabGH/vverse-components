@@ -25,6 +25,12 @@ const actionTypes = {
 
 let count = 0
 
+/**
+ * Generates a unique identifier.
+ *
+ * @return {string} The generated identifier.
+ */
+
 function genId() {
   count = (count + 1) % Number.MAX_VALUE
   return count.toString()
@@ -71,6 +77,14 @@ const addToRemoveQueue = (toastId: string) => {
 
   toastTimeouts.set(toastId, timeout)
 }
+
+/**
+ * A reducer function that updates the state based on the given action.
+ *
+ * @param {State} state - The current state of the application.
+ * @param {Action} action - The action object that contains information about the action to be performed.
+ * @return {State} The updated state after applying the action.
+ */
 
 export const reducer = (state: State, action: Action): State => {
   switch (action.type) {
@@ -131,6 +145,12 @@ const listeners: Array<(state: State) => void> = []
 
 let memoryState: State = { toasts: [] }
 
+/**
+ * Dispatches an action and updates the memory state.
+ *
+ * @param {Action} action - The action to be dispatched.
+ */
+
 function dispatch(action: Action) {
   memoryState = reducer(memoryState, action)
   listeners.forEach((listener) => {
@@ -139,6 +159,14 @@ function dispatch(action: Action) {
 }
 
 type Toast = Omit<ToasterToast, "id">
+
+/**
+ * Creates a toast with the given properties and returns an object
+ * containing the toast's id, dismiss function, and update function.
+ *
+ * @param {Toast} props - The properties for the toast.
+ * @returns {Object} - An object containing the toast's id, dismiss function, and update function.
+ */
 
 function toast({ ...props }: Toast) {
   const id = genId()
@@ -168,6 +196,12 @@ function toast({ ...props }: Toast) {
     update,
   }
 }
+
+/**
+ * Returns an object that provides toast functionality.
+ *
+ * @return {Object} The object contains the current state, toast, and dismiss function.
+ */
 
 function useToast() {
   const [state, setState] = React.useState<State>(memoryState)

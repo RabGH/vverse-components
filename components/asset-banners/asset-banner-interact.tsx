@@ -13,6 +13,12 @@ import {
 import { useMount } from "@/hooks/mount-hook";
 import { useOwner } from "@/components/contexts/owner-context";
 
+/**
+ * Defines the AssetInteraction component.
+ *
+ * @return {JSX.Element} The rendered AssetInteraction component.
+ */
+
 const AssetInteraction = () => {
   const [isLiked, setIsLiked] = useState(false);
   const [isSaved, setIsSaved] = useState(false);

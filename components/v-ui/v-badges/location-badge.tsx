@@ -11,6 +11,15 @@ type LocationBadgeProps = {
   badgeClassName?: string;
 };
 
+/**
+ * Renders a location badge with an icon and formatted location name.
+ *
+ * @param {LocationBadgeProps} location - The location object.
+ * @param {string} iconClassName - The class name for the icon.
+ * @param {string} badgeClassName - The class name for the badge.
+ * @returns {JSX.Element | null} - The rendered location badge or null if location is falsy.
+ */
+
 const LocationBadge = ({
   location,
   iconClassName,

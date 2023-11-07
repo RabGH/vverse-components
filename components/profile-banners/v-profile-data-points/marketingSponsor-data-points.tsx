@@ -13,6 +13,17 @@ type MarketingSponsorDataPointsProps = {
   orders: number;
 };
 
+/**
+ * Renders the marketing sponsor data points component.
+ *
+ * @param {object} props - The component props.
+ * @param {boolean} props.isLoading - Indicates whether the data is loading.
+ * @param {number} props.investments - The number of investments.
+ * @param {number} props.sponsored - The number of sponsored items.
+ * @param {number} props.orders - The number of orders.
+ * @return {JSX.Element} The rendered marketing sponsor data points component.
+ */
+
 const MarketingSponsorDataPoints = ({
   isLoading,
   investments,

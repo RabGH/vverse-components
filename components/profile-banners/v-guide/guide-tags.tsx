@@ -17,6 +17,13 @@ type UserTagProps = {
   partOf: Record<string, boolean>;
 };
 
+/**
+ * Renders the user tags component.
+ *
+ * @param {UserTagProps} partOf - The props containing information about the user tags.
+ * @return {JSX.Element} The rendered user tags component.
+ */
+
 const UserTags = ({ partOf }: UserTagProps) => {
   const roles = [
     {
