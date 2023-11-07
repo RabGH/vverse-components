@@ -32,10 +32,10 @@ type BannerProfileProps = {
   userName: string;
   userTitle: string;
   isLoading: boolean;
-  isOpenToWork?: boolean;
+  isOpenToWork?: string;
   points: number;
   endorsements: number;
-  isFeatured: boolean;
+  isFeatured: string;
   thumbsup: number;
   shares: number;
   rank: RankMedalProps["rank"];
@@ -68,8 +68,8 @@ const BannerProfileDialog = ({
   data,
   dataType,
   dialogTitle,
-  isFeatured = true,
-  isOpenToWork = false,
+  isFeatured = "",
+  isOpenToWork = "",
 }: BannerProfileProps) => {
   return (
     <Dialog>
@@ -256,9 +256,7 @@ const BannerProfileDialog = ({
                   </div>
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center ml-[-100px]">
-                  <UserInteraction
-                    isMiniView={true}
-                  />
+                  <UserInteraction isMiniView={true} />
                 </div>
               </div>
             </div>

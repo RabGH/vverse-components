@@ -16,17 +16,18 @@ type GuideProfileBannerProps = {
   userTitle: string;
   points: number;
   endorsements: number;
-  isFeatured: boolean;
+  isFeatured: string;
   thumbsup: number;
   shares: number;
   partOf: Record<string, boolean>;
-  rank: RankMedalProps["rank"];
+  rank: RankMedalProps["rank"] | string;
   guideUserData: GuideDataPointsProps;
   currency: string;
   isEmailVerified: boolean;
   isPhoneVerified: boolean;
   isAgreementVerified: boolean;
   isIdVerified: boolean;
+  profileType: string;
 };
 
 const GuideProfileBanner = ({
@@ -42,7 +43,8 @@ const GuideProfileBanner = ({
   endorsements,
   partOf,
   currency,
-  isFeatured = true,
+  isFeatured,
+  profileType,
   isEmailVerified = false,
   isPhoneVerified = false,
   isAgreementVerified = false,
@@ -51,7 +53,7 @@ const GuideProfileBanner = ({
   return (
     <div className="flex flex-row justify-center gap-4">
       <UserLargeAvatar
-        profileType={"Personal"}
+        profileType={profileType}
         isEmailVerified={isEmailVerified}
         isPhoneVerified={isPhoneVerified}
         isAgreementVerified={isAgreementVerified}
@@ -68,7 +70,7 @@ const GuideProfileBanner = ({
             rank={rank}
             thumbsup={thumbsup}
             shares={shares}
-            points={100}
+            points={points}
           />
           <Separator />
           <GuideDataPoints

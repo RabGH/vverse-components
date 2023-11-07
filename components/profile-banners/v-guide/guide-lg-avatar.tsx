@@ -11,7 +11,7 @@ import {
 import UserVerifiedIcons from "./guide-verification";
 
 type UserLargeAvatarProps = {
-  profileType: "Personal" | "Business";
+  profileType: string;
   isEmailVerified: boolean;
   isPhoneVerified: boolean;
   isAgreementVerified: boolean;
@@ -20,7 +20,7 @@ type UserLargeAvatarProps = {
 };
 
 export function UserLargeAvatar({
-  profileType = "Personal",
+  profileType,
   isEmailVerified,
   isAgreementVerified,
   isIdVerified,

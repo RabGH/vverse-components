@@ -29,7 +29,6 @@ import {
   vMarketingSponsorUserData,
   vMarketingUserData,
   vTubeUserData,
-  vUserInfoData,
   vWebinarsUserData,
 } from "@/backend-data-test";
 import BannerProfile from "@/components/profile-banners/banner-profile";
@@ -48,42 +47,44 @@ const ProfileBannerPage = () => {
 
       <GuideProfileBanner
         isLoading={false}
-        userName={"<Guide Name>"}
-        userTitle={"Demo Profile Banner V-Guide Banner"}
-        rank={"standardSilver"}
-        currency={"$"}
-        points={1000}
-        endorsements={10000}
-        isFeatured={true}
-        thumbsup={10000}
-        shares={10000}
-        partOf={partOf}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        rank={vGuideUserData.rank}
+        currency={vGuideUserData.currency}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.isFeatured}
+        thumbsup={vGuideUserData.likes}
+        shares={vGuideUserData.shares}
         guideUserData={vGuideUserData}
-        userInfoData={vUserInfoData}
-        isEmailVerified={true}
-        isPhoneVerified={true}
-        isAgreementVerified={true}
-        isIdVerified={true}
+        userInfoData={vGuideUserData.vUserInfoData}
+        profileType={vGuideUserData.profileType}
+        partOf={partOf}
+        isEmailVerified={vGuideUserData.isEmailVerified}
+        isPhoneVerified={vGuideUserData.isPhoneVerified}
+        isAgreementVerified={vGuideUserData.isAgreementVerified}
+        isIdVerified={vGuideUserData.isIdVerified}
       />
       <GuideProfileBannerDialog
         isLoading={false}
-        userName={"<Guide Name>"}
-        userTitle={"Demo Profile Banner V-Guide Banner"}
-        rank={"standardSilver"}
-        currency={"$"}
-        points={1000}
-        endorsements={10000}
-        isFeatured={true}
-        thumbsup={10000}
-        shares={10000}
-        partOf={partOf}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        rank={vGuideUserData.rank}
+        currency={vGuideUserData.currency}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.isFeatured}
+        thumbsup={vGuideUserData.likes}
+        shares={vGuideUserData.shares}
         guideUserData={vGuideUserData}
-        userInfoData={vUserInfoData}
-        dialogTitle={"Profile Banner V-Guide Full"}
-        isAgreementVerified={false}
-        isEmailVerified={true}
-        isIdVerified={true}
-        isPhoneVerified={true}
+        userInfoData={vGuideUserData.vUserInfoData}
+        profileType={vGuideUserData.profileType}
+        partOf={partOf}
+        isEmailVerified={vGuideUserData.isEmailVerified}
+        isPhoneVerified={vGuideUserData.isPhoneVerified}
+        isAgreementVerified={vGuideUserData.isAgreementVerified}
+        isIdVerified={vGuideUserData.isIdVerified}
+        dialogTitle={"Dialog Title Test"}
       />
       <Heading
         title={"Blog Banners"}
@@ -92,14 +93,14 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Blog Name>"}
-        userTitle={"Demo Profile Banner V-Blog Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured={true}
-        thumbsup={1000}
-        shares={100}
-        rank={"standardPlatinum"}
+        userName={vBlogUserData.userName}
+        userTitle={vBlogUserData.userTitle}
+        points={vBlogUserData.points}
+        endorsements={vBlogUserData.endorsements}
+        isFeatured={vBlogUserData.isFeatured}
+        thumbsup={vBlogUserData.likes}
+        shares={vBlogUserData.shares}
+        rank={vBlogUserData.rank}
         dataType={"blog"}
         data={vBlogUserData}
       />
@@ -114,7 +115,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Author Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"standardGold"}
@@ -132,7 +133,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Tube Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"ambassadorSilver"}
@@ -150,13 +151,13 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Job Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"ambassadorGold"}
         dataType={"jobs"}
         data={vJobUserData}
-        isOpenToWork={true}
+        isOpenToWork={"Open To Work"}
       />
       <Heading
         title={"Lancer Banners"}
@@ -169,7 +170,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Lance Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"vendorSilver"}
@@ -187,7 +188,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Events Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"vendorGold"}
@@ -205,7 +206,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Webinar Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"vendorPlatinum"}
@@ -223,7 +224,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Experts Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"vendorSilver"}
@@ -241,7 +242,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Market Sponsor Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"standardSilver"}
@@ -259,7 +260,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Marketing Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"standardPlatinum"}
@@ -277,7 +278,7 @@ const ProfileBannerPage = () => {
         userTitle={"Demo Profile Banner V-Market Banner"}
         points={1000}
         endorsements={10000}
-        isFeatured={true}
+        isFeatured="featured"
         thumbsup={1000}
         shares={100}
         rank={"standardPlatinum"}
@@ -295,8 +296,8 @@ const ProfileBannerPage = () => {
         isLoading={false}
         points={10000}
         endorsements={10000}
-        isFeatured={true}
-        isOpenToWork={true}
+        isFeatured="featured"
+        isOpenToWork={""}
         thumbsup={100000}
         shares={100000}
         rank={"standardGold"}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProfileCard from "@/components/personal-profiles/profile-card";
+import ProfileCard from "@/components/personal-profiles/personal-profile-card";
 
 const PersonalProfileCardPage = () => {
   return (

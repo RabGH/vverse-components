@@ -78,18 +78,10 @@ export const images = [
   "/images/VetSurgerySignPic.png",
 ];
 
-export const vUserInfoData = {
-  id: "MBR-756",
-  gender: "Male",
-  country: "Egypt",
-  location: "UAE - Dubai", // location and location Type
-  time: "01:00 PM",
-  calendar: "15-Sep-2022 02:45 PM",
-  lastSeen: "11-Nov-2022 09:45 PM",
-};
-
 export const vGuideUserData = {
   sales: 20000,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Large Animals Consultant at Majestic Farm",
   earnings: 20000,
   investments: 7500,
   endorsements: 44,
@@ -102,6 +94,24 @@ export const vGuideUserData = {
   subscribers: 200,
   customers: 43300,
   currency: "$",
+  rating: 2.7,
+  ratingPoints: 1000000,
+  isFeatured: "featured",
+  profileType: "Personal",
+  rank: "standardSilver",
+  isEmailVerified: true,
+  isPhoneVerified: true,
+  isAgreementVerified: false,
+  isIdVerified: true,
+  vUserInfoData: {
+    id: "MBR-756",
+    gender: "Male",
+    country: "Egypt",
+    location: "UAE - Dubai", // location and location Type
+    time: "01:00 PM",
+    calendar: "15-Sep-2022 02:45 PM",
+    lastSeen: "11-Nov-2022 09:45 PM",
+  },
 };
 
 export const vBlogUserData = {
@@ -110,6 +120,12 @@ export const vBlogUserData = {
   shares: 1100,
   ratingPoints: 1200,
   rating: 4.7,
+  userName: "Dr. Ahmed Hassan",
+  userTitle: "Demo Profile Banner V-Blog Banner",
+  points: 1000,
+  endorsements: 1548,
+  isFeatured: "featured",
+  rank: "standardPlatinum",
 };
 
 export const vAuthorUserData = {
@@ -2106,4 +2122,3 @@ export const videoPlayerData = [
 ];
 
 // Personal profile backend test data
-

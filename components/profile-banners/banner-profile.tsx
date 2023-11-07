@@ -23,10 +23,10 @@ type BannerProfileProps = {
   userName: string;
   userTitle: string;
   isLoading: boolean;
-  isOpenToWork?: boolean;
+  isOpenToWork?: string;
   points: number;
   endorsements: number;
-  isFeatured: boolean;
+  isFeatured: string;
   thumbsup: number;
   shares: number;
   rank: RankMedalProps["rank"];
@@ -57,8 +57,8 @@ const BannerProfile = ({
   shares,
   data,
   dataType,
-  isFeatured = true,
-  isOpenToWork = false,
+  isFeatured = "featured",
+  isOpenToWork = "",
 }: BannerProfileProps) => {
   return (
     <div className="flex flex-row justify-center gap-4">

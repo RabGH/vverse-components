@@ -4,7 +4,10 @@ import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { ClerkProvider } from "@clerk/nextjs";
 
-const montserrat = Montserrat({ weight: "500", subsets: ["latin"] });
+const montserrat = Montserrat({
+  weight: ["500", "400", "300", "700", "500"],
+  subsets: ["latin"],
+});
 
 import { Toaster } from "@/components/ui/toaster";
 

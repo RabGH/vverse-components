@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/v-dialog";
 import { IconInfoFilledBlue } from "@/components/icons/logo-icons";
 import { Loader2 } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 type GuideProfileBannerDialogProps = {
   isLoading: boolean;
@@ -24,7 +25,7 @@ type GuideProfileBannerDialogProps = {
   userTitle: string;
   points: number;
   endorsements: number;
-  isFeatured: boolean;
+  isFeatured: string;
   thumbsup: number;
   shares: number;
   dialogTitle: string;
@@ -33,9 +34,11 @@ type GuideProfileBannerDialogProps = {
   isAgreementVerified?: boolean;
   isIdVerified?: boolean;
   partOf: Record<string, boolean>;
-  rank: RankMedalProps["rank"];
+  rank: RankMedalProps["rank"] | string;
   guideUserData: GuideDataPointsProps;
   currency: string;
+  dialogTriggerClassName?: string;
+  profileType: string;
 };
 
 const GuideProfileBannerDialog = ({
@@ -51,16 +54,21 @@ const GuideProfileBannerDialog = ({
   endorsements,
   partOf,
   currency,
-  dialogTitle,
+  isFeatured,
+  profileType,
   isEmailVerified = false,
   isPhoneVerified = false,
   isAgreementVerified = false,
   isIdVerified = false,
-  isFeatured = true,
+  dialogTriggerClassName,
+  dialogTitle,
 }: GuideProfileBannerDialogProps) => {
   return (
     <Dialog>
-      <DialogTrigger asChild className="w-10 h-10 cursor-pointer">
+      <DialogTrigger
+        asChild
+        className={cn("w-10 h-10 cursor-pointer", dialogTriggerClassName)}
+      >
         <IconInfoFilledBlue className="text-white bg-blue-400 rounded-full hover:translate-y-[-5px] ease-in-out transform duration-300" />
       </DialogTrigger>
       <DialogContent className="min-w-max min-h-max shadow-xl">
@@ -73,7 +81,7 @@ const GuideProfileBannerDialog = ({
             <DialogTitle className="mb-2">{dialogTitle}</DialogTitle>
             <div className="flex flex-row justify-center gap-4 p-10">
               <UserLargeAvatar
-                profileType={"Personal"}
+                profileType={profileType}
                 isEmailVerified={isEmailVerified}
                 isPhoneVerified={isPhoneVerified}
                 isAgreementVerified={isAgreementVerified}

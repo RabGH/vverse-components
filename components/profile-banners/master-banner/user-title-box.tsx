@@ -30,7 +30,7 @@ const UserTitleBox = ({
   shares,
   rank = "standardSilver",
   isFeatured = "featured",
-  isOpenToWork = "Open To Work",
+  isOpenToWork = "",
   isHiring = "",
 }: UserTitleBoxProps) => {
   return (

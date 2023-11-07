@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export type RankMedalProps = {
   rank:
+    | string
     | "standardSilver"
     | "standardGold"
     | "standardPlatinum"
