@@ -93,6 +93,7 @@ export const vGuideUserData = {
   members: 10200,
   subscribers: 200,
   customers: 43300,
+  assets: 3500
   currency: "$",
   rating: 2.7,
   ratingPoints: 1000000,

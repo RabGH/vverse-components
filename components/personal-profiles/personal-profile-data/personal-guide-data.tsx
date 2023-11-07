@@ -1,40 +1,46 @@
 import {
-    IconCalendar,
-    IconCalendarTopDash,
-    IconHashTag,
-    IconMessageCircle,
-    IconPrivacy,
-    IconShare,
-    IconStar,
-    IconThumbsUp,
-  } from "@/components/icons/logo-icons";
-  import { formatCapitalLetters, formatNumber } from "@/lib/utils";
-  import React from "react";
-  
-  type PersonalGuideDataProps = {
+  IconAssetHandDiamond,
+  IconBullHorn,
+  IconConnectionsBtn,
+  IconInvestmentsHandsGraph,
+  IconSalesGraph,
+  IconStar,
+} from "@/components/icons/logo-icons";
+import { formatCurrency, formatNumber } from "@/lib/utils";
+import React from "react";
 
-    rating: number;
-    ratingPoints: number;
-  };
-  
-  const PersonalGuideData = ({
+type PersonalGuideDataProps = {
+  assets: number;
+  sales: number;
+  endorsements: number;
+  connections: number;
+  rating: number;
+  ratingPoints: number;
+  investments: number;
+};
 
-    rating,
-    ratingPoints,
-  }: PersonalGuideDataProps) => {
-    const iconStyles = "w-5 h-5 text-primary";
-    return (
-      <div className="flex flex-row gap-2 items-center flex-wrap">
-        {formatCapitalLetters(type)} | <IconCalendar className={iconStyles} />{" "}
-        {dateStart} | <IconCalendarTopDash className={iconStyles} /> {dateEnd} |{" "}
-        <IconMessageCircle className={iconStyles} /> {formatNumber(comments)} |{" "}
-        <IconThumbsUp className={iconStyles} /> {formatNumber(likes)} |{" "}
-        <IconShare className={iconStyles} /> {formatNumber(shares)} |{" "}
-        <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
-        {formatNumber(ratingPoints)})
-      </div>
-    );
-  };
-  
-  export default PersonalGuideData;
-  
+const PersonalGuideData = ({
+  assets,
+  sales,
+  investments,
+  endorsements,
+  connections,
+  rating,
+  ratingPoints,
+}: PersonalGuideDataProps) => {
+  const iconStyles = "w-5 h-5 text-primary";
+  return (
+    <div className="flex flex-row gap-2 items-center flex-wrap">
+      <IconAssetHandDiamond className={iconStyles} /> {formatNumber(assets)} |{" "}
+      <IconSalesGraph className={iconStyles} /> {formatCurrency(sales)} |{" "}
+      <IconInvestmentsHandsGraph className={iconStyles} />{" "}
+      {formatNumber(investments)} | {formatCurrency(sales)} |{" "}
+      <IconBullHorn className={iconStyles} /> {formatNumber(endorsements)} |{" "}
+      <IconConnectionsBtn className={iconStyles} /> {formatNumber(connections)}{" "}
+      | <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
+      {formatNumber(ratingPoints)})
+    </div>
+  );
+};
+
+export default PersonalGuideData;

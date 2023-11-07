@@ -5,6 +5,7 @@ import AssetLanceServiceData from "@/components/asset-banners/asset-data/asset-l
 import AssetCollegeData from "@/components/asset-banners/asset-data/asset-college-data";
 import AssetLanceProjectData from "@/components/asset-banners/asset-data/asset-lance-project-data";
 
+// main place where types needs to be called
 type AssetDetailsProps = {
   data: any;
   dataType: string;
