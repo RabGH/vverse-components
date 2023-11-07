@@ -3,9 +3,9 @@ import RankMedals, {
   RankMedalProps,
 } from "@/components/profile-banners/master-banner/rank-medals";
 import UserPoints from "@/components/profile-banners/master-banner/user-points";
-import FeaturedBadge from "@/components/v-ui/general-badges/featured-badge";
-import HiringBadge from "@/components/v-ui/general-badges/hiring-badge";
-import OpenToWorkBadge from "@/components/v-ui/general-badges/open-to-work-badge";
+import FeaturedBadge from "@/components/v-ui/v-badges/featured-badge";
+import HiringBadge from "@/components/v-ui/v-badges/hiring-badge";
+import OpenToWorkBadge from "@/components/v-ui/v-badges/open-to-work-badge";
 
 type UserTitleBoxProps = {
   userName: string;
@@ -31,7 +31,7 @@ const UserTitleBox = ({
   rank = "standardSilver",
   isFeatured = "featured",
   isOpenToWork = "Open To Work",
-  isHiring = "hiring",
+  isHiring = "",
 }: UserTitleBoxProps) => {
   return (
     <div className="flex justify-between items-center space-x-40">
@@ -48,7 +48,11 @@ const UserTitleBox = ({
           <Separator orientation="vertical" className="h-7 mx-1" />
           <FeaturedBadge isFeatured={isFeatured} />
           <OpenToWorkBadge isOpenToWork={isOpenToWork} />
-          <HiringBadge isHiring={isHiring} />
+          <HiringBadge
+            isHiring={isHiring}
+            badgeClassName="vGreen"
+            iconClassName="text-white"
+          />
         </div>
       </div>
       <RankMedals rank={rank} />

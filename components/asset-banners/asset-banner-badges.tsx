@@ -1,17 +1,17 @@
 import React from "react";
 
-import FeaturedBadge from "@/components/v-ui/general-badges/featured-badge";
-import HiringBadge from "@/components/v-ui/general-badges/hiring-badge";
-import PriceBadge from "@/components/v-ui/general-badges/price-badge";
-import DiscountBadge from "@/components/v-ui/general-badges/discount-badge";
-import BargainBadge from "@/components/v-ui/general-badges/bargain-badge";
-import ExpertiseBadge from "@/components/v-ui/general-badges/expertise-badge";
-import DeliveryTimeBadge from "@/components/v-ui/general-badges/delivery-time-badge";
-import ExclusiveBadge from "@/components/v-ui/general-badges/exclusive-badge";
-import PaymentTypeBadge from "@/components/v-ui/general-badges/payment-type-badge";
-import DiscountPercentageBadge from "@/components/v-ui/general-badges/discount-percent-badge";
-import WorkTypeBadge from "../v-ui/general-badges/work-type-badge";
-import BudgetBadge from "../v-ui/general-badges/budget-badge";
+import FeaturedBadge from "@/components/v-ui/v-badges/featured-badge";
+import HiringBadge from "@/components/v-ui/v-badges/hiring-badge";
+import PriceBadge from "@/components/v-ui/v-badges/price-badge";
+import DiscountBadge from "@/components/v-ui/v-badges/discount-badge";
+import BargainBadge from "@/components/v-ui/v-badges/bargain-badge";
+import ExpertiseBadge from "@/components/v-ui/v-badges/expertise-badge";
+import DeliveryTimeBadge from "@/components/v-ui/v-badges/delivery-time-badge";
+import ExclusiveBadge from "@/components/v-ui/v-badges/exclusive-badge";
+import PaymentTypeBadge from "@/components/v-ui/v-badges/payment-type-badge";
+import DiscountPercentageBadge from "@/components/v-ui/v-badges/discount-percent-badge";
+import WorkTypeBadge from "../v-ui/v-badges/work-type-badge";
+import BudgetBadge from "../v-ui/v-badges/budget-badge";
 
 type AssetBadgesProps = {
   dataType: string;

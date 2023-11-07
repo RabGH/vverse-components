@@ -9,11 +9,11 @@ import {
   IconMapPerson,
   IconProjectsBtn,
 } from "@/components/icons/logo-icons";
-import BargainBadge from "../v-ui/general-badges/bargain-badge";
-import PaymentTypeBadge from "../v-ui/general-badges/payment-type-badge";
-import BudgetBadge from "../v-ui/general-badges/budget-badge";
-import CountryBadge from "../v-ui/general-badges/country-badge";
-import DiscountBadge from "../v-ui/general-badges/discount-badge";
+import BargainBadge from "../v-ui/v-badges/bargain-badge";
+import PaymentTypeBadge from "../v-ui/v-badges/payment-type-badge";
+import BudgetBadge from "../v-ui/v-badges/budget-badge";
+import CountryBadge from "../v-ui/v-badges/country-badge";
+import DiscountBadge from "../v-ui/v-badges/discount-badge";
 
 export function VBadges() {
   return (

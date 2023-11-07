@@ -7,6 +7,7 @@ import { IconDateJoinedDoor } from "@/components/icons/logo-icons";
 
 import { partOf, vGuideUserData, vUserInfoData } from "@/backend-data-test";
 import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
+import FeaturedBadge from "../v-ui/v-badges/featured-badge";
 
 const ProfileCard = () => {
   return (
@@ -28,7 +29,8 @@ const ProfileCard = () => {
       <div className="absolute top-0 left-0 right-0 z-[3] text-white p-3">
         <div className="flex flex-row justify-between items-center">
           <CardTitle className="flex flex-row gap-2 items-center">
-            <Badge>Check</Badge>
+            <FeaturedBadge isFeatured="featured" iconClassName="text-white" />
+            <Gender
           </CardTitle>
           <div>
             <h1>CardInteractionTop</h1>
