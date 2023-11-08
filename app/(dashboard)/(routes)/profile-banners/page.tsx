@@ -16,30 +16,16 @@ import {
 } from "@/components/icons/logo-icons";
 import Heading from "@/components/nav/heading";
 import GuideProfileBanner from "@/components/profile-banners/v-guide/guide-profile";
-import {
-  partOf,
-  vAuthorUserData,
-  vBlogUserData,
-  vEventsUserData,
-  vExpertsUserData,
-  vGuideUserData,
-  vJobUserData,
-  vLanceUserData,
-  vMarketUserData,
-  vMarketingSponsorUserData,
-  vMarketingUserData,
-  vTubeUserData,
-  vWebinarsUserData,
-} from "@/backend-data-test";
+import { vGuideUserData } from "@/backend-data-test";
 import BannerProfile from "@/components/profile-banners/banner-profile";
 import { IconSponsorHandShaking } from "../../../../components/icons/logo-icons";
 import BannerProfileDialog from "@/components/profile-banners/banner-profile-dialog";
 import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
 
 /**
- * Renders the profile banner page.
+ * Renders the Profile Banner page.
  *
- * @return {JSX.Element} The JSX element representing the profile banner page.
+ * @return {JSX.Element} The rendered Profile Banner page.
  */
 const ProfileBannerPage = () => {
   return (
@@ -64,7 +50,7 @@ const ProfileBannerPage = () => {
         guideUserData={vGuideUserData}
         userInfoData={vGuideUserData.vUserInfoData}
         profileType={vGuideUserData.profileType}
-        partOf={partOf}
+        partOf={vGuideUserData.partOf}
         isEmailVerified={vGuideUserData.isEmailVerified}
         isPhoneVerified={vGuideUserData.isPhoneVerified}
         isAgreementVerified={vGuideUserData.isAgreementVerified}
@@ -84,12 +70,12 @@ const ProfileBannerPage = () => {
         guideUserData={vGuideUserData}
         userInfoData={vGuideUserData.vUserInfoData}
         profileType={vGuideUserData.profileType}
-        partOf={partOf}
+        partOf={vGuideUserData.partOf}
         isEmailVerified={vGuideUserData.isEmailVerified}
         isPhoneVerified={vGuideUserData.isPhoneVerified}
         isAgreementVerified={vGuideUserData.isAgreementVerified}
         isIdVerified={vGuideUserData.isIdVerified}
-        dialogTitle={"Dialog Title Test"}
+        dialogTitle={vGuideUserData.userTitle}
       />
       <Heading
         title={"Blog Banners"}
@@ -98,16 +84,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={vBlogUserData.userName}
-        userTitle={vBlogUserData.userTitle}
-        points={vBlogUserData.points}
-        endorsements={vBlogUserData.endorsements}
-        isFeatured={vBlogUserData.isFeatured}
-        likes={vBlogUserData.likes}
-        shares={vBlogUserData.shares}
-        rank={vBlogUserData.rank}
-        dataType={vBlogUserData.dataType}
-        data={vBlogUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vBlogUserData.points}
+        endorsements={vGuideUserData.vBlogUserData.endorsements}
+        isFeatured={vGuideUserData.vBlogUserData.isFeatured}
+        likes={vGuideUserData.vBlogUserData.likes}
+        shares={vGuideUserData.vBlogUserData.shares}
+        rank={vGuideUserData.vBlogUserData.rank}
+        dataType={vGuideUserData.vBlogUserData.dataType}
+        data={vGuideUserData.vBlogUserData}
       />
       <Heading
         title={"V-Author Banners"}
@@ -116,16 +102,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={vAuthorUserData.userName}
-        userTitle={vAuthorUserData.userTitle}
-        points={vAuthorUserData.points}
-        endorsements={vAuthorUserData.endorsements}
-        isFeatured={vAuthorUserData.isFeatured}
-        likes={vAuthorUserData.likes}
-        shares={vAuthorUserData.shares}
-        rank={vAuthorUserData.rank}
-        dataType={vAuthorUserData.dataType}
-        data={vAuthorUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vAuthorUserData.points}
+        endorsements={vGuideUserData.vAuthorUserData.endorsements}
+        isFeatured={vGuideUserData.vAuthorUserData.isFeatured}
+        likes={vGuideUserData.vAuthorUserData.likes}
+        shares={vGuideUserData.vAuthorUserData.shares}
+        rank={vGuideUserData.vAuthorUserData.rank}
+        dataType={vGuideUserData.vAuthorUserData.dataType}
+        data={vGuideUserData.vAuthorUserData}
       />
       <Heading
         title={"V-Tube Banners"}
@@ -134,16 +120,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={vTubeUserData.userName}
-        userTitle={vTubeUserData.userTitle}
-        points={vTubeUserData.points}
-        endorsements={vTubeUserData.endorsements}
-        isFeatured={vTubeUserData.isFeatured}
-        likes={vTubeUserData.likes}
-        shares={vTubeUserData.shares}
-        rank={vTubeUserData.rank}
-        dataType={vTubeUserData.dataType}
-        data={vTubeUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vTubeUserData.points}
+        endorsements={vGuideUserData.vTubeUserData.endorsements}
+        isFeatured={vGuideUserData.vTubeUserData.isFeatured}
+        likes={vGuideUserData.vTubeUserData.likes}
+        shares={vGuideUserData.vTubeUserData.shares}
+        rank={vGuideUserData.vTubeUserData.rank}
+        dataType={vGuideUserData.vTubeUserData.dataType}
+        data={vGuideUserData.vTubeUserData}
       />
       <Heading
         title={"Job Candidate Banners"}
@@ -152,17 +138,17 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={vJobUserData.userName}
-        userTitle={vJobUserData.userTitle}
-        points={vJobUserData.points}
-        endorsements={vJobUserData.endorsements}
-        isFeatured={vJobUserData.isFeatured}
-        likes={vJobUserData.likes}
-        shares={vJobUserData.shares}
-        rank={vJobUserData.rank}
-        dataType={vJobUserData.dataType}
-        data={vJobUserData}
-        isOpenToWork={vJobUserData.isOpenToWork}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vJobUserData.points}
+        endorsements={vGuideUserData.vJobUserData.endorsements}
+        isFeatured={vGuideUserData.vJobUserData.isFeatured}
+        likes={vGuideUserData.vJobUserData.likes}
+        shares={vGuideUserData.vJobUserData.shares}
+        rank={vGuideUserData.vJobUserData.rank}
+        dataType={vGuideUserData.vJobUserData.dataType}
+        data={vGuideUserData.vJobUserData}
+        isOpenToWork={vGuideUserData.vJobUserData.isOpenToWork}
       />
       <Heading
         title={"Lancer Banners"}
@@ -171,16 +157,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={vLanceUserData.userName}
-        userTitle={vLanceUserData.userTitle}
-        points={vLanceUserData.points}
-        endorsements={vLanceUserData.endorsements}
-        isFeatured={vLanceUserData.isFeatured}
-        likes={vLanceUserData.likes}
-        shares={vLanceUserData.shares}
-        rank={vLanceUserData.rank}
-        dataType={vLanceUserData.dataType}
-        data={vLanceUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vLanceUserData.points}
+        endorsements={vGuideUserData.vLanceUserData.endorsements}
+        isFeatured={vGuideUserData.vLanceUserData.isFeatured}
+        likes={vGuideUserData.vLanceUserData.likes}
+        shares={vGuideUserData.vLanceUserData.shares}
+        rank={vGuideUserData.vLanceUserData.rank}
+        dataType={vGuideUserData.vLanceUserData.dataType}
+        data={vGuideUserData.vLanceUserData}
       />
       <Heading
         title={"Event Banners"}
@@ -189,16 +175,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Event Name>"}
-        userTitle={"Demo Profile Banner V-Events Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"vendorGold"}
-        dataType={"event"}
-        data={vEventsUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vEventsUserData.isFeatured}
+        likes={vGuideUserData.vEventsUserData.likes}
+        shares={vGuideUserData.vEventsUserData.shares}
+        rank={vGuideUserData.vEventsUserData.rank}
+        dataType={vGuideUserData.vEventsUserData.dataType}
+        data={vGuideUserData.vEventsUserData}
       />
       <Heading
         title={"Webinar Banners"}
@@ -207,16 +193,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Webinar Name>"}
-        userTitle={"Demo Profile Banner V-Webinar Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"vendorPlatinum"}
-        dataType={"webinar"}
-        data={vWebinarsUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vWebinarUserData.isFeatured}
+        likes={vGuideUserData.vWebinarUserData.likes}
+        shares={vGuideUserData.vWebinarUserData.shares}
+        rank={vGuideUserData.vWebinarUserData.rank}
+        dataType={vGuideUserData.vWebinarUserData.dataType}
+        data={vGuideUserData.vWebinarUserData}
       />
       <Heading
         title={"Experts Banners"}
@@ -225,16 +211,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Experts Name>"}
-        userTitle={"Demo Profile Banner V-Experts Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"vendorSilver"}
-        dataType={"webinar"}
-        data={vExpertsUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vExpertsUserData.isFeatured}
+        likes={vGuideUserData.vExpertsUserData.likes}
+        shares={vGuideUserData.vExpertsUserData.shares}
+        rank={vGuideUserData.vExpertsUserData.rank}
+        dataType={vGuideUserData.vExpertsUserData.dataType}
+        data={vGuideUserData.vExpertsUserData}
       />
       <Heading
         title={"Marketing Sponsors Banners"}
@@ -243,16 +229,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Market User Name>"}
-        userTitle={"Demo Profile Banner V-Market Sponsor Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"standardSilver"}
-        dataType={"marketingSponsor"}
-        data={vMarketingSponsorUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vMarketingSponsorUserData.isFeatured}
+        likes={vGuideUserData.vMarketingSponsorUserData.likes}
+        shares={vGuideUserData.vMarketingSponsorUserData.shares}
+        rank={vGuideUserData.vMarketingSponsorUserData.rank}
+        dataType={vGuideUserData.vMarketingSponsorUserData.dataType}
+        data={vGuideUserData.vMarketingSponsorUserData}
       />
       <Heading
         title={"Marketing Banners"}
@@ -261,16 +247,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Market User Name>"}
-        userTitle={"Demo Profile Banner V-Marketing Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"standardPlatinum"}
-        dataType={"marketing"}
-        data={vMarketingUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vMarketingUserData.isFeatured}
+        likes={vGuideUserData.vMarketingUserData.likes}
+        shares={vGuideUserData.vMarketingUserData.shares}
+        rank={vGuideUserData.vMarketingUserData.rank}
+        dataType={vGuideUserData.vMarketingUserData.dataType}
+        data={vGuideUserData.vMarketingUserData}
       />
       <Heading
         title={"Market Banners"}
@@ -279,16 +265,16 @@ const ProfileBannerPage = () => {
       />
       <BannerProfile
         isLoading={false}
-        userName={"<Market User Name>"}
-        userTitle={"Demo Profile Banner V-Market Banner"}
-        points={1000}
-        endorsements={10000}
-        isFeatured="featured"
-        likes={1000}
-        shares={100}
-        rank={"standardPlatinum"}
-        dataType={"market"}
-        data={vMarketUserData}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.points}
+        endorsements={vGuideUserData.endorsements}
+        isFeatured={vGuideUserData.vMarketUserData.isFeatured}
+        likes={vGuideUserData.vMarketUserData.likes}
+        shares={vGuideUserData.vMarketUserData.shares}
+        rank={vGuideUserData.vMarketUserData.rank}
+        dataType={vGuideUserData.vMarketUserData.dataType}
+        data={vGuideUserData.vMarketUserData}
       />
       <Heading
         title={"Dialog Profile Banners"}
@@ -296,19 +282,18 @@ const ProfileBannerPage = () => {
         icon={IconDetailsBtn}
       />
       <BannerProfileDialog
-        userName={"Dialog Test User"}
-        userTitle={"Dialog test, test with most banners."}
         isLoading={false}
-        points={10000}
-        endorsements={10000}
-        isFeatured="featured"
-        isOpenToWork={""}
-        likes={100000}
-        shares={100000}
-        rank={"standardGold"}
-        data={vTubeUserData}
-        dialogTitle={"V-Tube Test Banner Dialog"}
-        dataType={"tube"}
+        userName={vGuideUserData.userName}
+        userTitle={vGuideUserData.userTitle}
+        points={vGuideUserData.vTubeUserData.points}
+        endorsements={vGuideUserData.vTubeUserData.endorsements}
+        isFeatured={vGuideUserData.vTubeUserData.isFeatured}
+        likes={vGuideUserData.vTubeUserData.likes}
+        shares={vGuideUserData.vTubeUserData.shares}
+        rank={vGuideUserData.vTubeUserData.rank}
+        dataType={vGuideUserData.vTubeUserData.dataType}
+        data={vGuideUserData.vTubeUserData}
+        dialogTitle={vGuideUserData.userTitle}
       />
     </div>
   );

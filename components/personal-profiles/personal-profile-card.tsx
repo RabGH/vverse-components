@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { IconDateJoinedDoor } from "@/components/icons/logo-icons";
 
-import { partOf, vGuideUserData } from "@/backend-data-test";
 import GuideProfileBannerDialog from "@/components/profile-banners/v-guide/guide-profile-dialog";
 import FeaturedBadge from "@/components/v-ui/v-badges/featured-badge";
 import GenderBadge from "@/components/v-ui/v-badges/gender-badge";
@@ -12,14 +11,24 @@ import LocationBadge from "@/components/v-ui/v-badges/location-badge";
 import CountryBadge from "@/components/v-ui/v-badges/country-badge";
 import ProfileCardInteractionTop from "@/components/personal-profiles/personal-card-interaction-top";
 import { Separator } from "@/components/ui/separator";
+import PersonProfileDetails from "@/components/personal-profiles/personal-profile-details";
 
-/**
- * Renders a profile card component.
- *
- * @return {JSX.Element} The rendered profile card component.
- */
+type ProfileCardProps = {
+  data: any;
+  dataType: string;
+  userName: string;
+  userTitle: string;
+  date: string;
+};
 
-const ProfileCard = () => {
+const ProfileCard = ({
+  data,
+  dataType,
+  userName,
+  userTitle,
+  date,
+}: ProfileCardProps) => {
+  console.log(data);
   return (
     <Card
       className={`relative z-0 h-fit w-fit rounded-xl hover:shadow-2xl hover:translate-y-[-5px] 
@@ -27,7 +36,7 @@ const ProfileCard = () => {
     >
       <div className="w-full h-full relative">
         <Image
-          src={"/images/DoctorImage.png"}
+          src={data.urlImage}
           alt="vVerse"
           width={450}
           height={570}
@@ -62,37 +71,37 @@ const ProfileCard = () => {
         <div className="flex flex-row justify-between ">
           <div className="flex flex-row items-center gap-2">
             <IconDateJoinedDoor className="w-6 h-6 text-primary" />
-            <p>15-Sep-2022 02:45 PM</p>
+            <p>{date}</p>
           </div>
           <div>
             <GuideProfileBannerDialog
               isLoading={false}
-              userName={"<Guide Name>"}
-              userTitle={"Demo Profile Banner V-Guide Banner"}
-              rank={"standardSilver"}
-              currency={"$"}
-              points={1000}
-              endorsements={10000}
-              isFeatured={"featured"}
-              likes={10000}
-              shares={10000}
-              partOf={partOf}
-              guideUserData={vGuideUserData}
-              dialogTitle={"Profile Banner V-Guide Full"}
-              isAgreementVerified={false}
-              isEmailVerified={true}
-              isIdVerified={true}
-              isPhoneVerified={true}
+              userName={data.userName}
+              userTitle={data.userTitle}
+              rank={data.rank}
+              currency={data.currency}
+              points={data.points}
+              endorsements={data.endorsements}
+              isFeatured={data.isFeatured}
+              likes={data.likes}
+              shares={data.shares}
+              partOf={data.partOf}
+              guideUserData={data}
+              dialogTitle={userName}
+              isAgreementVerified={data.isAgreementVerified}
+              isEmailVerified={data.isEmailVerified}
+              isIdVerified={data.isIdVerified}
+              isPhoneVerified={data.isPhoneVerified}
               dialogTriggerClassName="w-7 h-7"
               profileType={"guide"}
             />
           </div>
         </div>
         <Separator className="bg-white my-2" />
-        <h2>User Name</h2>
-        <p>User Title</p>
+        <h2>{userName}</h2>
+        <p>{userTitle}</p>
         <Separator className="bg-white my-2" />
-        {/* <UserProfileData /> */}
+        <PersonProfileDetails dataGuide={data} dataType={dataType} />
       </CardContent>
     </Card>
   );

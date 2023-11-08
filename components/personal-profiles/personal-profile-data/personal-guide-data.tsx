@@ -9,7 +9,7 @@ import {
 import { formatCurrency, formatNumber } from "@/lib/utils";
 import React from "react";
 
-type PersonalGuideDataProps = {
+export type PersonalGuideDataProps = {
   assets: number;
   sales: number;
   endorsements: number;
@@ -43,12 +43,12 @@ const PersonalGuideData = ({
 }: PersonalGuideDataProps) => {
   const iconStyles = "w-5 h-5 text-primary";
   return (
-    <div className="flex flex-row gap-2 items-center flex-wrap">
+    <div className="flex flex-row gap-1 items-center flex-wrap text-sm">
       <IconAssetHandDiamond className={iconStyles} /> {formatNumber(assets)} |{" "}
       <IconSalesGraph className={iconStyles} /> {formatCurrency(sales)} |{" "}
       <IconInvestmentsHandsGraph className={iconStyles} />{" "}
-      {formatNumber(investments)} | {formatCurrency(sales)} |{" "}
-      <IconBullHorn className={iconStyles} /> {formatNumber(endorsements)} |{" "}
+      {formatNumber(investments)} | <IconBullHorn className={iconStyles} />{" "}
+      {formatNumber(endorsements)} |{" "}
       <IconConnectionsBtn className={iconStyles} /> {formatNumber(connections)}{" "}
       | <IconStar className={iconStyles} /> {rating?.toFixed(1)}(
       {formatNumber(ratingPoints)})

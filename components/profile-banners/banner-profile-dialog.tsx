@@ -42,6 +42,7 @@ type BannerProfileProps = {
   data: any;
   dialogTitle: string;
   dataType:
+    | string
     | "college"
     | "jobs"
     | "author"
