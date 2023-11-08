@@ -21,6 +21,16 @@ type ProfileCardProps = {
   date: string;
 };
 
+/**
+ * Renders a profile card component.
+ *
+ * @param {ProfileCardProps} data - the data for the profile card
+ * @param {string} dataType - the type of data
+ * @param {string} userName - the user's name
+ * @param {string} userTitle - the user's title
+ * @param {string} date - the date
+ * @return {JSX.Element} - the rendered profile card component
+ */
 const ProfileCard = ({
   data,
   dataType,
@@ -28,7 +38,6 @@ const ProfileCard = ({
   userTitle,
   date,
 }: ProfileCardProps) => {
-  console.log(data);
   return (
     <Card
       className={`relative z-0 h-fit w-fit rounded-xl hover:shadow-2xl hover:translate-y-[-5px] 
